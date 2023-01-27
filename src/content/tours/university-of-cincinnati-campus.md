@@ -1,3 +1,4 @@
+---
 title: University of Cincinnati Campus
 description: ''
 buildings:
@@ -19,3 +20,4 @@ buildings:
   - uc-edwards-center
   - uc-center-for-academic-research-and-excellence-care-crawley-building
   - uc-campus-masterplan
+---

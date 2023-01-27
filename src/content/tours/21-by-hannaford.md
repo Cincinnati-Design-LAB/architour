@@ -1,5 +1,6 @@
+---
 title: 21 By Hannaford
-description: ''
+description: ""
 buildings:
   - cincinnati-music-hall
   - hamilton-county-memorial-hall-the-soldiers-and-sailors-memorial-building
@@ -22,3 +23,4 @@ buildings:
   - hooper-building
   - h-w-derby-building
   - lombardy-apts
+---

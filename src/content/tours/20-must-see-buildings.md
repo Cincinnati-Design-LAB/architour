@@ -1,3 +1,4 @@
+---
 title: 20 Must See Buildings
 description: This is a description of this tour ...
 buildings:
@@ -21,3 +22,4 @@ buildings:
   - findlay-market
   - union-terminal
   - dixie-terminal
+---

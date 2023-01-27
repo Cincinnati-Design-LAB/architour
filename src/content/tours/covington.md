@@ -1,5 +1,6 @@
+---
 title: Covington
-description: ''
+description: ""
 buildings:
   - cathedral-basilica-of-the-assumption
   - carnegie-arts-center
@@ -23,3 +24,4 @@ buildings:
   - kenton-county-public-library
   - ohio-riverside-historic-district
   - mainstrasse-village
+---

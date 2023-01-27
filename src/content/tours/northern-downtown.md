@@ -1,5 +1,6 @@
+---
 title: Northern Downtown
-description: ''
+description: ""
 buildings:
   - center-at-600-vine
   - cincinnatian-hotel-palace-hotel
@@ -44,3 +45,4 @@ buildings:
   - dennison-hotel-g-b-schulte-sons-company
   - abraham-j-friedlander-house
   - eighth-and-sycamore-building
+---
