@@ -4,21 +4,11 @@ images:
   - https://ucarecdn.com/5c656a6e-4ac9-4af0-89bd-390a36a45513/
   - https://ucarecdn.com/53f4f566-f93f-469f-8f07-725cf41b7474/
 location: '{"type":"Point","coordinates":[-84.51536599999997,39.105042]}'
-body: |
-  ### Name
-  Phoenix Club
-  ### Address
-  812 Race St., Cincinnati, OH  45202
-  ### Date of Completion
-  1894
-  ### Architect
-  Samuel Hannaford & Sons
-  ### Original Function
-  Athletic club
-  ### Historic Status
-  Listed on NRHP on March 3, 1980.
-  ### Renovation Date
-  1986
-  ### Renovation Changes
-  Restaurant & banquet facility
+address: 812 Race St., Cincinnati, OH  45202
+date_of_completion: "1894"
+architect: Samuel Hannaford & Sons
+original_function: Athletic club
+historic_status: Listed on NRHP on March 3, 1980.
+renovation_date: "1986"
+renovation_changes: Restaurant & banquet facility
 ---

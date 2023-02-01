@@ -8,43 +8,16 @@ images:
   - https://ucarecdn.com/b1bd1a8d-bf41-4c22-88d0-fe0c084762c0/
   - https://ucarecdn.com/17879f9b-eacc-4aca-ab95-1b3b39efc743/
 location: '{"type":"Point","coordinates":[-84.51125900000000,39.08833800000000]}'
-body: >
-  ### Name
-
-  Kenton County Justice Center
-
-  ### Address
-
+address: |-
   230 Madison Ave.
-
   Covington, KY
-
-  ### Original Owner
-
-  Kenton County  
-
-  ### Date of Completion
-
-  2001
-
-  ### Interior Accessibility
-
-  handicap accessible
-
-  ### Architect
-
-  KZF Design
-
-  ### Contractor
-
-  Corporex
-
-  ### Original Function
-
-  County courthouse
-
-  ### Significance
-
+original_owner: Kenton County
+date_of_completion: "2001"
+interior_accessibility: handicap accessible
+architect: KZF Design
+contractor: Corporex
+original_function: County courthouse
+significance: >-
   The design/build approach to this government building was unique at the time
   and simplified the process of building the new courthouse for Kenton County.
 ---

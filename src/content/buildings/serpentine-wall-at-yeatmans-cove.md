@@ -8,34 +8,17 @@ images:
   - https://ucarecdn.com/50b84978-b714-4a19-aa98-e969d038f736/
   - https://ucarecdn.com/ba686133-d5d9-4f16-bcd5-6c6d2b3a01cf/
 location: '{"type":"Point","coordinates":[-84.500245,39.099234]}'
-body: >
-  ### Name
-
-  Serpentine Wall at Yeatman's Cove
-
-  ### Date of Completion
-
-  1977
-
-  ### Architect
-
-  Zion & Breen
-
-  ### Original Function
-
-  Flood wall designed to facilitate public gatherings.
-
-  ### Significance
-
+date_of_completion: "1977"
+architect: Zion & Breen
+original_function: Flood wall designed to facilitate public gatherings.
+significance: >-
   The wall was part of the city's initial efforts to reclaim the riverfont for
   public use.  Much of the riverfront was previously occupied by businesses that
   relied upon river tansportation to move their resources and goods.  The
   serpentine wall was the first development to allow the public to come to the
   river's edge. The undulating form was purportedly a reference to the famous
   indian burial mound in nearby Adams County, Serpent Mound.
-
-  ### Unique Features
-
+unique_features: >-
   The massive scale of the wall mitigates between the river and the park behind
   it.  The undulating form supports public gatherings along the river, and it
   opens into a larger amphitheatre at the east end of the wall.  The largest of

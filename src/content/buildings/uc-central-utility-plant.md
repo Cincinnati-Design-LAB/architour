@@ -8,55 +8,24 @@ images:
   - https://ucarecdn.com/91632968-7695-494d-90d3-1db7f1237ae0/
   - https://ucarecdn.com/df376b8d-5cb9-4e55-83ee-5a13bb1f3c37/
 location: '{"type":"Point","coordinates":[-84.509181,39.134372]}'
-body: >
-  ### Name
-
-  UC Central Utility Plant
-
-  ### Original Owner
-
-  University of Cincinnati
-
-  ### Date of Completion
-
-  1992
-
-  ### Style
-
-  Modern
-
-  ### Architect
-
-  Cambridge Seven Associates
-
-  ### Original Function
-
-  Campus power center generating electricity, steam and chilled water
-
-  ### Significance
-
+original_owner: University of Cincinnati
+date_of_completion: "1992"
+style: Modern
+architect: Cambridge Seven Associates
+original_function: Campus power center generating electricity, steam and chilled water
+significance: >-
   The new facility was constructed to replace the facility previously located at
   the end of Nippert Stadium facilitating the development of the new student
   athletic center.  The facility is centrally located between the main campus
-  and the medical campus to support both.  
-
-  ### Unique Features
-
+  and the medical campus to support both.
+unique_features: >-
   The main boiler and chiller plant is glazed allowing views into the building
   from the surrounding streets.  These massive systems were celebrated as part
   of the architecture rather than being concealed by a translucent or opaque
   façade.
-
-  ### Renovations
-
+renovations: >-
   A 72,00 s.f. vertical and horizontal expansion of the facility dramatically
   increased the capacity of the facility.
-
-  ### Renovation Date
-
-  2004
-
-  ### Renovation Architect
-
-  Cambridge Seven Associates
+renovation_date: "2004"
+renovation_architect: Cambridge Seven Associates
 ---

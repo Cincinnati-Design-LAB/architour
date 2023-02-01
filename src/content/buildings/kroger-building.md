@@ -6,42 +6,15 @@ images:
   - https://ucarecdn.com/0afd5c4f-d41b-4738-9bb9-f28e7981b515/
   - https://ucarecdn.com/d280d823-be4b-4448-b870-b498a3ca85c0/
 location: '{"type":"Point","coordinates":[-84.513878,39.1067291]}'
-body: >
-  ### Name
-
-  Kroger Building
-
-  ### Address
-
-  1014 Vine St., Cincinnati, OH  45202 
-
-  ### Date of Completion
-
-  1954
-
-  ### Architect
-
-  Wyatt C. Hedrick
-
-  ### Original Function
-
-  Office building
-
-  ### Significance
-
+address: 1014 Vine St., Cincinnati, OH  45202
+date_of_completion: "1954"
+architect: Wyatt C. Hedrick
+original_function: Office building
+significance: >-
   The building was the first curtainwall clad high rise in the downtown area. 
   Originally clad in blue and white panels to blend into the sky, it was reclad
   in a more conventional aluminum panel when it was renovated in 1980.
-
-  ### Renovation Date
-
-  1980
-
-  ### Renovation Architect
-
-  GBBN
-
-  ### Renovation Style
-
-  International
+renovation_date: "1980"
+renovation_architect: GBBN
+renovation_style: International
 ---

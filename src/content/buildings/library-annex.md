@@ -6,37 +6,13 @@ images:
   - https://ucarecdn.com/3b4ca9ec-73b9-49a7-8b53-a6e84d7fa59e/
   - https://ucarecdn.com/7491282c-c56c-4955-9a1a-2afaf9449593/
 location: '{"type":"Point","coordinates":[-84.51295,39.10581]}'
-body: >
-  ### Name
-
-  Public Library Annex
-
-  ### Address
-
-  Eighth & Walnut, Cincinnati, Ohio, 45202
-
-  ### Date of Completion
-
-  1997
-
-  ### Interior Accessibility
-
-  Publicly accessible
-
-  ### Architect
-
-  Shepley Bullfinch Richardson & Abbott
-
-  ### Associate Architect
-
-  GBBN
-
-  ### Original Function
-
-  Public library
-
-  ### Unique Features
-
+address: Eighth & Walnut, Cincinnati, Ohio, 45202
+date_of_completion: "1997"
+interior_accessibility: Publicly accessible
+architect: Shepley Bullfinch Richardson & Abbott
+associate_architect: GBBN
+original_function: Public library
+unique_features: >-
   The bridge connecting the new addition on the north of Ninth Street to the
   original building is a three-level reading room that further opens up the
   library space to the street.

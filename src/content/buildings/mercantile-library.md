@@ -6,29 +6,11 @@ images:
   - https://ucarecdn.com/43dfc92c-808a-4db4-a6fd-0303245525f2/
   - https://ucarecdn.com/40705c1a-17de-460f-9f26-fde014dfed92/
 location: '{"type":"Point","coordinates":[-84.5108585,39.1006122]}'
-body: >
-  ### Name
-
-  Mercantile Library
-
-  ### Address
-
-  414 Walnut, Cincinnati, Ohio
-
-  ### Date of Completion
-
-  1905
-
-  ### Style
-
-  Italian Renaissance
-
-  ### Architect
-
-  Joseph & Edward Steinkamp
-
-  ### Significance
-
+address: 414 Walnut, Cincinnati, Ohio
+date_of_completion: "1905"
+style: Italian Renaissance
+architect: Joseph & Edward Steinkamp
+significance: >-
   The building is the home of the Mercantile Library, a private library
   established in 1845 for the use of its members who were pursuing mercantile
   careers. The library was located in the Cincinnati College building.  The

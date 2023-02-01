@@ -8,16 +8,10 @@ images:
   - https://ucarecdn.com/6a1ab425-daff-45e0-8e9c-d212cf383d2e/
   - https://ucarecdn.com/2ea9ad79-e670-4740-a3a6-108fb85af6ee/
 location: '{"type":"Point","coordinates":[-84.512049,39.065871]}'
-body: |
-  ### Name
-  St. Augustine Church
-  ### Address
+address: |-
   W. 19th St at Howell
   Covington, KY
-  ### Style
-  Renaissance
-  ### Architect
-  David Davis
-  ### Historic Status
-  Added to NRHP on November 25, 2005
+style: Renaissance
+architect: David Davis
+historic_status: Added to NRHP on November 25, 2005
 ---

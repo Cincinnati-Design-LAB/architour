@@ -6,50 +6,16 @@ images:
   - https://ucarecdn.com/842dd6b3-210a-4b99-bba9-a287ffd49e89/
   - https://ucarecdn.com/b1c62c44-22c3-4081-8344-66226677e9b8/
 location: '{"type":"Point","coordinates":[-84.513549,39.102952]}'
-body: >
-  ### Name
-
-  Cincinnati Enquirer Building
-
-  ### Address
-
-  617 Vine St., Cincinnati, OH  45202
-
-
-  ### Original Owner
-
-  The Cincinnati Enquirer
-
-  ### Current Owner
-
-  Hilton Hotels
-
-  ### Date of Completion
-
-  1926
-
-  ### Style
-
-  Mixed (multiple styles - Art Deco, late-Gothic, and Greek influences)
-
-  ### Architect
-
-  Lockwood Greene & Company
-
-  ### Original Function
-
-  Offices and printing facility
-
-  ### Historic Status
-
-  Listed on the NRHP on November 13, 1985
-
-  ### Renovation Date
-
-  2016
-
-  ### Renovation Changes
-
+address: 617 Vine St., Cincinnati, OH  45202
+original_owner: The Cincinnati Enquirer
+current_owner: Hilton Hotels
+date_of_completion: "1926"
+style: Mixed (multiple styles - Art Deco, late-Gothic, and Greek influences)
+architect: Lockwood Greene & Company
+original_function: Offices and printing facility
+historic_status: Listed on the NRHP on November 13, 1985
+renovation_date: "2016"
+renovation_changes: >-
   Dual hotel housing a Homewood Suites on the lower floors and a Hampton Inn on
   the upper levels.
 ---

@@ -6,33 +6,12 @@ images:
   - https://ucarecdn.com/8cb20ea7-2d54-493d-8c25-16e030a39ae2/
   - https://ucarecdn.com/c400bf8b-f712-4d1c-b448-4f4b773c84a3/
 location: '{"type":"Point","coordinates":[-84.5168,39.10825]}'
-body: >
-  ### Name
-
-  Washington Park SE
-
-  ### Address
-
-  Twelvth & Race, Cincinnati, Ohio
-
-  ### Original Owner
-
-  Cincinnati Parks Board
-
-  ### Original Function
-
-  Community park and bandstand
-
-  ### Renovations
-
+address: Twelvth & Race, Cincinnati, Ohio
+original_owner: Cincinnati Parks Board
+original_function: Community park and bandstand
+renovations: >-
   The park was expanded, and a civic lawn, plaza, water feature, and performance
   stage were added atop an underground parking garage.
-
-  ### Renovation Date
-
-  2012
-
-  ### Renovation Architect
-
-  BHDP Architecture & Human Nature
+renovation_date: "2012"
+renovation_architect: BHDP Architecture & Human Nature
 ---

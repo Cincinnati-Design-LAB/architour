@@ -8,27 +8,13 @@ images:
   - https://ucarecdn.com/1ec43ca7-453b-4c2b-a91b-263715d0f1ac/
   - https://ucarecdn.com/b38c257b-86eb-4ef1-b11a-3aa934cb8d3a/
 location: '{"type":"Point","coordinates":[-84.498246,39.102343]}'
-body: >
-  ### Name
-
-  Daniel Carter Beard Bridge (Big Mac Bridge)
-
-  ### Date of Completion
-
-  1976
-
-  ### Architect
-
-  Hazelet + Erdal (now URS Corporation)
-
-  ### Significance
-
+date_of_completion: "1976"
+architect: Hazelet + Erdal (now URS Corporation)
+significance: >-
   Known locally as the Big Mac Bridge, the yellow painted steel arches are
   reminiscent of the golden arches of McDonald's brand. The bridge is named
   after one of the founders of the Boy Scouts who was born in Kentucky.
-
-  ### Unique Features
-
+unique_features: >-
   The tied-arch main span of the bridge spans 750 and is composed of two bridges
   that separately handle north and southbound traffic.  The bridge connects I-71
   on the Ohio side to I-471 on the Kentucky shore.

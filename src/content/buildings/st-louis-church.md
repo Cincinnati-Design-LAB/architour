@@ -6,17 +6,9 @@ images:
   - https://ucarecdn.com/9f3564b1-2c18-4c6b-9a2b-b8c0a866b914/
   - https://ucarecdn.com/e9ca4bcf-33e6-42c5-af00-abc54d3fd68c/
 location: '{"type":"Point","coordinates":[-84.5124018,39.1044162]}'
-body: |
-  ### Name
-  St. Louis Church
-  ### Address
-  29 E. Eighth St., Cincinnati, Ohio
-  ### Date of Completion
-  1928
-  ### Style
-  Italian Romanesque
-  ### Architect
-  McGinnis & Walsh
-  ### Renovation Changes
-  The church became the Archbishop's residence under Joseph Bernadin's tenure.
+address: 29 E. Eighth St., Cincinnati, Ohio
+date_of_completion: "1928"
+style: Italian Romanesque
+architect: McGinnis & Walsh
+renovation_changes: The church became the Archbishop's residence under Joseph Bernadin's tenure.
 ---

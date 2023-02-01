@@ -8,52 +8,20 @@ images:
   - https://ucarecdn.com/f1a3fa70-b508-4ca3-aa3d-41b3d43707e9/
   - https://ucarecdn.com/a7de2ceb-b690-4e2e-b0a3-2c672cc492c9/
 location: '{"type":"Point","coordinates":[-84.513078,39.1123]}'
-body: >
-  ### Name
-
-  Uptown Arts
-
-  ### Address
-
+address: |-
   123 E. Liberty St.
-
   Cincinnati, OH
-
-  ### Original Owner
-
-  Geise Cigar Box Company
-
-  ### Current Owner
-
-  Rosenthal Foundation
-
-  ### Date of Completion
-
-  1912
-
-  ### Style
-
-  Commercial
-
-  ### Interior Accessibility
-
-  Handicap accessible.  All floors will be open to visitors except the basement.
-
-  ### Contractor
-
-  Messer Construction (2000)
-
-  ### Original Function
-
-  Cigar manufacturing facility.
-
-  ### Significance
-
+original_owner: Geise Cigar Box Company
+current_owner: Rosenthal Foundation
+date_of_completion: "1912"
+style: Commercial
+interior_accessibility: Handicap accessible.  All floors will be open to visitors except the basement.
+contractor: Messer Construction (2000)
+original_function: Cigar manufacturing facility.
+significance: >-
   Uptown Arts was a pioneer in the renaissance of Over-the-Rhine along with the
   Art Academy and Lightbourne Communications.
-
-  ### Unique Features
-
+unique_features: >-
   The current entry is on the back side of the original building, and other
   structures that faced Liberty were demolished over time which explains the
   lack of windows in this facade.  Since the building was used originally by
@@ -63,21 +31,10 @@ body: >
   relate to the history of the building.  Anything that was replaced in the
   original building was replicated.  Old elevator doors were maintained to
   create the feel of the manufacturing environment.
-
-  ### Renovation Date
-
-  2000
-
-  ### Renovation Architect
-
-  KZF Design
-
-  ### Renovation Style
-
-  Commercial industrial
-
-  ### Renovation Changes
-
+renovation_date: "2000"
+renovation_architect: KZF Design
+renovation_style: Commercial industrial
+renovation_changes: >-
   Uptown Arts' mission is "To find and develop the natural artistic talent in
   every child in ways that realize their full potential, are fun and enriching,
   build self confidence, encourage free expression, expand the lives of children
@@ -92,13 +49,8 @@ body: >
   place.  It is fastidiously maintained to reinforce that sense.  Participants
   in the programs are called "artists", "dancers", "musicians", etc. to make
   these students see themselves as creative people.
-
-  ### Resources
-
-  http://uptownarts.org/
-
-  ### Green Building Features
-
+resources: http://uptownarts.org/
+green_building_features: >-
   The existing building was repurposed with extensive reuse of materials where
   possible.
 ---

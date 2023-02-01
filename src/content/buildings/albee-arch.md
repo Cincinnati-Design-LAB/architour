@@ -6,57 +6,23 @@ images:
   - https://ucarecdn.com/2bde51ca-3724-4c36-8bdd-6f7e31492b22/
   - https://ucarecdn.com/9b5d6a3d-ae88-49ec-b7bc-f5d36b811d7c/
 location: '{"type":"Point","coordinates":[-84.5178379,39.10073]}'
-body: >
-  ### Name
-
-  Albee Arch
-
-  ### Address
-
-  Fifth & Plum Streets, Cincinnati, OH  45202
-
-  ### Original Owner
-
-  Albee Theater
-
-  ### Date of Completion
-
-  1925
-
-  ### Architect
-
-  Thomas W. Lamb
-
-  ### Contractor
-
+address: Fifth & Plum Streets, Cincinnati, OH  45202
+original_owner: Albee Theater
+date_of_completion: "1925"
+architect: Thomas W. Lamb
+contractor: >-
   Turner Construction for the reconstruction of the arch on the Convention
   Center.
-
-  ### Original Function
-
-  Theatre entry
-
-  ### Significance
-
+original_function: Theatre entry
+significance: >-
   The arch was part of the façade of the Albee Theater that faced Fountain
   Square but was demolished in 1974 to make way for redevelopment.  The façade
   was salvaged by the City, and the stone and terra cotta pieces were placed in
-  a storage yard along the riverfront for future reuse.  
-
-  ### Unique Features
-
+  a storage yard along the riverfront for future reuse.
+unique_features: >-
   The repurposed arch serves as the symbolic entry to the City's historic
   district.
-
-  ### Renovations
-
-  Convention Center Plum Street entry
-
-  ### Renovation Date
-
-  1987
-
-  ### Renovation Architect
-
-  CRS / BHDP
+renovations: Convention Center Plum Street entry
+renovation_date: "1987"
+renovation_architect: CRS / BHDP
 ---

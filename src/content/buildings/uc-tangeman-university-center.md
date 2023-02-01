@@ -8,63 +8,26 @@ images:
   - https://ucarecdn.com/429a013d-60ce-4918-8e79-f4d262397bc5/
   - https://ucarecdn.com/98169bac-3a8d-495c-9ae7-f41742ee3a03/
 location: '{"type":"Point","coordinates":[-84.51777200000000,39.13176300000000]}'
-body: >
-  ### Name
-
-  UC Tangeman University Center
-
-  ### Original Owner
-
-  University of Cincinnati
-
-  ### Date of Completion
-
-  1935
-
-  ### Style
-
-  Neo-Federal
-
-  ### Interior Accessibility
-
-  Open to the public
-
-  ### Architect
-
-  Harry Hake
-
-  ### Original Function
-
-  Student union
-
-  ### Significance
-
+original_owner: University of Cincinnati
+date_of_completion: "1935"
+style: Neo-Federal
+interior_accessibility: Open to the public
+architect: Harry Hake
+original_function: Student union
+significance: >-
   The building has long been the center of student life on the campus.  The
   bridge at the west entry of the building was the popular gathering spot for
   students throughout the year.
-
-  ### Renovations
-
+renovations: >-
   The latest renovation and addition wrapped the existing building with a
   circular modern zinc façade and expansive glazing making the building more
   outwardly focused.  The interior was completely renovated adding a 90-foot
   tall atrium and creating student support spaces that offer modern conveniences
   similar to a shopping mall.
-
-  ### Renovation Date
-
-  2004
-
-  ### Renovation Architect
-
-  Gwathmey Siegel Kaufman, GBBN
-
-  ### Renovation Style
-
-  Modern
-
-  ### Renovation Changes
-
+renovation_date: "2004"
+renovation_architect: Gwathmey Siegel Kaufman, GBBN
+renovation_style: Modern
+renovation_changes: >-
   An 800-seat auditorium was constructed south of the original building
   providing new assemblly and presentation space.
 ---

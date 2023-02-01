@@ -8,36 +8,16 @@ images:
   - https://ucarecdn.com/db3d7eff-2378-4600-8b03-885c60bd8f04/
   - https://ucarecdn.com/28da1ab7-330d-4216-be26-b1968718a92b/
 location: '{"type":"Point","coordinates":[-84.51691800000000,39.11046200000000]}'
-body: >
-  ### Name
-
-  M+A Architects
-
-  ### Address
-
+address: |-
   1404 Race Street
-
-  Cincinnati, OH 
-
-  ### Current Owner
-
-  3CDC
-
-  ### Interior Accessibility
-
-  Handicap accessible
-
-  ### Contractor
-
-  HGC Construction
-
-  ### Significance
-
+  Cincinnati, OH
+current_owner: 3CDC
+interior_accessibility: Handicap accessible
+contractor: HGC Construction
+significance: >-
   The building is located on the site of Saengerhalle, the original home of the
   Cincinnati May Festival.
-
-  ### Unique Features
-
+unique_features: >-
   The complex of builldings had been tied toegther with infill construction to
   create more desireable floorplates for today's market demands.  Located on the
   northeast corner of Washington Park, M+A has realized increased collaboration
@@ -45,27 +25,14 @@ body: >
   neighborhood on the streetcar route with access to other design firms in the
   area.  The firm also enjoys access to Washington Park and the nearly nightly
   events that occur there during the summer.
-
-  ### Renovation Date
-
-  2016
-
-  ### Renovation Architect
-
-  M+A Architects
-
-  ### Renovation Style
-
-  Modern workplace
-
-  ### Renovation Changes
-
+renovation_date: "2016"
+renovation_architect: M+A Architects
+renovation_style: Modern workplace
+renovation_changes: >-
   The Cincinnati office of a Columbus-based firm offers architectural, interior
   design, graphic design, and masterplanning services based on their "smart
   design" concept.
-
-  ### Green Building Features
-
+green_building_features: >-
   The existing building has been repurposed, and much of the original shell has
   been preserved.  Operable windows provide excellent daylighting and natural
   ventilation to the space, and energy consumption has been reduced through the

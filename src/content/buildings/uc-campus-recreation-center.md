@@ -8,39 +8,17 @@ images:
   - https://ucarecdn.com/21f2bd9a-c1e7-46e4-9c03-6bf18c54ae38/
   - https://ucarecdn.com/63c5a38b-20fd-41e9-94ae-de2ce58078d1/
 location: '{"type":"Point","coordinates":[-84.51507800000000,39.13249500000000]}'
-body: >
-  ### Name
-
-  UC Campus Recreation Center
-
-  ### Original Owner
-
-  University of Cincinnati
-
-  ### Date of Completion
-
-  2006
-
-  ### Interior Accessibility
-
+original_owner: University of Cincinnati
+date_of_completion: "2006"
+interior_accessibility: >-
   The lobby and exterior courtyards are open to the public and provide views
   into the facility, but access to the exercise areas is restricted.
-
-  ### Architect
-
-  Morphosis
-
-  ### Associate Architect
-
-  KZF Design
-
-  ### Original Function
-
+architect: Morphosis
+associate_architect: KZF Design
+original_function: >-
   Multi-use facility housing athletic facilities, student housing, and
   classrooms.
-
-  ### Significance
-
+significance: >-
   This highly complex building weaves disparate parts of the campus together. 
   The dormitory wing creates a foil in front of the old fieldhouse creating a
   new image at this important entry point to the campus.  The student recreation
@@ -48,10 +26,8 @@ body: >
   campus green allowing pedestrians to interact with the building.  And the
   classroom wing engages the stadium and creates one side of a pedestrian canyon
   that connects to the student union and the heart of the campus.  The building
-  was rated as the best student athletic facility in the US. 
-
-  ### Unique Features
-
+  was rated as the best student athletic facility in the US.
+unique_features: >-
   The athletic facilities are designed with a transparency between activities so
   that users can always see people engaged in other types of exercise.  The
   building is also infused with daylight using clerestory lites and holes

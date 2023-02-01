@@ -6,45 +6,18 @@ images:
   - https://ucarecdn.com/980f9b91-d87e-4003-b1f8-0383e1351e6a/
   - https://ucarecdn.com/9312fd26-efac-4943-9cc1-7a1bfa873617/
 location: '{"type":"Point","coordinates":[-84.5056,39.103]}'
-body: >
-  ### Name
-
-  P&G Tower Building
-
-  ### Address
-
-  2 Procter & Gamble Plaza, Cincinnati, OH  45202
-
-
-  ### Original Owner
-
-  Procter & Gamble
-
-  ### Date of Completion
-
-  1985
-
-  ### Style
-
-  Post-Modern
-
-  ### Architect
-
-  Kohn, Pederson & Fox
-
-  ### Original Function
-
-  Office building - headquarters expansion
-
-  ### Significance
-
+address: 2 Procter & Gamble Plaza, Cincinnati, OH  45202
+original_owner: Procter & Gamble
+date_of_completion: "1985"
+style: Post-Modern
+architect: Kohn, Pederson & Fox
+original_function: Office building - headquarters expansion
+significance: >-
   While P&G originally desired to build the tallest building in Cincinnati, they
   were challenged by the City to build the best building instead. The innovative
   design created an anchor for the east end of the CBD as well as a symbolic
   gateway to the City from the east.
-
-  ### Unique Features
-
+unique_features: >-
   The building has a second level concourse that is connected to the original
   building by an elevated walkway.  The concourse is a pedestrian street lined
   with services for P&G employees and terminates in a major dining space at the

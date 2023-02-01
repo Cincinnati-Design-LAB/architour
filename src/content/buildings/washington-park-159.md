@@ -6,33 +6,12 @@ images:
   - https://ucarecdn.com/fd0ef1f5-e725-49b4-895b-5d87aafb38f1/
   - https://ucarecdn.com/d8d25603-4e58-40c2-bfb4-f75cd364be4c/
 location: '{"type":"Point","coordinates":[-84.51705,39.11016]}'
-body: >
-  ### Name
-
-  Washington Park NE
-
-  ### Address
-
-  Fourteenth & Race, Cincinnati, Ohio
-
-  ### Original Owner
-
-  Cincinnati Parks Board
-
-  ### Original Function
-
-  Community park and bandstand
-
-  ### Renovations
-
+address: Fourteenth & Race, Cincinnati, Ohio
+original_owner: Cincinnati Parks Board
+original_function: Community park and bandstand
+renovations: >-
   The park was expanded, and a civic lawn, plaza, water feature, and performance
   stage were added atop an underground parking garage.
-
-  ### Renovation Date
-
-  2012
-
-  ### Renovation Architect
-
-  BHDP Architecture & Human Nature
+renovation_date: "2012"
+renovation_architect: BHDP Architecture & Human Nature
 ---

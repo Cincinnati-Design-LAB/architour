@@ -8,59 +8,26 @@ images:
   - https://ucarecdn.com/137d9b30-f266-43a3-bac6-5b87e4e2e8ab/
   - https://ucarecdn.com/fc96521e-6a5a-4abd-83b6-9e21c1a93829/
 location: '{"type":"Point","coordinates":[-84.518113,39.107753]}'
-body: >
-  ### Name
-
-  Cincinnati Shakespeare Company at the Otto M. Budig Theater
-
-  ### Address
-
+address: |-
   1195 Elm St.
-
   Cincinnati, OH
-
-  ### Original Owner
-
-  Cincinnati Shakespeare Company
-
-  ### Date of Completion
-
-  2017
-
-  ### Style
-
-  Contemporary
-
-  ### Interior Accessibility
-
+original_owner: Cincinnati Shakespeare Company
+date_of_completion: "2017"
+style: Contemporary
+interior_accessibility: >-
   Handicap accessible - access during Doors Open OTR will be limited to noon to
   1:30 due to a matinee performance of Dracula.
-
-  ### Architect
-
-  GBBN Architects
-
-  ### Associate Architect
-
-  Schuler Shook (theatre consultant) & Kierkegaard Associates (acoustics)
-
-  ### Contractor
-
-  Messer Construction
-
-  ### Original Function
-
+architect: GBBN Architects
+associate_architect: Schuler Shook (theatre consultant) & Kierkegaard Associates (acoustics)
+contractor: Messer Construction
+original_function: >-
   Theater and event center (starting in 2018) for weddings, lectures, community
   partner events, donor events, and private dinners.
-
-  ### Significance
-
+significance: >-
   The building anchors and activates through its transparency the southwest
   corner of Washington Park and is a complement to the School for Creative and
   Performing Arts, Memorial Hall and Music Hall.
-
-  ### Unique Features
-
+unique_features: >-
   The main theater has been designed for flexibility and can be configured
   several ways ranging from a thrust formation mirroring the Globe Theatre to
   theatre-in-the-round.  Designed for an intimate experience, the theater has a
@@ -73,9 +40,7 @@ body: >
   the Globe in the main theater and referencing Shakespeare's 38 plays by using
   38 steps to access the balcony from the main floor with the names of his plays
   etched in the stair risers.
-
-  ### Quotes
-
+quotes: >-
   "We are excited about the Cincinnati Shakespeare Company building its new home
   in OTR because their resident actors and actresses will thrive as members of
   the neighborhood's blossoming creative class.  Further, the building will
@@ -84,8 +49,5 @@ body: >
   Company, no other neighborhood in America will be able to provide comparable
   live, work, and play opportunities for the creative class."  Rob McDonald, The
   Brandery
-
-  ### Resources
-
-  http://cincyshakes.com/
+resources: http://cincyshakes.com/
 ---

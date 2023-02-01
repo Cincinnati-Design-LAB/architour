@@ -8,47 +8,21 @@ images:
   - https://ucarecdn.com/e309ee7e-0a03-4391-9de2-41ebfecef3ee/
   - https://ucarecdn.com/aa4749ae-842c-493c-9b8a-a87c615e4cde/
 location: '{"type":"Point","coordinates":[-84.510666,39.086046]}'
-body: >
-  ### Name
-
-  Odd Fellows Hall
-
-  ### Address
-
+address: |-
   434 Madison Ave.
-
   Covington, KY
-
-  ### Date of Completion
-
-  1857
-
-  ### Style
-
-  Greek Revival
-
-  ### Architect
-
-  Gedge & Brothers
-
-  ### Original Function
-
-  Lodge hall
-
-  ### Significance
-
+date_of_completion: "1857"
+style: Greek Revival
+architect: Gedge & Brothers
+original_function: Lodge hall
+significance: >-
   The building played an important role during the Civil War serving as the home
   for Kentucky's Union Party and housing Confederate prisoners.  It has also
   been home to the Covington Theater, the Tusculan Literary Society, Chautauqua
   lectures, Vaudeville performances, religious congregations, boxing matches, a
   nightclub, and a roller skating rink.
-
-  ### Historic Status
-
-  Added to the NRHP on August 11, 1980
-
-  ### Unique Features
-
+historic_status: Added to the NRHP on August 11, 1980
+unique_features: >-
   The upper floors have no interior columns, and iron rods supporated by 2-foot
   thick exterior walls support the floors.  This unusual structural technique
   has been attributed to John Roebling who had a connection with Amos Shinkle,

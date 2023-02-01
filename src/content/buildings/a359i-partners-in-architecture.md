@@ -8,67 +8,22 @@ images:
   - https://ucarecdn.com/c61fdcc3-ef20-4310-b264-58b4782c37a5/
   - https://ucarecdn.com/1b0b196c-4b51-4ef1-a01e-cd36b900f45c/
 location: '{"type":"Point","coordinates":[-84.51415600000000,39.10844900000000]}'
-body: >
-  ### Name
-
-  A359 Partners in Architecture
-
-  ### Address
-
+address: |-
   16 E. 12th St.
-
   Cincinnati, OH  45202
-
-  ### Original Owner
-
-  A&J Doescher Candy Company
-
-  ### Current Owner
-
-  Kaup Pender Associates LLC
-
-  ### Date of Completion
-
-  1875
-
-  ### Interior Accessibility
-
-  Handicap accessible
-
-  ### Original Function
-
-  Retail
-
-  ### Significance
-
+original_owner: A&J Doescher Candy Company
+current_owner: Kaup Pender Associates LLC
+date_of_completion: "1875"
+interior_accessibility: Handicap accessible
+original_function: Retail
+significance: >-
   The building is clad with cast-iron ornamentation instead of the more common
   terra cotta or stone ornament.
-
-  ### Unique Features
-
-  Conference room curtain and window garden
-
-  ### Renovation Date
-
-  2011
-
-  ### Renovation Architect
-
-  A359
-
-  ### Renovation Style
-
-  Modern workplace
-
-  ### Renovation Changes
-
-  Architectural design studio
-
-  ### Resources
-
-  http://a359i.com/
-
-  ### Green Building Features
-
-  Recycled display panels, all components mobile for reuse
+unique_features: Conference room curtain and window garden
+renovation_date: "2011"
+renovation_architect: A359
+renovation_style: Modern workplace
+renovation_changes: Architectural design studio
+resources: http://a359i.com/
+green_building_features: Recycled display panels, all components mobile for reuse
 ---

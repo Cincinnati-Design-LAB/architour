@@ -8,88 +8,39 @@ images:
   - https://ucarecdn.com/2984cd49-70d0-449d-8241-49fb86c31cd5/
   - https://ucarecdn.com/920cb8ce-fe9e-4c9e-b818-18aba5a27b37/
 location: '{"type":"Point","coordinates":[-84.512118,39.1028189]}'
-body: >
-  ### Name
-
-  Lois & Richard Rosenthal Center for Contemporary Art
-
-  ### Address
-
-  44 E 6th St, Cincinnati, OH 45202, USA
-
-  ### Original Owner
-
-  Contemporary Arts Center
-
-  ### Current Owner
-
-  Contemporary Arts Center
-
-  ### Date of Completion
-
-  2003
-
-  ### Style
-
-  Neo-futuristic
-
-  ### Interior Accessibility
-
+address: 44 E 6th St, Cincinnati, OH 45202, USA
+original_owner: Contemporary Arts Center
+current_owner: Contemporary Arts Center
+date_of_completion: "2003"
+style: Neo-futuristic
+interior_accessibility: >-
   Public lobby is accessible during normal business hours without admission to
   the CAC.  The cafe is also open to the public.
-
-  ### Architect
-
+architect: >-
   Zaha Hadid, internationally acclaimed Pritzker Prize-winning architect who
   designed the Vitra Fire Station in Weil am Rhein, Germany and the BMW Central
   Building in Leipzig, Germany.
-
-  ### Associate Architect
-
-  KZF Design
-
-  ### Contractor
-
-  Turner Construction
-
-  ### Original Function
-
-  Art museum
-
-  ### Significance
-
+associate_architect: KZF Design
+contractor: Turner Construction
+original_function: Art museum
+significance: >-
   It is the first building in the US for the internationally renowned, Iraqi
   born, female architect from London.  It is also the first major museum in the
   US to be designed by a woman.
-
-  ### Unique Features
-
+unique_features: >-
   The "urban carpet" concept connects the building to the street by extending
   the sidewalk into the building.  The radiused transition between the "urban
   carpet" and the rear wall of the building carries the plane up the height of
   the building thru a lightwell that houses a dramatic, cascading stair
   connecting the upper galleries.
-
-  ### Quotes
-
+quotes: >-
   The building was hailed by the New York Times Architecture Critic, Herbert
   Muschamp, as "the most important American building to be completed since the
   end of the Cold War."
-
-  ### Renovations
-
-  Lobby renovation
-
-  ### Renovation Date
-
-  2015
-
-  ### Renovation Architect
-
-  FRCH
-
-  ### Renovation Changes
-
+renovations: Lobby renovation
+renovation_date: "2015"
+renovation_architect: FRCH
+renovation_changes: >-
   The renovation reorganized the lobby functions (reception and gift shop) and
   added a coffee shop to engage the public.
 ---

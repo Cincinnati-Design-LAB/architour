@@ -8,44 +8,18 @@ images:
   - https://ucarecdn.com/6661ba61-d6c8-4509-a30a-68e15d86b256/
   - https://ucarecdn.com/2c3a6f86-48c7-4226-91e3-9e98c2543569/
 location: '{"type":"Point","coordinates":[-84.510802,39.112855]}'
-body: >
-  ### Name
-
-  Sycamore Street Studio
-
-  ### Address
-
+address: |-
   1604 Sycamore St.
-
   Cincinnati, OH  45202
-
-  ### Original Owner
-
-  Frank Nolte
-
-  ### Current Owner
-
-  Ted Gantz
-
-  ### Date of Completion
-
-  1880
-
-  ### Interior Accessibility
-
-  Must be able to climb stairs
-
-  ### Original Function
-
-  Residence
-
-  ### Significance
-
+original_owner: Frank Nolte
+current_owner: Ted Gantz
+date_of_completion: "1880"
+interior_accessibility: Must be able to climb stairs
+original_function: Residence
+significance: >-
   The 137 year old house has been substantially  maintained in its original
   condition on the first two floors.
-
-  ### Unique Features
-
+unique_features: >-
   The studio and residence is a complex of three buildings configured around a
   central courtyard similar to the garden homes in New Orleans.  The owner is a
   collector of sculpture, and the residence is filled with significant works by
@@ -53,27 +27,13 @@ body: >
   and stenciled ceilings on the second are original.  The owner has made
   selected changes to the residence decorative plaster and carvings that he has
   created.
-
-  ### Renovation Date
-
-  1980
-
-  ### Renovation Architect
-
-  Sycamore Street Studio
-
-  ### Renovation Style
-
-  Furniture and renovations have an Italian influence.
-
-  ### Renovation Changes
-
+renovation_date: "1980"
+renovation_architect: Sycamore Street Studio
+renovation_style: Furniture and renovations have an Italian influence.
+renovation_changes: >-
   The residence on the south side of the courtyard has been converted into a
   studio where they create custom sculptures, fountains, furniture, gates,
   railing and decorative plaster installations for professional and private
   clients.
-
-  ### Resources
-
-  http://sycamorestreetstudio.com
+resources: http://sycamorestreetstudio.com
 ---

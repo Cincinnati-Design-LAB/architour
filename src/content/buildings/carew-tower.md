@@ -6,41 +6,14 @@ images:
   - https://ucarecdn.com/3d4c041f-35ca-4e7a-b1d4-ef326deb5c89/
   - https://ucarecdn.com/ab8be8b0-883e-43e4-a437-77c33c853931/
 location: '{"type":"Point","coordinates":[-84.513238,39.100836]}'
-body: >
-  ### Name
-
-  Carew Tower
-
-  ### Address
-
-  441 Vine St., Cincinnati, OH  45202
-
-  ### Date of Completion
-
-  1930
-
-  ### Style
-
-  American Modern with Art Deco motifs
-
-  ### Interior Accessibility
-
-  The Emery arcade is open to the public and connects Vine to Race.
-
-  ### Architect
-
-  Walter Aeschlager
-
-  ### Associate Architect
-
-  Delano & Aldrich
-
-  ### Original Function
-
-  Office building 
-
-  ### Significance
-
+address: 441 Vine St., Cincinnati, OH  45202
+date_of_completion: "1930"
+style: American Modern with Art Deco motifs
+interior_accessibility: The Emery arcade is open to the public and connects Vine to Race.
+architect: Walter Aeschlager
+associate_architect: Delano & Aldrich
+original_function: Office building
+significance: >-
   A multi-use complex, the Carew Tower, Netherland Plaza Hotel, automated
   parking garage, and retail arcade are at the heart of Cincinnati.  Built at
   the beginning of the Depression, the complex was constructed using WPA funding
@@ -48,13 +21,8 @@ body: >
   and occupied in less than a year.  The Carew Tower remained the tallest
   building in Cincinnati until the construction of the Great American Tower
   completed in 2011.
-
-  ### Historic Status
-
-  Listed on the NRHP on August 5, 1982
-
-  ### Unique Features
-
+historic_status: Listed on the NRHP on August 5, 1982
+unique_features: >-
   The original complex included an automated 28-level parking garage.  The
   elevator system would lift the car from the entry level to a vacant space on
   an upper level and deposit the car.  Both innovative and unreliable, the

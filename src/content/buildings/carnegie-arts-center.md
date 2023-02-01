@@ -8,56 +8,21 @@ images:
   - https://ucarecdn.com/69d5704d-7751-4b28-a91c-05f9c0d7bae4/
   - https://ucarecdn.com/1ca03730-ed06-47a0-8b1e-732a6ac038a1/
 location: '{"type":"Point","coordinates":[-84.507025,39.080299]}'
-body: >
-  ### Name
-
-  Carnegie Arts Center (Covington Public Libaray)
-
-  ### Address
-
+address: |-
   1028 Scott St.
-
   Covington, KY
-
-  ### Original Owner
-
-  City of Covington
-
-  ### Current Owner
-
-  Northern Kentucky Arts Council
-
-  ### Date of Completion
-
-  1904
-
-  ### Style
-
-  Beaux Arts
-
-  ### Architect
-
-  John H. Boll & Charles C. Taylor
-
-  ### Original Function
-
-  Public library
-
-  ### Significance
-
+original_owner: City of Covington
+current_owner: Northern Kentucky Arts Council
+date_of_completion: "1904"
+style: Beaux Arts
+architect: John H. Boll & Charles C. Taylor
+original_function: Public library
+significance: >-
   It was one of the first public libraries funded by the Carnegie Foundation. It
   served as Covington's public library until the 1970s.
-
-  ### Unique Features
-
-  The building includes a 700-seat auditorium.
-
-  ### Renovation Architect
-
-  KZF Design
-
-  ### Renovation Changes
-
+unique_features: The building includes a 700-seat auditorium.
+renovation_architect: KZF Design
+renovation_changes: >-
   The building serves as a community arts center offering public education in
   both performance and graphic arts.
 ---

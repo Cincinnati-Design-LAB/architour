@@ -6,48 +6,19 @@ images:
   - https://ucarecdn.com/53fee384-120b-406e-ba89-c84936158d4a/
   - https://ucarecdn.com/843f9adc-7df1-408e-a291-74d39a03c15c/
 location: '{"type":"Point","coordinates":[-84.517005,39.105035]}'
-body: >
-  ### Name
-
-  Crosley Square (Otto Armleder Memorial Education Center)
-
-  ### Address
-
-  140 W. Ninth St., Cincinnati, OH  45202
-
-  ### Original Owner
-
-  The Elks
-
-  ### Current Owner
-
-  Cincinnati Hills Christian Academy
-
-  ### Date of Completion
-
-  1924
-
-  ### Architect
-
-  Harry Hake
-
-  ### Original Function
-
-  Elks Temple
-
-  ### Significance
-
+address: 140 W. Ninth St., Cincinnati, OH  45202
+original_owner: The Elks
+current_owner: Cincinnati Hills Christian Academy
+date_of_completion: "1924"
+architect: Harry Hake
+original_function: Elks Temple
+significance: >-
   The building was the home of Crosley Broadcasting and WLWT, the first
   federally licensed television station in Ohio.  The station was also the first
   NBC affiliate to broadcast in color in 1954.  The station was a television
   pioneer and created extensive local programming.
-
-  ### Renovation Date
-
-  1942
-
-  ### Renovation Changes
-
+renovation_date: "1942"
+renovation_changes: >-
   Broadcasting center for WLW Radio and Television (1942) / Christian school for
   inner city children
 ---

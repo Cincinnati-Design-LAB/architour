@@ -6,54 +6,25 @@ images:
   - https://ucarecdn.com/61c93fe2-d552-4fb6-a761-8b8547f4f03d/
   - https://ucarecdn.com/cc11f26b-c721-4e6d-9667-f7cf685634c3/
 location: '{"type":"Point","coordinates":[-84.500294,39.101132]}'
-body: >
-  ### Name
-
-  Newport Southgate Bridge (Purple People Bridge, L&N Bridge)
-
-  ### Original Owner
-
+original_owner: >-
   Newport & Cincinnati Bridge Company (purchased in 1904 by the Louisville &
   Nashville Railroad - L&N)
-
-  ### Current Owner
-
-  Kentucky Transportation Cabinet
-
-  ### Date of Completion
-
-  1872 / 1897
-
-  ### Architect
-
-  Jacob Linville (Chief Engineer 1872) / M.J. Becker (Chief Engineer 1897)
-
-  ### Original Function
-
+current_owner: Kentucky Transportation Cabinet
+date_of_completion: 1872 / 1897
+architect: Jacob Linville (Chief Engineer 1872) / M.J. Becker (Chief Engineer 1897)
+original_function: >-
   Built initially as a railroad bridge, it was reconstructed in 1897 as a
   railroad, streetcar, wagon, and pedestrian bridge.
-
-  ### Significance
-
+significance: >-
   Ir is the only bridge to cross the Ohio at Cincinnati dedicated solely to
   pedestrian and bicycle traffic.
-
-  ### Historic Status
-
-  Listed in NRHP on April 17, 2001
-
-  ### Unique Features
-
+historic_status: Listed in NRHP on April 17, 2001
+unique_features: >-
   For a few years starting in 2006, a bridge climb experience was operated on
   the bridge allowing paying customers to climb and walk the top of the bridge
   structure, similar to the experience offered on the Sydney Harbor Bridge.
-
-  ### Renovations
-
+renovations: >-
   The bridge was converted from a rail and vehicle bridge to a pedestrian and
   bicycle bridge. Park-like zones anchor each end of the bridge.
-
-  ### Renovation Date
-
-  2001
+renovation_date: "2001"
 ---

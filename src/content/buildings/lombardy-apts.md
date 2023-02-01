@@ -6,35 +6,15 @@ images:
   - https://ucarecdn.com/c6c47a0e-c838-4e74-9dcb-3a8b7855cae8/
   - https://ucarecdn.com/d214f3ec-eeab-405f-bf61-758d7725b19c/
 location: '{"type":"Point","coordinates":[-84.51825,39.09935]}'
-body: >
-  ### Name
-
-  Lombardy Building
-
-  ### Address
-
-  322 W Fourth St., Cincinnati, OH 45202
-
-  ### Date of Completion
-
-  1881
-
-  ### Style
-
-  Victorian Classicism
-
-  ### Architect
-
+address: 322 W Fourth St., Cincinnati, OH 45202
+date_of_completion: "1881"
+style: Victorian Classicism
+architect: >-
   Samuel Hannaford, one of Cincinnati's most prolific 19th Century architects
   who also designed Cincinnati City Hall and Music Hall.
-
-  ### Significance
-
+significance: >-
   The building is the oldest apartment building in Cincinnati, the first to
   provide both kitchens and bathrooms in every apartment.  The future President,
   William Howard Taft, resided in the building in 1883.
-
-  ### Historic Status
-
-  Listed on NRHP on March 3, 1980.
+historic_status: Listed on NRHP on March 3, 1980.
 ---

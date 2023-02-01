@@ -6,37 +6,13 @@ images:
   - https://ucarecdn.com/91697db2-2122-4340-96d3-796b91577fce/
   - https://ucarecdn.com/33f1eeda-b3ba-4c4d-8f21-19edc27bb340/
 location: '{"type":"Point","coordinates":[-84.5161118,39.0991094]}'
-body: >
-  ### Name
-
-  Textile Building
-
-  ### Address
-
-  205 W. Fourth St., Cincinnati, OH  45202
-
-  ### Date of Completion
-
-  1905
-
-  ### Style
-
-  Renaissance Revival 
-
-  ### Architect
-
-  Gustave W. Drach
-
-  ### Significance
-
+address: 205 W. Fourth St., Cincinnati, OH  45202
+date_of_completion: "1905"
+style: Renaissance Revival
+architect: Gustave W. Drach
+significance: >-
   The building was a progressive attempt to consolidate the locations of the
   city's textile manufacturers in one building.
-
-  ### Renovation Date
-
-  1985
-
-  ### Renovation Architect
-
-  Glaser & Myers
+renovation_date: "1985"
+renovation_architect: Glaser & Myers
 ---

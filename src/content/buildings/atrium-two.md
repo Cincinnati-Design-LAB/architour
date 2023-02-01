@@ -6,30 +6,11 @@ images:
   - https://ucarecdn.com/f5dd9f89-75f8-4b19-b5ff-7950a116e3af/
   - https://ucarecdn.com/ac7f7604-abf3-44d1-9bf2-af342ff84f84/
 location: '{"type":"Point","coordinates":[-84.5083772,39.1001396]}'
-body: >
-  ### Name
-
-  Atrium Two
-
-  ### Address
-
-  221 E. Fourth St., Cincinnati, OH  45202
-
-
-  ### Date of Completion
-
-  1985
-
-  ### Style
-
-  International
-
-  ### Architect
-
-  SOM
-
-  ### Significance
-
+address: 221 E. Fourth St., Cincinnati, OH  45202
+date_of_completion: "1985"
+style: International
+architect: SOM
+significance: >-
   The building was designed as a companion piece to Atrium One but without the
   stacked atria.  Lower levels of the building were expanded to the south to
   create large 50,000 s.f. floor plates for the then tenant, AT&T.

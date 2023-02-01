@@ -6,44 +6,18 @@ images:
   - https://ucarecdn.com/14c6e402-abbe-4e90-a64c-e6008663cb16/
   - https://ucarecdn.com/06ebdf25-4af4-4f46-962d-1b61e2763d1b/
 location: '{"type":"Point","coordinates":[-84.508779,39.104814]}'
-body: >
-  ### Name
-
-  Eighth & Sycamore Building
-
-  ### Address
-
+address: |-
   Eighth & Sycamore Streets
-
   Cincinnati, OH. 45202
-
-  ### Original Owner
-
-  3CDC & North American Properties
-
-  ### Date of Completion
-
-  2017
-
-  ### Style
-
-  Contemporary
-
-  ### Architect
-
-  John Senhauser Architects
-
-  ### Original Function
-
+original_owner: 3CDC & North American Properties
+date_of_completion: "2017"
+style: Contemporary
+architect: John Senhauser Architects
+original_function: >-
   Mixed use complex including 7,000 s.f. of retail, a public garage, and 131
   unit residential tower
-
-  ### Significance
-
-  The building is the newest residential complex in downtown Cincinnati.  
-
-  ### Unique Features
-
+significance: The building is the newest residential complex in downtown Cincinnati.
+unique_features: >-
   The tower is clad in an iridescent metal panel system that changes color
   depending on the angle of view and the daylight conditions.
 ---

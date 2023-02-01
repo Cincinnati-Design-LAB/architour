@@ -6,15 +6,8 @@ images:
   - https://ucarecdn.com/13216b23-e3d8-4615-b24e-d0ca4e707fd3/
   - https://ucarecdn.com/20a9b47c-f39a-4027-a265-9b8700323ed3/
 location: '{"type":"Point","coordinates":[-84.51650900000000,39.10431500000000]}'
-body: |
-  ### Name
-  The Greenwich
-  ### Original Owner
-  Towne Properties
-  ### Architect
-  Gruzen Samton
-  ### Associate Architect
-  PDT Architects
-  ### Original Function
-  Apartments
+original_owner: Towne Properties
+architect: Gruzen Samton
+associate_architect: PDT Architects
+original_function: Apartments
 ---

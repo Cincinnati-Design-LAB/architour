@@ -8,14 +8,9 @@ images:
   - https://ucarecdn.com/7b507f35-ab79-425c-af27-57e37324eb84/
   - https://ucarecdn.com/5915bdbd-b5ac-4735-8a60-b5a87259d3d0/
 location: '{"type":"Point","coordinates":[-84.512199,39.129217]}'
-body: |
-  ### Name
-  UC Edwards Center
-  ### Address
+address: |-
   1 Corry Blvd.
   Cincinnati, OH  45219
-  ### Original Owner
-  University of Cincinnati
-  ### Architect
-  SOM
+original_owner: University of Cincinnati
+architect: SOM
 ---

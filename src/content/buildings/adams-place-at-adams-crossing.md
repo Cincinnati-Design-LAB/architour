@@ -8,37 +8,13 @@ images:
   - https://ucarecdn.com/f6a5a422-90a8-47f5-8bf3-0a10d5ebbd6b/
   - https://ucarecdn.com/27bfa4c9-b782-4028-931e-40d371bb4028/
 location: '{"type":"Point","coordinates":[-84.49705500000000,39.10349200000000]}'
-body: >
-  ### Name
-
-  Adams Place at Adams Crossing
-
-  ### Address
-
-  900 Adams Crossing, Cincinnati, OH 45202
-
-  ### Date of Completion
-
-  1993
-
-  ### Style
-
-  Post-modern
-
-  ### Architect
-
-  William Turnbull Associates and Doran Studio
-
-  ### Associate Architect
-
-  KZF Design
-
-  ### Original Function
-
-  Luxury condominiums
-
-  ### Significance
-
+address: 900 Adams Crossing, Cincinnati, OH 45202
+date_of_completion: "1993"
+style: Post-modern
+architect: William Turnbull Associates and Doran Studio
+associate_architect: KZF Design
+original_function: Luxury condominiums
+significance: >-
   The building was the first phase of a masterplan to develop the Cincinnati
   riverfront east of downtown into a new residential zone.  It was one of the
   first luxury urban condominium projects to be built in Cincinnati.  Turnbull
@@ -46,10 +22,8 @@ body: >
   buildings that terraced similar to Italian hill towns, but the initial scheme
   did not achieve the density necessary to make the development economically
   viable.  The high-rise condo towers were added to create the needed density
-  and critical mass for the first phase of the project. 
-
-  ### Unique Features
-
+  and critical mass for the first phase of the project.
+unique_features: >-
   The building is actually constructed as two towers connected by a bridge.  The
   large condo units feature extensive painted woodwork creating a sense of
   refinement in the large-scale building.

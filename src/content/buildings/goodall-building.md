@@ -6,22 +6,11 @@ images:
   - https://ucarecdn.com/85d1171d-bd92-41fd-9653-576c3bcda1cb/
   - https://ucarecdn.com/564aec51-8624-478f-a016-11f4cafff932/
 location: '{"type":"Point","coordinates":[-84.51979700000000,39.10459100000000]}'
-body: |
-  ### Name
-  Goodall Building
-  ### Address
-  324 W. Ninth St., Cincinnati, OH  45202
-
-  ### Original Owner
-  William Goodall
-  ### Date of Completion
-  1893
-  ### Style
-  Second Renaissance Revival
-  ### Architect
-  George W. Rapp
-  ### Historic Status
-  Listed on NRHP on February 9, 1984.
-  ### Unique Features
-  The building has a three-story oriel window that adorns its southwest corner.
+address: 324 W. Ninth St., Cincinnati, OH  45202
+original_owner: William Goodall
+date_of_completion: "1893"
+style: Second Renaissance Revival
+architect: George W. Rapp
+historic_status: Listed on NRHP on February 9, 1984.
+unique_features: The building has a three-story oriel window that adorns its southwest corner.
 ---

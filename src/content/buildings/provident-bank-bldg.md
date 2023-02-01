@@ -4,17 +4,9 @@ images:
   - https://ucarecdn.com/5f709d4b-4874-47f1-b169-25231e5bce3b/
   - https://ucarecdn.com/02288ca9-f01a-4023-a85d-7ec24b57f278/
 location: '{"type":"Point","coordinates":[-84.5122258,39.0995902]}'
-body: |
-  ### Name
-  Provident Bank Building
-  ### Address
-  1 E. Fourth St., Cincinnati, OH  45202
-  ### Current Owner
-  American Financial Group
-  ### Date of Completion
-  1967
-  ### Architect
-  Salmon P. Wallace
-  ### Significance
-  First modern office building in the city's financial district
+address: 1 E. Fourth St., Cincinnati, OH  45202
+current_owner: American Financial Group
+date_of_completion: "1967"
+architect: Salmon P. Wallace
+significance: First modern office building in the city's financial district
 ---

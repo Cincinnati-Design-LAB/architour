@@ -8,49 +8,21 @@ images:
   - https://ucarecdn.com/f4a12799-5676-4988-9010-47e2a14f08cc/
   - https://ucarecdn.com/e07d3414-ee92-49de-b75d-f32a8f4005ef/
 location: '{"type":"Point","coordinates":[-84.514914,39.13082]}'
-body: >
-  ### Name
-
-  UC Richard E Lindner Athletics Center / Varsity Village
-
-  ### Original Owner
-
-  University of Cincinnati
-
-  ### Date of Completion
-
-  2006
-
-  ### Style
-
-  Modern
-
-  ### Interior Accessibility
-
-  Main lobby and atrium is open to the public.
-
-  ### Architect
-
-  Bernard Tschumi
-
-  ### Associate Architect
-
-  Glaserworks
-
-  ### Original Function
-
+original_owner: University of Cincinnati
+date_of_completion: "2006"
+style: Modern
+interior_accessibility: Main lobby and atrium is open to the public.
+architect: Bernard Tschumi
+associate_architect: Glaserworks
+original_function: >-
   Athletic support offices for team sports, coaches, and academic services for
   athletes and UC's Athletic Museum.
-
-  ### Significance
-
+significance: >-
   As in many new buildings on the UC campus, the designers were challenged with
   creating an infill building on leftover land dictating the unique form of the
   building.  The structure is an exposed triangular concrete truss system with
   glass infil panels creating an iconic image on the campus.
-
-  ### Unique Features
-
+unique_features: >-
   The central atrium includes a multi-story trophy case suspended on the east
   side of the atrium.
 ---

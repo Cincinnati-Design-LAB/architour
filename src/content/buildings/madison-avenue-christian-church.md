@@ -8,14 +8,9 @@ images:
   - https://ucarecdn.com/f9bcb062-99d6-41dc-af0c-33dce0bc8058/
   - https://ucarecdn.com/2bbc2871-c280-4f58-8d6d-46a7c55b6346/
 location: '{"type":"Point","coordinates":[-84.507265,39.072938]}'
-body: |
-  ### Name
-  Madison Avenue Christian Church
-  ### Address
+address: |-
   1530 Madison Ave.
   Covington, KY
-  ### Date of Completion
-  1910
-  ### Style
-  Italian Renaissance Revival
+date_of_completion: "1910"
+style: Italian Renaissance Revival
 ---

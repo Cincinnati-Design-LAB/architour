@@ -8,47 +8,17 @@ images:
   - https://ucarecdn.com/cf502c6f-b797-4f69-9a92-b184f524d291/
   - https://ucarecdn.com/542f3181-ccaf-4ffa-ba09-587633f0c6ba/
 location: '{"type":"Point","coordinates":[-84.516371,39.11302]}'
-body: >
-  ### Name
-
-  St. Francis Seraph Church
-
-  ### Address
-
+address: |-
   1 W. Liberty
-
   Cincinnati, OH
-
-  ### Original Owner
-
-  Franciscans Friars who emmigrated from Austria
-
-  ### Current Owner
-
-  The Franciscan Friars of the Province of St. John the Baptist
-
-  ### Date of Completion
-
-  December 18, 1859 (dedication)
-
-  ### Style
-
-  German Romanesque
-
-  ### Interior Accessibility
-
-  The sanctuary is open to the public daily from 9am to 5 pm
-
-  ### Architect
-
-  James W. McLaughlin
-
-  ### Original Function
-
-  Catholic church serving the German speaking community of Cincinnati
-
-  ### Significance
-
+original_owner: Franciscans Friars who emmigrated from Austria
+current_owner: The Franciscan Friars of the Province of St. John the Baptist
+date_of_completion: December 18, 1859 (dedication)
+style: German Romanesque
+interior_accessibility: The sanctuary is open to the public daily from 9am to 5 pm
+architect: James W. McLaughlin
+original_function: Catholic church serving the German speaking community of Cincinnati
+significance: >-
   The first Catholic church in the Greater Cincinnati area, Christ Church, was
   built on the site of St. Francis Seraph in 1819. Because of the anti-Catholic
   sentiment that  existed in the city and troughout the country, the church was
@@ -60,9 +30,7 @@ body: >
   were relocated to other cemeteries, but some families saw it as an honor to
   have the graves of their ancestors placed under the new church.  The crypt is
   located under the alter of the new church.
-
-  ### Unique Features
-
+unique_features: >-
   The sanctuary is a "hall" type church with no height variation between the
   central and side aisles.  Consequently, the church has very high windows and
   is flooded with daylight.  McLaughlin mixed styles in the design of the church
@@ -75,22 +43,12 @@ body: >
   paintings were popular in this area, also adorn the walls.  The Stations of
   the Cross originally hung in St Paul's Church and were relocated to St Francis
   Seraph when that church wa decommissioned.
-
-  ### Renovations
-
+renovations: >-
   An apse was added to the church around 1905, and the building was reclad in
   glazed brick in 1906.
-
-  ### Renovation Date
-
-  1905 & 1906
-
-  ### Renovation Architect
-
-  Samuel Hannaford (1925)
-
-  ### Renovation Changes
-
+renovation_date: 1905 & 1906
+renovation_architect: Samuel Hannaford (1925)
+renovation_changes: >-
   Over its many decades, this parish church has sought to meet not only the
   spiritual needs of its people but also the social and physical ones as well.
   In 1859, the Franciscans established St. Francis Seraph School.  A soup
@@ -99,8 +57,5 @@ body: >
   enrichment program, a parish nurse program, a lunch bag program for day
   laborers, a financial assistance program, and a hospitality center for
   homeless people.
-
-  ### Resources
-
-  http://www.sfsparish.org/
+resources: http://www.sfsparish.org/
 ---

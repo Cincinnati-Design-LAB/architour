@@ -8,35 +8,18 @@ images:
   - https://ucarecdn.com/ffe31cc3-2eb6-415f-8e05-88b88acc9f00/
   - https://ucarecdn.com/db67c2a9-fb84-4ee4-9822-b4d8e652271c/
 location: '{"type":"Point","coordinates":[-84.507093,39.091157]}'
-body: >
-  ### Name
-
-  Riverside Drive Historic District
-
-  ### Address
-
+address: |-
   Riverside Dr.
-
   Covington KY
-
-  ### Style
-
+style: >-
   Homes and buildings are predominantly Italianate, French Second Empire, Greek
   Revival, Queen Anne, High Victorian Gothic, and American Craftsman styles
-
-  ### Original Function
-
-  Residential development for the affluent of Cincinnati
-
-  ### Significance
-
+original_function: Residential development for the affluent of Cincinnati
+significance: >-
   Early settlement of Covington began here in the 1790s when ferry service
   across the river began.  The area remains popular today providing breathtaking
   views of Cincinnati from these homes. In 2014, the American Planning
   Association rated the district as one of the ten best neighborhoods in the
   U.S.
-
-  ### Historic Status
-
-  Added to NRHP on November 3, 1971.
+historic_status: Added to NRHP on November 3, 1971.
 ---

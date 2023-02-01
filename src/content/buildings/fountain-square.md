@@ -6,56 +6,22 @@ images:
   - https://ucarecdn.com/447a3f12-4fe9-4fb1-934a-28b5b290192a/
   - https://ucarecdn.com/64046ef7-48d8-45ad-b09b-66cdaa713895/
 location: '{"type":"Point","coordinates":[-84.5125,39.10135000000000]}'
-body: >
-  ### Name
-
-  Fountain Square
-
-  ### Address
-
-  Fifth & Vine St., Cincinnati, OH  45202
-
-  ### Original Owner
-
-  City of Cincinnati
-
-  ### Date of Completion
-
-  1971
-
-  ### Style
-
-  Late Twentieth Century Civic Planning
-
-  ### Architect
-
-  RTKL
-
-  ### Original Function
-
-  Public square
-
-  ### Significance
-
+address: Fifth & Vine St., Cincinnati, OH  45202
+original_owner: City of Cincinnati
+date_of_completion: "1971"
+style: Late Twentieth Century Civic Planning
+architect: RTKL
+original_function: Public square
+significance: >-
   The first block redeveloped as part of the 1964 Downtown plan, the 1971 design
   was based on Italian piazzas to bring the community together at all times of
   the day.
-
-  ### Quotes
-
+quotes: >-
   Edmund Bacon called the square constructed in 1971 "the most successful public
   square in America."
-
-  ### Renovations
-
+renovations: >-
   Addition of stage (1985) / relocation of Tyler Davidson Fountain and
   incorporation of a bosque of trees (2005).
-
-  ### Renovation Date
-
-  1985 / 2005
-
-  ### Renovation Architect
-
-  BHDP / Cooper Robertson & Partners
+renovation_date: 1985 / 2005
+renovation_architect: BHDP / Cooper Robertson & Partners
 ---

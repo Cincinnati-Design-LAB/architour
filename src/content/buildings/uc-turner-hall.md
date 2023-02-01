@@ -8,21 +8,12 @@ images:
   - https://ucarecdn.com/be122436-b506-4a81-a41b-f209c2c19fe7/
   - https://ucarecdn.com/c2b9657d-7b0b-4ba8-87f4-4e54fb1ce3fc/
 location: '{"type":"Point","coordinates":[-84.512008,39.132604]}'
-body: |
-  ### Name
-  UC Turner Hall
-  ### Address
+address: |-
   45 W. University Ave.
   Cincinnati, OH
-
-  ### Original Owner
-  University of Cincinnati
-  ### Date of Completion
-  2002
-  ### Architect
-  KZF Design
-  ### Contractor
-  Messer Construction
-  ### Original Function
-  Student housing
+original_owner: University of Cincinnati
+date_of_completion: "2002"
+architect: KZF Design
+contractor: Messer Construction
+original_function: Student housing
 ---

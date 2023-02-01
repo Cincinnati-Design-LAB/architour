@@ -6,50 +6,18 @@ images:
   - https://ucarecdn.com/5a256182-1e2a-4958-99ae-5362755e114b/
   - https://ucarecdn.com/4dd54a74-0f03-42e3-95cd-420c6759dd33/
 location: '{"type":"Point","coordinates":[-84.507448,39.100922]}'
-body: >
-  ### Name
-
-  Christ Episcopal Church 
-
-  ### Address
-
-  318 E. Fourth St., Cincinnati, OH  45202
-
-  ### Original Owner
-
-  Episcopal Diocese of Southern Ohio
-
-  ### Date of Completion
-
-  1957
-
-  ### Style
-
-  Twentieth Century Modern
-
-  ### Architect
-
-  David Briggs Maxfield
-
-  ### Significance
-
+address: 318 E. Fourth St., Cincinnati, OH  45202
+original_owner: Episcopal Diocese of Southern Ohio
+date_of_completion: "1957"
+style: Twentieth Century Modern
+architect: David Briggs Maxfield
+significance: >-
   After a proposed design by Eliel Saarinen was rejected, Maxfield redesigned
-  the church with an attempt to reinterpret Gothic design in modern terms.  
-
-  ### Unique Features
-
+  the church with an attempt to reinterpret Gothic design in modern terms.
+unique_features: >-
   The stained glass window at the church's entry was designed by Robert M.
-  Metcalf who taught at Antioch College.  
-
-  ### Renovation Date
-
-  1982 / 1997
-
-  ### Renovation Architect
-
-  William Schickel (1982) / Philip Markwood (1997)
-
-  ### Renovation Style
-
-  neo-Gothic
+  Metcalf who taught at Antioch College.
+renovation_date: 1982 / 1997
+renovation_architect: William Schickel (1982) / Philip Markwood (1997)
+renovation_style: neo-Gothic
 ---

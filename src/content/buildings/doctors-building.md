@@ -6,39 +6,14 @@ images:
   - https://ucarecdn.com/1c204705-9eeb-4c55-a832-37cb22e6e11e/
   - https://ucarecdn.com/180e94b2-e5d9-4dcb-a35f-c83e1bf585ef/
 location: '{"type":"Point","coordinates":[-84.51462900000000,39.10419600000000]}'
-body: >
-  ### Name
-
-  Doctor's Building
-
-  ### Address
-
-  19 Garfield Place, Cincinnati, OH  45202
-
-
-  ### Date of Completion
-
-  1923
-
-  ### Style
-
-  Late Gothic Revival
-
-  ### Architect
-
-  Tietig & Lee
-
-  ### Original Function
-
-  Doctors' offices
-
-  ### Significance
-
+address: 19 Garfield Place, Cincinnati, OH  45202
+date_of_completion: "1923"
+style: Late Gothic Revival
+architect: Tietig & Lee
+original_function: Doctors' offices
+significance: >-
   It was the only major commercial building constructed to house doctors'
   offices.  Part of the Allyn Company's plan to create an enclave of buildings
   on Garfield Place, it was the only building executed from the plan.
-
-  ### Historic Status
-
-  Listed on NRHP on December 4, 1986.
+historic_status: Listed on NRHP on December 4, 1986.
 ---

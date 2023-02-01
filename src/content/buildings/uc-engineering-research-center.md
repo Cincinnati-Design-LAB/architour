@@ -8,51 +8,23 @@ images:
   - https://ucarecdn.com/82344517-ed6d-4774-8a2b-4d0dfe7e2a25/
   - https://ucarecdn.com/c5254e7e-5be8-48ea-bacf-adc01edc45ac/
 location: '{"type":"Point","coordinates":[-84.515263,39.133334]}'
-body: >
-  ### Name
-
-  UC Engineering Research Center
-
-  ### Original Owner
-
-  University of Cincinnati
-
-  ### Date of Completion
-
-  1995
-
-  ### Style
-
-  Post-Modern
-
-  ### Interior Accessibility
-
+original_owner: University of Cincinnati
+date_of_completion: "1995"
+style: Post-Modern
+interior_accessibility: >-
   Public accessibility is limited to the main barrel-vaulted lobby due to the
   confidential nature of the research being pursued in the building.
-
-  ### Architect
-
-  Michael Graves
-
-  ### Associate Architect
-
-  KZF Design
-
-  ### Original Function
-
-  Engineering research laboratories
-
-  ### Significance
-
+architect: Michael Graves
+associate_architect: KZF Design
+original_function: Engineering research laboratories
+significance: >-
   Michael Graves was a graduate of the College of Design, Architecture and Art
   (now DAAP) and is undoubtedly the most well-known of its architectural alumni.
   While disappointed that he was not chosen to design the expansion of DAAP,
   Graves accepted the challenge to design this technically complex building on a
   challenging site.  The project began after the design of DAAP was underway and
-  was completed prior to DAAP's completion both on-time and on-budget.  
-
-  ### Unique Features
-
+  was completed prior to DAAP's completion both on-time and on-budget.
+unique_features: >-
   The barrel-vaulted copper roof of the building is topped with 4 conical
   copper-clad stacks that accelerate exhaust from the laboratories into the
   upper levels of the atmosphere where the toxic fumes can be diluted and

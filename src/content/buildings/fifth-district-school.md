@@ -8,22 +8,13 @@ images:
   - https://ucarecdn.com/0d318546-5ff5-4927-a830-da832cc8697b/
   - https://ucarecdn.com/6b4aefdc-6b0c-4ed9-a80c-0c7e210cfa05/
 location: '{"type":"Point","coordinates":[-84.511663,39.0686]}'
-body: |
-  ### Name
-  Fifth District School
-  ### Address
+address: |-
   1735 Holman Ave.
   Covington, KY
-  ### Date of Completion
-  1901
-  ### Style
-  Late Victorian Romanesque
-  ### Architect
-  Schofield & Rabe, Charles Hildreth
-  ### Historic Status
-  Added to NRHP on November 25, 2005
-  ### Renovations
-  2 additional classrooms were added to each floor
-  ### Renovation Date
-  1937
+date_of_completion: "1901"
+style: Late Victorian Romanesque
+architect: Schofield & Rabe, Charles Hildreth
+historic_status: Added to NRHP on November 25, 2005
+renovations: 2 additional classrooms were added to each floor
+renovation_date: "1937"
 ---

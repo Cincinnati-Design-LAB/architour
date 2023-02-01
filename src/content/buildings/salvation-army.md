@@ -4,15 +4,8 @@ images:
   - https://ucarecdn.com/26d4f663-d259-45c6-9459-ea64075fe834/
   - https://ucarecdn.com/30c73510-14fb-42a6-b239-67dc12ed79e1/
 location: '{"type":"Point","coordinates":[-84.5118055,39.108]}'
-body: |
-  ### Name
-  Salvation Army
-  ### Address
-  150 E. Central Pkwy, Cincinnati, Ohio
-  ### Date of Completion
-  1960
-  ### Style
-  Contemporary
-  ### Architect
-  Harry Hake & Partners
+address: 150 E. Central Pkwy, Cincinnati, Ohio
+date_of_completion: "1960"
+style: Contemporary
+architect: Harry Hake & Partners
 ---

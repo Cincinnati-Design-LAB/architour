@@ -8,51 +8,23 @@ images:
   - https://ucarecdn.com/7f4f2f83-62eb-4493-99c4-fb230c50220c/
   - https://ucarecdn.com/1389dca0-ab51-4c61-98d2-cc696ec48942/
 location: '{"type":"Point","coordinates":[-84.505764,39.136365]}'
-body: >
-  ### Name
-
-  UC Vontz Center for Molecular Studies
-
-  ### Original Owner
-
-  University of Cincinnati
-
-  ### Date of Completion
-
-  1999
-
-  ### Style
-
-  Modern
-
-  ### Interior Accessibility
-
+original_owner: University of Cincinnati
+date_of_completion: "1999"
+style: Modern
+interior_accessibility: >-
   The building is not accessible to the public due to the confidential research
   that is pursued in the building.
-
-  ### Architect
-
-  Frank Gehry
-
-  ### Associate Architect
-
-  BHDP Architecture
-
-  ### Original Function
-
-  Molecular reseach laboratories
-
-  ### Significance
-
+architect: Frank Gehry
+associate_architect: BHDP Architecture
+original_function: Molecular reseach laboratories
+significance: >-
   The building has an ordered plan to accommodate the various laboratories
   within that belies the articulated curving façade characteristic of
   Gehry-designed buildings.  Challenged with designing a brick building to
   reflect UC's historic character,  Gehry and his team developed a panelized
   preformed brick facade system that could be factory built to achieve the
-  challenging geometry of the building.  
-
-  ### Unique Features
-
+  challenging geometry of the building.
+unique_features: >-
   The building has a central atrium with stair that connects the varying
   laboratory levels to encourage researchers to collaborate with each other.
 ---

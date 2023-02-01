@@ -6,9 +6,5 @@ images:
   - https://ucarecdn.com/6f2419a7-6df9-4ead-ae34-7a3dc2b5a942/
   - https://ucarecdn.com/4af00c52-7c59-433c-8895-3babe9c9f300/
 location: '{"type":"Point","coordinates":[-84.515397,39.103635]}'
-body: |
-  ### Name
-  703 Race 
-  ### Address
-  703 Race St., Cincinnati, OH  45202
+address: 703 Race St., Cincinnati, OH  45202
 ---

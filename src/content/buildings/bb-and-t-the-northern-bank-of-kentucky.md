@@ -6,45 +6,19 @@ images:
   - https://ucarecdn.com/0a13cae2-e008-43ac-a700-fbee7605399d/
   - https://ucarecdn.com/98c193b6-5c97-4567-b47f-922ba685dc81/
 location: '{"type":"Point","coordinates":[-84.510092,39.088495]}'
-body: >
-  ### Name
-
-  BB&T (The Northern Bank of Kentucky)
-
-  ### Address
-
+address: |-
   231 Scott Blvd.
-
   Covington, KY
-
-  ### Date of Completion
-
-  1836
-
-  ### Style
-
-  Greek Revival
-
-  ### Architect
-
-  unknown
-
-  ### Original Function
-
-  Banking offices
-
-  ### Significance
-
+date_of_completion: "1836"
+style: Greek Revival
+architect: unknown
+original_function: Banking offices
+significance: >-
   The building is probably the oldest commercial building in Covington.  Serving
   as a bank until 1896, the building subsequently was home to Myers & Company
   Distillers, the Mosler Safe Company, and Wadsworth Electric Company.
-
-  ### Renovations
-
+renovations: >-
   A third floor was added to the building, probably by Myers & Company
   Distillers.
-
-  ### Renovation Date
-
-  1890
+renovation_date: "1890"
 ---

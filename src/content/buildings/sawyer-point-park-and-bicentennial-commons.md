@@ -8,42 +8,20 @@ images:
   - https://ucarecdn.com/b517e228-8443-41b5-b0bd-68ce7128e41d/
   - https://ucarecdn.com/6f10df96-53ea-4089-9a07-550bc8a54e5a/
 location: '{"type":"Point","coordinates":[-84.49676600000000,39.10236800000000]}'
-body: >
-  ### Name
-
-  Sawyer Point Park & Bicentennial Commons
-
-  ### Address
-
-  705 E. Pete Rose Way, Cincinnati, OH  45202
-
-  ### Original Owner
-
-  Cincinnati Parks Board
-
-  ### Date of Completion
-
-  1988
-
-  ### Architect
-
-  Glaserworks (formerly Glaser Associates)
-
-  ### Original Function
-
+address: 705 E. Pete Rose Way, Cincinnati, OH  45202
+original_owner: Cincinnati Parks Board
+date_of_completion: "1988"
+architect: Glaserworks (formerly Glaser Associates)
+original_function: >-
   An expansion of the park at  Yeatman's Cove extending it to the Montgomery Inn
   Boathouse.  The expansion added tennis and volleyball courts, a skating rink,
   a playground, walking trails, and an environmental sculpture (see Gateway
   Sculpture) to commemorate Cincinnati's bicentennial.
-
-  ### Significance
-
+significance: >-
   Built to commemorate the bicentennial of the founding of Cincinnati (formerly
   Losantiville), the park was funded by the City, The Greater Cincinnati
-  Foundation, and private donations.  
-
-  ### Unique Features
-
+  Foundation, and private donations.
+unique_features: >-
   The P&G Pavilion is a performance stage covered by a tensile structure located
   on the lawn.  The pavilion hosts concerts throughout the summer and at
   community event occuring at Sawyer Point.

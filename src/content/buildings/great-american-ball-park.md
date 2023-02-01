@@ -8,49 +8,21 @@ images:
   - https://ucarecdn.com/72acbf54-3262-4472-bee3-38662e8ac626/
   - https://ucarecdn.com/d18129d0-66f2-4c37-b471-c3c1a22b24cf/
 location: '{"type":"Point","coordinates":[-84.508,39.098]}'
-body: >
-  ### Name
-
-  Great American Ball Park
-
-  ### Address
-
-  100 Joe Nuxhall Way, Cincinnati, Ohio
-
-  ### Original Owner
-
-  Hamilton County
-
-  ### Date of Completion
-
-  2003
-
-  ### Interior Accessibility
-
+address: 100 Joe Nuxhall Way, Cincinnati, Ohio
+original_owner: Hamilton County
+date_of_completion: "2003"
+interior_accessibility: >-
   The Hall of Fame is accessible during normal business hours.  The ballpark is
   accessible to the public by ticket during game times.
-
-  ### Architect
-
-  Populous (HOK Sport)
-
-  ### Associate Architect
-
-  GBBN
-
-  ### Original Function
-
-  Professional baseball stadium
-
-  ### Significance
-
+architect: Populous (HOK Sport)
+associate_architect: GBBN
+original_function: Professional baseball stadium
+significance: >-
   Smaller than its predecessor, the new ball park is more intimate and nostalgic
   in character inspired by Baltimore's Camden Yards.  Its external massing
   creates a more appropriate urban scale to relate to the adjacent Banks
   development and houses the Reds Hall of Fame and Museum.
-
-  ### Unique Features
-
+unique_features: >-
   A gap in the stands that aligns with Sycamore Street allows a view into the
   stadium from the downtown area.  The stadium has twin smoke stacks in the
   outfield (designed by MSA Architects) reminiscent of the stacks from

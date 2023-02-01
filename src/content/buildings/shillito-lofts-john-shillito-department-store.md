@@ -8,65 +8,25 @@ images:
   - https://ucarecdn.com/8e152edf-0021-44b2-87f1-cec3d1e18cb9/
   - https://ucarecdn.com/6d603a4b-d8bc-4081-9318-ced4468e95d9/
 location: '{"type":"Point","coordinates":[-84.51599000000000,39.10324800000000]}'
-body: >
-  ### Name
-
-  Shillito Lofts (John Shillito Department Store)
-
-  ### Address
-
-  151 W. Seventh St., Cincinnati, OH  45202
-
-
-  ### Original Owner
-
-  John J. Shillito Company
-
-  ### Current Owner
-
-  Towne Properties
-
-  ### Date of Completion
-
+address: 151 W. Seventh St., Cincinnati, OH  45202
+original_owner: John J. Shillito Company
+current_owner: Towne Properties
+date_of_completion: >-
   1870s (original building visible from Shillito Place) and 1938 (current façade
   wrap)
-
-  ### Style
-
-  Art Deco (1938 wrap)
-
-  ### Architect
-
-  James W. McLaughlin (1870s) / Potter, Tyler & Martin (1938)
-
-  ### Original Function
-
-  Department store
-
-  ### Significance
-
+style: Art Deco (1938 wrap)
+architect: James W. McLaughlin (1870s) / Potter, Tyler & Martin (1938)
+original_function: Department store
+significance: >-
   The expansion and new façade built in 1938 was commissioned by the new owners,
   the Lazarus family, to create a more "fashionable" image for the building.
-
-  ### Historic Status
-
-  Part of the Race Street Historic District
-
-  ### Unique Features
-
+historic_status: Part of the Race Street Historic District
+unique_features: >-
   The orginal store was built around  central atrium topped with a circular
   glass dome.
-
-  ### Renovation Date
-
-  1999
-
-  ### Renovation Architect
-
-  PDT Architects
-
-  ### Renovation Changes
-
+renovation_date: "1999"
+renovation_architect: PDT Architects
+renovation_changes: >-
   The building was converted into apartments with office space located on the
   street level.
 ---

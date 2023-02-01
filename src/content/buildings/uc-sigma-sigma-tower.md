@@ -8,39 +8,21 @@ images:
   - https://ucarecdn.com/f9ed1e91-5ae5-4906-9151-077880833a9a/
   - https://ucarecdn.com/0858de43-ff6a-48bd-a79f-98c97850528f/
 location: '{"type":"Point","coordinates":[-84.513029,39.133435]}'
-body: >
-  ### Name
-
-  UC Ronald F. Walker Tower at Sigma Sigma Commons
-
-  ### Original Owner
-
-  University of Cincinnati
-
-  ### Interior Accessibility
-
+original_owner: University of Cincinnati
+interior_accessibility: >-
   The tower is located in the Sigma Sigma Commons and can be viewed at all times
   of the day and night.
-
-  ### Architect
-
-  Machado & Silvetti
-
-  ### Original Function
-
+architect: Machado & Silvetti
+original_function: >-
   Light tower dedicated to a member of the Sigma Sigma Fraternity, a men's honor
   society.
-
-  ### Significance
-
+significance: >-
   The Sigma Sigma Commons and the Ronald F. Walker Tower were funded by the
   honorary fraternity Sigma Sigma.  It raised $1.8 million to fund the project
   in a campaign that lasted only 3 months!  The 3.5 acre site is a magnet for
   student activity and includes an amphitheater that seats 1,850 people for
   special performances.
-
-  ### Unique Features
-
+unique_features: >-
   "The tower has a number of symbolic aspects in its design. Its square base
   forms the letters U and C on alternating sides. Above these letters, the main
   wooden shafts rise in the form of hammers. These motifs reflect the

@@ -8,34 +8,14 @@ images:
   - https://ucarecdn.com/22063771-2bdd-44c9-80f2-402ca5b45a88/
   - https://ucarecdn.com/d74ed24b-3d2e-495e-ba95-d38deb725e4d/
 location: '{"type":"Point","coordinates":[-84.49878600000000,39.10179900000000]}'
-body: >
-  ### Name
-
-  Gateway Sculpture at Bicentennial Commons
-
-  ### Address
-
-  705 E. Pete Rose Way, Cincinnati, OH  45202
-
-  ### Original Owner
-
-  Cincinnati Parks Board
-
-  ### Date of Completion
-
-  1988
-
-  ### Architect
-
-  Garth Rockcastle & Andrew Leicester
-
-  ### Original Function
-
+address: 705 E. Pete Rose Way, Cincinnati, OH  45202
+original_owner: Cincinnati Parks Board
+date_of_completion: "1988"
+architect: Garth Rockcastle & Andrew Leicester
+original_function: >-
   An environmental sculpture designed to showcase Cincinnati's connection to the
   Ohio River
-
-  ### Unique Features
-
+unique_features: >-
   The whimsical environmental sculpture was designed by the Minneapolis-based
   team of artist Andrew Leicester in conjuction with architect Garth
   Rockcastle.  As visitors enter the park, they pass through a symbolic canal

@@ -8,49 +8,16 @@ images:
   - https://ucarecdn.com/b5f03754-cc40-4277-acd8-5f29cfc4e1c4/
   - https://ucarecdn.com/c6eca5cd-b947-4605-ab37-670dd7abf68b/
 location: '{"type":"Point","coordinates":[-84.50719900000000,39.10569200000000]}'
-body: >
-  ### Name
-
-  Hamilton County Juvenile Division (Post-Times Star Building)
-
-  ### Address
-
-  800 Broadway St., Cincinnati, OH  45202
-
-  ### Original Owner
-
-  Cincinnati Times Star
-
-  ### Current Owner
-
-  Hamilton County
-
-  ### Date of Completion
-
-  1933
-
-  ### Style
-
-  Art Deco
-
-  ### Architect
-
-  Samuel Hannaford & Sons
-
-  ### Contractor
-
-  Ferro-Concrete Construction
-
-  ### Original Function
-
-  Newspaper plant and offices
-
-  ### Historic Status
-
-  Listed on NRHP on November 25, 1983 
-
-  ### Unique Features
-
+address: 800 Broadway St., Cincinnati, OH  45202
+original_owner: Cincinnati Times Star
+current_owner: Hamilton County
+date_of_completion: "1933"
+style: Art Deco
+architect: Samuel Hannaford & Sons
+contractor: Ferro-Concrete Construction
+original_function: Newspaper plant and offices
+historic_status: Listed on NRHP on November 25, 1983
+unique_features: >-
   "The scuptural program by Ernest B. Haswell and Jules Brys is rich in
   literary, historical, and mythological references to journalism and learning. 
   It offers the view a measure of mystery and visual delight found in a medieval
@@ -61,12 +28,6 @@ body: >
   guraded by winged lions adorn the lower levels."  from Architecture in
   Cincinnati, Sue Ann Painter, Ohio University Press in association with the
   Architectural Foundation of Cincinnati.
-
-  ### Renovation Date
-
-  1988
-
-  ### Renovation Changes
-
-  County offices and the Juvenile Courts
+renovation_date: "1988"
+renovation_changes: County offices and the Juvenile Courts
 ---

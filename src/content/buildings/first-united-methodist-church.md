@@ -8,31 +8,13 @@ images:
   - https://ucarecdn.com/3499303f-932e-472e-ad46-999addfb2f6e/
   - https://ucarecdn.com/e834f14d-8691-4f26-8a8d-9d62705cf4b6/
 location: '{"type":"Point","coordinates":[-84.50758,39.086167]}'
-body: >
-  ### Name
-
-  First United Methodist Church
-
-  ### Address
-
+address: |-
   501 Greenup St.
-
   Covington, KY
-
-  ### Date of Completion
-
-  1867
-
-  ### Style
-
-  High Victorian Gothic
-
-  ### Architect
-
-  William Walter & William Stewart
-
-  ### Significance
-
+date_of_completion: "1867"
+style: High Victorian Gothic
+architect: William Walter & William Stewart
+significance: >-
   Previously a part of the Methodist Episcopal Church, two congregations merged
   in the 1930s to form the First United Methodist Church.
 ---

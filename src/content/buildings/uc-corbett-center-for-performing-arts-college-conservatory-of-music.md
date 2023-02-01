@@ -8,42 +8,16 @@ images:
   - https://ucarecdn.com/4df55e28-b31e-4d8b-97e3-ce6485ef3f7a/
   - https://ucarecdn.com/3a85cc16-abb7-4630-a428-1481cfbb4a8c/
 location: '{"type":"Point","coordinates":[-84.517821,39.129985]}'
-body: >
-  ### Name
-
-  UC Corbett Center for Performing Arts / College Conservatory of Music
-
-  ### Original Owner
-
-  University of Cincinnati
-
-  ### Date of Completion
-
-  1999
-
-  ### Style
-
-  Modern
-
-  ### Interior Accessibility
-
+original_owner: University of Cincinnati
+date_of_completion: "1999"
+style: Modern
+interior_accessibility: >-
   Main entry and circulation spaces are open to the public, and paid
-  performances are offered in all of the major performance spaces. 
-
-  ### Architect
-
-  Pei, Cobb, Freed
-
-  ### Associate Architect
-
-  NBBJ
-
-  ### Original Function
-
-  Conservatory of music and performance arts
-
-  ### Significance
-
+  performances are offered in all of the major performance spaces.
+architect: Pei, Cobb, Freed
+associate_architect: NBBJ
+original_function: Conservatory of music and performance arts
+significance: >-
   The design of the complex weaves together several existing buildings with
   infill structures and landscape treatments to create a cohesive environment or
   "village" as it is known today.  CCM is noted as one of the top music
@@ -51,9 +25,7 @@ body: >
   performance and education spaces commensurate with the college's stature. 
   Major performance spaces include a concert hall, a recital hall, a theatre,
   and a black box performance facility.
-
-  ### Unique Features
-
+unique_features: >-
   The building complex masterfully weaves multiple levels of the camput
   together, and its design reflects the vertical nature of the UC campus.  In
   particular, the new 250-seat Robert J. Werner Recital Hall mitigates between

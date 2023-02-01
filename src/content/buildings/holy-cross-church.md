@@ -8,18 +8,11 @@ images:
   - https://ucarecdn.com/cbb34fc1-9c8e-40e7-92fe-0ecc4d80959c/
   - https://ucarecdn.com/f3bec3fe-403c-4eb1-b417-6fd3c245b06c/
 location: '{"type":"Point","coordinates":[-84.501603,39.048581]}'
-body: |
-  ### Name
-  Holy Cross Church
-  ### Address
+address: |-
   3612 Church St.
   Covington, KY
-  ### Date of Completion
-  1906
-  ### Style
-  German Renaissance
-  ### Architect
-  Anthony Kunz, Jr.
-  ### Historic Status
-  Added to NRHP on April 17, 1986
+date_of_completion: "1906"
+style: German Renaissance
+architect: Anthony Kunz, Jr.
+historic_status: Added to NRHP on April 17, 1986
 ---

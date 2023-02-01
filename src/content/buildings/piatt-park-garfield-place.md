@@ -8,28 +8,14 @@ images:
   - https://ucarecdn.com/5704f238-04b4-4172-9dfc-4303b0be91f1/
   - https://ucarecdn.com/ea85864e-8a53-4dbf-9f27-65a6e9f4239e/
 location: '{"type":"Point","coordinates":[-84.51538800000000,39.10429000000000]}'
-body: >
-  ### Name
-
-  Piatt Park (Garfield Place)
-
-  ### Current Owner
-
-  Cincinnati Park Board
-
-  ### Date of Completion
-
-  1817
-
-  ### Significance
-
+current_owner: Cincinnati Park Board
+date_of_completion: "1817"
+significance: >-
   It is the oldest park in Cincinnati.  Located in the center of the street, the
   park spans two downtown blocks.  John and Benjamin Piatt originally donated
   the land for a public market, but the one located on Sixth Street was deemed
-  too close to make this site viable.  
-
-  ### Unique Features
-
+  too close to make this site viable.
+unique_features: >-
   A bronze statue of James A. Garfield (1887) by Charles Henry Niehaus faces
   Vine Street on the east end of the park, an a second bronze statue of William
   Henry Harrison (1896) by Louis T. Rebisso is located on the west end facing

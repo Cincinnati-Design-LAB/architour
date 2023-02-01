@@ -8,43 +8,16 @@ images:
   - https://ucarecdn.com/108fee7e-8c78-4a1f-b42c-91da6c0eeaee/
   - https://ucarecdn.com/f838c8e0-10d1-40f7-8597-996a7177940b/
 location: '{"type":"Point","coordinates":[-84.51212,39.089716]}'
-body: >
-  ### Name
-
-  Marriott RiverCenter Hotel
-
-  ### Address
-
+address: |-
   10 W Rivercenter Blvd
-
   Covington, KY 41011
-
-  ### Original Owner
-
-  Corporex
-
-  ### Style
-
-  Contemporary
-
-  ### Interior Accessibility
-
-  Handicap accessible
-
-  ### Architect
-
-  KZF Design
-
-  ### Contractor
-
-  Corporex
-
-  ### Original Function
-
-  Hotel
-
-  ### Unique Features
-
+original_owner: Corporex
+style: Contemporary
+interior_accessibility: Handicap accessible
+architect: KZF Design
+contractor: Corporex
+original_function: Hotel
+unique_features: >-
   The building features a 14-story atrium with a 6-story tall gazebo anchoring
   the center of the space.
 ---

@@ -8,47 +8,17 @@ images:
   - https://ucarecdn.com/f00cb091-dad0-4267-b294-5560e702f748/
   - https://ucarecdn.com/a1274ecf-ace0-4d5e-b87c-d4d39abb66e4/
 location: '{"type":"Point","coordinates":[-84.51809,39.076335]}'
-body: >
-  ### Name
-
-  Bavarian Brewing Company
-
-  ### Address
-
+address: |-
   528 W. 12th St.
-
   Covington, KY
-
-  ### Original Owner
-
-  Bavarian Brewery Co. / Meyer-Riedlin Brewery
-
-  ### Current Owner
-
-  Kenton County
-
-  ### Date of Completion
-
-  1906
-
-  ### Style
-
-  Romanesque Revival & Commercial Style with contemporary elements
-
-  ### Architect
-
-  unknown
-
-  ### Historic Status
-
-  Added to NRHP on March 21, 1996
-
-  ### Renovation Date
-
-  2019
-
-  ### Renovation Changes
-
+original_owner: Bavarian Brewery Co. / Meyer-Riedlin Brewery
+current_owner: Kenton County
+date_of_completion: "1906"
+style: Romanesque Revival & Commercial Style with contemporary elements
+architect: unknown
+historic_status: Added to NRHP on March 21, 1996
+renovation_date: "2019"
+renovation_changes: >-
   The building is being renovated to serve as the county administration
   building.
 ---

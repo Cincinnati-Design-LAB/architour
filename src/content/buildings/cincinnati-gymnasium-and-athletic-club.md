@@ -4,44 +4,18 @@ images:
   - https://ucarecdn.com/aaccd010-7ec1-4ffd-b956-4fc13ccd62fc/
   - https://ucarecdn.com/37498ab0-152d-401b-854d-6d24b9e4a397/
 location: '{"type":"Point","coordinates":[-84.51566500000000,39.10268600000000]}'
-body: >
-  ### Name
-
-  Cincinnati Gymnasium & Athletic Club
-
-  ### Address
-
-  111 Shillito Place, Cincinnati, OH 45202
-
-
-  ### Date of Completion
-
-  1902
-
-  ### Style
-
-  Second Renaissance Revival
-
-  ### Architect
-
-  Warner & Atkins
-
-  ### Original Function
-
-  Private athletic club
-
-  ### Significance
-
+address: 111 Shillito Place, Cincinnati, OH 45202
+date_of_completion: "1902"
+style: Second Renaissance Revival
+architect: Warner & Atkins
+original_function: Private athletic club
+significance: >-
   When completed, the building was considered one of the finest athletic
   facilities in the country.
-
-  ### Historic Status
-
+historic_status: >-
   Listed on the NRHP on February 17, 1983 and part of the Race Street Historic
   District
-
-  ### Unique Features
-
+unique_features: >-
   The club was founded in 1853, and Rutherford B. Hayes was one of its founding
   members.
 ---

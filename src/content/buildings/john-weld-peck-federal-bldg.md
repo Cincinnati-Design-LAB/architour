@@ -6,37 +6,13 @@ images:
   - https://ucarecdn.com/b8114fdb-e0b0-40ce-b79c-4abdd3e6120c/
   - https://ucarecdn.com/3d287d6c-0e29-4734-ada8-bc3a20765a30/
 location: '{"type":"Point","coordinates":[-84.5095669,39.1025458]}'
-body: >
-  ### Name
-
-  John Weld Peck Federal Building
-
-  ### Address
-
-  550 Main St., Cincinnati, Ohio
-
-  ### Date of Completion
-
-  1962
-
-  ### Style
-
-  Twentieth Century Modern
-
-  ### Architect
-
-  Potter, Tyler, Martin & Roth
-
-  ### Associate Architect
-
-  Harry Hake & Partners
-
-  ### Original Function
-
-  Federal government offices
-
-  ### Significance
-
+address: 550 Main St., Cincinnati, Ohio
+date_of_completion: "1962"
+style: Twentieth Century Modern
+architect: Potter, Tyler, Martin & Roth
+associate_architect: Harry Hake & Partners
+original_function: Federal government offices
+significance: >-
   The building is named after th 117th Justice of the Supreme Court  of Ohio and
   a justice on the US Court of Appeals for the Sixth Circuit in Cincinnati.
 ---

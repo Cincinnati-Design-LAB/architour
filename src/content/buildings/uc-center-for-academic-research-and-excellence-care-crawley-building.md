@@ -8,43 +8,18 @@ images:
   - https://ucarecdn.com/488b7f64-b16e-46c1-ab7b-e0467b801683/
   - https://ucarecdn.com/14dfcfc2-ff5e-440f-9f8d-1b29f223b371/
 location: '{"type":"Point","coordinates":[-84.50453,39.138886]}'
-body: >
-  ### Name
-
-  UC Center for Academic Research & Excellence (CARE) / Crawley Building
-
-  ### Original Owner
-
-  University of Cincinnati
-
-  ### Date of Completion
-
-  2008
-
-  ### Architect
-
-  Studios Architecture
-
-  ### Associate Architect
-
-  Harley Ellis Devereaux
-
-  ### Original Function
-
+original_owner: University of Cincinnati
+date_of_completion: "2008"
+architect: Studios Architecture
+associate_architect: Harley Ellis Devereaux
+original_function: >-
   Laboratory and research facility to support the medical education community in
   a collaborative setting that brings faculty, students and clinicians together.
-
-  ### Significance
-
+significance: >-
   The building design won the 2002 American Architecture Award from the Chicago
   Athenaeum.
-
-  ### Unique Features
-
+unique_features: >-
   The building has a nine story day-lighted atrium spanned by 7 glass bridges
   and connects to the Medical Sciences Building.
-
-  ### Green Building Features
-
-  The building was designed to meet LEED Silver standards.
+green_building_features: The building was designed to meet LEED Silver standards.
 ---

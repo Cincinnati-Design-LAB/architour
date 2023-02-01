@@ -8,45 +8,20 @@ images:
   - https://ucarecdn.com/d139f7ea-cf4c-4237-84e1-7929df9285c4/
   - https://ucarecdn.com/1da9a88c-f83f-48e3-8791-3ad24889e305/
 location: '{"type":"Point","coordinates":[-84.49276400000000,39.10638900000000]}'
-body: >
-  ### Name
-
-  Theodore M Berry International Friendship Park
-
-  ### Address
-
-  1135 Riverside Dr., Cincinnati, OH  45202
-
-  ### Original Owner
-
-  Cincinnati Parks Board
-
-  ### Date of Completion
-
-  2003
-
-  ### Architect
-
-  Fearing & Hagenauer
-
-  ### Associate Architect
-
-  EDAW, Human Nature (landscape architecture)
-
-  ### Original Function
-
+address: 1135 Riverside Dr., Cincinnati, OH  45202
+original_owner: Cincinnati Parks Board
+date_of_completion: "2003"
+architect: Fearing & Hagenauer
+associate_architect: EDAW, Human Nature (landscape architecture)
+original_function: >-
   An extension of Cincinnati's riverfront park system, the park includes a bike
   trail and walking paths including scupture and floral gardens
-
-  ### Significance
-
+significance: >-
   Named after Cincinnati's first African-American mayor, the park was designed
   to promote global understanding and unity through floral and sculptural
   displays from 5 different continents.  Two intertwining paths allow visitors
   to continually cross paths to share a common experience.
-
-  ### Unique Features
-
+unique_features: >-
   Sculpture in the park includes an International Mosaics display, a Crystalline
   Tower, a Munich Pavilion "Castle of Air", and Seven Vessels
   Ascending/Descending.

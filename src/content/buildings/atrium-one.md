@@ -8,33 +8,12 @@ images:
   - https://ucarecdn.com/ce0a5091-6c79-43b6-8b2d-61c419fae295/
   - https://ucarecdn.com/ed53ea9b-e0ac-4a8d-bd3f-2e7ef328514a/
 location: '{"type":"Point","coordinates":[-84.5088439,39.1001257]}'
-body: >
-  ### Name
-
-  Atrium One
-
-  ### Address
-
-  201 E. Fourth St., Cincinnati, Ohio  45202
-
-  ### Current Owner
-
-  Smith/Hallemann Partners
-
-  ### Date of Completion
-
-  1981
-
-  ### Style
-
-  International
-
-  ### Architect
-
-  SOM
-
-  ### Significance
-
+address: 201 E. Fourth St., Cincinnati, Ohio  45202
+current_owner: Smith/Hallemann Partners
+date_of_completion: "1981"
+style: International
+architect: SOM
+significance: >-
   The building is organized around a series of stacked 4-story atria in the
   manner of their office  building in Chicago.   The atria have glass walls on
   their south exposure overlooking the river and Kentucky.  It also marked the

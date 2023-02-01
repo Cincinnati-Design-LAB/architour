@@ -8,41 +8,14 @@ images:
   - https://ucarecdn.com/7e70d1f8-da75-4fb1-946f-e62d10d2b27e/
   - https://ucarecdn.com/7266533f-e70e-49c6-99d2-b6b80ad0da17/
 location: '{"type":"Point","coordinates":[-84.516419,39.132216]}'
-body: >
-  ### Name
-
-  UC Steger Student Life Center
-
-  ### Original Owner
-
-  University of Cincinnati
-
-  ### Date of Completion
-
-  2004
-
-  ### Style
-
-  Modern
-
-  ### Interior Accessibility
-
-  The facility is open to public access.
-
-  ### Architect
-
-  Moore Ruble Yudel
-
-  ### Associate Architect
-
-  Glaserworks
-
-  ### Original Function
-
-  A place for students to meet, eat and work together.
-
-  ### Significance
-
+original_owner: University of Cincinnati
+date_of_completion: "2004"
+style: Modern
+interior_accessibility: The facility is open to public access.
+architect: Moore Ruble Yudel
+associate_architect: Glaserworks
+original_function: A place for students to meet, eat and work together.
+significance: >-
   The 40-foot wide building wraps around the Engineering College creating the
   north edge of the new Main Steet leading to the center of the campus.
 ---

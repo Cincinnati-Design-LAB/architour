@@ -6,37 +6,13 @@ images:
   - https://ucarecdn.com/29963728-ac25-4792-bb36-cdb0458f5e65/
   - https://ucarecdn.com/ce4e3638-2a1f-40ef-839b-c45171066af5/
 location: '{"type":"Point","coordinates":[-84.5112311,39.0978]}'
-body: >
-  ### Name
-
-  National Underground Railroad Freedom Center
-
-  ### Address
-
-  50 E. Freedom Way, Cincinnati, Ohio 45202
-
-  ### Date of Completion
-
-  2004
-
-  ### Interior Accessibility
-
-  The museum is open to the public.
-
-  ### Architect
-
-  Blackburn Architects
-
-  ### Associate Architect
-
-  BOORA Architects, Alexander-Camabeam & Associates
-
-  ### Original Function
-
-  The museum focuses on the history of slavery and the underground railroad.
-
-  ### Significance
-
+address: 50 E. Freedom Way, Cincinnati, Ohio 45202
+date_of_completion: "2004"
+interior_accessibility: The museum is open to the public.
+architect: Blackburn Architects
+associate_architect: BOORA Architects, Alexander-Camabeam & Associates
+original_function: The museum focuses on the history of slavery and the underground railroad.
+significance: >-
   The building is designed in 3 sections that symbolically represent the three
   Constitutional Amendments that led to the end of slavery, and the winding
   spaces between the masses represent the perilous paths that slaves took to
