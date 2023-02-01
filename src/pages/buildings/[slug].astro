@@ -1,6 +1,8 @@
 ---
 import { getCollection } from 'astro:content'
-// 1. Generate a new path for every collection entry
+
+import Layout from '../../layouts/Layout.astro'
+
 export async function getStaticPaths() {
   const buildingsEntries = await getCollection('buildings')
   return buildingsEntries.map((entry) => ({
@@ -8,11 +10,13 @@ export async function getStaticPaths() {
     props: { entry },
   }))
 }
-// 2. When it's time to render, you can get the entry directly from the prop
+
 const { entry } = Astro.props
 const { Content } = await entry.render()
 ---
 
-<h1>{entry.data.title}</h1>
+<Layout>
+  <h1>{entry.data.title}</h1>
 
-<Content />
+  <Content />
+</Layout>

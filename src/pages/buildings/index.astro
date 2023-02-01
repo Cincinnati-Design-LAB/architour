@@ -1,17 +1,21 @@
 ---
 import { getCollection } from 'astro:content'
 
+import Layout from '../../layouts/Layout.astro'
+
 const buildingsEntries = await getCollection('buildings')
 ---
 
-<h1>Buildings</h1>
+<Layout>
+  <h1>Buildings</h1>
 
-<ul>
-  {
-    buildingsEntries.map((building) => (
-      <li>
-        <a href={`/buildings/${building.slug}`}>{building.data.title}</a>
-      </li>
-    ))
-  }
-</ul>
+  <ul>
+    {
+      buildingsEntries.map((building) => (
+        <li>
+          <a href={`/buildings/${building.slug}`}>{building.data.title}</a>
+        </li>
+      ))
+    }
+  </ul>
+</Layout>
