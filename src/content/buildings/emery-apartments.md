@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/115b4d95-b9d3-401c-9af3-8d35249c76cf/
   - https://ucarecdn.com/a4474c79-42fc-4154-809c-c1375d0d7804/
   - https://ucarecdn.com/dc5f857f-e740-4d19-8eb6-8cffc8754bc2/
-location: '{"type":"Point","coordinates":[-84.51245,39.1077]}'
+location:
+  lat: 39.1077
+  lng: -84.51245
 address: 100 E. Central Pkwy, Cincinnati, Ohio
 original_owner: Ohio Mechanics' Institute
 date_of_completion: "1909"

@@ -1,7 +1,9 @@
 ---
 title: The Opthalmic Hospital
 images: []
-location: '{"type":"Point","coordinates":[-84.51876600000003,39.10789800000001]}'
+location:
+  lat: 39.10789800000001
+  lng: -84.51876600000003
 address: 210 W. Twelfth St., Cincinnati, OH  45202
 date_of_completion: "1891"
 style: Greek Revival

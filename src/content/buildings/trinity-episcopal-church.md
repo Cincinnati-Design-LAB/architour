@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/177a3d3b-cf1f-4a8e-ae5e-0cb76afbb040/
   - https://ucarecdn.com/55c80d0d-fd5c-4a39-9310-571e13b98d10/
   - https://ucarecdn.com/9f0bf989-cfe0-4535-8d1f-db7d0a226a9e/
-location: '{"type":"Point","coordinates":[-84.51109,39.087562]}'
+location:
+  lat: 39.087562
+  lng: -84.51109
 address: |-
   326 Madison Ave.
   Covington, KY

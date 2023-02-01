@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/7780e2f2-54b9-4fd3-97c5-799afbccdf2b/
   - https://ucarecdn.com/2085a4cc-f201-4dd1-8610-94e5fe52f8a0/
   - https://ucarecdn.com/b768a64a-eeb7-4c5e-a5f2-2f89554caf49/
-location: '{"type":"Point","coordinates":[-84.51830999999998,39.103717]}'
+location:
+  lat: 39.103717
+  lng: -84.51830999999999
 address: 720 Plum St., Cincinnati, OH  45202
 date_of_completion: "1867"
 style: Moorish Byzantine Victorian

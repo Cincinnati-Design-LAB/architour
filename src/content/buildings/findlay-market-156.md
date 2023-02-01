@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/3966b519-5ade-4352-b53a-512df956fd80/
   - https://ucarecdn.com/558b0d6a-2d60-4935-93e8-c01b14e9f5a6/
   - https://ucarecdn.com/8a664bb0-954a-49f9-aba6-76823a8a1605/
-location: '{"type":"Point","coordinates":[-84.5184,39.1154]}'
+location:
+  lat: 39.1154
+  lng: -84.5184
 address: 1801 Race Street, Cincinnati, Ohio 45202
 date_of_completion: "1855"
 architect: Alfred West Gilbert

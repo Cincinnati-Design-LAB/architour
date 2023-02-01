@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/57ea969f-635c-4c71-8189-f4b92f6ce8c1/
   - https://ucarecdn.com/f9ed1e91-5ae5-4906-9151-077880833a9a/
   - https://ucarecdn.com/0858de43-ff6a-48bd-a79f-98c97850528f/
-location: '{"type":"Point","coordinates":[-84.513029,39.133435]}'
+location:
+  lat: 39.133435
+  lng: -84.513029
 original_owner: University of Cincinnati
 interior_accessibility: >-
   The tower is located in the Sigma Sigma Commons and can be viewed at all times

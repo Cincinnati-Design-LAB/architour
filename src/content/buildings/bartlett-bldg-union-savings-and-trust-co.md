@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/bd443633-f395-44f9-91f7-861a59f6d7cf/
   - https://ucarecdn.com/0daaf366-5a04-4f25-a93e-9e2218446718/
   - https://ucarecdn.com/d8243faa-7fb0-422c-be42-d3d9122fb803/
-location: '{"type":"Point","coordinates":[-84.5114735,39.1002853]}'
+location:
+  lat: 39.1002853
+  lng: -84.5114735
 address: 36 E.Fourth St., Cincinnati, Ohio
 original_owner: Union Savings & Trust Co.
 current_owner: Renaissance Hotel

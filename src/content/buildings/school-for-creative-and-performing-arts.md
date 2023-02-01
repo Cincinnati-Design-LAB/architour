@@ -5,7 +5,9 @@ title: >-
 images:
   - https://ucarecdn.com/456edf94-e98f-4195-a803-7db93e31471e/
   - https://ucarecdn.com/9e2e8d10-6dc0-425a-8415-3d9e7f5d2a7b/
-location: '{"type":"Point","coordinates":[-84.5168543,39.1071974]}'
+location:
+  lat: 39.1071974
+  lng: -84.5168543
 address: 108 West Central Parkway, Cincinnati, OH 45202
 original_owner: Cincinnati Public Schools
 date_of_completion: "2010"

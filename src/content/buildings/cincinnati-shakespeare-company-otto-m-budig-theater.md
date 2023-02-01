@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/33f23d7c-bb3e-43c1-b31a-14f71120955a/
   - https://ucarecdn.com/137d9b30-f266-43a3-bac6-5b87e4e2e8ab/
   - https://ucarecdn.com/fc96521e-6a5a-4abd-83b6-9e21c1a93829/
-location: '{"type":"Point","coordinates":[-84.518113,39.107753]}'
+location:
+  lat: 39.107753
+  lng: -84.518113
 address: |-
   1195 Elm St.
   Cincinnati, OH

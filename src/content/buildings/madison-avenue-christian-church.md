@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/9a1518ea-7307-4776-a012-dcafbd3f33eb/
   - https://ucarecdn.com/f9bcb062-99d6-41dc-af0c-33dce0bc8058/
   - https://ucarecdn.com/2bbc2871-c280-4f58-8d6d-46a7c55b6346/
-location: '{"type":"Point","coordinates":[-84.507265,39.072938]}'
+location:
+  lat: 39.072938
+  lng: -84.507265
 address: |-
   1530 Madison Ave.
   Covington, KY

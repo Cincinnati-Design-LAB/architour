@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/31798343-3ba4-4285-ba7c-67df070b8adc/
   - https://ucarecdn.com/5a96f3a1-e78c-45f6-a77d-2e11a611b4ea/
   - https://ucarecdn.com/5bcf42e1-c12a-4432-a6ef-976839d7eabd/
-location: '{"type":"Point","coordinates":[-84.506243,39.082053]}'
+location:
+  lat: 39.082053
+  lng: -84.506243
 address: |-
   834 Greenup St.
   Covington, KY

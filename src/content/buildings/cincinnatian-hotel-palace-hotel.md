@@ -3,7 +3,9 @@ title: Cincinnatian Hotel (Palace Hotel)
 images:
   - https://ucarecdn.com/675a3405-f39b-4be5-95ec-c7b7852e55b9/
   - https://ucarecdn.com/989e00bb-42e5-46f9-b890-eaa9e41031d0/
-location: '{"type":"Point","coordinates":[-84.51382200000000,39.10246400000000]}'
+location:
+  lat: 39.102464
+  lng: -84.513822
 address: 601 Vine St., Cincinnati, OH  45202
 original_owner: Thomas Emery & Sons
 current_owner: American Financial Group

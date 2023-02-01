@@ -3,7 +3,9 @@ title: Otto Armleder Memorial Aquatic Fountain
 images:
   - https://ucarecdn.com/7440c108-0dda-4f12-be93-5ae684edabd4/
   - https://ucarecdn.com/507f89cf-3c06-4b68-8df9-1d09d3f042a4/
-location: '{"type":"Point","coordinates":[-84.502241,39.098968]}'
+location:
+  lat: 39.098968
+  lng: -84.502241
 address: 472 E Pete Rose Way, Cincinnati, OH 45202
 original_owner: Cincinnati Parks Board
 date_of_completion: "1976"

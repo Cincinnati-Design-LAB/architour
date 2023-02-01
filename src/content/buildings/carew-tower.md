@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/8d05920d-602e-4118-b17f-3e53239b34a5/
   - https://ucarecdn.com/3d4c041f-35ca-4e7a-b1d4-ef326deb5c89/
   - https://ucarecdn.com/ab8be8b0-883e-43e4-a437-77c33c853931/
-location: '{"type":"Point","coordinates":[-84.513238,39.100836]}'
+location:
+  lat: 39.100836
+  lng: -84.513238
 address: 441 Vine St., Cincinnati, OH  45202
 date_of_completion: "1930"
 style: American Modern with Art Deco motifs

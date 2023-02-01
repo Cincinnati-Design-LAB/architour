@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/fa3c143a-f918-43ee-b42f-7291b9a5f8ea/
   - https://ucarecdn.com/61c93fe2-d552-4fb6-a761-8b8547f4f03d/
   - https://ucarecdn.com/cc11f26b-c721-4e6d-9667-f7cf685634c3/
-location: '{"type":"Point","coordinates":[-84.500294,39.101132]}'
+location:
+  lat: 39.101132
+  lng: -84.500294
 original_owner: >-
   Newport & Cincinnati Bridge Company (purchased in 1904 by the Louisville &
   Nashville Railroad - L&N)

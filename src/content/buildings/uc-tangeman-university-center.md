@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/cc860877-38a4-4c7f-9683-9f0d27610a53/
   - https://ucarecdn.com/429a013d-60ce-4918-8e79-f4d262397bc5/
   - https://ucarecdn.com/98169bac-3a8d-495c-9ae7-f41742ee3a03/
-location: '{"type":"Point","coordinates":[-84.51777200000000,39.13176300000000]}'
+location:
+  lat: 39.131763
+  lng: -84.517772
 original_owner: University of Cincinnati
 date_of_completion: "1935"
 style: Neo-Federal

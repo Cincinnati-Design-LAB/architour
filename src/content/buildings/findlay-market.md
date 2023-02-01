@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/728ca004-c9d6-409f-a60e-139a3d545fec/
   - https://ucarecdn.com/fa89db04-dbe4-4c79-a268-58e420cfb84d/
   - https://ucarecdn.com/a7e33fc3-6bee-4e4c-83bc-6fa4dacd2aac/
-location: '{"type":"Point","coordinates":[-84.5197,39.11520]}'
+location:
+  lat: 39.1152
+  lng: -84.5197
 address: 1802 Elm Street, Cincinnati, Ohio
 date_of_completion: "1855"
 architect: Alfred West Gilbert

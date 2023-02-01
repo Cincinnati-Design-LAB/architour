@@ -3,7 +3,9 @@ title: Lytle Park
 images:
   - https://ucarecdn.com/5aae2e28-6c48-4f99-b3af-994d82b22c85/
   - https://ucarecdn.com/5d1e32c7-9bdb-43cf-aca8-bdf694ae7312/
-location: '{"type":"Point","coordinates":[-84.5041236,39.10120]}'
+location:
+  lat: 39.1012
+  lng: -84.5041236
 address: Fourth & Pike Streets, Cincinnati, OH  45202
 original_owner: William Lytle, Survyor General of the Northwest Territory
 current_owner: City of Cincinnati

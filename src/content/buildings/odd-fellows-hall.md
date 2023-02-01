@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/2fb5da5e-5bca-4575-9567-934c3b9c932d/
   - https://ucarecdn.com/e309ee7e-0a03-4391-9de2-41ebfecef3ee/
   - https://ucarecdn.com/aa4749ae-842c-493c-9b8a-a87c615e4cde/
-location: '{"type":"Point","coordinates":[-84.510666,39.086046]}'
+location:
+  lat: 39.086046
+  lng: -84.510666
 address: |-
   434 Madison Ave.
   Covington, KY

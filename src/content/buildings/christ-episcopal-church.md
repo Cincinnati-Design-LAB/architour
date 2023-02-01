@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/1c1dbd04-2be3-427e-9ef2-3d706655f38e/
   - https://ucarecdn.com/5a256182-1e2a-4958-99ae-5362755e114b/
   - https://ucarecdn.com/4dd54a74-0f03-42e3-95cd-420c6759dd33/
-location: '{"type":"Point","coordinates":[-84.507448,39.100922]}'
+location:
+  lat: 39.100922
+  lng: -84.507448
 address: 318 E. Fourth St., Cincinnati, OH  45202
 original_owner: Episcopal Diocese of Southern Ohio
 date_of_completion: "1957"

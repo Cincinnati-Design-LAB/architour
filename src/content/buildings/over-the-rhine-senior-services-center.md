@@ -1,7 +1,9 @@
 ---
 title: Over-the-Rhine Senior Services Center
 images: []
-location: '{"type":"Point","coordinates":[-84.51717,39.1146185]}'
+location:
+  lat: 39.1146185
+  lng: -84.51717
 address: 1715 Republic Street, Cincinnati, Ohio
 architect: Woollen, Molzan and Partners
 significance: >-

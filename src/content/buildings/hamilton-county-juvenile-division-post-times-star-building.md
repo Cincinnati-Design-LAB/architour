@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/8809780c-7a23-49ef-949e-5275ca408623/
   - https://ucarecdn.com/b5f03754-cc40-4277-acd8-5f29cfc4e1c4/
   - https://ucarecdn.com/c6eca5cd-b947-4605-ab37-670dd7abf68b/
-location: '{"type":"Point","coordinates":[-84.50719900000000,39.10569200000000]}'
+location:
+  lat: 39.105692
+  lng: -84.507199
 address: 800 Broadway St., Cincinnati, OH  45202
 original_owner: Cincinnati Times Star
 current_owner: Hamilton County

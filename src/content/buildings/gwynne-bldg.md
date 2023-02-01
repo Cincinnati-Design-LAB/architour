@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/d7efa329-b6ce-4222-a93a-60e9b8bf5c0e/
   - https://ucarecdn.com/427a2274-bab4-408a-844b-bc3c4ab073fd/
   - https://ucarecdn.com/7640cac2-e100-4149-9b89-63af3230bdfd/
-location: '{"type":"Point","coordinates":[-84.5097,39.1031535]}'
+location:
+  lat: 39.1031535
+  lng: -84.5097
 address: 602 Main St., Cincinnati, Ohio 45202
 date_of_completion: "1913"
 style: Beaux Arts

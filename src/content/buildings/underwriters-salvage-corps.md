@@ -3,7 +3,9 @@ title: Underwriters Salvage Corps
 images:
   - https://ucarecdn.com/749656d1-6661-4ca2-af59-60353ae01ad2/
   - https://ucarecdn.com/1ca32fbe-5f6d-417c-af44-7386b7aeeaa1/
-location: '{"type":"Point","coordinates":[-84.51154700000000,39.10488900000000]}'
+location:
+  lat: 39.104889
+  lng: -84.511547
 address: 110 E. Eighth St., Cincinnati, OH  45202
 original_owner: Underwriters Salvage Corps
 date_of_completion: "1889"

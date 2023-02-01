@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/423c5957-76cc-4f94-b33a-5171e6c8b1a6/
   - https://ucarecdn.com/f00cb091-dad0-4267-b294-5560e702f748/
   - https://ucarecdn.com/a1274ecf-ace0-4d5e-b87c-d4d39abb66e4/
-location: '{"type":"Point","coordinates":[-84.51809,39.076335]}'
+location:
+  lat: 39.076335
+  lng: -84.51809
 address: |-
   528 W. 12th St.
   Covington, KY

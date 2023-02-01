@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/370380ba-834a-4807-9011-7dc8733b78cd/
   - https://ucarecdn.com/53fee384-120b-406e-ba89-c84936158d4a/
   - https://ucarecdn.com/843f9adc-7df1-408e-a291-74d39a03c15c/
-location: '{"type":"Point","coordinates":[-84.517005,39.105035]}'
+location:
+  lat: 39.105035
+  lng: -84.517005
 address: 140 W. Ninth St., Cincinnati, OH  45202
 original_owner: The Elks
 current_owner: Cincinnati Hills Christian Academy

@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/211d4775-ffc8-4c43-970c-42f315a6f791/
   - https://ucarecdn.com/16bdc611-3fdf-4519-ac39-c5f1779f046e/
   - https://ucarecdn.com/01761383-d678-4459-ab35-8fccc40757d5/
-location: '{"type":"Point","coordinates":[-84.511398,39.095305]}'
+location:
+  lat: 39.095305
+  lng: -84.511398
 original_owner: Cincinnati Parks Board
 date_of_completion: 2012 (phase 1)
 architect: Sasaki Associates

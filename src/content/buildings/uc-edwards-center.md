@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/d86bede6-2fa8-4300-9e8d-1a42c96b49f3/
   - https://ucarecdn.com/7b507f35-ab79-425c-af27-57e37324eb84/
   - https://ucarecdn.com/5915bdbd-b5ac-4735-8a60-b5a87259d3d0/
-location: '{"type":"Point","coordinates":[-84.512199,39.129217]}'
+location:
+  lat: 39.129217
+  lng: -84.512199
 address: |-
   1 Corry Blvd.
   Cincinnati, OH  45219

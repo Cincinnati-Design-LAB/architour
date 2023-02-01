@@ -3,7 +3,9 @@ title: 84.51/dunnhumby
 images:
   - https://ucarecdn.com/21b4225e-c684-4513-a19d-4912113f2978/
   - https://ucarecdn.com/a523cf67-f1be-4238-bf2e-383b706215a6/
-location: '{"type":"Point","coordinates":[-84.51517520000000,39.10152960000000]}'
+location:
+  lat: 39.1015296
+  lng: -84.5151752
 address: 100 W. Fifth St., Cincinnati, OH
 original_owner: dunnhumby USA
 date_of_completion: "2015"

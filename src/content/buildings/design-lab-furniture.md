@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/3537a69e-dc9e-4a69-80a6-2430628e2a64/
   - https://ucarecdn.com/5a626dc7-40c4-457a-88db-db079b7bf42e/
   - https://ucarecdn.com/13eab742-20a3-463f-845f-3d163237e355/
-location: '{"type":"Point","coordinates":[-84.51865800000000,39.11013400000000]}'
+location:
+  lat: 39.110134
+  lng: -84.518658
 address: |-
   1401 Elm St.
   Cincinnati, OH  45202

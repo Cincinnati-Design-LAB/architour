@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/095a00d3-b548-412a-baa5-3da6572233a9/
   - https://ucarecdn.com/ad9dedbf-57ce-4ee7-bc45-e1aa8398bfab/
   - https://ucarecdn.com/5e80aec8-29bb-4978-9ca4-1b9116de6a50/
-location: '{"type":"Point","coordinates":[-84.5137699999998,39.108722]}'
+location:
+  lat: 39.108722
+  lng: -84.5137699999998
 address: 1212 Jackson St, Cincinnati, OH 45202
 original_owner: >-
   John Shillito Company (1910 building) & Samuel Rosenthal Company (1923

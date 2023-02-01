@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/02f0a376-eb38-476d-a422-80f370f48d0a/
   - https://ucarecdn.com/865cb15b-bd6f-42a8-bdea-9ea19935bbf0/
   - https://ucarecdn.com/6262be51-cf37-41f5-af8d-9c81f58d3a83/
-location: '{"type":"Point","coordinates":[-84.519145,39.109392]}'
+location:
+  lat: 39.109392
+  lng: -84.519145
 address: 1241 Elm St., Cincinnati, Ohio
 original_owner: Music Hall Association
 date_of_completion: 1877-79

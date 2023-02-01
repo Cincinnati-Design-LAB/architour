@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/a8d1ece3-242f-497d-b21b-1f2cd311e636/
   - https://ucarecdn.com/01eb635d-425b-431a-a914-41e908f98153/
   - https://ucarecdn.com/d1508f77-54bf-4ef0-ae40-277e2065d919/
-location: '{"type":"Point","coordinates":[-84.512634,39.084245]}'
+location:
+  lat: 39.084245
+  lng: -84.512634
 address: |-
   119 W Sixth St.
   Covington, KY

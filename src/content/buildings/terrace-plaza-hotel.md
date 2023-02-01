@@ -3,7 +3,9 @@ title: Terrace Plaza Hotel
 images:
   - https://ucarecdn.com/a5258abf-8cc1-4da1-acd2-c6fa7d09c05c/
   - https://ucarecdn.com/c170d4c9-0f07-4ce7-8347-d583b498e410/
-location: '{"type":"Point","coordinates":[-84.51410000000000,39.10223100000000]}'
+location:
+  lat: 39.102231
+  lng: -84.5141
 address: 15 W. Sixth St., Cincinnati, OH  45202
 original_owner: Thomas Emery's Sons
 date_of_completion: "1948"

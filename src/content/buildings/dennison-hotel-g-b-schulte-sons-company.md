@@ -3,7 +3,9 @@ title: Dennison Hotel (G B Schulte Sons Company)
 images:
   - https://ucarecdn.com/9ab2d54d-0c4a-45da-88dc-bee111b0c6bd/
   - https://ucarecdn.com/0c4e18b2-f9e8-4d2a-90c6-86ce4970ad55/
-location: '{"type":"Point","coordinates":[-84.510338,39.104556]}'
+location:
+  lat: 39.104556
+  lng: -84.510338
 address: 716 Main St., Cincinnati, OH  45202
 original_owner: G B Schulte Sons Company
 current_owner: Columbia REI LLC

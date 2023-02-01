@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/f8640a58-2d69-4739-b70a-0e9cd81037c6/
   - https://ucarecdn.com/f1a3fa70-b508-4ca3-aa3d-41b3d43707e9/
   - https://ucarecdn.com/a7de2ceb-b690-4e2e-b0a3-2c672cc492c9/
-location: '{"type":"Point","coordinates":[-84.513078,39.1123]}'
+location:
+  lat: 39.1123
+  lng: -84.513078
 address: |-
   123 E. Liberty St.
   Cincinnati, OH

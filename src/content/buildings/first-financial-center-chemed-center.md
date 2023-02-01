@@ -3,7 +3,9 @@ title: First Financial Center (Chemed Center)
 images:
   - https://ucarecdn.com/767f281d-dbdc-4c63-82df-ed1d60f132b2/
   - https://ucarecdn.com/add31ae5-caf8-4689-91e9-a6431b092b5b/
-location: '{"type":"Point","coordinates":[-84.5083716,39.1016183]}'
+location:
+  lat: 39.1016183
+  lng: -84.5083716
 address: 255 E.Fifth Street, Cincinnati, OH  45202
 original_owner: Hines Interests
 date_of_completion: "1991"

@@ -3,7 +3,9 @@ title: Citadel Building
 images:
   - https://ucarecdn.com/e00aa6e4-ddb5-4b0f-a014-4986998175ea/
   - https://ucarecdn.com/22ba6a76-8396-40ee-8630-aef58916aa4e/
-location: '{"type":"Point","coordinates":[-84.511293,39.104957]}'
+location:
+  lat: 39.104957
+  lng: -84.511293
 address: 114 E. Eighth St., Cincinnati, OH  45202
 original_owner: Salvation Army
 current_owner: Archdiocese of Cincinnati

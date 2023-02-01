@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/1405742d-58be-40d4-8adc-564c9f8b9c35/
   - https://ucarecdn.com/68ec72df-3c74-461a-b1b0-aeaeb0faf35a/
   - https://ucarecdn.com/5bd0473f-26b4-4b0c-b9ab-510626da4f20/
-location: '{"type":"Point","coordinates":[-84.498075,39.101236]}'
+location:
+  lat: 39.101236
+  lng: -84.498075
 address: 705 E. Pete Rose Way, Cincinnati, OH  45202
 original_owner: Cincinnati Parks Board
 date_of_completion: "1977"

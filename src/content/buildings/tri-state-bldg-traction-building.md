@@ -3,7 +3,9 @@ title: Tri State Bldg (Traction Building)
 images:
   - https://ucarecdn.com/f35efcad-334f-450e-b516-1694b452a638/
   - https://ucarecdn.com/a434ed06-def3-47ec-9402-944c00af11fe/
-location: '{"type":"Point","coordinates":[-84.511048,39.101048]}'
+location:
+  lat: 39.101048
+  lng: -84.511048
 address: 432 Walnut St., Cincinnati, Ohio
 date_of_completion: "1902"
 style: Chicago School

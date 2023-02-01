@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/051e769d-4c74-48ca-9b2d-2d719e629a19/
   - https://ucarecdn.com/b0afbe23-4849-4844-a5ae-812fa12843a6/
   - https://ucarecdn.com/e95c2aa7-d399-4421-946c-3926869a01b0/
-location: '{"type":"Point","coordinates":[-84.51654,39.109723]}'
+location:
+  lat: 39.109723
+  lng: -84.51654
 address: 1310 Race St., Cincinnati, Ohio
 date_of_completion: "1881"
 style: Romanesque Revival

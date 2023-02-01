@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/beac64b0-207a-4c8c-9579-da41320d7628/
   - https://ucarecdn.com/69d5704d-7751-4b28-a91c-05f9c0d7bae4/
   - https://ucarecdn.com/1ca03730-ed06-47a0-8b1e-732a6ac038a1/
-location: '{"type":"Point","coordinates":[-84.507025,39.080299]}'
+location:
+  lat: 39.080299
+  lng: -84.507025
 address: |-
   1028 Scott St.
   Covington, KY

@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/80011072-07a1-4168-85f5-0ce9b50aa472/
   - https://ucarecdn.com/be122436-b506-4a81-a41b-f209c2c19fe7/
   - https://ucarecdn.com/c2b9657d-7b0b-4ba8-87f4-4e54fb1ce3fc/
-location: '{"type":"Point","coordinates":[-84.512008,39.132604]}'
+location:
+  lat: 39.132604
+  lng: -84.512008
 address: |-
   45 W. University Ave.
   Cincinnati, OH

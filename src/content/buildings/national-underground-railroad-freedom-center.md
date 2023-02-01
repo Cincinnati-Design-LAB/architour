@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/35613114-a50d-4165-a6e0-c54624928bd6/
   - https://ucarecdn.com/29963728-ac25-4792-bb36-cdb0458f5e65/
   - https://ucarecdn.com/ce4e3638-2a1f-40ef-839b-c45171066af5/
-location: '{"type":"Point","coordinates":[-84.5112311,39.0978]}'
+location:
+  lat: 39.0978
+  lng: -84.5112311
 address: 50 E. Freedom Way, Cincinnati, Ohio 45202
 date_of_completion: "2004"
 interior_accessibility: The museum is open to the public.

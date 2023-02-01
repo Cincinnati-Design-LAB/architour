@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/dcc7c889-d036-490a-b200-4ff9c7aa32a1/
   - https://ucarecdn.com/f6a5a422-90a8-47f5-8bf3-0a10d5ebbd6b/
   - https://ucarecdn.com/27bfa4c9-b782-4028-931e-40d371bb4028/
-location: '{"type":"Point","coordinates":[-84.49705500000000,39.10349200000000]}'
+location:
+  lat: 39.103492
+  lng: -84.497055
 address: 900 Adams Crossing, Cincinnati, OH 45202
 date_of_completion: "1993"
 style: Post-modern

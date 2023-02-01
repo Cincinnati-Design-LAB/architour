@@ -3,7 +3,9 @@ title: Ingalls Building (ACI Building, Transit Building)
 images:
   - https://ucarecdn.com/e63b9589-90a5-4a65-aafc-8ede6aed65e6/
   - https://ucarecdn.com/da31de2c-7aed-4a7c-9a7d-382247003cba/
-location: '{"type":"Point","coordinates":[-84.5125,39.100135]}'
+location:
+  lat: 39.100135
+  lng: -84.5125
 address: 2 E. Fourth St., Cincinnati, OH  45202
 original_owner: Melville E. Ingalls, Merchant National Bank
 current_owner: Claremont Group

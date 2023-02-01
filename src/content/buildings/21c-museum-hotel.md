@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/90eb3666-779e-4633-9111-630d06eb3da0/
   - https://ucarecdn.com/139d762e-94d1-4387-a514-397efa2adfab/
   - https://ucarecdn.com/d768accc-7a6f-4a05-b980-f8fe75f89495/
-location: '{"type":"Point","coordinates":[-84.5120005,39.1030545]}'
+location:
+  lat: 39.1030545
+  lng: -84.5120005
 address: 609 Walnut St., Cincinnati, Ohio
 original_owner: Metropole Hotel
 current_owner: 21C Museum Hotel

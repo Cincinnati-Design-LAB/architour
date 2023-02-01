@@ -3,7 +3,9 @@ title: Fourth National Bank Building
 images:
   - https://ucarecdn.com/d143d729-bf66-49bc-b599-036154cde280/
   - https://ucarecdn.com/8237f007-35f7-4eb3-ad91-f3f6a5f3ebde/
-location: '{"type":"Point","coordinates":[-84.51201,39.1002]}'
+location:
+  lat: 39.1002
+  lng: -84.51201
 address: 18 E. Fourth St, Cincinnati, OH  45202
 date_of_completion: "1902"
 style: Chicago School

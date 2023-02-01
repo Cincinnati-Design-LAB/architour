@@ -3,7 +3,9 @@ title: Anderson Pavilion
 images:
   - https://ucarecdn.com/fcd02c65-8f29-4414-a9a4-470225ff4e17/
   - https://ucarecdn.com/5cedea8a-9e2d-4519-bb9f-55b085311685/
-location: '{"type":"Point","coordinates":[-84.511192,39.095912]}'
+location:
+  lat: 39.095912
+  lng: -84.511192
 address: 8 E Mehring Way, Cincinnati, OH  45202
 original_owner: Cincinnati Parks Board
 date_of_completion: "2015"

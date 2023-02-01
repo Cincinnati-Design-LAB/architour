@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/34ea77e3-3257-4e6d-869c-ee9075ad77f5/
   - https://ucarecdn.com/6a1ab425-daff-45e0-8e9c-d212cf383d2e/
   - https://ucarecdn.com/2ea9ad79-e670-4740-a3a6-108fb85af6ee/
-location: '{"type":"Point","coordinates":[-84.512049,39.065871]}'
+location:
+  lat: 39.065871
+  lng: -84.512049
 address: |-
   W. 19th St at Howell
   Covington, KY

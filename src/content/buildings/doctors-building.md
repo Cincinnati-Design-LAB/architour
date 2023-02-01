@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/97a1f89f-3358-4779-9ee0-f330d3834b86/
   - https://ucarecdn.com/1c204705-9eeb-4c55-a832-37cb22e6e11e/
   - https://ucarecdn.com/180e94b2-e5d9-4dcb-a35f-c83e1bf585ef/
-location: '{"type":"Point","coordinates":[-84.51462900000000,39.10419600000000]}'
+location:
+  lat: 39.104196
+  lng: -84.514629
 address: 19 Garfield Place, Cincinnati, OH  45202
 date_of_completion: "1923"
 style: Late Gothic Revival

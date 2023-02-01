@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/8d560302-7270-4d35-b3ab-754dc16c1688/
   - https://ucarecdn.com/9275c178-f803-40ce-b853-b05c1118e352/
   - https://ucarecdn.com/dccddec4-38c0-46f2-83b6-969077282fef/
-location: '{"type":"Point","coordinates":[-84.514231,39.103519]}'
+location:
+  lat: 39.103519
+  lng: -84.514231
 address: 19 W. Seventh St., Cincinnati, OH  45202
 original_owner: Federated Department Stores
 current_owner: Macy's

@@ -3,7 +3,9 @@ title: Cincinnati Chamber of Commerce Building
 images:
   - https://ucarecdn.com/92f49d8f-7880-42ee-aa3c-fd580913b9ef/
   - https://ucarecdn.com/3f83ae7f-66c6-4555-9371-461d7a074ee4/
-location: '{"type":"Point","coordinates":[-84.51297700000000,39.09965400000000]}'
+location:
+  lat: 39.099654
+  lng: -84.512977
 address: 1 W. Fourth St., Cincinnati, OH  45202
 original_owner: Cincinnati Chamber of Commerce
 date_of_completion: "1886"

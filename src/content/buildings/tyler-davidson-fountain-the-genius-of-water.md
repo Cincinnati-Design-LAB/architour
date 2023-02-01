@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/6fc926b2-cd8b-4c15-a180-9d7d75851d3b/
   - https://ucarecdn.com/6e1ce498-2cfe-4c1d-9468-7ef007efe119/
   - https://ucarecdn.com/b4edb790-196a-46d8-8931-391250c8c799/
-location: '{"type":"Point","coordinates":[-84.5124,39.10155]}'
+location:
+  lat: 39.10155
+  lng: -84.5124
 address: Fountain Square, Cincinnati, OH  45202
 original_owner: City of Cincinnati
 date_of_completion: "1871"

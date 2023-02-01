@@ -3,7 +3,9 @@ title: Fifth Third Center (Dubois Tower)
 images:
   - https://ucarecdn.com/78ab5bd5-540c-40a3-b78b-6b0f61c84308/
   - https://ucarecdn.com/dbe0c6f8-7ef0-4587-af60-b0f78e9e9048/
-location: '{"type":"Point","coordinates":[-84.5117254,39.10155]}'
+location:
+  lat: 39.10155
+  lng: -84.5117254
 address: 511 Walnut, Cincinnati, Ohio
 original_owner: Fifth Third Bank
 date_of_completion: "1970"

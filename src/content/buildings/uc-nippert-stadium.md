@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/8fa5d722-dab8-481b-b375-ee2f3382095e/
   - https://ucarecdn.com/29b3d9d9-04db-43a0-9ee2-22b826daea3b/
   - https://ucarecdn.com/d47ea023-55ca-48ba-818e-4b4c479c456b/
-location: '{"type":"Point","coordinates":[-84.515327,39.130857]}'
+location:
+  lat: 39.130857
+  lng: -84.515327
 original_owner: University of Cincinnati
 architect: Frederick W. Garber
 original_function: Football stadium

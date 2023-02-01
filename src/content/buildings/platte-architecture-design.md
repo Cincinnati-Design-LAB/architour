@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/50baa29c-7b98-4585-a7e7-d388a8a414be/
   - https://ucarecdn.com/ce77a5b1-6287-44d8-90d8-579ca45f606f/
   - https://ucarecdn.com/f732fa35-9a87-4386-ae35-aa6f35532972/
-location: '{"type":"Point","coordinates":[-84.520257,39.11516]}'
+location:
+  lat: 39.11516
+  lng: -84.520257
 address: |-
   202 W. Elder St.
   Cincinnati, OH

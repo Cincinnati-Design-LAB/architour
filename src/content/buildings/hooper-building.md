@@ -3,7 +3,9 @@ title: Hooper Building
 images:
   - https://ucarecdn.com/77110978-f8e1-40da-aacd-cb4fd713e799/
   - https://ucarecdn.com/ec893b4b-54c1-414e-b1fd-4faafe9c53db/
-location: '{"type":"Point","coordinates":[-84.51539,39.099251]}'
+location:
+  lat: 39.099251
+  lng: -84.51539
 address: 139 W. Fourth St., Cincinnati, OH  45202
 date_of_completion: "1893"
 style: Queen Anne

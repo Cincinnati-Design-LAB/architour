@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/30dc5709-5050-4af2-8911-68fbfd5a1074/
   - https://ucarecdn.com/3499303f-932e-472e-ad46-999addfb2f6e/
   - https://ucarecdn.com/e834f14d-8691-4f26-8a8d-9d62705cf4b6/
-location: '{"type":"Point","coordinates":[-84.50758,39.086167]}'
+location:
+  lat: 39.086167
+  lng: -84.50758
 address: |-
   501 Greenup St.
   Covington, KY

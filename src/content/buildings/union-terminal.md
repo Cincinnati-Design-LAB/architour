@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/41e05023-80b5-4e01-a571-ff2d3a3a3fc8/
   - https://ucarecdn.com/d9733e96-9444-4f57-a4c7-1aa4f8ce8964/
   - https://ucarecdn.com/37bd013f-09d3-4b77-bc38-e757273f97aa/
-location: '{"type":"Point","coordinates":[-84.53747369999996,39.1098737]}'
+location:
+  lat: 39.1098737
+  lng: -84.53747369999996
 address: 1301 Western Ave., Cincinnati, OH  45203
 current_owner: Cincinnati Museum Center
 date_of_completion: "1933"

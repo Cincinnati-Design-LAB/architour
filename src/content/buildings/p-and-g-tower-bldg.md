@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/eed2e490-c767-46e6-a18e-6c583fd0d7a9/
   - https://ucarecdn.com/980f9b91-d87e-4003-b1f8-0383e1351e6a/
   - https://ucarecdn.com/9312fd26-efac-4943-9cc1-7a1bfa873617/
-location: '{"type":"Point","coordinates":[-84.5056,39.103]}'
+location:
+  lat: 39.103
+  lng: -84.5056
 address: 2 Procter & Gamble Plaza, Cincinnati, OH  45202
 original_owner: Procter & Gamble
 date_of_completion: "1985"

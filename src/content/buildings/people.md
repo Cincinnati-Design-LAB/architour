@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/52dec753-3957-4d04-a14e-e6c4fd003aec/
   - https://ucarecdn.com/3f4c117c-53c9-4699-9f7a-52588ac6802b/
   - https://ucarecdn.com/2b6c4850-85ad-4253-858d-ede798f8e57c/
-location: '{"type":"Point","coordinates":[-84.519982,39.115338]}'
+location:
+  lat: 39.115338
+  lng: -84.519982
 address: |-
   1805 Elm Street
   Cincinnati, OH  45202

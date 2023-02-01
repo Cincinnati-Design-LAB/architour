@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/f66bbb4b-6349-4992-a70e-5733f7c4b954/
   - https://ucarecdn.com/e88b5a23-ec9e-4805-9ee0-50c5bca9e06b/
   - https://ucarecdn.com/88225bc2-e307-41f3-afc3-ebce281894e8/
-location: '{"type":"Point","coordinates":[-84.5029,39.1019]}'
+location:
+  lat: 39.1019
+  lng: -84.5029
 address: 316 Pike St., Cincinnati,  OH  45202
 original_owner: >-
   Martin Baum (1820-1830), Nicholas Longworth (1830-1863), David Sinton

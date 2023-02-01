@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/d88bfb1d-b1fa-4a44-83cf-33c3635fc95a/
   - https://ucarecdn.com/c6c47a0e-c838-4e74-9dcb-3a8b7855cae8/
   - https://ucarecdn.com/d214f3ec-eeab-405f-bf61-758d7725b19c/
-location: '{"type":"Point","coordinates":[-84.51825,39.09935]}'
+location:
+  lat: 39.09935
+  lng: -84.51825
 address: 322 W Fourth St., Cincinnati, OH 45202
 date_of_completion: "1881"
 style: Victorian Classicism

@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/6bc703ff-a4ed-4a8c-9984-873c38af471f/
   - https://ucarecdn.com/fd0ef1f5-e725-49b4-895b-5d87aafb38f1/
   - https://ucarecdn.com/d8d25603-4e58-40c2-bfb4-f75cd364be4c/
-location: '{"type":"Point","coordinates":[-84.51705,39.11016]}'
+location:
+  lat: 39.11016
+  lng: -84.51705
 address: Fourteenth & Race, Cincinnati, Ohio
 original_owner: Cincinnati Parks Board
 original_function: Community park and bandstand

@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/3d59ca15-1f38-4507-a67c-254c3f84f48f/
   - https://ucarecdn.com/db3d7eff-2378-4600-8b03-885c60bd8f04/
   - https://ucarecdn.com/28da1ab7-330d-4216-be26-b1968718a92b/
-location: '{"type":"Point","coordinates":[-84.51691800000000,39.11046200000000]}'
+location:
+  lat: 39.110462
+  lng: -84.516918
 address: |-
   1404 Race Street
   Cincinnati, OH

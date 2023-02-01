@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/9cc3adbb-d092-45e7-9dbf-b375a30c2b41/
   - https://ucarecdn.com/cf502c6f-b797-4f69-9a92-b184f524d291/
   - https://ucarecdn.com/542f3181-ccaf-4ffa-ba09-587633f0c6ba/
-location: '{"type":"Point","coordinates":[-84.516371,39.11302]}'
+location:
+  lat: 39.11302
+  lng: -84.516371
 address: |-
   1 W. Liberty
   Cincinnati, OH

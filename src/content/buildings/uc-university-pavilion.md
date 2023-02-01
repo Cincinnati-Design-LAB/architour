@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/16a421f3-f345-46c7-8964-d89bd0c737fd/
   - https://ucarecdn.com/bdfb0051-8b3c-4b34-acbf-7a6c70f2858c/
   - https://ucarecdn.com/f8db29c1-61be-4916-9690-4356a664299f/
-location: '{"type":"Point","coordinates":[-84.518919,39.131042]}'
+location:
+  lat: 39.131042
+  lng: -84.518919
 original_owner: University of Cincinnati
 date_of_completion: "2003"
 style: Modern

@@ -9,7 +9,9 @@ images:
   - https://ucarecdn.com/e84f378e-eb85-47f7-a45b-132fe582fdcb/
   - https://ucarecdn.com/b544c1ee-cbd8-4812-bd07-e03141a07017/
   - https://ucarecdn.com/aeec6d93-8dc9-47fa-b874-0377d7d50aa9/
-location: '{"type":"Point","coordinates":[-84.51912800000000,39.13385700000000]}'
+location:
+  lat: 39.133857
+  lng: -84.519128
 original_owner: University of Cincinnati
 date_of_completion: "1996"
 interior_accessibility: The building is open to the public.

@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/a77b0af0-b0e7-41bf-9931-6f0fd8c17b29/
   - https://ucarecdn.com/3fdfc373-a27c-4d87-8e28-98c59210bb58/
   - https://ucarecdn.com/77e191ab-6b67-4839-b74d-a43b8bd1a6ce/
-location: '{"type":"Point","coordinates":[-84.51837300000000,39.1079041]}'
+location:
+  lat: 39.1079041
+  lng: -84.518373
 address: 1205 Elm St., Cincinnati, Ohio
 original_owner: St. John's Protestant Church
 current_owner: Funky's Catering

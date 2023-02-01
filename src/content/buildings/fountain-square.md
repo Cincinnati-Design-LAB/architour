@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/52182b96-442c-4a16-9556-ceca1d68d942/
   - https://ucarecdn.com/447a3f12-4fe9-4fb1-934a-28b5b290192a/
   - https://ucarecdn.com/64046ef7-48d8-45ad-b09b-66cdaa713895/
-location: '{"type":"Point","coordinates":[-84.5125,39.10135000000000]}'
+location:
+  lat: 39.10135
+  lng: -84.5125
 address: Fifth & Vine St., Cincinnati, OH  45202
 original_owner: City of Cincinnati
 date_of_completion: "1971"

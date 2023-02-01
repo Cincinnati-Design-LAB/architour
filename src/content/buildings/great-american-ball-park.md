@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/197a1338-6f0a-4246-96f7-56cbbc4790f1/
   - https://ucarecdn.com/72acbf54-3262-4472-bee3-38662e8ac626/
   - https://ucarecdn.com/d18129d0-66f2-4c37-b471-c3c1a22b24cf/
-location: '{"type":"Point","coordinates":[-84.508,39.098]}'
+location:
+  lat: 39.098
+  lng: -84.508
 address: 100 Joe Nuxhall Way, Cincinnati, Ohio
 original_owner: Hamilton County
 date_of_completion: "2003"

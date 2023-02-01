@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/31adb90c-29a6-454f-a9e5-1320fdbc1419/
   - https://ucarecdn.com/07367a3a-6189-42f1-ae26-383f16403eb1/
   - https://ucarecdn.com/b17bda76-d761-4078-a318-7e31819e0f7f/
-location: '{"type":"Point","coordinates":[-84.517584,39.084213]}'
+location:
+  lat: 39.084213
+  lng: -84.517584
 address: |-
   6th St. & Main St.
   Covington KY

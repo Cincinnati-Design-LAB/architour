@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/b372ca37-036d-4679-b3cb-c2831c416ce5/
   - https://ucarecdn.com/6661ba61-d6c8-4509-a30a-68e15d86b256/
   - https://ucarecdn.com/2c3a6f86-48c7-4226-91e3-9e98c2543569/
-location: '{"type":"Point","coordinates":[-84.510802,39.112855]}'
+location:
+  lat: 39.112855
+  lng: -84.510802
 address: |-
   1604 Sycamore St.
   Cincinnati, OH  45202

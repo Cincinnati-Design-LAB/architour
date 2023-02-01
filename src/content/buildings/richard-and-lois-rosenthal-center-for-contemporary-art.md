@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/b97e861e-2763-4ab8-83da-b42a016ccea7/
   - https://ucarecdn.com/2984cd49-70d0-449d-8241-49fb86c31cd5/
   - https://ucarecdn.com/920cb8ce-fe9e-4c9e-b818-18aba5a27b37/
-location: '{"type":"Point","coordinates":[-84.512118,39.1028189]}'
+location:
+  lat: 39.1028189
+  lng: -84.512118
 address: 44 E 6th St, Cincinnati, OH 45202, USA
 original_owner: Contemporary Arts Center
 current_owner: Contemporary Arts Center

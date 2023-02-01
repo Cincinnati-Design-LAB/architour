@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/fa66be77-a172-4a6c-bc24-ced95677f47b/
   - https://ucarecdn.com/83532d43-48bc-4354-8a7b-e215ec98d31d/
   - https://ucarecdn.com/7e271839-7ab6-42fe-96f0-47e1d0117f9e/
-location: '{"type":"Point","coordinates":[-84.50735,39.10035]}'
+location:
+  lat: 39.10035
+  lng: -84.50735
 address: 301 E. Fourth St., Cincinnati, OH  45202
 original_owner: Eagle Realty/Western Southern
 date_of_completion: "2011"

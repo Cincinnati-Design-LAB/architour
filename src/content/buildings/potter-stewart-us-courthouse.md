@@ -3,7 +3,9 @@ title: Potter Stewart US Courthouse
 images:
   - https://ucarecdn.com/be2a9648-79a7-4c51-8927-04644a1b5ae1/
   - https://ucarecdn.com/290e9cf9-713b-46b9-a689-8ad13a767401/
-location: '{"type":"Point","coordinates":[-84.5106371,39.1018558]}'
+location:
+  lat: 39.1018558
+  lng: -84.5106371
 address: 100 E. Fifth St., Cincinnati, Ohio
 current_owner: GSA
 date_of_completion: "1939"

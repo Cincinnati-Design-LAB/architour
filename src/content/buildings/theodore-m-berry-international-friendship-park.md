@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/7dcfcc51-52a6-4d0e-b72f-825932fbc2c0/
   - https://ucarecdn.com/d139f7ea-cf4c-4237-84e1-7929df9285c4/
   - https://ucarecdn.com/1da9a88c-f83f-48e3-8791-3ad24889e305/
-location: '{"type":"Point","coordinates":[-84.49276400000000,39.10638900000000]}'
+location:
+  lat: 39.106389
+  lng: -84.492764
 address: 1135 Riverside Dr., Cincinnati, OH  45202
 original_owner: Cincinnati Parks Board
 date_of_completion: "2003"

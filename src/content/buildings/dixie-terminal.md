@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/9e49d4d4-d8e9-4f33-b97b-137b06d9de4e/
   - https://ucarecdn.com/77a4e34e-27d8-443c-96c7-eff3699b1892/
   - https://ucarecdn.com/ffea39f6-4d73-4a14-8a32-5d39b26595b7/
-location: '{"type":"Point","coordinates":[-84.5114,39.1000]}'
+location:
+  lat: 39.1
+  lng: -84.5114
 address: 41-53 E. Fourth St., Cincinnati, Ohio
 original_owner: The Dixie Terminal Company financed largely by Charles and Robert Taft
 current_owner: American Financial Group

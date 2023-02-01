@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/33c92ea2-1ccd-4749-862f-d613f5f6160f/
   - https://ucarecdn.com/6a8130b1-168b-4382-9bf8-ab4881f74ed6/
   - https://ucarecdn.com/16ee5304-7b11-45eb-8e88-3f006b8434ef/
-location: '{"type":"Point","coordinates":[-84.508853,39.085439]}'
+location:
+  lat: 39.085439
+  lng: -84.508853
 address: |-
   502 Scott Boulevard
   Covington, KY

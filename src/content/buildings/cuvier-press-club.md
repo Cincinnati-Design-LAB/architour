@@ -3,7 +3,9 @@ title: Cuvier Press Club
 images:
   - https://ucarecdn.com/ea37f54e-460a-4369-a9e7-f29f58e6c58d/
   - https://ucarecdn.com/ad43ef65-9489-4210-a380-31592c946dcd/
-location: '{"type":"Point","coordinates":[-84.51458000000000,39.10458100000000]}'
+location:
+  lat: 39.104581
+  lng: -84.51458
 address: 22 Garfield Place, Cincinnati, OH  45202
 original_owner: Marcus Fecheimer
 current_owner: LPK

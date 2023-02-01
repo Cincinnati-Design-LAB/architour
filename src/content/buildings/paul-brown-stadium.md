@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/f464c67c-a6cd-4101-9f14-402622d5bb9b/
   - https://ucarecdn.com/336d120c-ac87-4fa6-8d87-a039cd3c2e99/
   - https://ucarecdn.com/af054ecb-2a4a-421b-b74e-f5abe7f90f55/
-location: '{"type":"Point","coordinates":[-84.515021,39.096298]}'
+location:
+  lat: 39.096298
+  lng: -84.515021
 address: 1 Paul Brown Stadium, Cincinnati, OH  45202
 original_owner: Hamilton County
 date_of_completion: "2000"

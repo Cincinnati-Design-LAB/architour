@@ -3,7 +3,9 @@ title: St. Peter in Chains Cathedral
 images:
   - https://ucarecdn.com/49807ec3-a6ad-4d16-a79b-97071b3b453b/
   - https://ucarecdn.com/2c91d598-288b-48e2-8e43-ef4dba9c2517/
-location: '{"type":"Point","coordinates":[-84.51955909999998,39.103518]}'
+location:
+  lat: 39.103518
+  lng: -84.51955909999998
 address: 325 W. 8th St., Cincinnati, OH  45202
 original_owner: Archdiocese of Cincinnati
 date_of_completion: "1845"

@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/d290fd2b-7e25-4bc7-acd1-bad48a6fde23/
   - https://ucarecdn.com/9f3564b1-2c18-4c6b-9a2b-b8c0a866b914/
   - https://ucarecdn.com/e9ca4bcf-33e6-42c5-af00-abc54d3fd68c/
-location: '{"type":"Point","coordinates":[-84.5124018,39.1044162]}'
+location:
+  lat: 39.1044162
+  lng: -84.5124018
 address: 29 E. Eighth St., Cincinnati, Ohio
 date_of_completion: "1928"
 style: Italian Romanesque

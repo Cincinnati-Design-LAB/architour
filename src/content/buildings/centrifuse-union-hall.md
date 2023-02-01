@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/f57482f9-f3cb-48cc-8d24-df2977e6a1b8/
   - https://ucarecdn.com/3f87b713-8df4-44e0-84de-099715fee15e/
   - https://ucarecdn.com/dc64d7bc-bebc-4e8e-b071-57266b81d2d6/
-location: '{"type":"Point","coordinates":[-84.515237,39.109898]}'
+location:
+  lat: 39.109898
+  lng: -84.515237
 address: |-
   1311-15 Vine St.
   Cincinnati, OH  45202

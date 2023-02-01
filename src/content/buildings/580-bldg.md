@@ -3,7 +3,9 @@ title: 580 Building
 images:
   - https://ucarecdn.com/ce3b6f02-ccc0-4406-b2e3-c82cabaebb55/
   - https://ucarecdn.com/479cf81f-37cc-4ac3-801c-f3884786c456/
-location: '{"type":"Point","coordinates":[-84.5108078,39.1024844]}'
+location:
+  lat: 39.1024844
+  lng: -84.5108078
 address: 580 Walnut Street, Cincinnati, Ohio 45202
 original_owner: Western-Southern Life
 current_owner: Berwind Properties

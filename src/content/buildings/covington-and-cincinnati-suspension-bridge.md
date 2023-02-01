@@ -9,7 +9,9 @@ images:
   - https://ucarecdn.com/87ed19cd-d1de-44a2-976f-eaf1600d313c/
   - https://ucarecdn.com/d9e22599-f41c-400b-ad98-6ab805d37004/
   - https://ucarecdn.com/dae1e616-ca5e-494e-bc2e-48cec79fd953/
-location: '{"type":"Point","coordinates":[-84.5104139,39.0951207]}'
+location:
+  lat: 39.0951207
+  lng: -84.5104139
 address: ", Cincinnati, Ohio"
 original_owner: The Covington and Cincinnati Bridge Company (a private company)
 current_owner: Commonwealth of Kentucky

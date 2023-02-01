@@ -3,7 +3,9 @@ title: McMicken School of Design
 images:
   - https://ucarecdn.com/5f23ea4b-ffee-4530-886d-fc1b25872f14/
   - https://ucarecdn.com/0715d6af-a7c2-4ead-a426-97875a92364b/
-location: '{"type":"Point","coordinates":[-84.5089533,39.0995]}'
+location:
+  lat: 39.0995
+  lng: -84.5089533
 address: 300 Main St., Cincinnati, Ohio
 date_of_completion: "1862"
 style: Itanianate

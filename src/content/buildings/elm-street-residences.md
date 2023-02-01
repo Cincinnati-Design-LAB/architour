@@ -3,7 +3,9 @@ title: 1209 Elm Street
 images:
   - https://ucarecdn.com/9cf4b062-78a6-4c1e-a074-225a9b217e39/
   - https://ucarecdn.com/d327b8c7-bb12-40f2-846c-60727de8d9d7/
-location: '{"type":"Point","coordinates":[-84.51837300000000,39.10812799999990]}'
+location:
+  lat: 39.1081279999999
+  lng: -84.518373
 address: 1209 Elm Street, Cincinnati, OH  45202
 original_owner: Dr. Rudolph H. Reemelin
 date_of_completion: "1904"

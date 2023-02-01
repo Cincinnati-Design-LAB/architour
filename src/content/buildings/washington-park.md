@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/b7ceb2a6-7dfc-4980-b5c2-ddcc0851d4cd/
   - https://ucarecdn.com/8cb20ea7-2d54-493d-8c25-16e030a39ae2/
   - https://ucarecdn.com/c400bf8b-f712-4d1c-b448-4f4b773c84a3/
-location: '{"type":"Point","coordinates":[-84.5168,39.10825]}'
+location:
+  lat: 39.10825
+  lng: -84.5168
 address: Twelvth & Race, Cincinnati, Ohio
 original_owner: Cincinnati Parks Board
 original_function: Community park and bandstand

@@ -3,7 +3,9 @@ title: UC Campus Masterplan
 images:
   - https://ucarecdn.com/167b9771-d749-411a-a3f2-e7b9531d259d/
   - https://ucarecdn.com/4534b3a3-88fe-4a5c-b9d3-d93bc6075b49/
-location: '{"type":"Point","coordinates":[-84.512787,39.134581]}'
+location:
+  lat: 39.134581
+  lng: -84.512787
 original_owner: University of Cincinnati
 date_of_completion: 1989 to present
 architect: Hargreaves & Associates

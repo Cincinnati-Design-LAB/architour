@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/57458dba-22d4-4889-a46d-5aaf982ed5b4/
   - https://ucarecdn.com/fa4f4475-cedb-4b51-9014-0e4494f62116/
   - https://ucarecdn.com/98f260ab-679a-4a05-8b15-53fd664f334b/
-location: '{"type":"Point","coordinates":[-84.510046,39.083578]}'
+location:
+  lat: 39.083578
+  lng: -84.510046
 address: |-
   636 Madison Ave.
   Covington, KY

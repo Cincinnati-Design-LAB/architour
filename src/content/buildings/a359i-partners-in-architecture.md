@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/9f2468be-cf72-42ac-b99e-4dd99f9a8044/
   - https://ucarecdn.com/c61fdcc3-ef20-4310-b264-58b4782c37a5/
   - https://ucarecdn.com/1b0b196c-4b51-4ef1-a01e-cd36b900f45c/
-location: '{"type":"Point","coordinates":[-84.51415600000000,39.10844900000000]}'
+location:
+  lat: 39.108449
+  lng: -84.514156
 address: |-
   16 E. 12th St.
   Cincinnati, OH  45202

@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/b03e6467-5b1a-4e50-895c-d373008ece7b/
   - https://ucarecdn.com/f66b9099-4db9-4de6-9b0b-0ad73e808741/
   - https://ucarecdn.com/2cf8f3b4-3063-4a36-bbad-84836f92e4f3/
-location: '{"type":"Point","coordinates":[-84.512878,39.0997556]}'
+location:
+  lat: 39.0997556
+  lng: -84.512878
 address: 1 W. Fourth St., Cincinnati, OH  45202
 original_owner: Union Central Life Insurance
 current_owner: PNC Bank

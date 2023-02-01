@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/efce2dc6-1136-4209-b002-a46b1defb963/
   - https://ucarecdn.com/8e152edf-0021-44b2-87f1-cec3d1e18cb9/
   - https://ucarecdn.com/6d603a4b-d8bc-4081-9318-ced4468e95d9/
-location: '{"type":"Point","coordinates":[-84.51599000000000,39.10324800000000]}'
+location:
+  lat: 39.103248
+  lng: -84.51599
 address: 151 W. Seventh St., Cincinnati, OH  45202
 original_owner: John J. Shillito Company
 current_owner: Towne Properties

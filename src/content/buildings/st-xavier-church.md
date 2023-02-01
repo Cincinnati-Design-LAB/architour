@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/36f5dda8-be5d-48c3-9efe-81a530f20d80/
   - https://ucarecdn.com/2443ebea-9dfa-450e-896d-41147045220d/
   - https://ucarecdn.com/354fa81e-3821-45e6-aa37-d4603fb3be96/
-location: '{"type":"Point","coordinates":[-84.50869100000000,39.10360500000000]}'
+location:
+  lat: 39.103605
+  lng: -84.508691
 address: 607 Sycamore St., Cincinnati, OH  45202
 original_owner: Archdiocese of Cincinnati
 date_of_completion: "1860"

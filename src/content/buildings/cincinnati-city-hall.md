@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/7104693b-d8f0-4eec-aef2-e6ba8aa24121/
   - https://ucarecdn.com/99887e7a-9d40-4ea2-bcd3-79f53dc90d7f/
   - https://ucarecdn.com/71354de6-a3f0-4828-b0bd-30722127da09/
-location: '{"type":"Point","coordinates":[-84.5195339,39.10416999999999]}'
+location:
+  lat: 39.10416999999999
+  lng: -84.5195339
 address: 801 Plum St., Cincinnati, OH  45202
 original_owner: City of Cincinnati
 current_owner: City of Cincinnati

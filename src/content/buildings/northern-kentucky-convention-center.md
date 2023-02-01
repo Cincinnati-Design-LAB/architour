@@ -3,7 +3,9 @@ title: Northern Kentucky Convention Center
 images:
   - https://ucarecdn.com/83a2678b-b663-4e63-be93-a8c39ef69961/
   - https://ucarecdn.com/170ae97a-a6d0-47d3-a347-13a5d3d49a4b/
-location: '{"type":"Point","coordinates":[-84.511774,39.089478]}'
+location:
+  lat: 39.089478
+  lng: -84.511774
 address: |-
   1 W. Rivercenter Blvd.
   Covington, KY

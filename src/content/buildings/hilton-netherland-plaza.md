@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/77cdc570-a3c7-4600-b14e-597233ab13d5/
   - https://ucarecdn.com/0c4c9e25-9e22-4599-8963-4fb0861405b3/
   - https://ucarecdn.com/e93910d3-b619-4592-a0bc-a545e01fb860/
-location: '{"type":"Point","coordinates":[-84.5141833,39.1008434]}'
+location:
+  lat: 39.1008434
+  lng: -84.5141833
 address: 35 W. Fifth St., Cincinnati, OH  45202
 date_of_completion: "1930"
 style: American Modern with Art Deco motifs

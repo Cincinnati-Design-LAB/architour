@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/1a14e9e3-bddc-4e83-99d2-0bd970db7581/
   - https://ucarecdn.com/2bde51ca-3724-4c36-8bdd-6f7e31492b22/
   - https://ucarecdn.com/9b5d6a3d-ae88-49ec-b7bc-f5d36b811d7c/
-location: '{"type":"Point","coordinates":[-84.5178379,39.10073]}'
+location:
+  lat: 39.10073
+  lng: -84.5178379
 address: Fifth & Plum Streets, Cincinnati, OH  45202
 original_owner: Albee Theater
 date_of_completion: "1925"

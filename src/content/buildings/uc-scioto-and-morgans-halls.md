@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/3c06bded-c4d6-45f2-9504-7c2ff2155198/
   - https://ucarecdn.com/a0bb9b30-07ae-4b9f-afd6-1fed21d636e5/
   - https://ucarecdn.com/97d7c514-2c7b-45ff-8981-baf57c01fce1/
-location: '{"type":"Point","coordinates":[-84.512147,39.134347]}'
+location:
+  lat: 39.134347
+  lng: -84.512147
 original_owner: University of Cincinnati
 architect: Richard Fleischman + Partners
 original_function: Student apartments

@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/dd087d6e-dca7-4afe-8535-1b74ef2da476/
   - https://ucarecdn.com/ce0a5091-6c79-43b6-8b2d-61c419fae295/
   - https://ucarecdn.com/ed53ea9b-e0ac-4a8d-bd3f-2e7ef328514a/
-location: '{"type":"Point","coordinates":[-84.5088439,39.1001257]}'
+location:
+  lat: 39.1001257
+  lng: -84.5088439
 address: 201 E. Fourth St., Cincinnati, Ohio  45202
 current_owner: Smith/Hallemann Partners
 date_of_completion: "1981"

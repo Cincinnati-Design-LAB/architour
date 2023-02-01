@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/1939948f-c9b2-47eb-8c08-28c2ae8f7416/
   - https://ucarecdn.com/d58a9815-4994-475d-ab02-4406e7adca0e/
   - https://ucarecdn.com/2c04d49f-3c23-4151-8a85-32ac0d42a9b4/
-location: '{"type":"Point","coordinates":[-84.51738800000000,39.10306700000000]}'
+location:
+  lat: 39.103067
+  lng: -84.517388
 address: 209 W. Seventh St., Cincinnati, OH  45202
 current_owner: Cincinnati Bell
 date_of_completion: "1931"

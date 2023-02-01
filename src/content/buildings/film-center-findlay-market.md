@@ -3,7 +3,9 @@ title: Film Center @ Findlay Market
 images:
   - https://ucarecdn.com/f6ac04bd-3edf-4a32-b2ec-8a49e1d85098/
   - https://ucarecdn.com/3017950e-6969-4977-adf2-e3f5f4d7fa21/
-location: '{"type":"Point","coordinates":[-84.521264,39.114632]}'
+location:
+  lat: 39.114632
+  lng: -84.521264
 address: |-
   1632 Central Pkwy.
   Cincinnati, OH

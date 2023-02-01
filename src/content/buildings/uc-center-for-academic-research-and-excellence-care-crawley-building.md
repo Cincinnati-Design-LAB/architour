@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/6b55051d-b451-4ddd-86f6-e1a6a26ef018/
   - https://ucarecdn.com/488b7f64-b16e-46c1-ab7b-e0467b801683/
   - https://ucarecdn.com/14dfcfc2-ff5e-440f-9f8d-1b29f223b371/
-location: '{"type":"Point","coordinates":[-84.50453,39.138886]}'
+location:
+  lat: 39.138886
+  lng: -84.50453
 original_owner: University of Cincinnati
 date_of_completion: "2008"
 architect: Studios Architecture

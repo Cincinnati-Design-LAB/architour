@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/52758da5-3c63-44c1-b30b-64c5a5f577f4/
   - https://ucarecdn.com/036f96b7-1c08-4851-bbb9-e375dc241454/
   - https://ucarecdn.com/79d74d51-6fc2-48cc-aba0-18965a561f74/
-location: '{"type":"Point","coordinates":[-84.518552,39.108585]}'
+location:
+  lat: 39.108585
+  lng: -84.518552
 address: 1225 Elm St., Cincinnati, Ohio
 current_owner: Hamilton County
 date_of_completion: "1908"

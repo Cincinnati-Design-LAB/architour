@@ -3,7 +3,9 @@ title: Taft's Ale House
 images:
   - https://ucarecdn.com/3cf75cc1-2e2c-49a2-8c3c-438c2742ad96/
   - https://ucarecdn.com/c51a55e4-3efe-4fcb-bbc4-3260625b256d/
-location: '{"type":"Point","coordinates":[-84.51752,39.111354]}'
+location:
+  lat: 39.111354
+  lng: -84.51752
 address: 1429 Race St., Cincinnati, Ohio 45202
 original_owner: St. Paul's Evangelical Lutheran Church
 current_owner: Taft's Ale House

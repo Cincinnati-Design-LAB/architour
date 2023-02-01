@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/9814c05a-49a9-4337-b5d8-db98b4e4eb9f/
   - https://ucarecdn.com/27f2375b-84f5-495b-b5b7-bb7adf05ed5e/
   - https://ucarecdn.com/ef3584b3-6a40-4f91-85bf-84816b8c013d/
-location: '{"type":"Point","coordinates":[-84.50858,39.078127]}'
+location:
+  lat: 39.078127
+  lng: -84.50858
 address: |-
   1140 Madison Ave.
   Covington KY

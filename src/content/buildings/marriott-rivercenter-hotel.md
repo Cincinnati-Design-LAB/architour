@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/2ae71cfc-5c0c-42e3-aeb1-1b51d5700158/
   - https://ucarecdn.com/108fee7e-8c78-4a1f-b42c-91da6c0eeaee/
   - https://ucarecdn.com/f838c8e0-10d1-40f7-8597-996a7177940b/
-location: '{"type":"Point","coordinates":[-84.51212,39.089716]}'
+location:
+  lat: 39.089716
+  lng: -84.51212
 address: |-
   10 W Rivercenter Blvd
   Covington, KY 41011

@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/7353b88a-8315-4492-a94f-abed282f4ad3/
   - https://ucarecdn.com/10cd2be4-4c7f-4232-81b4-6a19e5a977da/
   - https://ucarecdn.com/6ed7ee6a-6ba7-45c5-8e24-7b5de60a5cbe/
-location: '{"type":"Point","coordinates":[-84.51883790000000,39.10061]}'
+location:
+  lat: 39.10061
+  lng: -84.5188379
 address: 350 W. Fifth St., Cincinnati, OH  45202
 original_owner: City of Cincinnati
 date_of_completion: "2006"

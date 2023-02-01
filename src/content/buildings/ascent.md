@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/5103cc32-0f48-4c3c-9ce6-25f435754584/
   - https://ucarecdn.com/c6de255f-38e8-432f-a93e-4c4d936be3b2/
   - https://ucarecdn.com/6d655667-4e94-40e8-b49f-4d63ab5cce0f/
-location: '{"type":"Point","coordinates":[-84.509519,39.089139]}'
+location:
+  lat: 39.089139
+  lng: -84.509519
 address: |-
   1 Roebling Way
   Covington KY

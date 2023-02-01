@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/e65682ba-53ed-491a-9489-e441482a913f/
   - https://ucarecdn.com/14c6e402-abbe-4e90-a64c-e6008663cb16/
   - https://ucarecdn.com/06ebdf25-4af4-4f46-962d-1b61e2763d1b/
-location: '{"type":"Point","coordinates":[-84.508779,39.104814]}'
+location:
+  lat: 39.104814
+  lng: -84.508779
 address: |-
   Eighth & Sycamore Streets
   Cincinnati, OH. 45202

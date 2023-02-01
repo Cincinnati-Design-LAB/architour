@@ -7,7 +7,9 @@ images:
   - https://ucarecdn.com/4178fb7d-3164-4ae9-b676-7388f01cb7c7/
   - https://ucarecdn.com/b1bd1a8d-bf41-4c22-88d0-fe0c084762c0/
   - https://ucarecdn.com/17879f9b-eacc-4aca-ab95-1b3b39efc743/
-location: '{"type":"Point","coordinates":[-84.51125900000000,39.08833800000000]}'
+location:
+  lat: 39.088338
+  lng: -84.511259
 address: |-
   230 Madison Ave.
   Covington, KY

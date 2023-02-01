@@ -3,7 +3,9 @@ title: Duke Energy (formerly CG&E)
 images:
   - https://ucarecdn.com/957b2ade-3895-459d-81a0-23807be6b10f/
   - https://ucarecdn.com/05f2ef3c-201c-4eb4-bdb4-19246f099092/
-location: '{"type":"Point","coordinates":[-84.5096868,39.1001387]}'
+location:
+  lat: 39.1001387
+  lng: -84.5096868
 address: 139 E. Fourth St., Cincinnati, Ohio
 original_owner: Cincinnati Gas & Electric Company
 current_owner: Duke Energy

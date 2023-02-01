@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/72860079-3bce-45b8-aad4-47f474f0b785/
   - https://ucarecdn.com/0a13cae2-e008-43ac-a700-fbee7605399d/
   - https://ucarecdn.com/98c193b6-5c97-4567-b47f-922ba685dc81/
-location: '{"type":"Point","coordinates":[-84.510092,39.088495]}'
+location:
+  lat: 39.088495
+  lng: -84.510092
 address: |-
   231 Scott Blvd.
   Covington, KY

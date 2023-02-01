@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/0f03581f-710c-4eba-8e36-9b8f6344ace1/
   - https://ucarecdn.com/1b0524ab-6c6b-45b0-9b6f-09670ebdd42e/
   - https://ucarecdn.com/0d612377-3a67-451e-a99b-2e900bf2a531/
-location: '{"type":"Point","coordinates":[-84.5058558,39.101857]}'
+location:
+  lat: 39.101857
+  lng: -84.5058558
 address: 400 Broadway St., Cincinnati, OH  45202
 original_owner: Western & Southern Life Insurance Company
 date_of_completion: "1914"

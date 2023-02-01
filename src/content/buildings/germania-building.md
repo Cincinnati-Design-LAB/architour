@@ -5,7 +5,9 @@ images:
   - https://ucarecdn.com/20b02fb1-23c2-4b1a-8e88-4ac3901c27ac/
   - https://ucarecdn.com/66020984-d6b0-4314-88aa-30d2735f8d30/
   - https://ucarecdn.com/c472987d-75d8-438c-899b-fd89b1678283/
-location: '{"type":"Point","coordinates":[-84.5133053999999,39.1083951]}'
+location:
+  lat: 39.1083951
+  lng: -84.5133053999999
 address: 1129 Walnut St., Cincinnati, OH  45202
 original_owner: German Mutual Insurance Company of Cincinnati - Heinrich Arminius Ratterman
 date_of_completion: "1877"

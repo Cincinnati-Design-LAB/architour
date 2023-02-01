@@ -3,7 +3,9 @@ title: Sycamore Place Lofts (Krippendorf-Dittman Shoe Company)
 images:
   - https://ucarecdn.com/f79b6077-f772-4575-9020-209fdc024ba9/
   - https://ucarecdn.com/429645fa-8806-4a13-a53f-c550a7190cb9/
-location: '{"type":"Point","coordinates":[-84.50828300000000,39.10420100000000]}'
+location:
+  lat: 39.104201
+  lng: -84.508283
 address: 628 Sycamore St., Cincinnati, OH  45202
 original_owner: Krippendorf-Dittman Shoe Company
 current_owner: North American Properties
