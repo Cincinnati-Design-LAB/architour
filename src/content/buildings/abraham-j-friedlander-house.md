@@ -1,0 +1,36 @@
+---
+title: Abraham J. Friedlander House
+images:
+  - https://ucarecdn.com/c42859e8-45fa-40bb-8fa3-faa510de0a65/
+  - https://ucarecdn.com/6ac95a49-95d9-4d1d-b5aa-80f535b75840/
+location: '{"type":"Point","coordinates":[-84.514586,39.105369]}'
+body: >
+  ### Name
+
+  Abraham J. Friedlander House
+
+  ### Address
+
+  8 W Ninth St., Cincinnati, OH  45202
+
+  ### Date of Completion
+
+  1830
+
+  ### Style
+
+  Greek Revival
+
+  ### Architect
+
+  Unknown
+
+  ### Significance
+
+  One of the oldest remaining residences in Cincinnati, the house was originally
+  a multi-family residence.
+
+  ### Historic Status
+
+  Listed in NRHP on May 7, 1979 and part of the Ninth Street Historic District
+---

@@ -16,12 +16,18 @@ function formatFileContent(frontmatter) {
   return prettier.format(output, { parser: 'markdown' })
 }
 
-const tourFilePaths = glob.sync(path.join(CONTENT_DIR, 'tours/*.yml'))
+function yamlToMarkdown() {
+  const yamlFilePaths = glob.sync(path.join(CONTENT_DIR, '**/*.yml'))
 
-for (const filePath of tourFilePaths) {
-  const yamlData = yaml.load(fs.readFileSync(filePath), 'utf8')
-  const mdContent = formatFileContent(yamlData)
-  const newFilePath = filePath.replace(/\.yml$/, '.md')
-  fs.writeFileSync(newFilePath, mdContent)
-  fs.unlinkSync(filePath)
+  for (const filePath of yamlFilePaths) {
+    const yamlData = yaml.load(fs.readFileSync(filePath), 'utf8')
+    const mdContent = formatFileContent(yamlData)
+    const newFilePath = filePath.replace(/\.yml$/, '.md')
+    fs.writeFileSync(newFilePath, mdContent)
+    fs.unlinkSync(filePath)
+  }
 }
+
+// ---------------------------------------- | Script Runners
+
+yamlToMarkdown()

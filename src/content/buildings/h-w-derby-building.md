@@ -1,0 +1,36 @@
+---
+title: H. W. Derby Building
+images:
+  - https://ucarecdn.com/d9a80a02-fb44-44c1-8226-0c3e1cf606fe/
+  - https://ucarecdn.com/43d7e7d3-3322-44b4-8f21-f6b7a8cad8dc/
+location: '{"type":"Point","coordinates":[-84.5177427,39.0994]}'
+body: >
+  ### Name
+
+  H. W. Derby Building
+
+  ### Address
+
+  300 W. Fourth St., Cincinnati, OH  45202
+
+  ### Date of Completion
+
+  early 1890s
+
+  ### Style
+
+  Italianate
+
+  ### Architect
+
+  Samuel Hannaford, one of Cincinnati's most prolific 19th Century architects
+  who also designed Cincinnati City Hall and Music Hall.
+
+  ### Original Function
+
+  Publishing house
+
+  ### Historic Status
+
+  Listed on NRHP on March 3, 1980.
+---

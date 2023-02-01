@@ -1,0 +1,74 @@
+---
+title: Duke Energy Convention Center
+images:
+  - https://ucarecdn.com/5e38210c-6409-4664-b138-8a05765b7688/
+  - https://ucarecdn.com/27d153f2-6a30-4a4c-b660-8b71f4e37f2e/
+  - https://ucarecdn.com/457adfb8-7693-45cd-94d2-e63dc2b42cfd/
+  - https://ucarecdn.com/6db61476-e101-4ea5-a10d-868f45e72a4f/
+  - https://ucarecdn.com/2eef857c-01a3-49e8-afea-a57c1b950800/
+  - https://ucarecdn.com/0b763cc9-6449-4703-90d7-b74847bbceee/
+location: '{"type":"Point","coordinates":[-84.5165202,39.1009571]}'
+body: >
+  ### Name
+
+  Duke Energy Convention Center
+
+  ### Address
+
+  525 Elm St.
+
+  ### Original Owner
+
+  City of Cincinnati
+
+  ### Date of Completion
+
+  1987
+
+  ### Style
+
+  Post-modern
+
+  ### Architect
+
+  CRS
+
+  ### Associate Architect
+
+  BHDP Architecture and Wilson & Associates
+
+  ### Contractor
+
+  Turner Construction
+
+  ### Original Function
+
+  The expansion and renovation of the convention center provided 160,000 s.f. of
+  exhibit space and supporting meeting space bringing the facility into the
+  second tier of convention centers in the US.
+
+  ### Significance
+
+  The renovation and expansion of the 1967 original building completely changed
+  the image and function of the facility.  The wrapping lobby allowed access to
+  two connected exhibit halls, and the addition of the third floor ballroom
+  created major function opportunities that did not exist in the original
+  "exposition center".  
+
+  ### Unique Features
+
+  The façade of the Albee Theatre was incorporated into the design of the new
+  facility.
+
+  ### Renovation Date
+
+  2006
+
+  ### Renovation Architect
+
+  LMN
+
+  ### Renovation Changes
+
+  Interior refresh in conjunction with second expansion.
+---

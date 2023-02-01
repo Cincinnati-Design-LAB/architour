@@ -1,0 +1,72 @@
+---
+title: Cincinnati Chamber of Commerce Building
+images:
+  - https://ucarecdn.com/92f49d8f-7880-42ee-aa3c-fd580913b9ef/
+  - https://ucarecdn.com/3f83ae7f-66c6-4555-9371-461d7a074ee4/
+location: '{"type":"Point","coordinates":[-84.51297700000000,39.09965400000000]}'
+body: >
+  ### Name
+
+  Cincinnati Chamber of Commerce Building
+
+  ### Address
+
+  1 W. Fourth St., Cincinnati, OH  45202
+
+  ### Original Owner
+
+  Cincinnati Chamber of Commerce
+
+  ### Date of Completion
+
+  1886
+
+  ### Style
+
+  Richardsonian Romanesque
+
+  ### Interior Accessibility
+
+  The building was destroyed in a fire in 1911.
+
+  ### Architect
+
+  HH Richardson
+
+  ### Original Function
+
+  Headquarters building
+
+  ### Significance
+
+  One of the most important buildings constructed in the 19th Century in
+  Cincinnati, the building had a raw power that spoke of substance and
+  permanance.  While Richardson's work was inspired by Medieval architecture,
+  his designs were seen as representative of one of the first uniquely American
+  styles.  The building was destroyed by a fire in 1911.  Richardson's designs
+  inspired Hannaford's design of the Cincinnati City Hall building. 
+
+  ### Historic Status
+
+  PHOTO CREDITS:CINCNNATI MUSEUM CENTER     Title:Chamber of Commerce Building,
+  4th and Vine     Creator:Rombach & Groene     Date:1889     Collection:Rombach
+  & Groene Collection (SC#296)     Image No.:SC#296-313     Item Type:Glass
+  negative.     Description:  In 1911 fire destroyed the Chamber of Commerce
+  Building, leaving the site clear for the construction of the Union Central
+  Life Insurance Building or Union Trust Tower in 1913.
+
+  ### Unique Features
+
+  A monument to HH Richardson and the building was constructed in 1972 in Burnet
+  Woods out of stones that were recovered from the building after the fire.
+
+  ### Renovation Changes
+
+  Destroyed in a fire in  1911, the images shown were provided by the Cincinnati
+  Museum Center from the Cincinnati History Library and Archives.  You can check
+  out additional images and resources at http://library.cincymuseum.org.
+
+  ### Resources
+
+  http://library.cincymuseum.org/starweb/photos/servlet.starweb?path=photos/photo-session.web
+---

@@ -1,0 +1,39 @@
+---
+title: Formica Building
+images:
+  - https://ucarecdn.com/b523cffa-2a98-48e3-866d-c6686d8d65e9/
+  - https://ucarecdn.com/e08d6007-8f3b-42a9-8d94-f3988657f268/
+  - https://ucarecdn.com/ddd16f51-4c71-46af-898c-ac26048a516c/
+  - https://ucarecdn.com/9c2490a4-6e7e-43a5-ba68-b3b168b4cf61/
+location: '{"type":"Point","coordinates":[-84.5108585,39.1004]}'
+body: >
+  ### Name
+
+  Formica Building
+
+  ### Address
+
+  140 E. Fourth St., Cincinnati, Ohio
+
+  ### Date of Completion
+
+  1971
+
+  ### Style
+
+  International
+
+  ### Architect
+
+  Harry Weese & Associates
+
+  ### Original Function
+
+  Office building
+
+  ### Significance
+
+  The retail arcade connected Fourth and Fifth Streets.  The upper level of the
+  arcade connected to the new skywalk system, and the north end housed the
+  previous location of the Contemporary Arts Center.
+---

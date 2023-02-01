@@ -1,0 +1,42 @@
+---
+title: Covenant First Presbyterian Church
+images:
+  - https://ucarecdn.com/ef998698-229f-4264-9ba3-4458ba3dfc88/
+  - https://ucarecdn.com/08d2b475-7114-4984-bf58-e153e7d0e3c5/
+location: '{"type":"Point","coordinates":[-84.51715800000000,39.10398100000000]}'
+body: >
+  ### Name
+
+  Covenant First Presbyterian Church
+
+  ### Address
+
+  717 Elm St., Cincinnati, OH  45202
+
+
+  ### Date of Completion
+
+  1875
+
+  ### Style
+
+  Gothic
+
+  ### Architect
+
+  William Walter
+
+  ### Associate Architect
+
+  J.J. Cotteral & Sons
+
+  ### Historic Status
+
+  Listed on the NRHP on January 29, 1973
+
+  ### Unique Features
+
+  The interior was modeled after a medieval English tithe barn. The church's
+  main lectern is centered on the long axis of the sanctuary, and pews encircle
+  the pulpit.
+---

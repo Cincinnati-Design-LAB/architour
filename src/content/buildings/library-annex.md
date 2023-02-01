@@ -1,0 +1,43 @@
+---
+title: Public Library Annex
+images:
+  - https://ucarecdn.com/e905de21-7fdf-412b-a851-f34190dd29c9/
+  - https://ucarecdn.com/2c01ced8-4520-4153-8811-dd2c5d022f13/
+  - https://ucarecdn.com/3b4ca9ec-73b9-49a7-8b53-a6e84d7fa59e/
+  - https://ucarecdn.com/7491282c-c56c-4955-9a1a-2afaf9449593/
+location: '{"type":"Point","coordinates":[-84.51295,39.10581]}'
+body: >
+  ### Name
+
+  Public Library Annex
+
+  ### Address
+
+  Eighth & Walnut, Cincinnati, Ohio, 45202
+
+  ### Date of Completion
+
+  1997
+
+  ### Interior Accessibility
+
+  Publicly accessible
+
+  ### Architect
+
+  Shepley Bullfinch Richardson & Abbott
+
+  ### Associate Architect
+
+  GBBN
+
+  ### Original Function
+
+  Public library
+
+  ### Unique Features
+
+  The bridge connecting the new addition on the north of Ninth Street to the
+  original building is a three-level reading room that further opens up the
+  library space to the street.
+---

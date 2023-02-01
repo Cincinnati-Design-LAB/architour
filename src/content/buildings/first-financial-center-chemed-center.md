@@ -1,0 +1,46 @@
+---
+title: First Financial Center (Chemed Center)
+images:
+  - https://ucarecdn.com/767f281d-dbdc-4c63-82df-ed1d60f132b2/
+  - https://ucarecdn.com/add31ae5-caf8-4689-91e9-a6431b092b5b/
+location: '{"type":"Point","coordinates":[-84.5083716,39.1016183]}'
+body: >
+  ### Name
+
+  First Financial Center (Chemed Center)
+
+  ### Address
+
+  255 E.Fifth Street, Cincinnati, OH  45202
+
+  ### Original Owner
+
+  Hines Interests
+
+  ### Date of Completion
+
+  1991
+
+  ### Style
+
+  Postmodern classicism
+
+  ### Architect
+
+  SOM
+
+  ### Original Function
+
+  Office building
+
+  ### Significance
+
+  The construction of the tower was the last building that was part of the 1964
+  masterplan. It marked the end of office building construction in Cincinnati
+  until the construction of the Great American Tower began in 2009.
+
+  ### Unique Features
+
+  Connected to the PNC Center, the building retains portions of the old skywalk
+  system that passes through the connector between the towers.
+---

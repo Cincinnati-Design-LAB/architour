@@ -1,0 +1,58 @@
+---
+title: Cuvier Press Club
+images:
+  - https://ucarecdn.com/ea37f54e-460a-4369-a9e7-f29f58e6c58d/
+  - https://ucarecdn.com/ad43ef65-9489-4210-a380-31592c946dcd/
+location: '{"type":"Point","coordinates":[-84.51458000000000,39.10458100000000]}'
+body: >
+  ### Name
+
+  Cuvier Press Club
+
+  ### Address
+
+  22 Garfield Place, Cincinnati, OH  45202
+
+
+  ### Original Owner
+
+  Marcus Fecheimer
+
+  ### Current Owner
+
+  LPK
+
+  ### Date of Completion
+
+  1861
+
+  ### Style
+
+  Italianate
+
+  ### Architect
+
+  Samuel Hannaford & Edwin Anderson
+
+  ### Significance
+
+  It is the oldest surviving residence designed by Samuel Hannaford.
+
+  ### Historic Status
+
+  Listed on NRHP on October 26, 1972
+
+  ### Renovations
+
+  In 1973, the building was converted into senior citizens center, and a
+  contemporary structure was built adjacent to the buidling.  In 2005, LPK
+  purchased the building and converted it into office and meeting space.
+
+  ### Renovation Date
+
+  2005
+
+  ### Renovation Changes
+
+  Headquarters and meeting facility for the branding company.
+---

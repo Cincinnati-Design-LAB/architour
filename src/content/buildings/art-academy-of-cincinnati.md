@@ -1,0 +1,93 @@
+---
+title: Art Academy of Cincinnati
+images:
+  - https://ucarecdn.com/ca7b3808-e3a1-4526-b228-f4af787d7974/
+  - https://ucarecdn.com/f24f8a4f-ca6d-4a3d-85bf-dab22af78ff6/
+  - https://ucarecdn.com/68401702-862d-43b8-8bc9-c6d15438335c/
+  - https://ucarecdn.com/095a00d3-b548-412a-baa5-3da6572233a9/
+  - https://ucarecdn.com/ad9dedbf-57ce-4ee7-bc45-e1aa8398bfab/
+  - https://ucarecdn.com/5e80aec8-29bb-4978-9ca4-1b9116de6a50/
+location: '{"type":"Point","coordinates":[-84.5137699999998,39.108722]}'
+body: >
+  ### Name
+
+  Art Academy of Cincinnati
+
+  ### Address
+
+  1212 Jackson St, Cincinnati, OH 45202
+
+  ### Original Owner
+
+  John Shillito Company (1910 building) & Samuel Rosenthal Company (1923
+  building)
+
+  ### Current Owner
+
+  Art Academy of Cincinnati
+
+  ### Date of Completion
+
+  1910 & 1923
+
+  ### Style
+
+  Romanesque Revival & Commerial Style
+
+  ### Architect
+
+  James McLaughlin (1910 building)
+
+  ### Original Function
+
+  1910 building facing Jackson St. was a furniture factory & warehouse for the
+  John Shillito Company.   The 1923 building housed the Samuel Rosenthal
+  Company, the oldest printing and publishing firm in Cincinnati.
+
+  ### Significance
+
+  The Art Academy of Cincinnati was one of the first institutions to relocate
+  into Over-the-Rhine and led the way for the rebirth of the area.
+
+  ### Unique Features
+
+  The school was relocated from the Cincinnati Art Museum, and the architects
+  created references to the former location.  For example, treads from a stair
+  were relocated and placed in the floor of the lobby so that everyone who
+  enters the building crosses the old stair treads.  Other treads were used to
+  create benches throughout the facility.  The central lightwell includes a
+  staircase that is rotated 7 degrees to align with the former building at the
+  Art Museum.  This lightwell brings daylight deep into the building.  The
+  perimeter of the building is composed of industrial sash windows that also
+  provide high quality daylight into the studios.
+
+  ### Renovation Date
+
+  2005
+
+  ### Renovation Architect
+
+  Design Collective/McGill Smith Punchon
+
+  ### Renovation Changes
+
+  Art Academy of Cincinnati, established in 1869, is an independent college of
+  art and design. Degrees granted are the Associate of Science in Graphic
+  Design, the Bachelor of Fine Arts in six visual arts disciplines, and the
+  Master of Arts in Art Education. Accredited by the National Association of
+  Schools of Art and Design, the Art Academy is a charter member of NASAD. The
+  Art Academy is accredited by the Higher Learning Commission and is a charter
+  member of the Association of Independent Colleges of Art and Design. The Art
+  Academy’s Community Education department offers extensive visual arts courses
+  to children, teens, and adults, including an award-winning summer camp.
+
+  ### Resources
+
+  http://www.artacademy.edu/
+
+  ### Green Building Features
+
+  The building received a LEED Silver Certification due in large part to its
+  extensive use of natural light and reuse and repurposing of materials and
+  lighting.
+---

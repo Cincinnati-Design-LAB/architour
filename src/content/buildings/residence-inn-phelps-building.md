@@ -1,0 +1,45 @@
+---
+title: Residence Inn (Phelps Building)
+images:
+  - https://ucarecdn.com/807fa21e-3ffc-4b05-9171-d7931c79d541/
+  - https://ucarecdn.com/ea26b2c2-4217-4fc8-accf-0fd94d32c0c5/
+location: '{"type":"Point","coordinates":[-84.5045,39.10165]}'
+body: >
+  ### Name
+
+  Residence Inn (Phelps Building)
+
+  ### Address
+
+  506 E. Fourth St., Cincinnati, OH  45202
+
+  ### Date of Completion
+
+  1926
+
+  ### Style
+
+  Beaux Arts Historicism
+
+  ### Architect
+
+  Garber & Woodward
+
+  ### Significance
+
+  The building was built by Charles Phelps Taft to counter the migration to the
+  suburbs and encourage business people to live in the downtown area.  
+
+  ### Historic Status
+
+  Part of the Lytle Park Historic District listed on the NRHP in 1976.
+
+  ### Unique Features
+
+  The hotel offers a rooftop bar with panoramic views of the city and northern
+  Kentucky.
+
+  ### Renovations
+
+  conversion from apartment building to hotel
+---
