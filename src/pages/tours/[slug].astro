@@ -18,7 +18,7 @@ const { Content } = await entry.render()
 <Layout title={entry.data.title}>
   <h1>{entry.data.title}</h1>
 
-  <a href="map">Map View</a>
+  <a href={`/tours/${entry.slug}/map`}>Map View</a>
 
   <Content />
 </Layout>
