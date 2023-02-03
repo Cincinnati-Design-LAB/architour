@@ -1,0 +1,13 @@
+---
+export interface Props {
+  href: string
+}
+
+const { href } = Astro.props
+
+const dynamicClasses = Astro.url.pathname === href ? 'font-bold' : ''
+---
+
+<a href={href} class={`hover:opacity-70 duration-300 transition-all ${dynamicClasses}`}>
+  <slot />
+</a>
