@@ -19,15 +19,10 @@ architect: Studio Daniel Libeskind
 associate_architect: GBBN Architects
 contractor: Dugan & Meyers
 original_function: Condominium building
-significance: >-
-  The 22 story tower is the only building in the Greater Cincinnati area
-  designed by renowned architect, Daniel Libeskind.  Known for his role as the
-  master planner for the redevelopment of the World Trade Center site in NYC,
-  Libeskind was also the architect for such notable projects as the Jewish
-  Museum in Berlin, the Denver Art Museum addition, and the Contemporary Jewish
-  Museum in San Francisco.
 unique_features: >-
   The building is designed with a sweeping form that both cants outward from its
   base but also slopes at the top from floors 14 to 22.  Its unique form creates
   a distinctive profile on the skyline of Covington.
 ---
+
+The 22 story tower is the only building in the Greater Cincinnati area designed by renowned architect, Daniel Libeskind. Known for his role as the master planner for the redevelopment of the World Trade Center site in NYC, Libeskind was also the architect for such notable projects as the Jewish Museum in Berlin, the Denver Art Museum addition, and the Contemporary Jewish Museum in San Francisco.

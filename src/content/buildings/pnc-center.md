@@ -14,8 +14,6 @@ date_of_completion: "1975"
 style: International Style
 architect: SOM
 associate_architect: BHDP Architecture
-significance: >-
-  First new highrise building in Cincinnati to depart from the conventional
-  rectangualar shape.  The project incorporated public art including murals by
-  Ellsworth Kelly (removed) and a kinetic sculpture by George Rickey.
 ---
+
+First new highrise building in Cincinnati to depart from the conventional rectangualar shape. The project incorporated public art including murals by Ellsworth Kelly (removed) and a kinetic sculpture by George Rickey.

@@ -14,14 +14,11 @@ date_of_completion: "1985"
 style: Post-Modern
 architect: Kohn, Pederson & Fox
 original_function: Office building - headquarters expansion
-significance: >-
-  While P&G originally desired to build the tallest building in Cincinnati, they
-  were challenged by the City to build the best building instead. The innovative
-  design created an anchor for the east end of the CBD as well as a symbolic
-  gateway to the City from the east.
 unique_features: >-
   The building has a second level concourse that is connected to the original
   building by an elevated walkway.  The concourse is a pedestrian street lined
   with services for P&G employees and terminates in a major dining space at the
   intersection of the twin towers.
 ---
+
+While P&G originally desired to build the tallest building in Cincinnati, they were challenged by the City to build the best building instead. The innovative design created an anchor for the east end of the CBD as well as a symbolic gateway to the City from the east.

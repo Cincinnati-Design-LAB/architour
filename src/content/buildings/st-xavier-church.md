@@ -14,10 +14,8 @@ date_of_completion: "1860"
 style: Gothic Revival
 architect: Lewis Pickett & Charles C. Svendsen
 original_function: Catholic church
-significance: >-
-  It is one of the longest continuously operating churches in the downtown
-  core.  The church was built on the site of the city's first diocesan cathedral
-  which was moved to Eighth & Plum in 1845.
 historic_status: Listed on the NRHP on July 18, 1980
 renovation_date: 1882-1887
 ---
+
+It is one of the longest continuously operating churches in the downtown core. The church was built on the site of the city's first diocesan cathedral which was moved to Eighth & Plum in 1845.

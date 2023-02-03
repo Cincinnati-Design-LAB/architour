@@ -14,9 +14,7 @@ style: Victorian Classicism
 architect: >-
   Samuel Hannaford, one of Cincinnati's most prolific 19th Century architects
   who also designed Cincinnati City Hall and Music Hall.
-significance: >-
-  The building is the oldest apartment building in Cincinnati, the first to
-  provide both kitchens and bathrooms in every apartment.  The future President,
-  William Howard Taft, resided in the building in 1883.
 historic_status: Listed on NRHP on March 3, 1980.
 ---
+
+The building is the oldest apartment building in Cincinnati, the first to provide both kitchens and bathrooms in every apartment. The future President, William Howard Taft, resided in the building in 1883.

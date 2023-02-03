@@ -9,9 +9,6 @@ location:
 address: 121 E. Freedom Way, Cincinnati, Ohio
 architect: CR Architects
 original_function: Residential apartments sitting on a retail base.
-significance: >-
-  The building was one of the first componenets of The Banks project, a major
-  redevelopment of the Cincinnati riverfront intended to extend the urban core
-  to the river.  This area was targeted to house residential, office, retail and
-  entertainment functions overlooking a new riverfront park.
 ---
+
+The building was one of the first componenets of The Banks project, a major redevelopment of the Cincinnati riverfront intended to extend the urban core to the river. This area was targeted to house residential, office, retail and entertainment functions overlooking a new riverfront park.

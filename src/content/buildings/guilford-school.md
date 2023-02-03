@@ -15,11 +15,6 @@ date_of_completion: "1914"
 style: Italian Renaissance
 architect: Frederick W. Garber
 original_function: Public school
-significance: >-
-  Formerly the site of Fort Washington, the location also once was occupied by a
-  boardinghouse where Stephen Foster lived from 1846-1850.  The building was
-  named after Nathan Guilford who championed the idea of supporting public
-  schools with a property tax.
 historic_status: Part of the Lytle Park Historic District listed on the NRHP in 1976.
 unique_features: >-
   The building's dual entries were designed for access by girls on one end and
@@ -28,3 +23,5 @@ unique_features: >-
 renovation_architect: MSA Architects
 renovation_changes: Office building and fitness center
 ---
+
+Formerly the site of Fort Washington, the location also once was occupied by a boardinghouse where Stephen Foster lived from 1846-1850. The building was named after Nathan Guilford who championed the idea of supporting public schools with a property tax.

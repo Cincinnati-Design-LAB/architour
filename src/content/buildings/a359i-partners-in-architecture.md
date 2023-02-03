@@ -18,9 +18,6 @@ current_owner: Kaup Pender Associates LLC
 date_of_completion: "1875"
 interior_accessibility: Handicap accessible
 original_function: Retail
-significance: >-
-  The building is clad with cast-iron ornamentation instead of the more common
-  terra cotta or stone ornament.
 unique_features: Conference room curtain and window garden
 renovation_date: "2011"
 renovation_architect: A359
@@ -29,3 +26,5 @@ renovation_changes: Architectural design studio
 resources: http://a359i.com/
 green_building_features: Recycled display panels, all components mobile for reuse
 ---
+
+The building is clad with cast-iron ornamentation instead of the more common terra cotta or stone ornament.

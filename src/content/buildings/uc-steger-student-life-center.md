@@ -17,7 +17,6 @@ interior_accessibility: The facility is open to public access.
 architect: Moore Ruble Yudel
 associate_architect: Glaserworks
 original_function: A place for students to meet, eat and work together.
-significance: >-
-  The 40-foot wide building wraps around the Engineering College creating the
-  north edge of the new Main Steet leading to the center of the campus.
 ---
+
+The 40-foot wide building wraps around the Engineering College creating the north edge of the new Main Steet leading to the center of the campus.

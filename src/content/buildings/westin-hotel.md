@@ -14,5 +14,6 @@ style: International
 architect: Abramovitz, Harris & Kingsland
 associate_architect: KZF Design
 original_function: Hotel
-significance: The public atrium serves as an indoor extension  of Fountain Square.
 ---
+
+The public atrium serves as an indoor extension of Fountain Square.

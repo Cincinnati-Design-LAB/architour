@@ -10,12 +10,11 @@ address: 506 E. Fourth St., Cincinnati, OH  45202
 date_of_completion: "1926"
 style: Beaux Arts Historicism
 architect: Garber & Woodward
-significance: >-
-  The building was built by Charles Phelps Taft to counter the migration to the
-  suburbs and encourage business people to live in the downtown area.
 historic_status: Part of the Lytle Park Historic District listed on the NRHP in 1976.
 unique_features: >-
   The hotel offers a rooftop bar with panoramic views of the city and northern
   Kentucky.
 renovations: conversion from apartment building to hotel
 ---
+
+The building was built by Charles Phelps Taft to counter the migration to the suburbs and encourage business people to live in the downtown area.

@@ -10,8 +10,7 @@ address: 8 W Ninth St., Cincinnati, OH  45202
 date_of_completion: "1830"
 style: Greek Revival
 architect: Unknown
-significance: >-
-  One of the oldest remaining residences in Cincinnati, the house was originally
-  a multi-family residence.
 historic_status: Listed in NRHP on May 7, 1979 and part of the Ninth Street Historic District
 ---
+
+One of the oldest remaining residences in Cincinnati, the house was originally a multi-family residence.

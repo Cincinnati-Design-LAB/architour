@@ -10,8 +10,7 @@ address: 300 Main St., Cincinnati, Ohio
 date_of_completion: "1862"
 style: Itanianate
 architect: William Walters
-significance: >-
-  Home of the  offices of Salmon P. Chase, he later became Chief Justice of the
-  US Supreme Court.
 historic_status: Part of a cluster of 3 buildings added to the NRHP on July 15, 1983.
 ---
+
+Home of the offices of Salmon P. Chase, he later became Chief Justice of the US Supreme Court.

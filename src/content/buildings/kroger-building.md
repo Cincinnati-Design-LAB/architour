@@ -12,11 +12,9 @@ address: 1014 Vine St., Cincinnati, OH  45202
 date_of_completion: "1954"
 architect: Wyatt C. Hedrick
 original_function: Office building
-significance: >-
-  The building was the first curtainwall clad high rise in the downtown area. 
-  Originally clad in blue and white panels to blend into the sky, it was reclad
-  in a more conventional aluminum panel when it was renovated in 1980.
 renovation_date: "1980"
 renovation_architect: GBBN
 renovation_style: International
 ---
+
+The building was the first curtainwall clad high rise in the downtown area. Originally clad in blue and white panels to blend into the sky, it was reclad in a more conventional aluminum panel when it was renovated in 1980.

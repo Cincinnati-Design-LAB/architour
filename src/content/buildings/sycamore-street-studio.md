@@ -18,9 +18,6 @@ current_owner: Ted Gantz
 date_of_completion: "1880"
 interior_accessibility: Must be able to climb stairs
 original_function: Residence
-significance: >-
-  The 137 year old house has been substantially  maintained in its original
-  condition on the first two floors.
 unique_features: >-
   The studio and residence is a complex of three buildings configured around a
   central courtyard similar to the garden homes in New Orleans.  The owner is a
@@ -39,3 +36,5 @@ renovation_changes: >-
   clients.
 resources: http://sycamorestreetstudio.com
 ---
+
+The 137 year old house has been substantially maintained in its original condition on the first two floors.

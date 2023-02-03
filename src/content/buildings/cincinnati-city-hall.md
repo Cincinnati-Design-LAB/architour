@@ -17,11 +17,6 @@ architect: >-
   Samuel Hannaford & Sons, one of Cincinnati's most prolific 19th Century
   architects who also designed Cincinnati City Hall and Music Hall.
 original_function: City offices and Council chambers
-significance: >-
-  In 1884, Cincinnati experienced a courthouse riot followed by a labor riot two
-  years later.  Downtown residents were concerned about trends toward violence,
-  and a new mayor was elected to gain control.  The design of the new City Hall
-  was intended to stand as a symbol of the government's power.
 historic_status: Listed on NRHP on December 11, 1972.
 unique_features: >-
   Referencing the work of H. H. Richardson, the muscular style of the building
@@ -30,3 +25,5 @@ unique_features: >-
   large courtyard is located in the center of the building and has been studied
   for enclosure.
 ---
+
+In 1884, Cincinnati experienced a courthouse riot followed by a labor riot two years later. Downtown residents were concerned about trends toward violence, and a new mayor was elected to gain control. The design of the new City Hall was intended to stand as a symbol of the government's power.

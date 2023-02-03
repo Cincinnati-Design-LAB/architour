@@ -16,8 +16,9 @@ architect: >-
   Samuel Hannaford & Sons, one of Cincinnati's most prolific 19th Century
   architects who also designed Cincinnati City Hall and Music Hall.
 original_function: Classroom building and assembly hall
-significance: The building housed one of the oldest technical schools in the country.
 renovations: Converted to residential apartments.
 renovation_date: "2001"
 renovation_architect: GBBN
 ---
+
+The building housed one of the oldest technical schools in the country.

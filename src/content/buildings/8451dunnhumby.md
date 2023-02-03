@@ -12,11 +12,10 @@ date_of_completion: "2015"
 architect: Gensler
 contractor: Turner Construction
 original_function: Office building and parking garage with street level retail
-significance: >-
-  The building is the North American headquarters of the London-based company. 
-  Majority interest in the company was recently acquired by The Kroger Company.
 unique_features: >-
   The office space is centered around a cascading lightwell or "cavern" that is
   designed to continue to the street when 84.51 expands into the parking garage
   in the future.
 ---
+
+The building is the North American headquarters of the London-based company. Majority interest in the company was recently acquired by The Kroger Company.

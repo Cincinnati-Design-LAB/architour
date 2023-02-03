@@ -13,13 +13,6 @@ location:
 date_of_completion: "1977"
 architect: Zion & Breen
 original_function: Flood wall designed to facilitate public gatherings.
-significance: >-
-  The wall was part of the city's initial efforts to reclaim the riverfont for
-  public use.  Much of the riverfront was previously occupied by businesses that
-  relied upon river tansportation to move their resources and goods.  The
-  serpentine wall was the first development to allow the public to come to the
-  river's edge. The undulating form was purportedly a reference to the famous
-  indian burial mound in nearby Adams County, Serpent Mound.
 unique_features: >-
   The massive scale of the wall mitigates between the river and the park behind
   it.  The undulating form supports public gatherings along the river, and it
@@ -28,3 +21,5 @@ unique_features: >-
   Southern, Riverfest, that draws over 500,000 people and features a fireworks
   display choreographed to music developed by local radio station, WEBN.
 ---
+
+The wall was part of the city's initial efforts to reclaim the riverfont for public use. Much of the riverfront was previously occupied by businesses that relied upon river tansportation to move their resources and goods. The serpentine wall was the first development to allow the public to come to the river's edge. The undulating form was purportedly a reference to the famous indian burial mound in nearby Adams County, Serpent Mound.

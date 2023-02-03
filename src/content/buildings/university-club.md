@@ -12,7 +12,6 @@ style: Victorian Italianate
 original_function: >-
   A social club for college-educated men.  William Howard Taft and his
   half-brother, Charles Phelps Taft were members of the club.
-significance: >-
-  Two historic homes, the Seeley and Smith residences, were merged together into
-  the new club building.
 ---
+
+Two historic homes, the Seeley and Smith residences, were merged together into the new club building.

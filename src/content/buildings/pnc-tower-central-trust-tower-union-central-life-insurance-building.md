@@ -18,11 +18,6 @@ architect: >-
   in New York City and the US Supreme Court Building in Washington, DC.
 associate_architect: Garber & Woodward
 original_function: Office building
-significance: >-
-  When constructed, it was the tallest building in the US outside of NYC and the
-  fifth largest building in the world.  The building is a representation of a
-  classic tripartite form of base, shaft and cap with a Grecian temple as the
-  cap.
 unique_features: >-
   The building follows the classic tripartite form of base, shaft and cap.  The
   greek temple form that tops the building was based on the Mausoleum of
@@ -33,3 +28,5 @@ renovations: Expansion added to the west on Fourth Street
 renovation_date: "1939"
 renovation_architect: Frederick W. Garber & Associates
 ---
+
+When constructed, it was the tallest building in the US outside of NYC and the fifth largest building in the world. The building is a representation of a classic tripartite form of base, shaft and cap with a Grecian temple as the cap.

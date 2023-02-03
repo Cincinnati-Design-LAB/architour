@@ -17,9 +17,6 @@ architect: Jacob Linville (Chief Engineer 1872) / M.J. Becker (Chief Engineer 18
 original_function: >-
   Built initially as a railroad bridge, it was reconstructed in 1897 as a
   railroad, streetcar, wagon, and pedestrian bridge.
-significance: >-
-  Ir is the only bridge to cross the Ohio at Cincinnati dedicated solely to
-  pedestrian and bicycle traffic.
 historic_status: Listed in NRHP on April 17, 2001
 unique_features: >-
   For a few years starting in 2006, a bridge climb experience was operated on
@@ -30,3 +27,5 @@ renovations: >-
   bicycle bridge. Park-like zones anchor each end of the bridge.
 renovation_date: "2001"
 ---
+
+Ir is the only bridge to cross the Ohio at Cincinnati dedicated solely to pedestrian and bicycle traffic.

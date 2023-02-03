@@ -15,13 +15,6 @@ style: High Victorian Gothic
 architect: Samuel Hannaford & Edwin R. Procter
 contractor: Messer Construction (2016 renovation)
 original_function: Music and exposition center
-significance: >-
-  Conceived as a cathedral or temple of music, the building was championed by
-  Ruben Springer and other local philanthropists.  The 3,500 seat Springer
-  Auditorium is considered one of the most acoustically perfect performance
-  halls in the world.  The building is home to the Cincinnati Symphony
-  Orchestra, Cincinnati Pops Orchestra, Cincinnati Opera, and the May Festival
-  Chorus.
 historic_status: Listed on NRHP on January 26, 1970.
 unique_features: >-
   Built on the site of an old pauper's cemetery, the building is rumored to be
@@ -34,3 +27,5 @@ renovation_architect: >-
   Samuel Hannaford & Sons (1895) / Kruckemeyer & Strong (1925) / George Schatz &
   Associates (1976) / Perfido Weiskopf Wagstaff + Goettel (2016)
 ---
+
+Conceived as a cathedral or temple of music, the building was championed by Ruben Springer and other local philanthropists. The 3,500 seat Springer Auditorium is considered one of the most acoustically perfect performance halls in the world. The building is home to the Cincinnati Symphony Orchestra, Cincinnati Pops Orchestra, Cincinnati Opera, and the May Festival Chorus.

@@ -17,11 +17,10 @@ associate_architect: Harley Ellis Devereaux
 original_function: >-
   Laboratory and research facility to support the medical education community in
   a collaborative setting that brings faculty, students and clinicians together.
-significance: >-
-  The building design won the 2002 American Architecture Award from the Chicago
-  Athenaeum.
 unique_features: >-
   The building has a nine story day-lighted atrium spanned by 7 glass bridges
   and connects to the Medical Sciences Building.
 green_building_features: The building was designed to meet LEED Silver standards.
 ---
+
+The building design won the 2002 American Architecture Award from the Chicago Athenaeum.

@@ -16,10 +16,6 @@ style: Neo-Federal
 interior_accessibility: Open to the public
 architect: Harry Hake
 original_function: Student union
-significance: >-
-  The building has long been the center of student life on the campus.  The
-  bridge at the west entry of the building was the popular gathering spot for
-  students throughout the year.
 renovations: >-
   The latest renovation and addition wrapped the existing building with a
   circular modern zinc façade and expansive glazing making the building more
@@ -33,3 +29,5 @@ renovation_changes: >-
   An 800-seat auditorium was constructed south of the original building
   providing new assemblly and presentation space.
 ---
+
+The building has long been the center of student life on the campus. The bridge at the west entry of the building was the popular gathering spot for students throughout the year.

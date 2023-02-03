@@ -12,7 +12,8 @@ date_of_completion: "1870"
 style: Italianate
 architect: James W. McLaughlin
 original_function: Residence
-significance: It was the home of Louis Ehrgott, the director of the May Festival.
 renovation_date: "1996"
 renovation_changes: Hotel & restaurant
 ---
+
+It was the home of Louis Ehrgott, the director of the May Festival.

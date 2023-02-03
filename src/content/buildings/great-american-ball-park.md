@@ -19,11 +19,6 @@ interior_accessibility: >-
 architect: Populous (HOK Sport)
 associate_architect: GBBN
 original_function: Professional baseball stadium
-significance: >-
-  Smaller than its predecessor, the new ball park is more intimate and nostalgic
-  in character inspired by Baltimore's Camden Yards.  Its external massing
-  creates a more appropriate urban scale to relate to the adjacent Banks
-  development and houses the Reds Hall of Fame and Museum.
 unique_features: >-
   A gap in the stands that aligns with Sycamore Street allows a view into the
   stadium from the downtown area.  The stadium has twin smoke stacks in the
@@ -31,3 +26,5 @@ unique_features: >-
   steamboats.  When the Reds hit a home run or win a game, fireworks are shot
   out of the stacks.
 ---
+
+Smaller than its predecessor, the new ball park is more intimate and nostalgic in character inspired by Baltimore's Camden Yards. Its external massing creates a more appropriate urban scale to relate to the adjacent Banks development and houses the Reds Hall of Fame and Museum.

@@ -10,12 +10,11 @@ address: 18 W. Fourth St., Cincinnati, OH  45202
 date_of_completion: "1908"
 architect: Frank M Andrews
 original_function: Department store
-significance: >-
-  The building once housed the Gidding-Jenny department store, a high-end
-  retailer.
 unique_features: >-
   The colorful façade is composed of Rookwood tile manufactured at the famous
   Rookwood Pottery in Cincinnati.
 renovation_date: "1965"
 renovation_architect: Architekton
 ---
+
+The building once housed the Gidding-Jenny department store, a high-end retailer.

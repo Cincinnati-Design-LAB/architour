@@ -19,9 +19,6 @@ original_function: >-
   The park includes a public lawn, a spray park, the National Steamboat
   Memorial, and the Serpentine Wall.  It is frequently used as the center of
   public events on the riverfront.
-significance: >-
-  The park was the first development on the riverfront to provide public access
-  to the river.
 unique_features: >-
   The National Steamboat Mounument is located at the beginning of the park on
   the west side of the Public Landing.  The paddle wheel is an exact replica of
@@ -31,3 +28,5 @@ unique_features: >-
   Grove.  The whistles are triggered by motion, and they emit steam as they
   sound.
 ---
+
+The park was the first development on the riverfront to provide public access to the river.

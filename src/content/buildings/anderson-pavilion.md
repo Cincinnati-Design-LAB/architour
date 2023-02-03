@@ -13,12 +13,6 @@ architect: Sasaki Associates
 original_function: >-
   The events/ banquet/ conference center supports functions ranging from parties
   and weddings to galas and political events.
-significance: >-
-  The pavilion was funded by a donation from the Anderson Foundation to honor
-  Annie W. & Elizabeth M. Anderson, sisters who were noted local philanthopists
-  and decendents of Nicholas Longworth, one of Cincinnati's early settlers who
-  was also a noted philanthropist and stateman and who built the residence that
-  is now the Taft Museum of Art.
 unique_features: >-
   Carol Ann's Carousel is located above the events center.  The carousel was
   funded with a grant from the Haile Foundation to the Cincinnati Parks Board in
@@ -27,3 +21,5 @@ unique_features: >-
   represent aspects of Cincinnati history and daily life and reference the
   Bengals, the Bearcats, P&G, Ocktoberfest, and many other Cincinnati icons.
 ---
+
+The pavilion was funded by a donation from the Anderson Foundation to honor Annie W. & Elizabeth M. Anderson, sisters who were noted local philanthopists and decendents of Nicholas Longworth, one of Cincinnati's early settlers who was also a noted philanthropist and stateman and who built the residence that is now the Taft Museum of Art.

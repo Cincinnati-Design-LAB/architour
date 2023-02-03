@@ -19,12 +19,9 @@ associate_architect: Glaserworks
 original_function: >-
   Athletic support offices for team sports, coaches, and academic services for
   athletes and UC's Athletic Museum.
-significance: >-
-  As in many new buildings on the UC campus, the designers were challenged with
-  creating an infill building on leftover land dictating the unique form of the
-  building.  The structure is an exposed triangular concrete truss system with
-  glass infil panels creating an iconic image on the campus.
 unique_features: >-
   The central atrium includes a multi-story trophy case suspended on the east
   side of the atrium.
 ---
+
+As in many new buildings on the UC campus, the designers were challenged with creating an infill building on leftover land dictating the unique form of the building. The structure is an exposed triangular concrete truss system with glass infil panels creating an iconic image on the campus.

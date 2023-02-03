@@ -19,14 +19,9 @@ interior_accessibility: >-
 architect: Frank Gehry
 associate_architect: BHDP Architecture
 original_function: Molecular reseach laboratories
-significance: >-
-  The building has an ordered plan to accommodate the various laboratories
-  within that belies the articulated curving façade characteristic of
-  Gehry-designed buildings.  Challenged with designing a brick building to
-  reflect UC's historic character,  Gehry and his team developed a panelized
-  preformed brick facade system that could be factory built to achieve the
-  challenging geometry of the building.
 unique_features: >-
   The building has a central atrium with stair that connects the varying
   laboratory levels to encourage researchers to collaborate with each other.
 ---
+
+The building has an ordered plan to accommodate the various laboratories within that belies the articulated curving façade characteristic of Gehry-designed buildings. Challenged with designing a brick building to reflect UC's historic character, Gehry and his team developed a panelized preformed brick facade system that could be factory built to achieve the challenging geometry of the building.

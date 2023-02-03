@@ -14,10 +14,8 @@ style: Chicago Commercial Style
 architect: Samuel S Godley
 contractor: Roche-Bruner Building Company
 original_function: Office building
-significance: >-
-  The building was one of the first speculative office buildings constructed in
-  Cincinnati.  It had unusually high ceiling heights and large windows to bring
-  daylight and fresh air into the space.
 renovation_date: "1963"
 renovation_changes: In 1963, it was converted into office space for P&G.
 ---
+
+The building was one of the first speculative office buildings constructed in Cincinnati. It had unusually high ceiling heights and large windows to bring daylight and fresh air into the space.

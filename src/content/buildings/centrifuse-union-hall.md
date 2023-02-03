@@ -22,9 +22,6 @@ original_function: >-
   The building was the home and meeting place for multiple labor unions.  Later
   it became a beer garden and dance hall, a matress manufacturing company, and
   most recently a nightclub called the Warehouse.
-significance: >-
-  The building is composed of three properties that have been married together
-  over the years.
 unique_features: >-
   The sub-basement of the building is approximately 50 feet below grade and was
   originally a lagering tunnel to hold kegs of beer.  Its barrel-vaulted brick
@@ -44,3 +41,5 @@ renovation_changes: >-
 resources: http://www.cintrifuse.com/
 green_building_features: The building is LEED Certified.
 ---
+
+The building is composed of three properties that have been married together over the years.

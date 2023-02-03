@@ -14,13 +14,10 @@ style: French Second Empire
 architect: Samuel Hannaford & Edwin Procter
 contractor: Messer Construction (renovation)
 original_function: department store complex
-significance: >-
-  Built on the north side of the canal that is now Central Parkway, the store
-  marked the growth of the city into the previously undesirable area that was
-  pioneered by the development of Music Hall.  When built, it was the second
-  largest department store west of New York.
 renovation_date: 1912 / 1995
 renovation_architect: Daniel Burnham / GBBN
 renovation_style: Chicago School
 renovation_changes: County offices
 ---
+
+Built on the north side of the canal that is now Central Parkway, the store marked the growth of the city into the previously undesirable area that was pioneered by the development of Music Hall. When built, it was the second largest department store west of New York.

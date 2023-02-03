@@ -12,7 +12,6 @@ date_of_completion: "1965"
 style: International
 architect: Garriott & Becker
 original_function: Downtown fire station
-significance: >-
-  The building serves as the headquarters of the first professional and
-  compensated fire department in the country.
 ---
+
+The building serves as the headquarters of the first professional and compensated fire department in the country.

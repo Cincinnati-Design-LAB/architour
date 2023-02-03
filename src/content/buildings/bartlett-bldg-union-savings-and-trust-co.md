@@ -21,9 +21,6 @@ associate_architect: Graham, Anderson, Probst & White
 original_function: >-
   Banking floor and bank  offices for Union Savings & Trust plus 407 office
   rooms for rent.
-significance: >-
-  First highrise bank building designed by Burnham in Cincinnati and tallest
-  building in the city at the time of construction.
 historic_status: Listed on NRHP on August 29, 2008.
 renovation_date: "1927"
 renovation_architect: Graham, Anderson, Probst & White
@@ -31,3 +28,5 @@ renovation_changes: >-
   The building was converted into a full-service hotel.  The restaurant on the
   first floor is named D Burnham's in honor of the architect of the building.
 ---
+
+First highrise bank building designed by Burnham in Cincinnati and tallest building in the city at the time of construction.

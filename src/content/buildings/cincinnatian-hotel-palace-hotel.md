@@ -14,13 +14,11 @@ style: Second Empire
 interior_accessibility: The hotel lobby, bar and restaurant are open to the public.
 architect: Samuel Hannaford & Joseph Steinkamp & Brother
 contractor: Messer Construction (1987 renovation)
-significance: >-
-  The tallest building in Cincinnati at the time it was built, the hotel was
-  designed in the spirit of the Grand Hotels of Europe.  It introduced new
-  technology such as electric lights and hydraulic elevatos to the hotel market.
 historic_status: Listed on NRHP on March 3, 1980
 renovation_date: "1987"
 renovation_architect: Williams Trebilcock Whitehead
 renovation_style: Post-modern
 renovation_changes: Converted 300 room hotel into 146 room luxury hotel.
 ---
+
+The tallest building in Cincinnati at the time it was built, the hotel was designed in the spirit of the Grand Hotels of Europe. It introduced new technology such as electric lights and hydraulic elevatos to the hotel market.

@@ -14,14 +14,10 @@ date_of_completion: "1877"
 style: Renaissance Revival
 architect: Johann Bast
 original_function: Offices for the insurance company.
-significance: >-
-  The first floor hall served as a home for the many German-American societies
-  that existed in Cincinnati at the time.  It became a target of anti-German
-  sentiment as the US entered WW2. The company name was changed to the Hamilton
-  County Mutual Fire Insurance Company of Cincinnati, and the sculpture of
-  Germania was renamed Columbia.
 unique_features: >-
   A sculpture of Germania, the German symbol of culture and spirit, is
   integrated into the façade.  The sculpture was designed by Cincinnatian
   Leopold Fettweis.
 ---
+
+The first floor hall served as a home for the many German-American societies that existed in Cincinnati at the time. It became a target of anti-German sentiment as the US entered WW2. The company name was changed to the Hamilton County Mutual Fire Insurance Company of Cincinnati, and the sculpture of Germania was renamed Columbia.

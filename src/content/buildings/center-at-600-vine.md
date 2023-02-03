@@ -12,5 +12,6 @@ style: Modern
 architect: Gin Wong
 associate_architect: Hixson Architects
 original_function: Office building
-significance: It is the sixth tallest building in Cincinnati.
 ---
+
+It is the sixth tallest building in Cincinnati.

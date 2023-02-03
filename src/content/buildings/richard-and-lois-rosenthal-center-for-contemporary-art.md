@@ -25,10 +25,6 @@ architect: >-
 associate_architect: KZF Design
 contractor: Turner Construction
 original_function: Art museum
-significance: >-
-  It is the first building in the US for the internationally renowned, Iraqi
-  born, female architect from London.  It is also the first major museum in the
-  US to be designed by a woman.
 unique_features: >-
   The "urban carpet" concept connects the building to the street by extending
   the sidewalk into the building.  The radiused transition between the "urban
@@ -46,3 +42,5 @@ renovation_changes: >-
   The renovation reorganized the lobby functions (reception and gift shop) and
   added a coffee shop to engage the public.
 ---
+
+It is the first building in the US for the internationally renowned, Iraqi born, female architect from London. It is also the first major museum in the US to be designed by a woman.

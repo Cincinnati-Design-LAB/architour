@@ -19,12 +19,11 @@ date_of_completion: "1904"
 style: Beaux Arts
 architect: John H. Boll & Charles C. Taylor
 original_function: Public library
-significance: >-
-  It was one of the first public libraries funded by the Carnegie Foundation. It
-  served as Covington's public library until the 1970s.
 unique_features: The building includes a 700-seat auditorium.
 renovation_architect: KZF Design
 renovation_changes: >-
   The building serves as a community arts center offering public education in
   both performance and graphic arts.
 ---
+
+It was one of the first public libraries funded by the Carnegie Foundation. It served as Covington's public library until the 1970s.

@@ -18,12 +18,6 @@ architect: Machado & Silvetti
 original_function: >-
   Light tower dedicated to a member of the Sigma Sigma Fraternity, a men's honor
   society.
-significance: >-
-  The Sigma Sigma Commons and the Ronald F. Walker Tower were funded by the
-  honorary fraternity Sigma Sigma.  It raised $1.8 million to fund the project
-  in a campaign that lasted only 3 months!  The 3.5 acre site is a magnet for
-  student activity and includes an amphitheater that seats 1,850 people for
-  special performances.
 unique_features: >-
   "The tower has a number of symbolic aspects in its design. Its square base
   forms the letters U and C on alternating sides. Above these letters, the main
@@ -33,3 +27,5 @@ unique_features: >-
   through the use of a computer program."  Source:
   www.azahner.com/works/sigma-tower
 ---
+
+The Sigma Sigma Commons and the Ronald F. Walker Tower were funded by the honorary fraternity Sigma Sigma. It raised $1.8 million to fund the project in a campaign that lasted only 3 months! The 3.5 acre site is a magnet for student activity and includes an amphitheater that seats 1,850 people for special performances.

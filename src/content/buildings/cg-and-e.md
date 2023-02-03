@@ -13,13 +13,9 @@ date_of_completion: "1930"
 style: Beaux Arts Classicism
 architect: John Russell Pope
 associate_architect: Garber & Woodward
-significance: >-
-  The building follows the classic tripartite form with a 3-story doric columned
-  base, a 16-story tower, and a pyramidal top. Reminiscent of the Union Central
-  Life Building also designed by Garber & Woodward, the pyramidal roof inspired
-  the architects of the Cincinnati Times Star Building in 1933 and the P&G twin
-  towers in 1985.
 unique_features: Gas-lit stone urns designed by scupltor Harry Easton uplight the upper tower.
 renovation_date: "1950"
 renovation_architect: Harry Hake & Harry Hake Jr.
 ---
+
+The building follows the classic tripartite form with a 3-story doric columned base, a 16-story tower, and a pyramidal top. Reminiscent of the Union Central Life Building also designed by Garber & Woodward, the pyramidal roof inspired the architects of the Cincinnati Times Star Building in 1933 and the P&G twin towers in 1985.

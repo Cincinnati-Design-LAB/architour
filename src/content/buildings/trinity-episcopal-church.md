@@ -17,12 +17,11 @@ date_of_completion: "1857"
 style: Gothic Revival
 architect: unknown
 original_function: Episcopal church
-significance: >-
-  One of the early Episcopal churches in Kentucky, it is home to the second
-  largest parish in the Episcopal Diocese of Lexington.
 historic_status: Added to the NRHP on March 1, 1982
 renovations: >-
   1871 addition, 1885 guild hall addition, 1887 new western front, 1887 nave,
   baptistry, and bell tower additions.  In 1961, an L-shaped addition provided
   classroom and office space.
 ---
+
+One of the early Episcopal churches in Kentucky, it is home to the second largest parish in the Episcopal Diocese of Lexington.

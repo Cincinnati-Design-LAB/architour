@@ -13,7 +13,6 @@ date_of_completion: "1984"
 style: International
 interior_accessibility: The lobby and public circulation zones are open the the public.
 architect: RTKL
-significance: >-
-  The curved south façade of the building gives panoramic river views to more
-  hotel rooms.
 ---
+
+The curved south façade of the building gives panoramic river views to more hotel rooms.

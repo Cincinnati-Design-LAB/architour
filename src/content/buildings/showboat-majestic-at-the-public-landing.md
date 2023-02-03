@@ -11,9 +11,6 @@ current_owner: City of Cincinnati
 date_of_completion: "1923"
 architect: Tom Reynolds
 original_function: Floating showboat
-significance: >-
-  It is the oldest floating theatre in the US and was the last in operation
-  until its closing in 2013.
 historic_status: >-
   Listed in NRHP on January 3, 1980 and declared a National Historic Landmark on
   December 20, 1989
@@ -22,3 +19,5 @@ unique_features: >-
   development.  Cincinnati Landmark Productions began operating the Majestic as
   a summer theater in 1991.
 ---
+
+It is the oldest floating theatre in the US and was the last in operation until its closing in 2013.

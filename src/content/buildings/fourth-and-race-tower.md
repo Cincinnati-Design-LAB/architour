@@ -13,5 +13,6 @@ date_of_completion: "1927"
 style: Italian Renaissance Revival
 architect: Teitig & Lee
 associate_architect: Hake & Kuck
-significance: The building was once the home of the Federal Reserve Bank of Cleveland.
 ---
+
+The building was once the home of the Federal Reserve Bank of Cleveland.

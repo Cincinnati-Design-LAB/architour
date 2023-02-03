@@ -13,7 +13,6 @@ architect: Harry Hake & Partners
 original_function: >-
   A branch of the Federal Reserve Bank of Cleveland, the facility distributes
   coins and currency to banks.
-significance: >-
-  The austere building was complemented by a formal garden to the north that has
-  only recently been opened to the public.
 ---
+
+The austere building was complemented by a formal garden to the north that has only recently been opened to the public.

@@ -10,9 +10,7 @@ address: 500 E. Fourth St., Cincinnati, OH  45202
 date_of_completion: "1820"
 style: Federal
 architect: unknown
-significance: >-
-  The building was orignally the home of William Sargent, the secretary of the
-  Northwest Territory.  The club founded in 1849 is the oldest literary club in
-  the country.
 historic_status: Area listed on NRHP on March 26, 1976.
 ---
+
+The building was orignally the home of William Sargent, the secretary of the Northwest Territory. The club founded in 1849 is the oldest literary club in the country.

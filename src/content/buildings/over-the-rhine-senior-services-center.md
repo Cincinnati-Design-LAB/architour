@@ -6,8 +6,6 @@ location:
   lng: -84.51717
 address: 1715 Republic Street, Cincinnati, Ohio
 architect: Woollen, Molzan and Partners
-significance: >-
-  The project was a pioneer in in-fill design creating a complex interwoven in
-  the Over-the-Rhine neighborhood at a time when it was considered one of the
-  most impoverished neighborhoods in the country.
 ---
+
+The project was a pioneer in in-fill design creating a complex interwoven in the Over-the-Rhine neighborhood at a time when it was considered one of the most impoverished neighborhoods in the country.

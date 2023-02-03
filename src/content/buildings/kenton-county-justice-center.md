@@ -19,7 +19,6 @@ interior_accessibility: handicap accessible
 architect: KZF Design
 contractor: Corporex
 original_function: County courthouse
-significance: >-
-  The design/build approach to this government building was unique at the time
-  and simplified the process of building the new courthouse for Kenton County.
 ---
+
+The design/build approach to this government building was unique at the time and simplified the process of building the new courthouse for Kenton County.

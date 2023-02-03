@@ -16,9 +16,6 @@ address: |-
 current_owner: 3CDC
 interior_accessibility: Handicap accessible
 contractor: HGC Construction
-significance: >-
-  The building is located on the site of Saengerhalle, the original home of the
-  Cincinnati May Festival.
 unique_features: >-
   The complex of builldings had been tied toegther with infill construction to
   create more desireable floorplates for today's market demands.  Located on the
@@ -40,3 +37,5 @@ green_building_features: >-
   ventilation to the space, and energy consumption has been reduced through the
   incorporation of LED lighting throughout the space.
 ---
+
+The building is located on the site of Saengerhalle, the original home of the Cincinnati May Festival.

@@ -12,7 +12,6 @@ current_owner: LPK
 date_of_completion: "1861"
 style: Italianate
 architect: Samuel Hannaford & Edwin Anderson
-significance: It is the oldest surviving residence designed by Samuel Hannaford.
 historic_status: Listed on NRHP on October 26, 1972
 renovations: >-
   In 1973, the building was converted into senior citizens center, and a
@@ -21,3 +20,5 @@ renovations: >-
 renovation_date: "2005"
 renovation_changes: Headquarters and meeting facility for the branding company.
 ---
+
+It is the oldest surviving residence designed by Samuel Hannaford.

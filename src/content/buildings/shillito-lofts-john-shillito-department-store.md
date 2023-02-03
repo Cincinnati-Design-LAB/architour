@@ -19,9 +19,6 @@ date_of_completion: >-
 style: Art Deco (1938 wrap)
 architect: James W. McLaughlin (1870s) / Potter, Tyler & Martin (1938)
 original_function: Department store
-significance: >-
-  The expansion and new façade built in 1938 was commissioned by the new owners,
-  the Lazarus family, to create a more "fashionable" image for the building.
 historic_status: Part of the Race Street Historic District
 unique_features: >-
   The orginal store was built around  central atrium topped with a circular
@@ -32,3 +29,5 @@ renovation_changes: >-
   The building was converted into apartments with office space located on the
   street level.
 ---
+
+The expansion and new façade built in 1938 was commissioned by the new owners, the Lazarus family, to create a more "fashionable" image for the building.

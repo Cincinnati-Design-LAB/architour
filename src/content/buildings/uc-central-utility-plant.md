@@ -15,11 +15,6 @@ date_of_completion: "1992"
 style: Modern
 architect: Cambridge Seven Associates
 original_function: Campus power center generating electricity, steam and chilled water
-significance: >-
-  The new facility was constructed to replace the facility previously located at
-  the end of Nippert Stadium facilitating the development of the new student
-  athletic center.  The facility is centrally located between the main campus
-  and the medical campus to support both.
 unique_features: >-
   The main boiler and chiller plant is glazed allowing views into the building
   from the surrounding streets.  These massive systems were celebrated as part
@@ -31,3 +26,5 @@ renovations: >-
 renovation_date: "2004"
 renovation_architect: Cambridge Seven Associates
 ---
+
+The new facility was constructed to replace the facility previously located at the end of Nippert Stadium facilitating the development of the new student athletic center. The facility is centrally located between the main campus and the medical campus to support both.

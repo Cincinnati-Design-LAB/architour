@@ -25,10 +25,6 @@ contractor: Messer Construction
 original_function: >-
   Theater and event center (starting in 2018) for weddings, lectures, community
   partner events, donor events, and private dinners.
-significance: >-
-  The building anchors and activates through its transparency the southwest
-  corner of Washington Park and is a complement to the School for Creative and
-  Performing Arts, Memorial Hall and Music Hall.
 unique_features: >-
   The main theater has been designed for flexibility and can be configured
   several ways ranging from a thrust formation mirroring the Globe Theatre to
@@ -53,3 +49,5 @@ quotes: >-
   Brandery
 resources: http://cincyshakes.com/
 ---
+
+The building anchors and activates through its transparency the southwest corner of Washington Park and is a complement to the School for Creative and Performing Arts, Memorial Hall and Music Hall.

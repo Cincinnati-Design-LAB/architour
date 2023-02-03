@@ -16,12 +16,6 @@ associate_architect: Harry Hake & Partners
 original_function: >-
   Bank and office building with a retail function at the skywalk (second floor)
   level.
-significance: >-
-  The original design was the first major building to embrace the City's skywalk
-  system by locating all major public functions at the skywalk level.  The
-  result was a street façade that was cold and impersonal.  The building base
-  was later renovated to reconnect to the street by expanding under the original
-  street arcade and creating glass storefronts.
 unique_features: >-
   The two staggered office towers were designed with single-loaded corridors
   that supported single tenants in each wing and made muli-tenant floors
@@ -35,3 +29,5 @@ renovation_changes: >-
   building to a double-loaded function allowing condos to face both north and
   south.
 ---
+
+The original design was the first major building to embrace the City's skywalk system by locating all major public functions at the skywalk level. The result was a street façade that was cold and impersonal. The building base was later renovated to reconnect to the street by expanding under the original street arcade and creating glass storefronts.

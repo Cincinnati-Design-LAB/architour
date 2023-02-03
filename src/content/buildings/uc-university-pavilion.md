@@ -16,12 +16,11 @@ style: Modern
 architect: Leers Weinzapfel Associates
 associate_architect: GBBN
 original_function: Admissions and enrollment services for incoming students
-significance: >-
-  The building is designed as a welcome center for incoming students.  It is
-  also the only new building on the campus designed by a woman-owned firm.
 unique_features: >-
   A central atrium transitions from the main entry to lower levels of the campus
   and provides views from the entry toward the football stadium.  The glass
   façade to the north allows prospective students to see metriculated student
   activities on the Campus Commons and McMicken Lawn.
 ---
+
+The building is designed as a welcome center for incoming students. It is also the only new building on the campus designed by a woman-owned firm.

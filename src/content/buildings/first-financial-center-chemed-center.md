@@ -12,11 +12,9 @@ date_of_completion: "1991"
 style: Postmodern classicism
 architect: SOM
 original_function: Office building
-significance: >-
-  The construction of the tower was the last building that was part of the 1964
-  masterplan. It marked the end of office building construction in Cincinnati
-  until the construction of the Great American Tower began in 2009.
 unique_features: >-
   Connected to the PNC Center, the building retains portions of the old skywalk
   system that passes through the connector between the towers.
 ---
+
+The construction of the tower was the last building that was part of the 1964 masterplan. It marked the end of office building construction in Cincinnati until the construction of the Great American Tower began in 2009.

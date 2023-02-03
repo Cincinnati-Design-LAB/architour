@@ -18,9 +18,6 @@ interior_accessibility: Basement, First and Second Floors are accessible, but th
 architect: >-
   Samuel Hannaford & Sons,one of Cincinnati's most prolific 19th Century
   architects who also designed Cincinnati City Hall and Music Hall.
-significance: >-
-  The building is decorated with historic military references.  The concert hall
-  is considered acoustically perfect  with excellent sight lines.
 historic_status: Listed on NRHP in 1979
 unique_features: >-
   "The monumental sculptures on the cornice, by Clement Barnhorn, depicit
@@ -48,3 +45,5 @@ renovation_changes: >-
 photo_credit: Photos provided by Memorial Hall / 3CDC
 resources: http://www.memorialhallotr.com/
 ---
+
+The building is decorated with historic military references. The concert hall is considered acoustically perfect with excellent sight lines.

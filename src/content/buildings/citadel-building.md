@@ -13,12 +13,11 @@ date_of_completion: "1905"
 architect: >-
   Samuel Hannaford, one of Cincinnati's most prolific 19th Century architects
   who also designed Cincinnati City Hall and Music Hall.
-significance: >-
-  The building was the divisional headquarters of the Salvation Army until it
-  moved to its current location on Central Parkway in 1967.
 unique_features: >-
   The buildiing's fortress-like character may have been derived from the term
   "army" in its owner's name or from the opposition the Salvation Army felt in
   Cincinnati, a a city home to breweries with a reputation for drunkenness and
   raucous behavior.
 ---
+
+The building was the divisional headquarters of the Salvation Army until it moved to its current location on Central Parkway in 1967.

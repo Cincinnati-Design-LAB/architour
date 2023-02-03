@@ -19,12 +19,6 @@ style: French Gothic
 architect: Leon Coquard
 associate_architect: David Davis (façade)
 original_function: Roman Catholic cathedral
-significance: >-
-  The Abbey Church of St Denis inspired the design of the cathedral in plan, and
-  Notre Dame in Paris was the inspiration for the façade.  Mayer Studios in
-  Munich designed and produced the 82  stained glass windows, and local artists
-  Frank Duveneck and Clement Barnhorn contributed murals and statues
-  respectively to the building.
 historic_status: >-
   Added to the NRHP on July 20, 1973.  The cathedral was elevated to a basilica
   in 1953 by Pope Pius VII and is one of only 35 in the US.
@@ -36,3 +30,5 @@ unique_features: >-
 renovations: Restoration and updates to the sanctuary
 renovation_architect: Bill Brown & KZF Design
 ---
+
+The Abbey Church of St Denis inspired the design of the cathedral in plan, and Notre Dame in Paris was the inspiration for the façade. Mayer Studios in Munich designed and produced the 82 stained glass windows, and local artists Frank Duveneck and Clement Barnhorn contributed murals and statues respectively to the building.

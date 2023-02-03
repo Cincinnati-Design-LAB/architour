@@ -13,8 +13,6 @@ style: Baroque façade with French Second Empire mansard roof
 architect: >-
   Samuel Hannaford & Sons, one of Cincinnati's most prolific 19th Century
   architects who also designed Cincinnati City Hall and Music Hall.
-significance: >-
-  The design is reminiscent of the Chateau of Chambord in the Loire Valley on a
-  much smaller scale.  The adjacent residences at 1207, 1213 and 1215 Elm added
-  to this distinctive row of housing in various styles.
 ---
+
+The design is reminiscent of the Chateau of Chambord in the Loire Valley on a much smaller scale. The adjacent residences at 1207, 1213 and 1215 Elm added to this distinctive row of housing in various styles.

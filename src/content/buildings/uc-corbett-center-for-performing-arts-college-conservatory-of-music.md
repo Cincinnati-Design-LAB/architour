@@ -19,14 +19,6 @@ interior_accessibility: >-
 architect: Pei, Cobb, Freed
 associate_architect: NBBJ
 original_function: Conservatory of music and performance arts
-significance: >-
-  The design of the complex weaves together several existing buildings with
-  infill structures and landscape treatments to create a cohesive environment or
-  "village" as it is known today.  CCM is noted as one of the top music
-  conseratories in the country, and the renovated and expanded facilities offer
-  performance and education spaces commensurate with the college's stature. 
-  Major performance spaces include a concert hall, a recital hall, a theatre,
-  and a black box performance facility.
 unique_features: >-
   The building complex masterfully weaves multiple levels of the camput
   together, and its design reflects the vertical nature of the UC campus.  In
@@ -34,3 +26,5 @@ unique_features: >-
   CCM and the adjacent Nippert Stadium and provides dramatic views into the
   stadium from its prefunction space.
 ---
+
+The design of the complex weaves together several existing buildings with infill structures and landscape treatments to create a cohesive environment or "village" as it is known today. CCM is noted as one of the top music conseratories in the country, and the renovated and expanded facilities offer performance and education spaces commensurate with the college's stature. Major performance spaces include a concert hall, a recital hall, a theatre, and a black box performance facility.

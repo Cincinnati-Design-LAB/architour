@@ -18,8 +18,9 @@ architect: John Senhauser Architects
 original_function: >-
   Mixed use complex including 7,000 s.f. of retail, a public garage, and 131
   unit residential tower
-significance: The building is the newest residential complex in downtown Cincinnati.
 unique_features: >-
   The tower is clad in an iridescent metal panel system that changes color
   depending on the angle of view and the daylight conditions.
 ---
+
+The building is the newest residential complex in downtown Cincinnati.

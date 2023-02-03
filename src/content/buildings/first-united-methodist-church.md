@@ -16,7 +16,6 @@ address: |-
 date_of_completion: "1867"
 style: High Victorian Gothic
 architect: William Walter & William Stewart
-significance: >-
-  Previously a part of the Methodist Episcopal Church, two congregations merged
-  in the 1930s to form the First United Methodist Church.
 ---
+
+Previously a part of the Methodist Episcopal Church, two congregations merged in the 1930s to form the First United Methodist Church.

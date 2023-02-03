@@ -13,9 +13,6 @@ original_owner: Episcopal Diocese of Southern Ohio
 date_of_completion: "1957"
 style: Twentieth Century Modern
 architect: David Briggs Maxfield
-significance: >-
-  After a proposed design by Eliel Saarinen was rejected, Maxfield redesigned
-  the church with an attempt to reinterpret Gothic design in modern terms.
 unique_features: >-
   The stained glass window at the church's entry was designed by Robert M.
   Metcalf who taught at Antioch College.
@@ -23,3 +20,5 @@ renovation_date: 1982 / 1997
 renovation_architect: William Schickel (1982) / Philip Markwood (1997)
 renovation_style: neo-Gothic
 ---
+
+After a proposed design by Eliel Saarinen was rejected, Maxfield redesigned the church with an attempt to reinterpret Gothic design in modern terms.

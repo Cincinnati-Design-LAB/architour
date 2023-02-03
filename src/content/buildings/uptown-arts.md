@@ -20,9 +20,6 @@ style: Commercial
 interior_accessibility: Handicap accessible.  All floors will be open to visitors except the basement.
 contractor: Messer Construction (2000)
 original_function: Cigar manufacturing facility.
-significance: >-
-  Uptown Arts was a pioneer in the renaissance of Over-the-Rhine along with the
-  Art Academy and Lightbourne Communications.
 unique_features: >-
   The current entry is on the back side of the original building, and other
   structures that faced Liberty were demolished over time which explains the
@@ -56,3 +53,5 @@ green_building_features: >-
   The existing building was repurposed with extensive reuse of materials where
   possible.
 ---
+
+Uptown Arts was a pioneer in the renaissance of Over-the-Rhine along with the Art Academy and Lightbourne Communications.

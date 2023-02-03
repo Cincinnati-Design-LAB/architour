@@ -11,13 +11,10 @@ location:
 address: 400 Pike St.
 date_of_completion: "1905"
 architect: Louis Dittoe & Benjamin Wisenall
-significance: >-
-  The building was the largest reinforced concrete building in the world at the
-  time it was constructed.  Originally a manufacturing facility,  the building
-  is internally daylighted by a full height atrium that runs the length of the
-  building.
 historic_status: Part of the Lytle Park Historic District listed on the NRHP in 1976.
 renovations: Converted into condominiums
 renovation_date: "2005"
 renovation_architect: GBBN
 ---
+
+The building was the largest reinforced concrete building in the world at the time it was constructed. Originally a manufacturing facility, the building is internally daylighted by a full height atrium that runs the length of the building.

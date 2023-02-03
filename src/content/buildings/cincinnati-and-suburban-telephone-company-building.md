@@ -14,12 +14,11 @@ date_of_completion: "1931"
 style: Art Deco
 architect: Harry Hake
 original_function: Telephone switching building
-significance: >-
-  At the time it was built, it boasted the world's longest straight switchboard
-  with positions for 88 operators.
 historic_status: Listed on the NRHP on April 20, 1985.
 unique_features: >-
   The façade is decorated with carvings that reflect communication technology
   including carvings of rotary telephones in a freeze that wraps the building
   above the second floor level.
 ---
+
+At the time it was built, it boasted the world's longest straight switchboard with positions for 88 operators.

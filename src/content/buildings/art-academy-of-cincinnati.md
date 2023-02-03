@@ -22,9 +22,6 @@ original_function: >-
   1910 building facing Jackson St. was a furniture factory & warehouse for the
   John Shillito Company.   The 1923 building housed the Samuel Rosenthal
   Company, the oldest printing and publishing firm in Cincinnati.
-significance: >-
-  The Art Academy of Cincinnati was one of the first institutions to relocate
-  into Over-the-Rhine and led the way for the rebirth of the area.
 unique_features: >-
   The school was relocated from the Cincinnati Art Museum, and the architects
   created references to the former location.  For example, treads from a stair
@@ -53,3 +50,5 @@ green_building_features: >-
   extensive use of natural light and reuse and repurposing of materials and
   lighting.
 ---
+
+The Art Academy of Cincinnati was one of the first institutions to relocate into Over-the-Rhine and led the way for the rebirth of the area.

@@ -12,13 +12,6 @@ date_of_completion: "1948"
 style: Modern
 architect: Skidmore Owings & Merrill (SOM)
 original_function: Hotel located atop two department stores
-significance: >-
-  One of the first mixed use projects in the US, the 7-story base housed 2
-  department stores, and the hotel lobby was located on the 8th floor with 10
-  floors of hotel rooms above.  The Eighth Floor lobby opened onto a landscaped
-  terrace on the east end overlooking Fountain Square. A circular restaurant
-  located on the top floor housed the Gourmet Room, one of the city's 5-star
-  restaurants.
 unique_features: >-
   The building was one of SOM's first major commissions.  Along with the
   inventive approach to planning, unique features were incorporated in the
@@ -30,3 +23,5 @@ unique_features: >-
   Eighth Floor, and the curved wall of the Gourmet Room held a mural by Joan
   Miro.
 ---
+
+One of the first mixed use projects in the US, the 7-story base housed 2 department stores, and the hotel lobby was located on the 8th floor with 10 floors of hotel rooms above. The Eighth Floor lobby opened onto a landscaped terrace on the east end overlooking Fountain Square. A circular restaurant located on the top floor housed the Gourmet Room, one of the city's 5-star restaurants.

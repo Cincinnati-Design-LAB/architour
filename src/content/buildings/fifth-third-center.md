@@ -13,9 +13,6 @@ style: International
 architect: Harrison & Abramovitz
 associate_architect: Harry Hake & Partners
 original_function: Office building
-significance: >-
-  The tower was the first major building constructed as part of the
-  implementation of the 1964 Downtown Plan.
 unique_features: >-
   The tower was one of the first buildings designed to integrate with the City's
   new skywalk system.  The skywalk traversed the north side of Fountain Square
@@ -23,3 +20,5 @@ unique_features: >-
   Building.  Remnants of the skywalk system still exist crossing Walnut.  It was
   also home to the Bankers Club located on the 30th floor of the building.
 ---
+
+The tower was the first major building constructed as part of the implementation of the 1964 Downtown Plan.

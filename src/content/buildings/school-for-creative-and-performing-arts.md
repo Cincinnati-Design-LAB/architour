@@ -14,9 +14,6 @@ date_of_completion: "2010"
 style: Contemporary
 architect: Moody-Nolan
 associate_architect: CR Architects, Fanning/Howey
-significance: >-
-  Funded by major Cincinnati arts philanthropists, the school is the first K-12
-  arts school in the US funded using both public and private resources.  The new
-  school anchors the south end of the newly redeveloped Washington Park and is
-  in close proximity to both Music Hall and Memorial Hall.
 ---
+
+Funded by major Cincinnati arts philanthropists, the school is the first K-12 arts school in the US funded using both public and private resources. The new school anchors the south end of the newly redeveloped Washington Park and is in close proximity to both Music Hall and Memorial Hall.

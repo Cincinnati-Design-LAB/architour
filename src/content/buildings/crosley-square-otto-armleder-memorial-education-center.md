@@ -14,13 +14,10 @@ current_owner: Cincinnati Hills Christian Academy
 date_of_completion: "1924"
 architect: Harry Hake
 original_function: Elks Temple
-significance: >-
-  The building was the home of Crosley Broadcasting and WLWT, the first
-  federally licensed television station in Ohio.  The station was also the first
-  NBC affiliate to broadcast in color in 1954.  The station was a television
-  pioneer and created extensive local programming.
 renovation_date: "1942"
 renovation_changes: >-
   Broadcasting center for WLW Radio and Television (1942) / Christian school for
   inner city children
 ---
+
+The building was the home of Crosley Broadcasting and WLWT, the first federally licensed television station in Ohio. The station was also the first NBC affiliate to broadcast in color in 1954. The station was a television pioneer and created extensive local programming.

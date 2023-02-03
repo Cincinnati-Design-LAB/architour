@@ -19,12 +19,10 @@ original_function: >-
   Boathouse.  The expansion added tennis and volleyball courts, a skating rink,
   a playground, walking trails, and an environmental sculpture (see Gateway
   Sculpture) to commemorate Cincinnati's bicentennial.
-significance: >-
-  Built to commemorate the bicentennial of the founding of Cincinnati (formerly
-  Losantiville), the park was funded by the City, The Greater Cincinnati
-  Foundation, and private donations.
 unique_features: >-
   The P&G Pavilion is a performance stage covered by a tensile structure located
   on the lawn.  The pavilion hosts concerts throughout the summer and at
   community event occuring at Sawyer Point.
 ---
+
+Built to commemorate the bicentennial of the founding of Cincinnati (formerly Losantiville), the park was funded by the City, The Greater Cincinnati Foundation, and private donations.

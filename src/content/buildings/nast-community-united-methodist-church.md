@@ -14,6 +14,7 @@ style: Romanesque Revival
 architect: >-
   Samuel Hannaford & Sons, one of Cincinnati's most prolific 19th Century
   architects who also designed Cincinnati City Hall and Music Hall.
-significance: German Methodism in America started at this church.
 historic_status: Listed on NRHP on March 3, 1980
 ---
+
+German Methodism in America started at this church.

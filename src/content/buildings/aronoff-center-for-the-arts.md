@@ -15,10 +15,6 @@ architect: Cesar Pelli Associates
 associate_architect: GBBN
 contractor: Messer Construction
 original_function: Performing and visual arts complex
-significance: >-
-  The building became the anchor of the new Entertainment District created by
-  the City to help revitalize the downtown area.  Its transparency enlivens the
-  streetscape by allowing passers by to see patrons in its prefunction spaces.
 unique_features: >-
   The complex is composed of 3 theatres to support varying performance
   requirements.  The Procter & Gamble Hall is a 2,700 seat theatre primarily
@@ -28,3 +24,5 @@ unique_features: >-
   Theatre is a black box type space that can seat up to 150 people for
   alternative performances.
 ---
+
+The building became the anchor of the new Entertainment District created by the City to help revitalize the downtown area. Its transparency enlivens the streetscape by allowing passers by to see patrons in its prefunction spaces.

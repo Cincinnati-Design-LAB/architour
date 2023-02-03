@@ -14,10 +14,6 @@ date_of_completion: "1971"
 style: Late Twentieth Century Civic Planning
 architect: RTKL
 original_function: Public square
-significance: >-
-  The first block redeveloped as part of the 1964 Downtown plan, the 1971 design
-  was based on Italian piazzas to bring the community together at all times of
-  the day.
 quotes: >-
   Edmund Bacon called the square constructed in 1971 "the most successful public
   square in America."
@@ -27,3 +23,5 @@ renovations: >-
 renovation_date: 1985 / 2005
 renovation_architect: BHDP / Cooper Robertson & Partners
 ---
+
+The first block redeveloped as part of the 1964 Downtown plan, the 1971 design was based on Italian piazzas to bring the community together at all times of the day.

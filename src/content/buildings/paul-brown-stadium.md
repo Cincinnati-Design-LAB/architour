@@ -21,12 +21,6 @@ architect: NBBJ
 associate_architect: Glaserworks, Moody/Nolan, Stallworth Architecture
 contractor: Turner, Barton Malow, D.A.G.
 original_function: Professional football stadium
-significance: >-
-  The stadium was the first NFL facility to win a national AIA Honor Award for
-  its design, and it received an Architectural Record/Busines Week Award in
-  2001.  It is also the only football stadium to be listed among "American's
-  favorite 150 buildings and structures" in a 2007 survey conducted by Harris
-  Interactive and commissioned by the American Institute of Architects (AIA).
 unique_features: >-
   The 65,515-seat stadium offers 114 private suites.  The Club Level has 7,600
   seats and access to premium food and beverage services located in two
@@ -36,3 +30,5 @@ unique_features: >-
 renovations: The Kentucky Bluegrass playing field was replaced with a FieldTurf system.
 renovation_date: "2004"
 ---
+
+The stadium was the first NFL facility to win a national AIA Honor Award for its design, and it received an Architectural Record/Busines Week Award in 2001. It is also the only football stadium to be listed among "American's favorite 150 buildings and structures" in a 2007 survey conducted by Harris Interactive and commissioned by the American Institute of Architects (AIA).

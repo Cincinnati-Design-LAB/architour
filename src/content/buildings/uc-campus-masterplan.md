@@ -9,16 +9,6 @@ location:
 original_owner: University of Cincinnati
 date_of_completion: 1989 to present
 architect: Hargreaves & Associates
-significance: >-
-  When UC initiated the Signature Architect program, the university recognized
-  that the spaces between the buildings were as important as the new buildings
-  in creating an improved image for the campus.  As many recogized, there was no
-  sense of place on the campus, and it had been dominated by the auto and
-  parking requirements. To create the quality of environment desired, selective
-  demolition of buildings was necessary as well as the elimination of parking
-  lots.  Green space was added, and parking garages were constructed to free up
-  land. The new campus has a more park-like feeling, and improvements continue
-  to be made with each new building.
 unique_features: >-
   The master plan resulted in creating a series of open and landscaped places on
   the campus that includes McMicken Comons, Library Square, MainStreet, Sigma
@@ -34,3 +24,5 @@ green_building_features: >-
   The elimination of large, paved parking lots that retain heat and replacement
   with parking decks contributes greatly to its success.
 ---
+
+When UC initiated the Signature Architect program, the university recognized that the spaces between the buildings were as important as the new buildings in creating an improved image for the campus. As many recogized, there was no sense of place on the campus, and it had been dominated by the auto and parking requirements. To create the quality of environment desired, selective demolition of buildings was necessary as well as the elimination of parking lots. Green space was added, and parking garages were constructed to free up land. The new campus has a more park-like feeling, and improvements continue to be made with each new building.

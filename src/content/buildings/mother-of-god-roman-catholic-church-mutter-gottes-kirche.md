@@ -17,12 +17,6 @@ original_owner: Diocese of Covington
 date_of_completion: "1871"
 style: Italian Renaissance Revival
 architect: Walter & Stewart
-significance: >-
-  Originally serving as a church for German immigrants, the congregation
-  continues to grow in large part to its community involvement.  Johann Schmitt
-  painted 5 murals in the church in 1890 depicting the Five Joyful Mysteries as
-  part of the church's golden jubiliee.  Local sculpters, Frederick and Henry
-  Schroeder, hand carved the wooden alters.
 historic_status: Added to NRHP on May 29, 1980
 unique_features: >-
   The church features two 200-foot tall bell towers that are highly visible on
@@ -31,3 +25,5 @@ unique_features: >-
   stained-glass windows flood the church with daylight. Tall, slender cast-iron
   columns make the space seem expansive and unified.
 ---
+
+Originally serving as a church for German immigrants, the congregation continues to grow in large part to its community involvement. Johann Schmitt painted 5 murals in the church in 1890 depicting the Five Joyful Mysteries as part of the church's golden jubiliee. Local sculpters, Frederick and Henry Schroeder, hand carved the wooden alters.

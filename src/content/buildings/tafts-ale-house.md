@@ -12,8 +12,9 @@ current_owner: Taft's Ale House
 date_of_completion: "1850"
 style: Greek Revival with Gothic Revival details
 original_function: Church
-significance: Founded by Northern Germans who had recently immigrated from Europe.
 renovation_date: "2015"
 renovation_architect: Drawing Department and Reid & Taylor Studio
 renovation_changes: Brewery, bar & restaurant
 ---
+
+Founded by Northern Germans who had recently immigrated from Europe.

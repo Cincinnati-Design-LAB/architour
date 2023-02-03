@@ -12,11 +12,6 @@ address: 720 Plum St., Cincinnati, OH  45202
 date_of_completion: "1867"
 style: Moorish Byzantine Victorian
 architect: James K. Wilson
-significance: >-
-  The congregation was led by Rabbi Isaac Mayer Wise, the founder of Reform
-  Judaism in North America. The Spanish influences on the design recall the
-  Golden Age in Spain before the Inquisition, a time when Jewish culture
-  flourished.
 historic_status: Listed on NRHP on December 27, 1972.
 quotes: >-
   "CIncinnati architect James Keyes Wilson's (1828-1894) blending of Byzantine,
@@ -26,3 +21,5 @@ quotes: >-
   Guide to Greater Cincinnati: A Portrait of Two Hundred Years" by The
   Cincinnati Historical Society.
 ---
+
+The congregation was led by Rabbi Isaac Mayer Wise, the founder of Reform Judaism in North America. The Spanish influences on the design recall the Golden Age in Spain before the Inquisition, a time when Jewish culture flourished.

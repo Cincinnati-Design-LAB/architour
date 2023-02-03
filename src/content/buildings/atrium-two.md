@@ -12,8 +12,6 @@ address: 221 E. Fourth St., Cincinnati, OH  45202
 date_of_completion: "1985"
 style: International
 architect: SOM
-significance: >-
-  The building was designed as a companion piece to Atrium One but without the
-  stacked atria.  Lower levels of the building were expanded to the south to
-  create large 50,000 s.f. floor plates for the then tenant, AT&T.
 ---
+
+The building was designed as a companion piece to Atrium One but without the stacked atria. Lower levels of the building were expanded to the south to create large 50,000 s.f. floor plates for the then tenant, AT&T.

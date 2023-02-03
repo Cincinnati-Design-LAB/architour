@@ -13,9 +13,7 @@ date_of_completion: "1923"
 style: Late Gothic Revival
 architect: Tietig & Lee
 original_function: Doctors' offices
-significance: >-
-  It was the only major commercial building constructed to house doctors'
-  offices.  Part of the Allyn Company's plan to create an enclave of buildings
-  on Garfield Place, it was the only building executed from the plan.
 historic_status: Listed on NRHP on December 4, 1986.
 ---
+
+It was the only major commercial building constructed to house doctors' offices. Part of the Allyn Company's plan to create an enclave of buildings on Garfield Place, it was the only building executed from the plan.

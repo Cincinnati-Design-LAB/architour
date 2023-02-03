@@ -12,8 +12,7 @@ style: Queen Anne
 architect: >-
   Samuel Hannaford & Sons, one of Cincinnati's most prolific 19th Century
   architects who also designed Cincinnati City Hall and Music Hall.
-significance: >-
-  The building housed the John Church Company when originally constructed.  The
-  company was the largest publisher of sacred music in the world.
 historic_status: Listed on NRHP on March 3, 1980.
 ---
+
+The building housed the John Church Company when originally constructed. The company was the largest publisher of sacred music in the world.

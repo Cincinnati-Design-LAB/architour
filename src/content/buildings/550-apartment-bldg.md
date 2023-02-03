@@ -10,10 +10,6 @@ address: 550 East 4th Street, Cincinnati, OH  45202
 date_of_completion: "1970"
 style: International
 architect: Harry Hake & Partners
-significance: >-
-  One of the first new residential buildings constructed in the downtown area in
-  decades, the building was made possible as part of a negotiation with the City
-  and the Department of Transportation that resulted in a private corporation
-  paying for the deck over the new interstate tunnel running under Lytle Park in
-  exchange for the development rights. .
 ---
+
+One of the first new residential buildings constructed in the downtown area in decades, the building was made possible as part of a negotiation with the City and the Department of Transportation that resulted in a private corporation paying for the deck over the new interstate tunnel running under Lytle Park in exchange for the development rights. .

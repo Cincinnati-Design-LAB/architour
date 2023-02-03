@@ -19,13 +19,6 @@ date_of_completion: Around 1900
 interior_accessibility: Handicap accessible
 contractor: Blackrock Construction (2015 renovation)
 original_function: Furniture manufacturer
-significance: >-
-  Platte was the first occupant of the building after 3CDC acquired it.  The
-  open environment with a view of Findlay Market and easy access to the market
-  creates a unique setting for a progressive design firm.  Platte has done
-  extensive renovations trhoughout the OTR area, and being positioned at the
-  heart of this community allows the firm to see the impact of their designs on
-  the community.
 unique_features: >-
   The office features custom designed furniture and workspaces using repurposed
   materials throughout.  The original tin ceilings have been preserved as part
@@ -44,3 +37,5 @@ green_building_features: >-
   The office design employs the extensive reuse and repurposing of materials to
   create unique custom solutions.
 ---
+
+Platte was the first occupant of the building after 3CDC acquired it. The open environment with a view of Findlay Market and easy access to the market creates a unique setting for a progressive design firm. Platte has done extensive renovations trhoughout the OTR area, and being positioned at the heart of this community allows the firm to see the impact of their designs on the community.

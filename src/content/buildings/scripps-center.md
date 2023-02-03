@@ -13,7 +13,6 @@ interior_accessibility: Public lobby
 architect: Hoover & Furr
 associate_architect: Glaser & Associates
 original_function: Office building
-significance: >-
-  The building was the first new development on Third Street and started the
-  expansion of the CBD toward the riverfront.
 ---
+
+The building was the first new development on Third Street and started the expansion of the CBD toward the riverfront.

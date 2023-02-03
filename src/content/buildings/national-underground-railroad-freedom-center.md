@@ -14,10 +14,6 @@ interior_accessibility: The museum is open to the public.
 architect: Blackburn Architects
 associate_architect: BOORA Architects, Alexander-Camabeam & Associates
 original_function: The museum focuses on the history of slavery and the underground railroad.
-significance: >-
-  The building is designed in 3 sections that symbolically represent the three
-  Constitutional Amendments that led to the end of slavery, and the winding
-  spaces between the masses represent the perilous paths that slaves took to
-  escape their owners.  Located at the end of the Roebling Suspension Bridge, it
-  represents the point where slaves landed in the north finding freedom.
 ---
+
+The building is designed in 3 sections that symbolically represent the three Constitutional Amendments that led to the end of slavery, and the winding spaces between the masses represent the perilous paths that slaves took to escape their owners. Located at the end of the Roebling Suspension Bridge, it represents the point where slaves landed in the north finding freedom.

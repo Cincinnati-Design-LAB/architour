@@ -75,7 +75,9 @@ function convertBuildingBodyToProperties(frontmatter) {
 }
 
 function transformLocationToArray(frontmatter) {
-  if (!frontmatter.location) return
+  if (!frontmatter.location || (frontmatter.location.lat && frontmatter.location.lng)) {
+    return frontmatter
+  }
   const coords = JSON.parse(frontmatter.location).coordinates
   frontmatter.location = { lat: coords[1], lng: coords[0] }
   return frontmatter
@@ -89,12 +91,18 @@ function processBuildings() {
 
   for (const filePath of bldgFilePaths) {
     const fileContent = fs.readFileSync(filePath, 'utf8')
-    const { data } = matter(fileContent)
+    const { data, content } = matter(fileContent)
     let frontmatter = { ...data }
+    let body = content
     frontmatter = convertBuildingBodyToProperties(frontmatter)
     frontmatter = transformLocationToArray(frontmatter)
+    // Convert significance to the body.
+    if (frontmatter.significance) {
+      body = frontmatter.significance
+      delete frontmatter.significance
+    }
     // Write the new file content.
-    const mdContent = formatFileContent(frontmatter)
+    const mdContent = formatFileContent(frontmatter, body)
     fs.writeFileSync(filePath, mdContent)
   }
 }

@@ -12,11 +12,10 @@ style: Contemporary
 interior_accessibility: The restaurant is open to the public.
 architect: PDT Architects
 original_function: Restaurant and rowing center
-significance: >-
-  Although restaurants along the river existed on the Kentucky side, the
-  Montgomery Inn was the first new restaurant built on the Ohio side.
 unique_features: >-
   The circular form maximizes views for those dining in the restaurant.  A
   rowing training facility is located on the lower level with two dining floors
   above.
 ---
+
+Although restaurants along the river existed on the Kentucky side, the Montgomery Inn was the first new restaurant built on the Ohio side.

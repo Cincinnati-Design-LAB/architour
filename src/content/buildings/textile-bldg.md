@@ -12,9 +12,8 @@ address: 205 W. Fourth St., Cincinnati, OH  45202
 date_of_completion: "1905"
 style: Renaissance Revival
 architect: Gustave W. Drach
-significance: >-
-  The building was a progressive attempt to consolidate the locations of the
-  city's textile manufacturers in one building.
 renovation_date: "1985"
 renovation_architect: Glaser & Myers
 ---
+
+The building was a progressive attempt to consolidate the locations of the city's textile manufacturers in one building.

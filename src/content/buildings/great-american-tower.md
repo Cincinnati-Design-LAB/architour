@@ -21,11 +21,6 @@ interior_accessibility: >-
 architect: HOK
 contractor: Turner Construction
 original_function: Office building
-significance: >-
-  First new highrise office building in Cincinnati in nearly 20 years, the tower
-  was the largest building constructed in the US in 2010.  The developer had
-  plans for the building on their books for over 20 years before finding a major
-  tenant to trigger financing for the project.
 unique_features: >-
   The building is distinguished by a decorative roof structure referred to as
   the "tiara" that makes the building the tallest in Cincinnati.
@@ -34,3 +29,5 @@ green_building_features: >-
   American Insurance's offices also are LEED Gold Certified for Commercial
   Interiors.
 ---
+
+First new highrise office building in Cincinnati in nearly 20 years, the tower was the largest building constructed in the US in 2010. The developer had plans for the building on their books for over 20 years before finding a major tenant to trigger financing for the project.

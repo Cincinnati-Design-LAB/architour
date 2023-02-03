@@ -20,15 +20,6 @@ architect: >-
   John A. Roebling (Chief Engineer)  Roebling also owned the wire company and
   the spinning machines that were used to create the steel suspension cables
   used on the bridge.
-significance: >-
-  At the time of construction, it was the longest suspension bridge in the world
-  at 1057 feet. The bridge was a predecessor to the Brooklyn Bridge designed and
-  built in 1883 by Roebling.  Construction began before the beginning of the
-  Civil War, and pressure to complete it increased due to fears of the
-  Confederate Army launching attacks on the north.  A pontoon bridge was
-  constructed to facilitate military traffic in the short term, but the
-  Confederate threat accelerated the flow of money from investors into the
-  private company.
 historic_status: Listed in NRHP on May 15, 1975
 unique_features: >-
   Although the streets of Cincinnati and Covington align, the bridge was
@@ -41,3 +32,5 @@ renovations: Structural enhancement of the bridge to accomodate an urban railway
 renovation_date: "1898"
 renovation_architect: William Hildenbrandt
 ---
+
+At the time of construction, it was the longest suspension bridge in the world at 1057 feet. The bridge was a predecessor to the Brooklyn Bridge designed and built in 1883 by Roebling. Construction began before the beginning of the Civil War, and pressure to complete it increased due to fears of the Confederate Army launching attacks on the north. A pontoon bridge was constructed to facilitate military traffic in the short term, but the Confederate threat accelerated the flow of money from investors into the private company.

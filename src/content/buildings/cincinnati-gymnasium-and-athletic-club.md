@@ -11,9 +11,6 @@ date_of_completion: "1902"
 style: Second Renaissance Revival
 architect: Warner & Atkins
 original_function: Private athletic club
-significance: >-
-  When completed, the building was considered one of the finest athletic
-  facilities in the country.
 historic_status: >-
   Listed on the NRHP on February 17, 1983 and part of the Race Street Historic
   District
@@ -21,3 +18,5 @@ unique_features: >-
   The club was founded in 1853, and Rutherford B. Hayes was one of its founding
   members.
 ---
+
+When completed, the building was considered one of the finest athletic facilities in the country.

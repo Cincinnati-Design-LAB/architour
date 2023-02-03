@@ -9,7 +9,6 @@ location:
 address: 12th & Jackson Streets, Cincinnati, OH  45202
 original_owner: A&J Doescher Candy Company
 date_of_completion: "1885"
-significance: >-
-  The building is clad with cast-iron  ornamentation instead of the more common
-  terra cotta or stone ornament.
 ---
+
+The building is clad with cast-iron ornamentation instead of the more common terra cotta or stone ornament.

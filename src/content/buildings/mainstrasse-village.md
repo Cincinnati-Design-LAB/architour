@@ -13,12 +13,6 @@ location:
 address: |-
   6th St. & Main St.
   Covington KY
-significance: >-
-  Originally settled by German and Irish immigrants before the Civil War, the
-  community declined in the mid-Twentieth Century only to be revived later in
-  the same century.  Today, it is a vibrant community with shops and restaurants
-  serving a young professional population.  Many of the homes were built between
-  the 1840s and 1870s.
 historic_status: >-
   The West Side - Main Strasse Historic District was added to the NRHP on
   November 10, 1983.  It is roughly bounded by the Chesapeake & Ohio railroad
@@ -27,3 +21,5 @@ renovations: >-
   In 1975, a federal grant of $2.5 million helped to kick-start the
   redevelopment of the neighborhood.
 ---
+
+Originally settled by German and Irish immigrants before the Civil War, the community declined in the mid-Twentieth Century only to be revived later in the same century. Today, it is a vibrant community with shops and restaurants serving a young professional population. Many of the homes were built between the 1840s and 1870s.

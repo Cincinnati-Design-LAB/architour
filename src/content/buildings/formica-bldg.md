@@ -13,8 +13,6 @@ date_of_completion: "1971"
 style: International
 architect: Harry Weese & Associates
 original_function: Office building
-significance: >-
-  The retail arcade connected Fourth and Fifth Streets.  The upper level of the
-  arcade connected to the new skywalk system, and the north end housed the
-  previous location of the Contemporary Arts Center.
 ---
+
+The retail arcade connected Fourth and Fifth Streets. The upper level of the arcade connected to the new skywalk system, and the north end housed the previous location of the Contemporary Arts Center.

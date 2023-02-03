@@ -17,12 +17,6 @@ original_owner: Buddy Meisel, Findlay Market Group
 current_owner: 3CDC
 interior_accessibility: Handicap accessible
 contractor: Graybach Construction (2015)
-significance: >-
-  The building renovation was done with a local focus employing designers (City
-  Studios), contractors (Graybach), fabricators (Riverside), and vendors (Brush
-  Factory & Switch)  from the Over-the-Rhine neighborhood.  The renovations
-  minimally impacted the existing shell of the building while creating
-  contrasting modern elements inside the shell.
 unique_features: >-
   The building houses a gallery with rotating exhibits featuring artists
   supported by People's Liberty at street level.  It is connected to the upper
@@ -42,3 +36,5 @@ green_building_features: >-
   The existing buildings were renovated, and existing materials were repurposed
   throughout the facility.
 ---
+
+The building renovation was done with a local focus employing designers (City Studios), contractors (Graybach), fabricators (Riverside), and vendors (Brush Factory & Switch) from the Over-the-Rhine neighborhood. The renovations minimally impacted the existing shell of the building while creating contrasting modern elements inside the shell.

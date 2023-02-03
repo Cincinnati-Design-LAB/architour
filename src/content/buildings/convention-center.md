@@ -21,12 +21,6 @@ original_function: >-
   The expansion and renovation of the convention center provided 160,000 s.f. of
   exhibit space and supporting meeting space bringing the facility into the
   second tier of convention centers in the US.
-significance: >-
-  The renovation and expansion of the 1967 original building completely changed
-  the image and function of the facility.  The wrapping lobby allowed access to
-  two connected exhibit halls, and the addition of the third floor ballroom
-  created major function opportunities that did not exist in the original
-  "exposition center".
 unique_features: >-
   The façade of the Albee Theatre was incorporated into the design of the new
   facility.
@@ -34,3 +28,5 @@ renovation_date: "2006"
 renovation_architect: LMN
 renovation_changes: Interior refresh in conjunction with second expansion.
 ---
+
+The renovation and expansion of the 1967 original building completely changed the image and function of the facility. The wrapping lobby allowed access to two connected exhibit halls, and the addition of the third floor ballroom created major function opportunities that did not exist in the original "exposition center".

@@ -17,12 +17,6 @@ interior_accessibility: >-
 architect: Walter Aeschlager
 associate_architect: Delano & Aldrich
 original_function: 800 room hotel
-significance: >-
-  The public areas of the hotel are a series of complex cascading spaces that
-  are richly decorated in the French Art Deco style.  The former lobby now known
-  as the Palm Court is the centerpiece of the hotel, and its Brazilian rosewood
-  paneling and decorative metalwork create an elegant atmosphere that was once
-  perceived as fancifal and modern.
 unique_features: >-
   The main ballroom space, the Hall of Mirrors, is one of the most popular
   celebration spaces in the city.  The two story ballroom has a balcony wrapping
@@ -35,3 +29,5 @@ renovation_changes: >-
   restorted the hotel to its original glory making it one of Cincinnati's most
   prized icons.
 ---
+
+The public areas of the hotel are a series of complex cascading spaces that are richly decorated in the French Art Deco style. The former lobby now known as the Palm Court is the centerpiece of the hotel, and its Brazilian rosewood paneling and decorative metalwork create an elegant atmosphere that was once perceived as fancifal and modern.

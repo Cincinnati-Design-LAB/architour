@@ -17,11 +17,6 @@ style: Federal
 interior_accessibility: Open Tuesday thru Friday 11-4, Saturday and Sunday 11-5
 architect: Benjamin Latrobe or James Hoban
 original_function: residence
-significance: >-
-  The building is considered one of the finest examples of Federal-style
-  residential architecture.  Since being donated by the Taft family to the
-  people of Cincinnati as a museum, the home has been decorated and furnished to
-  reflect the style at the time it was originally built.
 historic_status: Listed on NRHP on January 29, 1973.
 unique_features: >-
   The  internal courtyard serves as a focus for the original house and the new
@@ -36,3 +31,5 @@ renovation_architect: >-
   museum) / Ann Beha Architects/KZF Design (2004 renovation and expansion)
 renovation_changes: art museum
 ---
+
+The building is considered one of the finest examples of Federal-style residential architecture. Since being donated by the Taft family to the people of Cincinnati as a museum, the home has been decorated and furnished to reflect the style at the time it was originally built.

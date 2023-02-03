@@ -24,14 +24,6 @@ contractor: >-
   Messer-Cargile for renovation (1990), Turner for current renovation
   (2016-2018)
 original_function: Train station
-significance: >-
-  Considered one of the finest examples of Art Deco train stations in the US,
-  Union Terminal consolidated 5 different train stations into one location
-  serving 7 different rail lines.  The complex circulation systems incorporated
-  in the building to handle pedestrian, auto, bus, and rail traffic were a model
-  of efficiency.  The station came on line during the height of rail travel that
-  quickly began to decline with the advent of air travel reducing the demand for
-  rail travel.
 historic_status: Listed on NRHP on October 31, 1972
 unique_features: >-
   The exterior is decorated with bas-relief carvings designed by Maxfield Keck
@@ -52,3 +44,5 @@ renovation_changes: >-
   Cincinnati Historical Society Library, the Duke Energy Children's Museum, and
   the Cincinnati Railroad Club.
 ---
+
+Considered one of the finest examples of Art Deco train stations in the US, Union Terminal consolidated 5 different train stations into one location serving 7 different rail lines. The complex circulation systems incorporated in the building to handle pedestrian, auto, bus, and rail traffic were a model of efficiency. The station came on line during the height of rail travel that quickly began to decline with the advent of air travel reducing the demand for rail travel.

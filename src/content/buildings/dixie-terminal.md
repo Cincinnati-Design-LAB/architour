@@ -15,10 +15,6 @@ date_of_completion: "1913"
 style: Beaux Arts
 architect: Garber & Woodward
 original_function: Office building and transportation terminal.
-significance: >-
-  The building's name stems from its original function as a streetcar and bus
-  terminus for Northern Kentucky's transit system.  It once housed the
-  Cincinnati Stock Exchange.
 unique_features: >-
   A 225' long two-level arcade connects the Fourth Street entry to the river
   view at the rear and is reminiscent of New York's Pennsylvania Station.  Its
@@ -39,3 +35,5 @@ renovation_changes: >-
   The transportation terminal was closed in 1998 and is primarily used as a
   fitness center and storage space.
 ---
+
+The building's name stems from its original function as a streetcar and bus terminus for Northern Kentucky's transit system. It once housed the Cincinnati Stock Exchange.

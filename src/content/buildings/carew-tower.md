@@ -15,14 +15,6 @@ interior_accessibility: The Emery arcade is open to the public and connects Vine
 architect: Walter Aeschlager
 associate_architect: Delano & Aldrich
 original_function: Office building
-significance: >-
-  A multi-use complex, the Carew Tower, Netherland Plaza Hotel, automated
-  parking garage, and retail arcade are at the heart of Cincinnati.  Built at
-  the beginning of the Depression, the complex was constructed using WPA funding
-  in just under a year and a half, but the 48 story office tower was completed
-  and occupied in less than a year.  The Carew Tower remained the tallest
-  building in Cincinnati until the construction of the Great American Tower
-  completed in 2011.
 historic_status: Listed on the NRHP on August 5, 1982
 unique_features: >-
   The original complex included an automated 28-level parking garage.  The
@@ -32,3 +24,5 @@ unique_features: >-
   downs.  The garage was demolished in the 1980s due to corrosion of the steel
   structure caused by road salt.
 ---
+
+A multi-use complex, the Carew Tower, Netherland Plaza Hotel, automated parking garage, and retail arcade are at the heart of Cincinnati. Built at the beginning of the Depression, the complex was constructed using WPA funding in just under a year and a half, but the 48 story office tower was completed and occupied in less than a year. The Carew Tower remained the tallest building in Cincinnati until the construction of the Great American Tower completed in 2011.
