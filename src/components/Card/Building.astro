@@ -1,4 +1,5 @@
 ---
+import Icon from '@components/Icon.astro'
 import Markdown from '@components/Markdown.astro'
 
 export interface Props {
@@ -17,13 +18,18 @@ const { body, href, title, image, meta } = Astro.props
   <h3 class="text-lg font-semibold">{title}</h3>
   {body && <Markdown body={body} />}
   <br />
-  <code>meta?:</code>
   {
-    (meta || []).map((i) => (
-      <span>
-        {i.icon} / {i.label}
-      </span>
-    ))
+    meta && (
+      <div class="flex space-x-6 items-center">
+        {(meta || []).map(({ icon, label }) => (
+          <div class="flex space-x-2 items-center text-secondary-500">
+            <span class="w-4">
+              <Icon name={icon} />
+            </span>
+            <span class="text-sm font-semibold">{label}</span>
+          </div>
+        ))}
+      </div>
+    )
   }
-  <br />
 </a>
