@@ -1,4 +1,6 @@
 ---
+import Markdown from '@components/Markdown.astro'
+
 export interface Props {
   title: string
   body: string
@@ -11,8 +13,8 @@ const { body, href, title, image, meta } = Astro.props
 ---
 
 <a href={href} class="block">
-  <code>title:</code>
-  {title}
+  <h3 class="text-lg font-semibold">{title}</h3>
+  {body && <Markdown body={body} />}
   <br />
   <code>body:</code>
   {body}
