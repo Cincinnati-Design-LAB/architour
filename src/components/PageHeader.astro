@@ -1,4 +1,6 @@
 ---
+import Icon from '@components/Icon.astro'
+
 export interface Props {
   title: string
   icon?: string
@@ -17,7 +19,13 @@ const themeMap: { [K in Exclude<Props['theme'], undefined | null>]: string } = {
 <div class={`py-10 px-4 ${themeMap[theme]}`}>
   <div class="max-w-7xl mx-auto">
     <div class="flex justify-start items-center space-x-3">
-      <span>Icon goes here ...</span>
+      {
+        icon && (
+          <span class="inline-block w-12">
+            <Icon name={icon} />
+          </span>
+        )
+      }
       <h1 class="text-4xl font-black">{title}</h1>
     </div>
   </div>
