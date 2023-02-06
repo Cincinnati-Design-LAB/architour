@@ -13,14 +13,9 @@ const { body, href, title, image, meta } = Astro.props
 ---
 
 <a href={href} class="block">
+  {image && <img src={image} />}
   <h3 class="text-lg font-semibold">{title}</h3>
   {body && <Markdown body={body} />}
-  <br />
-  <code>body:</code>
-  {body}
-  <br />
-  <code>image?:</code>
-  {image}
   <br />
   <code>meta?:</code>
   {
