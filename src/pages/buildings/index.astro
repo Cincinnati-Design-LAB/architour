@@ -3,19 +3,29 @@ import { getCollection } from 'astro:content'
 
 import Layout from '@layouts/Layout.astro'
 
+import BuildingCard from '@components/Card/Building.astro'
+import PageHeader from '@components/PageHeader.astro'
+
 const buildingsEntries = await getCollection('buildings')
 ---
 
 <Layout title="Buildings List">
-  <h1>Buildings</h1>
+  <PageHeader title="Cincinnati Buildings" theme="secondary" icon="building" />
 
-  <ul>
+  <div class="max-w-7xl px-4 mx-auto py-12 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
     {
       buildingsEntries.map((building) => (
-        <li>
-          <a href={`/buildings/${building.slug}`}>{building.data.title}</a>
-        </li>
+        <BuildingCard
+          title={building.data.title}
+          href={`/buildings/${building.slug}`}
+          body={building.body}
+          image={(building.data.images || [])[0]}
+          meta={[
+            { icon: 'calendar', label: `Built ${building.data.date_of_completion}` },
+            { icon: 'eye', label: 'TBD' },
+          ]}
+        />
       ))
     }
-  </ul>
+  </div>
 </Layout>

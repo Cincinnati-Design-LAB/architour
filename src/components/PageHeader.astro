@@ -1,0 +1,24 @@
+---
+export interface Props {
+  title: string
+  icon?: string
+  theme?: 'primary' | 'secondary'
+  image?: string
+}
+
+const { title, icon, theme = 'primary', image } = Astro.props
+
+const themeMap: { [K in Exclude<Props['theme'], undefined | null>]: string } = {
+  primary: 'bg-primary-500 text-white',
+  secondary: 'bg-secondary-500 text-white',
+}
+---
+
+<div class={`py-10 px-4 ${themeMap[theme]}`}>
+  <div class="max-w-7xl mx-auto">
+    <div class="flex justify-start items-center space-x-3">
+      <span>Icon goes here ...</span>
+      <h1 class="text-4xl font-black">{title}</h1>
+    </div>
+  </div>
+</div>

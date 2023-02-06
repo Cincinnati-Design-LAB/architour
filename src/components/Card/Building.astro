@@ -1,0 +1,32 @@
+---
+export interface Props {
+  title: string
+  body: string
+  image?: string
+  href: string
+  meta?: Array<{ icon: string; label: string }>
+}
+
+const { body, href, title, image, meta } = Astro.props
+---
+
+<a href={href} class="block">
+  <code>title:</code>
+  {title}
+  <br />
+  <code>body:</code>
+  {body}
+  <br />
+  <code>image?:</code>
+  {image}
+  <br />
+  <code>meta?:</code>
+  {
+    (meta || []).map((i) => (
+      <span>
+        {i.icon} / {i.label}
+      </span>
+    ))
+  }
+  <br />
+</a>
