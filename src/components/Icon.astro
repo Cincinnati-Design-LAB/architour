@@ -1,15 +1,17 @@
 ---
+import ArrowLeft from './Icon/ArrowLeft.astro'
 import Building from './Icon/Building.astro'
 import Calendar from './Icon/Calendar.astro'
 import Eye from './Icon/Eye.astro'
 
 export interface Props {
-  name: 'calendar' | 'eye' | 'building'
+  name: 'arrow-left' | 'calendar' | 'eye' | 'building'
 }
 
 const { name } = Astro.props
 
 const iconMap: { [K in Exclude<Props['name'], undefined | null>]: string } = {
+  'arrow-left': ArrowLeft,
   building: Building,
   calendar: Calendar,
   eye: Eye,
