@@ -12,20 +12,29 @@ const buildingsEntries = await getCollection('buildings')
 <Layout title="Buildings List">
   <PageHeader title="Cincinnati Buildings" theme="secondary" icon="building" />
 
-  <div class="max-w-7xl px-4 mx-auto py-12 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-    {
-      buildingsEntries.map((building) => (
-        <BuildingCard
-          title={building.data.title}
-          href={`/buildings/${building.slug}`}
-          body={building.body}
-          image={(building.data.images || [])[0]}
-          meta={[
-            { icon: 'calendar', label: `Built ${building.data.date_of_completion}` },
-            { icon: 'eye', label: 'TBD' },
-          ]}
-        />
-      ))
-    }
+  <div class="bg-gray-100 pt-8">
+    <div
+      class="max-w-7xl px-4 mx-auto py-12 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-16 gap-x-8"
+    >
+      {
+        buildingsEntries.map((building) => (
+          <BuildingCard
+            title={building.data.title}
+            href={`/buildings/${building.slug}`}
+            body={building.body}
+            image={(building.data.images || [])[0]}
+            meta={[
+              {
+                icon: 'calendar',
+                label: building.data.date_of_completion
+                  ? `Built ${building.data.date_of_completion}`
+                  : undefined,
+              },
+              { icon: 'eye', label: 'TBD' },
+            ]}
+          />
+        ))
+      }
+    </div>
   </div>
 </Layout>
