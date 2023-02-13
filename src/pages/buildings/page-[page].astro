@@ -6,7 +6,35 @@ import Layout from '@layouts/Layout.astro'
 import BuildingCard from '@components/Card/Building.astro'
 import PageHeader from '@components/PageHeader.astro'
 
-const buildingsEntries = await getCollection('buildings')
+const PAGE_SIZE = 12
+
+const buildingSortMap = {
+  title: (a, b) => a.data.title.localeCompare(b.data.title),
+  date: (a, b) => a.data.date_of_completion - b.data.date_of_completion,
+}
+
+async function getBuildingsList() {
+  const buildingsCollection = await getCollection('buildings')
+  let sortByMethod = buildingSortMap[Astro.url.searchParams.get('sort')]
+  if (!sortByMethod) sortByMethod = buildingSortMap['title']
+  const reverse = Astro.url.searchParams.get('order')?.toLowerCase() === 'desc'
+  const index = (parseInt(Astro.params.page || 1) - 1) * PAGE_SIZE
+
+  const buildings = buildingsCollection
+    .sort((a, b) => (reverse ? sortByMethod(b, a) : sortByMethod(a, b)))
+    .slice(index, index + PAGE_SIZE)
+
+  return buildings
+}
+
+const buildings = await getBuildingsList()
+
+if (!buildings.length) {
+  return new Response(null, {
+    status: 404,
+    statusText: 'Not found',
+  })
+}
 ---
 
 <Layout title="Buildings List">
@@ -17,7 +45,7 @@ const buildingsEntries = await getCollection('buildings')
       class="max-w-7xl px-4 mx-auto py-12 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-16 gap-x-8"
     >
       {
-        buildingsEntries.map((building) => (
+        buildings.map((building) => (
           <BuildingCard
             title={building.data.title}
             href={`/buildings/${building.slug}`}
