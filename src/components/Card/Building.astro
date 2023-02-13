@@ -19,7 +19,10 @@ const excerpt = body ? body.split(/[.,!?]/)[0] : undefined
   {
     image && (
       <div class="rounded-full absolute top-[-2rem] left-[1rem] w-16 h-16 overflow-hidden border-2 border-black">
-        <img src={`${image}preview/120x120/`} class="object-cover h-full w-full object-center" />
+        <img
+          src={`${image}-/scale_crop/120x120/smart/`}
+          class="object-cover h-full w-full object-center"
+        />
       </div>
     )
   }
