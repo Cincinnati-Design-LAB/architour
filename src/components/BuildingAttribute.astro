@@ -2,15 +2,16 @@
 export interface Props {
   label: string
   value: string
+  class?: string
 }
 
-const { label, value } = Astro.props
+const { label, value, className } = Astro.props
 ---
 
 {
   value && (
-    <div>
-      <strong>{label}</strong>
+    <div class={className}>
+      <span class="block font-bold mb-1 text-sm tracking-widest uppercase">{label}</span>
       <span>{value}</span>
     </div>
   )

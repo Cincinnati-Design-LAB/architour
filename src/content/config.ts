@@ -10,6 +10,7 @@ const buildingsCollection = defineCollection({
     }),
     address: z.optional(z.string()),
     original_owner: z.optional(z.string()),
+    current_owner: z.optional(z.string()),
     date_of_completion: z.optional(z.string()),
     style: z.optional(z.string()),
     architect: z.optional(z.string()),
