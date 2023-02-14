@@ -16,31 +16,45 @@ export async function getStaticPaths() {
 const { entry } = Astro.props
 const { Content } = await entry.render()
 
-const images = entry.data.images.map((image) => image + '-/scale_crop/1920x1080/smart/')
-const featureImage = (entry.data.images || [])[0] + '-/scale_crop/1920x1080/center/'
+const building = entry.data
+const images = building.images.map((image) => image + '-/scale_crop/1920x1080/smart/')
+const featureImage = (building.images || [])[0] + '-/scale_crop/1920x1080/center/'
+
+const hasPrimaryAttributes =
+  building.historic_status || building.current_owner || building.unique_features
+const hasSecondaryAttributes =
+  building.date_of_completion || building.original_owner || building.architect || building.style
 ---
 
-<Layout title={entry.data.title}>
-  <PageHeader title={entry.data.title} image={featureImage} size="lg" />
+<Layout title={building.title}>
+  <PageHeader title={building.title} image={featureImage} size="lg" />
 
   <div class="max-w-7xl mx-auto relative">
     <div class="grid grid-cols-12 gap-16 py-16">
       <div class="col-span-7">
-        <div class="text-lg">
-          <Content />
-        </div>
-        <div class="grid grid-cols-2 gap-x-10 gap-y-6 mt-12">
-          <BuildingAttribute label="Historic Status" value={entry.data.historic_status} />
-          <BuildingAttribute label="Current Owner" value={entry.data.current_owner} />
-          <BuildingAttribute
-            label="Unique Features"
-            value={entry.data.unique_features}
-            className="col-span-2"
-          />
-        </div>
+        {
+          entry.body.length > 0 && (
+            <div class="text-lg mb-12">
+              <Content />
+            </div>
+          )
+        }
+        {
+          hasPrimaryAttributes && (
+            <div class="grid grid-cols-2 gap-x-10 gap-y-6 mb-12">
+              <BuildingAttribute label="Historic Status" value={building.historic_status} />
+              <BuildingAttribute label="Current Owner" value={building.current_owner} />
+              <BuildingAttribute
+                label="Unique Features"
+                value={building.unique_features}
+                className="col-span-2"
+              />
+            </div>
+          )
+        }
         {
           images && (
-            <div class="grid grid-cols-2 gap-6 mt-12">
+            <div class="grid grid-cols-2 gap-6">
               {images.map((image) => (
                 <img src={image} />
               ))}
@@ -49,14 +63,18 @@ const featureImage = (entry.data.images || [])[0] + '-/scale_crop/1920x1080/cent
         }
       </div>
       <div class="col-span-5">
-        <div class="grid grid-cols-2 gap-x-8 gap-y-6">
-          <BuildingAttribute label="Completed" value={entry.data.date_of_completion} />
-          <BuildingAttribute label="Original Owner" value={entry.data.original_owner} />
-          <BuildingAttribute label="Architect" value={entry.data.architect} />
-          <BuildingAttribute label="Style" value={entry.data.style} />
-        </div>
-        <div class="mt-12">Map goes here ...</div>
-        <div class="mt-12">Renovation history goes here ...</div>
+        {
+          hasSecondaryAttributes && (
+            <div class="grid grid-cols-2 gap-x-8 gap-y-6 mb-12">
+              <BuildingAttribute label="Completed" value={building.date_of_completion} />
+              <BuildingAttribute label="Original Owner" value={building.original_owner} />
+              <BuildingAttribute label="Architect" value={building.architect} />
+              <BuildingAttribute label="Style" value={building.style} />
+            </div>
+          )
+        }
+        <div class="mb-12">Map goes here ...</div>
+        <div>Renovation history goes here ...</div>
       </div>
     </div>
   </div>
