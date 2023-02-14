@@ -28,7 +28,13 @@ import PageHeader from '@components/PageHeader.astro'
 // }
 
 const buildingEntries = await getCollection('buildings')
-const buildings = buildingEntries.slice(0, 12)
+const tourEntries = await getCollection('tours')
+
+const buildings = buildingEntries.slice(0, 12).map((building) => ({
+  ...building,
+  tourCount: tourEntries.filter((tour) => (tour.data.buildings || []).includes(building.slug))
+    .length,
+}))
 
 // if (!buildings.length) {
 //   return new Response(null, {
@@ -59,7 +65,10 @@ const buildings = buildingEntries.slice(0, 12)
                   ? `Built ${building.data.date_of_completion}`
                   : undefined,
               },
-              { icon: 'eye', label: 'TBD' },
+              {
+                icon: 'eye',
+                label: `${building.tourCount} Tour${building.tourCount === 1 ? '' : 's'}`,
+              },
             ]}
           />
         ))

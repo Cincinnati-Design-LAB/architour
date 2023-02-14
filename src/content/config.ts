@@ -29,6 +29,7 @@ const toursCollection = defineCollection({
   schema: z
     .object({
       title: z.string(),
+      buildings: z.array(z.string()),
     })
     .required({ title: true }),
 })
