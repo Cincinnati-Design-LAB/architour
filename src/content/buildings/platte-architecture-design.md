@@ -16,14 +16,14 @@ address: |-
 original_owner: Scheve & Angert Manufacturers
 current_owner: 3CDC
 date_of_completion: Around 1900
-interior_accessibility: Handicap accessible
+public_access: Handicap accessible
 contractor: Blackrock Construction (2015 renovation)
 original_function: Furniture manufacturer
 unique_features: >-
   The office features custom designed furniture and workspaces using repurposed
   materials throughout.  The original tin ceilings have been preserved as part
   of the new environment.
-renovation_date: "2015"
+renovation_date: '2015'
 renovation_architect: Platte Architecture + Design
 renovation_style: Modern workplace with historic influences
 renovation_changes: >-

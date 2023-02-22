@@ -9,8 +9,8 @@ location:
   lat: 39.1035828
   lng: -84.5116664
 address: 650 Walnut St., Cincinnati, Ohio
-date_of_completion: "1995"
-interior_accessibility: Lobby spaces are usually open during normal business hours.
+date_of_completion: '1995'
+public_access: Lobby spaces are usually open during normal business hours.
 architect: Cesar Pelli Associates
 associate_architect: GBBN
 contractor: Messer Construction

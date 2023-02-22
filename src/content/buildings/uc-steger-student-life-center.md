@@ -11,9 +11,9 @@ location:
   lat: 39.132216
   lng: -84.516419
 original_owner: University of Cincinnati
-date_of_completion: "2004"
+date_of_completion: '2004'
 style: Modern
-interior_accessibility: The facility is open to public access.
+public_access: The facility is open to public access.
 architect: Moore Ruble Yudel
 associate_architect: Glaserworks
 original_function: A place for students to meet, eat and work together.

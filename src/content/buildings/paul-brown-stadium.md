@@ -12,9 +12,9 @@ location:
   lng: -84.515021
 address: 1 Paul Brown Stadium, Cincinnati, OH  45202
 original_owner: Hamilton County
-date_of_completion: "2000"
+date_of_completion: '2000'
 style: Contemporary/Futuristic
-interior_accessibility: >-
+public_access: >-
   Access to the stadium is by ticket.  A Bengals pro shop is located on the
   north side of the stadium.
 architect: NBBJ
@@ -28,7 +28,7 @@ unique_features: >-
   administrative offices are located in the stadium, 3 practice fields are
   located adjacent to the stadium to the west.
 renovations: The Kentucky Bluegrass playing field was replaced with a FieldTurf system.
-renovation_date: "2004"
+renovation_date: '2004'
 ---
 
 The stadium was the first NFL facility to win a national AIA Honor Award for its design, and it received an Architectural Record/Busines Week Award in 2001. It is also the only football stadium to be listed among "American's favorite 150 buildings and structures" in a 2007 survey conducted by Harris Interactive and commissioned by the American Institute of Architects (AIA).

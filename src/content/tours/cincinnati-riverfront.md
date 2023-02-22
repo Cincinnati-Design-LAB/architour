@@ -1,23 +1,23 @@
 ---
 title: Cincinnati Riverfront
-description: ""
+description: ''
 buildings:
-  - adams-place-at-adams-crossing
-  - montgomery-inn-boathouse
-  - gateway-sculpture-at-bicentennial-commons
-  - sawyer-point-park-and-bicentennial-commons
-  - great-american-ball-park
-  - serpentine-wall-at-yeatmans-cove
-  - covington-and-cincinnati-suspension-bridge
-  - paul-brown-stadium
-  - smale-riverfront-park
-  - national-underground-railroad-freedom-center
-  - yeatmans-cove-at-sawyer-point
-  - daniel-carter-beard-bridge-big-mac-bridge
-  - showboat-majestic-at-the-public-landing
-  - anderson-pavilion
-  - moerlein-lager-house
-  - theodore-m-berry-international-friendship-park
-  - otto-armleder-memorial-aquatic-fountain
-  - newport-southgate-bridge-purple-people-bridge-l-and-n-bridge
+  - buildings/adams-place-at-adams-crossing.md
+  - buildings/montgomery-inn-boathouse.md
+  - buildings/gateway-sculpture-at-bicentennial-commons.md
+  - buildings/sawyer-point-park-and-bicentennial-commons.md
+  - buildings/great-american-ball-park.md
+  - buildings/serpentine-wall-at-yeatmans-cove.md
+  - buildings/covington-and-cincinnati-suspension-bridge.md
+  - buildings/paul-brown-stadium.md
+  - buildings/smale-riverfront-park.md
+  - buildings/national-underground-railroad-freedom-center.md
+  - buildings/yeatmans-cove-at-sawyer-point.md
+  - buildings/daniel-carter-beard-bridge-big-mac-bridge.md
+  - buildings/showboat-majestic-at-the-public-landing.md
+  - buildings/anderson-pavilion.md
+  - buildings/moerlein-lager-house.md
+  - buildings/theodore-m-berry-international-friendship-park.md
+  - buildings/otto-armleder-memorial-aquatic-fountain.md
+  - buildings/newport-southgate-bridge-purple-people-bridge-l-and-n-bridge.md
 ---

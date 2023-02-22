@@ -13,8 +13,8 @@ location:
   lat: 39.133857
   lng: -84.519128
 original_owner: University of Cincinnati
-date_of_completion: "1996"
-interior_accessibility: The building is open to the public.
+date_of_completion: '1996'
+public_access: The building is open to the public.
 architect: Eisenman Architects
 associate_architect: Lorenz & Williams
 original_function: College of art, architecture, design and planning.
@@ -28,7 +28,7 @@ renovations: >-
   The building was reclad with an aluminum panel system due to the poor
   performance of the synthetic plaster system.  The basic color coding of the
   original design was maintained.
-renovation_date: "2015"
+renovation_date: '2015'
 renovation_architect: KZF Design
 ---
 

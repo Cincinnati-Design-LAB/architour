@@ -11,9 +11,9 @@ location:
   lat: 39.133334
   lng: -84.515263
 original_owner: University of Cincinnati
-date_of_completion: "1995"
+date_of_completion: '1995'
 style: Post-Modern
-interior_accessibility: >-
+public_access: >-
   Public accessibility is limited to the main barrel-vaulted lobby due to the
   confidential nature of the research being pursued in the building.
 architect: Michael Graves

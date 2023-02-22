@@ -17,7 +17,7 @@ original_owner: Franciscans Friars who emmigrated from Austria
 current_owner: The Franciscan Friars of the Province of St. John the Baptist
 date_of_completion: December 18, 1859 (dedication)
 style: German Romanesque
-interior_accessibility: The sanctuary is open to the public daily from 9am to 5 pm
+public_access: The sanctuary is open to the public daily from 9am to 5 pm
 architect: James W. McLaughlin
 original_function: Catholic church serving the German speaking community of Cincinnati
 unique_features: >-

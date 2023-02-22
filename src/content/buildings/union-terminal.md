@@ -12,9 +12,9 @@ location:
   lng: -84.53747369999996
 address: 1301 Western Ave., Cincinnati, OH  45203
 current_owner: Cincinnati Museum Center
-date_of_completion: "1933"
+date_of_completion: '1933'
 style: Art Deco
-interior_accessibility: >-
+public_access: >-
   The building is undergoing a renovation/restoration project, and portions of
   the building are not accessible.  However, the Children's Museum, special
   exhibit area, and other functions remain open and accessible to the public.

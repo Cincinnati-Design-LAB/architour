@@ -14,7 +14,7 @@ address: |-
   1404 Race Street
   Cincinnati, OH
 current_owner: 3CDC
-interior_accessibility: Handicap accessible
+public_access: Handicap accessible
 contractor: HGC Construction
 unique_features: >-
   The complex of builldings had been tied toegther with infill construction to
@@ -24,7 +24,7 @@ unique_features: >-
   neighborhood on the streetcar route with access to other design firms in the
   area.  The firm also enjoys access to Washington Park and the nearly nightly
   events that occur there during the summer.
-renovation_date: "2016"
+renovation_date: '2016'
 renovation_architect: M+A Architects
 renovation_style: Modern workplace
 renovation_changes: >-

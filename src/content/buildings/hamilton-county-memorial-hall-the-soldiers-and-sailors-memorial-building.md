@@ -12,9 +12,9 @@ location:
   lng: -84.518552
 address: 1225 Elm St., Cincinnati, Ohio
 current_owner: Hamilton County
-date_of_completion: "1908"
+date_of_completion: '1908'
 style: Beaux Arts Classicism
-interior_accessibility: Basement, First and Second Floors are accessible, but the balcony is not.
+public_access: Basement, First and Second Floors are accessible, but the balcony is not.
 architect: >-
   Samuel Hannaford & Sons,one of Cincinnati's most prolific 19th Century
   architects who also designed Cincinnati City Hall and Music Hall.
@@ -32,14 +32,14 @@ renovations: >-
   chandeliers enhance this historic performance space, completed with stenciled
   murals by Francis Pedretti. Memorial Hall offers an elegant setting for
   performances and unique spaces for social and business events.
-renovation_date: "2016"
+renovation_date: '2016'
 renovation_architect: John Senhauser Architects and Westlake Reed Leskosky
 renovation_changes: >-
   The goal of the renovation was to preserve but freshen the appearance of the
   acoustically perfect theatre while adding modern amenities such as air
   conditioning, updated restrooms, and a catering kitchen.  The new facility is
   operated by 3CDC and offers approximately 300 events per year including
-  concerts, lectures, films, family programming, comedy, and themed parties. 
+  concerts, lectures, films, family programming, comedy, and themed parties.
   The facility is available for rental for corporate events, social gatherings,
   weddings, and theatrical events.
 photo_credit: Photos provided by Memorial Hall / 3CDC

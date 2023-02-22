@@ -9,8 +9,8 @@ location:
   lat: 39.0978
   lng: -84.5112311
 address: 50 E. Freedom Way, Cincinnati, Ohio 45202
-date_of_completion: "2004"
-interior_accessibility: The museum is open to the public.
+date_of_completion: '2004'
+public_access: The museum is open to the public.
 architect: Blackburn Architects
 associate_architect: BOORA Architects, Alexander-Camabeam & Associates
 original_function: The museum focuses on the history of slavery and the underground railroad.

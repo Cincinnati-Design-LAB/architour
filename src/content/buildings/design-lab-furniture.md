@@ -15,7 +15,7 @@ address: |-
   Cincinnati, OH  45202
 current_owner: Grandin Properties
 date_of_completion: late 1800s
-interior_accessibility: Handicap accessible
+public_access: Handicap accessible
 original_function: >-
   Originally a residence, recently the space was a restaurant and catering
   operation.

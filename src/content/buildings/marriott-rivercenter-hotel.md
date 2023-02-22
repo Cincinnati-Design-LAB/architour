@@ -15,7 +15,7 @@ address: |-
   Covington, KY 41011
 original_owner: Corporex
 style: Contemporary
-interior_accessibility: Handicap accessible
+public_access: Handicap accessible
 architect: KZF Design
 contractor: Corporex
 original_function: Hotel

@@ -15,7 +15,7 @@ address: |-
   Cincinnati, OH  45202
 original_owner: Buddy Meisel, Findlay Market Group
 current_owner: 3CDC
-interior_accessibility: Handicap accessible
+public_access: Handicap accessible
 contractor: Graybach Construction (2015)
 unique_features: >-
   The building houses a gallery with rotating exhibits featuring artists
@@ -24,7 +24,7 @@ unique_features: >-
   around an outdoor terrace.  The main function room on the second floor
   overlooks Findlay Market with floor-to-ceiling windows that wrap the east and
   south sides of the building.
-renovation_date: "2015"
+renovation_date: '2015'
 renovation_architect: City Studios Architecture
 renovation_style: Modern workplace
 renovation_changes: >-

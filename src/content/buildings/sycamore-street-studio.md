@@ -15,8 +15,8 @@ address: |-
   Cincinnati, OH  45202
 original_owner: Frank Nolte
 current_owner: Ted Gantz
-date_of_completion: "1880"
-interior_accessibility: Must be able to climb stairs
+date_of_completion: '1880'
+public_access: Must be able to climb stairs
 original_function: Residence
 unique_features: >-
   The studio and residence is a complex of three buildings configured around a
@@ -26,7 +26,7 @@ unique_features: >-
   and stenciled ceilings on the second are original.  The owner has made
   selected changes to the residence decorative plaster and carvings that he has
   created.
-renovation_date: "1980"
+renovation_date: '1980'
 renovation_architect: Sycamore Street Studio
 renovation_style: Furniture and renovations have an Italian influence.
 renovation_changes: >-

@@ -9,8 +9,8 @@ location:
   lat: 39.10581
   lng: -84.51295
 address: Eighth & Walnut, Cincinnati, Ohio, 45202
-date_of_completion: "1997"
-interior_accessibility: Publicly accessible
+date_of_completion: '1997'
+public_access: Publicly accessible
 architect: Shepley Bullfinch Richardson & Abbott
 associate_architect: GBBN
 original_function: Public library

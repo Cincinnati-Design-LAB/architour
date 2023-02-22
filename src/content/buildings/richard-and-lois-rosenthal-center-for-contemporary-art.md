@@ -13,9 +13,9 @@ location:
 address: 44 E 6th St, Cincinnati, OH 45202, USA
 original_owner: Contemporary Arts Center
 current_owner: Contemporary Arts Center
-date_of_completion: "2003"
+date_of_completion: '2003'
 style: Neo-futuristic
-interior_accessibility: >-
+public_access: >-
   Public lobby is accessible during normal business hours without admission to
   the CAC.  The cafe is also open to the public.
 architect: >-
@@ -36,7 +36,7 @@ quotes: >-
   Muschamp, as "the most important American building to be completed since the
   end of the Cold War."
 renovations: Lobby renovation
-renovation_date: "2015"
+renovation_date: '2015'
 renovation_architect: FRCH
 renovation_changes: >-
   The renovation reorganized the lobby functions (reception and gift shop) and

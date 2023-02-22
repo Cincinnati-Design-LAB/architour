@@ -17,7 +17,7 @@ original_owner: Cosmopolitan Hall
 current_owner: Cintrifuse
 date_of_completion: 1850-55
 style: Italian Renaissance Revival (1313)
-interior_accessibility: Elevator access is available to all levels
+public_access: Elevator access is available to all levels
 original_function: >-
   The building was the home and meeting place for multiple labor unions.  Later
   it became a beer garden and dance hall, a matress manufacturing company, and

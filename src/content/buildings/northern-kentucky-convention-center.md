@@ -9,9 +9,9 @@ location:
 address: |-
   1 W. Rivercenter Blvd.
   Covington, KY
-date_of_completion: "2002"
+date_of_completion: '2002'
 style: Modernist
-interior_accessibility: Handicap accessible
+public_access: Handicap accessible
 architect: Sherman Carter Barnhart
 original_function: 204,000 s.f. convention center with 110,000 s.f. of exhibition & meeting space
 ---

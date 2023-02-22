@@ -10,5 +10,5 @@ location:
   lng: -84.5100822
 address: Fifth & Main St., Cincinnati, OH  45202
 original_owner: Federal Reserve Bank of Cleveland
-interior_accessibility: The plaza is open to the public during normal business hours.
+public_access: The plaza is open to the public during normal business hours.
 ---

@@ -11,9 +11,9 @@ location:
   lat: 39.131763
   lng: -84.517772
 original_owner: University of Cincinnati
-date_of_completion: "1935"
+date_of_completion: '1935'
 style: Neo-Federal
-interior_accessibility: Open to the public
+public_access: Open to the public
 architect: Harry Hake
 original_function: Student union
 renovations: >-
@@ -22,7 +22,7 @@ renovations: >-
   outwardly focused.  The interior was completely renovated adding a 90-foot
   tall atrium and creating student support spaces that offer modern conveniences
   similar to a shopping mall.
-renovation_date: "2004"
+renovation_date: '2004'
 renovation_architect: Gwathmey Siegel Kaufman, GBBN
 renovation_style: Modern
 renovation_changes: >-

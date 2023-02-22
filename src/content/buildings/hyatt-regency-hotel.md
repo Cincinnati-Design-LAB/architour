@@ -9,9 +9,9 @@ location:
   lat: 39.1003446
   lng: -84.5157185
 address: 151 W. Fifth St., Cincinnati, OH  45202
-date_of_completion: "1984"
+date_of_completion: '1984'
 style: International
-interior_accessibility: The lobby and public circulation zones are open the the public.
+public_access: The lobby and public circulation zones are open the the public.
 architect: RTKL
 ---
 

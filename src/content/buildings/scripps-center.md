@@ -7,9 +7,9 @@ location:
   lat: 39.0992802
   lng: -84.5103567
 address: 312 Walnut St., Cincinnati, Ohio
-date_of_completion: "1989"
+date_of_completion: '1989'
 style: Post-modern
-interior_accessibility: Public lobby
+public_access: Public lobby
 architect: Hoover & Furr
 associate_architect: Glaser & Associates
 original_function: Office building

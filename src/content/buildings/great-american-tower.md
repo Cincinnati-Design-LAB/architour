@@ -12,9 +12,9 @@ location:
   lng: -84.50735
 address: 301 E. Fourth St., Cincinnati, OH  45202
 original_owner: Eagle Realty/Western Southern
-date_of_completion: "2011"
+date_of_completion: '2011'
 style: Post-modern
-interior_accessibility: >-
+public_access: >-
   The lobby is accessible from the corner of Fourth and Sycamore during normal
   business hours.  It is also accessible during the hours of operation of
   Restaurant L.

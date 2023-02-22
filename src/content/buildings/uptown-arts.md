@@ -15,9 +15,9 @@ address: |-
   Cincinnati, OH
 original_owner: Geise Cigar Box Company
 current_owner: Rosenthal Foundation
-date_of_completion: "1912"
+date_of_completion: '1912'
 style: Commercial
-interior_accessibility: Handicap accessible.  All floors will be open to visitors except the basement.
+public_access: Handicap accessible.  All floors will be open to visitors except the basement.
 contractor: Messer Construction (2000)
 original_function: Cigar manufacturing facility.
 unique_features: >-
@@ -30,7 +30,7 @@ unique_features: >-
   relate to the history of the building.  Anything that was replaced in the
   original building was replicated.  Old elevator doors were maintained to
   create the feel of the manufacturing environment.
-renovation_date: "2000"
+renovation_date: '2000'
 renovation_architect: KZF Design
 renovation_style: Commercial industrial
 renovation_changes: >-

@@ -11,7 +11,7 @@ location:
   lat: 39.133435
   lng: -84.513029
 original_owner: University of Cincinnati
-interior_accessibility: >-
+public_access: >-
   The tower is located in the Sigma Sigma Commons and can be viewed at all times
   of the day and night.
 architect: Machado & Silvetti

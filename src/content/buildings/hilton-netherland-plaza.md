@@ -9,9 +9,9 @@ location:
   lat: 39.1008434
   lng: -84.5141833
 address: 35 W. Fifth St., Cincinnati, OH  45202
-date_of_completion: "1930"
+date_of_completion: '1930'
 style: American Modern with Art Deco motifs
-interior_accessibility: >-
+public_access: >-
   The hotel's lobby, the Palm Court, and the pre-function space for the Hall of
   Mirrors are open to the public.
 architect: Walter Aeschlager
@@ -21,7 +21,7 @@ unique_features: >-
   The main ballroom space, the Hall of Mirrors, is one of the most popular
   celebration spaces in the city.  The two story ballroom has a balcony wrapping
   three sides of the space providing additional seating for the ballroom.
-renovation_date: "1983"
+renovation_date: '1983'
 renovation_architect: Richard Rauh & Associates
 renovation_changes: >-
   The renovation process uncovered portions of the original hotel that had been

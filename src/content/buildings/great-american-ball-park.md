@@ -12,8 +12,8 @@ location:
   lng: -84.508
 address: 100 Joe Nuxhall Way, Cincinnati, Ohio
 original_owner: Hamilton County
-date_of_completion: "2003"
-interior_accessibility: >-
+date_of_completion: '2003'
+public_access: >-
   The Hall of Fame is accessible during normal business hours.  The ballpark is
   accessible to the public by ticket during game times.
 architect: Populous (HOK Sport)

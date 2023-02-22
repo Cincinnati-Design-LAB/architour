@@ -11,9 +11,9 @@ location:
   lat: 39.13082
   lng: -84.514914
 original_owner: University of Cincinnati
-date_of_completion: "2006"
+date_of_completion: '2006'
 style: Modern
-interior_accessibility: Main lobby and atrium is open to the public.
+public_access: Main lobby and atrium is open to the public.
 architect: Bernard Tschumi
 associate_architect: Glaserworks
 original_function: >-

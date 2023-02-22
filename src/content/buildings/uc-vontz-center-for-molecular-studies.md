@@ -11,9 +11,9 @@ location:
   lat: 39.136365
   lng: -84.505764
 original_owner: University of Cincinnati
-date_of_completion: "1999"
+date_of_completion: '1999'
 style: Modern
-interior_accessibility: >-
+public_access: >-
   The building is not accessible to the public due to the confidential research
   that is pursued in the building.
 architect: Frank Gehry

@@ -15,11 +15,11 @@ address: |-
   Cincinnati, OH  45202
 original_owner: A&J Doescher Candy Company
 current_owner: Kaup Pender Associates LLC
-date_of_completion: "1875"
-interior_accessibility: Handicap accessible
+date_of_completion: '1875'
+public_access: Handicap accessible
 original_function: Retail
 unique_features: Conference room curtain and window garden
-renovation_date: "2011"
+renovation_date: '2011'
 renovation_architect: A359
 renovation_style: Modern workplace
 renovation_changes: Architectural design studio

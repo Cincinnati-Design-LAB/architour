@@ -11,9 +11,9 @@ location:
   lat: 39.129985
   lng: -84.517821
 original_owner: University of Cincinnati
-date_of_completion: "1999"
+date_of_completion: '1999'
 style: Modern
-interior_accessibility: >-
+public_access: >-
   Main entry and circulation spaces are open to the public, and paid
   performances are offered in all of the major performance spaces.
 architect: Pei, Cobb, Freed

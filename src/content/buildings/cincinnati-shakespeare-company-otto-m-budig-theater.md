@@ -14,9 +14,9 @@ address: |-
   1195 Elm St.
   Cincinnati, OH
 original_owner: Cincinnati Shakespeare Company
-date_of_completion: "2017"
+date_of_completion: '2017'
 style: Contemporary
-interior_accessibility: >-
+public_access: >-
   Handicap accessible - access during Doors Open OTR will be limited to noon to
   1:30 due to a matinee performance of Dracula.
 architect: GBBN Architects

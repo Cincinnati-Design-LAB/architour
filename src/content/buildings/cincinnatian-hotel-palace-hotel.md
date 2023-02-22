@@ -9,13 +9,13 @@ location:
 address: 601 Vine St., Cincinnati, OH  45202
 original_owner: Thomas Emery & Sons
 current_owner: American Financial Group
-date_of_completion: "1882"
+date_of_completion: '1882'
 style: Second Empire
-interior_accessibility: The hotel lobby, bar and restaurant are open to the public.
+public_access: The hotel lobby, bar and restaurant are open to the public.
 architect: Samuel Hannaford & Joseph Steinkamp & Brother
 contractor: Messer Construction (1987 renovation)
 historic_status: Listed on NRHP on March 3, 1980
-renovation_date: "1987"
+renovation_date: '1987'
 renovation_architect: Williams Trebilcock Whitehead
 renovation_style: Post-modern
 renovation_changes: Converted 300 room hotel into 146 room luxury hotel.

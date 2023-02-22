@@ -9,9 +9,9 @@ location:
   lat: 39.100836
   lng: -84.513238
 address: 441 Vine St., Cincinnati, OH  45202
-date_of_completion: "1930"
+date_of_completion: '1930'
 style: American Modern with Art Deco motifs
-interior_accessibility: The Emery arcade is open to the public and connects Vine to Race.
+public_access: The Emery arcade is open to the public and connects Vine to Race.
 architect: Walter Aeschlager
 associate_architect: Delano & Aldrich
 original_function: Office building

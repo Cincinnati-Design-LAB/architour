@@ -13,12 +13,12 @@ location:
 address: 1205 Elm St., Cincinnati, Ohio
 original_owner: St. John's Protestant Church
 current_owner: Funky's Catering
-date_of_completion: "1868"
+date_of_completion: '1868'
 style: German Gothic Revival
-interior_accessibility: The new event center has a bar area open to the public daily from 4 pm.
+public_access: The new event center has a bar area open to the public daily from 4 pm.
 architect: Sigmund Kutznitzky
 historic_status: Listed on NRHP in 1973
-renovation_date: "2015"
+renovation_date: '2015'
 renovation_changes: Conversion to an events center.
 ---
 
