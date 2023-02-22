@@ -15,8 +15,8 @@
       "contentlayer/generated": ["./.contentlayer/generated"],
       "@components/*": ["src/components/*"],
       "@layouts/*": ["src/layouts/*"],
+      "@content": ["content/utils/index"],
       "@/*": ["./*"]
     }
-  },
-  "include": [".contentlayer/generated"]
+  }
 }
