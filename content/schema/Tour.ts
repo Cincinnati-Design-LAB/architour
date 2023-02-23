@@ -25,6 +25,11 @@ export const Tour = defineDocumentType(() => ({
       description: 'Consistent URL path to the detail page on the website',
       resolve: (post) => `/${post._raw.flattenedPath}`,
     },
+    mapUrlPath: {
+      type: 'string',
+      description: 'URL path to the map view of the tour',
+      resolve: (post) => `/${post._raw.flattenedPath}/map`,
+    },
     slug: {
       type: 'string',
       description: 'URL segment used to build dynamic paths in Astro template.',

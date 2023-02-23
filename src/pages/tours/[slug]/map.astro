@@ -15,18 +15,7 @@ const { tour } = Astro.props
 ---
 
 <Layout title={tour.title}>
-  <h1>{tour.title}</h1>
+  <h1>MAP VIEW: {tour.title}</h1>
 
-  <a href={tour.mapUrlPath}>Map View</a>
-
-  <h2>Buildings</h2>
-  <ul>
-    {
-      tour.buildings.map((building) => (
-        <li>
-          <a href={building.urlPath}>{building.title}</a>
-        </li>
-      ))
-    }
-  </ul>
+  <a href={tour.urlPath}>Detail View</a>
 </Layout>
