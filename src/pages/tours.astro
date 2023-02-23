@@ -1,0 +1,20 @@
+---
+import Layout from '@layouts/Layout.astro'
+import { getTours } from '@content'
+
+const tours = await getTours()
+---
+
+<Layout title="Tours List">
+  <h1>Tours</h1>
+
+  <ul>
+    {
+      tours.map((tour) => (
+        <li>
+          <a href={tour.urlPath}>{tour.title}</a>
+        </li>
+      ))
+    }
+  </ul>
+</Layout>
