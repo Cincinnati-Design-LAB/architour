@@ -4,11 +4,13 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "astro:build": "astro build",
     "astro:dev": "astro dev",
+    "contentlayer:build": "contentlayer build",
     "contentlayer:dev": "contentlayer dev",
     "dev": "npm-run-all -p contentlayer:dev astro:dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "npm-run-all -s contentlayer:build astro:build",
     "preview": "astro preview",
     "astro": "astro"
   },
