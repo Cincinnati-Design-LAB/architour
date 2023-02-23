@@ -1,22 +1,19 @@
 ---
-import { getCollection } from 'astro:content'
-
+import { getBuildings } from '@content'
 import Layout from '@layouts/Layout.astro'
 import BuildingAttribute from '@components/BuildingAttribute.astro'
 import PageHeader from '@components/PageHeader.astro'
 
 export async function getStaticPaths() {
-  const buildingsEntries = await getCollection('buildings')
-  return buildingsEntries.map((entry) => ({
-    params: { slug: entry.slug },
-    props: { entry },
+  const buildingsEntries = await getBuildings()
+  return buildingsEntries.map((building) => ({
+    params: { slug: building.slug },
+    props: { building },
   }))
 }
 
-const { entry } = Astro.props
-const { Content } = await entry.render()
+const { building } = Astro.props
 
-const building = entry.data
 const images = building.images.map((image) => image + '-/scale_crop/1920x1080/smart/')
 const featureImage = (building.images || [])[0] + '-/scale_crop/1920x1080/center/'
 
@@ -33,10 +30,8 @@ const hasSecondaryAttributes =
     <div class="grid grid-cols-12 gap-16 py-16">
       <div class="col-span-7">
         {
-          entry.body.length > 0 && (
-            <div class="text-lg mb-12">
-              <Content />
-            </div>
+          building.body.html.length > 0 && (
+            <div class="text-lg mb-12" set:html={building.body.html} />
           )
         }
         {
@@ -47,7 +42,7 @@ const hasSecondaryAttributes =
               <BuildingAttribute
                 label="Unique Features"
                 value={building.unique_features}
-                className="col-span-2"
+                class="col-span-2"
               />
             </div>
           )

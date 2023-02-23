@@ -132,6 +132,11 @@ export const Building = defineDocumentType(() => ({
       description: 'Consistent URL path to the detail page on the website',
       resolve: (building) => `/${building._raw.flattenedPath}`,
     },
+    slug: {
+      type: 'string',
+      description: 'URL segment used to build dynamic paths in Astro template.',
+      resolve: (building) => building._raw.sourceFileName.replace(/\.md$/, ''),
+    },
     excerpt: {
       type: 'nested',
       of: Markdown,
