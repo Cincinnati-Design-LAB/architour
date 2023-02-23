@@ -20,7 +20,7 @@ export const Tour = defineDocumentType(() => ({
     },
   },
   computedFields: {
-    url: {
+    urlPath: {
       type: 'string',
       description: 'Consistent URL path to the detail page on the website',
       resolve: (post) => `/${post._raw.flattenedPath}`,

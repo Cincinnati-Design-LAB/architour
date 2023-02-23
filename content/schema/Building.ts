@@ -127,7 +127,7 @@ export const Building = defineDocumentType(() => ({
     },
   },
   computedFields: {
-    url: {
+    urlPath: {
       type: 'string',
       description: 'Consistent URL path to the detail page on the website',
       resolve: (building) => `/${building._raw.flattenedPath}`,
