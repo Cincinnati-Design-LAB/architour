@@ -8,7 +8,9 @@ import { Building, Tour } from './types'
  * @returns Transformed building object
  */
 export function transformBuilding(building: Contentlayer.Building): Building {
-  return { ...building, tourCount: 0 }
+  const tourHasBuilding = (tour) => tour.buildings.includes(building._raw.sourceFilePath)
+  const tourCount = Contentlayer.allTours.filter(tourHasBuilding).length
+  return { ...building, tourCount }
 }
 
 /**
