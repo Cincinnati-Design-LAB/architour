@@ -1,20 +1,36 @@
 ---
-import Layout from '@layouts/Layout.astro'
 import { getTours } from '@content'
+
+import Layout from '@layouts/Layout.astro'
+
+import PageHeader from '@components/PageHeader.astro'
+import TourCard from '@components/Card/Tour.astro'
 
 const tours = await getTours()
 ---
 
 <Layout title="Tours List">
-  <h1>Tours</h1>
+  <PageHeader title="Walking Tours" theme="primary" icon="eye" />
 
-  <ul>
-    {
-      tours.map((tour) => (
-        <li>
-          <a href={tour.urlPath}>{tour.title}</a>
-        </li>
-      ))
-    }
-  </ul>
+  <div class="bg-gray-100 py-8">
+    <div
+      class="max-w-7xl px-4 mx-auto py-12 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-16 gap-x-8"
+    >
+      {
+        tours.map((tour) => (
+          <TourCard
+            title={tour.title}
+            href={tour.urlPath}
+            excerpt={tour.description.html}
+            meta={[
+              {
+                icon: 'building',
+                label: `${tour.buildings.length} buildings`,
+              },
+            ]}
+          />
+        ))
+      }
+    </div>
+  </div>
 </Layout>

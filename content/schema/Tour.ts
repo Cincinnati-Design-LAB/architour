@@ -11,7 +11,7 @@ export const Tour = defineDocumentType(() => ({
       required: true,
     },
     description: {
-      type: 'string',
+      type: 'markdown',
       description: 'A brief description about the tour or what to expect.',
     },
     buildings: {
