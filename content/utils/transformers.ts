@@ -20,5 +20,11 @@ export function transformBuilding(building: Contentlayer.Building): Building {
  * @returns Transformed tour object
  */
 export function transformTour(tour: Contentlayer.Tour): Tour {
-  return { ...tour, buildings: [transformBuilding(Contentlayer.allBuildings[0])] }
+  const findBuilding = (filePath: string) =>
+    Contentlayer.allBuildings.find((b) => b._raw.sourceFilePath === filePath)
+  const buildings = tour.buildings
+    .map(findBuilding)
+    .filter((x) => x)
+    .map(transformBuilding)
+  return { ...tour, buildings }
 }

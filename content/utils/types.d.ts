@@ -7,5 +7,5 @@ export interface Building extends Contentlayer.Building {
 
 export interface Tour extends Omit<Contentlayer.Tour, 'buildings'> {
   /** [Transformed] Building objects. */
-  buildings: [Building]
+  buildings: Building[]
 }
