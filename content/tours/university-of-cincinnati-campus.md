@@ -1,6 +1,7 @@
 ---
 title: University of Cincinnati Campus
 description: Lorem dolore sunt veniam deserunt minim duis id sit proident ea mollit velit irure.
+icon: star
 image: https://ucarecdn.com/b3d52f4c-3fc5-4912-b209-02c3afc8343e/
 time_estimate: 2 Hours
 buildings:

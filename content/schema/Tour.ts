@@ -20,6 +20,12 @@ export const Tour = defineDocumentType(() => ({
       description: 'Average length of time tour is expected to take',
       required: true,
     },
+    icon: {
+      type: 'enum',
+      description: 'A supported icon name, which appears on the tour card.',
+      options: ['arrow-left', 'calendar', 'eye', 'building', 'clock', 'kentucky', 'star', 'waves'],
+      required: true,
+    },
     description: {
       type: 'markdown',
       description: 'A brief description about the tour or what to expect.',

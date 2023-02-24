@@ -1,6 +1,7 @@
 ---
 title: 21 By Hannaford
 description: Enim quis eiusmod mollit id esse sunt.
+icon: building
 image: https://ucarecdn.com/b3d52f4c-3fc5-4912-b209-02c3afc8343e/
 time_estimate: 2 Hours
 buildings:

@@ -10,21 +10,30 @@ export interface Props {
   meta?: Array<{ icon: IconProps['name']; label: string }>
 }
 
-const { excerpt, href, title, image, meta } = Astro.props
+const { excerpt, href, title, image, meta, icon } = Astro.props
 ---
 
-<a href={href} class="block bg-white shadow-md relative">
+<a href={href} class="block bg-white shadow-md">
   {
     image && (
-      <div class="rounded-full absolute top-[-2rem] left-[1rem] w-16 h-16 overflow-hidden border-2 border-black">
+      <div class="h-24 overflow-hidden">
         <img
-          src={`${image}-/scale_crop/120x120/smart/`}
+          src={`${image}-/scale_crop/1400x1400/smart/`}
           class="object-cover h-full w-full object-center"
         />
       </div>
     )
   }
-  <div class="pt-12 pb-4 px-4">
+  <div class="pt-12 pb-4 px-4 relative">
+    {
+      icon && (
+        <div class="rounded-full absolute top-[-2rem] left-[0.5rem] w-14 h-14 overflow-hidden border-2 border-white bg-primary-500 text-white flex items-center justify-center">
+          <span class="block w-7">
+            <Icon name={icon} />
+          </span>
+        </div>
+      )
+    }
     <h3 class="text-lg font-semibold mb-2">{title}</h3>
     {excerpt && <div class="mb-4" set:html={excerpt} />}
     {

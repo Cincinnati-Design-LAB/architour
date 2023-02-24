@@ -4,9 +4,12 @@ import Building from './Icon/Building.astro'
 import Calendar from './Icon/Calendar.astro'
 import Clock from './Icon/Clock.astro'
 import Eye from './Icon/Eye.astro'
+import Kentucky from './Icon/Kentucky.astro'
+import Star from './Icon/Star.astro'
+import Waves from './Icon/Waves.astro'
 
 export interface Props {
-  name: 'arrow-left' | 'calendar' | 'eye' | 'building' | 'clock'
+  name: 'arrow-left' | 'calendar' | 'eye' | 'building' | 'clock' | 'kentucky' | 'star' | 'waves'
 }
 
 const { name } = Astro.props
@@ -19,9 +22,14 @@ const iconMap: {
   calendar: Calendar,
   clock: Clock,
   eye: Eye,
+  kentucky: Kentucky,
+  star: Star,
+  waves: Waves,
 }
 
 const IconComponent = iconMap[name]
 ---
 
-<IconComponent />
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <IconComponent />
+</svg>
