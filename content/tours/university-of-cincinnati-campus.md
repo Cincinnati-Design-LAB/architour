@@ -1,6 +1,8 @@
 ---
 title: University of Cincinnati Campus
-description: ''
+description: Lorem dolore sunt veniam deserunt minim duis id sit proident ea mollit velit irure.
+image: https://ucarecdn.com/b3d52f4c-3fc5-4912-b209-02c3afc8343e/
+time_estimate: 2 Hours
 buildings:
   - buildings/uc-campus-recreation-center.md
   - buildings/uc-steger-student-life-center.md

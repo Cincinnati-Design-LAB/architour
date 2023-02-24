@@ -22,10 +22,15 @@ const tours = await getTours()
             title={tour.title}
             href={tour.urlPath}
             excerpt={tour.description.html}
+            image={tour.image}
             meta={[
               {
                 icon: 'building',
                 label: `${tour.buildings.length} buildings`,
+              },
+              {
+                icon: 'clock',
+                label: tour.time_estimate,
               },
             ]}
           />

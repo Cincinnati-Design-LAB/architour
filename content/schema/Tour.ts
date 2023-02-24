@@ -10,6 +10,16 @@ export const Tour = defineDocumentType(() => ({
       description: 'Name of the tour',
       required: true,
     },
+    image: {
+      type: 'string',
+      description: 'URL of the image to show on the card on detail page header',
+      required: true,
+    },
+    time_estimate: {
+      type: 'string',
+      description: 'Average length of time tour is expected to take',
+      required: true,
+    },
     description: {
       type: 'markdown',
       description: 'A brief description about the tour or what to expect.',

@@ -1,6 +1,8 @@
 ---
 title: Streetcar Route
-description: ''
+description: Reprehenderit non pariatur ad pariatur nulla.
+image: https://ucarecdn.com/b3d52f4c-3fc5-4912-b209-02c3afc8343e/
+time_estimate: 2 Hours
 buildings:
   - buildings/fifth-third-center.md
   - buildings/potter-stewart-us-courthouse.md
