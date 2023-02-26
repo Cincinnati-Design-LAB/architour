@@ -1,4 +1,6 @@
 ---
+import 'mapbox-gl/dist/mapbox-gl.css'
+
 import { getTours } from '@content'
 import { Layout } from '@layouts'
 
@@ -17,4 +19,19 @@ const { tour } = Astro.props
   <h1>MAP VIEW: {tour.title}</h1>
 
   <a href={tour.urlPath}>Detail View</a>
+
+  <div id="map-container" class="w-[400px] h-[400px]"></div>
 </Layout>
+
+<script>
+  import mapboxgl from 'mapbox-gl'
+
+  mapboxgl.accessToken = import.meta.env.PUBLIC_MAPBOX_TOKEN
+
+  const map = new mapboxgl.Map({
+    container: 'map-container',
+    style: 'mapbox://styles/cincinnatidesignlab/clelgwaws000v01t7m19em7oa',
+    center: [-74.5, 40],
+    zoom: 9,
+  })
+</script>
