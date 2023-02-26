@@ -12,7 +12,6 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "contentlayer/generated": ["./.contentlayer/generated"],
       "@components": ["src/components/index"],
       "@layouts": ["src/layouts/index"],
       "@content": ["content/utils/index"],

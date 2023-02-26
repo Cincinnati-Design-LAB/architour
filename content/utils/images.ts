@@ -1,5 +1,5 @@
 /**
- * Apply uploadcare image transformations to the original image URL.
+ * Apply UploadCare image transformations to the original image URL.
  *
  * @param originalImageUrl Raw image URL from the source
  * @param options {

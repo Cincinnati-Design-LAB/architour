@@ -1,9 +1,9 @@
 ---
-import Icon from '@components/Icon.astro'
+import { Icon, IconProps } from '@components'
 
 export interface Props {
   title: string
-  icon?: string
+  icon?: IconProps['name']
   theme?: 'primary' | 'secondary'
   image?: string
   size?: 'sm' | 'md' | 'lg'
