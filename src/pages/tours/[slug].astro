@@ -1,7 +1,6 @@
 ---
-import { a } from '@/.netlify/functions-internal/chunks/astro.683f67a6.mjs'
 import { getTours } from '@content'
-import Layout from '@layouts/Layout.astro'
+import { Layout } from '@layouts'
 
 export async function getStaticPaths() {
   const toursEntries = await getTours()

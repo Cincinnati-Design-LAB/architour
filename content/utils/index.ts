@@ -5,6 +5,11 @@ import { transformBuilding, transformTour } from './transformers'
 import type { Building, Tour } from './types'
 
 /**
+ * Pass-through utility methods for easier importing.
+ */
+export * from './images'
+
+/**
  * Retrieves building objects processed by Contentlayer and resolves necessary
  * post-processing properties.
  *
@@ -24,4 +29,7 @@ function getTours(): Tour[] {
   return Contentlayer.allTours.map(transformTour)
 }
 
+/**
+ * Exports from items used in this file.
+ */
 export { Building, getBuildings, Tour, getTours }

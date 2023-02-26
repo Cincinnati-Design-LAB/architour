@@ -1,9 +1,7 @@
 ---
-import { Building, getBuildings } from '@content'
-import Layout from '@layouts/Layout.astro'
-import BuildingAttribute from '@components/BuildingAttribute.astro'
-import PageHeader from '@components/PageHeader.astro'
-import { croppedImageUrl } from '@/content/utils/images'
+import { Building, getBuildings, croppedImageUrl } from '@content'
+import { BuildingAttribute, PageHeader } from '@components'
+import { Layout } from '@layouts'
 
 export async function getStaticPaths() {
   const buildingsEntries = await getBuildings()
