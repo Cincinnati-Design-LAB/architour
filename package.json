@@ -15,7 +15,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/netlify": "^2.1.2",
     "@astrojs/tailwind": "^3.0.0",
     "astro": "^2.0.7",
     "contentlayer": "^0.3.0",

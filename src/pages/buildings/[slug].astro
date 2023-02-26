@@ -1,8 +1,9 @@
 ---
-import { getBuildings } from '@content'
+import { Building, getBuildings } from '@content'
 import Layout from '@layouts/Layout.astro'
 import BuildingAttribute from '@components/BuildingAttribute.astro'
 import PageHeader from '@components/PageHeader.astro'
+import { croppedImageUrl } from '@/content/utils/images'
 
 export async function getStaticPaths() {
   const buildingsEntries = await getBuildings()
@@ -12,19 +13,15 @@ export async function getStaticPaths() {
   }))
 }
 
-const { building } = Astro.props
-
-const images = building.images.map((image) => image + '-/scale_crop/1920x1080/smart/')
-const featureImage = (building.images || [])[0] + '-/scale_crop/1920x1080/center/'
-
-const hasPrimaryAttributes =
-  building.historic_status || building.current_owner || building.unique_features
-const hasSecondaryAttributes =
-  building.date_of_completion || building.original_owner || building.architect || building.style
+const building = Astro.props.building as Building
 ---
 
 <Layout title={building.title}>
-  <PageHeader title={building.title} image={featureImage} size="lg" />
+  <PageHeader
+    title={building.title}
+    image={croppedImageUrl(building.featuredImage, { height: 1080, width: 1920, focus: 'center' })}
+    size="lg"
+  />
 
   <div class="max-w-7xl mx-auto relative">
     <div class="grid grid-cols-12 gap-16 py-16">
@@ -35,7 +32,7 @@ const hasSecondaryAttributes =
           )
         }
         {
-          hasPrimaryAttributes && (
+          building.hasPrimaryAttributes && (
             <div class="grid grid-cols-2 gap-x-10 gap-y-6 mb-12">
               <BuildingAttribute label="Historic Status" value={building.historic_status} />
               <BuildingAttribute label="Current Owner" value={building.current_owner} />
@@ -48,10 +45,10 @@ const hasSecondaryAttributes =
           )
         }
         {
-          images && (
+          building.images && (
             <div class="grid grid-cols-2 gap-6">
-              {images.map((image) => (
-                <img src={image} />
+              {building.images.map((image) => (
+                <img src={croppedImageUrl(image, { height: 1080, width: 1920 })} />
               ))}
             </div>
           )
@@ -59,7 +56,7 @@ const hasSecondaryAttributes =
       </div>
       <div class="col-span-5">
         {
-          hasSecondaryAttributes && (
+          building.hasSecondaryAttributes && (
             <div class="grid grid-cols-2 gap-x-8 gap-y-6 mb-12">
               <BuildingAttribute label="Completed" value={building.date_of_completion} />
               <BuildingAttribute label="Original Owner" value={building.original_owner} />
