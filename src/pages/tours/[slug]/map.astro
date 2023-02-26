@@ -30,7 +30,7 @@ const { tour } = Astro.props
 
   const map = new mapboxgl.Map({
     container: 'map-container',
-    style: 'mapbox://styles/cincinnatidesignlab/clelgwaws000v01t7m19em7oa',
+    style: `mapbox://styles/${import.meta.env.PUBLIC_MAPBOX_STYLE}`,
     center: [-74.5, 40],
     zoom: 9,
   })

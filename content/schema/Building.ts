@@ -186,5 +186,13 @@ export const Building = defineDocumentType(() => ({
           ? true
           : false,
     },
+    staticMapUrl: {
+      type: 'string',
+      description: 'URL for a static map image of the building location.',
+      resolve: (building) => {
+        if (!building.location || !building.location.lat || !building.location.lng) return null
+        return `https://api.mapbox.com/styles/v1/${process.env.PUBLIC_MAPBOX_STYLE}/static/pin-l+799A05(${building.location.lng},${building.location.lat})/${building.location.lng},${building.location.lat},15,0/800x450@2x?access_token=${process.env.STATIC_MAPBOX_TOKEN}`
+      },
+    },
   },
 }))
