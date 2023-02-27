@@ -17,6 +17,7 @@
   "dependencies": {
     "@astrojs/tailwind": "^3.0.0",
     "astro": "^2.0.7",
+    "cloudinary": "^1.34.0",
     "contentlayer": "^0.3.0",
     "mapbox-gl": "^2.13.0",
     "rehype-sanitize": "^5.0.1",
