@@ -1,5 +1,14 @@
 #!/usr/env/bin node
 
+/**
+ * This was a one-time script to download all images from Uploadcare. For this
+ * to work, the buildings have to be in a different directory and have image
+ * data values in a different format.
+ *
+ * Need to go back to early Feb 2023 for building data.
+ *
+ */
+
 import axios from 'axios'
 import fs from 'fs'
 import path from 'path'
