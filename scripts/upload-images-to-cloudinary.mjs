@@ -5,6 +5,10 @@
  * name back to the building file.
  */
 
+// TODO: Consider a script that will copy images with new files and store the
+// reference. It could be beneficial because I think there are a lot of
+// duplicate images.
+
 import path from 'path'
 import fs from 'fs'
 import glob from 'fast-glob'
