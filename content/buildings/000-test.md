@@ -1,10 +1,10 @@
 ---
 title: Test Building
 images:
-  - https://ucarecdn.com/04798cd4-77c3-42b6-a966-0ec4a620cb7b/
-  - https://ucarecdn.com/90eb3666-779e-4633-9111-630d06eb3da0/
-  - https://ucarecdn.com/139d762e-94d1-4387-a514-397efa2adfab/
-  - https://ucarecdn.com/d768accc-7a6f-4a05-b980-f8fe75f89495/
+  - https://ucarecdn.com/abc-test-01/
+  - https://ucarecdn.com/def-test-02/
+  - https://ucarecdn.com/ghi-test-03/
+  - https://ucarecdn.com/jkl-test-04/
 location:
   lat: 39.1030545
   lng: -84.5120005
