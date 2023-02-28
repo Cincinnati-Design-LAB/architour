@@ -55,6 +55,7 @@ for (const building of buildingFilenames) {
   // Store the Cloudinary details back to the building file
   const newContent = matter.stringify(content, { ...data, images: imageData })
   fs.writeFileSync(path.join(BUILDINGS_DIR, building), newContent)
+  console.log(`[Upload Complete] ${data.title} (${slug})`)
 
   process.exit(1)
 }
