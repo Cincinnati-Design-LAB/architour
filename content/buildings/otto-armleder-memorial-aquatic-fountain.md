@@ -1,14 +1,14 @@
 ---
 title: Otto Armleder Memorial Aquatic Fountain
 images:
-  - https://ucarecdn.com/7440c108-0dda-4f12-be93-5ae684edabd4/
-  - https://ucarecdn.com/507f89cf-3c06-4b68-8df9-1d09d3f042a4/
+  - >-
+    buildings/otto-armleder-memorial-aquatic-fountain/otto-armleder-memorial-aquatic-fountain-0_xmeshe
 location:
   lat: 39.098968
   lng: -84.502241
-address: 472 E Pete Rose Way, Cincinnati, OH 45202
+address: '472 E Pete Rose Way, Cincinnati, OH 45202'
 original_owner: Cincinnati Parks Board
-date_of_completion: "1976"
+date_of_completion: '1976'
 architect: Louis Sauer
 original_function: >-
   An interactive fountain and water parked designed to engage the community and
@@ -23,5 +23,6 @@ renovations: >-
   Recreation Commission modified the fountain to eliminate that requirement by
   topping the shallow pool, closing off an upper plaza, and adding fencing
   around the edges of the fountain.
-renovation_date: "2009"
+renovation_date: '2009'
 ---
+

@@ -1,12 +1,12 @@
 ---
 title: A359 Partners in Architecture
 images:
-  - https://ucarecdn.com/af653367-2b25-4fff-a236-bc9b808661d8/
-  - https://ucarecdn.com/5b6d2091-9106-4a85-ad5b-0ddb523210b8/
-  - https://ucarecdn.com/5c0d2991-10e6-449b-9294-89cf48e3b976/
-  - https://ucarecdn.com/9f2468be-cf72-42ac-b99e-4dd99f9a8044/
-  - https://ucarecdn.com/c61fdcc3-ef20-4310-b264-58b4782c37a5/
-  - https://ucarecdn.com/1b0b196c-4b51-4ef1-a01e-cd36b900f45c/
+  - >-
+    buildings/a359i-partners-in-architecture/a359i-partners-in-architecture-0_e3kb72
+  - >-
+    buildings/a359i-partners-in-architecture/a359i-partners-in-architecture-1_ysrrga
+  - >-
+    buildings/a359i-partners-in-architecture/a359i-partners-in-architecture-2_d8yril
 location:
   lat: 39.108449
   lng: -84.514156
@@ -23,8 +23,8 @@ renovation_date: '2011'
 renovation_architect: A359
 renovation_style: Modern workplace
 renovation_changes: Architectural design studio
-resources: http://a359i.com/
-green_building_features: Recycled display panels, all components mobile for reuse
+resources: 'http://a359i.com/'
+green_building_features: 'Recycled display panels, all components mobile for reuse'
 ---
 
 The building is clad with cast-iron ornamentation instead of the more common terra cotta or stone ornament.

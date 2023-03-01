@@ -1,14 +1,14 @@
 ---
 title: Cincinnati Fire Division Headquarters
 images:
-  - https://ucarecdn.com/1ae49e17-18e3-469a-b1e2-de0b8880d7dc/
-  - https://ucarecdn.com/fec7993a-0c84-4b41-a9da-5a9493750ea7/
+  - >-
+    buildings/cincinnati-fire-division-headquarters/cincinnati-fire-division-headquarters-0_xu6ut7
 location:
   lat: 39.1000118
   lng: -84.5189644
-address: 430 Central Ave., Cincinnati, OH  45202
+address: '430 Central Ave., Cincinnati, OH  45202'
 original_owner: City of Cincinnati
-date_of_completion: "1965"
+date_of_completion: '1965'
 style: International
 architect: Garriott & Becker
 original_function: Downtown fire station

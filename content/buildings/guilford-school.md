@@ -1,17 +1,15 @@
 ---
 title: Guilford Building
 images:
-  - https://ucarecdn.com/92a1628b-528e-4f8b-a09e-e30ac38ddcff/
-  - https://ucarecdn.com/844c377a-136e-4bd4-b4f7-05efc9ed84d0/
-  - https://ucarecdn.com/dce162d2-ba18-4b32-b4cb-c75ef0b77690/
-  - https://ucarecdn.com/9903a35e-26e7-45c9-bba2-c70a60e48f6b/
+  - buildings/guilford-school/guilford-school-0_mx2pwk
+  - buildings/guilford-school/guilford-school-1_ype6jg
 location:
   lat: 39.10078
   lng: -84.5050749
-address: 421 E. Fourth St., Cincinnati, OH  45202
+address: '421 E. Fourth St., Cincinnati, OH  45202'
 original_owner: Cincinnati Public Schools
 current_owner: Western & Southern Life Insurance
-date_of_completion: "1914"
+date_of_completion: '1914'
 style: Italian Renaissance
 architect: Frederick W. Garber
 original_function: Public school

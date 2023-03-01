@@ -1,16 +1,15 @@
 ---
 title: Lytle Park
 images:
-  - https://ucarecdn.com/5aae2e28-6c48-4f99-b3af-994d82b22c85/
-  - https://ucarecdn.com/5d1e32c7-9bdb-43cf-aca8-bdf694ae7312/
+  - buildings/lytle-park/lytle-park-0_jecqct
 location:
   lat: 39.1012
   lng: -84.5041236
-address: Fourth & Pike Streets, Cincinnati, OH  45202
-original_owner: William Lytle, Survyor General of the Northwest Territory
+address: 'Fourth & Pike Streets, Cincinnati, OH  45202'
+original_owner: 'William Lytle, Survyor General of the Northwest Territory'
 current_owner: City of Cincinnati
-date_of_completion: "1907"
-historic_status: Area listed on the NRHP on March 26, 1976.
+date_of_completion: '1907'
+historic_status: 'Area listed on the NRHP on March 26, 1976.'
 unique_features: >-
   The statue of Abraham Lincoln was commissioned by the Charles P. Taft family
   and sculped by George Grey Barnard.

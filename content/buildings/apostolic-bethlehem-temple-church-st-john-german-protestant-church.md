@@ -3,14 +3,14 @@ title: >-
   The Transept (Apostolic Bethlehem Temple Church, St. John German Protestant
   Church)
 images:
-  - https://ucarecdn.com/ec7b42d6-4895-452a-8605-8603e63eca3d/
-  - https://ucarecdn.com/a77b0af0-b0e7-41bf-9931-6f0fd8c17b29/
-  - https://ucarecdn.com/3fdfc373-a27c-4d87-8e28-98c59210bb58/
-  - https://ucarecdn.com/77e191ab-6b67-4839-b74d-a43b8bd1a6ce/
+  - >-
+    buildings/apostolic-bethlehem-temple-church-st-john-german-protestant-church/apostolic-bethlehem-temple-church-st-john-german-protestant-church-0_xeex0z
+  - >-
+    buildings/apostolic-bethlehem-temple-church-st-john-german-protestant-church/apostolic-bethlehem-temple-church-st-john-german-protestant-church-1_pcjk5o
 location:
   lat: 39.1079041
   lng: -84.518373
-address: 1205 Elm St., Cincinnati, Ohio
+address: '1205 Elm St., Cincinnati, Ohio'
 original_owner: St. John's Protestant Church
 current_owner: Funky's Catering
 date_of_completion: '1868'

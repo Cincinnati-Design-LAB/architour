@@ -1,14 +1,13 @@
 ---
 title: Anderson Pavilion
 images:
-  - https://ucarecdn.com/fcd02c65-8f29-4414-a9a4-470225ff4e17/
-  - https://ucarecdn.com/5cedea8a-9e2d-4519-bb9f-55b085311685/
+  - buildings/anderson-pavilion/anderson-pavilion-0_tegjv7
 location:
   lat: 39.095912
   lng: -84.511192
-address: 8 E Mehring Way, Cincinnati, OH  45202
+address: '8 E Mehring Way, Cincinnati, OH  45202'
 original_owner: Cincinnati Parks Board
-date_of_completion: "2015"
+date_of_completion: '2015'
 architect: Sasaki Associates
 original_function: >-
   The events/ banquet/ conference center supports functions ranging from parties

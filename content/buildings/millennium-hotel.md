@@ -1,17 +1,17 @@
 ---
 title: Millennium Hotel
 images:
-  - https://ucarecdn.com/78c34fad-c809-4930-bd1c-85f332b2320e/
-  - https://ucarecdn.com/92d370f7-83dd-43f0-8ed1-c97b97011179/
+  - buildings/millennium-hotel/millennium-hotel-0_s0bd4f
 location:
   lat: 39.101248
   lng: -84.516007
 address: 150 W. Fifth St.
 original_owner: Stouffer Hotels
 current_owner: Millennium Hotels
-date_of_completion: "1970"
+date_of_completion: '1970'
 style: International
 architect: Architekton
-renovation_date: "1977"
+renovation_date: '1977'
 renovation_architect: Welton Beckett
 ---
+

@@ -1,14 +1,12 @@
 ---
 title: Test Building
 images:
-  - https://ucarecdn.com/abc-test-01/
-  - https://ucarecdn.com/def-test-02/
-  - https://ucarecdn.com/ghi-test-03/
-  - https://ucarecdn.com/jkl-test-04/
+  - buildings/000-test/000-test-0_g8kzir
+  - buildings/000-test/000-test-1_xziq60
 location:
   lat: 39.1030545
   lng: -84.5120005
-address: 609 Walnut St., Cincinnati, Ohio
+address: '609 Walnut St., Cincinnati, Ohio'
 original_owner: Metropole Hotel
 current_owner: 21C Museum Hotel
 date_of_completion: '1912'
@@ -16,7 +14,7 @@ style: Neo-classical
 architect: Joseph G. Steinkamp & Brother
 contractor: Messer Construction (renovation)
 original_function: Hotel
-historic_status: Listed on NRHP on June 18, 2009.
+historic_status: 'Listed on NRHP on June 18, 2009.'
 renovations: Conversion of former Metropole Hotel into boutique hotel and art collection
 renovation_date: '2012'
 renovation_architect: Perfido Weiskopf Wagstaff + Goettel

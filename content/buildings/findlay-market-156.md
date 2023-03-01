@@ -1,18 +1,16 @@
 ---
 title: Findlay Market East
 images:
-  - https://ucarecdn.com/e67aeb6e-0f76-4db8-bfd2-e7ed35152ff8/
-  - https://ucarecdn.com/3966b519-5ade-4352-b53a-512df956fd80/
-  - https://ucarecdn.com/558b0d6a-2d60-4935-93e8-c01b14e9f5a6/
-  - https://ucarecdn.com/8a664bb0-954a-49f9-aba6-76823a8a1605/
+  - buildings/findlay-market-156/findlay-market-156-0_mviqmv
+  - buildings/findlay-market-156/findlay-market-156-1_szbe60
 location:
   lat: 39.1154
   lng: -84.5184
-address: 1801 Race Street, Cincinnati, Ohio 45202
-date_of_completion: "1855"
+address: '1801 Race Street, Cincinnati, Ohio 45202'
+date_of_completion: '1855'
 architect: Alfred West Gilbert
 original_function: Public market
-historic_status: Listed on the NRHP on June 5, 1972.
+historic_status: 'Listed on the NRHP on June 5, 1972.'
 unique_features: >-
   The iron framed construction was new to Cincinnati at the time, and it was one
   of the first iron market houses in the US.

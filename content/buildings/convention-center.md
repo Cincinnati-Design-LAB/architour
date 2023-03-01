@@ -1,18 +1,15 @@
 ---
 title: Duke Energy Convention Center
 images:
-  - https://ucarecdn.com/5e38210c-6409-4664-b138-8a05765b7688/
-  - https://ucarecdn.com/27d153f2-6a30-4a4c-b660-8b71f4e37f2e/
-  - https://ucarecdn.com/457adfb8-7693-45cd-94d2-e63dc2b42cfd/
-  - https://ucarecdn.com/6db61476-e101-4ea5-a10d-868f45e72a4f/
-  - https://ucarecdn.com/2eef857c-01a3-49e8-afea-a57c1b950800/
-  - https://ucarecdn.com/0b763cc9-6449-4703-90d7-b74847bbceee/
+  - buildings/convention-center/convention-center-0_ejmu6w
+  - buildings/convention-center/convention-center-1_dczcy1
+  - buildings/convention-center/convention-center-2_v8akou
 location:
   lat: 39.1009571
   lng: -84.5165202
 address: 525 Elm St.
 original_owner: City of Cincinnati
-date_of_completion: "1987"
+date_of_completion: '1987'
 style: Post-modern
 architect: CRS
 associate_architect: BHDP Architecture and Wilson & Associates
@@ -24,7 +21,7 @@ original_function: >-
 unique_features: >-
   The façade of the Albee Theatre was incorporated into the design of the new
   facility.
-renovation_date: "2006"
+renovation_date: '2006'
 renovation_architect: LMN
 renovation_changes: Interior refresh in conjunction with second expansion.
 ---

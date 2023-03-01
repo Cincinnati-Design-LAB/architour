@@ -1,18 +1,18 @@
 ---
 title: Yeatman's Cove at Sawyer Point
 images:
-  - https://ucarecdn.com/a584fd45-5de4-4c9c-8a47-2f21d5d8be39/
-  - https://ucarecdn.com/b4add58b-77ee-441e-9387-23f9e565de6d/
-  - https://ucarecdn.com/ea664d85-f5aa-4cd1-9509-575a355703a5/
-  - https://ucarecdn.com/1405742d-58be-40d4-8adc-564c9f8b9c35/
-  - https://ucarecdn.com/68ec72df-3c74-461a-b1b0-aeaeb0faf35a/
-  - https://ucarecdn.com/5bd0473f-26b4-4b0c-b9ab-510626da4f20/
+  - >-
+    buildings/yeatmans-cove-at-sawyer-point/yeatmans-cove-at-sawyer-point-0_t7gll3
+  - >-
+    buildings/yeatmans-cove-at-sawyer-point/yeatmans-cove-at-sawyer-point-1_iurs7w
+  - >-
+    buildings/yeatmans-cove-at-sawyer-point/yeatmans-cove-at-sawyer-point-2_uvk3fz
 location:
   lat: 39.101236
   lng: -84.498075
-address: 705 E. Pete Rose Way, Cincinnati, OH  45202
+address: '705 E. Pete Rose Way, Cincinnati, OH  45202'
 original_owner: Cincinnati Parks Board
-date_of_completion: "1977"
+date_of_completion: '1977'
 architect: Zion & Breen
 original_function: >-
   A riverfront part that stretches from the Public Landing to the L&N Bridge. 

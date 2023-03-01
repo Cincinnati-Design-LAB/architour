@@ -1,16 +1,13 @@
 ---
 title: Great American Ball Park
 images:
-  - https://ucarecdn.com/95027c40-e0e5-430a-8e9d-5e0e7eb5b3ed/
-  - https://ucarecdn.com/de1a9eba-a430-4069-bd83-9c270caca6c3/
-  - https://ucarecdn.com/45c440af-81e5-4b4b-94e4-122b224a995a/
-  - https://ucarecdn.com/197a1338-6f0a-4246-96f7-56cbbc4790f1/
-  - https://ucarecdn.com/72acbf54-3262-4472-bee3-38662e8ac626/
-  - https://ucarecdn.com/d18129d0-66f2-4c37-b471-c3c1a22b24cf/
+  - buildings/great-american-ball-park/great-american-ball-park-0_xpayxf
+  - buildings/great-american-ball-park/great-american-ball-park-1_kodgz5
+  - buildings/great-american-ball-park/great-american-ball-park-2_xvjriz
 location:
   lat: 39.098
   lng: -84.508
-address: 100 Joe Nuxhall Way, Cincinnati, Ohio
+address: '100 Joe Nuxhall Way, Cincinnati, Ohio'
 original_owner: Hamilton County
 date_of_completion: '2003'
 public_access: >-

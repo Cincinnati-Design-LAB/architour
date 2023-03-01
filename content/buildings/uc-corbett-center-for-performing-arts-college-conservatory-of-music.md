@@ -1,12 +1,12 @@
 ---
 title: UC Corbett Center for Performing Arts / College Conservatory of Music
 images:
-  - https://ucarecdn.com/6e5a3ccd-b48b-482d-b72d-8ed17cef36c4/
-  - https://ucarecdn.com/3996a550-b256-4217-b91b-be55dad23126/
-  - https://ucarecdn.com/495106ad-b0dc-4295-912f-8b3d401dbf4b/
-  - https://ucarecdn.com/47317ec3-b683-46da-b973-c23a547eecc1/
-  - https://ucarecdn.com/4df55e28-b31e-4d8b-97e3-ce6485ef3f7a/
-  - https://ucarecdn.com/3a85cc16-abb7-4630-a428-1481cfbb4a8c/
+  - >-
+    buildings/uc-corbett-center-for-performing-arts-college-conservatory-of-music/uc-corbett-center-for-performing-arts-college-conservatory-of-music-0_v9aivm
+  - >-
+    buildings/uc-corbett-center-for-performing-arts-college-conservatory-of-music/uc-corbett-center-for-performing-arts-college-conservatory-of-music-1_czvim2
+  - >-
+    buildings/uc-corbett-center-for-performing-arts-college-conservatory-of-music/uc-corbett-center-for-performing-arts-college-conservatory-of-music-2_o0eegr
 location:
   lat: 39.129985
   lng: -84.517821
@@ -16,7 +16,7 @@ style: Modern
 public_access: >-
   Main entry and circulation spaces are open to the public, and paid
   performances are offered in all of the major performance spaces.
-architect: Pei, Cobb, Freed
+architect: 'Pei, Cobb, Freed'
 associate_architect: NBBJ
 original_function: Conservatory of music and performance arts
 unique_features: >-

@@ -1,18 +1,18 @@
 ---
 title: Gateway Sculpture at Bicentennial Commons
 images:
-  - https://ucarecdn.com/ac6df331-a92d-4f75-b0fd-a4afb3915512/
-  - https://ucarecdn.com/ae31f0c5-dec7-48d2-ac05-6ea06aef8fbc/
-  - https://ucarecdn.com/1fc2f3c9-699d-4283-98a8-f423d2d72b9e/
-  - https://ucarecdn.com/eb4e83e4-395e-47ff-8feb-928642763365/
-  - https://ucarecdn.com/22063771-2bdd-44c9-80f2-402ca5b45a88/
-  - https://ucarecdn.com/d74ed24b-3d2e-495e-ba95-d38deb725e4d/
+  - >-
+    buildings/gateway-sculpture-at-bicentennial-commons/gateway-sculpture-at-bicentennial-commons-0_czbeau
+  - >-
+    buildings/gateway-sculpture-at-bicentennial-commons/gateway-sculpture-at-bicentennial-commons-1_mxvknm
+  - >-
+    buildings/gateway-sculpture-at-bicentennial-commons/gateway-sculpture-at-bicentennial-commons-2_oefy4e
 location:
   lat: 39.101799
   lng: -84.498786
-address: 705 E. Pete Rose Way, Cincinnati, OH  45202
+address: '705 E. Pete Rose Way, Cincinnati, OH  45202'
 original_owner: Cincinnati Parks Board
-date_of_completion: "1988"
+date_of_completion: '1988'
 architect: Garth Rockcastle & Andrew Leicester
 original_function: >-
   An environmental sculpture designed to showcase Cincinnati's connection to the
@@ -33,3 +33,4 @@ unique_features: >-
   suspended from the "tall stack" columns represents Cincinnati's place as the
   Queen City of the West.
 ---
+

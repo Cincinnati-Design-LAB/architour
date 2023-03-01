@@ -1,15 +1,14 @@
 ---
 title: Citadel Building
 images:
-  - https://ucarecdn.com/e00aa6e4-ddb5-4b0f-a014-4986998175ea/
-  - https://ucarecdn.com/22ba6a76-8396-40ee-8630-aef58916aa4e/
+  - buildings/citadel-building/citadel-building-0_z5t72u
 location:
   lat: 39.104957
   lng: -84.511293
-address: 114 E. Eighth St., Cincinnati, OH  45202
+address: '114 E. Eighth St., Cincinnati, OH  45202'
 original_owner: Salvation Army
 current_owner: Archdiocese of Cincinnati
-date_of_completion: "1905"
+date_of_completion: '1905'
 architect: >-
   Samuel Hannaford, one of Cincinnati's most prolific 19th Century architects
   who also designed Cincinnati City Hall and Music Hall.

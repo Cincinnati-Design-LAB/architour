@@ -1,16 +1,13 @@
 ---
 title: Art Academy of Cincinnati
 images:
-  - https://ucarecdn.com/ca7b3808-e3a1-4526-b228-f4af787d7974/
-  - https://ucarecdn.com/f24f8a4f-ca6d-4a3d-85bf-dab22af78ff6/
-  - https://ucarecdn.com/68401702-862d-43b8-8bc9-c6d15438335c/
-  - https://ucarecdn.com/095a00d3-b548-412a-baa5-3da6572233a9/
-  - https://ucarecdn.com/ad9dedbf-57ce-4ee7-bc45-e1aa8398bfab/
-  - https://ucarecdn.com/5e80aec8-29bb-4978-9ca4-1b9116de6a50/
+  - buildings/art-academy-of-cincinnati/art-academy-of-cincinnati-0_uw4bgh
+  - buildings/art-academy-of-cincinnati/art-academy-of-cincinnati-1_kdpg6g
+  - buildings/art-academy-of-cincinnati/art-academy-of-cincinnati-2_t8ibjn
 location:
   lat: 39.108722
   lng: -84.5137699999998
-address: 1212 Jackson St, Cincinnati, OH 45202
+address: '1212 Jackson St, Cincinnati, OH 45202'
 original_owner: >-
   John Shillito Company (1910 building) & Samuel Rosenthal Company (1923
   building)
@@ -32,7 +29,7 @@ unique_features: >-
   Art Museum.  This lightwell brings daylight deep into the building.  The
   perimeter of the building is composed of industrial sash windows that also
   provide high quality daylight into the studios.
-renovation_date: "2005"
+renovation_date: '2005'
 renovation_architect: Design Collective/McGill Smith Punchon
 renovation_changes: >-
   Art Academy of Cincinnati, established in 1869, is an independent college of
@@ -44,7 +41,7 @@ renovation_changes: >-
   member of the Association of Independent Colleges of Art and Design. The Art
   Academy’s Community Education department offers extensive visual arts courses
   to children, teens, and adults, including an award-winning summer camp.
-resources: http://www.artacademy.edu/
+resources: 'http://www.artacademy.edu/'
 green_building_features: >-
   The building received a LEED Silver Certification due in large part to its
   extensive use of natural light and reuse and repurposing of materials and

@@ -1,12 +1,11 @@
 ---
 title: Montgomery Inn Boathouse
 images:
-  - https://ucarecdn.com/22dcf051-6b29-45e1-a67a-b8e8a726d1bc/
-  - https://ucarecdn.com/b9ef809c-9e76-492f-aafa-99dbcb0e4236/
+  - buildings/montgomery-inn-boathouse/montgomery-inn-boathouse-0_bytkzz
 location:
   lat: 39.104158
   lng: -84.494614
-address: 925 Riverside Dr., Cincinnati, OH  45202
+address: '925 Riverside Dr., Cincinnati, OH  45202'
 date_of_completion: '1989'
 style: Contemporary
 public_access: The restaurant is open to the public.

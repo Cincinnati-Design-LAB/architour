@@ -1,12 +1,12 @@
 ---
 title: UC Richard E Lindner Athletics Center / Varsity Village
 images:
-  - https://ucarecdn.com/1d679e7a-129f-4e99-8f52-9b66852f7046/
-  - https://ucarecdn.com/83b4fd23-05f5-44e5-bd64-bb40900405d4/
-  - https://ucarecdn.com/1c4ac5d4-ea5f-4a2d-ab5b-b67b6dfe6340/
-  - https://ucarecdn.com/4f4a0148-3666-459c-8058-0c73ae715e6e/
-  - https://ucarecdn.com/f4a12799-5676-4988-9010-47e2a14f08cc/
-  - https://ucarecdn.com/e07d3414-ee92-49de-b75d-f32a8f4005ef/
+  - >-
+    buildings/uc-richard-e-lindner-athletics-center-varsity-village/uc-richard-e-lindner-athletics-center-varsity-village-0_ffq5hv
+  - >-
+    buildings/uc-richard-e-lindner-athletics-center-varsity-village/uc-richard-e-lindner-athletics-center-varsity-village-1_ibea3e
+  - >-
+    buildings/uc-richard-e-lindner-athletics-center-varsity-village/uc-richard-e-lindner-athletics-center-varsity-village-2_ygv40z
 location:
   lat: 39.13082
   lng: -84.514914

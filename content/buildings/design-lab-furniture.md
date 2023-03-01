@@ -1,12 +1,9 @@
 ---
 title: Design Lab Furniture
 images:
-  - https://ucarecdn.com/677bc2fe-a0a6-4ae5-8f44-c40b758e61a5/
-  - https://ucarecdn.com/7a6293e8-bf59-4aff-8704-b5d57080ed33/
-  - https://ucarecdn.com/f0000293-8e11-4dd1-8c69-86eec5595e0f/
-  - https://ucarecdn.com/3537a69e-dc9e-4a69-80a6-2430628e2a64/
-  - https://ucarecdn.com/5a626dc7-40c4-457a-88db-db079b7bf42e/
-  - https://ucarecdn.com/13eab742-20a3-463f-845f-3d163237e355/
+  - buildings/design-lab-furniture/design-lab-furniture-0_cii0bf
+  - buildings/design-lab-furniture/design-lab-furniture-1_je2rrk
+  - buildings/design-lab-furniture/design-lab-furniture-2_c0gaff
 location:
   lat: 39.110134
   lng: -84.518658
@@ -29,9 +26,10 @@ renovation_changes: >-
   but focused on the interior design industry.  The store offers a wide range of
   products that are designed regionally  but fabricated in Europe.  Design Lab
   also offers interior design services.
-resources: http://design-lab.com/
+resources: 'http://design-lab.com/'
 green_building_features: >-
   The store utilizes extensive natural lighting combined with LED lighting to
   create an environment conducive to a showroom function.  Many of the products
   that they sell are sustainably sourced.
 ---
+

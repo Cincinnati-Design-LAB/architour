@@ -1,12 +1,9 @@
 ---
 title: MainStrasse Village
 images:
-  - https://ucarecdn.com/777a6531-9cfc-43d8-96ca-4d3c163cf735/
-  - https://ucarecdn.com/35dae896-10cc-4d3a-8398-5115fd6acbd8/
-  - https://ucarecdn.com/7acf357f-5d47-4359-93fd-ca4610eee544/
-  - https://ucarecdn.com/31adb90c-29a6-454f-a9e5-1320fdbc1419/
-  - https://ucarecdn.com/07367a3a-6189-42f1-ae26-383f16403eb1/
-  - https://ucarecdn.com/b17bda76-d761-4078-a318-7e31819e0f7f/
+  - buildings/mainstrasse-village/mainstrasse-village-0_l6kjvm
+  - buildings/mainstrasse-village/mainstrasse-village-1_zksmgx
+  - buildings/mainstrasse-village/mainstrasse-village-2_adyus2
 location:
   lat: 39.084213
   lng: -84.517584

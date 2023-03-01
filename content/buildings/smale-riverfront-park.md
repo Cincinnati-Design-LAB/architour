@@ -1,12 +1,9 @@
 ---
 title: Smale Riverfront Park
 images:
-  - https://ucarecdn.com/8b5272dd-817f-4a7a-8e86-1a786a75882d/
-  - https://ucarecdn.com/f7c7002c-d27e-49b7-9f69-56f7d4501748/
-  - https://ucarecdn.com/af16a0af-2e73-4570-a7ba-f2fbdc50fab3/
-  - https://ucarecdn.com/211d4775-ffc8-4c43-970c-42f315a6f791/
-  - https://ucarecdn.com/16bdc611-3fdf-4519-ac39-c5f1779f046e/
-  - https://ucarecdn.com/01761383-d678-4459-ab35-8fccc40757d5/
+  - buildings/smale-riverfront-park/smale-riverfront-park-0_xq01kt
+  - buildings/smale-riverfront-park/smale-riverfront-park-1_dbz84l
+  - buildings/smale-riverfront-park/smale-riverfront-park-2_f4v5gp
 location:
   lat: 39.095305
   lng: -84.511398

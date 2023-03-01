@@ -1,19 +1,16 @@
 ---
 title: People's Liberty
 images:
-  - https://ucarecdn.com/fcb40f28-8b1b-41f6-b34b-97871a1ce2a9/
-  - https://ucarecdn.com/129812c9-61ac-451f-b8dd-3fa25bb365e2/
-  - https://ucarecdn.com/64224f3f-01bd-4ab9-82ce-9eabbbdbb194/
-  - https://ucarecdn.com/52dec753-3957-4d04-a14e-e6c4fd003aec/
-  - https://ucarecdn.com/3f4c117c-53c9-4699-9f7a-52588ac6802b/
-  - https://ucarecdn.com/2b6c4850-85ad-4253-858d-ede798f8e57c/
+  - buildings/people/people-0_glt2hq
+  - buildings/people/people-1_tv5rm4
+  - buildings/people/people-2_hj6gzd
 location:
   lat: 39.115338
   lng: -84.519982
 address: |-
   1805 Elm Street
   Cincinnati, OH  45202
-original_owner: Buddy Meisel, Findlay Market Group
+original_owner: 'Buddy Meisel, Findlay Market Group'
 current_owner: 3CDC
 public_access: Handicap accessible
 contractor: Graybach Construction (2015)
@@ -31,7 +28,7 @@ renovation_changes: >-
   People’s Liberty is a philanthropic lab that brings together civic minded
   talent to address challenges and uncover opportunities to accelerate the
   positive transformation of Greater Cincinnati.
-resources: https://www.peoplesliberty.org/ourstories/
+resources: 'https://www.peoplesliberty.org/ourstories/'
 green_building_features: >-
   The existing buildings were renovated, and existing materials were repurposed
   throughout the facility.

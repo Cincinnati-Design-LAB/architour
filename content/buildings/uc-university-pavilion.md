@@ -1,17 +1,14 @@
 ---
 title: UC University Pavilion
 images:
-  - https://ucarecdn.com/d7748e07-c34e-4b25-ab27-6831c7f9ebf8/
-  - https://ucarecdn.com/92caa2ae-142c-488c-ae2c-4ed337479af2/
-  - https://ucarecdn.com/370c48c2-72cc-4222-9353-48fff938e0f5/
-  - https://ucarecdn.com/16a421f3-f345-46c7-8964-d89bd0c737fd/
-  - https://ucarecdn.com/bdfb0051-8b3c-4b34-acbf-7a6c70f2858c/
-  - https://ucarecdn.com/f8db29c1-61be-4916-9690-4356a664299f/
+  - buildings/uc-university-pavilion/uc-university-pavilion-0_ge4m4m
+  - buildings/uc-university-pavilion/uc-university-pavilion-1_aaedzi
+  - buildings/uc-university-pavilion/uc-university-pavilion-2_bhr1zy
 location:
   lat: 39.131042
   lng: -84.518919
 original_owner: University of Cincinnati
-date_of_completion: "2003"
+date_of_completion: '2003'
 style: Modern
 architect: Leers Weinzapfel Associates
 associate_architect: GBBN

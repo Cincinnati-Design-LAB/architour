@@ -1,12 +1,9 @@
 ---
 title: St. Francis Seraph Church
 images:
-  - https://ucarecdn.com/f23c44c4-c383-453a-8d1d-c09afbb9b7e4/
-  - https://ucarecdn.com/7eeeadd7-82e7-49a2-9226-527f315d9b7b/
-  - https://ucarecdn.com/2ed2e1f3-81e8-443a-896b-f5909841e5d3/
-  - https://ucarecdn.com/9cc3adbb-d092-45e7-9dbf-b375a30c2b41/
-  - https://ucarecdn.com/cf502c6f-b797-4f69-9a92-b184f524d291/
-  - https://ucarecdn.com/542f3181-ccaf-4ffa-ba09-587633f0c6ba/
+  - buildings/st-francis-seraph-church/st-francis-seraph-church-0_u3nycw
+  - buildings/st-francis-seraph-church/st-francis-seraph-church-1_jrwt10
+  - buildings/st-francis-seraph-church/st-francis-seraph-church-2_eaeq1m
 location:
   lat: 39.11302
   lng: -84.516371
@@ -15,7 +12,7 @@ address: |-
   Cincinnati, OH
 original_owner: Franciscans Friars who emmigrated from Austria
 current_owner: The Franciscan Friars of the Province of St. John the Baptist
-date_of_completion: December 18, 1859 (dedication)
+date_of_completion: 'December 18, 1859 (dedication)'
 style: German Romanesque
 public_access: The sanctuary is open to the public daily from 9am to 5 pm
 architect: James W. McLaughlin
@@ -47,7 +44,7 @@ renovation_changes: >-
   enrichment program, a parish nurse program, a lunch bag program for day
   laborers, a financial assistance program, and a hospitality center for
   homeless people.
-resources: http://www.sfsparish.org/
+resources: 'http://www.sfsparish.org/'
 ---
 
 The first Catholic church in the Greater Cincinnati area, Christ Church, was built on the site of St. Francis Seraph in 1819. Because of the anti-Catholic sentiment that existed in the city and troughout the country, the church was located north of Central Parkway where land was cheap and where there were no city taxes. When Edward Fenwick became bishop, he directed the relocation of the original church in 1822 to the current site of St. Xavier Church at Sixth and Sycamore, and St. Francis Seraph Church was constructed at the original location. Since Christ Church included a cemetery, many of those interred were relocated to other cemeteries, but some families saw it as an honor to have the graves of their ancestors placed under the new church. The crypt is located under the alter of the new church.

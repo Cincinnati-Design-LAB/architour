@@ -1,14 +1,12 @@
 ---
 title: Aronoff Center for the Arts
 images:
-  - https://ucarecdn.com/f0f5fb47-7201-41bb-a867-f119e46b39b0/
-  - https://ucarecdn.com/df93ff00-bcd5-492f-942a-e79b28bd4e41/
-  - https://ucarecdn.com/56a0e1b2-8c35-4152-8fda-09761af0cf40/
-  - https://ucarecdn.com/1cfdb571-3ed2-4b5e-9da0-cfac6c6881a5/
+  - buildings/aronoff-center-for-the-arts/aronoff-center-for-the-arts-0_su0hlk
+  - buildings/aronoff-center-for-the-arts/aronoff-center-for-the-arts-1_u2afad
 location:
   lat: 39.1035828
   lng: -84.5116664
-address: 650 Walnut St., Cincinnati, Ohio
+address: '650 Walnut St., Cincinnati, Ohio'
 date_of_completion: '1995'
 public_access: Lobby spaces are usually open during normal business hours.
 architect: Cesar Pelli Associates

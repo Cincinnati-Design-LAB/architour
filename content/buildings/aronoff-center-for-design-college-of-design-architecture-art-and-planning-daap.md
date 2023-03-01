@@ -3,12 +3,12 @@ title: >-
   UC Aronoff Center for Design / College of Design Architecture Art & Planning
   (DAAP)
 images:
-  - https://ucarecdn.com/cabcccf1-c3e0-47da-a250-24efa12cd5a0/
-  - https://ucarecdn.com/cbadbc95-3927-49ae-8966-3fbec34e4786/
-  - https://ucarecdn.com/5bbee4d9-4ab0-4bb5-8625-ea08a6ffaa40/
-  - https://ucarecdn.com/e84f378e-eb85-47f7-a45b-132fe582fdcb/
-  - https://ucarecdn.com/b544c1ee-cbd8-4812-bd07-e03141a07017/
-  - https://ucarecdn.com/aeec6d93-8dc9-47fa-b874-0377d7d50aa9/
+  - >-
+    buildings/aronoff-center-for-design-college-of-design-architecture-art-and-planning-daap/aronoff-center-for-design-college-of-design-architecture-art-and-planning-daap-0_s5oxvh
+  - >-
+    buildings/aronoff-center-for-design-college-of-design-architecture-art-and-planning-daap/aronoff-center-for-design-college-of-design-architecture-art-and-planning-daap-1_zjuyif
+  - >-
+    buildings/aronoff-center-for-design-college-of-design-architecture-art-and-planning-daap/aronoff-center-for-design-college-of-design-architecture-art-and-planning-daap-2_r1kvps
 location:
   lat: 39.133857
   lng: -84.519128
@@ -17,7 +17,7 @@ date_of_completion: '1996'
 public_access: The building is open to the public.
 architect: Eisenman Architects
 associate_architect: Lorenz & Williams
-original_function: College of art, architecture, design and planning.
+original_function: 'College of art, architecture, design and planning.'
 unique_features: >-
   Purportedly the design of the building was meant to demonstrate the power of
   architecture to the students.  Eisenman stated that vertical spaces were

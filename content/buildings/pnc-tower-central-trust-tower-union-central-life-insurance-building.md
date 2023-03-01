@@ -1,17 +1,17 @@
 ---
-title: PNC Tower (Central Trust Tower, Union Central Life Insurance Building)
+title: 'PNC Tower (Central Trust Tower, Union Central Life Insurance Building)'
 images:
-  - https://ucarecdn.com/ca29c3d2-8510-4417-a4c9-304ffcc3534a/
-  - https://ucarecdn.com/b03e6467-5b1a-4e50-895c-d373008ece7b/
-  - https://ucarecdn.com/f66b9099-4db9-4de6-9b0b-0ad73e808741/
-  - https://ucarecdn.com/2cf8f3b4-3063-4a36-bbad-84836f92e4f3/
+  - >-
+    buildings/pnc-tower-central-trust-tower-union-central-life-insurance-building/pnc-tower-central-trust-tower-union-central-life-insurance-building-0_wcx0zg
+  - >-
+    buildings/pnc-tower-central-trust-tower-union-central-life-insurance-building/pnc-tower-central-trust-tower-union-central-life-insurance-building-1_r0vvbh
 location:
   lat: 39.0997556
   lng: -84.512878
-address: 1 W. Fourth St., Cincinnati, OH  45202
+address: '1 W. Fourth St., Cincinnati, OH  45202'
 original_owner: Union Central Life Insurance
 current_owner: PNC Bank
-date_of_completion: "1913"
+date_of_completion: '1913'
 style: Neo classical
 architect: >-
   Cass Gilbert, the New York-based architect who designed the Woolworth Building
@@ -25,7 +25,7 @@ unique_features: >-
   Gilbert's work at that time, it was rumored that the project was design by
   Garber & Woodward with Gilbert lending his name to the project.
 renovations: Expansion added to the west on Fourth Street
-renovation_date: "1939"
+renovation_date: '1939'
 renovation_architect: Frederick W. Garber & Associates
 ---
 

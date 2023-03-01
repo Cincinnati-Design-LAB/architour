@@ -1,15 +1,14 @@
 ---
 title: 580 Building
 images:
-  - https://ucarecdn.com/ce3b6f02-ccc0-4406-b2e3-c82cabaebb55/
-  - https://ucarecdn.com/479cf81f-37cc-4ac3-801c-f3884786c456/
+  - buildings/580-bldg/580-bldg-0_oqhlc9
 location:
   lat: 39.1024844
   lng: -84.5108078
-address: 580 Walnut Street, Cincinnati, Ohio 45202
+address: '580 Walnut Street, Cincinnati, Ohio 45202'
 original_owner: Western-Southern Life
 current_owner: Berwind Properties
-date_of_completion: "1972"
+date_of_completion: '1972'
 style: International
 architect: RTKL
 associate_architect: Harry Hake & Partners
@@ -22,7 +21,7 @@ unique_features: >-
   challenging.  The south facades of the towers were solid brick, and the
   building's support functions were place along the south wall opening all space
   to the north to the glass facade and panoramic views.
-renovation_date: "2016"
+renovation_date: '2016'
 renovation_changes: >-
   The building is being converted to a mixed use office/retail/residential
   complex.  Major renovations to the facade were necessitated to convert the

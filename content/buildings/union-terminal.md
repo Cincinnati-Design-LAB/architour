@@ -1,16 +1,13 @@
 ---
 title: Union Terminal
 images:
-  - https://ucarecdn.com/9416f572-2b8c-4642-a1ba-214e59dff0d7/
-  - https://ucarecdn.com/95ebb855-5b35-4804-a6eb-41f99cb2a2ce/
-  - https://ucarecdn.com/39cc26b2-12c8-47c9-859e-dee5563eb18c/
-  - https://ucarecdn.com/41e05023-80b5-4e01-a571-ff2d3a3a3fc8/
-  - https://ucarecdn.com/d9733e96-9444-4f57-a4c7-1aa4f8ce8964/
-  - https://ucarecdn.com/37bd013f-09d3-4b77-bc38-e757273f97aa/
+  - buildings/union-terminal/union-terminal-0_yi9rzd
+  - buildings/union-terminal/union-terminal-1_k5jtnf
+  - buildings/union-terminal/union-terminal-2_x8duis
 location:
   lat: 39.1098737
   lng: -84.53747369999996
-address: 1301 Western Ave., Cincinnati, OH  45203
+address: '1301 Western Ave., Cincinnati, OH  45203'
 current_owner: Cincinnati Museum Center
 date_of_completion: '1933'
 style: Art Deco
@@ -24,7 +21,7 @@ contractor: >-
   Messer-Cargile for renovation (1990), Turner for current renovation
   (2016-2018)
 original_function: Train station
-historic_status: Listed on NRHP on October 31, 1972
+historic_status: 'Listed on NRHP on October 31, 1972'
 unique_features: >-
   The exterior is decorated with bas-relief carvings designed by Maxfield Keck
   representing the themes of transportation and commerce.  The semi-dome of the

@@ -1,12 +1,12 @@
 ---
 title: Cincinnati Shakespeare Company at the Otto M. Budig Theater
 images:
-  - https://ucarecdn.com/221dafc8-d43c-4c17-8b9d-610f144edff9/
-  - https://ucarecdn.com/a03b3b4e-1ad8-46b5-bb84-68ed0ac22908/
-  - https://ucarecdn.com/c80629d9-4ecb-4e75-bbe5-c039d1a420b0/
-  - https://ucarecdn.com/33f23d7c-bb3e-43c1-b31a-14f71120955a/
-  - https://ucarecdn.com/137d9b30-f266-43a3-bac6-5b87e4e2e8ab/
-  - https://ucarecdn.com/fc96521e-6a5a-4abd-83b6-9e21c1a93829/
+  - >-
+    buildings/cincinnati-shakespeare-company-otto-m-budig-theater/cincinnati-shakespeare-company-otto-m-budig-theater-0_llo5wt
+  - >-
+    buildings/cincinnati-shakespeare-company-otto-m-budig-theater/cincinnati-shakespeare-company-otto-m-budig-theater-1_txdecn
+  - >-
+    buildings/cincinnati-shakespeare-company-otto-m-budig-theater/cincinnati-shakespeare-company-otto-m-budig-theater-2_xn2gbw
 location:
   lat: 39.107753
   lng: -84.518113
@@ -47,7 +47,7 @@ quotes: >-
   Company, no other neighborhood in America will be able to provide comparable
   live, work, and play opportunities for the creative class."  Rob McDonald, The
   Brandery
-resources: http://cincyshakes.com/
+resources: 'http://cincyshakes.com/'
 ---
 
 The building anchors and activates through its transparency the southwest corner of Washington Park and is a complement to the School for Creative and Performing Arts, Memorial Hall and Music Hall.

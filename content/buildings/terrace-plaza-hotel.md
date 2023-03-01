@@ -1,14 +1,13 @@
 ---
 title: Terrace Plaza Hotel
 images:
-  - https://ucarecdn.com/a5258abf-8cc1-4da1-acd2-c6fa7d09c05c/
-  - https://ucarecdn.com/c170d4c9-0f07-4ce7-8347-d583b498e410/
+  - buildings/terrace-plaza-hotel/terrace-plaza-hotel-0_il5x1a
 location:
   lat: 39.102231
   lng: -84.5141
-address: 15 W. Sixth St., Cincinnati, OH  45202
+address: '15 W. Sixth St., Cincinnati, OH  45202'
 original_owner: Thomas Emery's Sons
-date_of_completion: "1948"
+date_of_completion: '1948'
 style: Modern
 architect: Skidmore Owings & Merrill (SOM)
 original_function: Hotel located atop two department stores

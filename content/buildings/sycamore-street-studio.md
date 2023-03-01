@@ -1,12 +1,9 @@
 ---
 title: Sycamore Street Studio
 images:
-  - https://ucarecdn.com/f96029ac-5a4b-4560-ab51-d697c8f52715/
-  - https://ucarecdn.com/61b2c460-6310-4366-b956-5b4befd29ba3/
-  - https://ucarecdn.com/d1eba7b3-4f3b-4b57-bac4-1f5590789f59/
-  - https://ucarecdn.com/b372ca37-036d-4679-b3cb-c2831c416ce5/
-  - https://ucarecdn.com/6661ba61-d6c8-4509-a30a-68e15d86b256/
-  - https://ucarecdn.com/2c3a6f86-48c7-4226-91e3-9e98c2543569/
+  - buildings/sycamore-street-studio/sycamore-street-studio-0_fztx3y
+  - buildings/sycamore-street-studio/sycamore-street-studio-1_ef2ic2
+  - buildings/sycamore-street-studio/sycamore-street-studio-2_dbmzrp
 location:
   lat: 39.112855
   lng: -84.510802
@@ -34,7 +31,7 @@ renovation_changes: >-
   studio where they create custom sculptures, fountains, furniture, gates,
   railing and decorative plaster installations for professional and private
   clients.
-resources: http://sycamorestreetstudio.com
+resources: 'http://sycamorestreetstudio.com'
 ---
 
 The 137 year old house has been substantially maintained in its original condition on the first two floors.

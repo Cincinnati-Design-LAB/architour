@@ -1,14 +1,14 @@
 ---
 title: Showboat Majestic at the Public Landing
 images:
-  - https://ucarecdn.com/5da7e93f-7d28-41d7-9adc-80737f4de441/
-  - https://ucarecdn.com/3a181ac6-933c-429c-8ab8-167f21021607/
+  - >-
+    buildings/showboat-majestic-at-the-public-landing/showboat-majestic-at-the-public-landing-0_b6fer0
 location:
   lat: 39.097022
   lng: -84.503321
 original_owner: Tom Reynolds
 current_owner: City of Cincinnati
-date_of_completion: "1923"
+date_of_completion: '1923'
 architect: Tom Reynolds
 original_function: Floating showboat
 historic_status: >-

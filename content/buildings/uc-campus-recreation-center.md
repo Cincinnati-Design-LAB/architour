@@ -1,12 +1,9 @@
 ---
 title: UC Campus Recreation Center
 images:
-  - https://ucarecdn.com/af2a22d6-ad5b-4437-8293-e2f0e30ba12f/
-  - https://ucarecdn.com/6b324416-e557-47e0-931e-a0cf6b44248c/
-  - https://ucarecdn.com/65a93c2e-6905-4a45-bce2-e83fabb9b49c/
-  - https://ucarecdn.com/765dbc76-c984-4737-8ece-985c128f4c12/
-  - https://ucarecdn.com/21f2bd9a-c1e7-46e4-9c03-6bf18c54ae38/
-  - https://ucarecdn.com/63c5a38b-20fd-41e9-94ae-de2ce58078d1/
+  - buildings/uc-campus-recreation-center/uc-campus-recreation-center-0_p5z61x
+  - buildings/uc-campus-recreation-center/uc-campus-recreation-center-1_hnrqm0
+  - buildings/uc-campus-recreation-center/uc-campus-recreation-center-2_qipdns
 location:
   lat: 39.132495
   lng: -84.515078

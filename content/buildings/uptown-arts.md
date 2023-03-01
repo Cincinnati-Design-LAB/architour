@@ -1,12 +1,9 @@
 ---
 title: Uptown Arts
 images:
-  - https://ucarecdn.com/bc5584fc-51a5-4fe7-bd1d-d41e0e9f880d/
-  - https://ucarecdn.com/31426bf8-8601-492b-9646-b0cdb6c5a6ff/
-  - https://ucarecdn.com/5c528a95-fbb9-446e-8f3d-b6861e25f813/
-  - https://ucarecdn.com/f8640a58-2d69-4739-b70a-0e9cd81037c6/
-  - https://ucarecdn.com/f1a3fa70-b508-4ca3-aa3d-41b3d43707e9/
-  - https://ucarecdn.com/a7de2ceb-b690-4e2e-b0a3-2c672cc492c9/
+  - buildings/uptown-arts/uptown-arts-0_qradxc
+  - buildings/uptown-arts/uptown-arts-1_o2mcpa
+  - buildings/uptown-arts/uptown-arts-2_m0ubml
 location:
   lat: 39.1123
   lng: -84.513078
@@ -48,7 +45,7 @@ renovation_changes: >-
   place.  It is fastidiously maintained to reinforce that sense.  Participants
   in the programs are called "artists", "dancers", "musicians", etc. to make
   these students see themselves as creative people.
-resources: http://uptownarts.org/
+resources: 'http://uptownarts.org/'
 green_building_features: >-
   The existing building was repurposed with extensive reuse of materials where
   possible.

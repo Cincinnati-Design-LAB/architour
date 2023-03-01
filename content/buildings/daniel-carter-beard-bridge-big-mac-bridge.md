@@ -1,16 +1,16 @@
 ---
 title: Daniel Carter Beard Bridge (Big Mac Bridge)
 images:
-  - https://ucarecdn.com/9410c6b3-9882-4c98-9364-9c3918cdb479/
-  - https://ucarecdn.com/ae91df0d-59e8-403b-8a42-0bd19a70472c/
-  - https://ucarecdn.com/cf0c9208-da8e-4691-838f-3593dc0d4a17/
-  - https://ucarecdn.com/104a5863-9056-412d-bfa1-1735915dbce4/
-  - https://ucarecdn.com/1ec43ca7-453b-4c2b-a91b-263715d0f1ac/
-  - https://ucarecdn.com/b38c257b-86eb-4ef1-b11a-3aa934cb8d3a/
+  - >-
+    buildings/daniel-carter-beard-bridge-big-mac-bridge/daniel-carter-beard-bridge-big-mac-bridge-0_uy8jwa
+  - >-
+    buildings/daniel-carter-beard-bridge-big-mac-bridge/daniel-carter-beard-bridge-big-mac-bridge-1_keakp5
+  - >-
+    buildings/daniel-carter-beard-bridge-big-mac-bridge/daniel-carter-beard-bridge-big-mac-bridge-2_x9urr7
 location:
   lat: 39.102343
   lng: -84.498246
-date_of_completion: "1976"
+date_of_completion: '1976'
 architect: Hazelet + Erdal (now URS Corporation)
 unique_features: >-
   The tied-arch main span of the bridge spans 750 and is composed of two bridges

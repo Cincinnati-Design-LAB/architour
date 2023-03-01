@@ -1,14 +1,12 @@
 ---
 title: Hilton Netherland Plaza
 images:
-  - https://ucarecdn.com/35b2d65e-a623-4038-b244-c2f44a8f2b9b/
-  - https://ucarecdn.com/77cdc570-a3c7-4600-b14e-597233ab13d5/
-  - https://ucarecdn.com/0c4c9e25-9e22-4599-8963-4fb0861405b3/
-  - https://ucarecdn.com/e93910d3-b619-4592-a0bc-a545e01fb860/
+  - buildings/hilton-netherland-plaza/hilton-netherland-plaza-0_k1v9ao
+  - buildings/hilton-netherland-plaza/hilton-netherland-plaza-1_we17de
 location:
   lat: 39.1008434
   lng: -84.5141833
-address: 35 W. Fifth St., Cincinnati, OH  45202
+address: '35 W. Fifth St., Cincinnati, OH  45202'
 date_of_completion: '1930'
 style: American Modern with Art Deco motifs
 public_access: >-

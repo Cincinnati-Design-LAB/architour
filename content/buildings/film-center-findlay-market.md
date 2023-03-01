@@ -1,8 +1,7 @@
 ---
 title: Film Center @ Findlay Market
 images:
-  - https://ucarecdn.com/f6ac04bd-3edf-4a32-b2ec-8a49e1d85098/
-  - https://ucarecdn.com/3017950e-6969-4977-adf2-e3f5f4d7fa21/
+  - buildings/film-center-findlay-market/film-center-findlay-market-0_m6jdks
 location:
   lat: 39.114632
   lng: -84.521264
@@ -20,7 +19,7 @@ historic_status: >-
   historic tax credits and had to meet the requirements of the state historic
   preservation office.
 unique_features: A roof-top deck provides sweeping views of the city.
-renovation_date: "2017"
+renovation_date: '2017'
 renovation_architect: City Studios Architecture
 ---
 

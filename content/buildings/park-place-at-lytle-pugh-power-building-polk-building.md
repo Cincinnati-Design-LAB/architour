@@ -1,19 +1,19 @@
 ---
-title: Park Place at Lytle (Pugh Power Building, Polk Building)
+title: 'Park Place at Lytle (Pugh Power Building, Polk Building)'
 images:
-  - https://ucarecdn.com/9125065f-31f0-444e-a75e-cf72528e074b/
-  - https://ucarecdn.com/ebff02b2-477b-47cf-9496-54b7d4a4ba00/
-  - https://ucarecdn.com/7cac2e16-da45-4c25-8d5c-a1b5603cb78c/
-  - https://ucarecdn.com/f33438d1-b47a-4cd9-9dea-6c15e576caf8/
+  - >-
+    buildings/park-place-at-lytle-pugh-power-building-polk-building/park-place-at-lytle-pugh-power-building-polk-building-0_spc4ro
+  - >-
+    buildings/park-place-at-lytle-pugh-power-building-polk-building/park-place-at-lytle-pugh-power-building-polk-building-1_p6picr
 location:
   lat: 39.1023428
   lng: -84.5034659
 address: 400 Pike St.
-date_of_completion: "1905"
+date_of_completion: '1905'
 architect: Louis Dittoe & Benjamin Wisenall
 historic_status: Part of the Lytle Park Historic District listed on the NRHP in 1976.
 renovations: Converted into condominiums
-renovation_date: "2005"
+renovation_date: '2005'
 renovation_architect: GBBN
 ---
 

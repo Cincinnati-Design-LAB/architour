@@ -1,12 +1,9 @@
 ---
 title: Cintrifuse - Union Hall (Germania Beer Hall/Cosmopolitan Hall)
 images:
-  - https://ucarecdn.com/6a035348-ebc8-4d7d-86f0-1674743efe69/
-  - https://ucarecdn.com/7c2f6dea-5492-410f-b4eb-5882f2eca564/
-  - https://ucarecdn.com/ee6cd57e-eba7-4610-87c3-4e78d22f604a/
-  - https://ucarecdn.com/f57482f9-f3cb-48cc-8d24-df2977e6a1b8/
-  - https://ucarecdn.com/3f87b713-8df4-44e0-84de-099715fee15e/
-  - https://ucarecdn.com/dc64d7bc-bebc-4e8e-b071-57266b81d2d6/
+  - buildings/centrifuse-union-hall/centrifuse-union-hall-0_b3pmaj
+  - buildings/centrifuse-union-hall/centrifuse-union-hall-1_wornf3
+  - buildings/centrifuse-union-hall/centrifuse-union-hall-2_lpyfqc
 location:
   lat: 39.109898
   lng: -84.515237
@@ -38,7 +35,7 @@ renovation_changes: >-
   create and foster the next generation of entrepreneurs in Cincinnati.  In
   addition to the co-working space, the building houses the offices of
   Cintrifuse, The Brandery, and CincyTech.
-resources: http://www.cintrifuse.com/
+resources: 'http://www.cintrifuse.com/'
 green_building_features: The building is LEED Certified.
 ---
 

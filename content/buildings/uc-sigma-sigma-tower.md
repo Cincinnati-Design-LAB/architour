@@ -1,12 +1,9 @@
 ---
 title: UC Ronald F. Walker Tower at Sigma Sigma Commons
 images:
-  - https://ucarecdn.com/9977cae9-5d11-4361-8f3e-7318e02d52d0/
-  - https://ucarecdn.com/881b85d9-de19-4ecf-89ba-a99e43b0ceca/
-  - https://ucarecdn.com/6e6bb614-6502-4608-8af2-b2829ef6ee29/
-  - https://ucarecdn.com/57ea969f-635c-4c71-8189-f4b92f6ce8c1/
-  - https://ucarecdn.com/f9ed1e91-5ae5-4906-9151-077880833a9a/
-  - https://ucarecdn.com/0858de43-ff6a-48bd-a79f-98c97850528f/
+  - buildings/uc-sigma-sigma-tower/uc-sigma-sigma-tower-0_ikwql8
+  - buildings/uc-sigma-sigma-tower/uc-sigma-sigma-tower-1_tl3n53
+  - buildings/uc-sigma-sigma-tower/uc-sigma-sigma-tower-2_ufi3gb
 location:
   lat: 39.133435
   lng: -84.513029

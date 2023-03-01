@@ -1,21 +1,19 @@
 ---
 title: Cincinnati Music Hall
 images:
-  - https://ucarecdn.com/b3d52f4c-3fc5-4912-b209-02c3afc8343e/
-  - https://ucarecdn.com/02f0a376-eb38-476d-a422-80f370f48d0a/
-  - https://ucarecdn.com/865cb15b-bd6f-42a8-bdea-9ea19935bbf0/
-  - https://ucarecdn.com/6262be51-cf37-41f5-af8d-9c81f58d3a83/
+  - buildings/cincinnati-music-hall/cincinnati-music-hall-0_e0xepy
+  - buildings/cincinnati-music-hall/cincinnati-music-hall-1_a6o2cu
 location:
   lat: 39.109392
   lng: -84.519145
-address: 1241 Elm St., Cincinnati, Ohio
+address: '1241 Elm St., Cincinnati, Ohio'
 original_owner: Music Hall Association
 date_of_completion: 1877-79
 style: High Victorian Gothic
 architect: Samuel Hannaford & Edwin R. Procter
 contractor: Messer Construction (2016 renovation)
 original_function: Music and exposition center
-historic_status: Listed on NRHP on January 26, 1970.
+historic_status: 'Listed on NRHP on January 26, 1970.'
 unique_features: >-
   Built on the site of an old pauper's cemetery, the building is rumored to be
   haunted.  Many who have worked in the building including the late conductor of

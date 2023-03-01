@@ -1,20 +1,20 @@
 ---
 title: Cincinnatian Hotel (Palace Hotel)
 images:
-  - https://ucarecdn.com/675a3405-f39b-4be5-95ec-c7b7852e55b9/
-  - https://ucarecdn.com/989e00bb-42e5-46f9-b890-eaa9e41031d0/
+  - >-
+    buildings/cincinnatian-hotel-palace-hotel/cincinnatian-hotel-palace-hotel-0_ugkh7d
 location:
   lat: 39.102464
   lng: -84.513822
-address: 601 Vine St., Cincinnati, OH  45202
+address: '601 Vine St., Cincinnati, OH  45202'
 original_owner: Thomas Emery & Sons
 current_owner: American Financial Group
 date_of_completion: '1882'
 style: Second Empire
-public_access: The hotel lobby, bar and restaurant are open to the public.
+public_access: 'The hotel lobby, bar and restaurant are open to the public.'
 architect: Samuel Hannaford & Joseph Steinkamp & Brother
 contractor: Messer Construction (1987 renovation)
-historic_status: Listed on NRHP on March 3, 1980
+historic_status: 'Listed on NRHP on March 3, 1980'
 renovation_date: '1987'
 renovation_architect: Williams Trebilcock Whitehead
 renovation_style: Post-modern

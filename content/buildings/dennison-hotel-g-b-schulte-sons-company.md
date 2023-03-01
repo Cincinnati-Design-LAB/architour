@@ -1,18 +1,18 @@
 ---
 title: Dennison Hotel (G B Schulte Sons Company)
 images:
-  - https://ucarecdn.com/9ab2d54d-0c4a-45da-88dc-bee111b0c6bd/
-  - https://ucarecdn.com/0c4e18b2-f9e8-4d2a-90c6-86ce4970ad55/
+  - >-
+    buildings/dennison-hotel-g-b-schulte-sons-company/dennison-hotel-g-b-schulte-sons-company-0_u96ikd
 location:
   lat: 39.104556
   lng: -84.510338
-address: 716 Main St., Cincinnati, OH  45202
+address: '716 Main St., Cincinnati, OH  45202'
 original_owner: G B Schulte Sons Company
 current_owner: Columbia REI LLC
-date_of_completion: "1892"
+date_of_completion: '1892'
 architect: Samuel Hannaford & Sons
 original_function: Offices and warehouse for carriage parts manufacturer
-renovation_date: "1931"
+renovation_date: '1931'
 renovation_changes: Conversion into hotel
 ---
 

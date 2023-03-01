@@ -1,10 +1,8 @@
 ---
 title: Eighth & Sycamore Building
 images:
-  - https://ucarecdn.com/d4927994-8feb-407c-96ce-967bf22a3f97/
-  - https://ucarecdn.com/e65682ba-53ed-491a-9489-e441482a913f/
-  - https://ucarecdn.com/14c6e402-abbe-4e90-a64c-e6008663cb16/
-  - https://ucarecdn.com/06ebdf25-4af4-4f46-962d-1b61e2763d1b/
+  - buildings/eighth-and-sycamore-building/eighth-and-sycamore-building-0_v58vor
+  - buildings/eighth-and-sycamore-building/eighth-and-sycamore-building-1_iag5au
 location:
   lat: 39.104814
   lng: -84.508779
@@ -12,7 +10,7 @@ address: |-
   Eighth & Sycamore Streets
   Cincinnati, OH. 45202
 original_owner: 3CDC & North American Properties
-date_of_completion: "2017"
+date_of_completion: '2017'
 style: Contemporary
 architect: John Senhauser Architects
 original_function: >-

@@ -1,10 +1,8 @@
 ---
 title: Kenton County Public Library
 images:
-  - https://ucarecdn.com/3492b2c7-7999-42fb-a967-47f4eda7f0e9/
-  - https://ucarecdn.com/33c92ea2-1ccd-4749-862f-d613f5f6160f/
-  - https://ucarecdn.com/6a8130b1-168b-4382-9bf8-ab4881f74ed6/
-  - https://ucarecdn.com/16ee5304-7b11-45eb-8e88-3f006b8434ef/
+  - buildings/kenton-county-public-library/kenton-county-public-library-0_mka64l
+  - buildings/kenton-county-public-library/kenton-county-public-library-1_d9lbt4
 location:
   lat: 39.085439
   lng: -84.508853
@@ -20,3 +18,4 @@ renovations: >-
 renovation_date: '2013'
 renovation_architect: DesignGroup
 ---
+

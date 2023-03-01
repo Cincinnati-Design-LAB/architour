@@ -1,12 +1,9 @@
 ---
 title: M+A Architects
 images:
-  - https://ucarecdn.com/37acee09-b2f9-4570-bca9-0b66d2971f1e/
-  - https://ucarecdn.com/493c1a14-4c24-4d9c-a1d5-92ed4f48ddd5/
-  - https://ucarecdn.com/2d685e6f-3b40-44af-8c2f-b92eb875d06b/
-  - https://ucarecdn.com/3d59ca15-1f38-4507-a67c-254c3f84f48f/
-  - https://ucarecdn.com/db3d7eff-2378-4600-8b03-885c60bd8f04/
-  - https://ucarecdn.com/28da1ab7-330d-4216-be26-b1968718a92b/
+  - buildings/ma-architects/ma-architects-0_ws4xtv
+  - buildings/ma-architects/ma-architects-1_qowisr
+  - buildings/ma-architects/ma-architects-2_qecvph
 location:
   lat: 39.110462
   lng: -84.516918

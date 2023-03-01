@@ -1,12 +1,12 @@
 ---
 title: Cathedral Basilica of the Assumption
 images:
-  - https://ucarecdn.com/67495e7b-6abf-4268-87da-4d50a679d305/
-  - https://ucarecdn.com/b3406661-4dad-4bbe-b31c-2d65f6393cc5/
-  - https://ucarecdn.com/5dcee701-c229-4c03-9927-5e12f252da20/
-  - https://ucarecdn.com/9814c05a-49a9-4337-b5d8-db98b4e4eb9f/
-  - https://ucarecdn.com/27f2375b-84f5-495b-b5b7-bb7adf05ed5e/
-  - https://ucarecdn.com/ef3584b3-6a40-4f91-85bf-84816b8c013d/
+  - >-
+    buildings/cathedral-basilica-of-the-assumption/cathedral-basilica-of-the-assumption-0_ydhagv
+  - >-
+    buildings/cathedral-basilica-of-the-assumption/cathedral-basilica-of-the-assumption-1_nhougi
+  - >-
+    buildings/cathedral-basilica-of-the-assumption/cathedral-basilica-of-the-assumption-2_b0intu
 location:
   lat: 39.078127
   lng: -84.50858

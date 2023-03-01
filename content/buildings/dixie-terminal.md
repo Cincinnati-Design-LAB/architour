@@ -1,17 +1,15 @@
 ---
 title: Dixie Terminal
 images:
-  - https://ucarecdn.com/e9b373f2-41a0-4c56-8f95-ce2db0587126/
-  - https://ucarecdn.com/9e49d4d4-d8e9-4f33-b97b-137b06d9de4e/
-  - https://ucarecdn.com/77a4e34e-27d8-443c-96c7-eff3699b1892/
-  - https://ucarecdn.com/ffea39f6-4d73-4a14-8a32-5d39b26595b7/
+  - buildings/dixie-terminal/dixie-terminal-0_zophsi
+  - buildings/dixie-terminal/dixie-terminal-1_weaaf0
 location:
   lat: 39.1
   lng: -84.5114
-address: 41-53 E. Fourth St., Cincinnati, Ohio
+address: '41-53 E. Fourth St., Cincinnati, Ohio'
 original_owner: The Dixie Terminal Company financed largely by Charles and Robert Taft
 current_owner: American Financial Group
-date_of_completion: "1913"
+date_of_completion: '1913'
 style: Beaux Arts
 architect: Garber & Woodward
 original_function: Office building and transportation terminal.
@@ -29,7 +27,7 @@ renovations: >-
   Upper levels of the building were renovated to provide additional office space
   for Great American Insurance comparable to the space in the new Great American
   Tower.
-renovation_date: "2012"
+renovation_date: '2012'
 renovation_architect: KZF Design
 renovation_changes: >-
   The transportation terminal was closed in 1998 and is primarily used as a

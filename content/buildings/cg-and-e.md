@@ -1,20 +1,19 @@
 ---
 title: Duke Energy (formerly CG&E)
 images:
-  - https://ucarecdn.com/957b2ade-3895-459d-81a0-23807be6b10f/
-  - https://ucarecdn.com/05f2ef3c-201c-4eb4-bdb4-19246f099092/
+  - buildings/cg-and-e/cg-and-e-0_pjpfc2
 location:
   lat: 39.1001387
   lng: -84.5096868
-address: 139 E. Fourth St., Cincinnati, Ohio
+address: '139 E. Fourth St., Cincinnati, Ohio'
 original_owner: Cincinnati Gas & Electric Company
 current_owner: Duke Energy
-date_of_completion: "1930"
+date_of_completion: '1930'
 style: Beaux Arts Classicism
 architect: John Russell Pope
 associate_architect: Garber & Woodward
 unique_features: Gas-lit stone urns designed by scupltor Harry Easton uplight the upper tower.
-renovation_date: "1950"
+renovation_date: '1950'
 renovation_architect: Harry Hake & Harry Hake Jr.
 ---
 

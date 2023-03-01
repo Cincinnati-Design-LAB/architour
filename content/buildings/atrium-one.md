@@ -1,18 +1,15 @@
 ---
 title: Atrium One
 images:
-  - https://ucarecdn.com/62b65211-21f2-4c1f-8b6d-5efe3b027fd3/
-  - https://ucarecdn.com/dd832789-3069-457f-9127-2efc3b203ee9/
-  - https://ucarecdn.com/b0b355bb-225a-4afd-9d5d-280d56f96b9e/
-  - https://ucarecdn.com/dd087d6e-dca7-4afe-8535-1b74ef2da476/
-  - https://ucarecdn.com/ce0a5091-6c79-43b6-8b2d-61c419fae295/
-  - https://ucarecdn.com/ed53ea9b-e0ac-4a8d-bd3f-2e7ef328514a/
+  - buildings/atrium-one/atrium-one-0_mmqlsa
+  - buildings/atrium-one/atrium-one-1_l1yxmv
+  - buildings/atrium-one/atrium-one-2_dslvrb
 location:
   lat: 39.1001257
   lng: -84.5088439
-address: 201 E. Fourth St., Cincinnati, Ohio  45202
+address: '201 E. Fourth St., Cincinnati, Ohio  45202'
 current_owner: Smith/Hallemann Partners
-date_of_completion: "1981"
+date_of_completion: '1981'
 style: International
 architect: SOM
 ---

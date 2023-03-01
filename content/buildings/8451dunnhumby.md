@@ -1,14 +1,13 @@
 ---
 title: 84.51/dunnhumby
 images:
-  - https://ucarecdn.com/21b4225e-c684-4513-a19d-4912113f2978/
-  - https://ucarecdn.com/a523cf67-f1be-4238-bf2e-383b706215a6/
+  - buildings/8451dunnhumby/8451dunnhumby-0_n5kr2m
 location:
   lat: 39.1015296
   lng: -84.5151752
-address: 100 W. Fifth St., Cincinnati, OH
+address: '100 W. Fifth St., Cincinnati, OH'
 original_owner: dunnhumby USA
-date_of_completion: "2015"
+date_of_completion: '2015'
 architect: Gensler
 contractor: Turner Construction
 original_function: Office building and parking garage with street level retail

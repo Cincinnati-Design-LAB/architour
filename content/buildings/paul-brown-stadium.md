@@ -1,16 +1,13 @@
 ---
 title: Paul Brown Stadium
 images:
-  - https://ucarecdn.com/c22b23ae-d429-4036-9b7a-5e663925a60a/
-  - https://ucarecdn.com/f99216f5-1833-4135-8169-1862b97184f0/
-  - https://ucarecdn.com/51e33ed9-5e8a-46a3-afec-70bd5e009118/
-  - https://ucarecdn.com/f464c67c-a6cd-4101-9f14-402622d5bb9b/
-  - https://ucarecdn.com/336d120c-ac87-4fa6-8d87-a039cd3c2e99/
-  - https://ucarecdn.com/af054ecb-2a4a-421b-b74e-f5abe7f90f55/
+  - buildings/paul-brown-stadium/paul-brown-stadium-0_o4h1kx
+  - buildings/paul-brown-stadium/paul-brown-stadium-1_gpzirl
+  - buildings/paul-brown-stadium/paul-brown-stadium-2_z7ngkc
 location:
   lat: 39.096298
   lng: -84.515021
-address: 1 Paul Brown Stadium, Cincinnati, OH  45202
+address: '1 Paul Brown Stadium, Cincinnati, OH  45202'
 original_owner: Hamilton County
 date_of_completion: '2000'
 style: Contemporary/Futuristic
@@ -18,8 +15,8 @@ public_access: >-
   Access to the stadium is by ticket.  A Bengals pro shop is located on the
   north side of the stadium.
 architect: NBBJ
-associate_architect: Glaserworks, Moody/Nolan, Stallworth Architecture
-contractor: Turner, Barton Malow, D.A.G.
+associate_architect: 'Glaserworks, Moody/Nolan, Stallworth Architecture'
+contractor: 'Turner, Barton Malow, D.A.G.'
 original_function: Professional football stadium
 unique_features: >-
   The 65,515-seat stadium offers 114 private suites.  The Club Level has 7,600

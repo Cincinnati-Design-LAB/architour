@@ -1,17 +1,16 @@
 ---
 title: St. Peter in Chains Cathedral
 images:
-  - https://ucarecdn.com/49807ec3-a6ad-4d16-a79b-97071b3b453b/
-  - https://ucarecdn.com/2c91d598-288b-48e2-8e43-ef4dba9c2517/
+  - buildings/st-peter-in-chains-cathedral/st-peter-in-chains-cathedral-0_v9zwk6
 location:
   lat: 39.103518
   lng: -84.51955909999998
-address: 325 W. 8th St., Cincinnati, OH  45202
+address: '325 W. 8th St., Cincinnati, OH  45202'
 original_owner: Archdiocese of Cincinnati
-date_of_completion: "1845"
+date_of_completion: '1845'
 style: Greek Revival
 architect: Henry & William Walter
-historic_status: Listed on NRHP on January 18, 1973.
+historic_status: 'Listed on NRHP on January 18, 1973.'
 renovation_date: 1951-57
 renovation_architect: Edward J. Schulte
 renovation_changes: >-

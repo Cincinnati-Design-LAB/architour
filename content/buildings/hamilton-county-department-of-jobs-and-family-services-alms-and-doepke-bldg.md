@@ -1,12 +1,12 @@
 ---
 title: Hamilton County Department of Jobs and Family Services (Alms & Doepke Bldg.)
 images:
-  - https://ucarecdn.com/b2394187-1832-4a9a-93d8-972bb3f9cccc/
-  - https://ucarecdn.com/e613f13b-270f-4353-b196-ee3568ec35ac/
+  - >-
+    buildings/hamilton-county-department-of-jobs-and-family-services-alms-and-doepke-bldg/hamilton-county-department-of-jobs-and-family-services-alms-and-doepke-bldg-0_fjryul
 location:
   lat: 39.108
   lng: -84.51056
-address: 1123 Sycamore St., Cincinnati, Ohio
+address: '1123 Sycamore St., Cincinnati, Ohio'
 original_owner: Alms and Doepke Dry Goods Company
 current_owner: Hamilton County
 date_of_completion: 1878-97

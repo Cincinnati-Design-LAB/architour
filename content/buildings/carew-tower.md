@@ -1,21 +1,19 @@
 ---
 title: Carew Tower
 images:
-  - https://ucarecdn.com/c24732b5-13a5-48f5-9d1b-b50c38b64026/
-  - https://ucarecdn.com/8d05920d-602e-4118-b17f-3e53239b34a5/
-  - https://ucarecdn.com/3d4c041f-35ca-4e7a-b1d4-ef326deb5c89/
-  - https://ucarecdn.com/ab8be8b0-883e-43e4-a437-77c33c853931/
+  - buildings/carew-tower/carew-tower-0_dn8gx4
+  - buildings/carew-tower/carew-tower-1_xvdf05
 location:
   lat: 39.100836
   lng: -84.513238
-address: 441 Vine St., Cincinnati, OH  45202
+address: '441 Vine St., Cincinnati, OH  45202'
 date_of_completion: '1930'
 style: American Modern with Art Deco motifs
 public_access: The Emery arcade is open to the public and connects Vine to Race.
 architect: Walter Aeschlager
 associate_architect: Delano & Aldrich
 original_function: Office building
-historic_status: Listed on the NRHP on August 5, 1982
+historic_status: 'Listed on the NRHP on August 5, 1982'
 unique_features: >-
   The original complex included an automated 28-level parking garage.  The
   elevator system would lift the car from the entry level to a vacant space on

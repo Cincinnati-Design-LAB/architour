@@ -1,16 +1,16 @@
 ---
 title: Lois & Richard Rosenthal Center for Contemporary Art
 images:
-  - https://ucarecdn.com/5148677e-d4b0-4271-8b99-7d8aba2dd937/
-  - https://ucarecdn.com/6ce2e684-58ba-48c3-a02c-e94acf78007a/
-  - https://ucarecdn.com/1fcbbaf5-181d-4e29-9418-eff7f466714c/
-  - https://ucarecdn.com/b97e861e-2763-4ab8-83da-b42a016ccea7/
-  - https://ucarecdn.com/2984cd49-70d0-449d-8241-49fb86c31cd5/
-  - https://ucarecdn.com/920cb8ce-fe9e-4c9e-b818-18aba5a27b37/
+  - >-
+    buildings/richard-and-lois-rosenthal-center-for-contemporary-art/richard-and-lois-rosenthal-center-for-contemporary-art-0_fbetxi
+  - >-
+    buildings/richard-and-lois-rosenthal-center-for-contemporary-art/richard-and-lois-rosenthal-center-for-contemporary-art-1_kqfiej
+  - >-
+    buildings/richard-and-lois-rosenthal-center-for-contemporary-art/richard-and-lois-rosenthal-center-for-contemporary-art-2_iqdwbu
 location:
   lat: 39.1028189
   lng: -84.512118
-address: 44 E 6th St, Cincinnati, OH 45202, USA
+address: '44 E 6th St, Cincinnati, OH 45202, USA'
 original_owner: Contemporary Arts Center
 current_owner: Contemporary Arts Center
 date_of_completion: '2003'

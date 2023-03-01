@@ -1,12 +1,9 @@
 ---
 title: The Ascent
 images:
-  - https://ucarecdn.com/50490b69-a4d7-4616-aab6-a838011c0864/
-  - https://ucarecdn.com/d4308a64-45c3-4ba7-b679-253d39b79b57/
-  - https://ucarecdn.com/eed6d91f-369c-46dd-87dc-01c0d0cdb9d0/
-  - https://ucarecdn.com/5103cc32-0f48-4c3c-9ce6-25f435754584/
-  - https://ucarecdn.com/c6de255f-38e8-432f-a93e-4c4d936be3b2/
-  - https://ucarecdn.com/6d655667-4e94-40e8-b49f-4d63ab5cce0f/
+  - buildings/ascent/ascent-0_tswqa6
+  - buildings/ascent/ascent-1_kqw3h3
+  - buildings/ascent/ascent-2_xjvibc
 location:
   lat: 39.089139
   lng: -84.509519
@@ -14,7 +11,7 @@ address: |-
   1 Roebling Way
   Covington KY
 original_owner: Corporex
-date_of_completion: "2008"
+date_of_completion: '2008'
 architect: Studio Daniel Libeskind
 associate_architect: GBBN Architects
 contractor: Dugan & Meyers

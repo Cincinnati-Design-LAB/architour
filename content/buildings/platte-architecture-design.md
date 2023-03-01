@@ -1,12 +1,9 @@
 ---
 title: Platte Architecture + Design
 images:
-  - https://ucarecdn.com/d56bc49a-4219-4b5a-9c36-1a563d1ef886/
-  - https://ucarecdn.com/15a2308b-c31a-48b9-a076-af7e28a361a4/
-  - https://ucarecdn.com/914f1a1e-d5b2-4640-9756-647dfefbf97b/
-  - https://ucarecdn.com/50baa29c-7b98-4585-a7e7-d388a8a414be/
-  - https://ucarecdn.com/ce77a5b1-6287-44d8-90d8-579ca45f606f/
-  - https://ucarecdn.com/f732fa35-9a87-4386-ae35-aa6f35532972/
+  - buildings/platte-architecture-design/platte-architecture-design-0_efesbe
+  - buildings/platte-architecture-design/platte-architecture-design-1_oldvle
+  - buildings/platte-architecture-design/platte-architecture-design-2_g6ylq1
 location:
   lat: 39.11516
   lng: -84.520257
@@ -32,7 +29,7 @@ renovation_changes: >-
   unique experiences and talents.   "Collectively we blend form, space and
   function to challenge assumptions and create meaningful environments."
 photo_credit: Platte Architecture + Design
-resources: https://www.plattedesign.com/
+resources: 'https://www.plattedesign.com/'
 green_building_features: >-
   The office design employs the extensive reuse and repurposing of materials to
   create unique custom solutions.

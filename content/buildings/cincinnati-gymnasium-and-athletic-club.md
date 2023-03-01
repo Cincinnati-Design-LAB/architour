@@ -1,13 +1,13 @@
 ---
 title: Cincinnati Gymnasium & Athletic Club
 images:
-  - https://ucarecdn.com/aaccd010-7ec1-4ffd-b956-4fc13ccd62fc/
-  - https://ucarecdn.com/37498ab0-152d-401b-854d-6d24b9e4a397/
+  - >-
+    buildings/cincinnati-gymnasium-and-athletic-club/cincinnati-gymnasium-and-athletic-club-0_fnc8z0
 location:
   lat: 39.102686
   lng: -84.515665
-address: 111 Shillito Place, Cincinnati, OH 45202
-date_of_completion: "1902"
+address: '111 Shillito Place, Cincinnati, OH 45202'
+date_of_completion: '1902'
 style: Second Renaissance Revival
 architect: Warner & Atkins
 original_function: Private athletic club

@@ -1,17 +1,17 @@
 ---
 title: Adams Place at Adams Crossing
 images:
-  - https://ucarecdn.com/c59a22ba-c312-48bc-934f-55b9a3ccee89/
-  - https://ucarecdn.com/cfea2587-fb8b-4548-8276-a132376dceab/
-  - https://ucarecdn.com/a38b7cab-90f7-4d67-84d7-a09d5d061dd7/
-  - https://ucarecdn.com/dcc7c889-d036-490a-b200-4ff9c7aa32a1/
-  - https://ucarecdn.com/f6a5a422-90a8-47f5-8bf3-0a10d5ebbd6b/
-  - https://ucarecdn.com/27bfa4c9-b782-4028-931e-40d371bb4028/
+  - >-
+    buildings/adams-place-at-adams-crossing/adams-place-at-adams-crossing-0_fygfcu
+  - >-
+    buildings/adams-place-at-adams-crossing/adams-place-at-adams-crossing-1_svxwv9
+  - >-
+    buildings/adams-place-at-adams-crossing/adams-place-at-adams-crossing-2_oocwqy
 location:
   lat: 39.103492
   lng: -84.497055
-address: 900 Adams Crossing, Cincinnati, OH 45202
-date_of_completion: "1993"
+address: '900 Adams Crossing, Cincinnati, OH 45202'
+date_of_completion: '1993'
 style: Post-modern
 architect: William Turnbull Associates and Doran Studio
 associate_architect: KZF Design
