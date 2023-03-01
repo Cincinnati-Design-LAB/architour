@@ -17,7 +17,7 @@ const building = Astro.props.building as Building
 <Layout title={building.title}>
   <PageHeader
     title={building.title}
-    image={croppedImageUrl(building.featuredImage, { height: 1080, width: 1920, focus: 'center' })}
+    image={croppedImageUrl(building.featuredImage, { height: 1080, width: 1920 })}
     size="lg"
   />
 

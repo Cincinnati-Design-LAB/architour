@@ -29,7 +29,7 @@ export const Building = defineDocumentType(() => ({
     },
     images: {
       type: 'list',
-      description: 'A list of image URLs. The first is considered the feature.',
+      description: 'A list of Cloudinary public IDs for building images',
       of: { type: 'string' },
     },
     location: {

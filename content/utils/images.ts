@@ -1,7 +1,9 @@
+import { v2 as cloudinary } from 'cloudinary'
+
 /**
- * Apply UploadCare image transformations to the original image URL.
+ * Generate Cloudinary image URL based on public ID.
  *
- * @param originalImageUrl Raw image URL from the source
+ * @param publicId Path to the image in Cloudinary
  * @param options {
  *    width: number -> width of the image
  *    height: number -> height of the image
@@ -10,9 +12,9 @@
  * @returns Modified image URL
  */
 export function croppedImageUrl(
-  originalImageUrl: string,
-  options: { width: number; height: number; focus?: 'center' | 'smart' },
+  publicId: string,
+  options: { width: number; height: number },
 ): string {
-  const { width, height, focus = 'smart' } = options
-  return originalImageUrl + `-/scale_crop/${width}x${height}/${focus}/`
+  const { width, height } = options
+  return cloudinary.url(publicId, { height, width, crop: 'fill' })
 }
