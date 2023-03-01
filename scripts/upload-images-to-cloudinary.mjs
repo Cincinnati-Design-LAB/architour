@@ -40,20 +40,26 @@ for (const building of buildingFilenames) {
 
   if (!data.images || !data.images.length) continue
 
-  // Rename the images with the building slug
-  const newFilenames = data.images.map((image, index) => {
+  // Rename the images with the building slug. I had a theory that there are a
+  // lot of duplicates, and that they all are listed as the second half of the
+  // array. It turned out to be true, which is why we're only using half the
+  // images.
+  const newFilePaths = data.images.slice(0, data.images.length / 2).map((image, index) => {
     const filename = image.replace(/^https:\/\/ucarecdn.com\//, '').replace(/\/$/, '.jpg')
     const newFilename = `${slug}-${index}.jpg`
-    fs.copyFileSync(path.join(IMAGES_DIR, filename), path.join(IMAGES_DIR, newFilename))
-    return newFilename
+    const existingFilePath = path.join(IMAGES_DIR, filename)
+    const newFileDir = path.join(IMAGES_DIR, slug)
+    const newFilePath = path.join(newFileDir, newFilename)
+    if (!fs.existsSync(newFileDir)) fs.mkdirSync(newFileDir, { recursive: true })
+    fs.copyFileSync(existingFilePath, newFilePath)
+    return newFilePath
   })
 
   // Upload the images to Cloudinary
   let imageData = []
-  for (const image of newFilenames) {
-    const result = await uploadImage(path.join(IMAGES_DIR, image), `buildings/${slug}`)
-    const { public_id, width, height, format } = result
-    imageData.push({ public_id, width, height, format })
+  for (const image of newFilePaths) {
+    const result = await uploadImage(image, `buildings/${slug}`)
+    imageData.push(result.public_id)
   }
 
   // Store the Cloudinary details back to the building file

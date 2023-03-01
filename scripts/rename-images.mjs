@@ -4,6 +4,9 @@
  * This was a one-time script to put images in directories for each building, so
  * that I could manually rename them and clean them up. I suspected there were a
  * lot of duplicates.
+ *
+ * I didn't end up using this. I moved over to the upload images script, which
+ * did this work and added the images to Cloudinary.
  */
 
 import path from 'path'
