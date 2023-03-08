@@ -1,5 +1,5 @@
 import { v2 as cloudinary } from 'cloudinary'
-import { CloudinaryImage, getTransformationName, TRANSFORMATIONS } from '../content/utils/images.js'
+import { getTransformationName, TRANSFORMATIONS } from '../content/utils/images.js'
 
 /**
  * This script deleted all existing Cloudinary named transformations, and then
