@@ -28,3 +28,8 @@ function getTours(): Tour[] {
  * Exports from items used in this file.
  */
 export { Building, getBuildings, Tour, getTours }
+
+/**
+ * Direct exports.
+ */
+export type { CloudinaryImage } from './images'

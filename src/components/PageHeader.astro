@@ -1,11 +1,12 @@
 ---
 import { Icon, IconProps } from '@components'
+import { CloudinaryImage } from '@content'
 
 export interface Props {
   title: string
   icon?: IconProps['name']
   theme?: 'primary' | 'secondary'
-  image?: string
+  image?: CloudinaryImage
   size?: 'sm' | 'md' | 'lg'
 }
 
@@ -25,7 +26,7 @@ const sizeClassMap: { [K in Exclude<Props['size'], undefined | null>]: string } 
 let style = {}
 if (image) {
   style = {
-    backgroundImage: `url(${image})`,
+    backgroundImage: `url(${image.square.small})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   }

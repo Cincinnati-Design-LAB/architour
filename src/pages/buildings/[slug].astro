@@ -1,5 +1,5 @@
 ---
-import { Building, getBuildings, croppedImageUrl } from '@content'
+import { Building, getBuildings } from '@content'
 import { BuildingAttribute, PageHeader } from '@components'
 import { Layout } from '@layouts'
 
@@ -15,11 +15,7 @@ const building = Astro.props.building as Building
 ---
 
 <Layout title={building.title}>
-  <PageHeader
-    title={building.title}
-    image={croppedImageUrl(building.featuredImage, { height: 1080, width: 1920 })}
-    size="lg"
-  />
+  <PageHeader title={building.title} image={building.featuredImage} size="lg" />
 
   <div class="max-w-7xl mx-auto relative">
     <div class="grid grid-cols-12 gap-16 py-16 px-4">
@@ -46,7 +42,7 @@ const building = Astro.props.building as Building
           building.images && (
             <div class="grid grid-cols-2 gap-6">
               {building.images.map((image) => (
-                <img src={croppedImageUrl(image, { height: 1080, width: 1920 })} />
+                <img src={image.square.small} />
               ))}
             </div>
           )
