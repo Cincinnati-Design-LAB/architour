@@ -1,4 +1,5 @@
 import * as Contentlayer from '@/.contentlayer/generated'
+import { cloudinaryImageUrls } from './images'
 import { Building, Tour } from './types'
 
 /**
@@ -10,7 +11,9 @@ import { Building, Tour } from './types'
 export function transformBuilding(building: Contentlayer.Building): Building {
   const tourHasBuilding = (tour) => tour.buildings.includes(building._raw.sourceFilePath)
   const tourCount = Contentlayer.allTours.filter(tourHasBuilding).length
-  return { ...building, tourCount }
+  const images = building.images.map((id) => cloudinaryImageUrls(id))
+  const featuredImage = images[0]
+  return { ...building, tourCount, images, featuredImage }
 }
 
 /**

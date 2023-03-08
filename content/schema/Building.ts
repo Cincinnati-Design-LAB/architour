@@ -137,16 +137,6 @@ export const Building = defineDocumentType(() => ({
       description: 'URL segment used to build dynamic paths in Astro template.',
       resolve: (building) => building._raw.sourceFileName.replace(/\.md$/, ''),
     },
-    featuredImage: {
-      type: 'string',
-      description: 'The first image in the list of images.',
-      resolve: (building) => {
-        if (!building.images || !building.images.length) return null
-        // At this point, building.images is a `PlainArr` and can't be accessed
-        // as an array.
-        return (building.images as any)?._array[0]
-      },
-    },
     excerpt: {
       type: 'nested',
       of: Markdown,

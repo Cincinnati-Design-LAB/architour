@@ -1,24 +1,33 @@
 import { v2 as cloudinary } from 'cloudinary'
+import { CloudinaryImage, getTransformationName, TRANSFORMATIONS } from '../content/utils/images.js'
 
-/* --- Constants --- */
+/**
+ * This script deleted all existing Cloudinary named transformations, and then
+ * creates a new set, based on the TRANSFORMATIONS object in
+ * content/utils/images.ts.
+ */
 
-const TRANSFORMATIONS = {
-  '16_9_large': { width: 1200, height: 675, crop: 'fill', gravity: 'auto' },
-  square_small: { width: 100, height: 100, crop: 'fill', gravity: 'auto' },
+/* --- Types --- */
+
+type ImageTransformationResult = {
+  name: string
+  allowed_for_strict: boolean
+  used: boolean
+  named: boolean
 }
 
 /* --- Helper Functions --- */
 
-async function getTransformations() {
+async function getTransformations(): Promise<ImageTransformationResult[]> {
   return new Promise((resolve, reject) => {
     cloudinary.api.transformations({}, (err, result) => {
       if (err) return reject(err)
-      resolve(result.transformations)
+      resolve(result.transformations as ImageTransformationResult[])
     })
   })
 }
 
-async function deleteTransformation(name) {
+async function deleteTransformation(name): Promise<void> {
   return new Promise((resolve) => {
     cloudinary.api.delete_transformation(name, (err, result) => {
       if (err) {
@@ -56,6 +65,8 @@ async function createTransformation(name, options) {
 
 await deleteTransformations()
 
-for (const [name, options] of Object.entries(TRANSFORMATIONS)) {
-  await createTransformation(name, options)
+for (const { name, sizes } of TRANSFORMATIONS) {
+  for (const { name: size, options } of sizes) {
+    await createTransformation(getTransformationName(name, size), options)
+  }
 }
