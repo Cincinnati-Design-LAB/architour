@@ -1,5 +1,6 @@
 ---
-import { getTours } from '@content'
+import { PageHeader, CompactCard } from '@components'
+import { getTours, Tour } from '@content'
 import { Layout } from '@layouts'
 
 export async function getStaticPaths() {
@@ -10,22 +11,29 @@ export async function getStaticPaths() {
   }))
 }
 
-const { tour } = Astro.props
+const tour = Astro.props.tour as Tour
 ---
 
-<Layout title={tour.title}>
-  <h1>{tour.title}</h1>
+<Layout title={tour.title} class={{ main: 'bg-gray-100' }}>
+  <PageHeader title={tour.title} image={tour.image} size="lg" />
 
-  <a href={tour.mapUrlPath}>Map View</a>
+  <div class="max-w-7xl mx-auto relative py-16">
+    <a href={tour.mapUrlPath}>Map View</a>
 
-  <h2>Buildings</h2>
-  <ul>
-    {
-      tour.buildings.map((building) => (
-        <li>
-          <a href={building.urlPath}>{building.title}</a>
-        </li>
-      ))
-    }
-  </ul>
+    <div class="max-w-4xl">
+      <h2 class="font-bold text-3xl mb-6">Buildings on the Tour</h2>
+      <div class="grid grid-cols-2 gap-6">
+        {
+          tour.buildings.map((building) => (
+            <CompactCard
+              title={building.title}
+              image={building.featuredImage}
+              excerpt={building.excerpt.html}
+              href={building.urlPath}
+            />
+          ))
+        }
+      </div>
+    </div>
+  </div>
 </Layout>
