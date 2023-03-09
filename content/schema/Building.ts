@@ -1,6 +1,4 @@
 import { defineDocumentType, defineNestedType } from 'contentlayer/source-files'
-import { processMarkdown } from '../utils/markdown'
-import { Markdown } from './Markdown'
 
 const Location = defineNestedType(() => ({
   name: 'Location',
@@ -136,24 +134,6 @@ export const Building = defineDocumentType(() => ({
       type: 'string',
       description: 'URL segment used to build dynamic paths in Astro template.',
       resolve: (building) => building._raw.sourceFileName.replace(/\.md$/, ''),
-    },
-    excerpt: {
-      type: 'nested',
-      of: Markdown,
-      description: 'A truncated section of the body',
-      resolve: async (building) => {
-        const rawBody = building.body.raw.trim()
-        // Targeting first punctuation mark followed by a space.
-        const matches = rawBody.match(/([\.\,\!\?])(?=[\ ])/)
-        if (!matches) return { raw: '', html: '' }
-        // First punctuation character
-        const firstPunctuation = matches[0]
-        // Raw input is the first segment before the punctuation, plus the
-        // punctuation character.
-        const raw = rawBody.split(firstPunctuation)[0] + firstPunctuation
-        const html = await processMarkdown(raw)
-        return { raw, html }
-      },
     },
     hasPrimaryAttributes: {
       type: 'boolean',

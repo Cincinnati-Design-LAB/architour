@@ -1,5 +1,7 @@
 import * as Contentlayer from '@/.contentlayer/generated'
 import { cloudinaryImageUrls } from './images'
+import { processMarkdown } from './markdown'
+import { getExcerpt } from './text'
 import { Building, Tour } from './types'
 
 /**
@@ -8,12 +10,13 @@ import { Building, Tour } from './types'
  * @param building Contentlayer building object
  * @returns Transformed building object
  */
-export function transformBuilding(building: Contentlayer.Building): Building {
+export async function transformBuilding(building: Contentlayer.Building): Promise<Building> {
   const tourHasBuilding = (tour) => tour.buildings.includes(building._raw.sourceFilePath)
   const tourCount = Contentlayer.allTours.filter(tourHasBuilding).length
   const images = building.images.map((id) => cloudinaryImageUrls(id))
   const featuredImage = images[0]
-  return { ...building, tourCount, images, featuredImage }
+  const excerpt = await processMarkdown(getExcerpt(building.body.raw))
+  return { ...building, tourCount, images, featuredImage, excerpt }
 }
 
 /**
@@ -22,13 +25,15 @@ export function transformBuilding(building: Contentlayer.Building): Building {
  * @param tour Contentlayer tour object
  * @returns Transformed tour object
  */
-export function transformTour(tour: Contentlayer.Tour): Tour {
+export async function transformTour(tour: Contentlayer.Tour): Promise<Tour> {
   const findBuilding = (filePath: string) =>
     Contentlayer.allBuildings.find((b) => b._raw.sourceFilePath === filePath)
-  const buildings = tour.buildings
-    .map(findBuilding)
-    .filter((x) => x)
-    .map(transformBuilding)
+  const buildings = await Promise.all(
+    tour.buildings
+      .map(findBuilding)
+      .filter((x) => x)
+      .map(transformBuilding),
+  )
   const image = cloudinaryImageUrls(tour.image)
   return { ...tour, buildings, image }
 }

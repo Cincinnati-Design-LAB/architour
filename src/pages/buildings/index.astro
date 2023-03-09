@@ -3,7 +3,7 @@ import { getBuildings } from '@content'
 import { BuildingCard, PageHeader } from '@components'
 import { Layout } from '@layouts'
 
-const buildings = await getBuildings().slice(0, 12)
+const buildings = (await getBuildings()).slice(0, 12)
 
 // TODO: Add pagination and filtering
 //

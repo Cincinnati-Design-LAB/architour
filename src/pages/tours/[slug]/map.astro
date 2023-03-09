@@ -1,7 +1,7 @@
 ---
 import 'mapbox-gl/dist/mapbox-gl.css'
 
-import { getTours } from '@content'
+import { getTours, Tour } from '@content'
 import { Layout } from '@layouts'
 
 export async function getStaticPaths() {
@@ -12,7 +12,7 @@ export async function getStaticPaths() {
   }))
 }
 
-const { tour } = Astro.props
+const tour = Astro.props.tour as Tour
 ---
 
 <Layout title={tour.title}>

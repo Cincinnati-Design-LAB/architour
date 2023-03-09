@@ -10,8 +10,8 @@ import type { Building, Tour } from './types'
  *
  * @returns Array of transformed building objects
  */
-function getBuildings(): Building[] {
-  return Contentlayer.allBuildings.map(transformBuilding)
+async function getBuildings(): Promise<Building[]> {
+  return await Promise.all(Contentlayer.allBuildings.map(transformBuilding))
 }
 
 /**
@@ -20,8 +20,8 @@ function getBuildings(): Building[] {
  *
  * @returns Array of transformed tour objects
  */
-function getTours(): Tour[] {
-  return Contentlayer.allTours.map(transformTour)
+async function getTours(): Promise<Tour[]> {
+  return await Promise.all(Contentlayer.allTours.map(transformTour))
 }
 
 /**

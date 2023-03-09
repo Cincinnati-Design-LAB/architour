@@ -4,7 +4,22 @@ import remarkRehype from 'remark-rehype'
 import rehypeSanitize from 'rehype-sanitize'
 import rehypeStringify from 'rehype-stringify'
 
-export async function processMarkdown(input: string): Promise<string> {
+/**
+ * Object that holds original reference to markdown, with converted HTML string.
+ */
+export type Markdown = {
+  raw: string
+  html: string
+}
+
+/**
+ * Converts markdown string to Markdown object with HTML string and originally
+ * markdown content.
+ *
+ * @param input Markdown string
+ * @returns Markdown object with original reference and processed HTML string
+ */
+export async function processMarkdown(input: string): Promise<Markdown> {
   const html = await unified()
     .use(remarkParse)
     .use(remarkRehype)
@@ -12,5 +27,5 @@ export async function processMarkdown(input: string): Promise<string> {
     .use(rehypeStringify)
     .process(input)
 
-  return html.toString()
+  return { raw: input, html: html.toString() }
 }

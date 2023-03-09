@@ -1,5 +1,6 @@
 import * as Contentlayer from '@/.contentlayer/generated'
 import { CloudinaryImage } from './images'
+import { Markdown } from './markdown'
 
 export interface Building extends Omit<Contentlayer.Building, 'images'> {
   /** [Transformed] Cached number of tours. */
@@ -8,6 +9,8 @@ export interface Building extends Omit<Contentlayer.Building, 'images'> {
   images: CloudinaryImage[]
   /** The first image is set as the featured image. */
   featuredImage: CloudinaryImage
+  /** Convert first clause from the body as the excerpt */
+  excerpt?: Markdown
 }
 
 export interface Tour extends Omit<Contentlayer.Tour, 'buildings' | 'image'> {
