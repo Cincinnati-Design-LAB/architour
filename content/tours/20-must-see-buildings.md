@@ -2,7 +2,7 @@
 title: 20 Must See Buildings
 description: Reprehenderit voluptate veniam cupidatat qui esse quis velit nisi cillum ullamco.
 icon: waves
-image: https://ucarecdn.com/b3d52f4c-3fc5-4912-b209-02c3afc8343e/
+image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
 time_estimate: 2 Hours
 buildings:
   - buildings/richard-and-lois-rosenthal-center-for-contemporary-art.md

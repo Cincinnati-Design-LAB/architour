@@ -2,7 +2,7 @@
 title: Fourth & Fifth Streets
 description: Laboris aute Lorem Lorem consectetur ullamco esse velit elit.
 icon: kentucky
-image: https://ucarecdn.com/b3d52f4c-3fc5-4912-b209-02c3afc8343e/
+image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
 time_estimate: 2 Hours
 buildings:
   - buildings/fifth-third-center.md

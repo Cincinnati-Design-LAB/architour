@@ -12,7 +12,7 @@ export const Tour = defineDocumentType(() => ({
     },
     image: {
       type: 'string',
-      description: 'URL of the image to show on the card on detail page header',
+      description: 'Cloudinary public ID for the primary tour image',
       required: true,
     },
     time_estimate: {

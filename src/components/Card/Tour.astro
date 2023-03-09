@@ -1,10 +1,11 @@
 ---
 import { Icon, IconProps } from '@components'
+import { CloudinaryImage } from '@content'
 
 export interface Props {
   title: string
   excerpt: string
-  image?: string
+  image?: CloudinaryImage
   href: string
   icon?: IconProps['name']
   meta?: Array<{ icon: IconProps['name']; label: string }>
@@ -17,10 +18,7 @@ const { excerpt, href, title, image, meta, icon } = Astro.props
   {
     image && (
       <div class="h-24 overflow-hidden">
-        <img
-          src={`${image}-/scale_crop/1400x1400/smart/`}
-          class="object-cover h-full w-full object-center"
-        />
+        <img src={image.square.small} class="object-cover h-full w-full object-center" />
       </div>
     )
   }

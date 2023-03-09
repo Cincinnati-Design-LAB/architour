@@ -10,7 +10,9 @@ export interface Building extends Omit<Contentlayer.Building, 'images'> {
   featuredImage: CloudinaryImage
 }
 
-export interface Tour extends Omit<Contentlayer.Tour, 'buildings'> {
+export interface Tour extends Omit<Contentlayer.Tour, 'buildings' | 'image'> {
   /** [Transformed] Building objects. */
   buildings: Building[]
+  /** Processed Cloudinary image URL from public ID in source file. */
+  image: CloudinaryImage
 }

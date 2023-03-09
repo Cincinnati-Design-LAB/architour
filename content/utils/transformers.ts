@@ -29,5 +29,6 @@ export function transformTour(tour: Contentlayer.Tour): Tour {
     .map(findBuilding)
     .filter((x) => x)
     .map(transformBuilding)
-  return { ...tour, buildings }
+  const image = cloudinaryImageUrls(tour.image)
+  return { ...tour, buildings, image }
 }
