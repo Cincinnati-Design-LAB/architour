@@ -1,5 +1,6 @@
 ---
 import ArrowLeft from './Icon/ArrowLeft.astro'
+import ArrowRight from './Icon/ArrowRight.astro'
 import Building from './Icon/Building.astro'
 import Calendar from './Icon/Calendar.astro'
 import Clock from './Icon/Clock.astro'
@@ -9,7 +10,16 @@ import Star from './Icon/Star.astro'
 import Waves from './Icon/Waves.astro'
 
 export interface Props {
-  name: 'arrow-left' | 'calendar' | 'eye' | 'building' | 'clock' | 'kentucky' | 'star' | 'waves'
+  name:
+    | 'arrow-left'
+    | 'arrow-right'
+    | 'calendar'
+    | 'eye'
+    | 'building'
+    | 'clock'
+    | 'kentucky'
+    | 'star'
+    | 'waves'
 }
 
 const { name } = Astro.props
@@ -18,6 +28,7 @@ const iconMap: {
   [K in Exclude<Props['name'], undefined | null>]: (_props: Record<string, any>) => any
 } = {
   'arrow-left': ArrowLeft,
+  'arrow-right': ArrowRight,
   building: Building,
   calendar: Calendar,
   clock: Clock,
