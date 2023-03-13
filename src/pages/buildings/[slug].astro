@@ -1,7 +1,7 @@
 ---
 import { Building, getBuildings } from '@content'
 import { BuildingAttribute, PageHeader } from '@components'
-import { Layout } from '@layouts'
+import { PageLayout } from '@layouts'
 
 export async function getStaticPaths() {
   const buildingsEntries = await getBuildings()
@@ -14,7 +14,7 @@ export async function getStaticPaths() {
 const building = Astro.props.building as Building
 ---
 
-<Layout title={building.title}>
+<PageLayout title={building.title}>
   <PageHeader title={building.title} image={building.featuredImage} size="lg" />
 
   <div class="max-w-7xl mx-auto relative">
@@ -64,4 +64,4 @@ const building = Astro.props.building as Building
       </div>
     </div>
   </div>
-</Layout>
+</PageLayout>

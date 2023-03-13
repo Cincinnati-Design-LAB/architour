@@ -1,7 +1,7 @@
 ---
 import { getBuildings } from '@content'
 import { BuildingCard, PageHeader } from '@components'
-import { Layout } from '@layouts'
+import { PageLayout } from '@layouts'
 
 const buildings = (await getBuildings()).slice(0, 12)
 
@@ -15,7 +15,7 @@ const buildings = (await getBuildings()).slice(0, 12)
 // }
 ---
 
-<Layout title="Buildings List">
+<PageLayout title="Buildings List">
   <PageHeader title="Cincinnati Buildings" theme="secondary" icon="building" />
 
   <div class="bg-gray-100 pt-8">
@@ -46,4 +46,4 @@ const buildings = (await getBuildings()).slice(0, 12)
       }
     </div>
   </div>
-</Layout>
+</PageLayout>

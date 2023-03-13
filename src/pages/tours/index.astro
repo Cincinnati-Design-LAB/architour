@@ -1,12 +1,12 @@
 ---
 import { getTours } from '@content'
-import { Layout } from '@layouts'
+import { PageLayout } from '@layouts'
 import { PageHeader, TourCard } from '@components'
 
 const tours = await getTours()
 ---
 
-<Layout title="Tours List">
+<PageLayout title="Tours List">
   <PageHeader title="Walking Tours" theme="primary" icon="eye" />
 
   <div class="bg-gray-100 py-8">
@@ -36,4 +36,4 @@ const tours = await getTours()
       }
     </div>
   </div>
-</Layout>
+</PageLayout>

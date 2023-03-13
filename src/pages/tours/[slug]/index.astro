@@ -1,7 +1,7 @@
 ---
 import { PageHeader, CompactCard } from '@components'
 import { getTours, Tour } from '@content'
-import { Layout } from '@layouts'
+import { PageLayout } from '@layouts'
 
 export async function getStaticPaths() {
   const toursEntries = await getTours()
@@ -14,7 +14,7 @@ export async function getStaticPaths() {
 const tour = Astro.props.tour as Tour
 ---
 
-<Layout title={tour.title} class={{ main: 'bg-gray-100' }}>
+<PageLayout title={tour.title} class={{ main: 'bg-gray-100' }}>
   <PageHeader title={tour.title} image={tour.image} size="lg" />
 
   <div class="max-w-7xl mx-auto relative py-16">
@@ -36,4 +36,4 @@ const tour = Astro.props.tour as Tour
       </div>
     </div>
   </div>
-</Layout>
+</PageLayout>

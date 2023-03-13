@@ -1,9 +1,34 @@
 ---
-import { Layout } from '@layouts'
+import { Button, Logo } from '@components'
+import { BaseLayout } from '@layouts'
+
+const buttons = [
+  { label: 'Buildings List', href: '/buildings' },
+  { label: 'Walking Tours', href: '/tours' },
+]
 ---
 
-<Layout title="Home Page">
-  <h1>Home Page</h1>
-
-  <p>Content TBD ...</p>
-</Layout>
+<BaseLayout title="Home Page">
+  <div class="flex items-center justify-center h-screen">
+    <div class="p-8 max-w-2xl mx-auto w-full shrink-0">
+      <div class="mb-12 w-full">
+        <Logo />
+      </div>
+      <div class="flex justify-center space-x-6">
+        {
+          buttons.map((button) => (
+            <Button
+              href={button.href}
+              theme={'secondary'}
+              outline={true}
+              size={'large'}
+              icon={{ name: 'arrow-right', position: 'right' }}
+            >
+              {button.label}
+            </Button>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</BaseLayout>

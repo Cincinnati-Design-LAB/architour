@@ -1,3 +1,6 @@
-import Layout from './Layout.astro'
+import BaseLayout, { Props as BaseLayoutProps } from './Base.astro'
+import PageLayout from './Page.astro'
 
-export { Layout }
+export { BaseLayout, PageLayout }
+
+export type { BaseLayoutProps }

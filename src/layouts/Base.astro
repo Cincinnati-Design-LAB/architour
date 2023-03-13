@@ -1,14 +1,9 @@
 ---
-import { Footer, Header } from '@components'
-
 export interface Props {
   title: string
-  class?: {
-    main?: string
-  }
 }
 
-const { title, class: classNames } = Astro.props
+const { title } = Astro.props
 ---
 
 <!DOCTYPE html>
@@ -31,11 +26,7 @@ const { title, class: classNames } = Astro.props
     <title>{title} | Design LAB</title>
   </head>
   <body>
-    <Header />
-    <main class={classNames?.main}>
-      <slot />
-    </main>
-    <Footer />
+    <slot />
   </body>
 </html>
 

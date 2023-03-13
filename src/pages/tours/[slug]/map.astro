@@ -2,7 +2,7 @@
 import 'mapbox-gl/dist/mapbox-gl.css'
 
 import { getTours, Tour } from '@content'
-import { Layout } from '@layouts'
+import { PageLayout } from '@layouts'
 
 export async function getStaticPaths() {
   const toursEntries = await getTours()
@@ -15,13 +15,13 @@ export async function getStaticPaths() {
 const tour = Astro.props.tour as Tour
 ---
 
-<Layout title={tour.title}>
+<PageLayout title={tour.title}>
   <h1>MAP VIEW: {tour.title}</h1>
 
   <a href={tour.urlPath}>Detail View</a>
 
   <div id="map-container" class="w-[400px] h-[400px]"></div>
-</Layout>
+</PageLayout>
 
 <script>
   import mapboxgl from 'mapbox-gl'
