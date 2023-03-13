@@ -10,22 +10,24 @@ const buttons = [
 
 <BaseLayout title="Home Page">
   <div class="flex items-center justify-center h-screen">
-    <div class="p-8 max-w-2xl mx-auto w-full shrink-0">
+    <div class="p-8 max-w-xl mx-auto w-full shrink-0">
       <div class="mb-12 w-full">
         <Logo />
       </div>
-      <div class="flex justify-center space-x-6">
+      <div class="sm:flex justify-center sm:space-x-6 max-w-xs mx-auto sm:max-w-none">
         {
           buttons.map((button) => (
-            <Button
-              href={button.href}
-              theme={'secondary'}
-              outline={true}
-              size={'large'}
-              icon={{ name: 'arrow-right', position: 'right' }}
-            >
-              {button.label}
-            </Button>
+            <div class="block mb-4">
+              <Button
+                href={button.href}
+                theme={'secondary'}
+                outline={true}
+                size={'large'}
+                icon={{ name: 'arrow-right', position: 'right' }}
+              >
+                {button.label}
+              </Button>
+            </div>
           ))
         }
       </div>
