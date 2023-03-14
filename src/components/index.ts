@@ -1,4 +1,4 @@
-import BuildingAttribute, { Props as BuildingAttributeProps } from './BuildingAttribute.astro'
+import Stat, { Props as StatProps } from './Stat.astro'
 import BuildingCard, { Props as BuildingCardProps } from './Card/Building.astro'
 import Button, { Props as ButtonProps } from './Button.astro'
 import CompactCard, { Props as CompactCardProps } from './Card/Compact.astro'
@@ -11,7 +11,7 @@ import PageHeader, { Props as PageHeaderProps } from './PageHeader.astro'
 import TourCard, { Props as TourCardProps } from './Card/Tour.astro'
 
 export {
-  BuildingAttribute,
+  Stat,
   BuildingCard,
   Button,
   CompactCard,
@@ -25,7 +25,7 @@ export {
 }
 
 export type {
-  BuildingAttributeProps,
+  StatProps,
   BuildingCardProps,
   ButtonProps,
   CompactCardProps,

@@ -1,6 +1,6 @@
 ---
 import { Building, getBuildings } from '@content'
-import { BuildingAttribute, PageHeader } from '@components'
+import { Stat, PageHeader } from '@components'
 import { PageLayout } from '@layouts'
 
 export async function getStaticPaths() {
@@ -28,13 +28,9 @@ const building = Astro.props.building as Building
         {
           building.hasPrimaryAttributes && (
             <div class="grid grid-cols-2 gap-x-10 gap-y-6 mb-12">
-              <BuildingAttribute label="Historic Status" value={building.historic_status} />
-              <BuildingAttribute label="Current Owner" value={building.current_owner} />
-              <BuildingAttribute
-                label="Unique Features"
-                value={building.unique_features}
-                class="col-span-2"
-              />
+              <Stat label="Historic Status" value={building.historic_status} />
+              <Stat label="Current Owner" value={building.current_owner} />
+              <Stat label="Unique Features" value={building.unique_features} class="col-span-2" />
             </div>
           )
         }
@@ -52,10 +48,10 @@ const building = Astro.props.building as Building
         {
           building.hasSecondaryAttributes && (
             <div class="grid grid-cols-2 gap-x-8 gap-y-6 mb-12">
-              <BuildingAttribute label="Completed" value={building.date_of_completion} />
-              <BuildingAttribute label="Original Owner" value={building.original_owner} />
-              <BuildingAttribute label="Architect" value={building.architect} />
-              <BuildingAttribute label="Style" value={building.style} />
+              <Stat label="Completed" value={building.date_of_completion} />
+              <Stat label="Original Owner" value={building.original_owner} />
+              <Stat label="Architect" value={building.architect} />
+              <Stat label="Style" value={building.style} />
             </div>
           )
         }
