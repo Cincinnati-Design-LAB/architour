@@ -1,5 +1,5 @@
 ---
-import { PageHeader, CompactCard } from '@components'
+import { PageHeader, CompactCard, Stat } from '@components'
 import { getTours, Tour } from '@content'
 import { PageLayout } from '@layouts'
 
@@ -17,22 +17,40 @@ const tour = Astro.props.tour as Tour
 <PageLayout title={tour.title} class={{ main: 'bg-gray-100' }}>
   <PageHeader title={tour.title} image={tour.image} size="lg" />
 
-  <div class="max-w-7xl mx-auto relative py-16">
-    <a href={tour.mapUrlPath}>Map View</a>
-
-    <div class="max-w-4xl">
-      <h2 class="font-bold text-3xl mb-6">Buildings on the Tour</h2>
-      <div class="grid grid-cols-2 gap-6">
+  <div class="max-w-7xl mx-auto relative px-4 py-16">
+    <div class="grid grid-cols-12 gap-16">
+      <div class="col-span-7">
         {
-          tour.buildings.map((building) => (
-            <CompactCard
-              title={building.title}
-              image={building.featuredImage}
-              excerpt={building.excerpt.html}
-              href={building.urlPath}
-            />
-          ))
+          tour.description.html.length > 0 && (
+            <div class="text-lg mb-12" set:html={tour.description.html} />
+          )
         }
+        <div class="grid grid-cols-2 gap-x-10 gap-y-6 mb-12">
+          <Stat label="Buildings on Tour" value={tour.buildings.length.toString()} />
+          <Stat label="Estimated Walking Time" value={tour.time_estimate} />
+        </div>
+      </div>
+
+      <div class="col-span-5">
+        <div class="mb-12">Map goes here ...</div>
+      </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto relative">
+      <div class="max-w-4xl">
+        <h2 class="font-bold text-3xl mb-6">Buildings on the Tour</h2>
+        <div class="grid grid-cols-2 gap-6">
+          {
+            tour.buildings.map((building) => (
+              <CompactCard
+                title={building.title}
+                image={building.featuredImage}
+                excerpt={building.excerpt.html}
+                href={building.urlPath}
+              />
+            ))
+          }
+        </div>
       </div>
     </div>
   </div>
