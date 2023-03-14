@@ -1,5 +1,17 @@
 ---
-import { Button, HeaderLink, Icon, Logo } from '@components'
+import { Button, HeaderLink, Icon, IconProps, Logo } from '@components'
+
+const desktopLinks: Array<{ href: string; label: string; button?: boolean }> = [
+  { href: '/buildings', label: 'Building List' },
+  { href: '/tours', label: 'Walking Tours' },
+  { href: 'https://www.designlearnandbuild.org/donate', label: 'Donate', button: true },
+]
+
+const mobileLinks: Array<{ href: string; icon: IconProps['name']; button?: boolean }> = [
+  { href: '/buildings', icon: 'building' },
+  { href: '/tours', icon: 'eye' },
+  { href: 'https://www.designlearnandbuild.org/donate', icon: 'donate', button: true },
+]
 ---
 
 <header class="max-w-7xl mx-auto px-4 py-6">
@@ -16,10 +28,35 @@ import { Button, HeaderLink, Icon, Logo } from '@components'
         <Logo />
       </a>
     </div>
-    <div class="flex space-x-6 justify-between items-center">
-      <HeaderLink href="/buildings">Building List</HeaderLink>
-      <HeaderLink href="/tours">Walking Tours</HeaderLink>
-      <Button href="https://www.designlearnandbuild.org/donate">Donate</Button>
+    <div class="space-x-6 justify-between items-center hidden md:flex">
+      {
+        desktopLinks.map((link) => {
+          if (link.button) return <Button href={link.href}>{link.label}</Button>
+          return <HeaderLink href={link.href}>{link.label}</HeaderLink>
+        })
+      }
+    </div>
+    <div class="space-x-4 justify-between items-center flex md:hidden">
+      {
+        mobileLinks.map((link) => {
+          if (link.button) {
+            return (
+              <Button href={link.href}>
+                <span class="block w-8">
+                  <Icon name={link.icon} />
+                </span>
+              </Button>
+            )
+          }
+          return (
+            <HeaderLink href={link.href}>
+              <span class="block w-8">
+                <Icon name={link.icon} />
+              </span>
+            </HeaderLink>
+          )
+        })
+      }
     </div>
   </div>
 </header>
