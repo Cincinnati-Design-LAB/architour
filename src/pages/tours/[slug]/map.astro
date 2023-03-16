@@ -1,7 +1,7 @@
 ---
 import 'mapbox-gl/dist/mapbox-gl.css'
 
-import { getTours, Tour } from '@content'
+import { getTours, Tour, Building } from '@content'
 import { MapLayout } from '@layouts'
 import { Icon, PageHeader } from '@components'
 
@@ -48,7 +48,10 @@ console.log(tour.buildings[0])
   <div id="map-container" class="w-screen h-[calc(100vh-15rem)]"></div>
 
   <script>
+    import { Building } from '@content'
     import mapboxgl from 'mapbox-gl'
+
+    /* --- Setup Map --- */
 
     mapboxgl.accessToken = import.meta.env.PUBLIC_MAPBOX_TOKEN
 
@@ -59,34 +62,73 @@ console.log(tour.buildings[0])
       zoom: 12,
     })
 
+    /* --- Constants --- */
+
     // Building data is text embedded in a hidden div in the DOM
     const buildingData = JSON.parse(document.getElementById('building-data').innerHTML)
     // Drawer element ref that slides in and out
     const drawer = document.getElementById('drawer')
 
-    var bounds = new mapboxgl.LngLatBounds()
+    /* --- Shared Refs --- */
 
-    const drawerCloseClass = 'right-[-30rem]'
-    const drawerOpenClass = 'right-0'
+    const DRAWER_CLOSE_CLASS = 'right-[-30rem]'
+    const DRAWER_OPEN_CLASS = 'right-0'
 
+    /**
+     * Remove the highlight from all markers.
+     */
     function removeActiveMarker() {
       document.querySelectorAll('.building-marker').forEach((el: HTMLDivElement) => {
         el.style.backgroundColor = '#3D3935'
       })
     }
 
+    /**
+     * Open the drawer. This should be called after the content in the drawer
+     * has been updated.
+     */
     function openDrawer() {
-      drawer.classList.add(drawerOpenClass)
-      drawer.classList.remove(drawerCloseClass)
+      drawer.classList.add(DRAWER_OPEN_CLASS)
+      drawer.classList.remove(DRAWER_CLOSE_CLASS)
     }
 
+    /**
+     * Close the drawer. Does not remove content from the drawer.
+     */
     function closeDrawer() {
       removeActiveMarker()
-      drawer.classList.add(drawerCloseClass)
-      drawer.classList.remove(drawerOpenClass)
+      drawer.classList.add(DRAWER_CLOSE_CLASS)
+      drawer.classList.remove(DRAWER_OPEN_CLASS)
     }
 
-    buildingData.forEach((building) => {
+    /**
+     * Handle a click on a marker. This will highlight the marker, then populate
+     * and open the drawer.
+     */
+    function handleMarkerClick(
+      event: MouseEvent,
+      el: HTMLDivElement,
+      marker: Building['mapMarker'],
+    ) {
+      event.stopPropagation()
+      // Remove highlight from all buildings
+      removeActiveMarker()
+      // Highlight the active building
+      el.style.backgroundColor = '#799A05'
+      // Add info to the drawer
+      const drawerImg = document.getElementById('drawer-image') as HTMLImageElement
+      drawerImg.src = marker.properties.image.square.small
+      document.getElementById('drawer-title').innerHTML = marker.properties.title
+      document.getElementById('drawer-excerpt').innerHTML = marker.properties.excerpt.raw || ''
+      document.getElementById('drawer-link').setAttribute('href', marker.properties.urlPath)
+      // Slide in the drawer
+      openDrawer()
+    }
+
+    /**
+     * Create a marker element. This is a simple circle with a border.
+     */
+    function createMarkerElement() {
       const el = document.createElement('div')
       el.className = 'building-marker cursor-pointer'
       el.style.backgroundColor = '#3D3935'
@@ -94,29 +136,26 @@ console.log(tour.buildings[0])
       el.style.height = '1.5rem'
       el.style.borderRadius = '50%'
       el.style.border = '.2rem solid white'
+      return el
+    }
 
+    /* --- Add Markers --- */
+
+    buildingData.map((building) => {
+      const el = createMarkerElement()
       new mapboxgl.Marker(el).setLngLat(building.geometry.coordinates).addTo(map)
-
-      bounds.extend(building.geometry.coordinates)
-
-      el.addEventListener('click', (event) => {
-        event.stopPropagation()
-        // Remove highlight from all buildings
-        removeActiveMarker()
-        // Highlight the active building
-        el.style.backgroundColor = '#799A05'
-        // Slide in the drawer
-        openDrawer()
-        // Add info to the drawer
-        const drawerImg = document.getElementById('drawer-image') as HTMLImageElement
-        drawerImg.src = building.properties.image.square.small
-        document.getElementById('drawer-title').innerHTML = building.properties.title
-        document.getElementById('drawer-excerpt').innerHTML = building.properties.excerpt.raw || ''
-        document.getElementById('drawer-link').setAttribute('href', building.properties.urlPath)
-      })
+      el.addEventListener('click', (event) => handleMarkerClick(event, el, building))
     })
 
+    /* --- Set Map Bounds --- */
+
+    let bounds = new mapboxgl.LngLatBounds()
+    buildingData.map((building) => {
+      bounds.extend(building.geometry.coordinates)
+    })
     map.fitBounds(bounds, { padding: 50 })
+
+    /* --- Global Event Listeners --- */
 
     map.on('click', closeDrawer)
     document.getElementById('drawer-close-trigger').addEventListener('click', closeDrawer)
