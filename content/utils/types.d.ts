@@ -1,5 +1,6 @@
 import * as Contentlayer from '@/.contentlayer/generated'
 import { CloudinaryImage } from './images'
+import { MapMarker } from './map'
 import { Markdown } from './markdown'
 
 export interface Building extends Omit<Contentlayer.Building, 'images'> {

@@ -7,7 +7,7 @@
 export function getExcerpt(input: string): string | undefined {
   const rawBody = input.trim()
   // Targeting first punctuation mark followed by a space.
-  const matches = rawBody.match(/([\.\,\!\?])(?=[\ ])/)
+  const matches = rawBody.match(/([\.\!\?])(?=[\ ])/)
   if (!matches) return
   // First punctuation character
   const firstPunctuation = matches[0]

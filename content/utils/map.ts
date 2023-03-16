@@ -7,6 +7,9 @@ export type MapMarker = {
   type: 'Feature'
   properties: {
     title: string
+    excerpt: Building['excerpt']
+    image: Building['featuredImage']
+    urlPath: Building['urlPath']
   }
   geometry: {
     type: 'Point'
@@ -37,6 +40,9 @@ export function mapMarkerData({
     type: 'Feature',
     properties: {
       title,
+      image,
+      excerpt,
+      urlPath,
     },
     geometry: {
       type: 'Point',

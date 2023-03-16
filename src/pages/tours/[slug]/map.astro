@@ -3,7 +3,7 @@ import 'mapbox-gl/dist/mapbox-gl.css'
 
 import { getTours, Tour } from '@content'
 import { MapLayout } from '@layouts'
-import { PageHeader } from '@components'
+import { Icon, PageHeader } from '@components'
 
 export async function getStaticPaths() {
   const toursEntries = await getTours()
@@ -25,6 +25,26 @@ console.log(tour.buildings[0])
     [{tour.buildings.map((building) => JSON.stringify(building.mapMarker)).join(',')}]
   </div>
 
+  <div
+    class="fixed right-[-30rem] bg-white w-[24rem] max-w-[75%] h-[calc(100vh-15rem)] z-10 transition-all duration-300"
+    id="drawer"
+  >
+    <button class="absolute w-6 left-4 top-4 text-white" id="drawer-close-trigger">
+      <Icon name="cancel" />
+    </button>
+    <img class="w-full" id="drawer-image" src="" />
+    <div class="px-4 py-6">
+      <h2 class="text-2xl font-black mb-3" id="drawer-title"></h2>
+      <p class="mb-6" id="drawer-excerpt"></p>
+      <a class="pb-2 border-b border-b-black inline-block" id="drawer-link" href="">
+        <span class="flex items-center space-x-2">
+          <span>Learn Details</span>
+          <span class="block w-4"><Icon name={'arrow-right'} /></span>
+        </span>
+      </a>
+    </div>
+  </div>
+
   <div id="map-container" class="w-screen h-[calc(100vh-15rem)]"></div>
 
   <script>
@@ -39,7 +59,10 @@ console.log(tour.buildings[0])
       zoom: 12,
     })
 
+    // Building data is text embedded in a hidden div in the DOM
     const buildingData = JSON.parse(document.getElementById('building-data').innerHTML)
+    // Drawer element ref that slides in and out
+    const drawer = document.getElementById('drawer')
 
     var bounds = new mapboxgl.LngLatBounds()
 
@@ -63,9 +86,23 @@ console.log(tour.buildings[0])
         })
         // Highlight the active building
         el.style.backgroundColor = '#799A05'
+        // Slide in the drawer
+        drawer.classList.add('right-0')
+        drawer.classList.remove('right-[-30rem]')
+        // Add info to the drawer
+        const drawerImg = document.getElementById('drawer-image') as HTMLImageElement
+        drawerImg.src = building.properties.image.square.small
+        document.getElementById('drawer-title').innerHTML = building.properties.title
+        document.getElementById('drawer-excerpt').innerHTML = building.properties.excerpt.raw || ''
+        document.getElementById('drawer-link').setAttribute('href', building.properties.urlPath)
       })
     })
 
     map.fitBounds(bounds, { padding: 50 })
+
+    document.getElementById('drawer-close-trigger').addEventListener('click', () => {
+      drawer.classList.add('right-[-30rem]')
+      drawer.classList.remove('right-0')
+    })
   </script>
 </MapLayout>
