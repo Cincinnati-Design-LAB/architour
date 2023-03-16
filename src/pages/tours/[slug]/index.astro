@@ -1,5 +1,5 @@
 ---
-import { PageHeader, CompactCard, Stat } from '@components'
+import { PageHeader, CompactCard, Stat, Button } from '@components'
 import { getTours, Tour } from '@content'
 import { PageLayout } from '@layouts'
 
@@ -33,6 +33,7 @@ const tour = Astro.props.tour as Tour
 
       <div class="col-span-5">
         <div class="mb-12">Map goes here ...</div>
+        <a class="underline" href={tour.urlPath + '/map'}>Go to Map</a>
       </div>
     </div>
 

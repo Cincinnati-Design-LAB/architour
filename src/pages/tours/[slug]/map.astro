@@ -2,7 +2,8 @@
 import 'mapbox-gl/dist/mapbox-gl.css'
 
 import { getTours, Tour } from '@content'
-import { PageLayout } from '@layouts'
+import { MapLayout } from '@layouts'
+import { PageHeader } from '@components'
 
 export async function getStaticPaths() {
   const toursEntries = await getTours()
@@ -15,23 +16,21 @@ export async function getStaticPaths() {
 const tour = Astro.props.tour as Tour
 ---
 
-<PageLayout title={tour.title}>
-  <h1>MAP VIEW: {tour.title}</h1>
+<MapLayout title={tour.title}>
+  <PageHeader title={tour.title} image={tour.image} size={'md'} />
 
-  <a href={tour.urlPath}>Detail View</a>
+  <div id="map-container" class="w-screen h-[calc(100vh-15rem)]"></div>
 
-  <div id="map-container" class="w-[400px] h-[400px]"></div>
-</PageLayout>
+  <script>
+    import mapboxgl from 'mapbox-gl'
 
-<script>
-  import mapboxgl from 'mapbox-gl'
+    mapboxgl.accessToken = import.meta.env.PUBLIC_MAPBOX_TOKEN
 
-  mapboxgl.accessToken = import.meta.env.PUBLIC_MAPBOX_TOKEN
-
-  const map = new mapboxgl.Map({
-    container: 'map-container',
-    style: `mapbox://styles/${import.meta.env.PUBLIC_MAPBOX_STYLE}`,
-    center: [-74.5, 40],
-    zoom: 9,
-  })
-</script>
+    const map = new mapboxgl.Map({
+      container: 'map-container',
+      style: `mapbox://styles/${import.meta.env.PUBLIC_MAPBOX_STYLE}`,
+      center: [-74.5, 40],
+      zoom: 9,
+    })
+  </script>
+</MapLayout>

@@ -12,6 +12,9 @@ Phase 1:
 - [ ] Introduce Link component that:
   - [ ] Detects external links and adds `target="_blank" rel="noopener noreferrer"` and an icon
   - [ ] Provide styling options?
+- [ ] Responsive styles
+- [ ] Building list filtering and pagination
+- [ ] Way to get back from PageHeader?
 
 Phase 2:
 

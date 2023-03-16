@@ -1,0 +1,19 @@
+---
+import { Footer, Header } from '@components'
+import { BaseLayout, BaseLayoutProps } from '.'
+
+export interface Props extends BaseLayoutProps {
+  class?: {
+    main?: string
+  }
+}
+
+const { title, class: classNames } = Astro.props
+---
+
+<BaseLayout title={title} bodyClasses="h-screen overflow-y-none">
+  <Header />
+  <main class={classNames?.main}>
+    <slot />
+  </main>
+</BaseLayout>
