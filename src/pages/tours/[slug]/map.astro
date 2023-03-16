@@ -66,6 +66,26 @@ console.log(tour.buildings[0])
 
     var bounds = new mapboxgl.LngLatBounds()
 
+    const drawerCloseClass = 'right-[-30rem]'
+    const drawerOpenClass = 'right-0'
+
+    function removeActiveMarker() {
+      document.querySelectorAll('.building-marker').forEach((el: HTMLDivElement) => {
+        el.style.backgroundColor = '#3D3935'
+      })
+    }
+
+    function openDrawer() {
+      drawer.classList.add(drawerOpenClass)
+      drawer.classList.remove(drawerCloseClass)
+    }
+
+    function closeDrawer() {
+      removeActiveMarker()
+      drawer.classList.add(drawerCloseClass)
+      drawer.classList.remove(drawerOpenClass)
+    }
+
     buildingData.forEach((building) => {
       const el = document.createElement('div')
       el.className = 'building-marker cursor-pointer'
@@ -79,16 +99,14 @@ console.log(tour.buildings[0])
 
       bounds.extend(building.geometry.coordinates)
 
-      el.addEventListener('click', () => {
+      el.addEventListener('click', (event) => {
+        event.stopPropagation()
         // Remove highlight from all buildings
-        document.querySelectorAll('.building-marker').forEach((el: HTMLDivElement) => {
-          el.style.backgroundColor = '#3D3935'
-        })
+        removeActiveMarker()
         // Highlight the active building
         el.style.backgroundColor = '#799A05'
         // Slide in the drawer
-        drawer.classList.add('right-0')
-        drawer.classList.remove('right-[-30rem]')
+        openDrawer()
         // Add info to the drawer
         const drawerImg = document.getElementById('drawer-image') as HTMLImageElement
         drawerImg.src = building.properties.image.square.small
@@ -100,9 +118,7 @@ console.log(tour.buildings[0])
 
     map.fitBounds(bounds, { padding: 50 })
 
-    document.getElementById('drawer-close-trigger').addEventListener('click', () => {
-      drawer.classList.add('right-[-30rem]')
-      drawer.classList.remove('right-0')
-    })
+    map.on('click', closeDrawer)
+    document.getElementById('drawer-close-trigger').addEventListener('click', closeDrawer)
   </script>
 </MapLayout>
