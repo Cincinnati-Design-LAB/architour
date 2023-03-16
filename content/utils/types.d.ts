@@ -11,6 +11,8 @@ export interface Building extends Omit<Contentlayer.Building, 'images'> {
   featuredImage: CloudinaryImage
   /** Convert first clause from the body as the excerpt */
   excerpt?: Markdown
+  /** Details that can be used directly on the map */
+  mapMarker: MapMarker
 }
 
 export interface Tour extends Omit<Contentlayer.Tour, 'buildings' | 'image'> {

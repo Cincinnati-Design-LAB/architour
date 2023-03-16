@@ -1,5 +1,6 @@
 import * as Contentlayer from '@/.contentlayer/generated'
 import { cloudinaryImageUrls } from './images'
+import { mapMarkerData } from './map'
 import { processMarkdown } from './markdown'
 import { getExcerpt } from './text'
 import { Building, Tour } from './types'
@@ -16,7 +17,14 @@ export async function transformBuilding(building: Contentlayer.Building): Promis
   const images = building.images.map((id) => cloudinaryImageUrls(id))
   const featuredImage = images[0]
   const excerpt = await processMarkdown(getExcerpt(building.body.raw))
-  return { ...building, tourCount, images, featuredImage, excerpt }
+  const mapMarker = mapMarkerData({
+    excerpt: excerpt,
+    image: featuredImage,
+    location: building.location,
+    title: building.title,
+    urlPath: building.urlPath,
+  })
+  return { ...building, tourCount, images, featuredImage, excerpt, mapMarker }
 }
 
 /**

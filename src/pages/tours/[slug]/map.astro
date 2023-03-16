@@ -14,10 +14,16 @@ export async function getStaticPaths() {
 }
 
 const tour = Astro.props.tour as Tour
+
+console.log(tour.buildings[0])
 ---
 
 <MapLayout title={tour.title}>
   <PageHeader title={tour.title} image={tour.image} size={'md'} />
+
+  <div class="hidden" id="building-data">
+    [{tour.buildings.map((building) => JSON.stringify(building.mapMarker)).join(',')}]
+  </div>
 
   <div id="map-container" class="w-screen h-[calc(100vh-15rem)]"></div>
 
@@ -29,8 +35,37 @@ const tour = Astro.props.tour as Tour
     const map = new mapboxgl.Map({
       container: 'map-container',
       style: `mapbox://styles/${import.meta.env.PUBLIC_MAPBOX_STYLE}`,
-      center: [-74.5, 40],
-      zoom: 9,
+      center: [-84.512, 39.1031],
+      zoom: 12,
     })
+
+    const buildingData = JSON.parse(document.getElementById('building-data').innerHTML)
+
+    var bounds = new mapboxgl.LngLatBounds()
+
+    buildingData.forEach((building) => {
+      const el = document.createElement('div')
+      el.className = 'building-marker cursor-pointer'
+      el.style.backgroundColor = '#3D3935'
+      el.style.width = '1.5rem'
+      el.style.height = '1.5rem'
+      el.style.borderRadius = '50%'
+      el.style.border = '.2rem solid white'
+
+      new mapboxgl.Marker(el).setLngLat(building.geometry.coordinates).addTo(map)
+
+      bounds.extend(building.geometry.coordinates)
+
+      el.addEventListener('click', () => {
+        // Remove highlight from all buildings
+        document.querySelectorAll('.building-marker').forEach((el: HTMLDivElement) => {
+          el.style.backgroundColor = '#3D3935'
+        })
+        // Highlight the active building
+        el.style.backgroundColor = '#799A05'
+      })
+    })
+
+    map.fitBounds(bounds, { padding: 50 })
   </script>
 </MapLayout>
