@@ -6,7 +6,8 @@
   "scripts": {
     "astro:build": "astro build",
     "astro:dev": "astro dev",
-    "cloudinary:create-transformations": "ts-node --esm ./scripts/create-cloudinary-transformations.ts",
+    "cache-static-map-urls": "ts-node --esm ./content/scripts/cache-static-map-urls.ts",
+    "cloudinary:create-transformations": "ts-node --esm ./content/scripts/create-cloudinary-transformations.ts",
     "contentlayer:build": "contentlayer build",
     "contentlayer:dev": "contentlayer dev",
     "dev": "npm-run-all -p contentlayer:dev astro:dev",

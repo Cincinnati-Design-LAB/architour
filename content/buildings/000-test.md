@@ -19,6 +19,7 @@ renovations: Conversion of former Metropole Hotel into boutique hotel and art co
 renovation_date: '2012'
 renovation_architect: Perfido Weiskopf Wagstaff + Goettel
 renovation_style: Contemporary
+static_map_url: buildings/000-test/static-map-dsjmzf1zd0v_t83fmq
 ---
 
 **The original** hotel declined in popularity in the 50s and 60s and became a transient hotel. The renovation in _2012 returned_ the hotel to its place in the city as an integral part of the new Entertainment District.
