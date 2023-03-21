@@ -83,7 +83,10 @@ for (const filePath of glob.sync(path.join(CONTENT_DIR, 'buildings/**/*.md'))) {
   // Skip if staticMapUrl already exists and matches (if location didn't change)
   if (newStaticMapUrl === data.static_map_url) continue
 
+  // TODO: Remove old image from Cloudinary??
+
   // Download static map image
+  // TODO: Remove if Cloudinary is already adding this random string
   const filename = `static-map-${randomString()}.png`
   const cachedImage = await downloadImage(newStaticMapUrl, filename)
 
@@ -98,6 +101,7 @@ for (const filePath of glob.sync(path.join(CONTENT_DIR, 'buildings/**/*.md'))) {
   const formatted = prettier.format(matter.stringify(content, data), { parser: 'markdown' })
   fs.writeFileSync(filePath, formatted)
 
+  // TODO: Remove me
   process.exit(0)
 }
 
@@ -115,6 +119,11 @@ for (const filePath of glob.sync(path.join(CONTENT_DIR, 'tours/**/*.md'))) {
     .filter(Boolean)
 
   console.log(data.title, '->', markerCoords)
+
+  // TODO: Use these coordinates to add markers to a static map, and do the same
+  // process as above
+
+  // TODO: Consider if there are other abstractions between this and the above.
 
   // data.static_map_url = `https://api.mapbox.com/styles/v1/${process.env.PUBLIC_MAPBOX_STYLE}/static/pin-l+799A05(${data.location.lng},${data.location.lat})/${data.location.lng},${data.location.lat},15,0/800x450@2x?access_token=${process.env.STATIC_MAPBOX_TOKEN}`
   // const formatted = prettier.format(matter.stringify(content, data), { parser: 'markdown' })
