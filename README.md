@@ -2,7 +2,7 @@ TODO:
 
 Phase 1:
 
-- [ ] Introduce map component
+- [x] Introduce map component
 - [ ] Generate static maps with Mapbox
   - [ ] For buildings
   - [ ] For tours
