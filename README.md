@@ -2,10 +2,11 @@ TODO:
 
 Phase 1:
 
-- [x] Introduce map component
+- [✔️] Introduce map component
 - [ ] Generate static maps with Mapbox
-  - [ ] For buildings
-  - [ ] For tours
+  - [✔️] For buildings
+  - [✔️] For tours
+  - [ ] Process all images
 - [ ] Use `srcset` and `sizes` attributes to provide responsive images
   - [ ] Will need to generate multiple sizes of images
 - [ ] Move header and footer content into JSON files
