@@ -16,6 +16,8 @@ Phase 1:
 - [ ] Responsive styles
 - [ ] Building list filtering and pagination
 - [ ] Way to get back from PageHeader?
+- [ ] Add renovation history to buildings
+- [ ] What to do with additional fields we're not using
 
 Phase 2:
 
