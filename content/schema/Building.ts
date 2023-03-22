@@ -123,6 +123,11 @@ export const Building = defineDocumentType(() => ({
       type: 'string',
       description: 'If the images used for the building required attribution, add that here.',
     },
+    static_map_url: {
+      type: 'string',
+      description:
+        'Cloudinary Public ID for the static map image, processed by a local script, using Mapbox.',
+    },
   },
   computedFields: {
     urlPath: {
@@ -155,14 +160,6 @@ export const Building = defineDocumentType(() => ({
         building.style
           ? true
           : false,
-    },
-    staticMapUrl: {
-      type: 'string',
-      description: 'URL for a static map image of the building location.',
-      resolve: (building) => {
-        if (!building.location || !building.location.lat || !building.location.lng) return null
-        return `https://api.mapbox.com/styles/v1/${process.env.PUBLIC_MAPBOX_STYLE}/static/pin-l+799A05(${building.location.lng},${building.location.lat})/${building.location.lng},${building.location.lat},15,0/800x450@2x?access_token=${process.env.STATIC_MAPBOX_TOKEN}`
-      },
     },
   },
 }))

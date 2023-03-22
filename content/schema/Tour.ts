@@ -34,6 +34,11 @@ export const Tour = defineDocumentType(() => ({
       type: 'list',
       of: Building,
     },
+    static_map_url: {
+      type: 'string',
+      description:
+        'Cloudinary Public ID for the static map image, processed by a local script, using Mapbox.',
+    },
   },
   computedFields: {
     urlPath: {
