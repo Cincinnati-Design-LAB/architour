@@ -14,8 +14,6 @@ export async function getStaticPaths() {
 }
 
 const tour = Astro.props.tour as Tour
-
-console.log(tour.buildings[0])
 ---
 
 <MapLayout title={tour.title}>
