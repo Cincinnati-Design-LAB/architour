@@ -109,9 +109,7 @@ function updateSourceFile(filePath: string, content: string, data: Record<string
  * @returns true if the image is current, false if it needs to be replaced
  */
 function hasCurrentImage(data: Record<string, any>, newCacheKey: string): boolean {
-  return (
-    data.static_map_url && data.static_map_url.length > 0 && newCacheKey === data.static_map_cache
-  )
+  return data.static_map && data.static_map.length > 0 && newCacheKey === data.static_map_cache
 }
 
 /**
@@ -139,7 +137,7 @@ async function updateStaticMapImage({
   // Upload static map to Cloudinary
   const cloudinaryResult = await uploadImage(newStaticMapUrl, cloudinaryDir)
   // Store reference to Cloudinary URL in data
-  data.static_map_url = cloudinaryResult.public_id
+  data.static_map = cloudinaryResult.public_id
   // Store cache key for next time
   data.static_map_cache = newCacheKey
   // Write new content to file

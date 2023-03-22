@@ -14,6 +14,8 @@ export interface Building extends Omit<Contentlayer.Building, 'images'> {
   excerpt?: Markdown
   /** Details that can be used directly on the map */
   mapMarker: MapMarker
+  /** Transformed Cloudinary image object from static map */
+  static_map: CloudinaryImage
 }
 
 export interface Tour extends Omit<Contentlayer.Tour, 'buildings' | 'image'> {
@@ -21,4 +23,6 @@ export interface Tour extends Omit<Contentlayer.Tour, 'buildings' | 'image'> {
   buildings: Building[]
   /** Processed Cloudinary image URL from public ID in source file. */
   image: CloudinaryImage
+  /** Transformed Cloudinary image object from static map */
+  static_map: CloudinaryImage
 }

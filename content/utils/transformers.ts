@@ -24,7 +24,8 @@ export async function transformBuilding(building: Contentlayer.Building): Promis
     title: building.title,
     urlPath: building.urlPath,
   })
-  return { ...building, tourCount, images, featuredImage, excerpt, mapMarker }
+  const static_map = cloudinaryImageUrls(building.static_map)
+  return { ...building, tourCount, images, featuredImage, excerpt, mapMarker, static_map }
 }
 
 /**
@@ -43,5 +44,6 @@ export async function transformTour(tour: Contentlayer.Tour): Promise<Tour> {
       .map(transformBuilding),
   )
   const image = cloudinaryImageUrls(tour.image)
-  return { ...tour, buildings, image }
+  const static_map = cloudinaryImageUrls(tour.static_map)
+  return { ...tour, buildings, image, static_map }
 }

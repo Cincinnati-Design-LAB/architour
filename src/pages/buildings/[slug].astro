@@ -55,7 +55,13 @@ const building = Astro.props.building as Building
             </div>
           )
         }
-        <div class="mb-12">Map goes here ...</div>
+        {
+          building.static_map && (
+            <div class="mb-12">
+              <img src={building.static_map.square.small} class="w-full" />
+            </div>
+          )
+        }
         <div>Renovation history goes here ...</div>
       </div>
     </div>

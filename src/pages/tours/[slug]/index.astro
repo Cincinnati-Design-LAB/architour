@@ -32,8 +32,13 @@ const tour = Astro.props.tour as Tour
       </div>
 
       <div class="col-span-5">
-        <div class="mb-12">Map goes here ...</div>
-        <a class="underline" href={tour.urlPath + '/map'}>Go to Map</a>
+        {
+          tour.static_map && (
+            <a class="underline" href={tour.urlPath + '/map'}>
+              <img src={tour.static_map.square.small} class="w-full" />
+            </a>
+          )
+        }
       </div>
     </div>
 

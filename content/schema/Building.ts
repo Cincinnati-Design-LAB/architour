@@ -123,7 +123,7 @@ export const Building = defineDocumentType(() => ({
       type: 'string',
       description: 'If the images used for the building required attribution, add that here.',
     },
-    static_map_url: {
+    static_map: {
       type: 'string',
       description:
         'Cloudinary Public ID for the static map image, processed by a local script, using Mapbox.',

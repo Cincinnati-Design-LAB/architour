@@ -19,7 +19,7 @@ renovations: Conversion of former Metropole Hotel into boutique hotel and art co
 renovation_date: '2012'
 renovation_architect: Perfido Weiskopf Wagstaff + Goettel
 renovation_style: Contemporary
-static_map_url: buildings/21c-museum-hotel/static-map_ymvf5k
+static_map: buildings/21c-museum-hotel/static-map_ymvf5k
 static_map_cache: '{"lat":39.1030545,"lng":-84.5120005}'
 ---
 
