@@ -8,6 +8,10 @@ import { UploadApiResponse, v2 as cloudinary } from 'cloudinary'
 
 const CONTENT_DIR = path.join(process.cwd(), 'content')
 const TMP_DIR = path.join(process.cwd(), 'tmp')
+const IMAGE_BASENAME = 'static-map'
+const PRETTIER_OPTIONS = JSON.parse(
+  fs.readFileSync(path.join(process.cwd(), '.prettierrc'), 'utf8'),
+)
 
 /* --- Setup --- */
 
@@ -57,11 +61,25 @@ async function uploadImage(filePath: string, folder: string): Promise<UploadApiR
 }
 
 /**
- * Generate a random string
- * @returns Random string
+ * Deletes all assets that start with the prefix in a Cloudinary folder
+ *
+ * @param cloudinaryDir Name of folder (prefix) in Cloudinary to find static
+ * maps to delete
+ * @returns Array of public IDs of deleted assets
  */
-function randomString(): string {
-  return Math.random().toString(36).substring(2, 15)
+async function deleteStaticMapImages(cloudinaryDir: string): Promise<string[]> {
+  // Retrieve assets in Cloudinary folder
+  const { resources } = await cloudinary.api.resources({
+    type: 'upload',
+    prefix: cloudinaryDir,
+  })
+  // Filter out assets that don't start with the prefix, and get the public IDs
+  const publicIds = resources
+    .map((r) => r.public_id)
+    .filter((r) => path.basename(r).startsWith(IMAGE_BASENAME))
+  // Delete assets
+  if (publicIds.length) await cloudinary.api.delete_resources(publicIds)
+  return publicIds
 }
 
 /* --- Buildings --- */
@@ -69,6 +87,24 @@ function randomString(): string {
 for (const filePath of glob.sync(path.join(CONTENT_DIR, 'buildings/**/*.md'))) {
   const { data, content } = matter.read(filePath)
   if (!data.location) continue
+
+  // Cloudinary directory name reference. This matches how we're storing images
+  // elsewhere.
+  const slug = path.basename(filePath, '.md')
+  const cloudinaryDir = `buildings/${slug}`
+
+  // Cache key to know whether we should update the static map URL. We use the
+  // location because it's the only thing that can change the static map.
+  const newCacheKey = JSON.stringify(data.location)
+
+  // Skip if we've already generated this static map, which means that there is
+  // a URL for it and the cache key matches the current location.
+  const hasUpdatedImage =
+    data.static_map_url && data.static_map_url.length > 0 && newCacheKey === data.static_map_cache
+  if (hasUpdatedImage) continue
+
+  // Delete old static map images for this building
+  await deleteStaticMapImages(cloudinaryDir)
 
   // Create static map URL
   const smUrl = {
@@ -80,29 +116,27 @@ for (const filePath of glob.sync(path.join(CONTENT_DIR, 'buildings/**/*.md'))) {
   }
   const newStaticMapUrl = `https://api.mapbox.com/styles/v1/${smUrl.style}/static/url-${smUrl.markerUrl}(${data.location.lng},${data.location.lat})/${data.location.lng},${data.location.lat},15,0/800x450@2x?access_token=${smUrl.token}`
 
-  // Skip if staticMapUrl already exists and matches (if location didn't change)
-  if (newStaticMapUrl === data.static_map_url) continue
-
-  // TODO: Remove old image from Cloudinary??
-
   // Download static map image
-  // TODO: Remove if Cloudinary is already adding this random string
-  const filename = `static-map-${randomString()}.png`
+  const filename = IMAGE_BASENAME + '.png'
   const cachedImage = await downloadImage(newStaticMapUrl, filename)
 
   // Upload to Cloudinary
-  const slug = path.basename(filePath, '.md')
-  const cloudinaryResult = await uploadImage(cachedImage, `buildings/${slug}`)
+  const cloudinaryResult = await uploadImage(cachedImage, cloudinaryDir)
 
   // Store reference to Cloudinary URL in data
   data.static_map_url = cloudinaryResult.public_id
+  // Store cache key for next time
+  data.static_map_cache = newCacheKey
 
   // Write new content to file
-  const formatted = prettier.format(matter.stringify(content, data), { parser: 'markdown' })
+  const formatted = prettier.format(matter.stringify(content, data), {
+    ...PRETTIER_OPTIONS,
+    parser: 'markdown',
+  })
   fs.writeFileSync(filePath, formatted)
 
-  // TODO: Remove me
-  process.exit(0)
+  // Provide feedback
+  console.log(`[Building] New static map: ${data.title}`)
 }
 
 /* --- Tours --- */
