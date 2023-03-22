@@ -45,15 +45,16 @@ async function downloadImage(url: string, filename: string): Promise<string> {
 }
 
 /**
- * Upload local file to Cloudinary
+ * Downloads static map from Mapbox, then uploads the local file to Cloudinary
  *
- * @param filePath Absolute path to file cached on disk
+ * @param imageUrl URL to the static map from Mapbox
  * @param folder Name of folder in Cloudinary to add file
  * @returns Result from Cloudinary upload
  */
-async function uploadImage(filePath: string, folder: string): Promise<UploadApiResponse> {
+async function uploadImage(imageUrl: string, folder: string): Promise<UploadApiResponse> {
+  const cachedImage = await downloadImage(imageUrl, IMAGE_BASENAME + '.png')
   return new Promise((resolve, reject) => {
-    cloudinary.uploader.upload(filePath, { folder, use_filename: true }, (err, result) => {
+    cloudinary.uploader.upload(cachedImage, { folder, use_filename: true }, (err, result) => {
       if (err) return reject(err)
       return resolve(result)
     })
@@ -82,8 +83,73 @@ async function deleteStaticMapImages(cloudinaryDir: string): Promise<string[]> {
   return publicIds
 }
 
+/**
+ * Writes updated data to a source file
+ *
+ * @param filePath Absolute path to file on disk
+ * @param content String content of file (this shouldn't have been manipulated)
+ * @param data New data object to write to file
+ */
+function updateSourceFile(filePath: string, content: string, data: Record<string, any>): void {
+  const formatted = prettier.format(matter.stringify(content, data), {
+    ...PRETTIER_OPTIONS,
+    parser: 'markdown',
+  })
+  fs.writeFileSync(filePath, formatted)
+}
+
+/**
+ * Compares data in the source file against a new cache key to determine if the
+ * image is current or needs to be updated.
+ *
+ * @param data Frontmatter from source file
+ * @param newCacheKey New cache key to compare against (this is different for
+ * each type of content)
+ * @returns true if the image is current, false if it needs to be replaced
+ */
+function hasCurrentImage(data: Record<string, any>, newCacheKey: string): boolean {
+  return (
+    data.static_map_url && data.static_map_url.length > 0 && newCacheKey === data.static_map_cache
+  )
+}
+
+/**
+ * Handles the entire processing for a static map image. Deletes any existing
+ * images (that start with the prefix), uploads the new image, and updates the
+ * source file with the new public_id and cache key.
+ */
+async function updateStaticMapImage({
+  filePath,
+  content,
+  data,
+  newStaticMapUrl,
+  newCacheKey,
+  cloudinaryDir,
+}: {
+  filePath: string
+  content: string
+  data: Record<string, any>
+  newStaticMapUrl: string
+  newCacheKey: string
+  cloudinaryDir: string
+}): Promise<void> {
+  // Delete old static map images for this building
+  await deleteStaticMapImages(cloudinaryDir)
+  // Upload static map to Cloudinary
+  const cloudinaryResult = await uploadImage(newStaticMapUrl, cloudinaryDir)
+  // Store reference to Cloudinary URL in data
+  data.static_map_url = cloudinaryResult.public_id
+  // Store cache key for next time
+  data.static_map_cache = newCacheKey
+  // Write new content to file
+  updateSourceFile(filePath, content, data)
+  // Provide feedback
+  console.log(`[Building] New static map: ${data.title}`)
+}
+
 /* --- Buildings --- */
 
+// for (const filePath of []) {
 for (const filePath of glob.sync(path.join(CONTENT_DIR, 'buildings/**/*.md'))) {
   const { data, content } = matter.read(filePath)
   if (!data.location) continue
@@ -99,12 +165,7 @@ for (const filePath of glob.sync(path.join(CONTENT_DIR, 'buildings/**/*.md'))) {
 
   // Skip if we've already generated this static map, which means that there is
   // a URL for it and the cache key matches the current location.
-  const hasUpdatedImage =
-    data.static_map_url && data.static_map_url.length > 0 && newCacheKey === data.static_map_cache
-  if (hasUpdatedImage) continue
-
-  // Delete old static map images for this building
-  await deleteStaticMapImages(cloudinaryDir)
+  if (hasCurrentImage(data, newCacheKey)) continue
 
   // Create static map URL
   const smUrl = {
@@ -116,27 +177,18 @@ for (const filePath of glob.sync(path.join(CONTENT_DIR, 'buildings/**/*.md'))) {
   }
   const newStaticMapUrl = `https://api.mapbox.com/styles/v1/${smUrl.style}/static/url-${smUrl.markerUrl}(${data.location.lng},${data.location.lat})/${data.location.lng},${data.location.lat},15,0/800x450@2x?access_token=${smUrl.token}`
 
-  // Download static map image
-  const filename = IMAGE_BASENAME + '.png'
-  const cachedImage = await downloadImage(newStaticMapUrl, filename)
-
-  // Upload to Cloudinary
-  const cloudinaryResult = await uploadImage(cachedImage, cloudinaryDir)
-
-  // Store reference to Cloudinary URL in data
-  data.static_map_url = cloudinaryResult.public_id
-  // Store cache key for next time
-  data.static_map_cache = newCacheKey
-
-  // Write new content to file
-  const formatted = prettier.format(matter.stringify(content, data), {
-    ...PRETTIER_OPTIONS,
-    parser: 'markdown',
+  // Process new static map image and store in the source file.
+  await updateStaticMapImage({
+    filePath,
+    content,
+    data,
+    newStaticMapUrl,
+    newCacheKey,
+    cloudinaryDir,
   })
-  fs.writeFileSync(filePath, formatted)
 
-  // Provide feedback
-  console.log(`[Building] New static map: ${data.title}`)
+  // TODO: Remove me
+  process.exit(0)
 }
 
 /* --- Tours --- */
@@ -162,4 +214,7 @@ for (const filePath of glob.sync(path.join(CONTENT_DIR, 'tours/**/*.md'))) {
   // data.static_map_url = `https://api.mapbox.com/styles/v1/${process.env.PUBLIC_MAPBOX_STYLE}/static/pin-l+799A05(${data.location.lng},${data.location.lat})/${data.location.lng},${data.location.lat},15,0/800x450@2x?access_token=${process.env.STATIC_MAPBOX_TOKEN}`
   // const formatted = prettier.format(matter.stringify(content, data), { parser: 'markdown' })
   // fs.writeFileSync(filePath, formatted)
+
+  // TODO: Remove me
+  process.exit(0)
 }
