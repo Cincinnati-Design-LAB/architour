@@ -7,11 +7,12 @@ import matter from 'gray-matter'
 import { UploadApiResponse, v2 as cloudinary } from 'cloudinary'
 
 const CONTENT_DIR = path.join(process.cwd(), 'content')
-const TMP_DIR = path.join(process.cwd(), 'tmp')
 const IMAGE_BASENAME = 'static-map'
+const MAP_MARKER_URL = encodeURIComponent('https://architour.netlify.app/MapMarker.png')
 const PRETTIER_OPTIONS = JSON.parse(
   fs.readFileSync(path.join(process.cwd(), '.prettierrc'), 'utf8'),
 )
+const TMP_DIR = path.join(process.cwd(), 'tmp')
 
 /* --- Setup --- */
 
@@ -149,9 +150,11 @@ async function updateStaticMapImage({
 
 /* --- Buildings --- */
 
-// for (const filePath of []) {
 for (const filePath of glob.sync(path.join(CONTENT_DIR, 'buildings/**/*.md'))) {
   const { data, content } = matter.read(filePath)
+
+  // Skip if there is no location (since we won't be able to generate a static
+  // map).
   if (!data.location) continue
 
   // Cloudinary directory name reference. This matches how we're storing images
@@ -173,7 +176,7 @@ for (const filePath of glob.sync(path.join(CONTENT_DIR, 'buildings/**/*.md'))) {
     lng: data.location.lng,
     style: process.env.PUBLIC_MAPBOX_STYLE,
     token: process.env.STATIC_MAPBOX_TOKEN,
-    markerUrl: encodeURIComponent('https://architour.netlify.app/MapMarker.png'),
+    markerUrl: MAP_MARKER_URL,
   }
   const newStaticMapUrl = `https://api.mapbox.com/styles/v1/${smUrl.style}/static/url-${smUrl.markerUrl}(${data.location.lng},${data.location.lat})/${data.location.lng},${data.location.lat},15,0/800x450@2x?access_token=${smUrl.token}`
 
@@ -186,9 +189,6 @@ for (const filePath of glob.sync(path.join(CONTENT_DIR, 'buildings/**/*.md'))) {
     newCacheKey,
     cloudinaryDir,
   })
-
-  // TODO: Remove me
-  process.exit(0)
 }
 
 /* --- Tours --- */
@@ -197,24 +197,39 @@ for (const filePath of glob.sync(path.join(CONTENT_DIR, 'tours/**/*.md'))) {
   const { data, content } = matter.read(filePath)
   if (!data.buildings || data.buildings.length === 0) continue
 
+  // Cloudinary directory name reference. This matches how we're storing images
+  // elsewhere.
+  const slug = path.basename(filePath, '.md')
+  const cloudinaryDir = `tours/${slug}`
+
+  // Get all the locations for the buildings in this tour
   const markerCoords = data.buildings
-    .map((relFilePath) => {
-      const { data, content } = matter.read(path.join(CONTENT_DIR, relFilePath))
-      return data.location
-    })
+    .map((relFilePath) => matter.read(path.join(CONTENT_DIR, relFilePath)).data.location)
     .filter(Boolean)
 
-  console.log(data.title, '->', markerCoords)
+  // Cache key to know whether we should update the static map URL. We use the
+  // location because it's the only thing that can change the static map.
+  const newCacheKey = JSON.stringify(markerCoords)
 
-  // TODO: Use these coordinates to add markers to a static map, and do the same
-  // process as above
+  // Skip if we've already generated this static map, which means that there is
+  // a URL for it and the cache key matches the current location.
+  if (hasCurrentImage(data, newCacheKey)) continue
 
-  // TODO: Consider if there are other abstractions between this and the above.
+  // Create static map URL
+  const smUrl = {
+    style: process.env.PUBLIC_MAPBOX_STYLE,
+    token: process.env.STATIC_MAPBOX_TOKEN,
+    markers: markerCoords.map((loc) => `url-${MAP_MARKER_URL}(${loc.lng},${loc.lat})`).join(','),
+  }
+  const newStaticMapUrl = `https://api.mapbox.com/styles/v1/${smUrl.style}/static/${smUrl.markers}/auto/800x450@2x?padding=20&access_token=${smUrl.token}`
 
-  // data.static_map_url = `https://api.mapbox.com/styles/v1/${process.env.PUBLIC_MAPBOX_STYLE}/static/pin-l+799A05(${data.location.lng},${data.location.lat})/${data.location.lng},${data.location.lat},15,0/800x450@2x?access_token=${process.env.STATIC_MAPBOX_TOKEN}`
-  // const formatted = prettier.format(matter.stringify(content, data), { parser: 'markdown' })
-  // fs.writeFileSync(filePath, formatted)
-
-  // TODO: Remove me
-  process.exit(0)
+  // Process new static map image and store in the source file.
+  await updateStaticMapImage({
+    filePath,
+    content,
+    data,
+    newStaticMapUrl,
+    newCacheKey,
+    cloudinaryDir,
+  })
 }
