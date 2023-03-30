@@ -1,23 +1,45 @@
 ---
+import { Icon } from '@components'
+
 export interface Props {
   href: string
   className?: string
   id?: string
+  hideIcon?: boolean
 }
 
-const { href, className = '', id = '' } = Astro.props
+const { href, hideIcon, className = '', id = '' } = Astro.props
 
 const isInternal = href.startsWith('/')
 ---
 
+{/* --- Internal Link --- */}
+
 {
-  isInternal ? (
+  isInternal && (
     <a href={href} class={className} id={id}>
       <slot />
     </a>
-  ) : (
+  )
+}
+
+{/* --- External Link --- */}
+
+{
+  !isInternal && (
     <a href={href} class={className} id={id} target="_blank" rel="noopener noreferrer">
-      <slot />
+      {hideIcon ? (
+        <slot />
+      ) : (
+        <span class="flex items-center space-x-2">
+          <span>
+            <slot />
+          </span>
+          <span class="block w-3">
+            <Icon name={'link-external'} />
+          </span>
+        </span>
+      )}
     </a>
   )
 }

@@ -20,11 +20,12 @@ const mobileLinks: Array<{ href: string; icon: IconProps['name']; button?: boole
       <Link
         className="flex space-x-2 items-center mb-4 text-secondary-500 text-xs font-semibold"
         href="https://www.designlearnandbuild.org/"
+        hideIcon={true}
       >
         <span class="block w-3"><Icon name="arrow-left" /></span>
         <span>Back to Site</span>
       </Link>
-      <Link className="inline-block w-48" href="/">
+      <Link className="inline-block w-48" href="/" hideIcon={true}>
         <Logo />
       </Link>
     </div>

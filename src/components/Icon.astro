@@ -8,6 +8,7 @@ import Clock from './Icon/Clock.astro'
 import Donate from './Icon/Donate.astro'
 import Eye from './Icon/Eye.astro'
 import Kentucky from './Icon/Kentucky.astro'
+import LinkExternal from './Icon/LinkExternal.astro'
 import Star from './Icon/Star.astro'
 import Waves from './Icon/Waves.astro'
 
@@ -15,13 +16,14 @@ export interface Props {
   name:
     | 'arrow-left'
     | 'arrow-right'
+    | 'building'
     | 'calendar'
     | 'cancel'
-    | 'eye'
-    | 'building'
     | 'clock'
     | 'donate'
+    | 'eye'
     | 'kentucky'
+    | 'link-external'
     | 'star'
     | 'waves'
 }
@@ -40,6 +42,7 @@ const iconMap: {
   donate: Donate,
   eye: Eye,
   kentucky: Kentucky,
+  'link-external': LinkExternal,
   star: Star,
   waves: Waves,
 }

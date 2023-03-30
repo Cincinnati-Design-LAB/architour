@@ -31,6 +31,7 @@ const content = {
         <Link
           href="https://www.designlearnandbuild.org/"
           className="inline-block w-40 mb-4 max-w-full"
+          hideIcon={true}
         >
           <Logo />
         </Link>
@@ -44,7 +45,10 @@ const content = {
               <span class="block font-bold italic mb-1">{person.label}</span>
               {person.name && <span class="block mb-1">{person.name}</span>}
               {person.email && (
-                <Link href={`mailto:${person.email}`} className="text-primary-500 underline">
+                <Link
+                  href={`mailto:${person.email}`}
+                  className="text-primary-500 border-b border-b-primary-500 inline-block leading-4"
+                >
                   {person.email}
                 </Link>
               )}
@@ -57,7 +61,10 @@ const content = {
         {
           content.links.map((link) => (
             <span class="block mb-1">
-              <Link href={link.href} className="text-primary-500 underline">
+              <Link
+                href={link.href}
+                className="text-primary-500 border-b border-b-primary-500 inline-block leading-4"
+              >
                 {link.label}
               </Link>
             </span>
