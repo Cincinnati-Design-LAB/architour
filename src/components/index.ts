@@ -6,6 +6,7 @@ import Footer from './Footer.astro'
 import Header from './Header.astro'
 import HeaderLink, { Props as HeaderLinkProps } from './HeaderLink.astro'
 import Icon, { Props as IconProps } from './Icon.astro'
+import Link from './Link.astro'
 import Logo from './Logo.astro'
 import PageHeader, { Props as PageHeaderProps } from './PageHeader.astro'
 import TourCard, { Props as TourCardProps } from './Card/Tour.astro'
@@ -19,6 +20,7 @@ export {
   Header,
   HeaderLink,
   Icon,
+  Link,
   Logo,
   PageHeader,
   TourCard,

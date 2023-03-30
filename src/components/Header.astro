@@ -1,5 +1,5 @@
 ---
-import { Button, HeaderLink, Icon, IconProps, Logo } from '@components'
+import { Button, HeaderLink, Icon, IconProps, Link, Logo } from '@components'
 
 const desktopLinks: Array<{ href: string; label: string; button?: boolean }> = [
   { href: '/buildings', label: 'Building List' },
@@ -17,16 +17,16 @@ const mobileLinks: Array<{ href: string; icon: IconProps['name']; button?: boole
 <header class="max-w-7xl mx-auto px-4 py-6">
   <div class="flex justify-between items-center">
     <div class="flex flex-col">
-      <a
-        class="flex space-x-2 items-center mb-4 text-secondary-500 text-xs font-semibold"
+      <Link
+        className="flex space-x-2 items-center mb-4 text-secondary-500 text-xs font-semibold"
         href="https://www.designlearnandbuild.org/"
       >
         <span class="block w-3"><Icon name="arrow-left" /></span>
         <span>Back to Site</span>
-      </a>
-      <a class="inline-block w-48" href="/">
+      </Link>
+      <Link className="inline-block w-48" href="/">
         <Logo />
-      </a>
+      </Link>
     </div>
     <div class="space-x-6 justify-between items-center hidden md:flex">
       {

@@ -1,5 +1,5 @@
 ---
-import { Icon, IconProps } from '@components'
+import { Icon, IconProps, Link } from '@components'
 import { CloudinaryImage } from '@content'
 
 export interface Props {
@@ -14,7 +14,7 @@ export interface Props {
 const { excerpt, href, title, image, meta, icon } = Astro.props
 ---
 
-<a href={href} class="block bg-white shadow-md">
+<Link href={href} className="block bg-white shadow-md">
   {
     image && (
       <div class="h-24 overflow-hidden">
@@ -52,4 +52,4 @@ const { excerpt, href, title, image, meta, icon } = Astro.props
       )
     }
   </div>
-</a>
+</Link>

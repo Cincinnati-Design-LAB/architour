@@ -18,6 +18,9 @@ Phase 1:
 - [ ] Way to get back from PageHeader?
 - [ ] Add renovation history to buildings
 - [ ] What to do with additional fields we're not using
+- [ ] Add analytics, including click tracking
+- [ ] Insecure content warning on Netlify. I think this is because of the
+      Cloudinary images.
 
 Phase 2:
 
