@@ -32,4 +32,4 @@ export { Building, getBuildings, Tour, getTours }
 /**
  * Direct exports.
  */
-export type { CloudinaryImage } from './images'
+export type { CloudinaryImage, ImageSizes } from './images'

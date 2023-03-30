@@ -1,5 +1,5 @@
 ---
-import { Icon, IconProps, Link } from '@components'
+import { Icon, IconProps, Link, ResponsiveImage } from '@components'
 import { CloudinaryImage } from '@content'
 
 export interface Props {
@@ -17,7 +17,7 @@ const { excerpt, href, title, image, meta } = Astro.props
   {
     image && (
       <div class="rounded-full absolute top-[-2rem] left-[1rem] w-16 h-16 overflow-hidden border-2 border-black">
-        <img src={image.square.small} class="object-cover h-full w-full object-center" />
+        <ResponsiveImage src={image.square} className="object-cover h-full w-full object-center" />
       </div>
     )
   }

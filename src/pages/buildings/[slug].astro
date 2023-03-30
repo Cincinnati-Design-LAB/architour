@@ -1,6 +1,6 @@
 ---
 import { Building, getBuildings } from '@content'
-import { Stat, PageHeader } from '@components'
+import { Stat, PageHeader, ResponsiveImage } from '@components'
 import { PageLayout } from '@layouts'
 
 export async function getStaticPaths() {
@@ -38,7 +38,7 @@ const building = Astro.props.building as Building
           building.images && (
             <div class="grid grid-cols-2 gap-6">
               {building.images.map((image) => (
-                <img src={image.square.small} />
+                <ResponsiveImage src={image.square} />
               ))}
             </div>
           )
@@ -58,7 +58,7 @@ const building = Astro.props.building as Building
         {
           building.static_map && (
             <div class="mb-12">
-              <img src={building.static_map.square.small} class="w-full" />
+              <ResponsiveImage src={building.static_map.square} className="w-full" />
             </div>
           )
         }

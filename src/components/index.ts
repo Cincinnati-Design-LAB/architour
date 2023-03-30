@@ -9,6 +9,7 @@ import Icon, { Props as IconProps } from './Icon.astro'
 import Link from './Link.astro'
 import Logo from './Logo.astro'
 import PageHeader, { Props as PageHeaderProps } from './PageHeader.astro'
+import ResponsiveImage from './ResponsiveImage.astro'
 import TourCard, { Props as TourCardProps } from './Card/Tour.astro'
 
 export {
@@ -23,6 +24,7 @@ export {
   Link,
   Logo,
   PageHeader,
+  ResponsiveImage,
   TourCard,
 }
 

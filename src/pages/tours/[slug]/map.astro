@@ -30,7 +30,7 @@ const tour = Astro.props.tour as Tour
     <button class="absolute w-6 left-4 top-4 text-white" id="drawer-close-trigger">
       <Icon name="cancel" />
     </button>
-    <img class="w-full" id="drawer-image" src="" />
+    <img class="w-full" id="drawer-image" src="" srcset="" />
     <div class="px-4 py-6">
       <h2 class="text-2xl font-black mb-3" id="drawer-title"></h2>
       <p class="mb-6" id="drawer-excerpt"></p>
@@ -115,7 +115,9 @@ const tour = Astro.props.tour as Tour
       el.style.backgroundColor = '#799A05'
       // Add info to the drawer
       const drawerImg = document.getElementById('drawer-image') as HTMLImageElement
-      drawerImg.src = marker.properties.image.square.small
+      const imageUrls = marker.properties.image.square
+      drawerImg.src = imageUrls['1x']
+      drawerImg.srcset = `${imageUrls['1x']} 1x, ${imageUrls['2x']} 2x, ${imageUrls['3x']} 3x`
       document.getElementById('drawer-title').innerHTML = marker.properties.title
       document.getElementById('drawer-excerpt').innerHTML = marker.properties.excerpt.raw || ''
       document.getElementById('drawer-link').setAttribute('href', marker.properties.urlPath)

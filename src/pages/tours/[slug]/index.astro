@@ -1,5 +1,5 @@
 ---
-import { PageHeader, CompactCard, Stat, Link } from '@components'
+import { PageHeader, CompactCard, Stat, Link, ResponsiveImage } from '@components'
 import { getTours, Tour } from '@content'
 import { PageLayout } from '@layouts'
 
@@ -35,7 +35,7 @@ const tour = Astro.props.tour as Tour
         {
           tour.static_map && (
             <Link className="underline" href={tour.urlPath + '/map'}>
-              <img src={tour.static_map.square.small} class="w-full" />
+              <ResponsiveImage src={tour.static_map.square} className="w-full" />
             </Link>
           )
         }

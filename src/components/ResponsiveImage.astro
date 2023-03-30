@@ -1,0 +1,17 @@
+---
+import { ImageSizes } from '@content'
+
+export interface Props {
+  src: ImageSizes
+  className?: string
+}
+
+// const src = Astro.props.src as Props['src']
+const { className, src } = Astro.props as Props
+---
+
+<img
+  class={className}
+  srcset={`${src['1x']} 1x, ${src['2x']} 2x, ${src['3x']} 3x`}
+  src={src['1x']}
+/>
