@@ -127,7 +127,11 @@ export function cloudinaryImageUrls(
     output[crop.name] = Object.fromEntries(
       SIZE_VARIATIONS.map((dpr) => {
         const transformation = getTransformationName(crop.name, dpr)
-        const imageUrl = Cloudinary.v2.url(publicId, { transformation, sign_url: true })
+        const imageUrl = Cloudinary.v2.url(publicId, {
+          transformation,
+          sign_url: true,
+          secure: true,
+        })
         return [dpr, imageUrl]
       }),
     ) as ImageSizes

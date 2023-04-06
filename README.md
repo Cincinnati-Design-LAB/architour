@@ -3,10 +3,9 @@ TODO:
 Phase 1:
 
 - [✔️] Introduce map component
-- [ ] Generate static maps with Mapbox
+- [✔️] Generate static maps with Mapbox
   - [✔️] For buildings
   - [✔️] For tours
-  - [ ] Process all images
 - [✔️] Use `srcset` and `sizes` attributes to provide responsive images
   - [✔️] Will need to generate multiple sizes of images
 - [ ] Move header and footer content into JSON files
@@ -19,8 +18,13 @@ Phase 1:
 - [ ] Add renovation history to buildings
 - [ ] What to do with additional fields we're not using
 - [ ] Add analytics, including click tracking
-- [ ] Insecure content warning on Netlify. I think this is because of the
-      Cloudinary images.
+- [ ] Static map cleanup
+  - [ ] Address overlay on the building map
+  - [ ] Hover state for tour map
+  - [ ] Process static images for all buildings
+  - [ ] Process static images for all tours
+- [✔️] Insecure content warning on Netlify. I think this is because of the
+  Cloudinary images.
 - [ ] Fix mobile menu -> it looks stupid
 
 Phase 2:
