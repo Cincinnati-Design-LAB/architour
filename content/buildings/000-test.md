@@ -23,6 +23,6 @@ static_map: buildings/000-test/static-map_zoong4
 static_map_cache: '{"lat":39.1030545,"lng":-84.5120005}'
 ---
 
-**The original** hotel declined in popularity in the 50s and 60s and became a transient hotel. The renovation in _2012 returned_ the hotel to its place in the city as an integral part of the new Entertainment District.
+**The original** hotel declined in popularity in the 50s and 60s and became a transient hotel. The renovation in _2012 returned_ [the hotel](https://www.21cmuseumhotels.com/cincinnati/) to [its place](/buildings/21c-museum-hotel) in the city as an integral part of the new Entertainment District.
 
 Magna laborum quis Lorem excepteur ut culpa ad esse nisi excepteur enim nulla ea. Aliqua non consequat duis aute commodo magna reprehenderit. Labore id eiusmod exercitation commodo eiusmod. Ea consequat proident ullamco deserunt id laboris et dolor veniam adipisicing culpa et ut.

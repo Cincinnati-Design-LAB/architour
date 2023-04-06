@@ -9,9 +9,9 @@ Phase 1:
 - [✔️] Use `srcset` and `sizes` attributes to provide responsive images
   - [✔️] Will need to generate multiple sizes of images
 - [ ] Move header and footer content into JSON files
-- [ ] Introduce Link component that:
-  - [x] Detects external links and adds `target="_blank" rel="noopener noreferrer"` and an icon
-  - [ ] Provide styling options? -> I want to do the underlining and icon as component variations under `src/components/Link` so that Link is a wrapper around all of them, and the external link is functional, but can optionally wrap itself with an icon. There are some two-ways dependencies here.
+- [✔️] Introduce Link component that:
+  - [✔️] Detects external links and adds `target="_blank" rel="noopener noreferrer"` and an icon
+  - [✔️] Provide styling options? -> I want to do the underlining and icon as component variations under `src/components/Link` so that Link is a wrapper around all of them, and the external link is functional, but can optionally wrap itself with an icon. There are some two-ways dependencies here.
 - [ ] Responsive styles
 - [ ] Building list filtering and pagination
 - [ ] Way to get back from PageHeader?
@@ -33,6 +33,7 @@ Phase 2:
 - [ ] Integrate Stackbit
 - [ ] Method for editing/adding images
 - [ ] Method for generating static map images
+- [ ] Link component should be used in building body and attributes
 
 Phase 3:
 

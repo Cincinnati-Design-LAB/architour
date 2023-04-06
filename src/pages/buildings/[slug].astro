@@ -22,7 +22,10 @@ const building = Astro.props.building as Building
       <div class="md:col-span-7">
         {
           building.body.html.length > 0 && (
-            <div class="text-lg mb-12" set:html={building.body.html} />
+            <div
+              class="text-lg mb-12 [&_a]:text-primary-500 [&_a]:border-b [&_a]:border-b-primary-500 [&_a]:inline-block [&_a]:leading-4"
+              set:html={building.body.html}
+            />
           )
         }
         {
