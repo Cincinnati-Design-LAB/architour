@@ -18,8 +18,8 @@ const building = Astro.props.building as Building
   <PageHeader title={building.title} image={building.featuredImage} size="lg" />
 
   <div class="max-w-7xl mx-auto relative">
-    <div class="grid grid-cols-12 gap-16 py-16 px-4">
-      <div class="col-span-7">
+    <div class="grid md:grid-cols-12 gap-16 py-16 px-4">
+      <div class="md:col-span-7">
         {
           building.body.html.length > 0 && (
             <div class="text-lg mb-12" set:html={building.body.html} />
@@ -36,7 +36,7 @@ const building = Astro.props.building as Building
         }
         {
           building.images && (
-            <div class="grid grid-cols-2 gap-6">
+            <div class="grid sm:grid-cols-2 gap-6">
               {building.images.map((image) => (
                 <ResponsiveImage src={image.square} />
               ))}
@@ -44,7 +44,7 @@ const building = Astro.props.building as Building
           )
         }
       </div>
-      <div class="col-span-5">
+      <div class="md:col-span-5">
         {
           building.hasSecondaryAttributes && (
             <div class="grid grid-cols-2 gap-x-8 gap-y-6 mb-12">
@@ -58,7 +58,7 @@ const building = Astro.props.building as Building
         {
           building.static_map && (
             <div class="mb-12">
-              <ResponsiveImage src={building.static_map.square} className="w-full" />
+              <ResponsiveImage src={building.static_map.static_map} className="w-full" />
             </div>
           )
         }

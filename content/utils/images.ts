@@ -5,7 +5,7 @@ import * as Cloudinary from 'cloudinary'
 // Multipliers for image sizes
 const SIZE_VARIATIONS: Array<'1x' | '2x' | '3x'> = ['1x', '2x', '3x']
 // Keys used to create image variations
-const CROP_NAMES: Array<'16_9' | 'square'> = ['16_9', 'square']
+const CROP_NAMES: Array<'16_9' | 'square' | 'static_map'> = ['16_9', 'square', 'static_map']
 
 /* --- Output Types --- */
 
@@ -51,6 +51,10 @@ export const TRANSFORMATIONS: CropDefinition[] = [
   {
     name: 'square',
     options: { width: 120, height: 120, crop: 'fill', gravity: 'auto' },
+  },
+  {
+    name: 'static_map',
+    options: { width: 672, height: 378, crop: 'fill', gravity: 'auto' },
   },
 ]
 

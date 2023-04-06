@@ -8,6 +8,10 @@ export interface Props {
 
 // const src = Astro.props.src as Props['src']
 const { className, src } = Astro.props as Props
+
+if (!src) {
+  throw new Error('Image component requires a src prop')
+}
 ---
 
 <img

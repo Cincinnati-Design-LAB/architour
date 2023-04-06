@@ -21,6 +21,7 @@ Phase 1:
 - [ ] Add analytics, including click tracking
 - [ ] Insecure content warning on Netlify. I think this is because of the
       Cloudinary images.
+- [ ] Fix mobile menu -> it looks stupid
 
 Phase 2:
 
