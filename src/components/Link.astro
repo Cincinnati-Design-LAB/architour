@@ -1,45 +1,55 @@
 ---
-import { Icon } from '@components'
+import { Icon, IconProps } from '@components'
 
 export interface Props {
   href: string
   className?: string
   id?: string
-  hideIcon?: boolean
+  hideExternalIcon?: boolean
+  icons?: Array<IconProps & { position: 'left' | 'right' }>
 }
 
-const { href, hideIcon, className = '', id = '' } = Astro.props
+const { href, hideExternalIcon, className, id = '', icons = [] } = Astro.props as Props
 
-const isInternal = href.startsWith('/')
+const defaultClassName = 'text-primary-500 border-b border-b-primary-500 inline-block leading-4'
+
+let target = '_self'
+let rel = ''
+
+if (!href.startsWith('/')) {
+  icons.push({
+    name: 'link-external',
+    position: 'right',
+  })
+  target = '_blank'
+  rel = 'noopener noreferrer'
+}
 ---
 
-{/* --- Internal Link --- */}
-
-{
-  isInternal && (
-    <a href={href} class={className} id={id}>
+<a href={href} class={className || defaultClassName} id={id} target={target} rel={rel}>
+  {
+    hideExternalIcon ? (
       <slot />
-    </a>
-  )
-}
-
-{/* --- External Link --- */}
-
-{
-  !isInternal && (
-    <a href={href} class={className} id={id} target="_blank" rel="noopener noreferrer">
-      {hideIcon ? (
-        <slot />
-      ) : (
-        <span class="flex items-center space-x-2">
-          <span>
-            <slot />
-          </span>
-          <span class="block w-3">
-            <Icon name={'link-external'} />
-          </span>
+    ) : (
+      <span class="flex items-center space-x-2">
+        {icons
+          .filter((icon) => icon.position === 'left')
+          .map((icon) => (
+            <span class="block w-3">
+              <Icon {...icon} />
+            </span>
+          ))}
+        <span>
+          <slot />
         </span>
-      )}
-    </a>
-  )
-}
+        {icons
+          .filter((icon) => icon.position === 'right')
+          .map((icon) => (
+            <span class="block w-3">
+              <Icon {...icon} />
+            </span>
+          ))}
+      </span>
+    )
+  }
+</a>
