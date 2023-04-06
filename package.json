@@ -6,13 +6,14 @@
   "scripts": {
     "astro:build": "astro build",
     "astro:dev": "astro dev",
-    "cache-static-map-urls": "ts-node --esm ./content/scripts/cache-static-map-urls.ts",
     "cloudinary:create-transformations": "ts-node --esm ./content/scripts/create-cloudinary-transformations.ts",
+    "content:cache-static-map-urls": "ts-node --esm ./content/scripts/cache-static-map-urls.ts",
     "contentlayer:build": "contentlayer build",
     "contentlayer:dev": "contentlayer dev",
+    "check": "astro check && tsc --noEmit",
     "dev": "npm-run-all -p contentlayer:dev astro:dev",
     "start": "astro dev",
-    "build": "npm-run-all -s contentlayer:build astro:build",
+    "build": "npm-run-all -s check contentlayer:build astro:build",
     "preview": "astro preview",
     "astro": "astro"
   },
