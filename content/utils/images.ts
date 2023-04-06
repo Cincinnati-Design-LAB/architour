@@ -5,7 +5,9 @@ import * as Cloudinary from 'cloudinary'
 // Multipliers for image sizes
 const SIZE_VARIATIONS: Array<'1x' | '2x' | '3x'> = ['1x', '2x', '3x']
 // Keys used to create image variations
-const CROP_NAMES: Array<'16_9' | 'square' | 'static_map'> = ['16_9', 'square', 'static_map']
+const CROP_NAMES: Array<
+  'card_hero' | 'card_thumb' | 'compact_card_hero' | 'gallery_item' | 'hero' | 'sidebar'
+> = ['card_hero', 'card_thumb', 'compact_card_hero', 'gallery_item', 'hero', 'sidebar']
 
 /* --- Output Types --- */
 
@@ -45,16 +47,28 @@ type CropDefinition = { name: CropName; options: Cloudinary.ImageTransformationO
 
 export const TRANSFORMATIONS: CropDefinition[] = [
   {
-    name: '16_9',
-    options: { width: 1200, height: 675, crop: 'fill', gravity: 'auto' },
-  },
-  {
-    name: 'square',
-    options: { width: 120, height: 120, crop: 'fill', gravity: 'auto' },
-  },
-  {
-    name: 'static_map',
+    name: 'sidebar',
     options: { width: 672, height: 378, crop: 'fill', gravity: 'auto' },
+  },
+  {
+    name: 'gallery_item',
+    options: { width: 736, height: 414, crop: 'fill', gravity: 'auto' },
+  },
+  {
+    name: 'hero',
+    options: { width: 1408, height: 792, crop: 'fill', gravity: 'auto' },
+  },
+  {
+    name: 'card_hero',
+    options: { width: 592, height: 333, crop: 'fill', gravity: 'auto' },
+  },
+  {
+    name: 'card_thumb',
+    options: { width: 64, height: 64, crop: 'fill', gravity: 'auto' },
+  },
+  {
+    name: 'compact_card_hero',
+    options: { width: 300, height: 300, crop: 'fill', gravity: 'auto' },
   },
 ]
 

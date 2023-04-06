@@ -5,7 +5,7 @@ import { CloudinaryImage } from '@content'
 export interface Props {
   title: string
   excerpt: string
-  image?: CloudinaryImage<'square'>
+  image?: CloudinaryImage<'compact_card_hero'>
   href: string
 }
 
@@ -19,7 +19,10 @@ const { excerpt, href, title, image } = Astro.props
   {
     image && (
       <div class="w-32 shrink-0">
-        <ResponsiveImage src={image.square} className="object-cover h-full w-full object-center" />
+        <ResponsiveImage
+          src={image.compact_card_hero}
+          className="object-cover h-full w-full object-center"
+        />
       </div>
     )
   }

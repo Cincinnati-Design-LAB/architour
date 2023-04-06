@@ -38,7 +38,7 @@ const building = Astro.props.building as Building
           building.images && (
             <div class="grid sm:grid-cols-2 gap-6">
               {building.images.map((image) => (
-                <ResponsiveImage src={image.square} />
+                <ResponsiveImage src={image.gallery_item} />
               ))}
             </div>
           )
@@ -58,7 +58,7 @@ const building = Astro.props.building as Building
         {
           building.static_map && (
             <div class="mb-12">
-              <ResponsiveImage src={building.static_map.static_map} className="w-full" />
+              <ResponsiveImage src={building.static_map.sidebar} className="w-full" />
             </div>
           )
         }

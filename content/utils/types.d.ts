@@ -7,22 +7,22 @@ export interface Building extends Omit<Contentlayer.Building, 'images'> {
   /** [Transformed] Cached number of tours. */
   tourCount: number
   /** Processed Cloudinary image URLs from public IDs in source file. */
-  images: CloudinaryImage<'16_9' | 'square'>[]
+  images: CloudinaryImage<'gallery_item'>[]
   /** The first image is set as the featured image. */
-  featuredImage: CloudinaryImage<'16_9'>
+  featuredImage: CloudinaryImage<'card_thumb' | 'compact_card_hero' | 'hero' | 'sidebar'>
   /** Convert first clause from the body as the excerpt */
   excerpt?: Markdown
   /** Details that can be used directly on the map */
   mapMarker: MapMarker
   /** Transformed Cloudinary image object from static map */
-  static_map: CloudinaryImage<'static_map'>
+  static_map: CloudinaryImage<'sidebar'>
 }
 
 export interface Tour extends Omit<Contentlayer.Tour, 'buildings' | 'image'> {
   /** [Transformed] Building objects. */
   buildings: Building[]
   /** Processed Cloudinary image URL from public ID in source file. */
-  image: CloudinaryImage<'16_9' | 'square'>
+  image: CloudinaryImage<'card_hero' | 'hero'>
   /** Transformed Cloudinary image object from static map */
-  static_map: CloudinaryImage<'static_map'>
+  static_map: CloudinaryImage<'sidebar'>
 }

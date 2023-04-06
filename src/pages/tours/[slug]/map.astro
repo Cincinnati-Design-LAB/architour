@@ -34,7 +34,7 @@ const tour = Astro.props.tour as Tour
     <div class="px-4 py-6">
       <h2 class="text-2xl font-black mb-3" id="drawer-title"></h2>
       <p class="mb-6" id="drawer-excerpt"></p>
-      <Link className="pb-2 border-b border-b-black inline-block" id="drawer-link" href="">
+      <Link className="pb-2 border-b border-b-black inline-block" id="drawer-link" href="/">
         <span class="flex items-center space-x-2">
           <span>Learn Details</span>
           <span class="block w-4"><Icon name={'arrow-right'} /></span>
@@ -115,7 +115,7 @@ const tour = Astro.props.tour as Tour
       el.style.backgroundColor = '#799A05'
       // Add info to the drawer
       const drawerImg = document.getElementById('drawer-image') as HTMLImageElement
-      const imageUrls = marker.properties.image.square
+      const imageUrls = marker.properties.image.sidebar
       drawerImg.src = imageUrls['1x']
       drawerImg.srcset = `${imageUrls['1x']} 1x, ${imageUrls['2x']} 2x, ${imageUrls['3x']} 3x`
       document.getElementById('drawer-title').innerHTML = marker.properties.title

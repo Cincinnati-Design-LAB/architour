@@ -7,8 +7,8 @@ Phase 1:
   - [✔️] For buildings
   - [✔️] For tours
   - [ ] Process all images
-- [x] Use `srcset` and `sizes` attributes to provide responsive images
-  - [x] Will need to generate multiple sizes of images
+- [✔️] Use `srcset` and `sizes` attributes to provide responsive images
+  - [✔️] Will need to generate multiple sizes of images
 - [ ] Move header and footer content into JSON files
 - [ ] Introduce Link component that:
   - [x] Detects external links and adds `target="_blank" rel="noopener noreferrer"` and an icon
@@ -33,3 +33,7 @@ Phase 2:
 Phase 3:
 
 - [ ] Replace Contentlayer with a custom mechanism
+- [ ] Consider putting the image variation complexity in component
+  - [ ] Generate dimension ratio transformations (original, square, landscape)
+  - [ ] Generate URLs for widths every `100` pixels from `100` to `4000`
+  - [ ] ResponsiveImage component should be fed the sizes and automatically add DPR
