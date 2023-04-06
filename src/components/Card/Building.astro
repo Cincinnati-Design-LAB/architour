@@ -5,7 +5,7 @@ import { CloudinaryImage } from '@content'
 export interface Props {
   title: string
   excerpt: string
-  image?: CloudinaryImage
+  image?: CloudinaryImage<'square'>
   href: string
   meta?: Array<{ icon: IconProps['name']; label: string }>
 }

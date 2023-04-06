@@ -24,7 +24,7 @@ export type ImageSizes = { [key in SizeVariation]: string }
  * A object of Cloudinary image URLs that can be used in front-end components.
  */
 // TODO -> This should use image keys as an argument
-export type CloudinaryImage = { [key in CropName]: ImageSizes }
+export type CloudinaryImage<C extends CropName> = { [key in C]: ImageSizes }
 
 /* --- Transformation Definitions --- */
 
@@ -97,15 +97,15 @@ export function getTransformationDprVariations(
  * @returns Image object with URLs for each crop and size.
  */
 
-// TODO -> Step #1: This should build an object with 1x, 2x, 3x keys for each
-// crop
-
 // TODO -> Step #2: Accept a list of crops, and only return those crops. Need to
 // make the typing dynamic for this.
-export function cloudinaryImageUrls(publicId: string): CloudinaryImage {
-  let output = {} as CloudinaryImage
+export function cloudinaryImageUrls(
+  publicId: string,
+  cropNames: CropName[] = CROP_NAMES,
+): CloudinaryImage<(typeof cropNames)[number]> {
+  let output = {} as CloudinaryImage<(typeof cropNames)[number]>
 
-  TRANSFORMATIONS.map((crop) => {
+  TRANSFORMATIONS.filter((crop) => cropNames.includes(crop.name)).map((crop) => {
     output[crop.name] = Object.fromEntries(
       SIZE_VARIATIONS.map((dpr) => {
         const transformation = getTransformationName(crop.name, dpr)
