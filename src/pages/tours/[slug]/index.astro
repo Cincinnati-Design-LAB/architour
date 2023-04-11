@@ -1,5 +1,5 @@
 ---
-import { PageHeader, CompactCard, Stat, Link, ResponsiveImage } from '@components'
+import { PageHeader, CompactCard, Stat, Link, ResponsiveImage, Icon } from '@components'
 import { getTours, Tour } from '@content'
 import { PageLayout } from '@layouts'
 
@@ -34,8 +34,16 @@ const tour = Astro.props.tour as Tour
       <div class="col-span-5">
         {
           tour.static_map && (
-            <Link className="underline" href={tour.urlPath + '/map'}>
-              <ResponsiveImage src={tour.static_map.sidebar} className="w-full" />
+            <Link className="relative group" href={tour.urlPath + '/map'}>
+              <ResponsiveImage src={tour.static_map.sidebar} className="border w-full" />
+              <div class="top-0 left-0 h-full w-full bg-secondary-500/80 z-10 group-hover:opacity-100 transition-opacity duration-300 opacity-0 absolute">
+                <div class="flex text-white justify-center items-center h-full w-full space-x-3">
+                  <span class="block w-5">
+                    <Icon name="expand" />
+                  </span>
+                  <span class="font-semibold">View Tour Map</span>
+                </div>
+              </div>
             </Link>
           )
         }

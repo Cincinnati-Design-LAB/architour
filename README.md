@@ -25,8 +25,8 @@ Phase 1:
 - [ ] Way to get back from PageHeader?
 - [ ] Add analytics, including click tracking
 - [ ] Static map cleanup
-  - [ ] Address overlay on the building map
-  - [ ] Hover state for tour map
+  - [✔️] Address overlay on the building map
+  - [✔️] Hover state for tour map
   - [ ] Process static images for all buildings
   - [ ] Process static images for all tours
 - [✔️] Insecure content warning on Netlify. I think this is because of the
