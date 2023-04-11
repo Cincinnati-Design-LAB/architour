@@ -1,7 +1,7 @@
 ---
 title: Streetcar Route
 description: Reprehenderit non pariatur ad pariatur nulla.
-icon: building
+icon: ''
 image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
 time_estimate: 2 Hours
 buildings:

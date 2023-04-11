@@ -1,7 +1,7 @@
 ---
 title: 21 By Hannaford
 description: Enim quis eiusmod mollit id esse sunt.
-icon: building
+icon: ''
 image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
 time_estimate: 2 Hours
 buildings:

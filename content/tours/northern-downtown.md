@@ -1,7 +1,7 @@
 ---
 title: Northern Downtown
 description: Reprehenderit consectetur quis irure laborum eu occaecat amet adipisicing nisi ut incididunt qui tempor.
-icon: eye
+icon: ''
 image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
 time_estimate: 2 Hours
 buildings:

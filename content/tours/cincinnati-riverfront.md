@@ -1,7 +1,7 @@
 ---
 title: Cincinnati Riverfront
 description: Anim laborum dolor quis in amet cupidatat ea in ex ex.
-icon: star
+icon: ''
 image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
 time_estimate: 2 Hours
 buildings:

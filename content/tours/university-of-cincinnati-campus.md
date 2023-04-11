@@ -1,7 +1,7 @@
 ---
 title: University of Cincinnati Campus
 description: Lorem dolore sunt veniam deserunt minim duis id sit proident ea mollit velit irure.
-icon: star
+icon: ''
 image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
 time_estimate: 2 Hours
 buildings:

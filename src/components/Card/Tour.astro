@@ -25,7 +25,7 @@ const { excerpt, href, title, image, meta, icon } = Astro.props
       </div>
     )
   }
-  <div class="pt-12 pb-4 px-4 relative">
+  <div class={`${icon ? 'pt-12' : 'pt-4'} pb-4 px-4 relative`}>
     {
       icon && (
         <div class="rounded-full absolute top-[-2rem] left-[0.5rem] w-14 h-14 overflow-hidden border-2 border-white bg-primary-500 text-white flex items-center justify-center">

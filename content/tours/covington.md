@@ -1,7 +1,7 @@
 ---
 title: Covington
 description: Ex proident voluptate et est consequat aute ut.
-icon: star
+icon: ''
 image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
 time_estimate: 2 Hours
 buildings:

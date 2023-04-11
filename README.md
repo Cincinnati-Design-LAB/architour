@@ -12,11 +12,17 @@ Phase 1:
 - [✔️] Introduce Link component that:
   - [✔️] Detects external links and adds `target="_blank" rel="noopener noreferrer"` and an icon
   - [✔️] Provide styling options? -> I want to do the underlining and icon as component variations under `src/components/Link` so that Link is a wrapper around all of them, and the external link is functional, but can optionally wrap itself with an icon. There are some two-ways dependencies here.
+- [ ] Replace icons with consistent kit
+- [✔️] Remove icons from tours (or make them optional)
+- [ ] Content structure adjustments
+  - [ ] Make attributes more flexible
+  - [ ] Convert existing content
+  - [ ] Put in publishing mechanism (draft mode)
+  - [ ] Should not be able to publish without core attributes
+  - [ ] Figure out what to do with renovation history and make adjustments
 - [ ] Responsive styles
 - [ ] Building list filtering and pagination
 - [ ] Way to get back from PageHeader?
-- [ ] Add renovation history to buildings
-- [ ] What to do with additional fields we're not using
 - [ ] Add analytics, including click tracking
 - [ ] Static map cleanup
   - [ ] Address overlay on the building map
@@ -31,6 +37,7 @@ Phase 2:
 
 - [ ] Model with Stackbit
 - [ ] Integrate Stackbit
+- [ ] Only the bare minimum required fields
 - [ ] Method for editing/adding images
 - [ ] Method for generating static map images
 - [ ] Link component should be used in building body and attributes
