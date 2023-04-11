@@ -53,7 +53,10 @@ async function createTransformation(name, options) {
       name,
       { ...options, allowed_for_strict: true },
       (err, result) => {
-        if (err) return reject(err)
+        if (err) {
+          console.error(err)
+          return reject(err)
+        }
         console.log(`[Create] ${name}`)
         resolve(result)
       },
