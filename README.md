@@ -14,6 +14,8 @@ Phase 1:
   - [✔️] Provide styling options? -> I want to do the underlining and icon as component variations under `src/components/Link` so that Link is a wrapper around all of them, and the external link is functional, but can optionally wrap itself with an icon. There are some two-ways dependencies here.
 - [✔️] Replace icons with consistent kit
 - [✔️] Remove icons from tours (or make them optional)
+- [✔️] Fix tour building images and cards
+- [✔️] Insecure content warning on Netlify. I think this is because of the
 - [ ] Content structure adjustments
   - [ ] Make attributes more flexible
   - [ ] Convert existing content
@@ -21,7 +23,6 @@ Phase 1:
   - [ ] Should not be able to publish without core attributes
   - [ ] Figure out what to do with renovation history and make adjustments
 - [ ] Responsive styles
-- [ ] Fix tour building images and cards
 - [ ] Building list filtering and pagination
 - [ ] Way to get back from PageHeader?
 - [ ] Add analytics, including click tracking
@@ -30,8 +31,7 @@ Phase 1:
   - [✔️] Hover state for tour map
   - [ ] Process static images for all buildings
   - [ ] Process static images for all tours
-- [✔️] Insecure content warning on Netlify. I think this is because of the
-  Cloudinary images.
+        Cloudinary images.
 - [ ] Fix mobile menu -> it looks stupid
 
 Phase 2:

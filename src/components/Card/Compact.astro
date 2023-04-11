@@ -1,5 +1,5 @@
 ---
-import { Link, ResponsiveImage } from '@components'
+import { ResponsiveImage } from '@components'
 import { CloudinaryImage } from '@content'
 
 export interface Props {
@@ -10,11 +10,14 @@ export interface Props {
 }
 
 const { excerpt, href, title, image } = Astro.props
+
+// Note: Using <Link /> causes a layout issue because it uses flex internally
+// and that throws off our grid. The Link benefits are not needed here anyways.
 ---
 
-<Link
+<a
   href={href}
-  className="bg-white shadow-md relative flex hover:shadow-lg transition-shadow duration-300"
+  class="bg-white shadow-md relative flex hover:shadow-lg transition-shadow duration-300"
 >
   {
     image && (
@@ -30,4 +33,4 @@ const { excerpt, href, title, image } = Astro.props
     <h3 class="font-semibold mb-2">{title}</h3>
     {excerpt && <div class="mb-4 text-sm" set:html={excerpt} />}
   </div>
-</Link>
+</a>
