@@ -23,7 +23,7 @@ export const Tour = defineDocumentType(() => ({
     icon: {
       type: 'enum',
       description: 'A supported icon name, which appears on the tour card.',
-      options: ['arrow-left', 'calendar', 'eye', 'building', 'clock', 'kentucky', 'star', 'waves'],
+      options: ['arrow-left', 'calendar', 'eye', 'building', 'clock'],
       required: true,
     },
     description: {
