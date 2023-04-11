@@ -7,10 +7,15 @@ const desktopLinks: Array<{ href: string; label: string; button?: boolean }> = [
   { href: 'https://www.designlearnandbuild.org/donate', label: 'Donate', button: true },
 ]
 
-const mobileLinks: Array<{ href: string; icon: IconProps['name']; button?: boolean }> = [
-  { href: '/buildings', icon: 'building' },
-  { href: '/tours', icon: 'eye' },
-  { href: 'https://www.designlearnandbuild.org/donate', icon: 'donate', button: true },
+const mobileLinks: Array<{
+  href: string
+  icon?: IconProps['name']
+  label: string
+  button?: boolean
+}> = [
+  { href: '/buildings', icon: 'building', label: 'Building List' },
+  { href: '/tours', icon: 'eye', label: 'Walking Tours' },
+  { href: 'https://www.designlearnandbuild.org/donate', button: true, label: 'Donate' },
 ]
 ---
 
@@ -43,9 +48,7 @@ const mobileLinks: Array<{ href: string; icon: IconProps['name']; button?: boole
           if (link.button) {
             return (
               <Button href={link.href}>
-                <span class="block w-8">
-                  <Icon name={link.icon} />
-                </span>
+                <span class="block w-8">{link.icon ? <Icon name={link.icon} /> : link.label}</span>
               </Button>
             )
           }

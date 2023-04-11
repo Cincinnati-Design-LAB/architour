@@ -12,7 +12,7 @@ Phase 1:
 - [✔️] Introduce Link component that:
   - [✔️] Detects external links and adds `target="_blank" rel="noopener noreferrer"` and an icon
   - [✔️] Provide styling options? -> I want to do the underlining and icon as component variations under `src/components/Link` so that Link is a wrapper around all of them, and the external link is functional, but can optionally wrap itself with an icon. There are some two-ways dependencies here.
-- [ ] Replace icons with consistent kit
+- [✔️] Replace icons with consistent kit
 - [✔️] Remove icons from tours (or make them optional)
 - [ ] Content structure adjustments
   - [ ] Make attributes more flexible
