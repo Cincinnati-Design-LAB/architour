@@ -60,8 +60,13 @@ const building = Astro.props.building as Building
         }
         {
           building.static_map && (
-            <div class="mb-12">
-              <ResponsiveImage src={building.static_map.sidebar} className="w-full" />
+            <div class="mb-12 relative">
+              <ResponsiveImage src={building.static_map.sidebar} className="w-full border" />
+              {building.address && (
+                <div class="absolute top-0 left-0 z-10 p-3 text-sm bg-secondary-500/20 text-black/70 rounded-br-sm">
+                  {building.address}
+                </div>
+              )}
             </div>
           )
         }
