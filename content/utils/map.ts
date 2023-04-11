@@ -31,7 +31,7 @@ export function mapMarkerData({
   urlPath,
 }: {
   excerpt: Building['excerpt']
-  image: Building['images'][0]
+  image: Building['featuredImage']
   location: Building['location']
   title: Building['title']
   urlPath: Building['urlPath']

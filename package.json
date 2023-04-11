@@ -13,7 +13,7 @@
     "check": "astro check && tsc --noEmit",
     "dev": "npm-run-all -p contentlayer:dev astro:dev",
     "start": "astro dev",
-    "build": "npm-run-all -s check contentlayer:build astro:build",
+    "build": "npm-run-all -s contentlayer:build check astro:build",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -31,6 +31,7 @@
     "unified": "^10.1.2"
   },
   "devDependencies": {
+    "@types/mapbox-gl": "^2.7.10",
     "axios": "^1.3.3",
     "fast-glob": "^3.2.12",
     "gray-matter": "^4.0.3",

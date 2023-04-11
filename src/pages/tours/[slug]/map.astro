@@ -141,7 +141,7 @@ const tour = Astro.props.tour as Tour
 
     /* --- Add Markers --- */
 
-    buildingData.map((building) => {
+    buildingData.map((building: Building['mapMarker']) => {
       const el = createMarkerElement()
       new mapboxgl.Marker(el).setLngLat(building.geometry.coordinates).addTo(map)
       el.addEventListener('click', (event) => handleMarkerClick(event, el, building))
@@ -150,7 +150,7 @@ const tour = Astro.props.tour as Tour
     /* --- Set Map Bounds --- */
 
     let bounds = new mapboxgl.LngLatBounds()
-    buildingData.map((building) => {
+    buildingData.map((building: Building['mapMarker']) => {
       bounds.extend(building.geometry.coordinates)
     })
     map.fitBounds(bounds, { padding: 50 })
