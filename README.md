@@ -50,3 +50,8 @@ Phase 3:
   - [ ] Generate dimension ratio transformations (original, square, landscape)
   - [ ] Generate URLs for widths every `100` pixels from `100` to `4000`
   - [ ] ResponsiveImage component should be fed the sizes and automatically add DPR
+
+Notes to add:
+
+- How content is stored and retrieved
+- Working with images

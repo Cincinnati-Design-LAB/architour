@@ -129,7 +129,13 @@ export function cloudinaryImageUrls(
         const transformation = getTransformationName(crop.name, dpr)
         const imageUrl = Cloudinary.v2.url(publicId, {
           transformation,
-          sign_url: true,
+          //
+          // -> Something wasn't working right for `compact_card_hero` signed
+          // URLs, so I disabled it. It still works and it's still locked down
+          // to strict transformations.
+          //
+          // sign_url: true,
+          //
           secure: true,
         })
         return [dpr, imageUrl]
