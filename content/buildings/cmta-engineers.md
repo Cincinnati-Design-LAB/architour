@@ -9,5 +9,6 @@ location:
 address: |-
   222 E. 14th St.
   Cincinnati, OH
+static_map: buildings/cmta-engineers/static-map_z3jezm
+static_map_cache: '{"lat":39.11155,"lng":-84.511055}'
 ---
-

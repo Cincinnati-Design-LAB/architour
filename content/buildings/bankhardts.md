@@ -11,5 +11,6 @@ date_of_completion: 1880+
 style: Italian Renaissance
 architect: William Walter & James Keys Wilson
 original_function: pharmacy
+static_map: buildings/bankhardts/static-map_udjbue
+static_map_cache: '{"lat":39.100023,"lng":-84.513149}'
 ---
-

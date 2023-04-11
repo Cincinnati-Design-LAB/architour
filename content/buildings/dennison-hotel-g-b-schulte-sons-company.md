@@ -14,6 +14,8 @@ architect: Samuel Hannaford & Sons
 original_function: Offices and warehouse for carriage parts manufacturer
 renovation_date: '1931'
 renovation_changes: Conversion into hotel
+static_map: buildings/dennison-hotel-g-b-schulte-sons-company/static-map_fjnzp0
+static_map_cache: '{"lat":39.104556,"lng":-84.510338}'
 ---
 
 The Hannaford building is targeted for demolition by its current owners, but the Cincinnati Preservation Association is leading the battle to preserve the building.

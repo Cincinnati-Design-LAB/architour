@@ -19,6 +19,8 @@ renovation_date: '1987'
 renovation_architect: Williams Trebilcock Whitehead
 renovation_style: Post-modern
 renovation_changes: Converted 300 room hotel into 146 room luxury hotel.
+static_map: buildings/cincinnatian-hotel-palace-hotel/static-map_ozgpz5
+static_map_cache: '{"lat":39.102464,"lng":-84.513822}'
 ---
 
 The tallest building in Cincinnati at the time it was built, the hotel was designed in the spirit of the Grand Hotels of Europe. It introduced new technology such as electric lights and hydraulic elevatos to the hotel market.

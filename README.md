@@ -21,6 +21,7 @@ Phase 1:
   - [ ] Should not be able to publish without core attributes
   - [ ] Figure out what to do with renovation history and make adjustments
 - [ ] Responsive styles
+- [ ] Fix tour building images and cards
 - [ ] Building list filtering and pagination
 - [ ] Way to get back from PageHeader?
 - [ ] Add analytics, including click tracking

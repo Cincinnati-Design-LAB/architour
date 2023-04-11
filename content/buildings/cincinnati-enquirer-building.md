@@ -18,5 +18,6 @@ renovation_date: '2016'
 renovation_changes: >-
   Dual hotel housing a Homewood Suites on the lower floors and a Hampton Inn on
   the upper levels.
+static_map: buildings/cincinnati-enquirer-building/static-map_fterss
+static_map_cache: '{"lat":39.102952,"lng":-84.513549}'
 ---
-

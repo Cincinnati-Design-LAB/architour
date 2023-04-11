@@ -37,6 +37,8 @@ renovation_changes: >-
   Cintrifuse, The Brandery, and CincyTech.
 resources: 'http://www.cintrifuse.com/'
 green_building_features: The building is LEED Certified.
+static_map: buildings/centrifuse-union-hall/static-map_qieubz
+static_map_cache: '{"lat":39.109898,"lng":-84.515237}'
 ---
 
 The building is composed of three properties that have been married together over the years.

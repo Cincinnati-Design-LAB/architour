@@ -19,6 +19,8 @@ renovations: >-
   A third floor was added to the building, probably by Myers & Company
   Distillers.
 renovation_date: '1890'
+static_map: buildings/bb-and-t-the-northern-bank-of-kentucky/static-map_mskz08
+static_map_cache: '{"lat":39.088495,"lng":-84.510092}'
 ---
 
 The building is probably the oldest commercial building in Covington. Serving as a bank until 1896, the building subsequently was home to Myers & Company Distillers, the Mosler Safe Company, and Wadsworth Electric Company.

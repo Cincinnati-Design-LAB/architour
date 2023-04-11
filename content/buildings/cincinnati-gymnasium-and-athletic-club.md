@@ -17,6 +17,8 @@ historic_status: >-
 unique_features: >-
   The club was founded in 1853, and Rutherford B. Hayes was one of its founding
   members.
+static_map: buildings/cincinnati-gymnasium-and-athletic-club/static-map_mr0qii
+static_map_cache: '{"lat":39.102686,"lng":-84.515665}'
 ---
 
 When completed, the building was considered one of the finest athletic facilities in the country.

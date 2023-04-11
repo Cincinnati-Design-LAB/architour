@@ -20,5 +20,6 @@ renovation_date: '2019'
 renovation_changes: >-
   The building is being renovated to serve as the county administration
   building.
+static_map: buildings/bavarian-brewing-company/static-map_nydals
+static_map_cache: '{"lat":39.076335,"lng":-84.51809}'
 ---
-

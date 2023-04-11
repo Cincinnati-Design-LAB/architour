@@ -21,6 +21,8 @@ unique_features: >-
   automated system was replaced by a manned system due to its frequent break
   downs.  The garage was demolished in the 1980s due to corrosion of the steel
   structure caused by road salt.
+static_map: buildings/carew-tower/static-map_fam7io
+static_map_cache: '{"lat":39.100836,"lng":-84.513238}'
 ---
 
 A multi-use complex, the Carew Tower, Netherland Plaza Hotel, automated parking garage, and retail arcade are at the heart of Cincinnati. Built at the beginning of the Depression, the complex was constructed using WPA funding in just under a year and a half, but the 48 story office tower was completed and occupied in less than a year. The Carew Tower remained the tallest building in Cincinnati until the construction of the Great American Tower completed in 2011.

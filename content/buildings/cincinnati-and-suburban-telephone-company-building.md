@@ -19,6 +19,8 @@ unique_features: >-
   The façade is decorated with carvings that reflect communication technology
   including carvings of rotary telephones in a freeze that wraps the building
   above the second floor level.
+static_map: buildings/cincinnati-and-suburban-telephone-company-building/static-map_dyngwp
+static_map_cache: '{"lat":39.103067,"lng":-84.517388}'
 ---
 
 At the time it was built, it boasted the world's longest straight switchboard with positions for 88 operators.

@@ -48,6 +48,9 @@ quotes: >-
   live, work, and play opportunities for the creative class."  Rob McDonald, The
   Brandery
 resources: 'http://cincyshakes.com/'
+static_map: >-
+  buildings/cincinnati-shakespeare-company-otto-m-budig-theater/static-map_urcrdi
+static_map_cache: '{"lat":39.107753,"lng":-84.518113}'
 ---
 
 The building anchors and activates through its transparency the southwest corner of Washington Park and is a complement to the School for Creative and Performing Arts, Memorial Hall and Music Hall.

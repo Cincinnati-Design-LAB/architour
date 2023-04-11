@@ -25,6 +25,8 @@ renovation_style: Modern workplace
 renovation_changes: Architectural design studio
 resources: 'http://a359i.com/'
 green_building_features: 'Recycled display panels, all components mobile for reuse'
+static_map: buildings/a359i-partners-in-architecture/static-map_t9euy5
+static_map_cache: '{"lat":39.108449,"lng":-84.514156}'
 ---
 
 The building is clad with cast-iron ornamentation instead of the more common terra cotta or stone ornament.

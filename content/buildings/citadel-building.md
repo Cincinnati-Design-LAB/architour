@@ -17,6 +17,8 @@ unique_features: >-
   "army" in its owner's name or from the opposition the Salvation Army felt in
   Cincinnati, a a city home to breweries with a reputation for drunkenness and
   raucous behavior.
+static_map: buildings/citadel-building/static-map_tvv4yd
+static_map_cache: '{"lat":39.104957,"lng":-84.511293}'
 ---
 
 The building was the divisional headquarters of the Salvation Army until it moved to its current location on Central Parkway in 1967.

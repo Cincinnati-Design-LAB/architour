@@ -20,6 +20,8 @@ unique_features: >-
 renovations: Convention Center Plum Street entry
 renovation_date: '1987'
 renovation_architect: CRS / BHDP
+static_map: buildings/albee-arch/static-map_n8ovra
+static_map_cache: '{"lat":39.10073,"lng":-84.5178379}'
 ---
 
 The arch was part of the façade of the Albee Theater that faced Fountain Square but was demolished in 1974 to make way for redevelopment. The façade was salvaged by the City, and the stone and terra cotta pieces were placed in a storage yard along the riverfront for future reuse.

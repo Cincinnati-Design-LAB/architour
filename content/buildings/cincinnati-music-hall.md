@@ -24,6 +24,8 @@ renovation_date: 1895 / 1925 / 1969-76 / 2016
 renovation_architect: >-
   Samuel Hannaford & Sons (1895) / Kruckemeyer & Strong (1925) / George Schatz &
   Associates (1976) / Perfido Weiskopf Wagstaff + Goettel (2016)
+static_map: buildings/cincinnati-music-hall/static-map_xsh8ou
+static_map_cache: '{"lat":39.109392,"lng":-84.519145}'
 ---
 
 Conceived as a cathedral or temple of music, the building was championed by Ruben Springer and other local philanthropists. The 3,500 seat Springer Auditorium is considered one of the most acoustically perfect performance halls in the world. The building is home to the Cincinnati Symphony Orchestra, Cincinnati Pops Orchestra, Cincinnati Opera, and the May Festival Chorus.

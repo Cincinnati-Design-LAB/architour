@@ -9,6 +9,8 @@ address: '250 E. Fifth St., Cincinnati, OH  45202'
 date_of_completion: '1984'
 architect: 3D International
 original_function: Office building
+static_map: buildings/deloitte-center/static-map_ngompv
+static_map_cache: '{"lat":39.102183,"lng":-84.508639}'
 ---
 
 The building was once the headquarters of Chiquita Brands which was owned by American Financial Group. The company was sold and relocated to Charlotte in 2012. .

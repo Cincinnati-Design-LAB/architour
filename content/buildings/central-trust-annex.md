@@ -11,5 +11,6 @@ date_of_completion: '1927'
 style: Florentine Renaissance
 architect: Garber & Woodward
 original_function: Expansion of office space for the insurance company.
+static_map: buildings/central-trust-annex/static-map_ycasgw
+static_map_cache: '{"lat":39.099,"lng":-84.5127}'
 ---
-

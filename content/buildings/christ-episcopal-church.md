@@ -17,6 +17,8 @@ unique_features: >-
 renovation_date: 1982 / 1997
 renovation_architect: William Schickel (1982) / Philip Markwood (1997)
 renovation_style: neo-Gothic
+static_map: buildings/christ-episcopal-church/static-map_n3nxn1
+static_map_cache: '{"lat":39.100922,"lng":-84.507448}'
 ---
 
 After a proposed design by Eliel Saarinen was rejected, Maxfield redesigned the church with an attempt to reinterpret Gothic design in modern terms.

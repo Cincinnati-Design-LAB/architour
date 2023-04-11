@@ -31,5 +31,6 @@ green_building_features: >-
   The store utilizes extensive natural lighting combined with LED lighting to
   create an environment conducive to a showroom function.  Many of the products
   that they sell are sustainably sourced.
+static_map: buildings/design-lab-furniture/static-map_wqtn3t
+static_map_cache: '{"lat":39.110134,"lng":-84.518658}'
 ---
-

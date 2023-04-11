@@ -22,6 +22,8 @@ unique_features: >-
   massive arches, and scale of the materials suggest a fortress-like quality.  A
   large courtyard is located in the center of the building and has been studied
   for enclosure.
+static_map: buildings/cincinnati-city-hall/static-map_zid8pb
+static_map_cache: '{"lat":39.10416999999999,"lng":-84.5195339}'
 ---
 
 In 1884, Cincinnati experienced a courthouse riot followed by a labor riot two years later. Downtown residents were concerned about trends toward violence, and a new mayor was elected to gain control. The design of the new City Hall was intended to stand as a symbol of the government's power.

@@ -27,6 +27,8 @@ renovation_architect: 'Graham, Anderson, Probst & White'
 renovation_changes: >-
   The building was converted into a full-service hotel.  The restaurant on the
   first floor is named D Burnham's in honor of the architect of the building.
+static_map: buildings/bartlett-bldg-union-savings-and-trust-co/static-map_mv7jsx
+static_map_cache: '{"lat":39.1002853,"lng":-84.5114735}'
 ---
 
 First highrise bank building designed by Burnham in Cincinnati and tallest building in the city at the time of construction.

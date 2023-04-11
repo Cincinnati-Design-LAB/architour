@@ -16,5 +16,6 @@ unique_features: >-
   The interior was modeled after a medieval English tithe barn. The church's
   main lectern is centered on the long axis of the sanctuary, and pews encircle
   the pulpit.
+static_map: buildings/covenant-first-presbyterian-church/static-map_rvjgs6
+static_map_cache: '{"lat":39.103981,"lng":-84.517158}'
 ---
-

@@ -10,5 +10,7 @@ address: '2 W. Fourth St., Cincinnati, OH  45202'
 date_of_completion: '1903'
 style: Beaux Arts Classicism
 architect: 'Rapp, Zettel & Rapp'
+static_map: >-
+  buildings/ameritrustgerman-national-bank-lincoln-national-bank/static-map_x4ef4z
+static_map_cache: '{"lat":39.100143,"lng":-84.512876}'
 ---
-

@@ -12,6 +12,8 @@ date_of_completion: '1965'
 style: International
 architect: Garriott & Becker
 original_function: Downtown fire station
+static_map: buildings/cincinnati-fire-division-headquarters/static-map_vj69hi
+static_map_cache: '{"lat":39.1000118,"lng":-84.5189644}'
 ---
 
 The building serves as the headquarters of the first professional and compensated fire department in the country.

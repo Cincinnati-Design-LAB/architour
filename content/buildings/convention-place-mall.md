@@ -10,5 +10,6 @@ date_of_completion: '1985'
 style: International
 architect: Hefley Stevens
 associate_architect: ATA
+static_map: buildings/convention-place-mall/static-map_keblch
+static_map_cache: '{"lat":39.1002341,"lng":-84.5163384}'
 ---
-

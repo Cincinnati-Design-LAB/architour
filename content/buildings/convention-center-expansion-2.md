@@ -21,5 +21,6 @@ unique_features: >-
   The west facade of the expansion was clad with a grided steel tube system that
   supports angled, uplighted panels spelling out the name, "Cincinnati".  The
   lighting of the panels can be changed to respond to public events.
+static_map: buildings/convention-center-expansion-2/static-map_t7h8x4
+static_map_cache: '{"lat":39.10061,"lng":-84.5188379}'
 ---
-

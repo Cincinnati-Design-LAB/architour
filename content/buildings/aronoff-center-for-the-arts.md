@@ -21,6 +21,8 @@ unique_features: >-
   more intimate performances and corporate presentations.  The Fifth Third
   Theatre is a black box type space that can seat up to 150 people for
   alternative performances.
+static_map: buildings/aronoff-center-for-the-arts/static-map_uuqlbs
+static_map_cache: '{"lat":39.1035828,"lng":-84.5116664}'
 ---
 
 The building became the anchor of the new Entertainment District created by the City to help revitalize the downtown area. Its transparency enlivens the streetscape by allowing passers by to see patrons in its prefunction spaces.

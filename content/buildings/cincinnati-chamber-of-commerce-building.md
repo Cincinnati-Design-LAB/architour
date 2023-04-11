@@ -29,6 +29,8 @@ renovation_changes: >-
   out additional images and resources at http://library.cincymuseum.org.
 resources: >-
   http://library.cincymuseum.org/starweb/photos/servlet.starweb?path=photos/photo-session.web
+static_map: buildings/cincinnati-chamber-of-commerce-building/static-map_cc1ql1
+static_map_cache: '{"lat":39.099654,"lng":-84.512977}'
 ---
 
 One of the most important buildings constructed in the 19th Century in Cincinnati, the building had a raw power that spoke of substance and permanance. While Richardson's work was inspired by Medieval architecture, his designs were seen as representative of one of the first uniquely American styles. The building was destroyed by a fire in 1911. Richardson's designs inspired Hannaford's design of the Cincinnati City Hall building.

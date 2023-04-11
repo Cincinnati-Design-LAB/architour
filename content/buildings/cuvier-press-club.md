@@ -18,6 +18,8 @@ renovations: >-
   purchased the building and converted it into office and meeting space.
 renovation_date: '2005'
 renovation_changes: Headquarters and meeting facility for the branding company.
+static_map: buildings/cuvier-press-club/static-map_uj8bqa
+static_map_cache: '{"lat":39.104581,"lng":-84.51458}'
 ---
 
 It is the oldest surviving residence designed by Samuel Hannaford.

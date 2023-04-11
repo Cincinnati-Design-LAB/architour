@@ -46,6 +46,8 @@ green_building_features: >-
   The building received a LEED Silver Certification due in large part to its
   extensive use of natural light and reuse and repurposing of materials and
   lighting.
+static_map: buildings/art-academy-of-cincinnati/static-map_opifyi
+static_map_cache: '{"lat":39.108722,"lng":-84.5137699999998}'
 ---
 
 The Art Academy of Cincinnati was one of the first institutions to relocate into Over-the-Rhine and led the way for the rebirth of the area.

@@ -19,6 +19,8 @@ unique_features: >-
   animals were created by Carousel Works in Mansfield, Ohio.  The animals
   represent aspects of Cincinnati history and daily life and reference the
   Bengals, the Bearcats, P&G, Ocktoberfest, and many other Cincinnati icons.
+static_map: buildings/anderson-pavilion/static-map_lims0k
+static_map_cache: '{"lat":39.095912,"lng":-84.511192}'
 ---
 
 The pavilion was funded by a donation from the Anderson Foundation to honor Annie W. & Elizabeth M. Anderson, sisters who were noted local philanthopists and decendents of Nicholas Longworth, one of Cincinnati's early settlers who was also a noted philanthropist and stateman and who built the residence that is now the Taft Museum of Art.

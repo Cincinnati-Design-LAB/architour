@@ -31,6 +31,8 @@ unique_features: >-
 renovations: Structural enhancement of the bridge to accomodate an urban railway.
 renovation_date: '1898'
 renovation_architect: William Hildenbrandt
+static_map: buildings/covington-and-cincinnati-suspension-bridge/static-map_ppmtoo
+static_map_cache: '{"lat":39.0951207,"lng":-84.5104139}'
 ---
 
 At the time of construction, it was the longest suspension bridge in the world at 1057 feet. The bridge was a predecessor to the Brooklyn Bridge designed and built in 1883 by Roebling. Construction began before the beginning of the Civil War, and pressure to complete it increased due to fears of the Confederate Army launching attacks on the north. A pontoon bridge was constructed to facilitate military traffic in the short term, but the Confederate threat accelerated the flow of money from investors into the private company.

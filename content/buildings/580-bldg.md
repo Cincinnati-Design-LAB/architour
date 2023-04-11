@@ -27,6 +27,8 @@ renovation_changes: >-
   complex.  Major renovations to the facade were necessitated to convert the
   building to a double-loaded function allowing condos to face both north and
   south.
+static_map: buildings/580-bldg/static-map_z8pmuq
+static_map_cache: '{"lat":39.1024844,"lng":-84.5108078}'
 ---
 
 The original design was the first major building to embrace the City's skywalk system by locating all major public functions at the skywalk level. The result was a street façade that was cold and impersonal. The building base was later renovated to reconnect to the street by expanding under the original street arcade and creating glass storefronts.

@@ -17,5 +17,6 @@ renovation_date: '1980'
 renovation_changes: >-
   Museum housing historic exhibits of fire fighting equipment as well as current
   day technology.
+static_map: buildings/cincinnati-fire-museum/static-map_ic4abx
+static_map_cache: '{"lat":39.105384,"lng":-84.519625}'
 ---
-

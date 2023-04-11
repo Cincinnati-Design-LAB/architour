@@ -11,6 +11,8 @@ style: Modern
 architect: Gin Wong
 associate_architect: Hixson Architects
 original_function: Office building
+static_map: buildings/center-at-600-vine/static-map_vzflxe
+static_map_cache: '{"lat":39.102639,"lng":-84.513121}'
 ---
 
 It is the sixth tallest building in Cincinnati.

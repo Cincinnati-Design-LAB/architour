@@ -18,6 +18,9 @@ renovation_date: '1942'
 renovation_changes: >-
   Broadcasting center for WLW Radio and Television (1942) / Christian school for
   inner city children
+static_map: >-
+  buildings/crosley-square-otto-armleder-memorial-education-center/static-map_ygawei
+static_map_cache: '{"lat":39.105035,"lng":-84.517005}'
 ---
 
 The building was the home of Crosley Broadcasting and WLWT, the first federally licensed television station in Ohio. The station was also the first NBC affiliate to broadcast in color in 1954. The station was a television pioneer and created extensive local programming.
