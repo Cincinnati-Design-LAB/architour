@@ -4,7 +4,13 @@ export interface Props {
   bodyClasses?: string
 }
 
-const { title, bodyClasses } = Astro.props
+declare global {
+  interface Window {
+    dataLayer: any[]
+  }
+}
+
+const { title, bodyClasses } = Astro.props as Props
 ---
 
 <!DOCTYPE html>
@@ -25,6 +31,18 @@ const { title, bodyClasses } = Astro.props
 
     {/* Meta */}
     <title>{title} | Design LAB</title>
+
+    {/* Google Analytics */}
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1H47D8H6C2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      const gtag: Gtag.Gtag = function () {
+        window.dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', import.meta.env.GOOGLE_ANALYTICS_ID)
+    </script>
   </head>
   <body class={bodyClasses}>
     <slot />

@@ -25,7 +25,9 @@ Phase 1:
 - [ ] Responsive styles
 - [ ] Building list filtering and pagination
 - [ ] Way to get back from PageHeader?
-- [ ] Add analytics, including click tracking
+- [✔️] Add analytics -> Installed, but need to wait for data collection and then
+  can test link tracking
+  - [ ] Add click tracking
 - [ ] Static map cleanup
   - [✔️] Address overlay on the building map
   - [✔️] Hover state for tour map
