@@ -95,6 +95,7 @@ const BuildingAttributeSection = defineNestedType(() => ({
       type: 'list',
       description: 'A list of attributes to be shown in the section.',
       of: BuildingAttribute,
+      required: true,
     },
     page_location: SHARED_FIELDS.page_location,
   },

@@ -1,4 +1,6 @@
 import Stat, { Props as StatProps } from './Stat.astro'
+import BuildingAttributeSection from './BuildingAttributeSection.astro'
+import BuildingRenovationSection from './BuildingRenovationSection.astro'
 import BuildingCard, { Props as BuildingCardProps } from './Card/Building.astro'
 import Button, { Props as ButtonProps } from './Button.astro'
 import CompactCard, { Props as CompactCardProps } from './Card/Compact.astro'
@@ -14,6 +16,8 @@ import TourCard, { Props as TourCardProps } from './Card/Tour.astro'
 
 export {
   Stat,
+  BuildingAttributeSection,
+  BuildingRenovationSection,
   BuildingCard,
   Button,
   CompactCard,

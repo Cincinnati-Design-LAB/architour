@@ -1,0 +1,19 @@
+---
+import type { BuildingAttributeSection } from '@/.contentlayer/generated'
+import { Stat } from '@components'
+
+export interface Props {
+  attributes: BuildingAttributeSection['attributes']
+  className?: string
+}
+
+const props = Astro.props as Props
+---
+
+<div class={`grid grid-cols-2 gap-x-8 gap-y-6 ${props.className}`}>
+  {
+    (props.attributes || []).map((attribute) => (
+      <Stat {...attribute} className={attribute.layout === 'full_width' ? 'col-span-2' : ''} />
+    ))
+  }
+</div>

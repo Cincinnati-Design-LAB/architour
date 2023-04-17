@@ -7,14 +7,20 @@ location:
   lat: 39.1030545
   lng: -84.5120005
 address: '609 Walnut St., Cincinnati, Ohio'
+sections:
+  - page_location: above_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: historic_status
+        value: 'Listed on NRHP on June 18, 2009.'
+      - label: current_owner
+        value: 21C Museum Hotel
 original_owner: Metropole Hotel
-current_owner: 21C Museum Hotel
 date_of_completion: '1912'
 style: Neo-classical
 architect: Joseph G. Steinkamp & Brother
 contractor: Messer Construction (renovation)
 original_function: Hotel
-historic_status: 'Listed on NRHP on June 18, 2009.'
 renovations: Conversion of former Metropole Hotel into boutique hotel and art collection
 renovation_date: '2012'
 renovation_architect: Perfido Weiskopf Wagstaff + Goettel

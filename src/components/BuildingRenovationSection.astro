@@ -1,0 +1,17 @@
+---
+import type { BuildingRenovationSection } from '@/.contentlayer/generated'
+// import { Stat } from '@components'
+
+export interface Props {
+  title: BuildingRenovationSection['title']
+  renovations: BuildingRenovationSection['renovations']
+  className?: string
+}
+
+const props = Astro.props as Props
+---
+
+<div>
+  I am a building RENOVATION section
+  <pre>{JSON.stringify(props, null, 2)}</pre>
+</div>

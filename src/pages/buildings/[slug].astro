@@ -1,6 +1,11 @@
 ---
 import { Building, getBuildings } from '@content'
-import { Stat, PageHeader, ResponsiveImage } from '@components'
+import {
+  PageHeader,
+  ResponsiveImage,
+  BuildingAttributeSection,
+  BuildingRenovationSection,
+} from '@components'
 import { PageLayout } from '@layouts'
 
 export async function getStaticPaths() {
@@ -12,6 +17,29 @@ export async function getStaticPaths() {
 }
 
 const building = Astro.props.building as Building
+
+const sectionMap = {
+  BuildingAttributeSection,
+  BuildingRenovationSection,
+}
+
+const renderSections = (page_location: Building['sections'][0]['page_location']) => {
+  return (building.sections || [])
+    .filter((section) => section.page_location === page_location)
+    .map((section) => {
+      // There's probably a better way to type this, but it was throwing an
+      // error while rendering the component dynamically in the template.
+      const Component = sectionMap[section.type] as (_props: any) => any
+      return { Component, props: section }
+    })
+}
+
+const sections = {
+  above_images: renderSections('above_images'),
+  below_images: renderSections('below_images'),
+  above_map: renderSections('above_map'),
+  below_map: renderSections('below_map'),
+}
 ---
 
 <PageLayout title={building.title}>
@@ -28,7 +56,16 @@ const building = Astro.props.building as Building
             />
           )
         }
+
+        <!-- TODO: above_image -->
+
         {
+          sections.above_images.map(({ Component, props }) => (
+            <Component {...props} className="mb-12" />
+          ))
+        }
+
+        <!-- {
           building.hasPrimaryAttributes && (
             <div class="grid grid-cols-2 gap-x-10 gap-y-6 mb-12">
               <Stat label="Historic Status" value={building.historic_status} />
@@ -36,7 +73,7 @@ const building = Astro.props.building as Building
               <Stat label="Unique Features" value={building.unique_features} class="col-span-2" />
             </div>
           )
-        }
+        } -->
         {
           building.images && (
             <div class="grid sm:grid-cols-2 gap-6">
@@ -46,9 +83,11 @@ const building = Astro.props.building as Building
             </div>
           )
         }
+
+        <!-- TODO: below_image -->
       </div>
       <div class="md:col-span-5">
-        {
+        <!-- {
           building.hasSecondaryAttributes && (
             <div class="grid grid-cols-2 gap-x-8 gap-y-6 mb-12">
               <Stat label="Completed" value={building.date_of_completion} />
@@ -57,7 +96,10 @@ const building = Astro.props.building as Building
               <Stat label="Style" value={building.style} />
             </div>
           )
-        }
+        } -->
+
+        <!-- TODO: above_map -->
+
         {
           building.static_map && (
             <div class="mb-12 relative">
@@ -70,7 +112,8 @@ const building = Astro.props.building as Building
             </div>
           )
         }
-        <div>Renovation history goes here ...</div>
+
+        <!-- TODO: below_map -->
       </div>
     </div>
   </div>

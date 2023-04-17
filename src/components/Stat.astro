@@ -2,10 +2,10 @@
 export interface Props {
   label: string
   value: string
-  class?: string
+  className?: string
 }
 
-const { label, value, className } = Astro.props
+const { label, value, className } = Astro.props as Props
 ---
 
 {
