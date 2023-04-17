@@ -17,7 +17,8 @@ Phase 1:
 - [✔️] Fix tour building images and cards
 - [✔️] Insecure content warning on Netlify. I think this is because of the
 - [ ] Content structure adjustments
-  - [ ] Make attributes more flexible
+  - [✔️] Make attributes more flexible
+  - [ ] `date_of_completion` -> `completion_date`
   - [ ] Convert existing content
   - [ ] Put in publishing mechanism (draft mode)
   - [ ] Should not be able to publish without core attributes
