@@ -35,7 +35,7 @@ if (!href.startsWith('/')) {
         {icons
           .filter((icon) => icon.position === 'left')
           .map((icon) => (
-            <span class={`block ${icon.className || 'w-3'}`}>
+            <span class={icon.className || 'block w-3'}>
               <Icon {...icon} />
             </span>
           ))}
@@ -45,7 +45,7 @@ if (!href.startsWith('/')) {
         {icons
           .filter((icon) => icon.position === 'right')
           .map((icon) => (
-            <span class={`block ${icon.className || 'w-3'}`}>
+            <span class={icon.className || 'block w-3'}>
               <Icon {...icon} />
             </span>
           ))}
