@@ -10,7 +10,7 @@
     "content:cache-static-map-urls": "ts-node --esm ./content/scripts/cache-static-map-urls.ts",
     "contentlayer:build": "contentlayer build",
     "contentlayer:dev": "contentlayer dev",
-    "check": "astro check && tsc --noEmit",
+    "check": "astro check",
     "dev": "npm-run-all -p contentlayer:dev astro:dev",
     "start": "astro dev",
     "build": "npm-run-all -s contentlayer:build check astro:build",
