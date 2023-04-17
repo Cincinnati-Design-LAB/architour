@@ -11,16 +11,30 @@ sections:
   - page_location: above_images
     type: BuildingAttributeSection
     attributes:
-      - label: historic_status
+      - label: Historic Status
         value: 'Listed on NRHP on June 18, 2009.'
-      - label: current_owner
+      - label: Current Owner
         value: 21C Museum Hotel
-original_owner: Metropole Hotel
-date_of_completion: '1912'
-style: Neo-classical
-architect: Joseph G. Steinkamp & Brother
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Original Owner
+        value: Metropole Hotel
+      - label: Completion Date
+        value: '1912'
+      - label: Original Function
+        value: Hotel
+      - label: Style
+        value: Neo-classical
+      - label: Architect
+        value: Joseph G. Steinkamp & Brother
+        layout: full_width
+  - page_location: below_map
+    type: BuildingRenovationSection
+    title: Renovation History
+
 contractor: Messer Construction (renovation)
-original_function: Hotel
+
 renovations: Conversion of former Metropole Hotel into boutique hotel and art collection
 renovation_date: '2012'
 renovation_architect: Perfido Weiskopf Wagstaff + Goettel

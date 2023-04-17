@@ -56,24 +56,11 @@ const sections = {
             />
           )
         }
-
-        <!-- TODO: above_image -->
-
         {
           sections.above_images.map(({ Component, props }) => (
             <Component {...props} className="mb-12" />
           ))
         }
-
-        <!-- {
-          building.hasPrimaryAttributes && (
-            <div class="grid grid-cols-2 gap-x-10 gap-y-6 mb-12">
-              <Stat label="Historic Status" value={building.historic_status} />
-              <Stat label="Current Owner" value={building.current_owner} />
-              <Stat label="Unique Features" value={building.unique_features} class="col-span-2" />
-            </div>
-          )
-        } -->
         {
           building.images && (
             <div class="grid sm:grid-cols-2 gap-6">
@@ -83,23 +70,18 @@ const sections = {
             </div>
           )
         }
-
-        <!-- TODO: below_image -->
+        {
+          sections.below_images.map(({ Component, props }) => (
+            <Component {...props} className="mt-12" />
+          ))
+        }
       </div>
       <div class="md:col-span-5">
-        <!-- {
-          building.hasSecondaryAttributes && (
-            <div class="grid grid-cols-2 gap-x-8 gap-y-6 mb-12">
-              <Stat label="Completed" value={building.date_of_completion} />
-              <Stat label="Original Owner" value={building.original_owner} />
-              <Stat label="Architect" value={building.architect} />
-              <Stat label="Style" value={building.style} />
-            </div>
-          )
-        } -->
-
-        <!-- TODO: above_map -->
-
+        {
+          sections.above_map.map(({ Component, props }) => (
+            <Component {...props} className="mb-8" />
+          ))
+        }
         {
           building.static_map && (
             <div class="mb-12 relative">
@@ -112,8 +94,11 @@ const sections = {
             </div>
           )
         }
-
-        <!-- TODO: below_map -->
+        {
+          sections.below_map.map(({ Component, props }) => (
+            <Component {...props} className="mb-8" />
+          ))
+        }
       </div>
     </div>
   </div>

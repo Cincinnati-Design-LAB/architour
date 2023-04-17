@@ -50,6 +50,10 @@ const BuildingRenovation = defineNestedType(() => ({
       description: 'Year to display - also used for sorting',
       required: true,
     },
+    description: {
+      type: 'string',
+      description: 'Description of the renovation',
+    },
     architect: {
       type: 'string',
       description: 'Name of the architect to display, if known',
