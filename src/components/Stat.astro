@@ -11,7 +11,9 @@ const { label, value, className } = Astro.props as Props
 {
   value && (
     <div class={className}>
-      <span class="block font-bold mb-1 text-sm tracking-widest uppercase">{label}</span>
+      <span class="block font-bold mb-1 text-sm tracking-widest uppercase text-secondary-500">
+        {label}
+      </span>
       <span>{value}</span>
     </div>
   )

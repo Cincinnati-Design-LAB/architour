@@ -45,9 +45,9 @@ const BuildingRenovation = defineNestedType(() => ({
       description: 'Heading to be shown above the list of renovations',
       required: true,
     },
-    year: {
-      type: 'number',
-      description: 'Year to display - also used for sorting',
+    date: {
+      type: 'string',
+      description: 'Year (or date) to display',
       required: true,
     },
     description: {

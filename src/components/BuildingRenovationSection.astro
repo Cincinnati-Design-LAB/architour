@@ -1,5 +1,6 @@
 ---
 import type { BuildingRenovationSection } from '@/.contentlayer/generated'
+import { Stat } from '@components'
 
 export interface Props {
   title: BuildingRenovationSection['title']
@@ -10,7 +11,23 @@ export interface Props {
 const props = Astro.props as Props
 ---
 
-<div>
-  I am a building RENOVATION section
-  <pre>{JSON.stringify(props, null, 2)}</pre>
+<div class={props.className}>
+  <h2 class="font-semibold mb-4 text-xl">{props.title}</h2>
+  {
+    (props.renovations || []).map((renovation) => (
+      <div class="mb-8 last-of-type:mb-0">
+        <span class="flex space-x-2 justify-start items-center mb-2 text-lg">
+          <span class="font-black tracking-widest">{renovation.date}:</span>
+          <span class="uppercase">{renovation.title}</span>
+        </span>
+        {renovation.description && <p class="text-sm">{renovation.description}</p>}
+        {(renovation.architect || renovation.architect) && (
+          <div class="grid grid-cols-2 gap-x-8 gap-y-6 mt-4 text-sm">
+            {renovation.architect && <Stat label="Architect" value={renovation.architect} />}
+            {renovation.contractor && <Stat label="Contractor" value={renovation.contractor} />}
+          </div>
+        )}
+      </div>
+    ))
+  }
 </div>
