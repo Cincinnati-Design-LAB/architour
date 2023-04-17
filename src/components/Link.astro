@@ -6,7 +6,7 @@ export interface Props {
   className?: string
   id?: string
   hideExternalIcon?: boolean
-  icons?: Array<IconProps & { position: 'left' | 'right' }>
+  icons?: Array<IconProps & { position: 'left' | 'right'; className?: string }>
 }
 
 const { href, hideExternalIcon, className, id = '', icons = [] } = Astro.props as Props
@@ -35,7 +35,7 @@ if (!href.startsWith('/')) {
         {icons
           .filter((icon) => icon.position === 'left')
           .map((icon) => (
-            <span class="block w-3">
+            <span class={`block ${icon.className || 'w-3'}`}>
               <Icon {...icon} />
             </span>
           ))}
@@ -45,7 +45,7 @@ if (!href.startsWith('/')) {
         {icons
           .filter((icon) => icon.position === 'right')
           .map((icon) => (
-            <span class="block w-3">
+            <span class={`block ${icon.className || 'w-3'}`}>
               <Icon {...icon} />
             </span>
           ))}
