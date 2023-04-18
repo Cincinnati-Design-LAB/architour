@@ -32,9 +32,7 @@ const buildings = (await getBuildings()).slice(0, 12)
             meta={[
               {
                 icon: 'calendar',
-                label: building.date_of_completion
-                  ? `Built ${building.date_of_completion}`
-                  : undefined,
+                label: building.completion_date ? `Built ${building.completion_date}` : undefined,
               },
               {
                 icon: 'eye',

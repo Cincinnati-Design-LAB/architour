@@ -9,8 +9,7 @@ location:
   lat: 39.1009969
   lng: -84.5069479
 address: '320 E. Fourth St., Cincinnati, OH  45202'
-date_of_completion: '1909'
+completion_date: '1909'
 style: English Tudor Gothic
 architect: Elzner & Anderson
 ---
-

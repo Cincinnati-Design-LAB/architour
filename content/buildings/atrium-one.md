@@ -9,7 +9,7 @@ location:
   lng: -84.5088439
 address: '201 E. Fourth St., Cincinnati, Ohio  45202'
 current_owner: Smith/Hallemann Partners
-date_of_completion: '1981'
+completion_date: '1981'
 style: International
 architect: SOM
 static_map: buildings/atrium-one/static-map_nhyps0

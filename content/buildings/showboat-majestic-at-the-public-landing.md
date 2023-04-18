@@ -8,7 +8,7 @@ location:
   lng: -84.503321
 original_owner: Tom Reynolds
 current_owner: City of Cincinnati
-date_of_completion: '1923'
+completion_date: '1923'
 architect: Tom Reynolds
 original_function: Floating showboat
 historic_status: >-

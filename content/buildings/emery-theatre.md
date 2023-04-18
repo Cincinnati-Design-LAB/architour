@@ -7,7 +7,7 @@ location:
   lng: -84.5128755
 address: '1112 Walnut St., Cincinnati, Ohio 45202'
 original_owner: Ohio Mechanics' Institute
-date_of_completion: '1911'
+completion_date: '1911'
 style: Collegiate Tudor
 architect: >-
   Samuel Hannaford & Sons, one of Cincinnati's most prolific 19th Century

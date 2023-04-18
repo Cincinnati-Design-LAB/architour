@@ -6,7 +6,6 @@ location:
   lat: 39.09979
   lng: -84.5147841
 address: 'Fourth & Race Streets, Cincinnati, OH  45202'
-date_of_completion: '1960'
+completion_date: '1960'
 architect: Raymond Loewy
 ---
-

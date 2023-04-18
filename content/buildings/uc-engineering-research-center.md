@@ -11,7 +11,7 @@ location:
   lat: 39.133334
   lng: -84.515263
 original_owner: University of Cincinnati
-date_of_completion: '1995'
+completion_date: '1995'
 style: Post-Modern
 public_access: >-
   Public accessibility is limited to the main barrel-vaulted lobby due to the

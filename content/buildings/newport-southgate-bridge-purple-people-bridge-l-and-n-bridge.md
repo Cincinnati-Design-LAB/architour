@@ -12,7 +12,7 @@ original_owner: >-
   Newport & Cincinnati Bridge Company (purchased in 1904 by the Louisville &
   Nashville Railroad - L&N)
 current_owner: Kentucky Transportation Cabinet
-date_of_completion: 1872 / 1897
+completion_date: 1872 / 1897
 architect: Jacob Linville (Chief Engineer 1872) / M.J. Becker (Chief Engineer 1897)
 original_function: >-
   Built initially as a railroad bridge, it was reconstructed in 1897 as a

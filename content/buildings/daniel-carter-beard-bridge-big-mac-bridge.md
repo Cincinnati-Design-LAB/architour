@@ -10,7 +10,7 @@ images:
 location:
   lat: 39.102343
   lng: -84.498246
-date_of_completion: '1976'
+completion_date: '1976'
 architect: Hazelet + Erdal (now URS Corporation)
 unique_features: >-
   The tied-arch main span of the bridge spans 750 and is composed of two bridges

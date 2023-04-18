@@ -9,7 +9,7 @@ location:
   lng: -84.53747369999996
 address: '1301 Western Ave., Cincinnati, OH  45203'
 current_owner: Cincinnati Museum Center
-date_of_completion: '1933'
+completion_date: '1933'
 style: Art Deco
 public_access: >-
   The building is undergoing a renovation/restoration project, and portions of

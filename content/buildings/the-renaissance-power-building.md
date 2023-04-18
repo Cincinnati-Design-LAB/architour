@@ -7,7 +7,7 @@ location:
   lat: 39.105173
   lng: -84.50941
 address: '224 E. Eighth St., Cincinnati, OH  45202'
-date_of_completion: '1903'
+completion_date: '1903'
 style: Early commercial
 architect: Harry Hake
 historic_status: >-
@@ -16,4 +16,3 @@ historic_status: >-
 renovation_date: '2002'
 renovation_changes: Converted to luxury apartments
 ---
-

@@ -6,7 +6,7 @@ location:
   lat: 39.0995
   lng: -84.5089533
 address: '300 Main St., Cincinnati, Ohio'
-date_of_completion: '1862'
+completion_date: '1862'
 style: Itanianate
 architect: William Walters
 historic_status: 'Part of a cluster of 3 buildings added to the NRHP on July 15, 1983.'

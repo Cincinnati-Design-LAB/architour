@@ -12,7 +12,7 @@ address: |-
   Cincinnati, OH  45202
 original_owner: Cosmopolitan Hall
 current_owner: Cintrifuse
-date_of_completion: 1850-55
+completion_date: 1850-55
 style: Italian Renaissance Revival (1313)
 public_access: Elevator access is available to all levels
 original_function: >-

@@ -7,7 +7,7 @@ location:
   lng: -84.5127
 address: 'Third & Vine St., Cincinnati, OH  45202'
 original_owner: Union Central Life Insurance
-date_of_completion: '1927'
+completion_date: '1927'
 style: Florentine Renaissance
 architect: Garber & Woodward
 original_function: Expansion of office space for the insurance company.

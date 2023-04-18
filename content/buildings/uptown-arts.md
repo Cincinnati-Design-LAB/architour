@@ -12,7 +12,7 @@ address: |-
   Cincinnati, OH
 original_owner: Geise Cigar Box Company
 current_owner: Rosenthal Foundation
-date_of_completion: '1912'
+completion_date: '1912'
 style: Commercial
 public_access: Handicap accessible.  All floors will be open to visitors except the basement.
 contractor: Messer Construction (2000)

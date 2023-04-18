@@ -6,7 +6,7 @@ location:
   lat: 39.101391
   lng: -84.504703
 address: '500 E. Fourth St., Cincinnati, OH  45202'
-date_of_completion: '1820'
+completion_date: '1820'
 style: Federal
 architect: unknown
 historic_status: 'Area listed on NRHP on March 26, 1976.'

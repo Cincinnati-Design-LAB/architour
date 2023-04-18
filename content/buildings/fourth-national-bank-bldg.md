@@ -6,7 +6,7 @@ location:
   lat: 39.1002
   lng: -84.51201
 address: '18 E. Fourth St, Cincinnati, OH  45202'
-date_of_completion: '1902'
+completion_date: '1902'
 style: Chicago School
 architect: >-
   Daniel Burnham, a Chicago-based architect whose firm also designed the Rookery
@@ -20,4 +20,3 @@ renovation_date: '2005'
 renovation_architect: CR Architects
 renovation_changes: Condos
 ---
-

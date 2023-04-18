@@ -8,7 +8,7 @@ location:
   lng: -84.5058558
 address: '400 Broadway St., Cincinnati, OH  45202'
 original_owner: Western & Southern Life Insurance Company
-date_of_completion: '1914'
+completion_date: '1914'
 style: Beaux Arts
 architect: Hake & Kuck
 unique_features: >-
@@ -17,4 +17,3 @@ unique_features: >-
 renovation_date: 1935 & 1961
 renovation_architect: Harry Hake & Harry Hake Jr.
 ---
-

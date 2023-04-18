@@ -9,7 +9,7 @@ location:
 address: |-
   834 Greenup St.
   Covington, KY
-date_of_completion: '1932'
+completion_date: '1932'
 style: Art Deco
 architect: E. Landberg
 renovation_changes: >-

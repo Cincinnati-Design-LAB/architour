@@ -7,7 +7,7 @@ location:
   lng: -84.518373
 address: '1209 Elm Street, Cincinnati, OH  45202'
 original_owner: Dr. Rudolph H. Reemelin
-date_of_completion: '1904'
+completion_date: '1904'
 style: Baroque façade with French Second Empire mansard roof
 architect: >-
   Samuel Hannaford & Sons, one of Cincinnati's most prolific 19th Century

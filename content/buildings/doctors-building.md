@@ -7,7 +7,7 @@ location:
   lat: 39.104196
   lng: -84.514629
 address: '19 Garfield Place, Cincinnati, OH  45202'
-date_of_completion: '1923'
+completion_date: '1923'
 style: Late Gothic Revival
 architect: Tietig & Lee
 original_function: Doctors' offices

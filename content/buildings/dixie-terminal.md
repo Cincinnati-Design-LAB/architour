@@ -9,7 +9,7 @@ location:
 address: '41-53 E. Fourth St., Cincinnati, Ohio'
 original_owner: The Dixie Terminal Company financed largely by Charles and Robert Taft
 current_owner: American Financial Group
-date_of_completion: '1913'
+completion_date: '1913'
 style: Beaux Arts
 architect: Garber & Woodward
 original_function: Office building and transportation terminal.

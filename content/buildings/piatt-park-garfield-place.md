@@ -8,7 +8,7 @@ location:
   lat: 39.10429
   lng: -84.515388
 current_owner: Cincinnati Park Board
-date_of_completion: '1817'
+completion_date: '1817'
 unique_features: >-
   A bronze statue of James A. Garfield (1887) by Charles Henry Niehaus faces
   Vine Street on the east end of the park, an a second bronze statue of William

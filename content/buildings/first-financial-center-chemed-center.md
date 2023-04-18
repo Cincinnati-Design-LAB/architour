@@ -8,7 +8,7 @@ location:
   lng: -84.5083716
 address: '255 E.Fifth Street, Cincinnati, OH  45202'
 original_owner: Hines Interests
-date_of_completion: '1991'
+completion_date: '1991'
 style: Postmodern classicism
 architect: SOM
 original_function: Office building

@@ -6,7 +6,7 @@ location:
   lat: 39.1007582
   lng: -84.5100822
 address: '150 E. Fourth St., Cincinnati, Ohio'
-date_of_completion: '1972'
+completion_date: '1972'
 style: Stylized classicism
 architect: Harry Hake & Partners
 original_function: >-

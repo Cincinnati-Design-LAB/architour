@@ -15,7 +15,7 @@ location:
 address: ', Cincinnati, Ohio'
 original_owner: The Covington and Cincinnati Bridge Company (a private company)
 current_owner: Commonwealth of Kentucky
-date_of_completion: '1867'
+completion_date: '1867'
 architect: >-
   John A. Roebling (Chief Engineer)  Roebling also owned the wire company and
   the spinning machines that were used to create the steel suspension cables

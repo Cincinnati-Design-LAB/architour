@@ -7,7 +7,7 @@ location:
   lat: 39.1152
   lng: -84.5197
 address: '1802 Elm Street, Cincinnati, Ohio'
-date_of_completion: '1855'
+completion_date: '1855'
 architect: Alfred West Gilbert
 original_function: Public market
 historic_status: 'Listed on the NRHP on June 5, 1972.'
@@ -17,7 +17,7 @@ unique_features: >-
 renovation_date: 1902-1915 / 1974 / 2004
 renovation_architect: Glaserworks (2004)
 renovation_changes: >-
-  Between 1902 and 1915, the market was enclosed, and refrigeration was added. 
+  Between 1902 and 1915, the market was enclosed, and refrigeration was added.
   In 1974, the market was renovated using federal funds.  In 2004, the market
   house was expanded, and a parking lot was added that connected to the market.
 ---

@@ -8,7 +8,7 @@ location:
   lat: 39.134372
   lng: -84.509181
 original_owner: University of Cincinnati
-date_of_completion: '1992'
+completion_date: '1992'
 style: Modern
 architect: Cambridge Seven Associates
 original_function: 'Campus power center generating electricity, steam and chilled water'

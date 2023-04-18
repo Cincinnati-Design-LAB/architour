@@ -8,9 +8,8 @@ location:
   lng: -84.507227
 address: '1 Procter & Gamble Plaza, Cincinnati, OH  45202'
 original_owner: Procter & Gamble
-date_of_completion: '1985'
+completion_date: '1985'
 style: Post-Modern
 architect: 'Kohn, Pederson & Fox'
 associate_architect: Bentley-Meisner (landscape)
 ---
-

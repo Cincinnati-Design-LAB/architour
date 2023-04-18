@@ -12,7 +12,7 @@ address: |-
   Cincinnati, OH
 original_owner: Scheve & Angert Manufacturers
 current_owner: 3CDC
-date_of_completion: Around 1900
+completion_date: Around 1900
 public_access: Handicap accessible
 contractor: Blackrock Construction (2015 renovation)
 original_function: Furniture manufacturer

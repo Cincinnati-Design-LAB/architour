@@ -13,9 +13,8 @@ location:
 address: '19 W. Seventh St., Cincinnati, OH  45202'
 original_owner: Federated Department Stores
 current_owner: Macy's
-date_of_completion: '1980'
+completion_date: '1980'
 style: Contemporary
 architect: RTKL
 contractor: Henry C. Beck Construction Co.
 ---
-

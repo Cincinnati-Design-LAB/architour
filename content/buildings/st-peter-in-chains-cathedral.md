@@ -7,7 +7,7 @@ location:
   lng: -84.51955909999998
 address: '325 W. 8th St., Cincinnati, OH  45202'
 original_owner: Archdiocese of Cincinnati
-date_of_completion: '1845'
+completion_date: '1845'
 style: Greek Revival
 architect: Henry & William Walter
 historic_status: 'Listed on NRHP on January 18, 1973.'

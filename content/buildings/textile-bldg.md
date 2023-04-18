@@ -7,7 +7,7 @@ location:
   lat: 39.0991094
   lng: -84.5161118
 address: '205 W. Fourth St., Cincinnati, OH  45202'
-date_of_completion: '1905'
+completion_date: '1905'
 style: Renaissance Revival
 architect: Gustave W. Drach
 renovation_date: '1985'

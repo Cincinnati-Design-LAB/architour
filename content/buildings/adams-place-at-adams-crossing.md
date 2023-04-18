@@ -11,7 +11,7 @@ location:
   lat: 39.103492
   lng: -84.497055
 address: '900 Adams Crossing, Cincinnati, OH 45202'
-date_of_completion: '1993'
+completion_date: '1993'
 style: Post-modern
 architect: William Turnbull Associates and Doran Studio
 associate_architect: KZF Design

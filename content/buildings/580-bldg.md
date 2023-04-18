@@ -8,7 +8,7 @@ location:
 address: '580 Walnut Street, Cincinnati, Ohio 45202'
 original_owner: Western-Southern Life
 current_owner: Berwind Properties
-date_of_completion: '1972'
+completion_date: '1972'
 style: International
 architect: RTKL
 associate_architect: Harry Hake & Partners

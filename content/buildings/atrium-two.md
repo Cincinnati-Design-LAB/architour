@@ -7,7 +7,7 @@ location:
   lat: 39.1001396
   lng: -84.5083772
 address: '221 E. Fourth St., Cincinnati, OH  45202'
-date_of_completion: '1985'
+completion_date: '1985'
 style: International
 architect: SOM
 static_map: buildings/atrium-two/static-map_pevais

@@ -132,7 +132,7 @@ export const Building = defineDocumentType(() => ({
       description: 'A list of attributes to be shown on the detail page. Each ',
       of: [BuildingAttributeSection, BuildingRenovationSection],
     },
-    date_of_completion: {
+    completion_date: {
       type: 'string',
       description: 'Loose date field (as a string) for when the building was completed.',
     },

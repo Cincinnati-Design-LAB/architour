@@ -12,7 +12,7 @@ address: |-
   Covington, KY
 original_owner: City of Covington
 current_owner: Northern Kentucky Arts Council
-date_of_completion: '1904'
+completion_date: '1904'
 style: Beaux Arts
 architect: John H. Boll & Charles C. Taylor
 original_function: Public library

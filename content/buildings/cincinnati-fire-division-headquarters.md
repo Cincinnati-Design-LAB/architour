@@ -8,7 +8,7 @@ location:
   lng: -84.5189644
 address: '430 Central Ave., Cincinnati, OH  45202'
 original_owner: City of Cincinnati
-date_of_completion: '1965'
+completion_date: '1965'
 style: International
 architect: Garriott & Becker
 original_function: Downtown fire station

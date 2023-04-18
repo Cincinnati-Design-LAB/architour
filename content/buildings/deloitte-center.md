@@ -6,7 +6,7 @@ location:
   lat: 39.102183
   lng: -84.508639
 address: '250 E. Fifth St., Cincinnati, OH  45202'
-date_of_completion: '1984'
+completion_date: '1984'
 architect: 3D International
 original_function: Office building
 static_map: buildings/deloitte-center/static-map_ngompv

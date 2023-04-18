@@ -6,7 +6,7 @@ location:
   lat: 39.102639
   lng: -84.513121
 address: '600 Vine St., Cincinnati, OH  45202'
-date_of_completion: '1984'
+completion_date: '1984'
 style: Modern
 architect: Gin Wong
 associate_architect: Hixson Architects

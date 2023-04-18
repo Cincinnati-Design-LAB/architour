@@ -10,7 +10,7 @@ address: |-
   Eighth & Sycamore Streets
   Cincinnati, OH. 45202
 original_owner: 3CDC & North American Properties
-date_of_completion: '2017'
+completion_date: '2017'
 style: Contemporary
 architect: John Senhauser Architects
 original_function: >-

@@ -6,7 +6,7 @@ location:
   lat: 39.1002341
   lng: -84.5163384
 address: '435 Elm St., Cincinnati, OH  45202'
-date_of_completion: '1985'
+completion_date: '1985'
 style: International
 architect: Hefley Stevens
 associate_architect: ATA

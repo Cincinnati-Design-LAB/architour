@@ -8,7 +8,7 @@ location:
 address: '22 Garfield Place, Cincinnati, OH  45202'
 original_owner: Marcus Fecheimer
 current_owner: LPK
-date_of_completion: '1861'
+completion_date: '1861'
 style: Italianate
 architect: Samuel Hannaford & Edwin Anderson
 historic_status: 'Listed on NRHP on October 26, 1972'

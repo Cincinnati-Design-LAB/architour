@@ -12,7 +12,7 @@ address: |-
   Cincinnati, OH  45202
 original_owner: Frank Nolte
 current_owner: Ted Gantz
-date_of_completion: '1880'
+completion_date: '1880'
 public_access: Must be able to climb stairs
 original_function: Residence
 unique_features: >-

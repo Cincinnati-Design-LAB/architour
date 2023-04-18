@@ -13,7 +13,6 @@ location:
 address: |-
   1530 Madison Ave.
   Covington, KY
-date_of_completion: '1910'
+completion_date: '1910'
 style: Italian Renaissance Revival
 ---
-

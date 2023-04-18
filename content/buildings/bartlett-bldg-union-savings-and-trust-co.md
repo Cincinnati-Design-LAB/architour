@@ -11,7 +11,7 @@ location:
 address: '36 E.Fourth St., Cincinnati, Ohio'
 original_owner: Union Savings & Trust Co.
 current_owner: Renaissance Hotel
-date_of_completion: '1901'
+completion_date: '1901'
 style: Neo-classic / Chicago style
 architect: >-
   Daniel Burnham, a Chicago-based architect whose firm also designed the Rookery

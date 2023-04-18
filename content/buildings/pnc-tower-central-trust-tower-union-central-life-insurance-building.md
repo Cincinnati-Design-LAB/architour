@@ -11,7 +11,7 @@ location:
 address: '1 W. Fourth St., Cincinnati, OH  45202'
 original_owner: Union Central Life Insurance
 current_owner: PNC Bank
-date_of_completion: '1913'
+completion_date: '1913'
 style: Neo classical
 architect: >-
   Cass Gilbert, the New York-based architect who designed the Woolworth Building

@@ -11,7 +11,7 @@ location:
 address: '140 W. Ninth St., Cincinnati, OH  45202'
 original_owner: The Elks
 current_owner: Cincinnati Hills Christian Academy
-date_of_completion: '1924'
+completion_date: '1924'
 architect: Harry Hake
 original_function: Elks Temple
 renovation_date: '1942'

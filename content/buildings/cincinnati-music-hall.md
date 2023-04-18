@@ -8,7 +8,7 @@ location:
   lng: -84.519145
 address: '1241 Elm St., Cincinnati, Ohio'
 original_owner: Music Hall Association
-date_of_completion: 1877-79
+completion_date: 1877-79
 style: High Victorian Gothic
 architect: Samuel Hannaford & Edwin R. Procter
 contractor: Messer Construction (2016 renovation)

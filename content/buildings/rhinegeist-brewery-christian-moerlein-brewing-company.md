@@ -11,7 +11,6 @@ location:
 address: '1910 Elm St., Cincinnati, Ohio'
 original_owner: Christian Moerlein Brewing Company
 current_owner: Rhinegeist Brewery
-date_of_completion: '1895'
+completion_date: '1895'
 renovation_date: '2013'
 ---
-

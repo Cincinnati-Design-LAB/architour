@@ -12,7 +12,7 @@ location:
   lng: -84.496766
 address: '705 E. Pete Rose Way, Cincinnati, OH  45202'
 original_owner: Cincinnati Parks Board
-date_of_completion: '1988'
+completion_date: '1988'
 architect: Glaserworks (formerly Glaser Associates)
 original_function: >-
   An expansion of the park at  Yeatman's Cove extending it to the Montgomery Inn

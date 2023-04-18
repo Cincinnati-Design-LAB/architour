@@ -7,7 +7,7 @@ location:
   lat: 39.1008434
   lng: -84.5141833
 address: '35 W. Fifth St., Cincinnati, OH  45202'
-date_of_completion: '1930'
+completion_date: '1930'
 style: American Modern with Art Deco motifs
 public_access: >-
   The hotel's lobby, the Palm Court, and the pre-function space for the Hall of

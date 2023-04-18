@@ -7,7 +7,7 @@ location:
   lng: -84.5106371
 address: '100 E. Fifth St., Cincinnati, Ohio'
 current_owner: GSA
-date_of_completion: '1939'
+completion_date: '1939'
 style: Simplified Classicism / Art Moderne
 architect: Louis A Simon
 associate_architect: Samuel Hannaford & Sons

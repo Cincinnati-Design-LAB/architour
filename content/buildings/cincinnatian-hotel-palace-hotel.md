@@ -9,7 +9,7 @@ location:
 address: '601 Vine St., Cincinnati, OH  45202'
 original_owner: Thomas Emery & Sons
 current_owner: American Financial Group
-date_of_completion: '1882'
+completion_date: '1882'
 style: Second Empire
 public_access: 'The hotel lobby, bar and restaurant are open to the public.'
 architect: Samuel Hannaford & Joseph Steinkamp & Brother

@@ -12,7 +12,7 @@ location:
   lng: -84.5124
 address: 'Fountain Square, Cincinnati, OH  45202'
 original_owner: City of Cincinnati
-date_of_completion: '1871'
+completion_date: '1871'
 architect: August von Kreling (sculptor)
 historic_status: 'Tyler Davidson Fountain added to NRHP on October 11, 1979.'
 ---

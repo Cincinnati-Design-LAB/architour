@@ -7,7 +7,7 @@ location:
   lat: 39.10165
   lng: -84.5045
 address: '506 E. Fourth St., Cincinnati, OH  45202'
-date_of_completion: '1926'
+completion_date: '1926'
 style: Beaux Arts Historicism
 architect: Garber & Woodward
 historic_status: Part of the Lytle Park Historic District listed on the NRHP in 1976.

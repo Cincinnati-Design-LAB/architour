@@ -6,7 +6,7 @@ location:
   lat: 39.1018975
   lng: -84.5041236
 address: '550 East 4th Street, Cincinnati, OH  45202'
-date_of_completion: '1970'
+completion_date: '1970'
 style: International
 architect: Harry Hake & Partners
 static_map: buildings/550-apartment-bldg/static-map_lbyjfm

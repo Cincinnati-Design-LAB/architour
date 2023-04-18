@@ -7,7 +7,7 @@ location:
   lat: 39.1004
   lng: -84.5108585
 address: '140 E. Fourth St., Cincinnati, Ohio'
-date_of_completion: '1971'
+completion_date: '1971'
 style: International
 architect: Harry Weese & Associates
 original_function: Office building

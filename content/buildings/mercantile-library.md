@@ -7,7 +7,7 @@ location:
   lat: 39.1006122
   lng: -84.5108585
 address: '414 Walnut, Cincinnati, Ohio'
-date_of_completion: '1905'
+completion_date: '1905'
 style: Italian Renaissance
 architect: Joseph & Edward Steinkamp
 ---

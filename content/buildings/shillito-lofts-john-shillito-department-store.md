@@ -13,7 +13,7 @@ location:
 address: '151 W. Seventh St., Cincinnati, OH  45202'
 original_owner: John J. Shillito Company
 current_owner: Towne Properties
-date_of_completion: >-
+completion_date: >-
   1870s (original building visible from Shillito Place) and 1938 (current façade
   wrap)
 style: Art Deco (1938 wrap)

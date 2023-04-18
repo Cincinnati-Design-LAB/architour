@@ -7,7 +7,7 @@ location:
   lng: -84.511192
 address: '8 E Mehring Way, Cincinnati, OH  45202'
 original_owner: Cincinnati Parks Board
-date_of_completion: '2015'
+completion_date: '2015'
 architect: Sasaki Associates
 original_function: >-
   The events/ banquet/ conference center supports functions ranging from parties

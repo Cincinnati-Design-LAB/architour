@@ -12,7 +12,7 @@ location:
   lng: -84.518552
 address: '1225 Elm St., Cincinnati, Ohio'
 current_owner: Hamilton County
-date_of_completion: '1908'
+completion_date: '1908'
 style: Beaux Arts Classicism
 public_access: 'Basement, First and Second Floors are accessible, but the balcony is not.'
 architect: >-

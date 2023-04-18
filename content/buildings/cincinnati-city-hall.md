@@ -9,7 +9,7 @@ location:
 address: '801 Plum St., Cincinnati, OH  45202'
 original_owner: City of Cincinnati
 current_owner: City of Cincinnati
-date_of_completion: '1894'
+completion_date: '1894'
 style: Richardsonian Romanesque
 architect: >-
   Samuel Hannaford & Sons, one of Cincinnati's most prolific 19th Century

@@ -8,7 +8,7 @@ location:
   lng: -84.507448
 address: '318 E. Fourth St., Cincinnati, OH  45202'
 original_owner: Episcopal Diocese of Southern Ohio
-date_of_completion: '1957'
+completion_date: '1957'
 style: Twentieth Century Modern
 architect: David Briggs Maxfield
 unique_features: >-

@@ -7,7 +7,7 @@ location:
   lat: 39.1067291
   lng: -84.513878
 address: '1014 Vine St., Cincinnati, OH  45202'
-date_of_completion: '1954'
+completion_date: '1954'
 architect: Wyatt C. Hedrick
 original_function: Office building
 renovation_date: '1980'

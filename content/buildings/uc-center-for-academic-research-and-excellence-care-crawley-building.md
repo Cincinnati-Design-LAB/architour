@@ -11,7 +11,7 @@ location:
   lat: 39.138886
   lng: -84.50453
 original_owner: University of Cincinnati
-date_of_completion: '2008'
+completion_date: '2008'
 architect: Studios Architecture
 associate_architect: Harley Ellis Devereaux
 original_function: >-

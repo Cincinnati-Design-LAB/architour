@@ -7,7 +7,7 @@ location:
   lat: 39.101048
   lng: -84.511048
 address: '432 Walnut St., Cincinnati, Ohio'
-date_of_completion: '1902'
+completion_date: '1902'
 style: Chicago School
 architect: >-
   Daniel Burnham, a Chicago-based architect whose firm also designed the Rookery
@@ -20,4 +20,3 @@ unique_features: >-
   with the terra cotta capital in white.  The contrast created a clarity of
   intention that is unique in Burnham's work in Cincinnati.
 ---
-

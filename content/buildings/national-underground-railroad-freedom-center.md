@@ -9,7 +9,7 @@ location:
   lat: 39.0978
   lng: -84.5112311
 address: '50 E. Freedom Way, Cincinnati, Ohio 45202'
-date_of_completion: '2004'
+completion_date: '2004'
 public_access: The museum is open to the public.
 architect: Blackburn Architects
 associate_architect: 'BOORA Architects, Alexander-Camabeam & Associates'

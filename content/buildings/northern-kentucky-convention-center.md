@@ -9,7 +9,7 @@ location:
 address: |-
   1 W. Rivercenter Blvd.
   Covington, KY
-date_of_completion: '2002'
+completion_date: '2002'
 style: Modernist
 public_access: Handicap accessible
 architect: Sherman Carter Barnhart

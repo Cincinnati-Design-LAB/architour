@@ -7,7 +7,7 @@ location:
   lat: 39.1031535
   lng: -84.5097
 address: '602 Main St., Cincinnati, Ohio 45202'
-date_of_completion: '1913'
+completion_date: '1913'
 style: Beaux Arts
 architect: Ernest Flagg
 historic_status: 'Listed on NRHP August 3, 1979'

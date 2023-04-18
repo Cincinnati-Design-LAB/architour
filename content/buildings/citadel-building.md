@@ -8,7 +8,7 @@ location:
 address: '114 E. Eighth St., Cincinnati, OH  45202'
 original_owner: Salvation Army
 current_owner: Archdiocese of Cincinnati
-date_of_completion: '1905'
+completion_date: '1905'
 architect: >-
   Samuel Hannaford, one of Cincinnati's most prolific 19th Century architects
   who also designed Cincinnati City Hall and Music Hall.

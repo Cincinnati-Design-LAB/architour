@@ -7,7 +7,7 @@ location:
   lat: 39.1030545
   lng: -84.5120005
 address: '609 Walnut St., Cincinnati, Ohio'
-date_of_completion: '1912'
+completion_date: '1912'
 sections:
   - page_location: above_images
     type: BuildingAttributeSection

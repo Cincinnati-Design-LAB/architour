@@ -9,10 +9,9 @@ location:
 address: |-
   1241 Elm St.
   Cincinnati, OH
-date_of_completion: 'October 28-29, 2017'
+completion_date: 'October 28-29, 2017'
 public_access: >-
   Join the first show in the newly renovated Music Hall Ballroom.  Receive half
   off your ticket price with a registration for Doors Open OTR.
 resources: 'http://www.designbuildcincy.com/'
 ---
-

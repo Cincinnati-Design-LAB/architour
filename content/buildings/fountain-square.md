@@ -8,7 +8,7 @@ location:
   lng: -84.5125
 address: 'Fifth & Vine St., Cincinnati, OH  45202'
 original_owner: City of Cincinnati
-date_of_completion: '1971'
+completion_date: '1971'
 style: Late Twentieth Century Civic Planning
 architect: RTKL
 original_function: Public square

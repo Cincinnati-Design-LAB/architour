@@ -12,7 +12,7 @@ address: |-
   Cincinnati, OH
 original_owner: Franciscans Friars who emmigrated from Austria
 current_owner: The Franciscan Friars of the Province of St. John the Baptist
-date_of_completion: 'December 18, 1859 (dedication)'
+completion_date: 'December 18, 1859 (dedication)'
 style: German Romanesque
 public_access: The sanctuary is open to the public daily from 9am to 5 pm
 architect: James W. McLaughlin

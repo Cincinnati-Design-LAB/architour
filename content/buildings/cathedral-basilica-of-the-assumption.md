@@ -14,7 +14,7 @@ address: |-
   1140 Madison Ave.
   Covington KY
 original_owner: Diocese of Covington
-date_of_completion: 1895-1910
+completion_date: 1895-1910
 style: French Gothic
 architect: Leon Coquard
 associate_architect: David Davis (façade)

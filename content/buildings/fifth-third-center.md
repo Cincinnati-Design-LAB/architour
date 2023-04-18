@@ -7,7 +7,7 @@ location:
   lng: -84.5117254
 address: '511 Walnut, Cincinnati, Ohio'
 original_owner: Fifth Third Bank
-date_of_completion: '1970'
+completion_date: '1970'
 style: International
 architect: Harrison & Abramovitz
 associate_architect: Harry Hake & Partners

@@ -8,7 +8,7 @@ location:
 address: '2 E. Fourth St., Cincinnati, OH  45202'
 original_owner: 'Melville E. Ingalls, Merchant National Bank'
 current_owner: Claremont Group
-date_of_completion: '1903'
+completion_date: '1903'
 style: Neo-classic Revival
 architect: Elzner & Anderson
 original_function: Office building for Merchant National Bank

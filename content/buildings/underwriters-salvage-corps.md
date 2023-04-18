@@ -7,7 +7,7 @@ location:
   lng: -84.511547
 address: '110 E. Eighth St., Cincinnati, OH  45202'
 original_owner: Underwriters Salvage Corps
-date_of_completion: '1889'
+completion_date: '1889'
 style: Queen Anne
 architect: William Schuberth
 historic_status: 'Listed on NRHP on July 15, 1982'

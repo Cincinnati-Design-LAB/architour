@@ -11,7 +11,7 @@ location:
 address: |-
   231 Scott Blvd.
   Covington, KY
-date_of_completion: '1836'
+completion_date: '1836'
 style: Greek Revival
 architect: unknown
 original_function: Banking offices

@@ -7,7 +7,7 @@ location:
   lat: 39.099397
   lng: -84.514482
 address: '105 W. Fourth St., Cincinnati, OH  45202'
-date_of_completion: '1927'
+completion_date: '1927'
 style: Italian Renaissance Revival
 architect: Teitig & Lee
 associate_architect: Hake & Kuck

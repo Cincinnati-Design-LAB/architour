@@ -9,7 +9,7 @@ location:
   lat: 39.109723
   lng: -84.51654
 address: '1310 Race St., Cincinnati, Ohio'
-date_of_completion: '1881'
+completion_date: '1881'
 style: Romanesque Revival
 architect: >-
   Samuel Hannaford & Sons, one of Cincinnati's most prolific 19th Century

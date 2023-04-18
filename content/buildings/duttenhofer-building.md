@@ -8,7 +8,7 @@ location:
 address: '299 E. Sixth St., Cincinnati, OH  45202'
 original_owner: Val Duttenhofer Sons
 current_owner: Sold to developer in 2014 by P&G
-date_of_completion: '1916'
+completion_date: '1916'
 style: Chicago Commercial Style
 architect: Samuel S Godley
 contractor: Roche-Bruner Building Company

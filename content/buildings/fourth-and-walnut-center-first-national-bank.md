@@ -9,7 +9,7 @@ location:
   lat: 39.1000913
   lng: -84.5108235
 address: '105 E. Fourth St., Cincinnati, Ohio'
-date_of_completion: '1903'
+completion_date: '1903'
 style: Chicago School
 architect: >-
   Daniel Burnham, a Chicago-based architect whose firm also designed the Rookery
@@ -19,4 +19,3 @@ unique_features: >-
   The bay windows added to the façade create an undulating texture to the
   building and make the façade less imposing.
 ---
-

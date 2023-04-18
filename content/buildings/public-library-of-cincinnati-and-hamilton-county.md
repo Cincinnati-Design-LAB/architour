@@ -9,7 +9,7 @@ location:
   lat: 39.1049
   lng: -84.5126239
 address: '800 Vine St., Cincinnati, Ohio'
-date_of_completion: '1954'
+completion_date: '1954'
 style: International
 architect: Woodie Garber & Associates
 associate_architect: Samual Hannaford & Sons

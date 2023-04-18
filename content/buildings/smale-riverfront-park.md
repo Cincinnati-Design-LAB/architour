@@ -8,7 +8,7 @@ location:
   lat: 39.095305
   lng: -84.511398
 original_owner: Cincinnati Parks Board
-date_of_completion: 2012 (phase 1)
+completion_date: 2012 (phase 1)
 architect: Sasaki Associates
 original_function: >-
   Cincinnati's newest extension of its riverfront park system, the park extends

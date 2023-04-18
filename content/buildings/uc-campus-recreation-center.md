@@ -8,7 +8,7 @@ location:
   lat: 39.132495
   lng: -84.515078
 original_owner: University of Cincinnati
-date_of_completion: '2006'
+completion_date: '2006'
 public_access: >-
   The lobby and exterior courtyards are open to the public and provide views
   into the facility, but access to the exercise areas is restricted.

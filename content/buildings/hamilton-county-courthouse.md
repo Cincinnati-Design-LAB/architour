@@ -6,7 +6,7 @@ location:
   lat: 39.1069725
   lng: -84.5105573
 address: '1000 Main St., Cincinnati, Ohio'
-date_of_completion: '1919'
+completion_date: '1919'
 style: Beaux Arts Classicism
 architect: 'Rankin, Kellogg & Crane'
 unique_features: >-

@@ -7,7 +7,6 @@ location:
   lat: 39.1057741
   lng: -84.5104125
 address: '830 Main St., Cincinnati, Ohio'
-date_of_completion: '1910'
+completion_date: '1910'
 architect: Werner & Adkins
 ---
-

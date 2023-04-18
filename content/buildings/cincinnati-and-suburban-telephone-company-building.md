@@ -10,7 +10,7 @@ location:
   lng: -84.517388
 address: '209 W. Seventh St., Cincinnati, OH  45202'
 current_owner: Cincinnati Bell
-date_of_completion: '1931'
+completion_date: '1931'
 style: Art Deco
 architect: Harry Hake
 original_function: Telephone switching building

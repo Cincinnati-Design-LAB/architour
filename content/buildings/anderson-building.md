@@ -6,7 +6,7 @@ location:
   lat: 39.09965
   lng: -84.509
 address: '304 Main St., Cincinnati, Ohio'
-date_of_completion: '1893'
+completion_date: '1893'
 style: Victorian
 architect: William Walters
 historic_status: 'Part of a cluster of 3 buildings added to the NRHP on July 15, 1983.'

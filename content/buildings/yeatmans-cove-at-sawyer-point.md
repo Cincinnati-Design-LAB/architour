@@ -12,10 +12,10 @@ location:
   lng: -84.498075
 address: '705 E. Pete Rose Way, Cincinnati, OH  45202'
 original_owner: Cincinnati Parks Board
-date_of_completion: '1977'
+completion_date: '1977'
 architect: Zion & Breen
 original_function: >-
-  A riverfront part that stretches from the Public Landing to the L&N Bridge. 
+  A riverfront part that stretches from the Public Landing to the L&N Bridge.
   The park includes a public lawn, a spray park, the National Steamboat
   Memorial, and the Serpentine Wall.  It is frequently used as the center of
   public events on the riverfront.

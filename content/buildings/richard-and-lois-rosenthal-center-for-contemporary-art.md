@@ -13,7 +13,7 @@ location:
 address: '44 E 6th St, Cincinnati, OH 45202, USA'
 original_owner: Contemporary Arts Center
 current_owner: Contemporary Arts Center
-date_of_completion: '2003'
+completion_date: '2003'
 style: Neo-futuristic
 public_access: >-
   Public lobby is accessible during normal business hours without admission to

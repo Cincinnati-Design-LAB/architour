@@ -10,7 +10,7 @@ location:
 address: |-
   434 Madison Ave.
   Covington, KY
-date_of_completion: '1857'
+completion_date: '1857'
 style: Greek Revival
 architect: Gedge & Brothers
 original_function: Lodge hall

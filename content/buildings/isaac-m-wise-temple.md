@@ -7,7 +7,7 @@ location:
   lat: 39.103717
   lng: -84.51830999999999
 address: '720 Plum St., Cincinnati, OH  45202'
-date_of_completion: '1867'
+completion_date: '1867'
 style: Moorish Byzantine Victorian
 architect: James K. Wilson
 historic_status: 'Listed on NRHP on December 27, 1972.'

@@ -11,7 +11,7 @@ address: |-
   1401 Elm St.
   Cincinnati, OH  45202
 current_owner: Grandin Properties
-date_of_completion: late 1800s
+completion_date: late 1800s
 public_access: Handicap accessible
 original_function: >-
   Originally a residence, recently the space was a restaurant and catering

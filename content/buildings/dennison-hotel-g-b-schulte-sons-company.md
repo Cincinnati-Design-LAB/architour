@@ -9,7 +9,7 @@ location:
 address: '716 Main St., Cincinnati, OH  45202'
 original_owner: G B Schulte Sons Company
 current_owner: Columbia REI LLC
-date_of_completion: '1892'
+completion_date: '1892'
 architect: Samuel Hannaford & Sons
 original_function: Offices and warehouse for carriage parts manufacturer
 renovation_date: '1931'

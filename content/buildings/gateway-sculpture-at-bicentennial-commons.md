@@ -12,7 +12,7 @@ location:
   lng: -84.498786
 address: '705 E. Pete Rose Way, Cincinnati, OH  45202'
 original_owner: Cincinnati Parks Board
-date_of_completion: '1988'
+completion_date: '1988'
 architect: Garth Rockcastle & Andrew Leicester
 original_function: >-
   An environmental sculpture designed to showcase Cincinnati's connection to the
@@ -33,4 +33,3 @@ unique_features: >-
   suspended from the "tall stack" columns represents Cincinnati's place as the
   Queen City of the West.
 ---
-

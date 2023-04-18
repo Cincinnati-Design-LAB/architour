@@ -12,7 +12,7 @@ address: |-
   Covington, KY
 original_owner: Bavarian Brewery Co. / Meyer-Riedlin Brewery
 current_owner: Kenton County
-date_of_completion: '1906'
+completion_date: '1906'
 style: Romanesque Revival & Commercial Style with contemporary elements
 architect: unknown
 historic_status: 'Added to NRHP on March 21, 1996'

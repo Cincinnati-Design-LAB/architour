@@ -9,7 +9,7 @@ location:
 address: '628 Sycamore St., Cincinnati, OH  45202'
 original_owner: Krippendorf-Dittman Shoe Company
 current_owner: North American Properties
-date_of_completion: '1888'
+completion_date: '1888'
 style: Late Victorian - Richardsonian Romanesque
 architect: Samuel Hannaford & Sons
 associate_architect: Louis Picket
@@ -20,4 +20,3 @@ renovation_date: '2002'
 renovation_architect: CR Architects
 renovation_changes: Conversion to luxury apartments
 ---
-

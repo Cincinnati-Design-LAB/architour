@@ -8,7 +8,7 @@ location:
 address: '524 Walnut St, Cincinnati, OH  45202'
 original_owner: Atlas National Bank
 current_owner: Fifth Third Bank
-date_of_completion: '1922'
+completion_date: '1922'
 style: Chicago School
 architect: Teitig & Lee
 renovation_date: '1966'

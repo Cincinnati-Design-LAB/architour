@@ -8,7 +8,7 @@ location:
   lng: -84.51245
 address: '100 E. Central Pkwy, Cincinnati, Ohio'
 original_owner: Ohio Mechanics' Institute
-date_of_completion: '1909'
+completion_date: '1909'
 style: Collegiate Tudor
 architect: >-
   Samuel Hannaford & Sons, one of Cincinnati's most prolific 19th Century

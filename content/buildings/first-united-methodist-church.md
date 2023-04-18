@@ -13,7 +13,7 @@ location:
 address: |-
   501 Greenup St.
   Covington, KY
-date_of_completion: '1867'
+completion_date: '1867'
 style: High Victorian Gothic
 architect: William Walter & William Stewart
 ---

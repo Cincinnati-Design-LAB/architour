@@ -9,7 +9,7 @@ location:
   lng: -84.515021
 address: '1 Paul Brown Stadium, Cincinnati, OH  45202'
 original_owner: Hamilton County
-date_of_completion: '2000'
+completion_date: '2000'
 style: Contemporary/Futuristic
 public_access: >-
   Access to the stadium is by ticket.  A Bengals pro shop is located on the

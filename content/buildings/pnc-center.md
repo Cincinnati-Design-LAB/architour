@@ -8,7 +8,7 @@ location:
   lng: -84.509168
 address: '201 E. Fifth Street, Cincinnati, Ohio'
 original_owner: Gerald Hines Development
-date_of_completion: '1975'
+completion_date: '1975'
 style: International Style
 architect: SOM
 associate_architect: BHDP Architecture

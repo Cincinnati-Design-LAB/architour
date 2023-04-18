@@ -8,7 +8,7 @@ location:
   lng: -84.502241
 address: '472 E Pete Rose Way, Cincinnati, OH 45202'
 original_owner: Cincinnati Parks Board
-date_of_completion: '1976'
+completion_date: '1976'
 architect: Louis Sauer
 original_function: >-
   An interactive fountain and water parked designed to engage the community and
@@ -25,4 +25,3 @@ renovations: >-
   around the edges of the fountain.
 renovation_date: '2009'
 ---
-

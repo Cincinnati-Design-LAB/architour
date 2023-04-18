@@ -8,7 +8,7 @@ location:
 address: '139 E. Fourth St., Cincinnati, Ohio'
 original_owner: Cincinnati Gas & Electric Company
 current_owner: Duke Energy
-date_of_completion: '1930'
+completion_date: '1930'
 style: Beaux Arts Classicism
 architect: John Russell Pope
 associate_architect: Garber & Woodward

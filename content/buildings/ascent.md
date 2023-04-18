@@ -11,7 +11,7 @@ address: |-
   1 Roebling Way
   Covington KY
 original_owner: Corporex
-date_of_completion: '2008'
+completion_date: '2008'
 architect: Studio Daniel Libeskind
 associate_architect: GBBN Architects
 contractor: Dugan & Meyers

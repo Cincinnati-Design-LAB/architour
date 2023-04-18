@@ -8,7 +8,7 @@ location:
 address: 'Fourth & Pike Streets, Cincinnati, OH  45202'
 original_owner: 'William Lytle, Survyor General of the Northwest Territory'
 current_owner: City of Cincinnati
-date_of_completion: '1907'
+completion_date: '1907'
 historic_status: 'Area listed on the NRHP on March 26, 1976.'
 unique_features: >-
   The statue of Abraham Lincoln was commissioned by the Charles P. Taft family

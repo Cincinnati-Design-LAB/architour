@@ -12,7 +12,7 @@ location:
   lng: -84.492764
 address: '1135 Riverside Dr., Cincinnati, OH  45202'
 original_owner: Cincinnati Parks Board
-date_of_completion: '2003'
+completion_date: '2003'
 architect: Fearing & Hagenauer
 associate_architect: 'EDAW, Human Nature (landscape architecture)'
 original_function: >-

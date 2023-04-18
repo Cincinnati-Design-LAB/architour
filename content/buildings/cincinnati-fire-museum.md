@@ -8,7 +8,7 @@ location:
 address: '311 W. Court St., Cincinnati, OH  45202'
 original_owner: Cincinnati Fire Department
 current_owner: Fire Museum of Greater Cincinnati
-date_of_completion: '1906'
+completion_date: '1906'
 style: Renaissance Revival
 architect: Harry Hake
 original_function: 'Court Street Fire House - Engine Company #45'

@@ -12,7 +12,7 @@ original_owner: >-
   John Shillito Company (1910 building) & Samuel Rosenthal Company (1923
   building)
 current_owner: Art Academy of Cincinnati
-date_of_completion: 1910 & 1923
+completion_date: 1910 & 1923
 style: Romanesque Revival & Commerial Style
 architect: James McLaughlin (1910 building)
 original_function: >-

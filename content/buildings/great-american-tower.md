@@ -9,7 +9,7 @@ location:
   lng: -84.50735
 address: '301 E. Fourth St., Cincinnati, OH  45202'
 original_owner: Eagle Realty/Western Southern
-date_of_completion: '2011'
+completion_date: '2011'
 style: Post-modern
 public_access: >-
   The lobby is accessible from the corner of Fourth and Sycamore during normal

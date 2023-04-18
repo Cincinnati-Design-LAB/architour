@@ -9,7 +9,7 @@ location:
 address: |-
   502 Scott Boulevard
   Covington, KY
-date_of_completion: '1974'
+completion_date: '1974'
 public_access: Handicap accessible
 architect: Robert Ehmet Hayes and Associates
 renovations: >-
@@ -18,4 +18,3 @@ renovations: >-
 renovation_date: '2013'
 renovation_architect: DesignGroup
 ---
-

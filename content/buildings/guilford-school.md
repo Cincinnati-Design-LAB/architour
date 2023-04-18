@@ -9,7 +9,7 @@ location:
 address: '421 E. Fourth St., Cincinnati, OH  45202'
 original_owner: Cincinnati Public Schools
 current_owner: Western & Southern Life Insurance
-date_of_completion: '1914'
+completion_date: '1914'
 style: Italian Renaissance
 architect: Frederick W. Garber
 original_function: Public school

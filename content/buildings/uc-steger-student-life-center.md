@@ -11,7 +11,7 @@ location:
   lat: 39.132216
   lng: -84.516419
 original_owner: University of Cincinnati
-date_of_completion: '2004'
+completion_date: '2004'
 style: Modern
 public_access: The facility is open to public access.
 architect: Moore Ruble Yudel

@@ -6,7 +6,7 @@ location:
   lat: 39.1076293
   lng: -84.5132187
 address: '30 E. Central Pkwy , Cincinnati, Ohio'
-date_of_completion: '1927'
+completion_date: '1927'
 style: Art Deco
 architect: Joseph & Benjamin Steinkamp
 renovations: Renovated into condominiums

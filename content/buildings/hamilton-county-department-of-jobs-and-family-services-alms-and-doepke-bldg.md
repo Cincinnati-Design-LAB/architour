@@ -9,7 +9,7 @@ location:
 address: '1123 Sycamore St., Cincinnati, Ohio'
 original_owner: Alms and Doepke Dry Goods Company
 current_owner: Hamilton County
-date_of_completion: 1878-97
+completion_date: 1878-97
 style: French Second Empire
 architect: Samuel Hannaford & Edwin Procter
 contractor: Messer Construction (renovation)

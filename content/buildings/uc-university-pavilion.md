@@ -8,7 +8,7 @@ location:
   lat: 39.131042
   lng: -84.518919
 original_owner: University of Cincinnati
-date_of_completion: '2003'
+completion_date: '2003'
 style: Modern
 architect: Leers Weinzapfel Associates
 associate_architect: GBBN

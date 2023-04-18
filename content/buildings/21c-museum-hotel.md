@@ -9,7 +9,7 @@ location:
 address: '609 Walnut St., Cincinnati, Ohio'
 original_owner: Metropole Hotel
 current_owner: 21C Museum Hotel
-date_of_completion: '1912'
+completion_date: '1912'
 style: Neo-classical
 architect: Joseph G. Steinkamp & Brother
 contractor: Messer Construction (renovation)

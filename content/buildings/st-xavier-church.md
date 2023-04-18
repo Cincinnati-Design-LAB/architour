@@ -8,7 +8,7 @@ location:
   lng: -84.508691
 address: '607 Sycamore St., Cincinnati, OH  45202'
 original_owner: Archdiocese of Cincinnati
-date_of_completion: '1860'
+completion_date: '1860'
 style: Gothic Revival
 architect: Lewis Pickett & Charles C. Svendsen
 original_function: Catholic church

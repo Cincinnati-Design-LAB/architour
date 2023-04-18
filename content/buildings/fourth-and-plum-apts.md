@@ -6,7 +6,7 @@ location:
   lat: 39.0989969
   lng: -84.51699
 address: '231 W. Fourth St., Cincinnati, OH  45202'
-date_of_completion: '1870'
+completion_date: '1870'
 style: Renaissance adaptation
 architect: James W McLaughlin
 historic_status: 'Area listed on NRHP on August 13, 1976.'
@@ -18,4 +18,3 @@ renovation_changes: >-
   provided the desired amenity space to make the building appealing to a younger
   rental marketplace.
 ---
-

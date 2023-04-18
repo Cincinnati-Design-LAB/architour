@@ -9,7 +9,7 @@ location:
 address: '617 Vine St., Cincinnati, OH  45202'
 original_owner: The Cincinnati Enquirer
 current_owner: Hilton Hotels
-date_of_completion: '1926'
+completion_date: '1926'
 style: 'Mixed (multiple styles - Art Deco, late-Gothic, and Greek influences)'
 architect: Lockwood Greene & Company
 original_function: Offices and printing facility

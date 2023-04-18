@@ -13,7 +13,7 @@ location:
   lat: 39.133857
   lng: -84.519128
 original_owner: University of Cincinnati
-date_of_completion: '1996'
+completion_date: '1996'
 public_access: The building is open to the public.
 architect: Eisenman Architects
 associate_architect: Lorenz & Williams

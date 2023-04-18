@@ -7,7 +7,7 @@ location:
   lat: 39.1025458
   lng: -84.5095669
 address: '550 Main St., Cincinnati, Ohio'
-date_of_completion: '1962'
+completion_date: '1962'
 style: Twentieth Century Modern
 architect: 'Potter, Tyler, Martin & Roth'
 associate_architect: Harry Hake & Partners

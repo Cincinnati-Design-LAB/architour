@@ -12,7 +12,7 @@ location:
   lng: -84.5133992
 address: '13 W. Fourth St., Cincinnati, OH  45202'
 original_owner: John Shillito Company
-date_of_completion: '1859'
+completion_date: '1859'
 style: Renaissance Revival
 architect: James W McLaughlin
 original_function: retail dry goods store
@@ -21,4 +21,3 @@ renovation_date: 1892 / 2006
 renovation_architect: James W McLaughlin / Muller Architects
 renovation_changes: residential
 ---
-

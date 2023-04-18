@@ -15,10 +15,9 @@ address: |-
   Covington, KY
 original_owner: John R. Coppin
 current_owner: Hotel Covington
-date_of_completion: '1909'
+completion_date: '1909'
 original_function: Dry goods store
 renovations: >-
   The building served as the offices for the City of Covington after being
   acquired in 1988.  In 2016, it was converted into a boutique hotel.
 ---
-

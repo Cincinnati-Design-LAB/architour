@@ -9,7 +9,7 @@ location:
   lng: -84.5165202
 address: 525 Elm St.
 original_owner: City of Cincinnati
-date_of_completion: '1987'
+completion_date: '1987'
 style: Post-modern
 architect: CRS
 associate_architect: BHDP Architecture and Wilson & Associates

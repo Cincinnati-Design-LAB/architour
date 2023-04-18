@@ -10,7 +10,7 @@ address: '316 Pike St., Cincinnati,  OH  45202'
 original_owner: >-
   Martin Baum (1820-1830), Nicholas Longworth (1830-1863), David Sinton
   (1863-1900), Charles Phelps Taft (1900-1930)
-date_of_completion: '1820'
+completion_date: '1820'
 style: Federal
 public_access: 'Open Tuesday thru Friday 11-4, Saturday and Sunday 11-5'
 architect: Benjamin Latrobe or James Hoban

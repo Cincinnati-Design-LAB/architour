@@ -7,7 +7,7 @@ location:
   lat: 39.09935
   lng: -84.51825
 address: '322 W Fourth St., Cincinnati, OH 45202'
-date_of_completion: '1881'
+completion_date: '1881'
 style: Victorian Classicism
 architect: >-
   Samuel Hannaford, one of Cincinnati's most prolific 19th Century architects

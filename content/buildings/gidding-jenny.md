@@ -6,7 +6,7 @@ location:
   lat: 39.100002
   lng: -84.51338
 address: '18 W. Fourth St., Cincinnati, OH  45202'
-date_of_completion: '1908'
+completion_date: '1908'
 architect: Frank M Andrews
 original_function: Department store
 unique_features: >-

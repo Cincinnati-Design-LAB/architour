@@ -10,7 +10,7 @@ images:
 location:
   lat: 39.099234
   lng: -84.500245
-date_of_completion: '1977'
+completion_date: '1977'
 architect: Zion & Breen
 original_function: Flood wall designed to facilitate public gatherings.
 unique_features: >-

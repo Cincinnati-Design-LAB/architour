@@ -10,7 +10,7 @@ location:
   lng: -84.5188379
 address: '350 W. Fifth St., Cincinnati, OH  45202'
 original_owner: City of Cincinnati
-date_of_completion: '2006'
+completion_date: '2006'
 style: Contemporary
 architect: LMN (architect) & Sussman/Prejza (interiors)
 associate_architect: 'GBBN, BHDP & CR Architects in partnership'

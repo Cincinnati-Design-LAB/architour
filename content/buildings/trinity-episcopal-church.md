@@ -10,7 +10,7 @@ location:
 address: |-
   326 Madison Ave.
   Covington, KY
-date_of_completion: '1857'
+completion_date: '1857'
 style: Gothic Revival
 architect: unknown
 original_function: Episcopal church

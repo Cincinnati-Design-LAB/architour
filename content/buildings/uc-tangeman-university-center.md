@@ -11,7 +11,7 @@ location:
   lat: 39.131763
   lng: -84.517772
 original_owner: University of Cincinnati
-date_of_completion: '1935'
+completion_date: '1935'
 style: Neo-Federal
 public_access: Open to the public
 architect: Harry Hake

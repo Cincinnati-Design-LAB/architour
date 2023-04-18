@@ -11,7 +11,7 @@ location:
   lat: 39.129985
   lng: -84.517821
 original_owner: University of Cincinnati
-date_of_completion: '1999'
+completion_date: '1999'
 style: Modern
 public_access: >-
   Main entry and circulation spaces are open to the public, and paid

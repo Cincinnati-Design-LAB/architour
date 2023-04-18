@@ -6,7 +6,7 @@ location:
   lat: 39.104158
   lng: -84.494614
 address: '925 Riverside Dr., Cincinnati, OH  45202'
-date_of_completion: '1989'
+completion_date: '1989'
 style: Contemporary
 public_access: The restaurant is open to the public.
 architect: PDT Architects

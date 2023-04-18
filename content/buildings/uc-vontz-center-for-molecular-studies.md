@@ -11,7 +11,7 @@ location:
   lat: 39.136365
   lng: -84.505764
 original_owner: University of Cincinnati
-date_of_completion: '1999'
+completion_date: '1999'
 style: Modern
 public_access: >-
   The building is not accessible to the public due to the confidential research

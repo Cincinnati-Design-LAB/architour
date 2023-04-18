@@ -8,7 +8,7 @@ location:
   lng: -84.5056
 address: '2 Procter & Gamble Plaza, Cincinnati, OH  45202'
 original_owner: Procter & Gamble
-date_of_completion: '1985'
+completion_date: '1985'
 style: Post-Modern
 architect: 'Kohn, Pederson & Fox'
 original_function: Office building - headquarters expansion

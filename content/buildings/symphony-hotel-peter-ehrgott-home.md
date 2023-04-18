@@ -8,7 +8,7 @@ location:
   lng: -84.5192114
 address: '210 W. 14th St., Cincinnati, OH  45202'
 original_owner: Peter Ehrgott
-date_of_completion: '1870'
+completion_date: '1870'
 style: Italianate
 architect: James W. McLaughlin
 original_function: Residence

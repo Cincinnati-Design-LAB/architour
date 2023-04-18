@@ -10,7 +10,7 @@ location:
   lng: -84.5168543
 address: '108 West Central Parkway, Cincinnati, OH 45202'
 original_owner: Cincinnati Public Schools
-date_of_completion: '2010'
+completion_date: '2010'
 style: Contemporary
 architect: Moody-Nolan
 associate_architect: 'CR Architects, Fanning/Howey'

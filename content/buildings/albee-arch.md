@@ -8,7 +8,7 @@ location:
   lng: -84.5178379
 address: 'Fifth & Plum Streets, Cincinnati, OH  45202'
 original_owner: Albee Theater
-date_of_completion: '1925'
+completion_date: '1925'
 architect: Thomas W. Lamb
 contractor: >-
   Turner Construction for the reconstruction of the arch on the Convention

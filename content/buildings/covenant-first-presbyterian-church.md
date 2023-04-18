@@ -7,7 +7,7 @@ location:
   lat: 39.103981
   lng: -84.517158
 address: '717 Elm St., Cincinnati, OH  45202'
-date_of_completion: '1875'
+completion_date: '1875'
 style: Gothic
 architect: William Walter
 associate_architect: J.J. Cotteral & Sons

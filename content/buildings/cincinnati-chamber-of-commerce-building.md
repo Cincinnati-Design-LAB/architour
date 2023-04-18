@@ -8,7 +8,7 @@ location:
   lng: -84.512977
 address: '1 W. Fourth St., Cincinnati, OH  45202'
 original_owner: Cincinnati Chamber of Commerce
-date_of_completion: '1886'
+completion_date: '1886'
 style: Richardsonian Romanesque
 public_access: The building was destroyed in a fire in 1911.
 architect: HH Richardson

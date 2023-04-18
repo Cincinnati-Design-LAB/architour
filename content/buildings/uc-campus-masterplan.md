@@ -6,7 +6,7 @@ location:
   lat: 39.134581
   lng: -84.512787
 original_owner: University of Cincinnati
-date_of_completion: 1989 to present
+completion_date: 1989 to present
 architect: Hargreaves & Associates
 unique_features: >-
   The master plan resulted in creating a series of open and landscaped places on
@@ -19,7 +19,7 @@ unique_features: >-
   Sigma Tower.
 green_building_features: >-
   The insertion of green space throughout the campus has helped to reduce the
-  heat-island effect and its impact on its buildings, students, and faculty. 
+  heat-island effect and its impact on its buildings, students, and faculty.
   The elimination of large, paved parking lots that retain heat and replacement
   with parking decks contributes greatly to its success.
 ---

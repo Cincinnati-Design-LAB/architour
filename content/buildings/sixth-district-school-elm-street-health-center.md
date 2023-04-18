@@ -9,8 +9,7 @@ location:
   lat: 39.1122
   lng: -84.5193
 address: '1522 Elm Street, Cincinnati, OH  45202'
-date_of_completion: '1896'
+completion_date: '1896'
 style: Second Renaissance Revival
 architect: Henry Siter
 ---
-

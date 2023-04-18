@@ -7,7 +7,7 @@ location:
   lng: -84.5141
 address: '15 W. Sixth St., Cincinnati, OH  45202'
 original_owner: Thomas Emery's Sons
-date_of_completion: '1948'
+completion_date: '1948'
 style: Modern
 architect: Skidmore Owings & Merrill (SOM)
 original_function: Hotel located atop two department stores

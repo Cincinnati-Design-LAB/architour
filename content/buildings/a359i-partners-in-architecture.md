@@ -15,7 +15,7 @@ address: |-
   Cincinnati, OH  45202
 original_owner: A&J Doescher Candy Company
 current_owner: Kaup Pender Associates LLC
-date_of_completion: '1875'
+completion_date: '1875'
 public_access: Handicap accessible
 original_function: Retail
 unique_features: Conference room curtain and window garden

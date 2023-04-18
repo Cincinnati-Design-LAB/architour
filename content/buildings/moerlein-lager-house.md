@@ -7,9 +7,8 @@ location:
   lng: -84.508746
 address: '115 Joe Nuxhall Way, Cincinnati, OH  45202'
 original_owner: Christian Moerlein Brewing Company
-date_of_completion: '2011'
+completion_date: '2011'
 public_access: The restaurant is open to the public.
 architect: Tilsley & Associates
 contractor: Schumacher-Dugan (CM)
 ---
-

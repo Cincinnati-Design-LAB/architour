@@ -14,7 +14,7 @@ address: |-
   1195 Elm St.
   Cincinnati, OH
 original_owner: Cincinnati Shakespeare Company
-date_of_completion: '2017'
+completion_date: '2017'
 style: Contemporary
 public_access: >-
   Handicap accessible - access during Doors Open OTR will be limited to noon to

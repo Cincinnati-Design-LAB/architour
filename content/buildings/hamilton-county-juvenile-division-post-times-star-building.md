@@ -13,7 +13,7 @@ location:
 address: '800 Broadway St., Cincinnati, OH  45202'
 original_owner: Cincinnati Times Star
 current_owner: Hamilton County
-date_of_completion: '1933'
+completion_date: '1933'
 style: Art Deco
 architect: Samuel Hannaford & Sons
 contractor: Ferro-Concrete Construction
@@ -21,7 +21,7 @@ original_function: Newspaper plant and offices
 historic_status: 'Listed on NRHP on November 25, 1983'
 unique_features: >-
   "The scuptural program by Ernest B. Haswell and Jules Brys is rich in
-  literary, historical, and mythological references to journalism and learning. 
+  literary, historical, and mythological references to journalism and learning.
   It offers the view a measure of mystery and visual delight found in a medieval
   church.  The canted corners of the tower project three-dimensional figures in
   a manner that recalls Bertram Goodhue's popular Nebraska State Capitol (ca.
@@ -33,4 +33,3 @@ unique_features: >-
 renovation_date: '1988'
 renovation_changes: County offices and the Juvenile Courts
 ---
-

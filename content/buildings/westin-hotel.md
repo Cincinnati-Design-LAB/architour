@@ -7,7 +7,7 @@ location:
   lat: 39.1009303
   lng: -84.5124668
 address: '21 E. Fifth St., Cincinnati, OH  45202'
-date_of_completion: '1981'
+completion_date: '1981'
 style: International
 architect: 'Abramovitz, Harris & Kingsland'
 associate_architect: KZF Design

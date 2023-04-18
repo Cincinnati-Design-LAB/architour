@@ -8,7 +8,7 @@ location:
   lng: -84.5133053999999
 address: '1129 Walnut St., Cincinnati, OH  45202'
 original_owner: German Mutual Insurance Company of Cincinnati - Heinrich Arminius Ratterman
-date_of_completion: '1877'
+completion_date: '1877'
 style: Renaissance Revival
 architect: Johann Bast
 original_function: Offices for the insurance company.

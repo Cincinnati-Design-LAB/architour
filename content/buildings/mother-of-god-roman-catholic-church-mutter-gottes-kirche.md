@@ -14,7 +14,7 @@ address: |-
   119 W Sixth St.
   Covington, KY
 original_owner: Diocese of Covington
-date_of_completion: '1871'
+completion_date: '1871'
 style: Italian Renaissance Revival
 architect: Walter & Stewart
 historic_status: 'Added to NRHP on May 29, 1980'

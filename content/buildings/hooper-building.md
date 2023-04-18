@@ -6,7 +6,7 @@ location:
   lat: 39.099251
   lng: -84.51539
 address: '139 W. Fourth St., Cincinnati, OH  45202'
-date_of_completion: '1893'
+completion_date: '1893'
 style: Queen Anne
 architect: >-
   Samuel Hannaford & Sons, one of Cincinnati's most prolific 19th Century
