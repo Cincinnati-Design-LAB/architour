@@ -6,10 +6,26 @@ location:
   lat: 39.103
   lng: -84.507448
 address: '300 E. Fifth St., Cincinnati, OH  45202'
-original_owner: Procter & Gamble
+draft: true
 completion_date: '1956'
-style: Modern
-architect: 'Voorhees, Walker, Smith & Smith'
-renovation_date: '1972'
-renovation_architect: SOM
+sections:
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Original Owner
+        value: Procter & Gamble
+      - label: Completion Date
+        value: '1956'
+      - label: Style
+        value: Modern
+      - label: Architect
+        value: 'Voorhees, Walker, Smith & Smith'
+  - page_location: below_map
+    type: BuildingRenovationSection
+    title: Renovation History
+    renovations:
+      - title: Renovation
+        date: '1972'
+        architect: SOM
 ---
+

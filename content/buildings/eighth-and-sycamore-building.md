@@ -9,16 +9,32 @@ location:
 address: |-
   Eighth & Sycamore Streets
   Cincinnati, OH. 45202
-original_owner: 3CDC & North American Properties
+draft: true
 completion_date: '2017'
-style: Contemporary
-architect: John Senhauser Architects
-original_function: >-
-  Mixed use complex including 7,000 s.f. of retail, a public garage, and 131
-  unit residential tower
-unique_features: >-
-  The tower is clad in an iridescent metal panel system that changes color
-  depending on the angle of view and the daylight conditions.
+sections:
+  - page_location: above_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Unique Features
+        value: >-
+          The tower is clad in an iridescent metal panel system that changes
+          color depending on the angle of view and the daylight conditions.
+        layout: full_width
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Original Owner
+        value: 3CDC & North American Properties
+      - label: Completion Date
+        value: '2017'
+      - label: Original Function
+        value: >-
+          Mixed use complex including 7,000 s.f. of retail, a public garage, and
+          131 unit residential tower
+      - label: Style
+        value: Contemporary
+      - label: Architect
+        value: John Senhauser Architects
 ---
 
 The building is the newest residential complex in downtown Cincinnati.

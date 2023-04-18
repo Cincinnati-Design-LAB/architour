@@ -41,6 +41,9 @@ for (const srcFilePath of buildingFilePaths) {
   const rawContent = fs.readFileSync(srcFilePath, 'utf8')
   const { data, content } = matter(rawContent)
 
+  // Skip if already converted.
+  if (data.sections) continue
+
   // Begin building a new data object.
   const newData = { ...data }
 

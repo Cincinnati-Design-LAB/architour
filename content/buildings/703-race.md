@@ -9,4 +9,7 @@ location:
 address: '703 Race St., Cincinnati, OH  45202'
 static_map: buildings/703-race/static-map_c5bvhj
 static_map_cache: '{"lat":39.103635,"lng":-84.515397}'
+draft: true
+sections: []
 ---
+

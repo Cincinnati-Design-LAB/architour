@@ -7,11 +7,34 @@ location:
   lat: 39.105162
   lng: -84.515943
 address: '100-104 W. Ninth St., Cincinnati, OH  45202'
-original_owner: Thomas Emery's Sons
+draft: true
 completion_date: '1885'
-style: Queen Anne
-architect: Samuel Hannaford
-original_function: Apartment building
-historic_status: 'Listed on NRHP on March 3, 1980 and part of the Ninth Street Historic District'
-renovation_date: '1980'
+sections:
+  - page_location: above_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Historic Status
+        value: >-
+          Listed on NRHP on March 3, 1980 and part of the Ninth Street Historic
+          District
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Original Owner
+        value: Thomas Emery's Sons
+      - label: Completion Date
+        value: '1885'
+      - label: Original Function
+        value: Apartment building
+      - label: Style
+        value: Queen Anne
+      - label: Architect
+        value: Samuel Hannaford
+  - page_location: below_map
+    type: BuildingRenovationSection
+    title: Renovation History
+    renovations:
+      - title: Renovation
+        date: '1980'
 ---
+

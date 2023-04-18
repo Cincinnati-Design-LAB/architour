@@ -13,11 +13,23 @@ location:
 address: |-
   Riverside Dr.
   Covington KY
-style: >-
-  Homes and buildings are predominantly Italianate, French Second Empire, Greek
-  Revival, Queen Anne, High Victorian Gothic, and American Craftsman styles
-original_function: Residential development for the affluent of Cincinnati
-historic_status: 'Added to NRHP on November 3, 1971.'
+draft: true
+sections:
+  - page_location: above_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Historic Status
+        value: 'Added to NRHP on November 3, 1971.'
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Original Function
+        value: Residential development for the affluent of Cincinnati
+      - label: Style
+        value: >-
+          Homes and buildings are predominantly Italianate, French Second
+          Empire, Greek Revival, Queen Anne, High Victorian Gothic, and American
+          Craftsman styles
 ---
 
 Early settlement of Covington began here in the 1790s when ferry service across the river began. The area remains popular today providing breathtaking views of Cincinnati from these homes. In 2014, the American Planning Association rated the district as one of the ten best neighborhoods in the U.S.

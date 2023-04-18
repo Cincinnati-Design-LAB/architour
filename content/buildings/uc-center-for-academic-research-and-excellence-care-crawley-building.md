@@ -10,17 +10,38 @@ images:
 location:
   lat: 39.138886
   lng: -84.50453
-original_owner: University of Cincinnati
+draft: true
 completion_date: '2008'
-architect: Studios Architecture
-associate_architect: Harley Ellis Devereaux
-original_function: >-
-  Laboratory and research facility to support the medical education community in
-  a collaborative setting that brings faculty, students and clinicians together.
-unique_features: >-
-  The building has a nine story day-lighted atrium spanned by 7 glass bridges
-  and connects to the Medical Sciences Building.
-green_building_features: The building was designed to meet LEED Silver standards.
+sections:
+  - page_location: above_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Unique Features
+        value: >-
+          The building has a nine story day-lighted atrium spanned by 7 glass
+          bridges and connects to the Medical Sciences Building.
+        layout: full_width
+  - page_location: below_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Associate Architect
+        value: Harley Ellis Devereaux
+      - label: Green Building Features
+        value: The building was designed to meet LEED Silver standards.
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Original Owner
+        value: University of Cincinnati
+      - label: Completion Date
+        value: '2008'
+      - label: Original Function
+        value: >-
+          Laboratory and research facility to support the medical education
+          community in a collaborative setting that brings faculty, students and
+          clinicians together.
+      - label: Architect
+        value: Studios Architecture
 ---
 
 The building design won the 2002 American Architecture Award from the Chicago Athenaeum.

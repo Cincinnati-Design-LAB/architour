@@ -6,14 +6,33 @@ location:
   lat: 39.111354
   lng: -84.51752
 address: '1429 Race St., Cincinnati, Ohio 45202'
-original_owner: St. Paul's Evangelical Lutheran Church
-current_owner: Taft's Ale House
+draft: true
 completion_date: '1850'
-style: Greek Revival with Gothic Revival details
-original_function: Church
-renovation_date: '2015'
-renovation_architect: Drawing Department and Reid & Taylor Studio
-renovation_changes: 'Brewery, bar & restaurant'
+sections:
+  - page_location: above_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Current Owner
+        value: Taft's Ale House
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Original Owner
+        value: St. Paul's Evangelical Lutheran Church
+      - label: Completion Date
+        value: '1850'
+      - label: Original Function
+        value: Church
+      - label: Style
+        value: Greek Revival with Gothic Revival details
+  - page_location: below_map
+    type: BuildingRenovationSection
+    title: Renovation History
+    renovations:
+      - title: 'Brewery, bar & restaurant'
+        date: '2015'
+        architect: Drawing Department and Reid & Taylor Studio
+        description: 'Brewery, bar & restaurant'
 ---
 
 Founded by Northern Germans who had recently immigrated from Europe.

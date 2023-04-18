@@ -10,8 +10,19 @@ location:
 address: |-
   W. 19th St at Howell
   Covington, KY
-style: Renaissance
-architect: David Davis
-historic_status: 'Added to NRHP on November 25, 2005'
+draft: true
+sections:
+  - page_location: above_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Historic Status
+        value: 'Added to NRHP on November 25, 2005'
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Style
+        value: Renaissance
+      - label: Architect
+        value: David Davis
 ---
 

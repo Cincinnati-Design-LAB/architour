@@ -6,11 +6,26 @@ location:
   lat: 39.0994
   lng: -84.5177427
 address: '300 W. Fourth St., Cincinnati, OH  45202'
+draft: true
 completion_date: early 1890s
-style: Italianate
-architect: >-
-  Samuel Hannaford, one of Cincinnati's most prolific 19th Century architects
-  who also designed Cincinnati City Hall and Music Hall.
-original_function: Publishing house
-historic_status: 'Listed on NRHP on March 3, 1980.'
+sections:
+  - page_location: above_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Historic Status
+        value: 'Listed on NRHP on March 3, 1980.'
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Completion Date
+        value: early 1890s
+      - label: Original Function
+        value: Publishing house
+      - label: Style
+        value: Italianate
+      - label: Architect
+        value: >-
+          Samuel Hannaford, one of Cincinnati's most prolific 19th Century
+          architects who also designed Cincinnati City Hall and Music Hall.
 ---
+

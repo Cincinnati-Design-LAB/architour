@@ -6,9 +6,21 @@ location:
   lat: 39.10062
   lng: -84.509168
 address: 'Fourth & Main St., Cincinnati, OH  45202'
-style: International
-architect: SOM
-renovations: Garage expansion
-renovation_architect: KZF Design
+draft: true
+sections:
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Style
+        value: International
+      - label: Architect
+        value: SOM
+  - page_location: below_map
+    type: BuildingRenovationSection
+    title: Renovation History
+    renovations:
+      - title: Garage expansion
+        date: ''
+        architect: KZF Design
 ---
 

@@ -6,7 +6,17 @@ location:
   lat: 39.108
   lng: -84.5118055
 address: '150 E. Central Pkwy, Cincinnati, Ohio'
+draft: true
 completion_date: '1960'
-style: Contemporary
-architect: Harry Hake & Partners
+sections:
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Completion Date
+        value: '1960'
+      - label: Style
+        value: Contemporary
+      - label: Architect
+        value: Harry Hake & Partners
 ---
+

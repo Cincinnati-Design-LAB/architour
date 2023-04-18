@@ -7,14 +7,30 @@ location:
   lat: 39.1016183
   lng: -84.5083716
 address: '255 E.Fifth Street, Cincinnati, OH  45202'
-original_owner: Hines Interests
+draft: true
 completion_date: '1991'
-style: Postmodern classicism
-architect: SOM
-original_function: Office building
-unique_features: >-
-  Connected to the PNC Center, the building retains portions of the old skywalk
-  system that passes through the connector between the towers.
+sections:
+  - page_location: above_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Unique Features
+        value: >-
+          Connected to the PNC Center, the building retains portions of the old
+          skywalk system that passes through the connector between the towers.
+        layout: full_width
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Original Owner
+        value: Hines Interests
+      - label: Completion Date
+        value: '1991'
+      - label: Original Function
+        value: Office building
+      - label: Style
+        value: Postmodern classicism
+      - label: Architect
+        value: SOM
 ---
 
 The construction of the tower was the last building that was part of the 1964 masterplan. It marked the end of office building construction in Cincinnati until the construction of the Great American Tower began in 2009.

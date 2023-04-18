@@ -10,8 +10,22 @@ location:
 address: |-
   3612 Church St.
   Covington, KY
+draft: true
 completion_date: '1906'
-style: German Renaissance
-architect: 'Anthony Kunz, Jr.'
-historic_status: 'Added to NRHP on April 17, 1986'
+sections:
+  - page_location: above_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Historic Status
+        value: 'Added to NRHP on April 17, 1986'
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Completion Date
+        value: '1906'
+      - label: Style
+        value: German Renaissance
+      - label: Architect
+        value: 'Anthony Kunz, Jr.'
 ---
+

@@ -10,9 +10,21 @@ location:
 address: |-
   45 W. University Ave.
   Cincinnati, OH
-original_owner: University of Cincinnati
+draft: true
 completion_date: '2002'
-architect: KZF Design
-contractor: Messer Construction
-original_function: Student housing
+sections:
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Original Owner
+        value: University of Cincinnati
+      - label: Completion Date
+        value: '2002'
+      - label: Original Function
+        value: Student housing
+      - label: Architect
+        value: KZF Design
+      - label: Contractor
+        value: Messer Construction
 ---
+

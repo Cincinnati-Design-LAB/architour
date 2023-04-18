@@ -6,6 +6,12 @@ location:
   lat: 39.103668
   lng: -84.515225
 address: '704 Race St., Cincinnati, OH  45202'
-current_owner: Towne Properties
+draft: true
+sections:
+  - page_location: above_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Current Owner
+        value: Towne Properties
 ---
 

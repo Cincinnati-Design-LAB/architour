@@ -6,8 +6,22 @@ location:
   lat: 39.1054131
   lng: -84.5120848
 address: '898 Walnut, Cincinnati, Ohio'
+draft: true
 completion_date: '1928'
-style: Late Gothic Revival
-architect: 'Rendigs, Panzer & Martin'
-historic_status: 'Listed on NRHP on September 16, 1982.'
+sections:
+  - page_location: above_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Historic Status
+        value: 'Listed on NRHP on September 16, 1982.'
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Completion Date
+        value: '1928'
+      - label: Style
+        value: Late Gothic Revival
+      - label: Architect
+        value: 'Rendigs, Panzer & Martin'
 ---
+

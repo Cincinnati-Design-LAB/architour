@@ -9,5 +9,7 @@ location:
   lat: 39.10476
   lng: -84.51569
 address: '811 Race St., Cincinnati, OH  45202'
+draft: true
+sections: []
 ---
 

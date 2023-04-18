@@ -9,13 +9,28 @@ location:
   lat: 39.1000913
   lng: -84.5108235
 address: '105 E. Fourth St., Cincinnati, Ohio'
+draft: true
 completion_date: '1903'
-style: Chicago School
-architect: >-
-  Daniel Burnham, a Chicago-based architect whose firm also designed the Rookery
-  Building  in Chicago, the Flatiron Building in New York City, and Union
-  Station in Washington, DC.
-unique_features: >-
-  The bay windows added to the façade create an undulating texture to the
-  building and make the façade less imposing.
+sections:
+  - page_location: above_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Unique Features
+        value: >-
+          The bay windows added to the façade create an undulating texture to
+          the building and make the façade less imposing.
+        layout: full_width
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Completion Date
+        value: '1903'
+      - label: Style
+        value: Chicago School
+      - label: Architect
+        value: >-
+          Daniel Burnham, a Chicago-based architect whose firm also designed the
+          Rookery Building  in Chicago, the Flatiron Building in New York City,
+          and Union Station in Washington, DC.
 ---
+

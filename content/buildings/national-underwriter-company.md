@@ -6,7 +6,17 @@ location:
   lat: 39.1012
   lng: -84.5050431
 address: '420 E. Fourth St., Cincinnati, OH  45202'
+draft: true
 completion_date: '1938'
-style: Art Deco
-architect: Harry Hake
+sections:
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Completion Date
+        value: '1938'
+      - label: Style
+        value: Art Deco
+      - label: Architect
+        value: Harry Hake
 ---
+

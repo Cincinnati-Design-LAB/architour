@@ -6,12 +6,27 @@ location:
   lat: 39.0992802
   lng: -84.5103567
 address: '312 Walnut St., Cincinnati, Ohio'
+draft: true
 completion_date: '1989'
-style: Post-modern
-public_access: Public lobby
-architect: Hoover & Furr
-associate_architect: Glaser & Associates
-original_function: Office building
+sections:
+  - page_location: below_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Associate Architect
+        value: Glaser & Associates
+      - label: Public Access
+        value: Public lobby
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Completion Date
+        value: '1989'
+      - label: Original Function
+        value: Office building
+      - label: Style
+        value: Post-modern
+      - label: Architect
+        value: Hoover & Furr
 ---
 
 The building was the first new development on Third Street and started the expansion of the CBD toward the riverfront.

@@ -6,8 +6,22 @@ location:
   lat: 39.1032716
   lng: -84.51
 address: '612 Main St., Cincinnati, Ohio'
+draft: true
 completion_date: '1945'
-style: Art Deco
-architect: Hake & Kuck
-associate_architect: 'Potter, Tyler & Martin'
+sections:
+  - page_location: below_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Associate Architect
+        value: 'Potter, Tyler & Martin'
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Completion Date
+        value: '1945'
+      - label: Style
+        value: Art Deco
+      - label: Architect
+        value: Hake & Kuck
 ---
+

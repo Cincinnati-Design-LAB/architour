@@ -7,8 +7,16 @@ images:
 location:
   lat: 39.134347
   lng: -84.512147
-original_owner: University of Cincinnati
-architect: Richard Fleischman + Partners
-original_function: Student apartments
+draft: true
+sections:
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Original Owner
+        value: University of Cincinnati
+      - label: Original Function
+        value: Student apartments
+      - label: Architect
+        value: Richard Fleischman + Partners
 ---
 

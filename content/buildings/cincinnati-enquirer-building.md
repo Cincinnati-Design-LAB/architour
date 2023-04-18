@@ -7,17 +7,41 @@ location:
   lat: 39.102952
   lng: -84.513549
 address: '617 Vine St., Cincinnati, OH  45202'
-original_owner: The Cincinnati Enquirer
-current_owner: Hilton Hotels
-completion_date: '1926'
-style: 'Mixed (multiple styles - Art Deco, late-Gothic, and Greek influences)'
-architect: Lockwood Greene & Company
-original_function: Offices and printing facility
-historic_status: 'Listed on the NRHP on November 13, 1985'
-renovation_date: '2016'
-renovation_changes: >-
-  Dual hotel housing a Homewood Suites on the lower floors and a Hampton Inn on
-  the upper levels.
 static_map: buildings/cincinnati-enquirer-building/static-map_fterss
 static_map_cache: '{"lat":39.102952,"lng":-84.513549}'
+draft: true
+completion_date: '1926'
+sections:
+  - page_location: above_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Current Owner
+        value: Hilton Hotels
+      - label: Historic Status
+        value: 'Listed on the NRHP on November 13, 1985'
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Original Owner
+        value: The Cincinnati Enquirer
+      - label: Completion Date
+        value: '1926'
+      - label: Original Function
+        value: Offices and printing facility
+      - label: Style
+        value: 'Mixed (multiple styles - Art Deco, late-Gothic, and Greek influences)'
+      - label: Architect
+        value: Lockwood Greene & Company
+  - page_location: below_map
+    type: BuildingRenovationSection
+    title: Renovation History
+    renovations:
+      - title: >-
+          Dual hotel housing a Homewood Suites on the lower floors and a Hampton
+          Inn on the upper levels.
+        date: '2016'
+        description: >-
+          Dual hotel housing a Homewood Suites on the lower floors and a Hampton
+          Inn on the upper levels.
 ---
+

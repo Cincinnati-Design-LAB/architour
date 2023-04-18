@@ -7,11 +7,25 @@ location:
   lat: 39.1025458
   lng: -84.5095669
 address: '550 Main St., Cincinnati, Ohio'
+draft: true
 completion_date: '1962'
-style: Twentieth Century Modern
-architect: 'Potter, Tyler, Martin & Roth'
-associate_architect: Harry Hake & Partners
-original_function: Federal government offices
+sections:
+  - page_location: below_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Associate Architect
+        value: Harry Hake & Partners
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Completion Date
+        value: '1962'
+      - label: Original Function
+        value: Federal government offices
+      - label: Style
+        value: Twentieth Century Modern
+      - label: Architect
+        value: 'Potter, Tyler, Martin & Roth'
 ---
 
 The building is named after th 117th Justice of the Supreme Court of Ohio and a justice on the US Court of Appeals for the Sixth Circuit in Cincinnati.

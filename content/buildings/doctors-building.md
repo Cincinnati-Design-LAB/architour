@@ -7,11 +7,25 @@ location:
   lat: 39.104196
   lng: -84.514629
 address: '19 Garfield Place, Cincinnati, OH  45202'
+draft: true
 completion_date: '1923'
-style: Late Gothic Revival
-architect: Tietig & Lee
-original_function: Doctors' offices
-historic_status: 'Listed on NRHP on December 4, 1986.'
+sections:
+  - page_location: above_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Historic Status
+        value: 'Listed on NRHP on December 4, 1986.'
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Completion Date
+        value: '1923'
+      - label: Original Function
+        value: Doctors' offices
+      - label: Style
+        value: Late Gothic Revival
+      - label: Architect
+        value: Tietig & Lee
 ---
 
 It was the only major commercial building constructed to house doctors' offices. Part of the Allyn Company's plan to create an enclave of buildings on Garfield Place, it was the only building executed from the plan.

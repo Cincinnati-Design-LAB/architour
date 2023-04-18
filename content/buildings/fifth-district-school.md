@@ -10,10 +10,28 @@ location:
 address: |-
   1735 Holman Ave.
   Covington, KY
+draft: true
 completion_date: '1901'
-style: Late Victorian Romanesque
-architect: 'Schofield & Rabe, Charles Hildreth'
-historic_status: 'Added to NRHP on November 25, 2005'
-renovations: 2 additional classrooms were added to each floor
-renovation_date: '1937'
+sections:
+  - page_location: above_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Historic Status
+        value: 'Added to NRHP on November 25, 2005'
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Completion Date
+        value: '1901'
+      - label: Style
+        value: Late Victorian Romanesque
+      - label: Architect
+        value: 'Schofield & Rabe, Charles Hildreth'
+  - page_location: below_map
+    type: BuildingRenovationSection
+    title: Renovation History
+    renovations:
+      - title: 2 additional classrooms were added to each floor
+        date: '1937'
 ---
+

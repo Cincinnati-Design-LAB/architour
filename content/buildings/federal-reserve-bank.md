@@ -6,12 +6,22 @@ location:
   lat: 39.1007582
   lng: -84.5100822
 address: '150 E. Fourth St., Cincinnati, Ohio'
+draft: true
 completion_date: '1972'
-style: Stylized classicism
-architect: Harry Hake & Partners
-original_function: >-
-  A branch of the Federal Reserve Bank of Cleveland, the facility distributes
-  coins and currency to banks.
+sections:
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Completion Date
+        value: '1972'
+      - label: Original Function
+        value: >-
+          A branch of the Federal Reserve Bank of Cleveland, the facility
+          distributes coins and currency to banks.
+      - label: Style
+        value: Stylized classicism
+      - label: Architect
+        value: Harry Hake & Partners
 ---
 
 The austere building was complemented by a formal garden to the north that has only recently been opened to the public.

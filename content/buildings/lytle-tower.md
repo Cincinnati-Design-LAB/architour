@@ -6,7 +6,17 @@ location:
   lat: 39.1010718
   lng: -84.5064478
 address: '405 Broadway St., Cincinnati, OH  45202'
+draft: true
 completion_date: '1920'
-style: Italian Renaissance
-architect: Harry Hake & Charles Kuck
+sections:
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Completion Date
+        value: '1920'
+      - label: Style
+        value: Italian Renaissance
+      - label: Architect
+        value: Harry Hake & Charles Kuck
 ---
+

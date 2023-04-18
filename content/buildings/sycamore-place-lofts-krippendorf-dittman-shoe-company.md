@@ -7,16 +7,43 @@ location:
   lat: 39.104201
   lng: -84.508283
 address: '628 Sycamore St., Cincinnati, OH  45202'
-original_owner: Krippendorf-Dittman Shoe Company
-current_owner: North American Properties
+draft: true
 completion_date: '1888'
-style: Late Victorian - Richardsonian Romanesque
-architect: Samuel Hannaford & Sons
-associate_architect: Louis Picket
-contractor: 'Al Neyer, Inc (2002 conversion)'
-original_function: Shoe manufacturing
-historic_status: 'Listed on NRHP on March 3, 1980'
-renovation_date: '2002'
-renovation_architect: CR Architects
-renovation_changes: Conversion to luxury apartments
+sections:
+  - page_location: above_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Current Owner
+        value: North American Properties
+      - label: Historic Status
+        value: 'Listed on NRHP on March 3, 1980'
+  - page_location: below_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Associate Architect
+        value: Louis Picket
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Original Owner
+        value: Krippendorf-Dittman Shoe Company
+      - label: Completion Date
+        value: '1888'
+      - label: Original Function
+        value: Shoe manufacturing
+      - label: Style
+        value: Late Victorian - Richardsonian Romanesque
+      - label: Architect
+        value: Samuel Hannaford & Sons
+      - label: Contractor
+        value: 'Al Neyer, Inc (2002 conversion)'
+  - page_location: below_map
+    type: BuildingRenovationSection
+    title: Renovation History
+    renovations:
+      - title: Conversion to luxury apartments
+        date: '2002'
+        architect: CR Architects
+        description: Conversion to luxury apartments
 ---
+

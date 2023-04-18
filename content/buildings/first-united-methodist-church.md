@@ -13,9 +13,18 @@ location:
 address: |-
   501 Greenup St.
   Covington, KY
+draft: true
 completion_date: '1867'
-style: High Victorian Gothic
-architect: William Walter & William Stewart
+sections:
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Completion Date
+        value: '1867'
+      - label: Style
+        value: High Victorian Gothic
+      - label: Architect
+        value: William Walter & William Stewart
 ---
 
 Previously a part of the Methodist Episcopal Church, two congregations merged in the 1930s to form the First United Methodist Church.

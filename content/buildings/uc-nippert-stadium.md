@@ -7,13 +7,28 @@ images:
 location:
   lat: 39.130857
   lng: -84.515327
-original_owner: University of Cincinnati
-architect: Frederick W. Garber
-original_function: Football stadium
-renovation_date: '2015'
-renovation_architect: ARO / Heery International
-renovation_changes: >-
-  Expansion of stadium capacity and addition of a pavilion to house a press box,
-  private boxes and flexible meeting space.
+draft: true
+sections:
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Original Owner
+        value: University of Cincinnati
+      - label: Original Function
+        value: Football stadium
+      - label: Architect
+        value: Frederick W. Garber
+  - page_location: below_map
+    type: BuildingRenovationSection
+    title: Renovation History
+    renovations:
+      - title: >-
+          Expansion of stadium capacity and addition of a pavilion to house a
+          press box, private boxes and flexible meeting space.
+        date: '2015'
+        architect: ARO / Heery International
+        description: >-
+          Expansion of stadium capacity and addition of a pavilion to house a
+          press box, private boxes and flexible meeting space.
 ---
 

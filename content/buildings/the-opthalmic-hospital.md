@@ -4,9 +4,20 @@ images: []
 location:
   lat: 39.10789800000001
   lng: -84.51876600000003
-address: 210 W. Twelfth St., Cincinnati, OH  45202
+address: '210 W. Twelfth St., Cincinnati, OH  45202'
+draft: true
 completion_date: '1891'
-style: Greek Revival
-architect: James W. McLaughlin or Elzner & Anderson
-original_function: A. E. Sanders Private Hospital
+sections:
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Completion Date
+        value: '1891'
+      - label: Original Function
+        value: A. E. Sanders Private Hospital
+      - label: Style
+        value: Greek Revival
+      - label: Architect
+        value: James W. McLaughlin or Elzner & Anderson
 ---
+

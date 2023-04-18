@@ -9,12 +9,29 @@ location:
 address: |-
   502 Scott Boulevard
   Covington, KY
+draft: true
 completion_date: '1974'
-public_access: Handicap accessible
-architect: Robert Ehmet Hayes and Associates
-renovations: >-
-  Expansion and renovation including a new public lobby and recladding the
-  exterior of the building.
-renovation_date: '2013'
-renovation_architect: DesignGroup
+sections:
+  - page_location: below_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Public Access
+        value: Handicap accessible
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Completion Date
+        value: '1974'
+      - label: Architect
+        value: Robert Ehmet Hayes and Associates
+  - page_location: below_map
+    type: BuildingRenovationSection
+    title: Renovation History
+    renovations:
+      - title: >-
+          Expansion and renovation including a new public lobby and recladding
+          the exterior of the building.
+        date: '2013'
+        architect: DesignGroup
 ---
+

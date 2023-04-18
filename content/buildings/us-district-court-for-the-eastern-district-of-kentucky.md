@@ -9,5 +9,7 @@ location:
 address: |-
   35 W. Fifth St.
   Covington, KY
+draft: true
+sections: []
 ---
 

@@ -13,17 +13,34 @@ location:
 address: |-
   119 W Sixth St.
   Covington, KY
-original_owner: Diocese of Covington
+draft: true
 completion_date: '1871'
-style: Italian Renaissance Revival
-architect: Walter & Stewart
-historic_status: 'Added to NRHP on May 29, 1980'
-unique_features: >-
-  The church features two 200-foot tall bell towers that are highly visible on
-  the Covington skyline.  Based on medieval German churches, the "hall church"
-  has side aisles that are nearly as tall as the nave so that large
-  stained-glass windows flood the church with daylight. Tall, slender cast-iron
-  columns make the space seem expansive and unified.
+sections:
+  - page_location: above_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Historic Status
+        value: 'Added to NRHP on May 29, 1980'
+      - label: Unique Features
+        value: >-
+          The church features two 200-foot tall bell towers that are highly
+          visible on the Covington skyline.  Based on medieval German churches,
+          the "hall church" has side aisles that are nearly as tall as the nave
+          so that large stained-glass windows flood the church with daylight.
+          Tall, slender cast-iron columns make the space seem expansive and
+          unified.
+        layout: full_width
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Original Owner
+        value: Diocese of Covington
+      - label: Completion Date
+        value: '1871'
+      - label: Style
+        value: Italian Renaissance Revival
+      - label: Architect
+        value: Walter & Stewart
 ---
 
 Originally serving as a church for German immigrants, the congregation continues to grow in large part to its community involvement. Johann Schmitt painted 5 murals in the church in 1890 depicting the Five Joyful Mysteries as part of the church's golden jubiliee. Local sculpters, Frederick and Henry Schroeder, hand carved the wooden alters.

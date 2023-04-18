@@ -7,19 +7,39 @@ location:
   lat: 39.10135
   lng: -84.5125
 address: 'Fifth & Vine St., Cincinnati, OH  45202'
-original_owner: City of Cincinnati
+draft: true
 completion_date: '1971'
-style: Late Twentieth Century Civic Planning
-architect: RTKL
-original_function: Public square
-quotes: >-
-  Edmund Bacon called the square constructed in 1971 "the most successful public
-  square in America."
-renovations: >-
-  Addition of stage (1985) / relocation of Tyler Davidson Fountain and
-  incorporation of a bosque of trees (2005).
-renovation_date: 1985 / 2005
-renovation_architect: BHDP / Cooper Robertson & Partners
+sections:
+  - page_location: below_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Quotes
+        value: >-
+          Edmund Bacon called the square constructed in 1971 "the most
+          successful public square in America."
+        layout: full_width
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Original Owner
+        value: City of Cincinnati
+      - label: Completion Date
+        value: '1971'
+      - label: Original Function
+        value: Public square
+      - label: Style
+        value: Late Twentieth Century Civic Planning
+      - label: Architect
+        value: RTKL
+  - page_location: below_map
+    type: BuildingRenovationSection
+    title: Renovation History
+    renovations:
+      - title: >-
+          Addition of stage (1985) / relocation of Tyler Davidson Fountain and
+          incorporation of a bosque of trees (2005).
+        date: 1985 / 2005
+        architect: BHDP / Cooper Robertson & Partners
 ---
 
 The first block redeveloped as part of the 1964 Downtown plan, the 1971 design was based on Italian piazzas to bring the community together at all times of the day.

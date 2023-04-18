@@ -13,20 +13,45 @@ location:
 address: |-
   16 E. 12th St.
   Cincinnati, OH  45202
-original_owner: A&J Doescher Candy Company
-current_owner: Kaup Pender Associates LLC
-completion_date: '1875'
-public_access: Handicap accessible
-original_function: Retail
-unique_features: Conference room curtain and window garden
-renovation_date: '2011'
-renovation_architect: A359
-renovation_style: Modern workplace
-renovation_changes: Architectural design studio
-resources: 'http://a359i.com/'
-green_building_features: 'Recycled display panels, all components mobile for reuse'
 static_map: buildings/a359i-partners-in-architecture/static-map_t9euy5
 static_map_cache: '{"lat":39.108449,"lng":-84.514156}'
+draft: true
+completion_date: '1875'
+sections:
+  - page_location: above_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Current Owner
+        value: Kaup Pender Associates LLC
+      - label: Unique Features
+        value: Conference room curtain and window garden
+        layout: full_width
+  - page_location: below_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Public Access
+        value: Handicap accessible
+      - label: Resources
+        value: 'http://a359i.com/'
+      - label: Green Building Features
+        value: 'Recycled display panels, all components mobile for reuse'
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Original Owner
+        value: A&J Doescher Candy Company
+      - label: Completion Date
+        value: '1875'
+      - label: Original Function
+        value: Retail
+  - page_location: below_map
+    type: BuildingRenovationSection
+    title: Renovation History
+    renovations:
+      - title: Architectural design studio
+        date: '2011'
+        architect: A359
+        description: Modern workplace Architectural design studio
 ---
 
 The building is clad with cast-iron ornamentation instead of the more common terra cotta or stone ornament.

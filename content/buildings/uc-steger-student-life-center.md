@@ -10,13 +10,29 @@ images:
 location:
   lat: 39.132216
   lng: -84.516419
-original_owner: University of Cincinnati
+draft: true
 completion_date: '2004'
-style: Modern
-public_access: The facility is open to public access.
-architect: Moore Ruble Yudel
-associate_architect: Glaserworks
-original_function: 'A place for students to meet, eat and work together.'
+sections:
+  - page_location: below_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Associate Architect
+        value: Glaserworks
+      - label: Public Access
+        value: The facility is open to public access.
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Original Owner
+        value: University of Cincinnati
+      - label: Completion Date
+        value: '2004'
+      - label: Original Function
+        value: 'A place for students to meet, eat and work together.'
+      - label: Style
+        value: Modern
+      - label: Architect
+        value: Moore Ruble Yudel
 ---
 
 The 40-foot wide building wraps around the Engineering College creating the north edge of the new Main Steet leading to the center of the campus.

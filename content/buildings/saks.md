@@ -6,7 +6,17 @@ location:
   lat: 39.10046
   lng: -84.5147841
 address: '101 W. Fifth St., Cincinnati, OH  45202'
+draft: true
 completion_date: '1984'
-style: International
-architect: Robert J. Bridges Associates
+sections:
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Completion Date
+        value: '1984'
+      - label: Style
+        value: International
+      - label: Architect
+        value: Robert J. Bridges Associates
 ---
+

@@ -7,10 +7,20 @@ location:
   lat: 39.1004
   lng: -84.5108585
 address: '140 E. Fourth St., Cincinnati, Ohio'
+draft: true
 completion_date: '1971'
-style: International
-architect: Harry Weese & Associates
-original_function: Office building
+sections:
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Completion Date
+        value: '1971'
+      - label: Original Function
+        value: Office building
+      - label: Style
+        value: International
+      - label: Architect
+        value: Harry Weese & Associates
 ---
 
 The retail arcade connected Fourth and Fifth Streets. The upper level of the arcade connected to the new skywalk system, and the north end housed the previous location of the Contemporary Arts Center.

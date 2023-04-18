@@ -13,14 +13,33 @@ location:
 address: |-
   10 W Rivercenter Blvd
   Covington, KY 41011
-original_owner: Corporex
-style: Contemporary
-public_access: Handicap accessible
-architect: KZF Design
-contractor: Corporex
-original_function: Hotel
-unique_features: >-
-  The building features a 14-story atrium with a 6-story tall gazebo anchoring
-  the center of the space.
+draft: true
+sections:
+  - page_location: above_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Unique Features
+        value: >-
+          The building features a 14-story atrium with a 6-story tall gazebo
+          anchoring the center of the space.
+        layout: full_width
+  - page_location: below_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Public Access
+        value: Handicap accessible
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Original Owner
+        value: Corporex
+      - label: Original Function
+        value: Hotel
+      - label: Style
+        value: Contemporary
+      - label: Architect
+        value: KZF Design
+      - label: Contractor
+        value: Corporex
 ---
 

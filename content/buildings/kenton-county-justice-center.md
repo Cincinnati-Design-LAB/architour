@@ -10,12 +10,27 @@ location:
 address: |-
   230 Madison Ave.
   Covington, KY
-original_owner: Kenton County
+draft: true
 completion_date: '2001'
-public_access: handicap accessible
-architect: KZF Design
-contractor: Corporex
-original_function: County courthouse
+sections:
+  - page_location: below_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Public Access
+        value: handicap accessible
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Original Owner
+        value: Kenton County
+      - label: Completion Date
+        value: '2001'
+      - label: Original Function
+        value: County courthouse
+      - label: Architect
+        value: KZF Design
+      - label: Contractor
+        value: Corporex
 ---
 
 The design/build approach to this government building was unique at the time and simplified the process of building the new courthouse for Kenton County.

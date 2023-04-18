@@ -10,7 +10,14 @@ location:
 address: |-
   1 Corry Blvd.
   Cincinnati, OH  45219
-original_owner: University of Cincinnati
-architect: SOM
+draft: true
+sections:
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Original Owner
+        value: University of Cincinnati
+      - label: Architect
+        value: SOM
 ---
 

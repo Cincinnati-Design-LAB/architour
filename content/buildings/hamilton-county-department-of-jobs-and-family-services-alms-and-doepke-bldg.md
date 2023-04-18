@@ -7,17 +7,37 @@ location:
   lat: 39.108
   lng: -84.51056
 address: '1123 Sycamore St., Cincinnati, Ohio'
-original_owner: Alms and Doepke Dry Goods Company
-current_owner: Hamilton County
+draft: true
 completion_date: 1878-97
-style: French Second Empire
-architect: Samuel Hannaford & Edwin Procter
-contractor: Messer Construction (renovation)
-original_function: department store complex
-renovation_date: 1912 / 1995
-renovation_architect: Daniel Burnham / GBBN
-renovation_style: Chicago School
-renovation_changes: County offices
+sections:
+  - page_location: above_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Current Owner
+        value: Hamilton County
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Original Owner
+        value: Alms and Doepke Dry Goods Company
+      - label: Completion Date
+        value: 1878-97
+      - label: Original Function
+        value: department store complex
+      - label: Style
+        value: French Second Empire
+      - label: Architect
+        value: Samuel Hannaford & Edwin Procter
+      - label: Contractor
+        value: Messer Construction (renovation)
+  - page_location: below_map
+    type: BuildingRenovationSection
+    title: Renovation History
+    renovations:
+      - title: County offices
+        date: 1912 / 1995
+        architect: Daniel Burnham / GBBN
+        description: Chicago School County offices
 ---
 
 Built on the north side of the canal that is now Central Parkway, the store marked the growth of the city into the previously undesirable area that was pioneered by the development of Music Hall. When built, it was the second largest department store west of New York.

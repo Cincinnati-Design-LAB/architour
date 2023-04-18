@@ -11,17 +11,36 @@ location:
   lat: 39.106389
   lng: -84.492764
 address: '1135 Riverside Dr., Cincinnati, OH  45202'
-original_owner: Cincinnati Parks Board
+draft: true
 completion_date: '2003'
-architect: Fearing & Hagenauer
-associate_architect: 'EDAW, Human Nature (landscape architecture)'
-original_function: >-
-  An extension of Cincinnati's riverfront park system, the park includes a bike
-  trail and walking paths including scupture and floral gardens
-unique_features: >-
-  Sculpture in the park includes an International Mosaics display, a Crystalline
-  Tower, a Munich Pavilion "Castle of Air", and Seven Vessels
-  Ascending/Descending.
+sections:
+  - page_location: above_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Unique Features
+        value: >-
+          Sculpture in the park includes an International Mosaics display, a
+          Crystalline Tower, a Munich Pavilion "Castle of Air", and Seven
+          Vessels Ascending/Descending.
+        layout: full_width
+  - page_location: below_images
+    type: BuildingAttributeSection
+    attributes:
+      - label: Associate Architect
+        value: 'EDAW, Human Nature (landscape architecture)'
+  - page_location: above_map
+    type: BuildingAttributeSection
+    attributes:
+      - label: Original Owner
+        value: Cincinnati Parks Board
+      - label: Completion Date
+        value: '2003'
+      - label: Original Function
+        value: >-
+          An extension of Cincinnati's riverfront park system, the park includes
+          a bike trail and walking paths including scupture and floral gardens
+      - label: Architect
+        value: Fearing & Hagenauer
 ---
 
 Named after Cincinnati's first African-American mayor, the park was designed to promote global understanding and unity through floral and sculptural displays from 5 different continents. Two intertwining paths allow visitors to continually cross paths to share a common experience.

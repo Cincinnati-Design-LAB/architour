@@ -19,7 +19,7 @@ Phase 1:
 - [ ] Content structure adjustments
   - [✔️] Make attributes more flexible
   - [✔️] `date_of_completion` -> `completion_date`
-  - [ ] Convert existing content
+  - [✔️] Convert existing content
   - [ ] Put in publishing mechanism (draft mode)
   - [ ] Should not be able to publish without core attributes
   - [ ] Figure out what to do with renovation history and make adjustments
