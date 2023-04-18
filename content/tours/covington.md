@@ -1,5 +1,6 @@
 ---
 title: Covington
+draft: true
 description: Ex proident voluptate et est consequat aute ut.
 icon: ''
 image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb

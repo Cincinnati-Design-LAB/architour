@@ -34,6 +34,11 @@ export const Tour = defineDocumentType(() => ({
       type: 'list',
       of: Building,
     },
+    draft: {
+      type: 'boolean',
+      description: `Whether the tour should be shown on the website. It still may not if it doesn't meet minimum requirements.`,
+      default: true,
+    },
     static_map: {
       type: 'string',
       description:
