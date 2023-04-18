@@ -136,10 +136,20 @@ export const Building = defineDocumentType(() => ({
       type: 'string',
       description: 'Loose date field (as a string) for when the building was completed.',
     },
+    draft: {
+      type: 'boolean',
+      description: `Whether the building should be shown on the website. It still may not if it doesn't meet minimum requirements.`,
+      default: true,
+    },
     static_map: {
       type: 'string',
       description:
         'Cloudinary Public ID for the static map image, processed by a local script, using Mapbox.',
+    },
+    static_map_cache: {
+      type: 'string',
+      description:
+        'Used to determine when to reprocess the static map image. This caches current location, which is what affects the map image.',
     },
   },
   computedFields: {
