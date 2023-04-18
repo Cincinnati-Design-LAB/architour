@@ -23,7 +23,7 @@ const ATTRIBUTE_MAP = {
     { name: 'resources', label: 'Resources' },
     { name: 'green_building_features', label: 'Green Building Features' },
     { name: 'quotes', label: 'Quotes', layout: 'full_width' },
-    { name: 'Photo Credit', label: 'Photo Credit' },
+    { name: 'photo_credit', label: 'Photo Credit' },
   ],
   above_map: [
     { name: 'original_owner', label: 'Original Owner' },
