@@ -71,24 +71,17 @@ for (const srcFilePath of buildingFilePaths) {
   ].filter((section) => section.attributes.length > 0)
 
   // Add renovation section.
-  if (data.renovation) {
-    const renovation = { title: data.renovations, date: data.renovation_date }
-    delete newData.renovations
-    delete newData.renovation_date
-    if (data.renovation_architect) {
-      renovation.architect = data.renovation_architect
-      delete newData.renovation_architect
+  if (data.renovations || data.renovation_changes || data.renovation_date) {
+    const renovation = {
+      title: data.renovations || data.renovation_changes || 'Renovation',
+      date: data.renovation_date || '',
     }
-    if (data.renovation_contractor) {
-      renovation.contractor = data.renovation_contractor
-      delete newData.renovation_contractor
-    }
+    if (data.renovation_architect) renovation.architect = data.renovation_architect
+    if (data.renovation_contractor) renovation.contractor = data.renovation_contractor
     if (data.renovation_style || data.renovation_changes) {
       renovation.description = [data.renovation_style, data.renovation_changes]
         .filter(Boolean)
         .join(' ')
-      delete newData.renovation_style
-      delete newData.renovation_changes
     }
     sections.push({
       page_location: 'below_map',
@@ -96,6 +89,12 @@ for (const srcFilePath of buildingFilePaths) {
       title: 'Renovation History',
       renovations: [renovation],
     })
+    delete newData.renovations
+    delete newData.renovation_date
+    delete newData.renovation_architect
+    delete newData.renovation_contractor
+    delete newData.renovation_style
+    delete newData.renovation_changes
   }
 
   // Put into draft mode, which will prompt checking each building.
