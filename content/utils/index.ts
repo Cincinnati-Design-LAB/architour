@@ -1,8 +1,11 @@
 import * as Contentlayer from '@/.contentlayer/generated'
+import { filterBuilding } from './filter-building'
+import { transformBuilding } from './transform-building'
 
-import { transformBuilding, transformTour } from './transformers'
+import { transformTour } from './transformer-tour'
 
 import type { Building, Tour } from './types'
+import { validateBuilding } from './validate-building'
 
 /**
  * Retrieves building objects processed by Contentlayer and resolves necessary
@@ -11,7 +14,8 @@ import type { Building, Tour } from './types'
  * @returns Array of transformed building objects
  */
 async function getBuildings(): Promise<Building[]> {
-  return await Promise.all(Contentlayer.allBuildings.map(transformBuilding))
+  const buildings = await Promise.all(Contentlayer.allBuildings.map(transformBuilding))
+  return buildings.filter(filterBuilding).filter(validateBuilding)
 }
 
 /**

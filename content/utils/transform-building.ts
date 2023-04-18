@@ -3,7 +3,7 @@ import { cloudinaryImageUrls } from './images'
 import { mapMarkerData } from './map'
 import { processMarkdown } from './markdown'
 import { getExcerpt } from './text'
-import { Building, Tour } from './types'
+import { Building } from './types'
 
 /**
  * Applies tour count to buildings.
@@ -31,24 +31,4 @@ export async function transformBuilding(building: Contentlayer.Building): Promis
   })
   const static_map = cloudinaryImageUrls(building.static_map, ['sidebar'])
   return { ...building, tourCount, images, featuredImage, excerpt, mapMarker, static_map }
-}
-
-/**
- * Transforms `buildings` property into rich Building objects.
- *
- * @param tour Contentlayer tour object
- * @returns Transformed tour object
- */
-export async function transformTour(tour: Contentlayer.Tour): Promise<Tour> {
-  const findBuilding = (filePath: string) =>
-    Contentlayer.allBuildings.find((b) => b._raw.sourceFilePath === filePath)
-  const buildings = await Promise.all(
-    tour.buildings
-      .map(findBuilding)
-      .filter((x) => x)
-      .map(transformBuilding),
-  )
-  const image = cloudinaryImageUrls(tour.image, ['card_hero', 'hero'])
-  const static_map = cloudinaryImageUrls(tour.static_map, ['sidebar'])
-  return { ...tour, buildings, image, static_map }
 }
