@@ -22,7 +22,8 @@ Phase 1:
   - [✔️] Convert existing content
   - [✔️] Put in publishing mechanism (draft mode)
   - [ ] Should not be able to publish without core attributes
-  - [ ] Figure out what to do with renovation history and make adjustments
+  - [✔️] Figure out what to do with renovation history and make adjustments
+    - Put a placeholder in there for now, and going through every building before going live
   - [✔️] When not in edit mode, a tour should not attach draft or invalid buildings
   - [ ] Show that there are validation errors when in edit mode
 - [ ] Responsive styles
@@ -37,7 +38,11 @@ Phase 1:
   - [✔️] Process static images for all buildings
   - [✔️] Process static images for all tours
   - [✔️] Tour static map should use production mode
-  - [ ] Note about static map when it doesn't exist
+  - [ ] What to do when static map doesn't exist?
+    - Need to consider when static map should be populated.
+    - Every commit on `preview` is too much.
+    - Manually pushing a button is prone to error.
+    - Before publish doesn't give editor previewing options for attributes.
 - [ ] Fix mobile menu -> it looks stupid
 - [ ] List and link to tours on the building detail page
 
