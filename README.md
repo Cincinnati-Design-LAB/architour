@@ -23,7 +23,7 @@ Phase 1:
   - [✔️] Put in publishing mechanism (draft mode)
   - [ ] Should not be able to publish without core attributes
   - [ ] Figure out what to do with renovation history and make adjustments
-  - [ ] When not in edit mode, a tour should not attach draft or invalid buildings
+  - [✔️] When not in edit mode, a tour should not attach draft or invalid buildings
   - [ ] Show that there are validation errors when in edit mode
 - [ ] Responsive styles
 - [ ] Building list filtering and pagination
