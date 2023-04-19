@@ -34,10 +34,12 @@ Phase 1:
 - [ ] Static map cleanup
   - [✔️] Address overlay on the building map
   - [✔️] Hover state for tour map
-  - [ ] Process static images for all buildings
-  - [ ] Process static images for all tours
-        Cloudinary images.
+  - [✔️] Process static images for all buildings
+  - [✔️] Process static images for all tours
+  - [✔️] Tour static map should use production mode
+  - [ ] Note about static map when it doesn't exist
 - [ ] Fix mobile menu -> it looks stupid
+- [ ] List and link to tours on the building detail page
 
 Phase 2:
 
@@ -45,7 +47,7 @@ Phase 2:
 - [ ] Integrate Stackbit
 - [ ] Only the bare minimum required fields
 - [ ] Method for editing/adding images
-- [ ] Method for generating static map images
+- [ ] Method for generating static map images (not all have them, but it is now tied to published items only)
 - [ ] Link component should be used in building body and attributes
 
 Phase 3:
@@ -64,3 +66,4 @@ Notes to add:
 - Validation process
   - What is required
   - What edit mode means
+  - Assumptions that we can rely on detail pages to be the primary validator for required production attributes.

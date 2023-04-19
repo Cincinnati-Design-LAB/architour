@@ -9,7 +9,7 @@ location:
 address: '650 Walnut St., Cincinnati, Ohio'
 static_map: buildings/aronoff-center-for-the-arts/static-map_uuqlbs
 static_map_cache: '{"lat":39.1035828,"lng":-84.5116664}'
-draft: true
+draft: false
 completion_date: '1995'
 sections:
   - page_location: above_images

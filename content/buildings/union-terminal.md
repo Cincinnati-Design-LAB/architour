@@ -8,7 +8,7 @@ location:
   lat: 39.1098737
   lng: -84.53747369999996
 address: '1301 Western Ave., Cincinnati, OH  45203'
-draft: true
+draft: false
 completion_date: '1933'
 sections:
   - page_location: above_images
@@ -21,7 +21,7 @@ sections:
       - label: Unique Features
         value: >-
           The exterior is decorated with bas-relief carvings designed by
-          Maxfield Keck representing the themes of transportation and commerce. 
+          Maxfield Keck representing the themes of transportation and commerce.
           The semi-dome of the rotunda is the largest in the western hemisphere
           at 180 feet wide and 106 feet high.  The interior is decorated with
           mosaic murals designed by artist Winold Reiss and represent Cincinnati
@@ -70,6 +70,8 @@ sections:
           Natural History & Science, the Robert D. Lindner Family Omnimax
           Theater, the Cincinnati Historical Society Library, the Duke Energy
           Children's Museum, and the Cincinnati Railroad Club.
+static_map: buildings/union-terminal/static-map_oabyzh
+static_map_cache: '{"lat":39.1098737,"lng":-84.53747369999996}'
 ---
 
 Considered one of the finest examples of Art Deco train stations in the US, Union Terminal consolidated 5 different train stations into one location serving 7 different rail lines. The complex circulation systems incorporated in the building to handle pedestrian, auto, bus, and rail traffic were a model of efficiency. The station came on line during the height of rail travel that quickly began to decline with the advent of air travel reducing the demand for rail travel.

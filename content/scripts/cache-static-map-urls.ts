@@ -120,6 +120,7 @@ function hasCurrentImage(data: Record<string, any>, newCacheKey: string): boolea
 async function updateStaticMapImage({
   filePath,
   content,
+  contentType,
   data,
   newStaticMapUrl,
   newCacheKey,
@@ -127,6 +128,7 @@ async function updateStaticMapImage({
 }: {
   filePath: string
   content: string
+  contentType: string
   data: Record<string, any>
   newStaticMapUrl: string
   newCacheKey: string
@@ -143,14 +145,36 @@ async function updateStaticMapImage({
   // Write new content to file
   updateSourceFile(filePath, content, data)
   // Provide feedback
-  console.log(`[Building] New static map: ${data.title}`)
+  console.log(`[${contentType}] New static map: ${data.title}`)
 }
 
 /* --- Buildings --- */
 
-for (const filePath of glob.sync(path.join(CONTENT_DIR, 'buildings/**/*.md'))) {
-  const { data, content } = matter.read(filePath)
+type BuildingAttributes = {
+  title: string
+  location: {
+    lat: number
+    lng: number
+  }
+  [key: string]: any
+}
 
+type BuildingFile = {
+  filePath: string
+  content: string
+  data: BuildingAttributes
+}
+
+const publishedBuildings: BuildingFile[] = glob
+  .sync(path.join(CONTENT_DIR, 'buildings/**/*.md'))
+  .map((filePath) => {
+    const { data, content } = matter.read(filePath)
+    const props = data as BuildingAttributes
+    return { filePath, content, data: props }
+  })
+  .filter((file) => file.data.draft !== true)
+
+for (const { filePath, content, data } of publishedBuildings) {
   // Skip if there is no location (since we won't be able to generate a static
   // map).
   if (!data.location) continue
@@ -182,6 +206,7 @@ for (const filePath of glob.sync(path.join(CONTENT_DIR, 'buildings/**/*.md'))) {
   await updateStaticMapImage({
     filePath,
     content,
+    contentType: 'Building',
     data,
     newStaticMapUrl,
     newCacheKey,
@@ -191,8 +216,27 @@ for (const filePath of glob.sync(path.join(CONTENT_DIR, 'buildings/**/*.md'))) {
 
 /* --- Tours --- */
 
-for (const filePath of glob.sync(path.join(CONTENT_DIR, 'tours/**/*.md'))) {
-  const { data, content } = matter.read(filePath)
+type TourAttributes = {
+  buildings: string[]
+  [key: string]: any
+}
+
+type TourFile = {
+  filePath: string
+  content: string
+  data: TourAttributes
+}
+
+const publishedTours: TourFile[] = glob
+  .sync(path.join(CONTENT_DIR, 'tours/**/*.md'))
+  .map((filePath) => {
+    const { data, content } = matter.read(filePath)
+    const props = data as TourAttributes
+    return { filePath, content, data: props }
+  })
+  .filter((file) => file.data.draft !== true)
+
+for (const { filePath, content, data } of publishedTours) {
   if (!data.buildings || data.buildings.length === 0) continue
 
   // Cloudinary directory name reference. This matches how we're storing images
@@ -200,9 +244,17 @@ for (const filePath of glob.sync(path.join(CONTENT_DIR, 'tours/**/*.md'))) {
   const slug = path.basename(filePath, '.md')
   const cloudinaryDir = `tours/${slug}`
 
-  // Get all the locations for the buildings in this tour
-  const markerCoords = data.buildings
-    .map((relFilePath) => matter.read(path.join(CONTENT_DIR, relFilePath)).data.location)
+  // Get all the locations for the buildings in this tour.
+  //
+  // Filter out any buildings that are in edit mode. This runs only in
+  // production mode and assumes the application is going to throw an error if
+  // there are any published buildings that don't pass validation.
+  const buildingFiles = data.buildings
+    .map((filePath) => publishedBuildings.find((b) => b.filePath.endsWith(filePath)))
+    .filter(Boolean) as BuildingFile[]
+  const markerCoords = buildingFiles
+    .filter((b) => b.data.draft !== true)
+    .map((b) => b.data.location)
     .filter(Boolean)
 
   // Cache key to know whether we should update the static map URL. We use the
@@ -225,6 +277,7 @@ for (const filePath of glob.sync(path.join(CONTENT_DIR, 'tours/**/*.md'))) {
   await updateStaticMapImage({
     filePath,
     content,
+    contentType: 'Tour',
     data,
     newStaticMapUrl,
     newCacheKey,
