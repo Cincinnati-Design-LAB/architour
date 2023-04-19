@@ -39,7 +39,7 @@ export async function transformTour(tour: Contentlayer.Tour): Promise<Tour> {
  * @param tour Contentlayer tour object
  * @returns Whether tour should be shown
  */
-export function filterTour(tour: Tour): boolean {
+export function filterTour(tour: Tour | Contentlayer.Tour): boolean {
   return EDITOR_MODE ? true : tour.draft !== true
 }
 

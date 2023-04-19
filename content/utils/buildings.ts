@@ -4,6 +4,7 @@ import { cloudinaryImageUrls } from './images'
 import { mapMarkerData } from './map'
 import { processMarkdown } from './markdown'
 import { getExcerpt } from './text'
+import { filterTour } from './tours'
 import { Building } from './types'
 
 /**
@@ -25,7 +26,7 @@ export async function getBuildings(): Promise<Building[]> {
  */
 export async function transformBuilding(building: Contentlayer.Building): Promise<Building> {
   const tourHasBuilding = (tour) => tour.buildings.includes(building._raw.sourceFilePath)
-  const tourCount = Contentlayer.allTours.filter(tourHasBuilding).length
+  const tourCount = Contentlayer.allTours.filter(filterTour).filter(tourHasBuilding).length
   const images = building.images.map((id) => cloudinaryImageUrls(id, ['gallery_item']))
   const featuredImage = cloudinaryImageUrls(building.images[0], [
     'card_thumb',
