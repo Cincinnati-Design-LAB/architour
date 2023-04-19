@@ -20,10 +20,11 @@ Phase 1:
   - [✔️] Make attributes more flexible
   - [✔️] `date_of_completion` -> `completion_date`
   - [✔️] Convert existing content
-  - [ ] Put in publishing mechanism (draft mode)
+  - [✔️] Put in publishing mechanism (draft mode)
   - [ ] Should not be able to publish without core attributes
   - [ ] Figure out what to do with renovation history and make adjustments
   - [ ] When not in edit mode, a tour should not attach draft or invalid buildings
+  - [ ] Show that there are validation errors when in edit mode
 - [ ] Responsive styles
 - [ ] Building list filtering and pagination
 - [ ] Way to get back from PageHeader?
@@ -58,4 +59,8 @@ Phase 3:
 Notes to add:
 
 - How content is stored and retrieved
+- Tools being used
 - Working with images
+- Validation process
+  - What is required
+  - What edit mode means
