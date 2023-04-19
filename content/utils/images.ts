@@ -114,13 +114,12 @@ export function getTransformationDprVariations(
  * file.
  * @returns Image object with URLs for each crop and size.
  */
-
-// TODO -> Step #2: Accept a list of crops, and only return those crops. Need to
-// make the typing dynamic for this.
 export function cloudinaryImageUrls(
   publicId: string,
   cropNames: CropName[] = CROP_NAMES,
 ): CloudinaryImage<(typeof cropNames)[number]> {
+  if (!publicId) return null
+
   let output = {} as CloudinaryImage<(typeof cropNames)[number]>
 
   TRANSFORMATIONS.filter((crop) => cropNames.includes(crop.name)).map((crop) => {
