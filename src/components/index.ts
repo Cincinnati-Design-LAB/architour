@@ -4,6 +4,7 @@ import BuildingRenovationSection from './BuildingRenovationSection.astro'
 import BuildingCard, { Props as BuildingCardProps } from './BuildingCard.astro'
 import Button, { Props as ButtonProps } from './Button.astro'
 import CardMetaAttribute from './CardMetaAttribute.astro'
+import CardValidationErrors from './CardValidationErrors.astro'
 import CompactCard, { Props as CompactCardProps } from './CompactCard.astro'
 import Callout from './Callout.astro'
 import Footer from './Footer.astro'
@@ -24,6 +25,7 @@ export {
   BuildingCard,
   Button,
   CardMetaAttribute,
+  CardValidationErrors,
   CompactCard,
   Callout,
   Footer,

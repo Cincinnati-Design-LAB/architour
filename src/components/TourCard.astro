@@ -1,5 +1,5 @@
 ---
-import { CardMetaAttribute, Icon, Link, ResponsiveImage } from '@components'
+import { CardMetaAttribute, CardValidationErrors, Icon, Link, ResponsiveImage } from '@components'
 import { Tour } from '@content'
 
 export interface Props extends Tour {}
@@ -8,6 +8,7 @@ const props = Astro.props as Props
 ---
 
 <Link href={props.urlPath} className="block bg-white shadow-md">
+  <CardValidationErrors errors={props.validation_errors} draft={props.draft} />
   {
     props.image && (
       <div class="h-24 overflow-hidden">

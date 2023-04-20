@@ -15,19 +15,19 @@ Phase 1:
 - [✔️] Remove icons from tours (or make them optional)
 - [✔️] Fix tour building images and cards
 - [✔️] Insecure content warning on Netlify. I think this is because of the
-- [ ] Content structure adjustments
+- [✔️] Content structure adjustments
   - [✔️] Make attributes more flexible
   - [✔️] `date_of_completion` -> `completion_date`
   - [✔️] Convert existing content
   - [✔️] Put in publishing mechanism (draft mode)
-  - [ ] Should not be able to publish without core attributes
+  - [✔️] Should not be able to publish without core attributes
   - [✔️] Figure out what to do with renovation history and make adjustments
     - Put a placeholder in there for now, and going through every building before going live
   - [✔️] When not in edit mode, a tour should not attach draft or invalid buildings
-  - [ ] Show that there are validation errors when in edit mode
+  - [✔️] Show that there are validation errors when in edit mode
 - [✔️] Add analytics -> Installed, but need to wait for data collection and then
   can test link tracking
-- [ ] Static map cleanup
+- [✔️] Static map cleanup
   - [✔️] Address overlay on the building map
   - [✔️] Hover state for tour map
   - [✔️] Process static images for all buildings
