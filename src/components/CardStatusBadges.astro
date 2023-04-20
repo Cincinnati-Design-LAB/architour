@@ -1,0 +1,21 @@
+---
+import { Badge } from '@components'
+
+export interface Props {
+  draft?: boolean
+  validation_errors?: string[]
+}
+
+const props = Astro.props as Props
+---
+
+{
+  (props.draft || props.validation_errors?.length > 0) && (
+    <div class="flex items-center space-x-3 mb-2">
+      {props.draft && <Badge icon="draft" label="Draft" />}
+      {props.validation_errors?.length > 0 && (
+        <Badge theme={props.draft ? 'warning' : 'error'} label="Errors" icon="alert" />
+      )}
+    </div>
+  )
+}

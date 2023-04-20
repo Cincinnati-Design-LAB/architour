@@ -5,6 +5,7 @@ import BuildingCard, { Props as BuildingCardProps } from './BuildingCard.astro'
 import Button, { Props as ButtonProps } from './Button.astro'
 import Badge from './Badge.astro'
 import CardMetaAttribute from './CardMetaAttribute.astro'
+import CardStatusBadges from './CardStatusBadges.astro'
 import CompactCard, { Props as CompactCardProps } from './CompactCard.astro'
 import Callout from './Callout.astro'
 import Footer from './Footer.astro'
@@ -26,6 +27,7 @@ export {
   Button,
   Callout,
   CardMetaAttribute,
+  CardStatusBadges,
   CompactCard,
   Footer,
   Header,
