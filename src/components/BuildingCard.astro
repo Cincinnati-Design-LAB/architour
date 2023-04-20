@@ -1,0 +1,33 @@
+---
+import { CardMetaAttribute, Link, ResponsiveImage } from '@components'
+import { Building } from '@content'
+
+export interface Props extends Building {}
+
+const props = Astro.props as Props
+---
+
+<Link href={props.urlPath} className="block bg-white shadow-md relative">
+  {
+    props.featuredImage && (
+      <div class="rounded-full absolute top-[-2rem] left-[1rem] w-16 h-16 overflow-hidden border-2 border-black">
+        <ResponsiveImage
+          src={props.featuredImage.card_thumb}
+          className="object-cover h-full w-full object-center"
+        />
+      </div>
+    )
+  }
+  <div class="pt-12 pb-4 px-4">
+    <h3 class="text-lg font-semibold mb-2">{props.title}</h3>
+    {props.excerpt?.html?.length > 0 && <div class="mb-4" set:html={props.excerpt?.html} />}
+
+    <div class="flex space-x-6 items-center">
+      <CardMetaAttribute icon="calendar" label={`Built ${props.completion_date || '[not set]'}`} />
+      <CardMetaAttribute
+        icon="eye"
+        label={`${props.tourCount} Tour${props.tourCount === 1 ? '' : 's'}`}
+      />
+    </div>
+  </div>
+</Link>

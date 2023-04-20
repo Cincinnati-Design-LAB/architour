@@ -22,26 +22,7 @@ const buildings = (await getBuildings()).slice(0, 12)
     <div
       class="max-w-7xl px-4 mx-auto py-12 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-16 gap-x-8"
     >
-      {
-        buildings.map((building) => (
-          <BuildingCard
-            title={building.title}
-            href={building.urlPath}
-            excerpt={building.excerpt.html}
-            image={building.featuredImage}
-            meta={[
-              {
-                icon: 'calendar',
-                label: building.completion_date ? `Built ${building.completion_date}` : undefined,
-              },
-              {
-                icon: 'eye',
-                label: `${building.tourCount} Tour${building.tourCount === 1 ? '' : 's'}`,
-              },
-            ]}
-          />
-        ))
-      }
+      {buildings.map((building) => <BuildingCard {...building} />)}
     </div>
   </div>
 </PageLayout>
