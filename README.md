@@ -48,12 +48,11 @@ Stackbit:
 - [ ] Integrate Stackbit
 - [ ] Only the bare minimum required fields
 - [ ] Method for editing/adding images
+- [ ] Method for setting the building location without hunting for coordinates
 - [ ] Method for generating static map images (not all have them, but it is now tied to published items only)
   - [ ] What to do when static map doesn't exist?
-    - Need to consider when static map should be populated.
-    - Every commit on `preview` is too much.
-    - Manually pushing a button is prone to error.
-    - Before publish doesn't give editor previewing options for attributes.
+    - Run the static map generator before the build. (Need to also commit to repo, too, without rebuilding.)
+    - Show a preview image that mentions it will be automatically populated?
 
 Pre-Launch Cleanup:
 
