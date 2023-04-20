@@ -1,5 +1,13 @@
 ---
-import { PageHeader, CompactCard, Stat, Link, ResponsiveImage, Icon } from '@components'
+import {
+  PageHeader,
+  CompactCard,
+  Stat,
+  Link,
+  ResponsiveImage,
+  Icon,
+  ValidationErrors,
+} from '@components'
 import { getTours, Tour } from '@content'
 import { PageLayout } from '@layouts'
 
@@ -18,16 +26,23 @@ const tour = Astro.props.tour as Tour
   <PageHeader title={tour.title} image={tour.image} size="lg" />
 
   <div class="max-w-7xl mx-auto relative px-4 py-16">
+    {
+      tour.validation_errors && (
+        <div class="max-w-4xl mx-auto px-4 mb-12">
+          <ValidationErrors errors={tour.validation_errors} draft={tour.draft} />
+        </div>
+      )
+    }
     <div class="grid grid-cols-12 gap-16">
       <div class="col-span-7">
         {
-          tour.description.html.length > 0 && (
+          tour.description?.html?.length > 0 && (
             <div class="text-lg mb-12" set:html={tour.description.html} />
           )
         }
         <div class="grid grid-cols-2 gap-x-10 gap-y-6 mb-12">
           <Stat label="Buildings on Tour" value={tour.buildings.length.toString()} />
-          <Stat label="Estimated Walking Time" value={tour.time_estimate} />
+          <Stat label="Estimated Walking Time" value={tour.time_estimate || '[not set]'} />
         </div>
       </div>
 

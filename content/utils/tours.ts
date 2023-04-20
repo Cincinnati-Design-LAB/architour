@@ -27,7 +27,7 @@ export async function transformTour(tour: Contentlayer.Tour): Promise<Tour> {
   const findBuilding = (filePath: string): Building => {
     return allBuildings.find((b) => b._raw.sourceFilePath === filePath)
   }
-  const buildings = tour.buildings.map(findBuilding).filter(Boolean)
+  const buildings = (tour.buildings || []).map(findBuilding).filter(Boolean)
   const image = cloudinaryImageUrls(tour.image, ['card_hero', 'hero'])
   const static_map = cloudinaryImageUrls(tour.static_map, ['sidebar'])
   return { ...tour, buildings, image, static_map }
@@ -50,10 +50,23 @@ export function filterTour(tour: Tour | Contentlayer.Tour): boolean {
  * @returns Transformed tour object
  */
 export function validateTour(tour: Tour): boolean {
-  // TODO: Add validation logic here. Consider if in edit mode or not.
-  //
-  // TODO: Would be cool to attach a property to a tour when we're in edit
-  // mode if: (1) it's a draft (warning) (2) it doesn't pass validation
-  // (warning), or (3) it fails validation AND is set to be published (error).
+  tour.validation_errors = []
+
+  // The following fields are required
+  const requiredFields = ['title', 'image', 'time_estimate', 'description', 'static_map']
+  for (const field of requiredFields) {
+    if (!tour[field]) tour.validation_errors.push(`Missing required field: ${field}`)
+  }
+  // Must have at least one image
+  if (tour.buildings.length < 1) tour.validation_errors.push('Must have at least one building')
+
+  // Keep the validation errors on the tour, but don't throw an error in
+  // editor mode.
+  if (EDITOR_MODE) return true
+  // Throw an error if there are validation errors when not in editor mode.
+  if (tour.validation_errors.length > 0) {
+    throw new Error(`Validation failed.\n${tour.validation_errors.join('\n')}`)
+  }
+
   return true
 }

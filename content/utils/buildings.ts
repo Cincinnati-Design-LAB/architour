@@ -25,7 +25,7 @@ export async function getBuildings(): Promise<Building[]> {
  * @returns Transformed building object
  */
 export async function transformBuilding(building: Contentlayer.Building): Promise<Building> {
-  const tourHasBuilding = (tour) => tour.buildings.includes(building._raw.sourceFilePath)
+  const tourHasBuilding = (tour) => (tour.buildings || []).includes(building._raw.sourceFilePath)
   const tourCount = Contentlayer.allTours.filter(filterTour).filter(tourHasBuilding).length
   const images = building.images.map((id) => cloudinaryImageUrls(id, ['gallery_item']))
   const featuredImage = cloudinaryImageUrls(building.images[0], [

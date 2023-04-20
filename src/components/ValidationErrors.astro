@@ -9,15 +9,19 @@ export interface Props {
 const props = Astro.props as Props
 ---
 
-<Callout theme={props.draft ? 'warning' : 'error'} icon={{ name: 'alert' }}>
-  <p class="mb-2">
-    {
-      props.draft
-        ? 'Fix the following issues before publishing:'
-        : 'Site cannot be published until these issues are resolved:'
-    }
-  </p>
-  <ul>
-    {props.errors.map((e) => <li class="mb-2 last:mb-0 list-disc ml-4">{e}</li>)}
-  </ul>
-</Callout>
+{
+  props.errors.length > 0 && (
+    <Callout theme={props.draft ? 'warning' : 'error'} icon={{ name: 'alert' }}>
+      <p class="mb-2">
+        {props.draft
+          ? 'Fix the following issues before publishing:'
+          : 'Site cannot be published until these issues are resolved:'}
+      </p>
+      <ul>
+        {props.errors.map((e) => (
+          <li class="mb-2 last:mb-0 list-disc ml-4">{e}</li>
+        ))}
+      </ul>
+    </Callout>
+  )
+}

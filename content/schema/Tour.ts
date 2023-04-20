@@ -13,18 +13,15 @@ export const Tour = defineDocumentType(() => ({
     image: {
       type: 'string',
       description: 'Cloudinary public ID for the primary tour image',
-      required: true,
     },
     time_estimate: {
       type: 'string',
       description: 'Average length of time tour is expected to take',
-      required: true,
     },
     icon: {
       type: 'enum',
       description: 'A supported icon name, which appears on the tour card.',
       options: ['arrow-left', 'calendar', 'eye', 'building', 'clock'],
-      required: true,
     },
     description: {
       type: 'markdown',

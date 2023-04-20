@@ -18,17 +18,17 @@ const tours = await getTours()
           <TourCard
             title={tour.title}
             href={tour.urlPath}
-            excerpt={tour.description.html}
+            excerpt={tour.description?.html}
             image={tour.image}
             icon={tour.icon}
             meta={[
               {
                 icon: 'building',
-                label: `${tour.buildings.length} buildings`,
+                label: `${(tour.buildings || []).length} buildings`,
               },
               {
                 icon: 'clock',
-                label: tour.time_estimate,
+                label: tour.time_estimate || '[not set]',
               },
             ]}
           />
