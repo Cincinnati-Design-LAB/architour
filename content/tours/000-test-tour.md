@@ -7,7 +7,7 @@ description: >-
 
 icon: ''
 image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
-time_estimate: 2 Hours
+# time_estimate: 2 Hours
 buildings:
   - buildings/000-test.md
   - buildings/aronoff-center-for-the-arts.md
