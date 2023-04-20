@@ -13,27 +13,7 @@ const tours = await getTours()
     <div
       class="max-w-7xl px-4 mx-auto py-12 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-16 gap-x-8"
     >
-      {
-        tours.map((tour) => (
-          <TourCard
-            title={tour.title}
-            href={tour.urlPath}
-            excerpt={tour.description?.html}
-            image={tour.image}
-            icon={tour.icon}
-            meta={[
-              {
-                icon: 'building',
-                label: `${(tour.buildings || []).length} buildings`,
-              },
-              {
-                icon: 'clock',
-                label: tour.time_estimate || '[not set]',
-              },
-            ]}
-          />
-        ))
-      }
+      {tours.map((tour) => <TourCard {...tour} />)}
     </div>
   </div>
 </PageLayout>

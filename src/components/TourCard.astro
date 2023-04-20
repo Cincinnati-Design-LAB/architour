@@ -1,0 +1,39 @@
+---
+import { CardMetaAttribute, Icon, Link, ResponsiveImage } from '@components'
+import { Tour } from '@content'
+
+export interface Props extends Tour {}
+
+const props = Astro.props as Props
+---
+
+<Link href={props.urlPath} className="block bg-white shadow-md">
+  {
+    props.image && (
+      <div class="h-24 overflow-hidden">
+        <ResponsiveImage
+          src={props.image.card_hero}
+          className="object-cover h-full w-full object-center"
+        />
+      </div>
+    )
+  }
+  <div class={`${props.icon ? 'pt-12' : 'pt-4'} pb-4 px-4 relative`}>
+    {
+      props.icon && (
+        <div class="rounded-full absolute top-[-2rem] left-[0.5rem] w-14 h-14 overflow-hidden border-2 border-white bg-primary-500 text-white flex items-center justify-center">
+          <span class="block w-7">
+            <Icon name={props.icon} />
+          </span>
+        </div>
+      )
+    }
+    <h3 class="text-lg font-semibold mb-2">{props.title}</h3>
+    {props.description?.html.length > 0 && <div class="mb-4" set:html={props.description?.html} />}
+
+    <div class="flex space-x-6 items-center">
+      <CardMetaAttribute icon="building" label={`${(props.buildings || []).length} buildings`} />
+      <CardMetaAttribute icon="clock" label={props.time_estimate || '[not set]'} />
+    </div>
+  </div>
+</Link>

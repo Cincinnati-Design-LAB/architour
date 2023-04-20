@@ -1,0 +1,17 @@
+---
+import { Icon, IconProps } from '@components'
+
+export interface Props {
+  icon: IconProps['name']
+  label: string
+}
+
+const { icon, label } = Astro.props
+---
+
+<div class="flex space-x-2 items-center text-secondary-500">
+  <span class="w-4">
+    <Icon name={icon} />
+  </span>
+  <span class="text-sm font-semibold">{label}</span>
+</div>
