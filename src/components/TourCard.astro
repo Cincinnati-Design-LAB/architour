@@ -1,5 +1,12 @@
 ---
-import { CardMetaAttribute, CardValidationErrors, Icon, Link, ResponsiveImage } from '@components'
+import {
+  Badge,
+  CardMetaAttribute,
+  CardValidationErrors,
+  Icon,
+  Link,
+  ResponsiveImage,
+} from '@components'
 import { Tour } from '@content'
 
 export interface Props extends Tour {}
@@ -19,7 +26,16 @@ const props = Astro.props as Props
     )
   }
   <div class={`${props.icon ? 'pt-12' : 'pt-4'} pb-4 px-4 relative`}>
-    <CardValidationErrors errors={props.validation_errors} draft={props.draft} />
+    {
+      (props.draft || props.validation_errors?.length > 0) && (
+        <div class="flex items-center space-x-3 mb-2">
+          {props.draft && <Badge icon="draft" label="Draft" />}
+          {props.validation_errors?.length > 0 && (
+            <Badge theme={props.draft ? 'warning' : 'error'} label="Errors" icon="alert" />
+          )}
+        </div>
+      )
+    }
     {
       props.icon && (
         <div class="rounded-full absolute top-[-2rem] left-[0.5rem] w-14 h-14 overflow-hidden border-2 border-white bg-primary-500 text-white flex items-center justify-center">

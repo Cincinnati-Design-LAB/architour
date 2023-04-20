@@ -3,8 +3,8 @@ import BuildingAttributeSection from './BuildingAttributeSection.astro'
 import BuildingRenovationSection from './BuildingRenovationSection.astro'
 import BuildingCard, { Props as BuildingCardProps } from './BuildingCard.astro'
 import Button, { Props as ButtonProps } from './Button.astro'
+import Badge from './Badge.astro'
 import CardMetaAttribute from './CardMetaAttribute.astro'
-import CardValidationErrors from './CardValidationErrors.astro'
 import CompactCard, { Props as CompactCardProps } from './CompactCard.astro'
 import Callout from './Callout.astro'
 import Footer from './Footer.astro'
@@ -19,15 +19,14 @@ import TourCard, { Props as TourCardProps } from './TourCard.astro'
 import ValidationErrors from './ValidationErrors.astro'
 
 export {
-  Stat,
+  Badge,
   BuildingAttributeSection,
-  BuildingRenovationSection,
   BuildingCard,
+  BuildingRenovationSection,
   Button,
-  CardMetaAttribute,
-  CardValidationErrors,
-  CompactCard,
   Callout,
+  CardMetaAttribute,
+  CompactCard,
   Footer,
   Header,
   HeaderLink,
@@ -36,6 +35,7 @@ export {
   Logo,
   PageHeader,
   ResponsiveImage,
+  Stat,
   TourCard,
   ValidationErrors,
 }
