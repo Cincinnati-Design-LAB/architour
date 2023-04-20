@@ -7,7 +7,7 @@ location:
 address: 320 Broadway
 static_map: buildings/academy-of-medicine/static-map_mdlfmn
 static_map_cache: '{"lat":39.1004294,"lng":-84.5059878}'
-draft: false
+draft: true
 completion_date: '1850'
 sections:
   - page_location: above_map

@@ -1,4 +1,7 @@
 ---
+import { Callout } from '@components'
+import { getBuildings, getTours } from '@content'
+
 export interface Props {
   title: string
   bodyClasses?: string
@@ -11,6 +14,13 @@ declare global {
 }
 
 const { title, bodyClasses } = Astro.props as Props
+
+const buildings = await getBuildings()
+const tours = await getTours()
+
+const invalidObjects = [buildings, tours]
+  .flat()
+  .filter((item) => item.validation_errors?.length > 0 && !item.draft)
 ---
 
 <!DOCTYPE html>
@@ -45,6 +55,22 @@ const { title, bodyClasses } = Astro.props as Props
     </script>
   </head>
   <body class={bodyClasses}>
+    {
+      invalidObjects.length > 0 && (
+        <Callout icon={{ name: 'alert' }} theme={'error'}>
+          <p class="mb-2">The following items must be fixed before publishing:</p>
+          <ul class="ml-4 list-disc">
+            {invalidObjects.map((obj) => (
+              <li class="mb-2">
+                <a href={obj.urlPath} class="underline">
+                  {obj.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </Callout>
+      )
+    }
     <slot />
   </body>
 </html>
