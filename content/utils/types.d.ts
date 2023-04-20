@@ -16,6 +16,8 @@ export interface Building extends Omit<Contentlayer.Building, 'images'> {
   mapMarker: MapMarker
   /** Transformed Cloudinary image object from static map */
   static_map: CloudinaryImage<'sidebar'>
+  /** Validation errors that get attached when in edit mode */
+  validation_errors?: string[]
 }
 
 export interface Tour extends Omit<Contentlayer.Tour, 'buildings' | 'image'> {

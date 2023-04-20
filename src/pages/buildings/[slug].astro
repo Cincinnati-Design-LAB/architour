@@ -5,6 +5,9 @@ import {
   ResponsiveImage,
   BuildingAttributeSection,
   BuildingRenovationSection,
+  Icon,
+  Callout,
+  ValidationErrors,
 } from '@components'
 import { PageLayout } from '@layouts'
 
@@ -46,6 +49,13 @@ const sections = {
   <PageHeader title={building.title} image={building.featuredImage} size="lg" />
 
   <div class="max-w-7xl mx-auto relative">
+    {
+      building.validation_errors && (
+        <div class="max-w-4xl mx-auto px-4 my-8">
+          <ValidationErrors errors={building.validation_errors} draft={building.draft} />
+        </div>
+      )
+    }
     <div class="grid md:grid-cols-12 gap-16 py-16 px-4">
       <div class="md:col-span-7">
         {

@@ -63,26 +63,29 @@ export function filterBuilding(building: Building): boolean {
  * @returns Transformed building object
  */
 export function validateBuilding(building: Building): boolean {
-  // TODO: Would be cool to attach a property to a building when we're in edit
-  // mode if: (1) it's a draft (warning) (2) it doesn't pass validation
-  // (warning), or (3) it fails validation AND is set to be published (error).
-  if (EDITOR_MODE) return true
-
-  const errors = []
+  building.validation_errors = []
 
   // The following fields are required
   const requiredFields = ['title', 'address', 'completion_date', 'static_map']
   for (const field of requiredFields) {
-    if (!building[field]) errors.push(`Missing required field: ${field}`)
+    if (!building[field]) building.validation_errors.push(`Missing required field: ${field}`)
   }
   // `body` is a structured field
-  if (!building.body?.raw) errors.push('Missing required field: body')
+  if (!building.body?.raw) building.validation_errors.push('Missing required field: body')
   // Latitude and longitude must be set
-  if (!building.location?.lat || !building.location?.lng) errors.push('Location has not been set')
+  if (!building.location?.lat || !building.location?.lng) {
+    building.validation_errors.push('Location has not been set')
+  }
   // Must have at least one image
-  if (building.images.length < 1) errors.push('Must have at least one image')
+  if (building.images.length < 1) building.validation_errors.push('Must have at least one image')
 
-  if (errors.length > 0) throw new Error(`Validation failed.\n${errors.join('\n')}`)
+  // Keep the validation errors on the building, but don't throw an error in
+  // editor mode.
+  if (EDITOR_MODE) return true
+  // Throw an error if there are validation errors when not in editor mode.
+  if (building.validation_errors.length > 0) {
+    throw new Error(`Validation failed.\n${building.validation_errors.join('\n')}`)
+  }
 
   return true
 }

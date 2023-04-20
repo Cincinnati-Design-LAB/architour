@@ -1,0 +1,24 @@
+---
+import { Icon, IconProps } from '@components'
+
+export interface Props {
+  icon: IconProps
+  theme: 'warning' | 'error'
+}
+
+const props = Astro.props as Props
+
+const themeClassMap: Record<Props['theme'], string> = {
+  warning: 'bg-yellow-200 text-black',
+  error: 'bg-red-200 text-black',
+}
+---
+
+<div class={`rounded-sm p-6 flex space-x-4 items-start ${themeClassMap[props.theme]}`}>
+  <span class="block w-6 mt-1">
+    <Icon {...props.icon} />
+  </span>
+  <div>
+    <slot />
+  </div>
+</div>

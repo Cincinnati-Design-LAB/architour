@@ -1,4 +1,5 @@
 ---
+import Alert from './Icon/Alert.astro'
 import ArrowLeft from './Icon/ArrowLeft.astro'
 import ArrowRight from './Icon/ArrowRight.astro'
 import Building from './Icon/Building.astro'
@@ -11,6 +12,7 @@ import LinkExternal from './Icon/LinkExternal.astro'
 
 export interface Props {
   name:
+    | 'alert'
     | 'arrow-left'
     | 'arrow-right'
     | 'building'
@@ -27,6 +29,7 @@ const { name } = Astro.props
 const iconMap: {
   [K in Exclude<Props['name'], undefined | null>]: (_props: Record<string, any>) => any
 } = {
+  alert: Alert,
   'arrow-left': ArrowLeft,
   'arrow-right': ArrowRight,
   building: Building,

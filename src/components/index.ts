@@ -4,6 +4,7 @@ import BuildingRenovationSection from './BuildingRenovationSection.astro'
 import BuildingCard, { Props as BuildingCardProps } from './Card/Building.astro'
 import Button, { Props as ButtonProps } from './Button.astro'
 import CompactCard, { Props as CompactCardProps } from './Card/Compact.astro'
+import Callout from './Callout.astro'
 import Footer from './Footer.astro'
 import Header from './Header.astro'
 import HeaderLink, { Props as HeaderLinkProps } from './HeaderLink.astro'
@@ -13,6 +14,7 @@ import Logo from './Logo.astro'
 import PageHeader, { Props as PageHeaderProps } from './PageHeader.astro'
 import ResponsiveImage from './ResponsiveImage.astro'
 import TourCard, { Props as TourCardProps } from './Card/Tour.astro'
+import ValidationErrors from './ValidationErrors.astro'
 
 export {
   Stat,
@@ -21,6 +23,7 @@ export {
   BuildingCard,
   Button,
   CompactCard,
+  Callout,
   Footer,
   Header,
   HeaderLink,
@@ -30,6 +33,7 @@ export {
   PageHeader,
   ResponsiveImage,
   TourCard,
+  ValidationErrors,
 }
 
 export type {
