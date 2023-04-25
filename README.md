@@ -36,10 +36,12 @@ Phase 1:
 
 Stackbit:
 
+- [✔️] Set up Stackbit
 - [ ] Model with Stackbit
-  - [ ] Move header and footer content into JSON files
-- [ ] Integrate Stackbit
+- [ ] Inherit models with Contentlayer
+- [ ] Move header and footer content into JSON files
 - [ ] Only the bare minimum required fields
+- [ ] Get automatic content reloading working
 - [ ] Method for editing/adding images
 - [ ] Method for setting the building location without hunting for coordinates
 - [ ] Method for generating static map images (not all have them, but it is now tied to published items only)

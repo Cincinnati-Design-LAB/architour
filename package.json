@@ -31,6 +31,7 @@
     "unified": "^10.1.2"
   },
   "devDependencies": {
+    "@contentlayer/experimental-source-files-stackbit": "^0.3.2",
     "@stackbit/cms-git": "^0.2.4",
     "@stackbit/types": "^0.5.0",
     "@types/gtag.js": "^0.0.12",
