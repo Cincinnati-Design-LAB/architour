@@ -1,5 +1,5 @@
 ---
-import { Building, getBuildings } from '@content'
+import { Building, getBuildings, fieldPath, objectId } from '@content'
 import {
   PageHeader,
   ResponsiveImage,
@@ -8,7 +8,6 @@ import {
   ValidationErrors,
 } from '@components'
 import { PageLayout } from '@layouts'
-import { fieldPath, objectId } from '@/content/utils/annotations'
 
 export async function getStaticPaths() {
   const buildingsEntries = await getBuildings()
@@ -44,73 +43,71 @@ const sections = {
 }
 ---
 
-<PageLayout title={building.title}>
-  <div {...objectId(building.stackbitId)}>
-    <PageHeader title={building.title} image={building.featuredImage} size="lg" />
+<PageLayout title={building.title} bodyAnnotations={objectId(building.stackbitId)}>
+  <PageHeader title={building.title} image={building.featuredImage} size="lg" />
 
-    <div class="max-w-7xl mx-auto relative">
-      {
-        building.validation_errors && (
-          <div class="max-w-4xl mx-auto px-4 my-8">
-            <ValidationErrors errors={building.validation_errors} draft={building.draft} />
-          </div>
-        )
-      }
-      <div class="grid md:grid-cols-12 gap-16 py-16 px-4">
-        <div class="md:col-span-7">
-          {
-            building.body.html.length > 0 && (
-              <div
-                class="text-lg mb-12 [&_a]:text-primary-500 [&_a]:border-b [&_a]:border-b-primary-500 [&_a]:inline-block [&_a]:leading-4"
-                set:html={building.body.html}
-                {...fieldPath('markdown_content')}
-              />
-            )
-          }
-          {
-            sections.above_images.map(({ Component, props }) => (
-              <Component {...props} className="mb-12" />
-            ))
-          }
-          {
-            building.images && (
-              <div class="grid sm:grid-cols-2 gap-6">
-                {building.images.map((image) => (
-                  <ResponsiveImage src={image.gallery_item} />
-                ))}
-              </div>
-            )
-          }
-          {
-            sections.below_images.map(({ Component, props }) => (
-              <Component {...props} className="mt-12" />
-            ))
-          }
+  <div class="max-w-7xl mx-auto relative">
+    {
+      building.validation_errors && (
+        <div class="max-w-4xl mx-auto px-4 my-8">
+          <ValidationErrors errors={building.validation_errors} draft={building.draft} />
         </div>
-        <div class="md:col-span-5">
-          {
-            sections.above_map.map(({ Component, props }) => (
-              <Component {...props} className="mb-8" />
-            ))
-          }
-          {
-            building.static_map && (
-              <div class="mb-12 relative">
-                <ResponsiveImage src={building.static_map.sidebar} className="w-full border" />
-                {building.address && (
-                  <div class="absolute top-0 left-0 z-10 p-3 text-sm bg-secondary-500/20 text-black/70 rounded-br-sm">
-                    {building.address}
-                  </div>
-                )}
-              </div>
-            )
-          }
-          {
-            sections.below_map.map(({ Component, props }) => (
-              <Component {...props} className="mb-8" />
-            ))
-          }
-        </div>
+      )
+    }
+    <div class="grid md:grid-cols-12 gap-16 py-16 px-4">
+      <div class="md:col-span-7">
+        {
+          building.body.html.length > 0 && (
+            <div
+              class="text-lg mb-12 [&_a]:text-primary-500 [&_a]:border-b [&_a]:border-b-primary-500 [&_a]:inline-block [&_a]:leading-4"
+              set:html={building.body.html}
+              {...fieldPath('markdown_content')}
+            />
+          )
+        }
+        {
+          sections.above_images.map(({ Component, props }) => (
+            <Component {...props} className="mb-12" />
+          ))
+        }
+        {
+          building.images && (
+            <div class="grid sm:grid-cols-2 gap-6">
+              {building.images.map((image) => (
+                <ResponsiveImage src={image.gallery_item} />
+              ))}
+            </div>
+          )
+        }
+        {
+          sections.below_images.map(({ Component, props }) => (
+            <Component {...props} className="mt-12" />
+          ))
+        }
+      </div>
+      <div class="md:col-span-5">
+        {
+          sections.above_map.map(({ Component, props }) => (
+            <Component {...props} className="mb-8" />
+          ))
+        }
+        {
+          building.static_map && (
+            <div class="mb-12 relative">
+              <ResponsiveImage src={building.static_map.sidebar} className="w-full border" />
+              {building.address && (
+                <div class="absolute top-0 left-0 z-10 p-3 text-sm bg-secondary-500/20 text-black/70 rounded-br-sm">
+                  {building.address}
+                </div>
+              )}
+            </div>
+          )
+        }
+        {
+          sections.below_map.map(({ Component, props }) => (
+            <Component {...props} className="mb-8" />
+          ))
+        }
       </div>
     </div>
   </div>

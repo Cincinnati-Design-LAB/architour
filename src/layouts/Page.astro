@@ -8,10 +8,10 @@ export interface Props extends BaseLayoutProps {
   }
 }
 
-const { title, class: classNames } = Astro.props
+const { title, class: classNames, ...props } = Astro.props as Props
 ---
 
-<BaseLayout title={title}>
+<BaseLayout title={title} {...props}>
   <Header />
   <main class={classNames?.main}>
     <slot />

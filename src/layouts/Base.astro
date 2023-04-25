@@ -1,10 +1,12 @@
 ---
+import type { Annotation } from '@/content/utils/annotations'
 import { Callout } from '@components'
 import { getBuildings, getTours } from '@content'
 
 export interface Props {
   title: string
   bodyClasses?: string
+  bodyAnnotations?: Annotation
 }
 
 declare global {
@@ -13,7 +15,7 @@ declare global {
   }
 }
 
-const { title, bodyClasses } = Astro.props as Props
+const { title, bodyClasses, bodyAnnotations = {} } = Astro.props as Props
 
 const buildings = await getBuildings()
 const tours = await getTours()
@@ -54,7 +56,7 @@ const invalidObjects = [buildings, tours]
       gtag('config', import.meta.env.GOOGLE_ANALYTICS_ID)
     </script>
   </head>
-  <body class={bodyClasses}>
+  <body class={bodyClasses} {...bodyAnnotations}>
     {
       invalidObjects.length > 0 && (
         <Callout icon={{ name: 'alert' }} theme={'error'}>
