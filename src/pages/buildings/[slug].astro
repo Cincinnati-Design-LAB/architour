@@ -5,11 +5,10 @@ import {
   ResponsiveImage,
   BuildingAttributeSection,
   BuildingRenovationSection,
-  Icon,
-  Callout,
   ValidationErrors,
 } from '@components'
 import { PageLayout } from '@layouts'
+import { fieldPath, objectId } from '@/content/utils/annotations'
 
 export async function getStaticPaths() {
   const buildingsEntries = await getBuildings()
@@ -46,7 +45,7 @@ const sections = {
 ---
 
 <PageLayout title={building.title}>
-  <div data-sb-object-id={building.stackbitId}>
+  <div {...objectId(building.stackbitId)}>
     <PageHeader title={building.title} image={building.featuredImage} size="lg" />
 
     <div class="max-w-7xl mx-auto relative">
@@ -64,7 +63,7 @@ const sections = {
               <div
                 class="text-lg mb-12 [&_a]:text-primary-500 [&_a]:border-b [&_a]:border-b-primary-500 [&_a]:inline-block [&_a]:leading-4"
                 set:html={building.body.html}
-                data-sb-field-path="markdown_content"
+                {...fieldPath('markdown_content')}
               />
             )
           }
