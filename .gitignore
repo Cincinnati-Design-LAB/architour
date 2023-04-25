@@ -26,3 +26,6 @@ tmp/
 
 # contentlayer
 .contentlayer/
+
+# stackbit
+.stackbit/cache

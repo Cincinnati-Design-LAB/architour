@@ -34,13 +34,6 @@ Phase 1:
   - [✔️] Process static images for all tours
   - [✔️] Tour static map should use production mode
 
-Last Few UI Features:
-
-- [ ] Fix mobile menu -> it looks stupid
-- [ ] List and link to tours on the building detail page
-- [ ] Building list filtering and pagination
-- [ ] Way to get back from PageHeader?
-
 Stackbit:
 
 - [ ] Model with Stackbit
@@ -53,6 +46,13 @@ Stackbit:
   - [ ] What to do when static map doesn't exist?
     - Run the static map generator before the build. (Need to also commit to repo, too, without rebuilding.)
     - Show a preview image that mentions it will be automatically populated?
+
+Last Few UI Features:
+
+- [ ] Fix mobile menu -> it looks stupid
+- [ ] List and link to tours on the building detail page
+- [ ] Building list filtering and pagination
+- [ ] Way to get back from PageHeader?
 
 Pre-Launch Cleanup:
 
