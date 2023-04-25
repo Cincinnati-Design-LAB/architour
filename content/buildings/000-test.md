@@ -52,13 +52,17 @@ sections:
     renovations:
       - title: Metropole Hotel Conversion
         contractor: Messer Construction (renovation)
-        description: Conversion of former Metropole Hotel into a contemporary boutique hotel and art collection
+        description: >-
+          Conversion of former Metropole Hotel into a contemporary boutique
+          hotel and art collection
         date: '2012'
         architect: Perfido Weiskopf Wagstaff + Goettel
       - title: Metropole Hotel Conversion
         date: '2008'
       - title: Metropole Hotel Conversion
-        description: Conversion of former Metropole Hotel into a contemporary boutique hotel and art collection
+        description: >-
+          Conversion of former Metropole Hotel into a contemporary boutique
+          hotel and art collection
         date: '1982'
 static_map: buildings/000-test/static-map_zoong4
 static_map_cache: '{"lat":39.1030545,"lng":-84.5120005}'

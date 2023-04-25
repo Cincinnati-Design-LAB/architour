@@ -1,6 +1,8 @@
 ---
 import { Icon, IconProps } from '@components'
-import { CloudinaryImage } from '@content'
+import { Annotation, CloudinaryImage } from '@content'
+
+type ElementAnnotation = Record<'title', Annotation>
 
 export interface Props {
   title: string
@@ -8,9 +10,17 @@ export interface Props {
   theme?: 'primary' | 'secondary'
   image?: CloudinaryImage<'hero'>
   size?: 'sm' | 'md' | 'lg'
+  annotations?: Partial<ElementAnnotation>
 }
 
-const { title, icon, theme = 'primary', image, size = 'md' } = Astro.props
+const {
+  title,
+  icon,
+  theme = 'primary',
+  image,
+  size = 'md',
+  annotations = {},
+} = Astro.props as Props
 
 const themeClassMap: { [K in Exclude<Props['theme'], undefined | null>]: string } = {
   primary: 'bg-primary-500 text-white',
@@ -44,7 +54,7 @@ if (image) {
           </span>
         )
       }
-      <h1 class="font-black">{title}</h1>
+      <h1 class="font-black" {...annotations?.title ?? {}}>{title}</h1>
     </div>
   </div>
 </div>

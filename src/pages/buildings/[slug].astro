@@ -44,7 +44,12 @@ const sections = {
 ---
 
 <PageLayout title={building.title} bodyAnnotations={objectId(building.stackbitId)}>
-  <PageHeader title={building.title} image={building.featuredImage} size="lg" />
+  <PageHeader
+    title={building.title}
+    image={building.featuredImage}
+    size="lg"
+    annotations={{ title: fieldPath('title') }}
+  />
 
   <div class="max-w-7xl mx-auto relative">
     {
