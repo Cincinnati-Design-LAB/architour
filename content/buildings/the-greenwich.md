@@ -1,4 +1,5 @@
 ---
+type: Building
 title: The Greenwich
 images:
   - buildings/the-greenwich/the-greenwich-0_dzeylf
@@ -23,4 +24,3 @@ sections:
       - label: Architect
         value: Gruzen Samton
 ---
-

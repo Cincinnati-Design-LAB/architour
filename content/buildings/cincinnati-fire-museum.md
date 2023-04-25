@@ -1,4 +1,5 @@
 ---
+type: Building
 title: 'Cincinnati Fire Museum '
 images:
   - buildings/cincinnati-fire-museum/cincinnati-fire-museum-0_ahhvia
@@ -43,4 +44,3 @@ sections:
           Museum housing historic exhibits of fire fighting equipment as well as
           current day technology.
 ---
-

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Fountain Square
 images:
   - buildings/fountain-square/fountain-square-0_s2myqx

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Serpentine Wall at Yeatman's Cove
 images:
   - >-
@@ -21,7 +22,7 @@ sections:
           The massive scale of the wall mitigates between the river and the park
           behind it.  The undulating form supports public gatherings along the
           river, and it opens into a larger amphitheatre at the east end of the
-          wall.  The largest of the public gatherings is the Labor Day 
+          wall.  The largest of the public gatherings is the Labor Day
           celebration sponsored by Western & Southern, Riverfest, that draws
           over 500,000 people and features a fireworks display choreographed to
           music developed by local radio station, WEBN.

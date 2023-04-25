@@ -1,4 +1,5 @@
 ---
+type: Building
 title: McMicken School of Design
 images:
   - buildings/mcmicken-school-of-design/mcmicken-school-of-design-0_yotym8

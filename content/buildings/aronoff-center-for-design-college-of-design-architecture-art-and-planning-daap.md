@@ -1,4 +1,5 @@
 ---
+type: Building
 title: >-
   UC Aronoff Center for Design / College of Design Architecture Art & Planning
   (DAAP)

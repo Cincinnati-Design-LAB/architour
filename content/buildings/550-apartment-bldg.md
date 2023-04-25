@@ -1,4 +1,5 @@
 ---
+type: Building
 title: 550 Apartment Bldg.
 images:
   - buildings/550-apartment-bldg/550-apartment-bldg-0_vagigr

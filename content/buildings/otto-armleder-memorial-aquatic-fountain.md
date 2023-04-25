@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Otto Armleder Memorial Aquatic Fountain
 images:
   - >-
@@ -45,4 +46,3 @@ sections:
           plaza, and adding fencing around the edges of the fountain.
         date: '2009'
 ---
-

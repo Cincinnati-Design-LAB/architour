@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Cincinnati Shakespeare Company at the Otto M. Budig Theater
 images:
   - >-
@@ -55,9 +56,9 @@ sections:
         value: >-
           "We are excited about the Cincinnati Shakespeare Company building its
           new home in OTR because their resident actors and actresses will
-          thrive as members of the neighborhood's blossoming creative class. 
+          thrive as members of the neighborhood's blossoming creative class.
           Further, the building will create a much-needed world-class venue for
-          start-ups and entrepreneurs to leverage for events and meeting space. 
+          start-ups and entrepreneurs to leverage for events and meeting space.
           With the addition of the Shakespeare Company, no other neighborhood in
           America will be able to provide comparable live, work, and play
           opportunities for the creative class."  Rob McDonald, The Brandery

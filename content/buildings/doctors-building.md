@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Doctor's Building
 images:
   - buildings/doctors-building/doctors-building-0_hdyier

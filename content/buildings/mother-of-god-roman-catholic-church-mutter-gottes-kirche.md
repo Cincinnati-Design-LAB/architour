@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Mother of God Roman Catholic Church (Mutter Gottes Kirche)
 images:
   - >-

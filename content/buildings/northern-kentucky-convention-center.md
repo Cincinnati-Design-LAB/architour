@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Northern Kentucky Convention Center
 images:
   - >-

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Macy's (Federated Department Stores)
 images:
   - >-
@@ -33,4 +34,3 @@ sections:
       - label: Contractor
         value: Henry C. Beck Construction Co.
 ---
-

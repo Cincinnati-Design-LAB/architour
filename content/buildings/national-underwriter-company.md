@@ -1,4 +1,5 @@
 ---
+type: Building
 title: National Underwriter Company
 images:
   - buildings/national-underwriter-company/national-underwriter-company-0_b2pvhw
@@ -19,4 +20,3 @@ sections:
       - label: Architect
         value: Harry Hake
 ---
-

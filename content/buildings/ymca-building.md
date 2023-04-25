@@ -1,4 +1,5 @@
 ---
+type: Building
 title: YMCA Building
 images: []
 location:
@@ -21,4 +22,3 @@ sections:
         date: '1938'
         architect: Addition of chapel
 ---
-

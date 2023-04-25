@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Hooper Building
 images:
   - buildings/hooper-building/hooper-building-0_fubewl

@@ -1,4 +1,5 @@
 ---
+type: Tour
 title: 21 By Hannaford
 draft: true
 description: Enim quis eiusmod mollit id esse sunt.

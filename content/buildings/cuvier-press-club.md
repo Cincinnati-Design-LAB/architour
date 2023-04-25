@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Cuvier Press Club
 images:
   - buildings/cuvier-press-club/cuvier-press-club-0_r66s4i

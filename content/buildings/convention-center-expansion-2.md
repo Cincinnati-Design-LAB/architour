@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Duke Energy Center Expansion 2
 images:
   - >-
@@ -45,4 +46,3 @@ sections:
       - label: Architect
         value: LMN (architect) & Sussman/Prejza (interiors)
 ---
-

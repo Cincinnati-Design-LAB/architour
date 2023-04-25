@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Macys
 images:
   - buildings/macys/macys-0_ufzxl6
@@ -10,4 +11,3 @@ address: '505 Vine St., Cincinnati, OH  45202'
 draft: true
 sections: []
 ---
-

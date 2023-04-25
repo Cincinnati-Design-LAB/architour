@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Westin Hotel
 images:
   - buildings/westin-hotel/westin-hotel-0_hwe4dy

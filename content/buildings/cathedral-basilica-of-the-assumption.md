@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Cathedral Basilica of the Assumption
 images:
   - >-
@@ -29,7 +30,7 @@ sections:
         value: >-
           Due to costs exceeding the original budget, the cathedral was
           dedicated in 1901 without a façade.  A wealthy patron donated
-          additional funds 4 years later, and the facade was completed in 1910. 
+          additional funds 4 years later, and the facade was completed in 1910.
           One of the stained glass windows is among the largest in the US at 24'
           wide by 67' high.
         layout: full_width

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Marriott RiverCenter Hotel
 images:
   - buildings/marriott-rivercenter-hotel/marriott-rivercenter-hotel-0_qxzenr
@@ -39,4 +40,3 @@ sections:
       - label: Contractor
         value: Corporex
 ---
-

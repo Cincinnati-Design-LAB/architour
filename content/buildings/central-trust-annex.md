@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Central Trust Annex
 images:
   - buildings/central-trust-annex/central-trust-annex-0_tlvoqi
@@ -25,4 +26,3 @@ sections:
       - label: Architect
         value: Garber & Woodward
 ---
-

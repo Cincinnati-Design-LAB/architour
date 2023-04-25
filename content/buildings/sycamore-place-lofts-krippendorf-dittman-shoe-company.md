@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Sycamore Place Lofts (Krippendorf-Dittman Shoe Company)
 images:
   - >-
@@ -46,4 +47,3 @@ sections:
         architect: CR Architects
         description: Conversion to luxury apartments
 ---
-

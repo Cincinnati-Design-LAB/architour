@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Queen City Club
 images:
   - buildings/queen-city-club/queen-city-club-0_z7wx5d
@@ -19,4 +20,3 @@ sections:
       - label: Architect
         value: Harry Hake & Charles Kuck
 ---
-

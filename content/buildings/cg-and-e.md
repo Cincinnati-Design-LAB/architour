@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Duke Energy (formerly CG&E)
 images:
   - buildings/cg-and-e/cg-and-e-0_pjpfc2

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Taft's Ale House
 images:
   - buildings/tafts-ale-house/tafts-ale-house-0_y8jzuo

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Carew Tower
 images:
   - buildings/carew-tower/carew-tower-0_dn8gx4
@@ -19,7 +20,7 @@ sections:
         value: 'Listed on the NRHP on August 5, 1982'
       - label: Unique Features
         value: >-
-          The original complex included an automated 28-level parking garage. 
+          The original complex included an automated 28-level parking garage.
           The elevator system would lift the car from the entry level to a
           vacant space on an upper level and deposit the car.  Both innovative
           and unreliable, the automated system was replaced by a manned system

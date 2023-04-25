@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Uptown Arts
 images:
   - buildings/uptown-arts/uptown-arts-0_qradxc

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Piatt Park (Garfield Place)
 images:
   - buildings/piatt-park-garfield-place/piatt-park-garfield-place-0_cmikj5

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: >-
   John A. Roebling Suspension Bridge (Covington and Cincinnati Suspension
   Bridge)

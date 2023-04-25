@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Izzy's
 images:
   - buildings/izzys/izzys-0_b8v7e6
@@ -24,4 +25,3 @@ sections:
       - label: Architect
         value: Hake & Kuck
 ---
-

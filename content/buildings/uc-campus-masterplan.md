@@ -1,4 +1,5 @@
 ---
+type: Building
 title: UC Campus Masterplan
 images:
   - buildings/uc-campus-masterplan/uc-campus-masterplan-0_gbldsr

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Design Lab Furniture
 images:
   - buildings/design-lab-furniture/design-lab-furniture-0_cii0bf
@@ -37,7 +38,7 @@ sections:
       - label: Green Building Features
         value: >-
           The store utilizes extensive natural lighting combined with LED
-          lighting to create an environment conducive to a showroom function. 
+          lighting to create an environment conducive to a showroom function.
           Many of the products that they sell are sustainably sourced.
   - page_location: above_map
     type: BuildingAttributeSection
@@ -67,4 +68,3 @@ sections:
           a wide range of products that are designed regionally  but fabricated
           in Europe.  Design Lab also offers interior design services.
 ---
-

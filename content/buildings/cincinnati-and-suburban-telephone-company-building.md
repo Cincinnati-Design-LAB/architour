@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Cincinnati & Suburban Telephone Company Building
 images:
   - >-

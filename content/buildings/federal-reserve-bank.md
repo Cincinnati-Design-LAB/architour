@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Federal Reserve Bank
 images:
   - buildings/federal-reserve-bank/federal-reserve-bank-0_iu0zeg

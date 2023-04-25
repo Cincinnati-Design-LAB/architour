@@ -1,4 +1,5 @@
 ---
+type: Building
 title: The Saxony
 images:
   - buildings/the-saxony/the-saxony-0_bm7hrd
@@ -28,4 +29,3 @@ sections:
       - label: Architect
         value: Samuel Hannaford & Sons
 ---
-

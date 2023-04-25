@@ -1,4 +1,5 @@
 ---
+type: Building
 title: 84.51/dunnhumby
 images:
   - buildings/8451dunnhumby/8451dunnhumby-0_n5kr2m

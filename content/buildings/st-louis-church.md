@@ -1,4 +1,5 @@
 ---
+type: Building
 title: St. Louis Church
 images:
   - buildings/st-louis-church/st-louis-church-0_sfafmg
@@ -31,4 +32,3 @@ sections:
           The church became the Archbishop's residence under Joseph Bernadin's
           tenure.
 ---
-

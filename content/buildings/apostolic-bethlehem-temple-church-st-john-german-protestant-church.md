@@ -1,4 +1,5 @@
 ---
+type: Building
 title: >-
   The Transept (Apostolic Bethlehem Temple Church, St. John German Protestant
   Church)

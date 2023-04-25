@@ -1,4 +1,5 @@
 ---
+type: Building
 title: P&G Park
 images:
   - buildings/p-and-g-park/p-and-g-park-0_lpaypg
@@ -27,4 +28,3 @@ sections:
       - label: Architect
         value: 'Kohn, Pederson & Fox'
 ---
-

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Groton Lofts
 images:
   - buildings/groton-lofts/groton-lofts-0_j4yl37
@@ -14,4 +15,3 @@ sections:
       - label: Current Owner
         value: Towne Properties
 ---
-

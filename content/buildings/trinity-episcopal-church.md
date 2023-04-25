@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Trinity Episcopal Church
 images:
   - buildings/trinity-episcopal-church/trinity-episcopal-church-0_bcxli4

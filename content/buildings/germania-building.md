@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Germania Building
 images:
   - buildings/germania-building/germania-building-0_qtrdbf

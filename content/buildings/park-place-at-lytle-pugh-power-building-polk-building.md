@@ -1,4 +1,5 @@
 ---
+type: Building
 title: 'Park Place at Lytle (Pugh Power Building, Polk Building)'
 images:
   - >-

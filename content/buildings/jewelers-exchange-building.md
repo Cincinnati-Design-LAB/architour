@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Jewelers Exchange Building
 images:
   - buildings/jewelers-exchange-building/jewelers-exchange-building-0_kun73u
@@ -21,4 +22,3 @@ sections:
       - title: Renovation
         date: '1969'
 ---
-

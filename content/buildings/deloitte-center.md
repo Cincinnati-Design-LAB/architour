@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Deloitte Center
 images:
   - buildings/deloitte-center/deloitte-center-0_eu1jcq

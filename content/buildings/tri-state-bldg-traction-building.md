@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Tri State Bldg (Traction Building)
 images:
   - >-
@@ -35,4 +36,3 @@ sections:
           Rookery Building  in Chicago, the Flatiron Building in New York City,
           and Union Station in Washington, DC.
 ---
-

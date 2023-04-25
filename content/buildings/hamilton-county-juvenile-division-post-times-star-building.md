@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Hamilton County Juvenile Division (Post-Times Star Building)
 images:
   - >-
@@ -58,4 +59,3 @@ sections:
         date: '1988'
         description: County offices and the Juvenile Courts
 ---
-

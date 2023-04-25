@@ -1,4 +1,5 @@
 ---
+type: Building
 title: 314 W Fourth
 images:
   - buildings/314-w-fourth/314-w-fourth-0_v9xu5r
@@ -26,4 +27,3 @@ sections:
       - label: Architect
         value: unknown
 ---
-

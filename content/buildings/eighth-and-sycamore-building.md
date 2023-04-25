@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Eighth & Sycamore Building
 images:
   - buildings/eighth-and-sycamore-building/eighth-and-sycamore-building-0_v58vor

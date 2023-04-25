@@ -1,4 +1,5 @@
 ---
+type: Building
 title: '703 Race '
 images:
   - buildings/703-race/703-race-0_krwqtm
@@ -12,4 +13,3 @@ static_map_cache: '{"lat":39.103635,"lng":-84.515397}'
 draft: true
 sections: []
 ---
-

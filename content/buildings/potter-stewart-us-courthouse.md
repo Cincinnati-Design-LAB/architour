@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Potter Stewart US Courthouse
 images:
   - buildings/potter-stewart-us-courthouse/potter-stewart-us-courthouse-0_bqquv5

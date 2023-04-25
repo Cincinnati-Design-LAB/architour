@@ -1,4 +1,5 @@
 ---
+type: Building
 title: The Brittany
 images:
   - buildings/the-brittany/the-brittany-0_w8afce
@@ -37,4 +38,3 @@ sections:
       - title: Renovation
         date: '1980'
 ---
-

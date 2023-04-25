@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Carnegie Arts Center (Covington Public Libaray)
 images:
   - buildings/carnegie-arts-center/carnegie-arts-center-0_fgehm8

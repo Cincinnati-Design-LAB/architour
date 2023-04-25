@@ -1,4 +1,5 @@
 ---
+type: Building
 title: The Gramercy
 images:
   - buildings/the-gramercy/the-gramercy-0_cubkfd
@@ -23,4 +24,3 @@ sections:
       - label: Architect
         value: Gruzen Samton
 ---
-

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Findlay Market West
 images:
   - buildings/findlay-market/findlay-market-0_jumh0t

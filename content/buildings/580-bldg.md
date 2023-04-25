@@ -1,4 +1,5 @@
 ---
+type: Building
 title: 580 Building
 images:
   - buildings/580-bldg/580-bldg-0_oqhlc9

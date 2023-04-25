@@ -1,4 +1,5 @@
 ---
+type: Building
 title: H. W. Derby Building
 images:
   - buildings/h-w-derby-building/h-w-derby-building-0_rbjpsv
@@ -28,4 +29,3 @@ sections:
           Samuel Hannaford, one of Cincinnati's most prolific 19th Century
           architects who also designed Cincinnati City Hall and Music Hall.
 ---
-

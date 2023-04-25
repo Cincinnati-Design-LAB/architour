@@ -1,4 +1,5 @@
 ---
+type: Building
 title: 700 Walnut
 images:
   - buildings/700-walnut/700-walnut-0_pxplju
@@ -11,4 +12,3 @@ static_map_cache: '{"lat":39.1042395,"lng":-84.5116664}'
 draft: true
 sections: []
 ---
-

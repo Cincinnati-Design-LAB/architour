@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Lytle Park
 images:
   - buildings/lytle-park/lytle-park-0_jecqct

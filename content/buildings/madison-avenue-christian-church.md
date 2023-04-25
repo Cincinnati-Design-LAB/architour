@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Madison Avenue Christian Church
 images:
   - >-
@@ -24,4 +25,3 @@ sections:
       - label: Style
         value: Italian Renaissance Revival
 ---
-

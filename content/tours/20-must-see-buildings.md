@@ -1,4 +1,5 @@
 ---
+type: Tour
 title: 20 Must See Buildings
 draft: false
 description: >-

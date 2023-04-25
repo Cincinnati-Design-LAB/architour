@@ -1,4 +1,5 @@
 ---
+type: Building
 title: The Seven at Broadway
 images:
   - buildings/the-seven-at-broadway/the-seven-at-broadway-0_dcjup1
@@ -31,4 +32,3 @@ sections:
       - label: Architect
         value: John Senhauser Architects
 ---
-

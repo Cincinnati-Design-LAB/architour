@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Goodall Building
 images:
   - buildings/goodall-building/goodall-building-0_iwz5wx
@@ -32,4 +33,3 @@ sections:
       - label: Architect
         value: George W. Rapp
 ---
-

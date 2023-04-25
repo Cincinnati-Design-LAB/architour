@@ -1,4 +1,5 @@
 ---
+type: Building
 title: The Architectural Foundation of Cincinnati
 images:
   - >-
@@ -12,4 +13,3 @@ address: '811 Race St., Cincinnati, OH  45202'
 draft: true
 sections: []
 ---
-

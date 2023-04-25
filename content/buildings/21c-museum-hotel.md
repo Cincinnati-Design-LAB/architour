@@ -1,4 +1,5 @@
 ---
+type: Building
 title: 21C Museum Hotel
 images:
   - buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb

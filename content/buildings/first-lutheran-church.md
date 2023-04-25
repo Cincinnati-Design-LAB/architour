@@ -1,4 +1,5 @@
 ---
+type: Building
 title: First English Lutheran Church
 images:
   - buildings/first-lutheran-church/first-lutheran-church-0_soljnm
@@ -19,4 +20,3 @@ sections:
       - label: Architect
         value: Crapsey and Brown
 ---
-

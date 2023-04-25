@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Salvation Army
 images:
   - buildings/salvation-army/salvation-army-0_thktts
@@ -19,4 +20,3 @@ sections:
       - label: Architect
         value: Harry Hake & Partners
 ---
-

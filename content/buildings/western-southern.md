@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Western & Southern Financial Group Building
 images:
   - buildings/western-southern/western-southern-0_tjej3y
@@ -37,4 +38,3 @@ sections:
         date: 1935 & 1961
         architect: Harry Hake & Harry Hake Jr.
 ---
-

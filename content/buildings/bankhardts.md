@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Herschede Building (Suire Pharmacy Building)
 images:
   - buildings/bankhardts/bankhardts-0_bnwx8y
@@ -25,4 +26,3 @@ sections:
       - label: Architect
         value: William Walter & James Keys Wilson
 ---
-

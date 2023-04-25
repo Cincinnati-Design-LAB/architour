@@ -1,4 +1,5 @@
 ---
+type: Building
 title: 'Christ Episcopal Church '
 images:
   - buildings/christ-episcopal-church/christ-episcopal-church-0_pqfmu0

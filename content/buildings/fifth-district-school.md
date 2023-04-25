@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Fifth District School
 images:
   - buildings/fifth-district-school/fifth-district-school-0_hblqjn
@@ -34,4 +35,3 @@ sections:
       - title: 2 additional classrooms were added to each floor
         date: '1937'
 ---
-

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Kenton County Justice Center
 images:
   - buildings/kenton-county-justice-center/kenton-county-justice-center-0_n5hkhg

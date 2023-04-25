@@ -1,4 +1,5 @@
 ---
+type: Building
 title: UC Nippert Stadium
 images:
   - buildings/uc-nippert-stadium/uc-nippert-stadium-0_jexzyl
@@ -31,4 +32,3 @@ sections:
           Expansion of stadium capacity and addition of a pavilion to house a
           press box, private boxes and flexible meeting space.
 ---
-

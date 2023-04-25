@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Literary Club
 images:
   - buildings/literary-club/literary-club-0_qibdbr

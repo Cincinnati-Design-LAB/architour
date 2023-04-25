@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Hotel Covington (Coppin's Department Store)
 images:
   - >-
@@ -40,4 +41,3 @@ sections:
           hotel.
         date: ''
 ---
-

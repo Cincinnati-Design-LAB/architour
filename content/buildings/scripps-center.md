@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Scripps Center
 images:
   - buildings/scripps-center/scripps-center-0_nzpvft

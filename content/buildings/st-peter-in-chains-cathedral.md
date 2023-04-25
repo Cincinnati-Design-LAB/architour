@@ -1,4 +1,5 @@
 ---
+type: Building
 title: St. Peter in Chains Cathedral
 images:
   - buildings/st-peter-in-chains-cathedral/st-peter-in-chains-cathedral-0_v9zwk6

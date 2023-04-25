@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Sycamore Street Studio
 images:
   - buildings/sycamore-street-studio/sycamore-street-studio-0_fztx3y

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: UC Engineering Research Center
 images:
   - >-

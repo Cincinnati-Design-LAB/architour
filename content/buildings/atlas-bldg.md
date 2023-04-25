@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Atlas Building
 images:
   - buildings/atlas-bldg/atlas-bldg-0_fdqdon
@@ -35,4 +36,3 @@ sections:
         date: '1966'
         architect: AM Kinney
 ---
-

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Stanczak Sculpture
 images:
   - buildings/53-garage-sculptue/53-garage-sculptue-0_bjb8vg
@@ -22,4 +23,3 @@ sections:
       - label: Architect
         value: Julian Stanczak (artist)
 ---
-

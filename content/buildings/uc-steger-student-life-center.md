@@ -1,4 +1,5 @@
 ---
+type: Building
 title: UC Steger Student Life Center
 images:
   - >-

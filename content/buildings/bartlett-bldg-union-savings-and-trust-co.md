@@ -1,4 +1,5 @@
 ---
+type: Building
 title: 'Renaissance Cincinnati Hotel (Bartlett Bldg., Union Savings & Trust Co.)'
 images:
   - >-

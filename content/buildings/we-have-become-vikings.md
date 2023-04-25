@@ -1,4 +1,5 @@
 ---
+type: Building
 title: We Have Become Vikings
 images:
   - buildings/we-have-become-vikings/we-have-become-vikings-0_hdkqai
@@ -9,4 +10,3 @@ address: '1355 Walnut, Cincinnati'
 draft: true
 sections: []
 ---
-

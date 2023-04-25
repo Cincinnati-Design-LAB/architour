@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Saks Fifth Avenue
 images:
   - buildings/saks/saks-0_qfusxv
@@ -19,4 +20,3 @@ sections:
       - label: Architect
         value: Robert J. Bridges Associates
 ---
-

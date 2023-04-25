@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Daniel Carter Beard Bridge (Big Mac Bridge)
 images:
   - >-

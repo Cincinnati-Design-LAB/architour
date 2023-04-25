@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Pinger Building
 images: []
 location:
@@ -8,4 +9,3 @@ address: '708 Walnut St., Cincinnati, Ohio'
 draft: true
 sections: []
 ---
-

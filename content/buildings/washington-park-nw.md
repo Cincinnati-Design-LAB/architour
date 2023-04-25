@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Washington Park NW
 images:
   - buildings/washington-park-nw/washington-park-nw-0_cgeelu
@@ -29,4 +30,3 @@ sections:
         date: '2012'
         architect: BHDP Architecture & Human Nature
 ---
-

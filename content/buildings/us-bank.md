@@ -1,4 +1,5 @@
 ---
+type: Building
 title: US Bank
 images:
   - buildings/us-bank/us-bank-0_hqycjd
@@ -26,4 +27,3 @@ sections:
       - label: Architect
         value: 'Abramovitz, Harris & Kingsland'
 ---
-

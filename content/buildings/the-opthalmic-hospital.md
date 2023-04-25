@@ -1,4 +1,5 @@
 ---
+type: Building
 title: The Opthalmic Hospital
 images: []
 location:
@@ -20,4 +21,3 @@ sections:
       - label: Architect
         value: James W. McLaughlin or Elzner & Anderson
 ---
-

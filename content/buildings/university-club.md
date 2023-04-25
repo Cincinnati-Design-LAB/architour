@@ -1,4 +1,5 @@
 ---
+type: Building
 title: University Club
 images:
   - buildings/university-club/university-club-0_tmlnf3

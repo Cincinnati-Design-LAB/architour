@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Cincinnati Chamber of Commerce Building
 images:
   - >-
@@ -18,7 +19,7 @@ sections:
       - label: Historic Status
         value: >-
           PHOTO CREDITS:CINCNNATI MUSEUM CENTER     Title:Chamber of Commerce
-          Building, 4th and Vine     Creator:Rombach & Groene     Date:1889    
+          Building, 4th and Vine     Creator:Rombach & Groene     Date:1889
           Collection:Rombach & Groene Collection (SC#296)     Image
           No.:SC#296-313     Item Type:Glass negative.     Description:  In 1911
           fire destroyed the Chamber of Commerce Building, leaving the site

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Tyler Davidson Fountain - The Genius of Water
 images:
   - >-

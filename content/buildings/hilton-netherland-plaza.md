@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Hilton Netherland Plaza
 images:
   - buildings/hilton-netherland-plaza/hilton-netherland-plaza-0_k1v9ao
@@ -46,14 +47,14 @@ sections:
     renovations:
       - title: >-
           The renovation process uncovered portions of the original hotel that
-          had been covered including the decorative ceiling of the Palm Court. 
+          had been covered including the decorative ceiling of the Palm Court.
           The renovation restorted the hotel to its original glory making it one
           of Cincinnati's most prized icons.
         date: '1983'
         architect: Richard Rauh & Associates
         description: >-
           The renovation process uncovered portions of the original hotel that
-          had been covered including the decorative ceiling of the Palm Court. 
+          had been covered including the decorative ceiling of the Palm Court.
           The renovation restorted the hotel to its original glory making it one
           of Cincinnati's most prized icons.
 ---

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Aronoff Center for the Arts
 images:
   - buildings/aronoff-center-for-the-arts/aronoff-center-for-the-arts-0_su0hlk

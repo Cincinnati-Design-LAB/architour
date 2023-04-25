@@ -1,4 +1,5 @@
 ---
+type: Building
 title: St. Francis Seraph Church
 images:
   - buildings/st-francis-seraph-church/st-francis-seraph-church-0_u3nycw

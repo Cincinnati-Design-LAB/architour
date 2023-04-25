@@ -1,4 +1,5 @@
 ---
+type: Building
 title: 'Ameritrust(German National Bank, Lincoln National Bank)'
 images:
   - >-
@@ -23,4 +24,3 @@ sections:
       - label: Architect
         value: 'Rapp, Zettel & Rapp'
 ---
-

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Dennison Hotel (G B Schulte Sons Company)
 images:
   - >-

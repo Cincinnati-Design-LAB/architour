@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Bavarian Brewing Company
 images:
   - buildings/bavarian-brewing-company/bavarian-brewing-company-0_akikdb
@@ -45,4 +46,3 @@ sections:
           The building is being renovated to serve as the county administration
           building.
 ---
-

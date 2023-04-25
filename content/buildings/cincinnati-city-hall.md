@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Cincinnati City Hall
 images:
   - buildings/cincinnati-city-hall/cincinnati-city-hall-0_l49jn6

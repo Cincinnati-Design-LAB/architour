@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Fourth & Plum Apartments
 images:
   - buildings/fourth-and-plum-apts/fourth-and-plum-apts-0_l7nw7l
@@ -40,4 +41,3 @@ sections:
           addition provided the desired amenity space to make the building
           appealing to a younger rental marketplace.
 ---
-

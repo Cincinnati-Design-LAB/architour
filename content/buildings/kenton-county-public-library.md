@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Kenton County Public Library
 images:
   - buildings/kenton-county-public-library/kenton-county-public-library-0_mka64l
@@ -34,4 +35,3 @@ sections:
         date: '2013'
         architect: DesignGroup
 ---
-

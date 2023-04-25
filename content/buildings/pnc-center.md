@@ -1,4 +1,5 @@
 ---
+type: Building
 title: PNC Center
 images:
   - buildings/pnc-center/pnc-center-0_qbym2y

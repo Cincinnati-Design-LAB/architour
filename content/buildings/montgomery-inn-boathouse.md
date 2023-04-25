@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Montgomery Inn Boathouse
 images:
   - buildings/montgomery-inn-boathouse/montgomery-inn-boathouse-0_bytkzz
@@ -14,7 +15,7 @@ sections:
     attributes:
       - label: Unique Features
         value: >-
-          The circular form maximizes views for those dining in the restaurant. 
+          The circular form maximizes views for those dining in the restaurant.
           A rowing training facility is located on the lower level with two
           dining floors above.
         layout: full_width

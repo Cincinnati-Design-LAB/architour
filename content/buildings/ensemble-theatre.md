@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Ensemble Theatre
 images: []
 location:
@@ -8,4 +9,3 @@ address: '1127 Vine Street, Cincinnati, Ohio'
 draft: true
 sections: []
 ---
-

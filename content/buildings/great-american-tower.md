@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Great American Tower
 images:
   - buildings/great-american-tower/great-american-tower-0_ws0ugq

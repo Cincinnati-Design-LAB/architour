@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Lincoln-Grant School
 images:
   - buildings/lincoln-grant-school/lincoln-grant-school-0_bykhgh

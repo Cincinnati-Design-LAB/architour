@@ -1,4 +1,5 @@
 ---
+type: Tour
 title: Streetcar Route
 draft: true
 description: Reprehenderit non pariatur ad pariatur nulla.

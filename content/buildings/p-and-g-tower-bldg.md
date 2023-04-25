@@ -1,4 +1,5 @@
 ---
+type: Building
 title: P&G Tower Building
 images:
   - buildings/p-and-g-tower-bldg/p-and-g-tower-bldg-0_bhct1u

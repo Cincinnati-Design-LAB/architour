@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Textile Building
 images:
   - buildings/textile-bldg/textile-bldg-0_gwibj0

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Platte Architecture + Design
 images:
   - buildings/platte-architecture-design/platte-architecture-design-0_efesbe

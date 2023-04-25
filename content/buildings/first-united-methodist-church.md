@@ -1,4 +1,5 @@
 ---
+type: Building
 title: First United Methodist Church
 images:
   - >-

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: National Underground Railroad Freedom Center
 images:
   - >-

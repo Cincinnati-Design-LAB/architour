@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Covenant First Presbyterian Church
 images:
   - >-
@@ -38,4 +39,3 @@ sections:
       - label: Architect
         value: William Walter
 ---
-

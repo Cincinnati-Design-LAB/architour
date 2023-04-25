@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Hamilton County Courthouse
 images:
   - buildings/hamilton-county-courthouse/hamilton-county-courthouse-0_h2lhxf
@@ -15,7 +16,7 @@ sections:
       - label: Unique Features
         value: >-
           The courthouse was designed with inflammable materials since the prior
-          courthouse on the same site was burned down during a riot in 1884. 
+          courthouse on the same site was burned down during a riot in 1884.
           President William Howard Taft laid the cornerstone for the building
           in1915.
         layout: full_width

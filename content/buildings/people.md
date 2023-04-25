@@ -1,4 +1,5 @@
 ---
+type: Building
 title: People's Liberty
 images:
   - buildings/people/people-0_glt2hq

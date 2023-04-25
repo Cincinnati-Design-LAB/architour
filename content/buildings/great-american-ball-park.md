@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Great American Ball Park
 images:
   - buildings/great-american-ball-park/great-american-ball-park-0_xpayxf

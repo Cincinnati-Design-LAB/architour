@@ -1,4 +1,5 @@
 ---
+type: Building
 title: US District Court for the Eastern District of Kentucky
 images:
   - >-
@@ -12,4 +13,3 @@ address: |-
 draft: true
 sections: []
 ---
-

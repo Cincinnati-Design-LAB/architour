@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Symphony Hotel / Peter Ehrgott Home
 images:
   - >-

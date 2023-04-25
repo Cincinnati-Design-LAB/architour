@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Formica Building
 images:
   - buildings/formica-bldg/formica-bldg-0_zogtug

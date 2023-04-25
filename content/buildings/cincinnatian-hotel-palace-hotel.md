@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Cincinnatian Hotel (Palace Hotel)
 images:
   - >-

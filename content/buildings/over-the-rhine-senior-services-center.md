@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Over-the-Rhine Senior Services Center
 images: []
 location:

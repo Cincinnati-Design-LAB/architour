@@ -1,4 +1,5 @@
 ---
+type: Building
 title: UC Vontz Center for Molecular Studies
 images:
   - >-

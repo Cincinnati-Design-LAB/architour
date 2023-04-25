@@ -1,4 +1,5 @@
 ---
+type: Building
 title: UC Center for Academic Research & Excellence (CARE) / Crawley Building
 images:
   - >-

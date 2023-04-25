@@ -1,4 +1,5 @@
 ---
+type: Tour
 title: Covington
 draft: true
 description: Ex proident voluptate et est consequat aute ut.

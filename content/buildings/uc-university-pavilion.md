@@ -1,4 +1,5 @@
 ---
+type: Building
 title: UC University Pavilion
 images:
   - buildings/uc-university-pavilion/uc-university-pavilion-0_ge4m4m

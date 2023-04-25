@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Lytle Tower
 images:
   - buildings/lytle-tower/lytle-tower-0_kss8e5
@@ -19,4 +20,3 @@ sections:
       - label: Architect
         value: Harry Hake & Charles Kuck
 ---
-

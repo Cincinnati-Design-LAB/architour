@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Rookwood Pottery
 images: []
 location:
@@ -8,4 +9,3 @@ address: '1920 Race St., Cincinnati, Ohio'
 draft: true
 sections: []
 ---
-

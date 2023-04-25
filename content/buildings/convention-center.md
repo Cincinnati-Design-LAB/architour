@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Duke Energy Convention Center
 images:
   - buildings/convention-center/convention-center-0_ejmu6w

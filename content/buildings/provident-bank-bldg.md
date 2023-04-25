@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Provident Bank Building
 images:
   - buildings/provident-bank-bldg/provident-bank-bldg-0_ypbeym

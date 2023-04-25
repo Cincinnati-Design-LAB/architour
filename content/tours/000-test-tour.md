@@ -1,4 +1,5 @@
 ---
+type: Tour
 title: Test Tour
 draft: false
 description: >-

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Abraham J. Friedlander House
 images:
   - buildings/abraham-j-friedlander-house/abraham-j-friedlander-house-0_js65fr

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Underwriters Salvage Corps
 images:
   - buildings/underwriters-salvage-corps/underwriters-salvage-corps-0_l6nbg2

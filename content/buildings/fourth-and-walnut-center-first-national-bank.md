@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Fourth & Walnut Center (First National Bank)
 images:
   - >-
@@ -33,4 +34,3 @@ sections:
           Rookery Building  in Chicago, the Flatiron Building in New York City,
           and Union Station in Washington, DC.
 ---
-

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Parish House of Christ Church
 images:
   - >-
@@ -22,4 +23,3 @@ sections:
       - label: Architect
         value: Elzner & Anderson
 ---
-

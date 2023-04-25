@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Odd Fellows Hall
 images:
   - buildings/odd-fellows-hall/odd-fellows-hall-0_mxb9ey

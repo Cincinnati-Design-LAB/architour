@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Emery Apartments (OMI College of Applied Science)
 images:
   - buildings/emery-apartments/emery-apartments-0_mifw0j

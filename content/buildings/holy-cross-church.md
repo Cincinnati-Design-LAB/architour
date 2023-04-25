@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Holy Cross Church
 images:
   - buildings/holy-cross-church/holy-cross-church-0_px2vi9
@@ -28,4 +29,3 @@ sections:
       - label: Architect
         value: 'Anthony Kunz, Jr.'
 ---
-

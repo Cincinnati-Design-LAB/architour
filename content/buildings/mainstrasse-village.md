@@ -1,4 +1,5 @@
 ---
+type: Building
 title: MainStrasse Village
 images:
   - buildings/mainstrasse-village/mainstrasse-village-0_l6kjvm

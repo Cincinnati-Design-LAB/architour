@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Duttenhofer Building
 images:
   - buildings/duttenhofer-building/duttenhofer-building-0_rd3xgu

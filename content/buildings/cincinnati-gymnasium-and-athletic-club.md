@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Cincinnati Gymnasium & Athletic Club
 images:
   - >-

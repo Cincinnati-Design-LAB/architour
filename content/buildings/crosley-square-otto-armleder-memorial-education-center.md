@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Crosley Square (Otto Armleder Memorial Education Center)
 images:
   - >-

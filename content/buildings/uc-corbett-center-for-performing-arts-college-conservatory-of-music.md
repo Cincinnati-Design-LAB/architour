@@ -1,4 +1,5 @@
 ---
+type: Building
 title: UC Corbett Center for Performing Arts / College Conservatory of Music
 images:
   - >-

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Taft Museum
 images:
   - buildings/taft-museum/taft-museum-0_ojw5qf

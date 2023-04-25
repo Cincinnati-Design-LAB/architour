@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Cincinnati Streetcar Maintenance Facility
 images:
   - >-
@@ -22,4 +23,3 @@ sections:
       - label: Original Function
         value: Streetcar maintenance facility
 ---
-

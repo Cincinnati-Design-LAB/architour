@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Nast Community United Methodist Church
 images:
   - >-

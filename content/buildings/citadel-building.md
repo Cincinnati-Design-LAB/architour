@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Citadel Building
 images:
   - buildings/citadel-building/citadel-building-0_z5t72u

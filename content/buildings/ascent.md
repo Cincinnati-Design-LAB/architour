@@ -1,4 +1,5 @@
 ---
+type: Building
 title: The Ascent
 images:
   - buildings/ascent/ascent-0_tswqa6

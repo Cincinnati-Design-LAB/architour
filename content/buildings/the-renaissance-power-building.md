@@ -1,4 +1,5 @@
 ---
+type: Building
 title: The Renaissance  (Power Building)
 images:
   - >-
@@ -34,4 +35,3 @@ sections:
         date: '2002'
         description: Converted to luxury apartments
 ---
-

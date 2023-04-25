@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Fifth Third Center (Dubois Tower)
 images:
   - buildings/fifth-third-center/fifth-third-center-0_rb2tia

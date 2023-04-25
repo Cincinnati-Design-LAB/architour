@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Adams Place at Adams Crossing
 images:
   - >-

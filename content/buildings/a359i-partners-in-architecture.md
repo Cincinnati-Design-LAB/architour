@@ -1,4 +1,5 @@
 ---
+type: Building
 title: A359 Partners in Architecture
 images:
   - >-

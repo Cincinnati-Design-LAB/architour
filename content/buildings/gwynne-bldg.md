@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Gwynne Building
 images:
   - buildings/gwynne-bldg/gwynne-bldg-0_m8hung

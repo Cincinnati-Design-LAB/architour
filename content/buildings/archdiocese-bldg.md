@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Archdiocese Bldg. (Isaac Faller's Sons Co. Bldg.)
 images:
   - buildings/archdiocese-bldg/archdiocese-bldg-0_zbfave
@@ -26,4 +27,3 @@ sections:
       - label: Architect
         value: Elzner & Anderson
 ---
-

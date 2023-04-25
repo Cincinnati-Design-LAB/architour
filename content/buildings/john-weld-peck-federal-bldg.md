@@ -1,4 +1,5 @@
 ---
+type: Building
 title: John Weld Peck Federal Building
 images:
   - buildings/john-weld-peck-federal-bldg/john-weld-peck-federal-bldg-0_lvr2gh

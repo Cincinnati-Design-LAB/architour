@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Moerlein Lager House
 images:
   - buildings/moerlein-lager-house/moerlein-lager-house-0_bdztk8
@@ -26,4 +27,3 @@ sections:
       - label: Contractor
         value: Schumacher-Dugan (CM)
 ---
-

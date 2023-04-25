@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Emery Theatre
 images:
   - buildings/emery-theatre/emery-theatre-0_sqitzr

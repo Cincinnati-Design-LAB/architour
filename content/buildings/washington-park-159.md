@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Washington Park NE
 images:
   - buildings/washington-park-159/washington-park-159-0_rkoj3p
@@ -26,4 +27,3 @@ sections:
         date: '2012'
         architect: BHDP Architecture & Human Nature
 ---
-

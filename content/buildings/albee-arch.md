@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Albee Arch
 images:
   - buildings/albee-arch/albee-arch-0_eayizr

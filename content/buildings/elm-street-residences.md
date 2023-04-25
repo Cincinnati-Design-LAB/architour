@@ -1,4 +1,5 @@
 ---
+type: Building
 title: 1209 Elm Street
 images:
   - buildings/elm-street-residences/elm-street-residences-0_esx19f

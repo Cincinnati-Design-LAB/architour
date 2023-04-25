@@ -1,4 +1,5 @@
 ---
+type: Building
 title: UC Tangeman University Center
 images:
   - >-

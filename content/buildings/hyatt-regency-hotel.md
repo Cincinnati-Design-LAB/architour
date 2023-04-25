@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Hyatt Regency Hotel
 images:
   - buildings/hyatt-regency-hotel/hyatt-regency-hotel-0_oemfxv

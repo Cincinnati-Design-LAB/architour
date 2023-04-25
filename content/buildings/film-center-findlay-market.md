@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Film Center @ Findlay Market
 images:
   - buildings/film-center-findlay-market/film-center-findlay-market-0_m6jdks

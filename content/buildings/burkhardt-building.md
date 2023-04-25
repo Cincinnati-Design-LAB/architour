@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Burkhardt Building
 images:
   - buildings/burkhardt-building/burkhardt-building-0_aakmep
@@ -26,4 +27,3 @@ sections:
       - label: Architect
         value: William Walters
 ---
-

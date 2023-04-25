@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Union Terminal
 images:
   - buildings/union-terminal/union-terminal-0_yi9rzd

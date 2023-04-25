@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Atrium Two
 images:
   - buildings/atrium-two/atrium-two-0_pqabpv

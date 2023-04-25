@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Academy of Medicine
 images: []
 location:

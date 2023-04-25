@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Convention Place Mall
 images:
   - buildings/convention-place-mall/convention-place-mall-0_ggka0b
@@ -26,4 +27,3 @@ sections:
       - label: Architect
         value: Hefley Stevens
 ---
-

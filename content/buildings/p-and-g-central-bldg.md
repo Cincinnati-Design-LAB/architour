@@ -1,4 +1,5 @@
 ---
+type: Building
 title: P&G Central Building
 images:
   - buildings/p-and-g-central-bldg/p-and-g-central-bldg-0_ne37hw
@@ -28,4 +29,3 @@ sections:
         date: '1972'
         architect: SOM
 ---
-

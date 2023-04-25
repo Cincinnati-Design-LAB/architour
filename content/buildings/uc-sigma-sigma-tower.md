@@ -1,4 +1,5 @@
 ---
+type: Building
 title: UC Ronald F. Walker Tower at Sigma Sigma Commons
 images:
   - buildings/uc-sigma-sigma-tower/uc-sigma-sigma-tower-0_ikwql8

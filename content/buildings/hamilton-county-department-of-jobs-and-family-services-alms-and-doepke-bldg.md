@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Hamilton County Department of Jobs and Family Services (Alms & Doepke Bldg.)
 images:
   - >-

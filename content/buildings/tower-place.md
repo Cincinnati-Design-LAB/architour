@@ -1,4 +1,5 @@
 ---
+type: Building
 title: 'Tower Place '
 images:
   - buildings/tower-place/tower-place-0_eykz2l
@@ -9,4 +10,3 @@ address: '28 W 4th St, Cincinnati, OH 45202'
 draft: true
 sections: []
 ---
-

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Doscher Candy Company
 images:
   - buildings/doscher-candy-company/doscher-candy-company-0_ridtas

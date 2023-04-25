@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Test Building
 images:
   - buildings/000-test/000-test-0_g8kzir

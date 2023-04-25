@@ -1,4 +1,5 @@
 ---
+type: Building
 title: PNC Garage
 images:
   - buildings/pnc-garage/pnc-garage-0_g8u14p
@@ -23,4 +24,3 @@ sections:
         date: ''
         architect: KZF Design
 ---
-

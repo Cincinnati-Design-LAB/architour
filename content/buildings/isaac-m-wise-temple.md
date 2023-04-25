@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Isaac M. Wise Temple (Plum Street Temple)
 images:
   - buildings/isaac-m-wise-temple/isaac-m-wise-temple-0_a4eh1e

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Smale Riverfront Park
 images:
   - buildings/smale-riverfront-park/smale-riverfront-park-0_xq01kt

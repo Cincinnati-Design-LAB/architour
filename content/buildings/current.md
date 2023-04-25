@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Current
 images:
   - buildings/current/current-0_igqxk0

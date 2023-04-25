@@ -1,4 +1,5 @@
 ---
+type: Building
 title: 'PNC Tower (Central Trust Tower, Union Central Life Insurance Building)'
 images:
   - >-

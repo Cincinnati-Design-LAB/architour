@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Terrace Plaza Hotel
 images:
   - buildings/terrace-plaza-hotel/terrace-plaza-hotel-0_il5x1a

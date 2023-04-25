@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Cincinnati Enquirer Building
 images:
   - buildings/cincinnati-enquirer-building/cincinnati-enquirer-building-0_zmlz16
@@ -44,4 +45,3 @@ sections:
           Dual hotel housing a Homewood Suites on the lower floors and a Hampton
           Inn on the upper levels.
 ---
-

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Showboat Majestic at the Public Landing
 images:
   - >-

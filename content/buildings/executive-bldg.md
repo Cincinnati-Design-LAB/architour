@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Executive Building
 images:
   - buildings/executive-bldg/executive-bldg-0_hmvmej
@@ -17,4 +18,3 @@ sections:
       - label: Architect
         value: 'Betz, Carey & Wright'
 ---
-

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Second National Bank
 images:
   - buildings/second-national-bank/second-national-bank-0_cfio8p
@@ -18,4 +19,3 @@ sections:
       - label: Architect
         value: Werner & Adkins
 ---
-

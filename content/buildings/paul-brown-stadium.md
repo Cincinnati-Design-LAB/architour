@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Paul Brown Stadium
 images:
   - buildings/paul-brown-stadium/paul-brown-stadium-0_o4h1kx
@@ -18,7 +19,7 @@ sections:
         value: >-
           The 65,515-seat stadium offers 114 private suites.  The Club Level has
           7,600 seats and access to premium food and beverage services located
-          in two multi-story event spaces that overlook the city and the river. 
+          in two multi-story event spaces that overlook the city and the river.
           The Bengals administrative offices are located in the stadium, 3
           practice fields are located adjacent to the stadium to the west.
         layout: full_width

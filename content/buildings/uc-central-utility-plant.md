@@ -1,4 +1,5 @@
 ---
+type: Building
 title: UC Central Utility Plant
 images:
   - buildings/uc-central-utility-plant/uc-central-utility-plant-0_its6om

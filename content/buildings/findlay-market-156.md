@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Findlay Market East
 images:
   - buildings/findlay-market-156/findlay-market-156-0_mviqmv

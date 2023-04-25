@@ -1,4 +1,5 @@
 ---
+type: Building
 title: American Building
 images:
   - buildings/american-bldg/american-bldg-0_hjks0k
@@ -27,4 +28,3 @@ sections:
       - title: Renovated into condominiums
         date: '2004'
 ---
-

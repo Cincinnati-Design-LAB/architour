@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Lois & Richard Rosenthal Center for Contemporary Art
 images:
   - >-

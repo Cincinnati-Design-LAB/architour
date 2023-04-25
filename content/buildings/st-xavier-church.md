@@ -1,4 +1,5 @@
 ---
+type: Building
 title: St. Francis Xavier Church
 images:
   - buildings/st-xavier-church/st-xavier-church-0_ojnjc5

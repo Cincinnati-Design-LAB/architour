@@ -1,4 +1,5 @@
 ---
+type: Building
 title: YWCA Bldg.
 images:
   - buildings/ywca-bldg/ywca-bldg-0_yfxtok
@@ -24,4 +25,3 @@ sections:
       - label: Architect
         value: 'Rendigs, Panzer & Martin'
 ---
-

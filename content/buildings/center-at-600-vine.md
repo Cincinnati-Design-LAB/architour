@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Center at 600 Vine
 images:
   - buildings/center-at-600-vine/center-at-600-vine-0_trbueh

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Nathaniel Ropes Building
 images:
   - buildings/nathaniel-ropes-building/nathaniel-ropes-building-0_ktjjjf
@@ -22,4 +23,3 @@ sections:
       - label: Style
         value: Queen Anne
 ---
-

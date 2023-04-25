@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Public Library of Cincinnati and Hamilton County
 images:
   - >-

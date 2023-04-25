@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Dixie Terminal
 images:
   - buildings/dixie-terminal/dixie-terminal-0_zophsi

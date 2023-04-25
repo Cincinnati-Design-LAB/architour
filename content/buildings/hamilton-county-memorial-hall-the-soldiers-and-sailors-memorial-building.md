@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Hamilton County Memorial Hall (The Soldiers & Sailors Memorial Building)
 images:
   - >-

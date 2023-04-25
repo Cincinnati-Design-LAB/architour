@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Cincinnati Club
 images:
   - buildings/cincinnati-club/cincinnati-club-0_qq00re
@@ -20,4 +21,3 @@ sections:
       - label: Architect
         value: Garber & Woodward
 ---
-

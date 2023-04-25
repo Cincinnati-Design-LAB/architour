@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Public Library Annex
 images:
   - buildings/library-annex/library-annex-0_gyfnt8
@@ -36,4 +37,3 @@ sections:
       - label: Architect
         value: Shepley Bullfinch Richardson & Abbott
 ---
-

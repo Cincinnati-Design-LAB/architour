@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Phoenix Club
 images:
   - buildings/phoenix-club/phoenix-club-0_wq566g
@@ -31,4 +32,3 @@ sections:
         date: '1986'
         description: Restaurant & banquet facility
 ---
-

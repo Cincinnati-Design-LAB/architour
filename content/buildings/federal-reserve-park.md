@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Federal Reserve Park
 images:
   - buildings/federal-reserve-park/federal-reserve-park-0_bdxovs
@@ -20,4 +21,3 @@ sections:
       - label: Original Owner
         value: Federal Reserve Bank of Cleveland
 ---
-

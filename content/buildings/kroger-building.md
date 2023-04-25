@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Kroger Building
 images:
   - buildings/kroger-building/kroger-building-0_z7rove

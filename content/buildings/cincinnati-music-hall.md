@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Cincinnati Music Hall
 images:
   - buildings/cincinnati-music-hall/cincinnati-music-hall-0_e0xepy

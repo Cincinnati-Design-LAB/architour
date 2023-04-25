@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Residence Inn (Phelps Building)
 images:
   - >-

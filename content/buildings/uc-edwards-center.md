@@ -1,4 +1,5 @@
 ---
+type: Building
 title: UC Edwards Center
 images:
   - buildings/uc-edwards-center/uc-edwards-center-0_nx0vdu
@@ -20,4 +21,3 @@ sections:
       - label: Architect
         value: SOM
 ---
-

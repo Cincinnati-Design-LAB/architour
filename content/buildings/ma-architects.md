@@ -1,4 +1,5 @@
 ---
+type: Building
 title: M+A Architects
 images:
   - buildings/ma-architects/ma-architects-0_ws4xtv

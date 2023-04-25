@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Fourth National Bank Building
 images:
   - buildings/fourth-national-bank-bldg/fourth-national-bank-bldg-0_snxa4g
@@ -41,4 +42,3 @@ sections:
         architect: CR Architects
         description: Condos
 ---
-

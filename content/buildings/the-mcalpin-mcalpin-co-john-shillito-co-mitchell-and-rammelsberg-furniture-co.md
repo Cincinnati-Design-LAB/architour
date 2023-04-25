@@ -1,4 +1,5 @@
 ---
+type: Building
 title: >-
   The McAlpin (McAlpin Co., John Shillito Co., Mitchell & Rammelsberg Furniture
   Co.)
@@ -36,4 +37,3 @@ sections:
         architect: James W McLaughlin / Muller Architects
         description: residential
 ---
-

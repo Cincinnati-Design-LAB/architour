@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Masonic Center
 images:
   - buildings/masonic-temple/masonic-temple-0_amu3la
@@ -19,4 +20,3 @@ sections:
       - label: Architect
         value: Hake & Kuck
 ---
-

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: UC Scioto & Morgans Halls
 images:
   - buildings/uc-scioto-and-morgans-halls/uc-scioto-and-morgans-halls-0_t4ylbu
@@ -19,4 +20,3 @@ sections:
       - label: Architect
         value: Richard Fleischman + Partners
 ---
-

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Guilford Building
 images:
   - buildings/guilford-school/guilford-school-0_mx2pwk

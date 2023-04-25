@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Anderson Building
 images:
   - buildings/anderson-building/anderson-building-0_qhh3tu
@@ -26,4 +27,3 @@ sections:
       - label: Architect
         value: William Walters
 ---
-

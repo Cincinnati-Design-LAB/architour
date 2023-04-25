@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Washington Park SE
 images:
   - buildings/washington-park/washington-park-0_or7kwx
@@ -26,4 +27,3 @@ sections:
         date: '2012'
         architect: BHDP Architecture & Human Nature
 ---
-

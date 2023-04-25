@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Anderson Pavilion
 images:
   - buildings/anderson-pavilion/anderson-pavilion-0_tegjv7

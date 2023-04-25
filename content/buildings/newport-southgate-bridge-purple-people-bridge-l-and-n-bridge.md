@@ -1,4 +1,5 @@
 ---
+type: Building
 title: 'Newport Southgate Bridge (Purple People Bridge, L&N Bridge)'
 images:
   - >-

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Tower Place Garage
 images:
   - buildings/tower-place-garage/tower-place-garage-0_m2nxjn
@@ -17,4 +18,3 @@ sections:
       - label: Architect
         value: Raymond Loewy
 ---
-

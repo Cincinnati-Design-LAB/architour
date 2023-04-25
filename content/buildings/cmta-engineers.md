@@ -1,4 +1,5 @@
 ---
+type: Building
 title: CMTA Engineers
 images:
   - buildings/cmta-engineers/cmta-engineers-0_svdfpg
@@ -14,4 +15,3 @@ static_map_cache: '{"lat":39.11155,"lng":-84.511055}'
 draft: true
 sections: []
 ---
-

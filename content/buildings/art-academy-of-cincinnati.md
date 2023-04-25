@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Art Academy of Cincinnati
 images:
   - buildings/art-academy-of-cincinnati/art-academy-of-cincinnati-0_uw4bgh

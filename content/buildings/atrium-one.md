@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Atrium One
 images:
   - buildings/atrium-one/atrium-one-0_mmqlsa

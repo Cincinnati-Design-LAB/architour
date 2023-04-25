@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Cincinnati Fire Division Headquarters
 images:
   - >-

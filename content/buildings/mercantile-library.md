@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Mercantile Library
 images:
   - buildings/mercantile-library/mercantile-library-0_irordf

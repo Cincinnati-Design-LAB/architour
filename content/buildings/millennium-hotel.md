@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Millennium Hotel
 images:
   - buildings/millennium-hotel/millennium-hotel-0_s0bd4f
@@ -33,4 +34,3 @@ sections:
         date: '1977'
         architect: Welton Beckett
 ---
-

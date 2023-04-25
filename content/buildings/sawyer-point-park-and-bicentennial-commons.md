@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Sawyer Point Park & Bicentennial Commons
 images:
   - >-

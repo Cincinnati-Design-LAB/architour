@@ -1,4 +1,5 @@
 ---
+type: Building
 title: UC Richard E Lindner Athletics Center / Varsity Village
 images:
   - >-

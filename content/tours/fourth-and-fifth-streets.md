@@ -1,4 +1,5 @@
 ---
+type: Tour
 title: Fourth & Fifth Streets
 draft: true
 description: Laboris aute Lorem Lorem consectetur ullamco esse velit elit.

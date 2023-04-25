@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Sixth District School / Elm Street Health Center
 images:
   - >-
@@ -22,4 +23,3 @@ sections:
       - label: Architect
         value: Henry Siter
 ---
-

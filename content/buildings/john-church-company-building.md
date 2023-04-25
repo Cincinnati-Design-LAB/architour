@@ -1,4 +1,5 @@
 ---
+type: Building
 title: John Church Company Building
 images: []
 location:

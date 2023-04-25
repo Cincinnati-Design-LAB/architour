@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Shillito Lofts (John Shillito Department Store)
 images:
   - >-

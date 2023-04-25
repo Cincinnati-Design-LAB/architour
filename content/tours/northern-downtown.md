@@ -1,4 +1,5 @@
 ---
+type: Tour
 title: Northern Downtown
 draft: true
 description: Reprehenderit consectetur quis irure laborum eu occaecat amet adipisicing nisi ut incididunt qui tempor.

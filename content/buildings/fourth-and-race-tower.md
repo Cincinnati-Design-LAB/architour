@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Fourth & Race Tower
 images:
   - buildings/fourth-and-race-tower/fourth-and-race-tower-0_bg3c38

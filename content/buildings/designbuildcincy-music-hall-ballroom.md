@@ -1,4 +1,5 @@
 ---
+type: Building
 title: DesignBuildCincy - Music Hall Ballroom
 images:
   - >-
@@ -17,7 +18,7 @@ sections:
     attributes:
       - label: Public Access
         value: >-
-          Join the first show in the newly renovated Music Hall Ballroom. 
+          Join the first show in the newly renovated Music Hall Ballroom.
           Receive half off your ticket price with a registration for Doors Open
           OTR.
       - label: Resources
@@ -28,4 +29,3 @@ sections:
       - label: Completion Date
         value: 'October 28-29, 2017'
 ---
-

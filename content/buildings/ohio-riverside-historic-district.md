@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Riverside Drive Historic District
 images:
   - >-

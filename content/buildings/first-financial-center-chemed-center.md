@@ -1,4 +1,5 @@
 ---
+type: Building
 title: First Financial Center (Chemed Center)
 images:
   - >-

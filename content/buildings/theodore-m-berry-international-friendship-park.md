@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Theodore M Berry International Friendship Park
 images:
   - >-

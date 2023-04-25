@@ -1,4 +1,5 @@
 ---
+type: Building
 title: 'Ingalls Building (ACI Building, Transit Building)'
 images:
   - buildings/ingalls-bldg/ingalls-bldg-0_wspc8g

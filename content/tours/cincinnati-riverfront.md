@@ -1,4 +1,5 @@
 ---
+type: Tour
 title: Cincinnati Riverfront
 draft: true
 description: Anim laborum dolor quis in amet cupidatat ea in ex ex.

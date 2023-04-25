@@ -1,4 +1,5 @@
 ---
+type: Building
 title: BB&T (The Northern Bank of Kentucky)
 images:
   - >-

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Taft Theater
 images:
   - buildings/taft-theater/taft-theater-0_txgqdn
@@ -19,4 +20,3 @@ sections:
       - label: Architect
         value: Hake & Kuck
 ---
-

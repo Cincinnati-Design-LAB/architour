@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Yeatman's Cove at Sawyer Point
 images:
   - >-

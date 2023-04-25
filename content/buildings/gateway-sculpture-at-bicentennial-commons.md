@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Gateway Sculpture at Bicentennial Commons
 images:
   - >-
@@ -49,4 +50,3 @@ sections:
       - label: Architect
         value: Garth Rockcastle & Andrew Leicester
 ---
-

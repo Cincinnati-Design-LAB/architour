@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Cintrifuse - Union Hall (Germania Beer Hall/Cosmopolitan Hall)
 images:
   - buildings/centrifuse-union-hall/centrifuse-union-hall-0_b3pmaj

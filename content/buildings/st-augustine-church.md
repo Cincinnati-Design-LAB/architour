@@ -1,4 +1,5 @@
 ---
+type: Building
 title: St. Augustine Church
 images:
   - buildings/st-augustine-church/st-augustine-church-0_m9e7ec
@@ -25,4 +26,3 @@ sections:
       - label: Architect
         value: David Davis
 ---
-

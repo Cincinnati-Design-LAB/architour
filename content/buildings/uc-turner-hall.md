@@ -1,4 +1,5 @@
 ---
+type: Building
 title: UC Turner Hall
 images:
   - buildings/uc-turner-hall/uc-turner-hall-0_lxywka
@@ -27,4 +28,3 @@ sections:
       - label: Contractor
         value: Messer Construction
 ---
-

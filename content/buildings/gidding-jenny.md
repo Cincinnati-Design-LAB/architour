@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Gidding Jenny
 images:
   - buildings/gidding-jenny/gidding-jenny-0_tvhgds

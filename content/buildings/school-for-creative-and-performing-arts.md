@@ -1,4 +1,5 @@
 ---
+type: Building
 title: >-
   Eric Kunzel Center for Arts and Education (School for Creative & Performing
   Arts)

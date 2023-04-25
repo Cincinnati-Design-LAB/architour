@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Lombardy Building
 images:
   - buildings/lombardy-apts/lombardy-apts-0_fgrmfr

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: UC Campus Recreation Center
 images:
   - buildings/uc-campus-recreation-center/uc-campus-recreation-center-0_p5z61x

@@ -1,4 +1,5 @@
 ---
+type: Building
 title: Rhinegeist Brewery (Christian Moerlein Brewing Company)
 images:
   - >-
@@ -31,4 +32,3 @@ sections:
       - title: Renovation
         date: '2013'
 ---
-
