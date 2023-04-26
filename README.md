@@ -39,6 +39,7 @@ Stackbit:
 - [✔️] Set up Stackbit
 - [ ] Model with Stackbit
 - [ ] Inherit models with Contentlayer
+  - Tried doing this one at a time and it's not going to work.
 - [ ] Move header and footer content into JSON files
 - [ ] Only the bare minimum required fields
 - [ ] Get automatic content reloading working
