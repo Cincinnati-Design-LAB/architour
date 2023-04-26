@@ -38,6 +38,9 @@ Stackbit:
 
 - [✔️] Set up Stackbit
 - [ ] Model with Stackbit
+- [ ] Extend field for page location (use shared definition)
+- [ ] Extend field for icon (Tour)
+- [ ] Simplify `preview` where it is used (look for `TODO`)
 - [ ] Inherit models with Contentlayer
   - Tried doing this one at a time and it's not going to work.
 - [ ] Move header and footer content into JSON files
