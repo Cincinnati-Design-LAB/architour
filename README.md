@@ -37,14 +37,21 @@ Phase 1:
 Stackbit:
 
 - [✔️] Set up Stackbit
-- [ ] Model with Stackbit
+- [✔️] Model with Stackbit
+- [ ] Add inline editing for tours and buildings
+- [ ] Inline editing for list pages
 - [ ] Extend field for page location (use shared definition)
 - [ ] Extend field for icon (Tour)
-- [ ] Simplify `preview` where it is used (look for `TODO`)
+- [ ] Simplify `preview` where it is used (look for `TODO` — talk to Simon)
 - [ ] Inherit models with Contentlayer
-  - Tried doing this one at a time and it's not going to work.
+  - A couple issues holding me back from doing this:
+    - https://github.com/contentlayerdev/contentlayer/issues/438
+    - https://github.com/contentlayerdev/contentlayer/issues/439
 - [ ] Move header and footer content into JSON files
-- [ ] Only the bare minimum required fields
+  - [ ] With inline editing
+- [ ] Model for the home page? I think it'd make the sitemap work a little nicer.
+  - [ ] With inline editing
+- [✔️] Only the bare minimum required fields
 - [ ] Get automatic content reloading working
 - [ ] Method for editing/adding images
 - [ ] Method for setting the building location without hunting for coordinates
