@@ -48,15 +48,20 @@ export const Tour = defineDocumentType(() => ({
     },
   },
   computedFields: {
+    stackbitId: {
+      type: 'string',
+      description: 'Unique ID for Stackbit editor',
+      resolve: (tour) => ['content', tour._id].join('/'),
+    },
     urlPath: {
       type: 'string',
       description: 'Consistent URL path to the detail page on the website',
-      resolve: (post) => `/${post._raw.flattenedPath}`,
+      resolve: (tour) => `/${tour._raw.flattenedPath}`,
     },
     mapUrlPath: {
       type: 'string',
       description: 'URL path to the map view of the tour',
-      resolve: (post) => `/${post._raw.flattenedPath}/map`,
+      resolve: (tour) => `/${tour._raw.flattenedPath}/map`,
     },
     slug: {
       type: 'string',
