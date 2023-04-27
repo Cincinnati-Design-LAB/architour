@@ -1509,10 +1509,15 @@
   resolved "https://registry.yarnpkg.com/@stackbit/types/-/types-0.2.0-staging.0.tgz#c5bb72ac48208d914aaae8e5d02b70a994d00931"
   integrity sha512-H8v/Ie+AJgYxg1lxXF9ioh8K2GU69MZXCsEqpyh363y/Zu0ktraw/cHdGGppgWN+/wIkViJ5WC6k7o524fEMEA==
 
-"@stackbit/types@0.5.0", "@stackbit/types@^0.5.0":
+"@stackbit/types@0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@stackbit/types/-/types-0.5.0.tgz#b1ea22d34ab90b7974680c4343930d3b40cc0511"
   integrity sha512-sFQhxmmHRmowsxrZuzrE33Wgsmmcdc1JB7lrfPJE0D9kBHKPg76gdqahnCLcdMqacKlJVff21XKGriWO8mqcVw==
+
+"@stackbit/types@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@stackbit/types/-/types-0.6.0.tgz#c1866bce4b252940a9f7bf3273483c69d4ab30c3"
+  integrity sha512-E0+juAHsGHIvATKLY/1P+W8ax/hzKjUaldPHq9OEvHEWw3acZ+y6kqZBw9hSiMMtClDqvZ4GOF0+uqlml54QAA==
 
 "@stackbit/utils@0.2.23":
   version "0.2.23"
