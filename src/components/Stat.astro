@@ -1,20 +1,23 @@
 ---
+import { Annotation } from '@content'
+
 export interface Props {
   label: string
   value: string
   className?: string
+  annotations?: Partial<Record<'wrapper' | 'label' | 'value', Annotation>>
 }
 
-const { label, value, className } = Astro.props as Props
+const { label, value, className, annotations = {} } = Astro.props as Props
 ---
 
 {
   value && (
-    <div class={className}>
-      <span class="block font-bold mb-1 text-sm tracking-widest uppercase text-secondary-500">
+    <div {...annotations?.wrapper ?? {}} class={className} >
+      <span class="block font-bold mb-1 text-sm tracking-widest uppercase text-secondary-500" {...annotations?.label ?? {}}>
         {label}
       </span>
-      <span>{value}</span>
+      <span {...annotations?.value ?? {}}>{value}</span>
     </div>
   )
 }
