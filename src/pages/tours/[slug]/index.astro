@@ -8,7 +8,7 @@ import {
   Icon,
   ValidationErrors,
 } from '@components'
-import { getTours, Tour } from '@content'
+import { fieldPath, getTours, objectId, Tour } from '@content'
 import { PageLayout } from '@layouts'
 
 export async function getStaticPaths() {
@@ -22,8 +22,17 @@ export async function getStaticPaths() {
 const tour = Astro.props.tour as Tour
 ---
 
-<PageLayout title={tour.title} class={{ main: 'bg-gray-100' }}>
-  <PageHeader title={tour.title} image={tour.image} size="lg" />
+<PageLayout
+  title={tour.title}
+  class={{ main: 'bg-gray-100' }}
+  bodyAnnotations={objectId(tour.stackbitId)}
+>
+  <PageHeader
+    title={tour.title}
+    image={tour.image}
+    size="lg"
+    annotations={{ title: fieldPath('title') }}
+  />
 
   <div class="max-w-7xl mx-auto relative px-4 py-16">
     {
@@ -37,7 +46,11 @@ const tour = Astro.props.tour as Tour
       <div class="col-span-7">
         {
           tour.description?.html?.length > 0 && (
-            <div class="text-lg mb-12" set:html={tour.description.html} />
+            <div
+              class="text-lg mb-12"
+              set:html={tour.description.html}
+              {...fieldPath('description')}
+            />
           )
         }
         <div class="grid grid-cols-2 gap-x-10 gap-y-6 mb-12">
