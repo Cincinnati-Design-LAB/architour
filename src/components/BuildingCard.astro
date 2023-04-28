@@ -1,13 +1,17 @@
 ---
 import { Badge, CardMetaAttribute, CardStatusBadges, Link, ResponsiveImage } from '@components'
-import { Building } from '@content'
+import { Building, fieldPath, objectId } from '@content'
 
 export interface Props extends Building {}
 
 const props = Astro.props as Props
 ---
 
-<Link href={props.urlPath} className="block bg-white shadow-md relative">
+<Link
+  href={props.urlPath}
+  className="block bg-white shadow-md relative"
+  annotations={objectId(props.stackbitId)}
+>
   {
     props.featuredImage && (
       <div class="rounded-full absolute top-[-2rem] left-[1rem] w-16 h-16 overflow-hidden border-2 border-black">
@@ -20,14 +24,24 @@ const props = Astro.props as Props
   }
   <div class="pt-12 pb-4 px-4">
     <CardStatusBadges draft={props.draft} validation_errors={props.validation_errors} />
-    <h3 class="text-lg font-semibold mb-2">{props.title}</h3>
-    {props.excerpt?.html?.length > 0 && <div class="mb-4" set:html={props.excerpt?.html} />}
+    <h3 class="text-lg font-semibold mb-2" {...fieldPath('title')}>{props.title}</h3>
+    {
+      props.excerpt?.html?.length > 0 && (
+        <div class="mb-4" set:html={props.excerpt?.html} {...fieldPath('markdown_content')} />
+      )
+    }
 
     <div class="flex space-x-6 items-center">
-      <CardMetaAttribute icon="calendar" label={`Built ${props.completion_date || '[not set]'}`} />
+      <CardMetaAttribute
+        icon="calendar"
+        labelPrefix="Built"
+        label={props.completion_date || '[not set]'}
+        annotations={{ label: fieldPath('completion_date') }}
+      />
       <CardMetaAttribute
         icon="eye"
-        label={`${props.tourCount} Tour${props.tourCount === 1 ? '' : 's'}`}
+        label={props.tourCount.toString()}
+        labelSuffix={`Tour${props.tourCount === 1 ? '' : 's'}`}
       />
     </div>
   </div>

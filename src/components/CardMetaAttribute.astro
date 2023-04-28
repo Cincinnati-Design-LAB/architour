@@ -4,16 +4,22 @@ import { Annotation } from '@content'
 
 export interface Props {
   icon: IconProps['name']
+  labelPrefix?: string
   label: string
+  labelSuffix?: string
   annotations?: Partial<Record<'wrapper' | 'label' | 'icon', Annotation>>
 }
 
-const { icon, label, annotations = {} } = Astro.props as Props
+const { icon, label, annotations = {}, labelPrefix, labelSuffix } = Astro.props as Props
 ---
 
 <div class="flex space-x-2 items-center text-secondary-500" {...annotations?.wrapper ?? {}}>
   <span class="w-4" {...annotations?.icon ?? {}}>
     <Icon name={icon} />
   </span>
-  <span class="text-sm font-semibold" {...annotations?.label ?? {}}>{label}</span>
+  <span class="flex space-x-1 items-center">
+    {labelPrefix && <span class="text-sm font-semibold">{labelPrefix}</span>}
+    <span class="text-sm font-semibold" {...annotations?.label ?? {}}>{label}</span>
+    {labelSuffix && <span class="text-sm font-semibold">{labelSuffix}</span>}
+  </span>
 </div>
