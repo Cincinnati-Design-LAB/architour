@@ -38,27 +38,25 @@ Stackbit:
 
 - [✔️] Set up Stackbit
 - [✔️] Model with Stackbit
-- [🟡] Add inline editing for tours and buildings
+- [✔️] Add inline editing for tours and buildings
 - [✔️] Inline editing for list pages
+- [✔️] Only the bare minimum required fields
+- [ ] Method for editing/adding images
+- [ ] Get automatic content reloading working
 - [ ] Extend field for page location (use shared definition)
 - [ ] Extend field for icon (Tour)
 - [ ] Simplify `preview` where it is used (look for `TODO` — talk to Simon)
-- [ ] Inherit models with Contentlayer
-  - A couple issues holding me back from doing this:
-    - https://github.com/contentlayerdev/contentlayer/issues/438
-    - https://github.com/contentlayerdev/contentlayer/issues/439
 - [ ] Move header and footer content into JSON files
   - [ ] With inline editing
 - [ ] Model for the home page? I think it'd make the sitemap work a little nicer.
   - [ ] With inline editing
-- [✔️] Only the bare minimum required fields
-- [ ] Get automatic content reloading working
-- [ ] Method for editing/adding images
 - [ ] Method for setting the building location without hunting for coordinates
 - [ ] Method for generating static map images (not all have them, but it is now tied to published items only)
-  - [ ] What to do when static map doesn't exist?
-    - Run the static map generator before the build. (Need to also commit to repo, too, without rebuilding.)
-    - Show a preview image that mentions it will be automatically populated?
+  - Using an interactive method for setting the location would then kick off a series of events:
+    1. Store the location on the file
+    2. Generate static map, set cache and map on file
+    3. Re-generate static map and cache for all associated tours
+  - [ ] Should this happen locally or commit a change to GitHub?
 
 Last Few UI Features:
 
@@ -72,6 +70,10 @@ Pre-Launch Cleanup:
 - [ ] Link component should be used in building body and attributes
 - [ ] Add click tracking
 - [ ] Responsive style check
+- [ ] Inherit models with Contentlayer
+  - A couple issues holding me back from doing this:
+    - https://github.com/contentlayerdev/contentlayer/issues/438
+    - https://github.com/contentlayerdev/contentlayer/issues/439
 
 Post-Launch Options:
 
