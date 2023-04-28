@@ -1,30 +1,55 @@
 ---
 import type { BuildingRenovationSection } from '@/.contentlayer/generated'
 import { Stat } from '@components'
+import { fieldPath } from '@content'
 
 export interface Props {
   title: BuildingRenovationSection['title']
   renovations: BuildingRenovationSection['renovations']
   className?: string
+  fieldPath: string
 }
 
 const props = Astro.props as Props
 ---
 
-<div class={props.className}>
-  <h2 class="font-semibold mb-4 text-xl">{props.title}</h2>
+<div class={props.className} {...fieldPath(props.fieldPath)}>
+  <h2 class="font-semibold mb-4 text-xl" {...fieldPath('.title')}>{props.title}</h2>
   {
-    (props.renovations || []).map((renovation) => (
-      <div class="mb-8 last-of-type:mb-0">
+    (props.renovations || []).map((renovation, idx) => (
+      <div class="mb-8 last-of-type:mb-0" {...fieldPath(`.renovations.${idx}`)}>
         <span class="flex space-x-2 justify-start items-center mb-2 text-lg">
-          <span class="font-black tracking-widest">{renovation.date}:</span>
-          <span class="uppercase">{renovation.title}</span>
+          <span class="font-black tracking-widest">
+            <>
+              <span {...fieldPath('.date')}>{renovation.date}</span>
+              <span>:</span>
+            </>
+          </span>
+          <span class="uppercase" {...fieldPath('.title')}>
+            {renovation.title}
+          </span>
         </span>
-        {renovation.description && <p class="text-sm">{renovation.description}</p>}
+        {renovation.description && (
+          <p class="text-sm" {...fieldPath('.description')}>
+            {renovation.description}
+          </p>
+        )}
         {(renovation.architect || renovation.architect) && (
           <div class="grid grid-cols-2 gap-x-8 gap-y-6 mt-4 text-sm">
-            {renovation.architect && <Stat label="Architect" value={renovation.architect} />}
-            {renovation.contractor && <Stat label="Contractor" value={renovation.contractor} />}
+            {renovation.architect && (
+              <Stat
+                label="Architect"
+                value={renovation.architect}
+                annotations={{ value: fieldPath('.architect') }}
+              />
+            )}
+            {renovation.contractor && (
+              <Stat
+                label="Contractor"
+                value={renovation.contractor}
+                annotations={{ value: fieldPath('.contractor') }}
+              />
+            )}
           </div>
         )}
       </div>

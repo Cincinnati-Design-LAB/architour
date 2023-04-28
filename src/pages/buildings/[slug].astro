@@ -31,7 +31,11 @@ const renderSections = (page_location: Building['sections'][0]['page_location'])
       // There's probably a better way to type this, but it was throwing an
       // error while rendering the component dynamically in the template.
       const Component = sectionMap[section.type] as (_props: any) => any
-      return { Component, props: section }
+      return {
+        Component,
+        props: section,
+        fieldPath: `sections.${building.sections.indexOf(section)}`,
+      }
     })
 }
 
@@ -71,8 +75,8 @@ const sections = {
           )
         }
         {
-          sections.above_images.map(({ Component, props }) => (
-            <Component {...props} className="mb-12" />
+          sections.above_images.map(({ Component, props, fieldPath }) => (
+            <Component {...props} className="mb-12" fieldPath={fieldPath} />
           ))
         }
         {
@@ -85,15 +89,15 @@ const sections = {
           )
         }
         {
-          sections.below_images.map(({ Component, props }) => (
-            <Component {...props} className="mt-12" />
+          sections.below_images.map(({ Component, props, fieldPath }) => (
+            <Component {...props} className="mt-12" fieldPath={fieldPath} />
           ))
         }
       </div>
       <div class="md:col-span-5">
         {
-          sections.above_map.map(({ Component, props }) => (
-            <Component {...props} className="mb-8" />
+          sections.above_map.map(({ Component, props, fieldPath }) => (
+            <Component {...props} className="mb-8" fieldPath={fieldPath} />
           ))
         }
         {
@@ -109,8 +113,8 @@ const sections = {
           )
         }
         {
-          sections.below_map.map(({ Component, props }) => (
-            <Component {...props} className="mb-8" />
+          sections.below_map.map(({ Component, props, fieldPath }) => (
+            <Component {...props} className="mb-8" fieldPath={fieldPath} />
           ))
         }
       </div>

@@ -1,19 +1,29 @@
 ---
 import type { BuildingAttributeSection } from '@/.contentlayer/generated'
 import { Stat } from '@components'
+import { fieldPath } from '@content'
 
 export interface Props {
   attributes: BuildingAttributeSection['attributes']
   className?: string
+  fieldPath: string
 }
 
 const props = Astro.props as Props
 ---
 
-<div class={`grid grid-cols-2 gap-x-8 gap-y-6 ${props.className}`}>
+<div class={`grid grid-cols-2 gap-x-8 gap-y-6 ${props.className}`} {...fieldPath(props.fieldPath)}>
   {
-    (props.attributes || []).map((attribute) => (
-      <Stat {...attribute} className={attribute.layout === 'full_width' ? 'col-span-2' : ''} />
+    (props.attributes || []).map((attribute, idx) => (
+      <Stat
+        {...attribute}
+        className={attribute.layout === 'full_width' ? 'col-span-2' : ''}
+        annotations={{
+          wrapper: fieldPath(`.attributes.${idx}`),
+          label: fieldPath('.label'),
+          value: fieldPath('.value'),
+        }}
+      />
     ))
   }
 </div>
