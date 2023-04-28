@@ -1,0 +1,41 @@
+---
+import { CardStatusBadges, ResponsiveImage } from '@components'
+import { Building, fieldPath, objectId } from '@content'
+
+export interface Props extends Building {}
+
+const building = Astro.props as Props
+
+// Note: Using <Link /> causes a layout issue because it uses flex internally
+// and that throws off our grid. The Link benefits are not needed here anyways.
+---
+
+<a
+  href={building.urlPath}
+  class="bg-white shadow-md relative flex hover:shadow-lg transition-shadow duration-300"
+  {...objectId(building.stackbitId)}
+>
+  {
+    building.featuredImage && (
+      <div class="w-32 shrink-0">
+        <ResponsiveImage
+          src={building.featuredImage.compact_card_hero}
+          className="object-cover h-full w-full object-center"
+        />
+      </div>
+    )
+  }
+  <div class="pt-6 pb-4 px-4">
+    <CardStatusBadges draft={building.draft} validation_errors={building.validation_errors} />
+    <h3 class="font-semibold mb-2" {...fieldPath('title')}>{building.title}</h3>
+    {
+      building.excerpt?.html && (
+        <div
+          class="mb-4 text-sm"
+          set:html={building.excerpt.html}
+          {...fieldPath('markdown_content')}
+        />
+      )
+    }
+  </div>
+</a>

@@ -39,7 +39,7 @@ Stackbit:
 - [✔️] Set up Stackbit
 - [✔️] Model with Stackbit
 - [🟡] Add inline editing for tours and buildings
-- [ ] Inline editing for list pages
+- [✔️] Inline editing for list pages
 - [ ] Extend field for page location (use shared definition)
 - [ ] Extend field for icon (Tour)
 - [ ] Simplify `preview` where it is used (look for `TODO` — talk to Simon)

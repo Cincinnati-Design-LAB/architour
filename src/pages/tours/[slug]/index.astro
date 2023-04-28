@@ -1,7 +1,7 @@
 ---
 import {
   PageHeader,
-  CompactCard,
+  BuildingCardCompact,
   Stat,
   Link,
   ResponsiveImage,
@@ -86,16 +86,7 @@ const tour = Astro.props.tour as Tour
       <div class="max-w-4xl">
         <h2 class="font-bold text-3xl mb-6">Buildings on the Tour</h2>
         <div class="grid grid-cols-2 gap-6">
-          {
-            tour.buildings.map((building) => (
-              <CompactCard
-                title={building.title}
-                image={building.featuredImage}
-                excerpt={building.excerpt.html}
-                href={building.urlPath}
-              />
-            ))
-          }
+          {tour.buildings.map((building) => <BuildingCardCompact {...building} />)}
         </div>
       </div>
     </div>
