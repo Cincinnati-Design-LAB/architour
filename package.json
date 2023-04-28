@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@contentlayer/experimental-source-files-stackbit": "^0.3.2",
-    "@stackbit/cms-git": "^0.2.4",
+    "@stackbit/cms-git": "^0.3.0",
     "@stackbit/types": "^0.6.0",
     "@types/gtag.js": "^0.0.12",
     "@types/mapbox-gl": "^2.7.10",
