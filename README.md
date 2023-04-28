@@ -38,7 +38,7 @@ Stackbit:
 
 - [✔️] Set up Stackbit
 - [✔️] Model with Stackbit
-- [ ] Add inline editing for tours and buildings
+- [🟡] Add inline editing for tours and buildings
 - [ ] Inline editing for list pages
 - [ ] Extend field for page location (use shared definition)
 - [ ] Extend field for icon (Tour)

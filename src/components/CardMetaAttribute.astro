@@ -1,17 +1,19 @@
 ---
 import { Icon, IconProps } from '@components'
+import { Annotation } from '@content'
 
 export interface Props {
   icon: IconProps['name']
   label: string
+  annotations?: Partial<Record<'wrapper' | 'label' | 'icon', Annotation>>
 }
 
-const { icon, label } = Astro.props
+const { icon, label, annotations = {} } = Astro.props as Props
 ---
 
-<div class="flex space-x-2 items-center text-secondary-500">
-  <span class="w-4">
+<div class="flex space-x-2 items-center text-secondary-500" {...annotations?.wrapper ?? {}}>
+  <span class="w-4" {...annotations?.icon ?? {}}>
     <Icon name={icon} />
   </span>
-  <span class="text-sm font-semibold">{label}</span>
+  <span class="text-sm font-semibold" {...annotations?.label ?? {}}>{label}</span>
 </div>

@@ -3,8 +3,6 @@ import { GitContentSource } from '@stackbit/cms-git'
 
 import { models } from './content/stackbit'
 
-// console.log(models)
-
 export default defineStackbitConfig({
   stackbitVersion: '~0.6.0',
   ssgName: 'custom',

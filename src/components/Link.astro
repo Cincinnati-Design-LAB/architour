@@ -1,5 +1,6 @@
 ---
 import { Icon, IconProps } from '@components'
+import { Annotation } from '@content'
 
 export interface Props {
   href: string
@@ -7,9 +8,17 @@ export interface Props {
   id?: string
   hideExternalIcon?: boolean
   icons?: Array<IconProps & { position: 'left' | 'right'; className?: string }>
+  annotations?: Annotation
 }
 
-const { href, hideExternalIcon, className, id = '', icons = [] } = Astro.props as Props
+const {
+  href,
+  hideExternalIcon,
+  className,
+  id = '',
+  icons = [],
+  annotations = {},
+} = Astro.props as Props
 
 const defaultClassName = 'text-primary-500 border-b border-b-primary-500 inline-block leading-4'
 
@@ -26,7 +35,14 @@ if (!href.startsWith('/')) {
 }
 ---
 
-<a href={href} class={className || defaultClassName} id={id} target={target} rel={rel}>
+<a
+  href={href}
+  class={className || defaultClassName}
+  id={id}
+  target={target}
+  rel={rel}
+  {...annotations}
+>
   {
     hideExternalIcon ? (
       <slot />
