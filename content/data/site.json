@@ -1,0 +1,7 @@
+{
+    "type": "SiteConfig",
+    "header": {
+        "type": "SiteHeader",
+        "site_link_label": "Back to Site [CUSTOM]"
+    }
+}

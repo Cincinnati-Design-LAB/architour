@@ -1,21 +1,31 @@
-// --- Pages --- //
+/* ----- Pages ----- */
+
 import { Building } from './Building'
 import { Tour } from './Tour'
 
-// --- Objects --- //
+/* ----- Data ----- */
+
+import { SiteConfig } from './SiteConfig'
+
+/* ----- Objects ----- */
+
 import { BuildingAttribute } from './BuildingAttribute'
 import { BuildingAttributeSection } from './BuildingAttributeSection'
 import { BuildingRenovation } from './BuildingRenovation'
 import { BuildingRenovationSection } from './BuildingRenovationSection'
 import { Location } from './Location'
+import { SiteHeader } from './SiteHeader'
 
-// --- Exported Models --- //
+/* ----- Exported Models ----- */
+
 export const models = [
   Building,
-  Tour,
   BuildingAttribute,
   BuildingAttributeSection,
   BuildingRenovation,
   BuildingRenovationSection,
   Location,
+  SiteConfig,
+  SiteHeader,
+  Tour,
 ]

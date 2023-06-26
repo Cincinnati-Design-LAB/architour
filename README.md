@@ -42,6 +42,7 @@ Stackbit:
 - [✔️] Inline editing for list pages
 - [✔️] Only the bare minimum required fields
 - [ ] Method for editing/adding images
+  - [ ] I think the way to do this is to mimic the stackbit behavior in some way. Use the same modal, but get more detailed with the folder we're loading.
 - [ ] Get automatic content reloading working
 - [ ] Extend field for page location (use shared definition)
 - [ ] Extend field for icon (Tour)
@@ -79,6 +80,7 @@ Post-Launch Options:
 
 - [ ] Replace Contentlayer with a custom mechanism
 - [ ] Consider putting the image variation complexity in component
+  - [ ] Consider if Unpic can help
   - [ ] Generate dimension ratio transformations (original, square, landscape)
   - [ ] Generate URLs for widths every `100` pixels from `100` to `4000`
   - [ ] ResponsiveImage component should be fed the sizes and automatically add DPR
