@@ -3,23 +3,6 @@ import { getSiteConfig } from '@/content/utils/site-config'
 import { Button, HeaderLink, Icon, Link, Logo } from '@components'
 import { fieldPath } from '@content'
 
-// const desktopLinks: Array<{ href: string; label: string; button?: boolean }> = [
-//   { href: '/buildings', label: 'Building List' },
-//   { href: '/tours', label: 'Walking Tours' },
-//   { href: 'https://www.designlearnandbuild.org/donate', label: 'Donate', button: true },
-// ]
-
-// const mobileLinks: Array<{
-//   href: string
-//   icon?: IconProps['name']
-//   label: string
-//   button?: boolean
-// }> = [
-//   { href: '/buildings', icon: 'building', label: 'Building List' },
-//   { href: '/tours', icon: 'eye', label: 'Walking Tours' },
-//   { href: 'https://www.designlearnandbuild.org/donate', button: true, label: 'Donate' },
-// ]
-
 const siteConfig = await getSiteConfig()
 const { site_link_label, nav_links } = siteConfig.header
 ---
@@ -66,19 +49,6 @@ const { site_link_label, nav_links } = siteConfig.header
     <div class="space-x-4 justify-between items-center flex md:hidden" {...fieldPath('.nav_links')}>
       {
         nav_links.map((link, index) => {
-          // if (link.is_button) {
-          //   return (
-          //     <Button
-          //       href={link.href}
-          //       annotations={{ self: fieldPath(`.${index}`), label: {} }}
-          //       hideExternalIcon={true}
-          //     >
-          //       <span class="block w-6">
-          //         <Icon name={link.icon} />
-          //       </span>
-          //     </Button>
-          //   )
-          // }
           return (
             <HeaderLink
               href={link.href}

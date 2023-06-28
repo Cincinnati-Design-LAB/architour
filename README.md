@@ -47,10 +47,14 @@ Stackbit:
 - [ ] Extend field for page location (use shared definition)
 - [ ] Extend field for icon (Tour)
 - [ ] Simplify `preview` where it is used (look for `TODO` — talk to Simon)
-- [ ] Move header and footer content into JSON files
+- [✔️] Move header content into JSON files
+  - [✔️] With inline editing
+- [ ] Move footer content into JSON files
   - [ ] With inline editing
 - [ ] Model for the home page? I think it'd make the sitemap work a little nicer.
   - [ ] With inline editing
+- [ ] Model and inline editing for building and tours list? (Could make part of site config.)
+  - [ ] Would be nice to have them in the sitemap, but they are hard-coded pages, so would have to use `sitemap` config property
 - [ ] Method for setting the building location without hunting for coordinates
 - [ ] Method for generating static map images (not all have them, but it is now tied to published items only)
   - Using an interactive method for setting the location would then kick off a series of events:
@@ -71,6 +75,7 @@ Pre-Launch Cleanup:
 - [ ] Link component should be used in building body and attributes
 - [ ] Add click tracking
 - [ ] Responsive style check
+- [ ] Upgrade Astro
 - [ ] Inherit models with Contentlayer
   - A couple issues holding me back from doing this:
     - https://github.com/contentlayerdev/contentlayer/issues/438
@@ -101,3 +106,8 @@ Notes to add:
   3. Transformer and transformed type
   4. Pull into templates
   5. Inline editing
+- A list of things I'd like to clean up, but probably won't (without financial motivation)
+  - (notes from above can move here)
+  - Make annotations and typing consistent
+  - Clean up interactions between links and buttons
+  - Remove Contentlayer
