@@ -2,6 +2,29 @@
     "type": "SiteConfig",
     "header": {
         "type": "SiteHeader",
-        "site_link_label": "Back to Site"
+        "site_link_label": "Back to Site",
+        "nav_links": [
+            {
+                "type": "SiteHeaderLink",
+                "label": "Building List",
+                "href": "/buildings",
+                "icon": "building",
+                "is_button": false
+            },
+            {
+                "type": "SiteHeaderLink",
+                "label": "Walking Tours",
+                "href": "/tours",
+                "icon": "eye",
+                "is_button": false
+            },
+            {
+                "type": "SiteHeaderLink",
+                "label": "Donate",
+                "href": "https://www.designlearnandbuild.org/donate",
+                "icon": "link-external",
+                "is_button": true
+            }
+        ]
     }
 }

@@ -1,27 +1,27 @@
 ---
 import { getSiteConfig } from '@/content/utils/site-config'
-import { Button, HeaderLink, Icon, IconProps, Link, Logo } from '@components'
+import { Button, HeaderLink, Icon, Link, Logo } from '@components'
 import { fieldPath } from '@content'
 
-const desktopLinks: Array<{ href: string; label: string; button?: boolean }> = [
-  { href: '/buildings', label: 'Building List' },
-  { href: '/tours', label: 'Walking Tours' },
-  { href: 'https://www.designlearnandbuild.org/donate', label: 'Donate', button: true },
-]
+// const desktopLinks: Array<{ href: string; label: string; button?: boolean }> = [
+//   { href: '/buildings', label: 'Building List' },
+//   { href: '/tours', label: 'Walking Tours' },
+//   { href: 'https://www.designlearnandbuild.org/donate', label: 'Donate', button: true },
+// ]
 
-const mobileLinks: Array<{
-  href: string
-  icon?: IconProps['name']
-  label: string
-  button?: boolean
-}> = [
-  { href: '/buildings', icon: 'building', label: 'Building List' },
-  { href: '/tours', icon: 'eye', label: 'Walking Tours' },
-  { href: 'https://www.designlearnandbuild.org/donate', button: true, label: 'Donate' },
-]
+// const mobileLinks: Array<{
+//   href: string
+//   icon?: IconProps['name']
+//   label: string
+//   button?: boolean
+// }> = [
+//   { href: '/buildings', icon: 'building', label: 'Building List' },
+//   { href: '/tours', icon: 'eye', label: 'Walking Tours' },
+//   { href: 'https://www.designlearnandbuild.org/donate', button: true, label: 'Donate' },
+// ]
 
 const siteConfig = await getSiteConfig()
-const header = siteConfig.header
+const { site_link_label, nav_links } = siteConfig.header
 ---
 
 <header class="max-w-7xl mx-auto px-4 py-6" {...fieldPath(`${siteConfig.stackbitId}:header`)}>
@@ -30,35 +30,61 @@ const header = siteConfig.header
       <Link
         className="flex space-x-2 items-center mb-4 text-secondary-500 text-xs font-semibold"
         href="https://www.designlearnandbuild.org/"
+        icons={[{ name: 'arrow-left', position: 'left' }]}
         hideExternalIcon={true}
+        annotations={{ self: {}, label: fieldPath('.site_link_label') }}
       >
-        <span class="block w-3"><Icon name="arrow-left" /></span>
-        <span {...fieldPath('.site_link_label')}>{header.site_link_label}</span>
+        {site_link_label}
       </Link>
       <Link className="inline-block w-48" href="/" hideExternalIcon={true}>
         <Logo />
       </Link>
     </div>
-    <div class="space-x-6 justify-between items-center hidden md:flex">
+    <div class="space-x-6 justify-between items-center hidden md:flex" {...fieldPath('.nav_links')}>
       {
-        desktopLinks.map((link) => {
-          if (link.button) return <Button href={link.href}>{link.label}</Button>
-          return <HeaderLink href={link.href}>{link.label}</HeaderLink>
+        nav_links.map((link, index) => {
+          if (link.is_button)
+            return (
+              <Button
+                href={link.href}
+                annotations={{ self: fieldPath(`.${index}`), label: fieldPath('.label') }}
+              >
+                {link.label}
+              </Button>
+            )
+          return (
+            <HeaderLink
+              href={link.href}
+              annotations={{ self: fieldPath(`.${index}`), label: fieldPath('.label') }}
+            >
+              {link.label}
+            </HeaderLink>
+          )
         })
       }
     </div>
-    <div class="space-x-4 justify-between items-center flex md:hidden">
+    <div class="space-x-4 justify-between items-center flex md:hidden" {...fieldPath('.nav_links')}>
       {
-        mobileLinks.map((link) => {
-          if (link.button) {
-            return (
-              <Button href={link.href}>
-                <span class="block w-8">{link.icon ? <Icon name={link.icon} /> : link.label}</span>
-              </Button>
-            )
-          }
+        nav_links.map((link, index) => {
+          // if (link.is_button) {
+          //   return (
+          //     <Button
+          //       href={link.href}
+          //       annotations={{ self: fieldPath(`.${index}`), label: {} }}
+          //       hideExternalIcon={true}
+          //     >
+          //       <span class="block w-6">
+          //         <Icon name={link.icon} />
+          //       </span>
+          //     </Button>
+          //   )
+          // }
           return (
-            <HeaderLink href={link.href}>
+            <HeaderLink
+              href={link.href}
+              annotations={{ self: fieldPath(`.${index}`), label: {} }}
+              hideExternalIcon={true}
+            >
               <span class="block w-8">
                 <Icon name={link.icon} />
               </span>

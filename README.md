@@ -94,3 +94,10 @@ Notes to add:
   - What is required
   - What edit mode means
   - Assumptions that we can rely on detail pages to be the primary validator for required production attributes.
+- How icons work -> splitting them up with definitions, how to add new icons
+- Process for adding new fields or models
+  1. Add SB schema, edit with content tab
+  2. Add CL schema
+  3. Transformer and transformed type
+  4. Pull into templates
+  5. Inline editing

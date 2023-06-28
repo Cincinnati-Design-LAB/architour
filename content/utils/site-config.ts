@@ -8,7 +8,7 @@ import { SiteConfig } from '@/.contentlayer/generated'
  * @returns Transformed site config
  */
 export async function getSiteConfig(): Promise<SiteConfig> {
-  return await transformSiteConfig(Contentlayer.siteConfig)
+  return await transformSiteConfig(Contentlayer.allSiteConfigs[0])
 }
 
 /**

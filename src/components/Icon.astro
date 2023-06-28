@@ -1,4 +1,5 @@
 ---
+import { IconName } from '@/content/utils/icons'
 import Alert from './Icon/Alert.astro'
 import ArrowLeft from './Icon/ArrowLeft.astro'
 import ArrowRight from './Icon/ArrowRight.astro'
@@ -7,23 +8,12 @@ import Calendar from './Icon/Calendar.astro'
 import Cancel from './Icon/Cancel.astro'
 import Clock from './Icon/Clock.astro'
 import Draft from './Icon/Draft.astro'
-import Eye from './Icon/Eye.astro'
 import Expand from './Icon/Expand.astro'
+import Eye from './Icon/Eye.astro'
 import LinkExternal from './Icon/LinkExternal.astro'
 
 export interface Props {
-  name:
-    | 'alert'
-    | 'arrow-left'
-    | 'arrow-right'
-    | 'building'
-    | 'calendar'
-    | 'cancel'
-    | 'clock'
-    | 'draft'
-    | 'eye'
-    | 'expand'
-    | 'link-external'
+  name: IconName
 }
 
 const { name } = Astro.props

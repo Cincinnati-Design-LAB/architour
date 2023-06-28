@@ -1,5 +1,5 @@
 ---
-import { IconProps, Link } from '@components'
+import { IconProps, Link, LinkProps } from '@components'
 
 export interface Props {
   href: string
@@ -7,9 +7,19 @@ export interface Props {
   theme?: 'primary' | 'secondary'
   outline?: boolean
   icon?: IconProps & { position: 'left' | 'right' }
+  hideExternalIcon?: LinkProps['hideExternalIcon']
+  annotations?: LinkProps['annotations']
 }
 
-const { href, size = 'medium', theme = 'primary', outline = false, icon } = Astro.props
+const {
+  href,
+  size = 'medium',
+  theme = 'primary',
+  outline = false,
+  icon,
+  annotations,
+  hideExternalIcon,
+} = Astro.props
 
 let themeClasses = {
   primary:
@@ -42,6 +52,8 @@ const iconSizeClasses = {
   className={`border-2 hover:opacity-90 duration-300 transition-all block ${themeClasses} ${sizeClasses}`}
   href={href}
   icons={[{ ...icon, className: iconSizeClasses }]}
+  annotations={annotations}
+  hideExternalIcon={hideExternalIcon}
 >
   <slot />
 </Link>

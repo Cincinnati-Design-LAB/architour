@@ -8,24 +8,17 @@ export interface Props {
   id?: string
   hideExternalIcon?: boolean
   icons?: Array<IconProps & { position: 'left' | 'right'; className?: string }>
-  annotations?: Annotation
+  annotations?: Record<'self' | 'label', Annotation>
 }
 
-const {
-  href,
-  hideExternalIcon,
-  className,
-  id = '',
-  icons = [],
-  annotations = {},
-} = Astro.props as Props
+const { href, hideExternalIcon, className, id = '', icons = [], annotations } = Astro.props as Props
 
 const defaultClassName = 'text-primary-500 border-b border-b-primary-500 inline-block leading-4'
 
 let target = '_self'
 let rel = ''
 
-if (!href.startsWith('/')) {
+if (!href.startsWith('/') && !hideExternalIcon) {
   icons.push({
     name: 'link-external',
     position: 'right',
@@ -41,31 +34,29 @@ if (!href.startsWith('/')) {
   id={id}
   target={target}
   rel={rel}
-  {...annotations}
+  {...annotations?.self ?? {}}
 >
-  {
-    hideExternalIcon ? (
+  <span class="flex items-center space-x-2">
+    {
+      icons
+        .filter((icon) => icon.position === 'left')
+        .map((icon) => (
+          <span class={icon.className || 'block w-3'}>
+            <Icon {...icon} />
+          </span>
+        ))
+    }
+    <span {...annotations?.label ?? {}}>
       <slot />
-    ) : (
-      <span class="flex items-center space-x-2">
-        {icons
-          .filter((icon) => icon.position === 'left')
-          .map((icon) => (
-            <span class={icon.className || 'block w-3'}>
-              <Icon {...icon} />
-            </span>
-          ))}
-        <span>
-          <slot />
-        </span>
-        {icons
-          .filter((icon) => icon.position === 'right')
-          .map((icon) => (
-            <span class={icon.className || 'block w-3'}>
-              <Icon {...icon} />
-            </span>
-          ))}
-      </span>
-    )
-  }
+    </span>
+    {
+      icons
+        .filter((icon) => icon.position === 'right')
+        .map((icon) => (
+          <span class={icon.className || 'block w-3'}>
+            <Icon {...icon} />
+          </span>
+        ))
+    }
+  </span>
 </a>

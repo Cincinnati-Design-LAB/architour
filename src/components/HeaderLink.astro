@@ -1,15 +1,22 @@
 ---
-import { Link } from '@components'
+import { Link, LinkProps } from '@components'
 
 export interface Props {
   href: string
+  hideExternalIcon?: LinkProps['hideExternalIcon']
+  annotations?: LinkProps['annotations']
 }
 
-const { href } = Astro.props
+const { href, annotations, hideExternalIcon } = Astro.props
 
 const dynamicClasses = Astro.url.pathname === href ? 'font-bold' : ''
 ---
 
-<Link href={href} className={`hover:opacity-70 duration-300 transition-all ${dynamicClasses}`}>
+<Link
+  href={href}
+  className={`hover:opacity-70 duration-300 transition-all ${dynamicClasses}`}
+  annotations={annotations}
+  hideExternalIcon={hideExternalIcon}
+>
   <slot />
 </Link>

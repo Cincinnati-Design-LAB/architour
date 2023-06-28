@@ -10,7 +10,7 @@ const props = Astro.props as Props
 <Link
   href={props.urlPath}
   className="block bg-white shadow-md"
-  annotations={objectId(props.stackbitId)}
+  annotations={{ self: objectId(props.stackbitId), label: {} }}
 >
   {
     props.image && (
