@@ -5,5 +5,9 @@
     "plaintext": false,
     "markdown": false
   },
-  "cSpell.words": ["MAPBOX"]
+  "cSpell.words": ["MAPBOX"],
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.addMissingImports": true
+  }
 }
