@@ -30,3 +30,5 @@ export interface Tour extends Omit<Contentlayer.Tour, 'buildings' | 'image'> {
   /** Validation errors that get attached when in edit mode */
   validation_errors?: string[]
 }
+
+export interface SiteConfig extends Contentlayer.SiteConfig {}
