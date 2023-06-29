@@ -4,8 +4,8 @@ import { cloudinaryImageUrls } from './images'
 import { mapMarkerData } from './map'
 import { processMarkdown } from './markdown'
 import { getExcerpt } from './text'
-import { filterTour } from './tours'
-import { Building } from './types'
+import { filterTour, getTours } from './tours'
+import { Building, Tour } from './types'
 
 /**
  * Retrieves building objects processed by Contentlayer and resolves necessary
@@ -44,6 +44,14 @@ export async function transformBuilding(building: Contentlayer.Building): Promis
   })
   const static_map = cloudinaryImageUrls(building.static_map, ['sidebar'])
   return { ...building, tourCount, images, featuredImage, excerpt, mapMarker, static_map }
+}
+
+export async function getBuildingTours(building: Building): Promise<Tour[]> {
+  const tourHasBuilding = (tour: Tour) => {
+    return tour.buildings.map((t) => t.stackbitId).includes(building.stackbitId)
+  }
+  const tours = await getTours()
+  return tours.filter(tourHasBuilding)
 }
 
 /**

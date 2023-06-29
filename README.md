@@ -51,10 +51,10 @@ Stackbit:
   - [✔️] With inline editing
 - [✔️] Move footer content into JSON files
   - [✔️] With inline editing
-- [ ] Model for the home page? I think it'd make the sitemap work a little nicer.
-  - [ ] With inline editing
-- [ ] Model and inline editing for building and tours list? (Could make part of site config.)
-  - [ ] Would be nice to have them in the sitemap, but they are hard-coded pages, so would have to use `sitemap` config property
+- [✔️] Model for the home page? I think it'd make the sitemap work a little nicer.
+  - [✔️] With inline editing
+- [✔️] Model and inline editing for building and tours list? (Could make part of site config.)
+  - [✔️] Would be nice to have them in the sitemap, but they are hard-coded pages, so would have to use `sitemap` config property
 - [ ] Method for setting the building location without hunting for coordinates
 - [ ] Method for generating static map images (not all have them, but it is now tied to published items only)
   - Using an interactive method for setting the location would then kick off a series of events:
@@ -66,9 +66,8 @@ Stackbit:
 Last Few UI Features:
 
 - [ ] Fix mobile menu -> it looks stupid
-- [ ] List and link to tours on the building detail page
+- [✔️] List and link to tours on the building detail page
 - [ ] Building list filtering and pagination
-- [ ] Way to get back from PageHeader?
 
 Pre-Launch Cleanup:
 

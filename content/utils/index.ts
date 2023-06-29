@@ -1,6 +1,6 @@
 export type { Building, Tour } from './types'
 
-export { getBuildings } from './buildings'
+export { getBuildings, getBuildingTours } from './buildings'
 export { getTours } from './tours'
 
 export type { CloudinaryImage, ImageSizes } from './images'

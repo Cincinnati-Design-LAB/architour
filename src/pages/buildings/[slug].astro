@@ -1,12 +1,13 @@
 ---
-import { Building, getBuildings, fieldPath, objectId } from '@content'
 import {
-  PageHeader,
-  ResponsiveImage,
   BuildingAttributeSection,
   BuildingRenovationSection,
+  PageHeader,
+  ResponsiveImage,
+  TourCard,
   ValidationErrors,
 } from '@components'
+import { Building, fieldPath, getBuildings, getBuildingTours, objectId } from '@content'
 import { PageLayout } from '@layouts'
 
 export async function getStaticPaths() {
@@ -18,6 +19,7 @@ export async function getStaticPaths() {
 }
 
 const building = Astro.props.building as Building
+const tours = await getBuildingTours(building)
 
 const sectionMap = {
   BuildingAttributeSection,
@@ -92,6 +94,21 @@ const sections = {
           sections.below_images.map(({ Component, props, fieldPath }) => (
             <Component {...props} className="mt-12" fieldPath={fieldPath} />
           ))
+        }
+
+        {
+          tours.length > 0 && (
+            <div class="max-w-4xl mt-12">
+              <h2 class="font-bold mb-3 text-sm tracking-widest uppercase text-secondary-500">
+                Tours
+              </h2>
+              <div class="grid sm:grid-cols-2 gap-6">
+                {tours.map((tour) => (
+                  <TourCard {...tour} />
+                ))}
+              </div>
+            </div>
+          )
         }
       </div>
       <div class="md:col-span-5">
