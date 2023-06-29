@@ -1,13 +1,21 @@
 ---
-import { getTours } from '@content'
-import { PageLayout } from '@layouts'
+import { getSiteConfig } from '@/content/utils/site-config'
 import { PageHeader, TourCard } from '@components'
+import { fieldPath, getTours } from '@content'
+import { PageLayout } from '@layouts'
 
 const tours = await getTours()
+
+const siteConfig = await getSiteConfig()
 ---
 
-<PageLayout title="Tours List">
-  <PageHeader title="Walking Tours" theme="primary" icon="eye" />
+<PageLayout title={siteConfig.tours.page_label}>
+  <PageHeader
+    title={siteConfig.tours.page_label}
+    theme={siteConfig.tours.page_header_theme}
+    icon={siteConfig.tours.page_icon}
+    annotations={{ title: fieldPath(`${siteConfig.stackbitId}:tours.page_label`) }}
+  />
 
   <div class="bg-gray-100 py-8">
     <div

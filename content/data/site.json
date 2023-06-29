@@ -74,5 +74,19 @@
                 "href": "https://www.designlearnandbuild.org/blog-4-1"
             }
         ]
+    },
+    "buildings": {
+        "type": "BuildingsConfig",
+        "page_label": "Cincinnati Buildings",
+        "page_icon": "building",
+        "nav_label": "Buildings List",
+        "page_header_theme": "secondary"
+    },
+    "tours": {
+        "type": "ToursConfig",
+        "page_label": "Walking Tours",
+        "page_icon": "eye",
+        "nav_label": "Tours List",
+        "page_header_theme": "primary"
     }
 }

@@ -13,9 +13,11 @@ import { BuildingAttribute } from './BuildingAttribute'
 import { BuildingAttributeSection } from './BuildingAttributeSection'
 import { BuildingRenovation } from './BuildingRenovation'
 import { BuildingRenovationSection } from './BuildingRenovationSection'
+import { BuildingsConfig } from './BuildingsConfig'
 import { Location } from './Location'
 import { SiteFooter, SiteFooterContact, SiteFooterLink } from './SiteFooter'
 import { SiteHeader, SiteHeaderLink } from './SiteHeader'
+import { ToursConfig } from './ToursConfig'
 
 /* ----- Exported Models ----- */
 
@@ -25,6 +27,7 @@ export const models = [
   BuildingAttributeSection,
   BuildingRenovation,
   BuildingRenovationSection,
+  BuildingsConfig,
   Location,
   SiteConfig,
   SiteHeader,
@@ -33,4 +36,5 @@ export const models = [
   SiteFooterContact,
   SiteFooterLink,
   Tour,
+  ToursConfig,
 ]

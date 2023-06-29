@@ -49,7 +49,31 @@ const SiteFooter = defineNestedType(() => ({
   },
 }))
 
-/* ----- Config ----- */
+/* ----- Buildings Config ----- */
+
+const BuildingsConfig = defineNestedType(() => ({
+  name: 'BuildingsConfig',
+  fields: {
+    page_label: { type: 'string', required: true },
+    page_icon: { type: 'enum', options: iconNames.concat(), required: true },
+    page_header_theme: { type: 'enum', options: ['primary', 'secondary'], required: true },
+    nav_label: { type: 'string', required: true },
+  },
+}))
+
+/* ----- Tours Config ----- */
+
+const ToursConfig = defineNestedType(() => ({
+  name: 'ToursConfig',
+  fields: {
+    page_label: { type: 'string', required: true },
+    page_icon: { type: 'enum', options: iconNames.concat(), required: true },
+    page_header_theme: { type: 'enum', options: ['primary', 'secondary'], required: true },
+    nav_label: { type: 'string', required: true },
+  },
+}))
+
+/* ----- Site Config ----- */
 
 export const SiteConfig = defineDocumentType(() => ({
   name: 'SiteConfig',
@@ -63,6 +87,16 @@ export const SiteConfig = defineDocumentType(() => ({
     footer: {
       type: 'nested',
       of: SiteFooter,
+      required: true,
+    },
+    buildings: {
+      type: 'nested',
+      of: BuildingsConfig,
+      required: true,
+    },
+    tours: {
+      type: 'nested',
+      of: ToursConfig,
       required: true,
     },
   },

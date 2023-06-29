@@ -1,10 +1,22 @@
 ---
+import { getSiteConfig } from '@/content/utils/site-config'
 import { Button, Logo } from '@components'
+import { fieldPath } from '@content'
 import { BaseLayout } from '@layouts'
 
+const siteConfig = await getSiteConfig()
+
 const buttons = [
-  { label: 'Buildings List', href: '/buildings' },
-  { label: 'Walking Tours', href: '/tours' },
+  {
+    label: siteConfig.buildings.nav_label,
+    href: '/buildings',
+    fieldPath: `${siteConfig.stackbitId}:buildings.nav_label`,
+  },
+  {
+    label: siteConfig.tours.nav_label,
+    href: '/tours',
+    fieldPath: `${siteConfig.stackbitId}:tours.nav_label`,
+  },
 ]
 ---
 
@@ -24,6 +36,7 @@ const buttons = [
                 outline={true}
                 size={'large'}
                 icon={{ name: 'arrow-right', position: 'right' }}
+                annotations={{ self: {}, label: fieldPath(button.fieldPath) }}
               >
                 {button.label}
               </Button>

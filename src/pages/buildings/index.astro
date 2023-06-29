@@ -1,9 +1,12 @@
 ---
-import { getBuildings } from '@content'
+import { getSiteConfig } from '@/content/utils/site-config'
 import { BuildingCard, PageHeader } from '@components'
+import { fieldPath, getBuildings } from '@content'
 import { PageLayout } from '@layouts'
 
 const buildings = (await getBuildings()).slice(0, 12)
+
+const siteConfig = await getSiteConfig()
 
 // TODO: Add pagination and filtering
 //
@@ -15,8 +18,13 @@ const buildings = (await getBuildings()).slice(0, 12)
 // }
 ---
 
-<PageLayout title="Buildings List">
-  <PageHeader title="Cincinnati Buildings" theme="secondary" icon="building" />
+<PageLayout title={siteConfig.buildings.page_label}>
+  <PageHeader
+    title={siteConfig.buildings.page_label}
+    theme={siteConfig.buildings.page_header_theme}
+    icon={siteConfig.buildings.page_icon}
+    annotations={{ title: fieldPath(`${siteConfig.stackbitId}:buildings.page_label`) }}
+  />
 
   <div class="bg-gray-100 pt-8">
     <div

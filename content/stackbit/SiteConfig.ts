@@ -4,12 +4,32 @@ export const SiteConfig: DataModel = {
   name: 'SiteConfig',
   type: 'data',
   filePath: 'content/data/site.json',
-  // fieldGroups: [
-  //   { name: 'location', icon: 'globe', label: 'Location' },
-  //   { name: 'settings', icon: 'gear', label: 'Settings' },
-  // ],
   fields: [
-    { name: 'header', type: 'model', models: ['SiteHeader'], required: true },
-    { name: 'footer', type: 'model', models: ['SiteFooter'], required: true },
+    {
+      name: 'header',
+      type: 'model',
+      models: ['SiteHeader'],
+      required: true,
+    },
+    {
+      name: 'footer',
+      type: 'model',
+      models: ['SiteFooter'],
+      required: true,
+    },
+    {
+      name: 'buildings',
+      label: 'Buildings Config',
+      type: 'model',
+      models: ['BuildingsConfig'],
+      required: true,
+    },
+    {
+      name: 'tours',
+      label: 'Tours Config',
+      type: 'model',
+      models: ['ToursConfig'],
+      required: true,
+    },
   ],
 }
