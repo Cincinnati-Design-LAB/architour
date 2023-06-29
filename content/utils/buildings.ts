@@ -18,6 +18,53 @@ export async function getBuildings(): Promise<Building[]> {
   return buildings.filter(filterBuilding).filter(validateBuilding)
 }
 
+/* ----- Pagination ----- */
+
+type BuildingCollectionOptions = {}
+
+type BuildingCollection = {
+  buildings: Building[]
+  totalPages: number
+  page: number
+}
+
+/**
+ * Sort, filter, and paginate a list of buildings.
+ *
+ * @param options Sorting and filtering options
+ * @returns A list of filtered and sorted buildings
+ */
+export async function getBuildingPages(
+  options: BuildingCollectionOptions,
+): Promise<BuildingCollection[]> {
+  const buildings = await getBuildings()
+  const buildingsPerPage = 12
+  const totalPages = Math.ceil(buildings.length / buildingsPerPage)
+  return Array.from({ length: totalPages }).map((_, i) => ({
+    buildings: buildings.slice(i * buildingsPerPage, (i + 1) * buildingsPerPage),
+    totalPages,
+    page: i + 1,
+  }))
+}
+
+/**
+ * Gets all building collections and then returns buildings for a specific page.
+ *
+ * @param options Sorting and filtering options
+ * @returns A list of buildings for a particular page
+ */
+export async function getBuildingsOnPage(
+  options: BuildingCollectionOptions & { page: number },
+): Promise<Building[]> {
+  const buildingPages = await getBuildingPages(options)
+  if (options.page > buildingPages.length) {
+    throw new Error(`Page ${options.page} does not exist.`)
+  }
+  return buildingPages[options.page - 1].buildings
+}
+
+/* ----- Transformer ----- */
+
 /**
  * Applies tour count to buildings.
  *
@@ -46,6 +93,14 @@ export async function transformBuilding(building: Contentlayer.Building): Promis
   return { ...building, tourCount, images, featuredImage, excerpt, mapMarker, static_map }
 }
 
+/* ----- References ----- */
+
+/**
+ * Retrieves transformed tours that include a building.
+ *
+ * @param building Transformed building
+ * @returns List of tours that include the building
+ */
 export async function getBuildingTours(building: Building): Promise<Tour[]> {
   const tourHasBuilding = (tour: Tour) => {
     return tour.buildings.map((t) => t.stackbitId).includes(building.stackbitId)
@@ -53,6 +108,8 @@ export async function getBuildingTours(building: Building): Promise<Tour[]> {
   const tours = await getTours()
   return tours.filter(tourHasBuilding)
 }
+
+/* ----- Filters ----- */
 
 /**
  * Determines whether to show buildings in draft mode.
@@ -63,6 +120,8 @@ export async function getBuildingTours(building: Building): Promise<Tour[]> {
 export function filterBuilding(building: Building): boolean {
   return EDITOR_MODE ? true : building.draft !== true
 }
+
+/* ----- Validators ----- */
 
 /**
  * Throws an error if building does not meet minimum requirements for content.

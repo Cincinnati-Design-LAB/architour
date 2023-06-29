@@ -1,36 +1,10 @@
 ---
-import { getSiteConfig } from '@/content/utils/site-config'
-import { BuildingCard, PageHeader } from '@components'
-import { fieldPath, getBuildings } from '@content'
-import { PageLayout } from '@layouts'
+import BuildingList from '@/src/layouts/BuildingList.astro'
+import { getBuildingsOnPage } from '@content'
 
-const buildings = (await getBuildings()).slice(0, 12)
-
-const siteConfig = await getSiteConfig()
+const buildings = await getBuildingsOnPage({ page: 1 })
 
 // TODO: Add pagination and filtering
-//
-// if (!buildings.length) {
-//   return new Response(null, {
-//     status: 404,
-//     statusText: 'Not found',
-//   })
-// }
 ---
 
-<PageLayout title={siteConfig.buildings.page_label}>
-  <PageHeader
-    title={siteConfig.buildings.page_label}
-    theme={siteConfig.buildings.page_header_theme}
-    icon={siteConfig.buildings.page_icon}
-    annotations={{ title: fieldPath(`${siteConfig.stackbitId}:buildings.page_label`) }}
-  />
-
-  <div class="bg-gray-100 pt-8">
-    <div
-      class="max-w-7xl px-4 mx-auto py-12 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-16 gap-x-8"
-    >
-      {buildings.map((building) => <BuildingCard {...building} />)}
-    </div>
-  </div>
-</PageLayout>
+<BuildingList buildings={buildings} />

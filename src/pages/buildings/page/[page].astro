@@ -1,0 +1,20 @@
+---
+import BuildingList from '@/src/layouts/BuildingList.astro'
+import { getBuildingPages, getBuildingsOnPage } from '@content'
+
+export async function getStaticPaths() {
+  const buildingPages = await getBuildingPages({})
+  return buildingPages.map((collection) => ({
+    params: { page: collection.page },
+    props: { buildings: collection.buildings },
+  }))
+}
+
+// const buildings = Astro.props.building as Building[]
+const page = parseInt(Astro.params.page as string)
+const buildings = await getBuildingsOnPage({ page })
+
+// TODO: Add pagination and filtering
+---
+
+<BuildingList buildings={buildings} />
