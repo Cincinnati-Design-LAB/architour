@@ -26,5 +26,53 @@
                 "is_button": true
             }
         ]
+    },
+    "footer": {
+        "type": "SiteFooter",
+        "address": [
+            "659 Van Meter Street, Suite 540",
+            "Cincinnati, Ohio 45202",
+            "(513) 421-4469"
+        ],
+        "contact_links": [
+            {
+                "type": "SiteFooterContact",
+                "label": "Executive Director",
+                "email": "clubbers@architecturecincy.org",
+                "name": "Christen M. Lubbers"
+            },
+            {
+                "type": "SiteFooterContact",
+                "label": "Administrative Assistant",
+                "email": "Admin@architecturecincy.org"
+            }
+        ],
+        "nav_links": [
+            {
+                "type": "SiteFooterLink",
+                "label": "About",
+                "href": "https://www.designlearnandbuild.org/about-us-1"
+            },
+            {
+                "type": "SiteFooterLink",
+                "label": "Student Education",
+                "href": "https://www.designlearnandbuild.org/design-lab"
+            },
+            {
+                "type": "SiteFooterLink",
+                "label": "Programs",
+                "href": "https://www.designlearnandbuild.org/programs-1"
+            },
+            {
+                "type": "SiteFooterLink",
+                "label": "How To Get Involved",
+                "href": "https://www.designlearnandbuild.org/volunteer"
+            },
+            {
+                "type": "SiteFooterLink",
+                "label": "Insights",
+                "href": "https://www.designlearnandbuild.org/blog-4-1"
+            }
+        ]
     }
 }

@@ -1,6 +1,8 @@
 import { defineDocumentType, defineNestedType } from 'contentlayer/source-files'
 import { iconNames } from '../utils/icons'
 
+/* ----- Header ----- */
+
 const SiteHeaderLink = defineNestedType(() => ({
   name: 'SiteHeaderLink',
   fields: {
@@ -19,6 +21,36 @@ const SiteHeader = defineNestedType(() => ({
   },
 }))
 
+/* ----- Footer ----- */
+
+const SiteFooterLink = defineNestedType(() => ({
+  name: 'SiteFooterLink',
+  fields: {
+    label: { type: 'string', required: true },
+    href: { label: 'URL', type: 'string', required: true },
+  },
+}))
+
+const SiteFooterContact = defineNestedType(() => ({
+  name: 'SiteFooterContact',
+  fields: {
+    label: { type: 'string', required: true },
+    name: { type: 'string', required: true },
+    email: { type: 'string', required: true },
+  },
+}))
+
+const SiteFooter = defineNestedType(() => ({
+  name: 'SiteFooter',
+  fields: {
+    address: { type: 'list', required: true, of: { type: 'string' } },
+    contact_links: { type: 'list', of: [SiteFooterContact], required: true },
+    nav_links: { type: 'list', of: SiteFooterLink, required: true },
+  },
+}))
+
+/* ----- Config ----- */
+
 export const SiteConfig = defineDocumentType(() => ({
   name: 'SiteConfig',
   filePathPattern: 'data/site.json',
@@ -26,6 +58,11 @@ export const SiteConfig = defineDocumentType(() => ({
     header: {
       type: 'nested',
       of: SiteHeader,
+      required: true,
+    },
+    footer: {
+      type: 'nested',
+      of: SiteFooter,
       required: true,
     },
   },

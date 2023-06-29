@@ -49,8 +49,8 @@ Stackbit:
 - [ ] Simplify `preview` where it is used (look for `TODO` — talk to Simon)
 - [✔️] Move header content into JSON files
   - [✔️] With inline editing
-- [ ] Move footer content into JSON files
-  - [ ] With inline editing
+- [✔️] Move footer content into JSON files
+  - [✔️] With inline editing
 - [ ] Model for the home page? I think it'd make the sitemap work a little nicer.
   - [ ] With inline editing
 - [ ] Model and inline editing for building and tours list? (Could make part of site config.)
