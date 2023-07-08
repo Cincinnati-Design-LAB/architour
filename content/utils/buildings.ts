@@ -72,25 +72,50 @@ export async function getBuildingsOnPage(
  * @returns Transformed building object
  */
 export async function transformBuilding(building: Contentlayer.Building): Promise<Building> {
-  const tourHasBuilding = (tour) => (tour.buildings || []).includes(building.stackbitId)
-  const tourCount = Contentlayer.allTours.filter(filterTour).filter(tourHasBuilding).length
-  const images = building.images.map((id) => cloudinaryImageUrls(id, ['gallery_item']))
-  const featuredImage = cloudinaryImageUrls(building.images[0], [
-    'card_thumb',
-    'compact_card_hero',
-    'hero',
-    'sidebar',
-  ])
-  const excerpt = await processMarkdown(getExcerpt(building.body.raw))
-  const mapMarker = mapMarkerData({
-    excerpt: excerpt,
-    image: featuredImage,
-    location: building.location,
-    title: building.title,
-    urlPath: building.urlPath,
-  })
-  const static_map = cloudinaryImageUrls(building.static_map, ['sidebar'])
-  return { ...building, tourCount, images, featuredImage, excerpt, mapMarker, static_map }
+  let tourHasBuilding, tourCount, images, featuredImage, excerpt, mapMarker, static_map
+  try {
+    tourHasBuilding = (tour) => (tour.buildings || []).includes(building.stackbitId)
+    tourCount = Contentlayer.allTours.filter(filterTour).filter(tourHasBuilding).length
+    if (building.images) {
+      images = (building.images || []).map((id) => cloudinaryImageUrls(id, ['gallery_item']))
+    }
+    if (building.images && building.images[0]) {
+      featuredImage = cloudinaryImageUrls(building.images[0], [
+        'card_thumb',
+        'compact_card_hero',
+        'hero',
+        'sidebar',
+      ])
+    }
+    if (building.body?.raw) excerpt = await processMarkdown(getExcerpt(building.body.raw))
+    if (building.location?.lat && building.location?.lng) {
+      mapMarker = mapMarkerData({
+        excerpt: excerpt,
+        image: featuredImage,
+        location: building.location,
+        title: building.title,
+        urlPath: building.urlPath,
+      })
+    }
+    if (building.static_map) static_map = cloudinaryImageUrls(building.static_map, ['sidebar'])
+    return { ...building, tourCount, images, featuredImage, excerpt, mapMarker, static_map }
+  } catch (err) {
+    console.error(
+      'Building:',
+      {
+        name: building.title,
+        tourHasBuilding,
+        tourCount,
+        images,
+        featuredImage,
+        excerpt,
+        mapMarker,
+        static_map,
+      },
+      '\n',
+    )
+    throw new Error(`Error transforming building: ${building.urlPath}`)
+  }
 }
 
 /* ----- References ----- */
@@ -144,7 +169,9 @@ export function validateBuilding(building: Building): boolean {
     building.validation_errors.push('Location has not been set')
   }
   // Must have at least one image
-  if (building.images.length < 1) building.validation_errors.push('Must have at least one image')
+  if (!building.images || building.images.length < 1) {
+    building.validation_errors.push('Must have at least one image')
+  }
 
   // Keep the validation errors on the building, but don't throw an error in
   // editor mode.
