@@ -2,6 +2,7 @@ import { GitContentSource } from '@stackbit/cms-git'
 import { defineStackbitConfig } from '@stackbit/types'
 
 import { models } from './content/stackbit'
+import { assetSources } from './content/utils/asset-sources'
 import { onDocumentCreate } from './content/utils/document-hooks'
 
 const gitContentSource = new GitContentSource({
@@ -28,6 +29,7 @@ export default defineStackbitConfig({
   //     passthrough: ['/vite-hmr/**'],
   //   },
   // },
+  assetSources: Object.values(assetSources),
   sidebarButtons: [
     {
       label: 'Site Settings',

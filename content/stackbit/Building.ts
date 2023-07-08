@@ -1,4 +1,5 @@
 import type { PageModel } from '@stackbit/types'
+import { assetSources } from '../utils/asset-sources'
 
 export const Building: PageModel = {
   name: 'Building',
@@ -19,7 +20,7 @@ export const Building: PageModel = {
       name: 'images',
       type: 'list',
       description: 'A list of Cloudinary public IDs for building images',
-      items: { type: 'string' },
+      items: { type: 'image', source: assetSources.buildings.name },
     },
     {
       name: 'completion_date',
