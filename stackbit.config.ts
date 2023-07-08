@@ -1,7 +1,8 @@
-import { defineStackbitConfig } from '@stackbit/types'
 import { GitContentSource } from '@stackbit/cms-git'
+import { defineStackbitConfig } from '@stackbit/types'
 
 import { models } from './content/stackbit'
+import { onDocumentCreate } from './content/utils/document-hooks'
 
 const gitContentSource = new GitContentSource({
   rootPath: __dirname,
@@ -19,6 +20,7 @@ export default defineStackbitConfig({
   stackbitVersion: '~0.6.0',
   ssgName: 'custom',
   contentSources: [gitContentSource],
+  onDocumentCreate,
   // experimental: {
   //   ssg: {
   //     name: 'astro',

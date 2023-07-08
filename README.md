@@ -111,3 +111,4 @@ Notes to add:
   - Make annotations and typing consistent
   - Clean up interactions between links and buttons
   - Remove Contentlayer
+- Cloudinary folder gets automatically created when creating new tour or building
