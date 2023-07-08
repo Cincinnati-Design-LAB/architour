@@ -84,8 +84,11 @@ const sections = {
         {
           building.images && (
             <div class="grid sm:grid-cols-2 gap-6">
-              {building.images.map((image) => (
-                <ResponsiveImage src={image.gallery_item} />
+              {building.images.map((image, index) => (
+                <ResponsiveImage
+                  src={image.gallery_item}
+                  annotations={{ self: fieldPath(`images.${index}`) }}
+                />
               ))}
             </div>
           )
