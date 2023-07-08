@@ -41,12 +41,9 @@ Stackbit:
 - [✔️] Add inline editing for tours and buildings
 - [✔️] Inline editing for list pages
 - [✔️] Only the bare minimum required fields
-- [ ] Method for editing/adding images
-  - [ ] I think the way to do this is to mimic the stackbit behavior in some way. Use the same modal, but get more detailed with the folder we're loading.
-- [ ] Get automatic content reloading working
-- [ ] Extend field for page location (use shared definition)
-- [ ] Extend field for icon (Tour)
-- [ ] Simplify `preview` where it is used (look for `TODO` — talk to Simon)
+- [✔️] Method for editing/adding images
+  - [✔️] I think the way to do this is to mimic the stackbit behavior in some way. Use the same modal, but get more detailed with the folder we're loading.
+    - For now, this is going to be a semi-manual process. I'll add some additional features in there eventually, but keeping it simple for now.
 - [✔️] Move header content into JSON files
   - [✔️] With inline editing
 - [✔️] Move footer content into JSON files
@@ -80,9 +77,12 @@ Pre-Launch Cleanup:
   - A couple issues holding me back from doing this:
     - https://github.com/contentlayerdev/contentlayer/issues/438
     - https://github.com/contentlayerdev/contentlayer/issues/439
+- [ ] Extend field for icon (Tour)
 
 Post-Launch Options:
 
+- [ ] Get automatic content reloading working
+- [ ] Simplify `preview` where it is used (look for `TODO` — talk to Simon)
 - [ ] Replace Contentlayer with a custom mechanism
 - [ ] Consider putting the image variation complexity in component
   - [ ] Consider if Unpic can help
