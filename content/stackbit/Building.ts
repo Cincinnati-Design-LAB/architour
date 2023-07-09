@@ -54,6 +54,7 @@ export const Building: PageModel = {
     {
       name: 'static_map',
       type: 'string',
+      readOnly: true,
       // TODO: Better description
       //
       // description:

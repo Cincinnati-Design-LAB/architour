@@ -52,6 +52,7 @@ Stackbit:
   - [✔️] With inline editing
 - [✔️] Model and inline editing for building and tours list? (Could make part of site config.)
   - [✔️] Would be nice to have them in the sitemap, but they are hard-coded pages, so would have to use `sitemap` config property
+- [✔️] Placeholder sections for new buildings without content
 - [ ] Method for setting the building location without hunting for coordinates
 - [ ] Method for generating static map images (not all have them, but it is now tied to published items only)
   - Using an interactive method for setting the location would then kick off a series of events:

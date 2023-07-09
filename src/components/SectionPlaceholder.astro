@@ -1,0 +1,18 @@
+---
+import { fieldPath } from '@content'
+
+export interface Props {
+  fieldPath: string
+  content: string
+  className?: string
+}
+
+const props = Astro.props as Props
+---
+
+<div
+  class={`flex items-center justify-center bg-slate-100 rounded-md ${props.className}`}
+  {...fieldPath(props.fieldPath)}
+>
+  <div class="px-8 py-16 text-slate-400 font-medium">{props.content}</div>
+</div>
