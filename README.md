@@ -80,6 +80,7 @@ Pre-Launch Cleanup:
     - https://github.com/contentlayerdev/contentlayer/issues/438
     - https://github.com/contentlayerdev/contentlayer/issues/439
 - [ ] Extend field for icon (Tour)
+- [ ] Ensure that updating a location updates the static map in a cloud project
 
 Post-Launch Options:
 
