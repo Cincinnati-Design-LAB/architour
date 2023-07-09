@@ -6,5 +6,5 @@ images: []
 location:
   type: Location
   lat: 39.1018
-  lng: -84.5226
+  lng: -84.5120005
 ---
