@@ -24,12 +24,14 @@ export const Location: ObjectModel = {
     {
       name: 'lat',
       type: 'number',
+      subtype: 'float',
       description: 'Latitude for the location',
       required: true,
     },
     {
       name: 'lng',
       type: 'number',
+      subtype: 'float',
       description: 'Longitude for the location',
       required: true,
     },
