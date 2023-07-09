@@ -1,0 +1,101 @@
+---
+import { Building, fieldPath } from '@content'
+
+export interface Props {
+  building: Building
+}
+
+const props = Astro.props as Props
+
+let mapCenter = [-84.511198, 39.1015]
+if (props.building.location?.lat && props.building.location?.lng) {
+  mapCenter = [props.building.location.lng, props.building.location.lat]
+}
+---
+
+<div class="mt-12 mb-16">
+  <span class="hidden">
+    <span id="map-center">{JSON.stringify(mapCenter)}</span>
+  </span>
+
+  <div>
+    <span class="block font-bold mb-1 text-sm tracking-widest uppercase text-secondary-500">
+      Building Coordinates
+    </span>
+    <div class="mb-4" {...fieldPath('location')}>
+      {
+        props.building.location?.lat && (
+          <p>
+            Lat: <span {...fieldPath('.lat')}>{props.building.location?.lat}</span>
+          </p>
+        )
+      }
+      {
+        props.building.location?.lng && (
+          <p>
+            Lng: <span {...fieldPath('.lng')}>{props.building.location?.lng}</span>
+          </p>
+        )
+      }
+      {!props.building.location?.lat && !props.building.location?.lng && <p>Not Set</p>}
+    </div>
+    <p class="text-sm italic text-slate-500 max-w-2xl mb-3">
+      Note that this section does not appear on the public site. It is a utility for setting the
+      building's location.
+      <strong>Clicking the map does not automatically save coordiantes</strong>, but will produce
+      the coordinates that you can copy and paste either in this section or using the Location group
+      in the side panel.
+    </p>
+  </div>
+
+  <div class="relative">
+    <div id="building-location-picker" class="h-96 overflow-hidden"></div>
+    <div
+      class="absolute bg-slate-300/80 px-6 py-3 text-slate-600 text-sm font-medium left-0 top-0"
+      id="click-coordinates"
+    >
+      Click on map for coords ...
+    </div>
+  </div>
+</div>
+
+<script>
+  import mapboxgl, { LngLatLike } from 'mapbox-gl'
+
+  /* --- Setup Map --- */
+
+  mapboxgl.accessToken = import.meta.env.PUBLIC_MAPBOX_TOKEN
+
+  const mapCenter: LngLatLike = JSON.parse(document.getElementById('map-center')!.innerHTML)
+
+  const map = new mapboxgl.Map({
+    container: 'building-location-picker',
+    style: `mapbox://styles/${import.meta.env.PUBLIC_MAPBOX_STYLE}`,
+    center: mapCenter,
+    zoom: 13,
+  })
+
+  map.addControl(new mapboxgl.NavigationControl(), 'top-right')
+
+  const markerEl = document.createElement('div')
+  markerEl.className = 'building-markerEl'
+  markerEl.style.backgroundColor = '#3D3935'
+  markerEl.style.width = '1.5rem'
+  markerEl.style.height = '1.5rem'
+  markerEl.style.borderRadius = '50%'
+  markerEl.style.border = '.2rem solid white'
+
+  const marker = new mapboxgl.Marker(markerEl).setLngLat(mapCenter).addTo(map)
+
+  map.on('click', (event) => {
+    const el = document.getElementById('click-coordinates')
+    el.innerHTML = `Lat: ${event.lngLat.lat.toFixed(4)} | Lng: ${event.lngLat.lng.toFixed(4)}`
+    marker.setLngLat(event.lngLat)
+  })
+</script>
+
+<style is:global>
+  .mapboxgl-ctrl.mapboxgl-ctrl-attrib {
+    @apply hidden;
+  }
+</style>

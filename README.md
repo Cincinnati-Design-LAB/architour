@@ -53,13 +53,14 @@ Stackbit:
 - [✔️] Model and inline editing for building and tours list? (Could make part of site config.)
   - [✔️] Would be nice to have them in the sitemap, but they are hard-coded pages, so would have to use `sitemap` config property
 - [✔️] Placeholder sections for new buildings without content
-- [ ] Method for setting the building location without hunting for coordinates
+- [✔️] Method for setting the building location without hunting for coordinates
 - [ ] Method for generating static map images (not all have them, but it is now tied to published items only)
   - Using an interactive method for setting the location would then kick off a series of events:
     1. Store the location on the file
     2. Generate static map, set cache and map on file
     3. Re-generate static map and cache for all associated tours
   - [ ] Should this happen locally or commit a change to GitHub?
+- [ ] Mapbox map doesn't load in Stackbit
 
 Last Few UI Features:
 

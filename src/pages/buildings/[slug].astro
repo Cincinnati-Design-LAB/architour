@@ -1,4 +1,7 @@
 ---
+import 'mapbox-gl/dist/mapbox-gl.css'
+
+import BuildingLocationPicker from '@/src/components/BuildingLocationPicker.astro'
 import SectionPlaceholder from '@/src/components/SectionPlaceholder.astro'
 import {
   BuildingAttributeSection,
@@ -146,5 +149,6 @@ const sections = {
         }
       </div>
     </div>
+    {import.meta.env.EDITOR_MODE && <BuildingLocationPicker building={building} />}
   </div>
 </PageLayout>
