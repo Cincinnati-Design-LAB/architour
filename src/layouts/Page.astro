@@ -12,9 +12,15 @@ const { title, class: classNames, ...props } = Astro.props as Props
 ---
 
 <BaseLayout title={title} {...props}>
-  <Header />
-  <main class={classNames?.main}>
-    <slot />
-  </main>
-  <Footer />
+  <div class="flex flex-col justify-between min-h-screen">
+    <div>
+      <Header />
+    </div>
+    <main class={classNames?.main}>
+      <slot />
+    </main>
+    <div>
+      <Footer />
+    </div>
+  </div>
 </BaseLayout>
