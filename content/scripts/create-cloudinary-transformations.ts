@@ -1,5 +1,5 @@
+import { getTransformationDprVariations, TRANSFORMATIONS } from '@/content/utils/images'
 import { v2 as cloudinary } from 'cloudinary'
-import { getTransformationDprVariations, TRANSFORMATIONS } from '../utils/images.js'
 
 /**
  * This script deleted all existing Cloudinary named transformations, and then
@@ -66,10 +66,12 @@ async function createTransformation(name, options) {
 
 /* --- Runner --- */
 
-await deleteTransformations()
+;(async () => {
+  await deleteTransformations()
 
-for (const t of TRANSFORMATIONS) {
-  for (const { name, options } of getTransformationDprVariations(t.name, t.options)) {
-    await createTransformation(name, options)
+  for (const t of TRANSFORMATIONS) {
+    for (const { name, options } of getTransformationDprVariations(t.name, t.options)) {
+      await createTransformation(name, options)
+    }
   }
-}
+})()

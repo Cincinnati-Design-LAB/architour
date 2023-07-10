@@ -174,41 +174,43 @@ const buildingsWithLocation: BuildingFile[] = glob
   })
   .filter((file) => file.data.location?.lat && file.data.location?.lng)
 
-for (const { filePath, content, data } of buildingsWithLocation) {
-  // Cloudinary directory name reference. This matches how we're storing images
-  // elsewhere.
-  const slug = path.basename(filePath, '.md')
-  const cloudinaryDir = `buildings/${slug}`
+;(async () => {
+  for (const { filePath, content, data } of buildingsWithLocation) {
+    // Cloudinary directory name reference. This matches how we're storing images
+    // elsewhere.
+    const slug = path.basename(filePath, '.md')
+    const cloudinaryDir = `buildings/${slug}`
 
-  // Cache key to know whether we should update the static map URL. We use the
-  // location because it's the only thing that can change the static map.
-  const newCacheKey = JSON.stringify(data.location)
+    // Cache key to know whether we should update the static map URL. We use the
+    // location because it's the only thing that can change the static map.
+    const newCacheKey = JSON.stringify(data.location)
 
-  // Skip if we've already generated this static map, which means that there is
-  // a URL for it and the cache key matches the current location.
-  if (hasCurrentImage(data, newCacheKey)) continue
+    // Skip if we've already generated this static map, which means that there is
+    // a URL for it and the cache key matches the current location.
+    if (hasCurrentImage(data, newCacheKey)) continue
 
-  // Create static map URL
-  const smUrl = {
-    lat: data.location.lat,
-    lng: data.location.lng,
-    style: process.env.PUBLIC_MAPBOX_STYLE,
-    token: process.env.STATIC_MAPBOX_TOKEN,
-    markerUrl: MAP_MARKER_URL,
+    // Create static map URL
+    const smUrl = {
+      lat: data.location.lat,
+      lng: data.location.lng,
+      style: process.env.PUBLIC_MAPBOX_STYLE,
+      token: process.env.STATIC_MAPBOX_TOKEN,
+      markerUrl: MAP_MARKER_URL,
+    }
+    const newStaticMapUrl = `https://api.mapbox.com/styles/v1/${smUrl.style}/static/url-${smUrl.markerUrl}(${data.location.lng},${data.location.lat})/${data.location.lng},${data.location.lat},15,0/800x450@2x?access_token=${smUrl.token}`
+
+    // Process new static map image and store in the source file.
+    await updateStaticMapImage({
+      filePath,
+      content,
+      contentType: 'Building',
+      data,
+      newStaticMapUrl,
+      newCacheKey,
+      cloudinaryDir,
+    })
   }
-  const newStaticMapUrl = `https://api.mapbox.com/styles/v1/${smUrl.style}/static/url-${smUrl.markerUrl}(${data.location.lng},${data.location.lat})/${data.location.lng},${data.location.lat},15,0/800x450@2x?access_token=${smUrl.token}`
-
-  // Process new static map image and store in the source file.
-  await updateStaticMapImage({
-    filePath,
-    content,
-    contentType: 'Building',
-    data,
-    newStaticMapUrl,
-    newCacheKey,
-    cloudinaryDir,
-  })
-}
+})()
 
 /* --- Tours --- */
 
@@ -232,49 +234,51 @@ const toursWithBuildings: TourFile[] = glob
   })
   .filter((file) => file.data.buildings && file.data.buildings.length > 0)
 
-for (const { filePath, content, data } of toursWithBuildings) {
-  // Cloudinary directory name reference. This matches how we're storing images
-  // elsewhere.
-  const slug = path.basename(filePath, '.md')
-  const cloudinaryDir = `tours/${slug}`
+;(async () => {
+  for (const { filePath, content, data } of toursWithBuildings) {
+    // Cloudinary directory name reference. This matches how we're storing images
+    // elsewhere.
+    const slug = path.basename(filePath, '.md')
+    const cloudinaryDir = `tours/${slug}`
 
-  // Get all the locations for the buildings in this tour.
-  //
-  // Filter out any buildings that are in edit mode. This runs only in
-  // production mode and assumes the application is going to throw an error if
-  // there are any published buildings that don't pass validation.
-  const buildingFiles = data.buildings
-    .map((filePath) => buildingsWithLocation.find((b) => b.filePath.endsWith(filePath)))
-    .filter(Boolean) as BuildingFile[]
-  const markerCoords = buildingFiles.map((b) => b.data.location).filter(Boolean)
+    // Get all the locations for the buildings in this tour.
+    //
+    // Filter out any buildings that are in edit mode. This runs only in
+    // production mode and assumes the application is going to throw an error if
+    // there are any published buildings that don't pass validation.
+    const buildingFiles = data.buildings
+      .map((filePath) => buildingsWithLocation.find((b) => b.filePath.endsWith(filePath)))
+      .filter(Boolean) as BuildingFile[]
+    const markerCoords = buildingFiles.map((b) => b.data.location).filter(Boolean)
 
-  // Move on if there are no buildings with locations.
-  if (markerCoords.length === 0) continue
+    // Move on if there are no buildings with locations.
+    if (markerCoords.length === 0) continue
 
-  // Cache key to know whether we should update the static map URL. We use the
-  // location because it's the only thing that can change the static map.
-  const newCacheKey = JSON.stringify(markerCoords)
+    // Cache key to know whether we should update the static map URL. We use the
+    // location because it's the only thing that can change the static map.
+    const newCacheKey = JSON.stringify(markerCoords)
 
-  // Skip if we've already generated this static map, which means that there is
-  // a URL for it and the cache key matches the current location.
-  if (hasCurrentImage(data, newCacheKey)) continue
+    // Skip if we've already generated this static map, which means that there is
+    // a URL for it and the cache key matches the current location.
+    if (hasCurrentImage(data, newCacheKey)) continue
 
-  // Create static map URL
-  const smUrl = {
-    style: process.env.PUBLIC_MAPBOX_STYLE,
-    token: process.env.STATIC_MAPBOX_TOKEN,
-    markers: markerCoords.map((loc) => `url-${MAP_MARKER_URL}(${loc.lng},${loc.lat})`).join(','),
+    // Create static map URL
+    const smUrl = {
+      style: process.env.PUBLIC_MAPBOX_STYLE,
+      token: process.env.STATIC_MAPBOX_TOKEN,
+      markers: markerCoords.map((loc) => `url-${MAP_MARKER_URL}(${loc.lng},${loc.lat})`).join(','),
+    }
+    const newStaticMapUrl = `https://api.mapbox.com/styles/v1/${smUrl.style}/static/${smUrl.markers}/auto/800x450@2x?padding=20&access_token=${smUrl.token}`
+
+    // Process new static map image and store in the source file.
+    await updateStaticMapImage({
+      filePath,
+      content,
+      contentType: 'Tour',
+      data,
+      newStaticMapUrl,
+      newCacheKey,
+      cloudinaryDir,
+    })
   }
-  const newStaticMapUrl = `https://api.mapbox.com/styles/v1/${smUrl.style}/static/${smUrl.markers}/auto/800x450@2x?padding=20&access_token=${smUrl.token}`
-
-  // Process new static map image and store in the source file.
-  await updateStaticMapImage({
-    filePath,
-    content,
-    contentType: 'Tour',
-    data,
-    newStaticMapUrl,
-    newCacheKey,
-    cloudinaryDir,
-  })
-}
+})()

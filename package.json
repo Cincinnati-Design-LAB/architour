@@ -5,9 +5,10 @@
   "scripts": {
     "astro:build": "astro build",
     "astro:dev": "astro dev",
-    "cloudinary:create-transformations": "ts-node --esm ./content/scripts/create-cloudinary-transformations.ts",
-    "content:cache-static-map-urls": "ts-node --esm ./content/scripts/cache-static-map-urls.ts",
+    "cloudinary:create-transformations": "ts-node ./content/scripts/create-cloudinary-transformations.ts",
+    "content:cache-static-map-urls": "ts-node ./content/scripts/cache-static-map-urls.ts",
     "content:generate-cache": "ts-node ./content/scripts/generate-content-cache.ts",
+    "content:watch": "nodemon ./content/scripts/generate-content-cache.ts",
     "check": "astro check",
     "dev": "npm-run-all -p contentlayer:dev astro:dev",
     "start": "astro dev",
@@ -22,6 +23,7 @@
     "cloudinary": "^1.34.0",
     "contentlayer": "^0.3.4",
     "mapbox-gl": "^2.13.0",
+    "nodemon": "^3.0.1",
     "rehype-sanitize": "^5.0.1",
     "rehype-stringify": "^9.0.3",
     "remark-parse": "^10.0.1",
@@ -43,5 +45,10 @@
     "prettier": "^2.8.3",
     "prettier-plugin-astro": "^0.8.0",
     "ts-node": "^10.9.1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "./content/generated/**/*.json"
+    ]
   }
 }
