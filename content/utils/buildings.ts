@@ -72,9 +72,10 @@ export async function getBuildingsOnPage(
  * @returns Transformed building object
  */
 export async function transformBuilding(building: Contentlayer.Building): Promise<Building> {
-  let tourHasBuilding, tourCount, images, featuredImage, excerpt, mapMarker, static_map
+  const tourHasBuilding = (tour) => (tour.buildings || []).includes(building.stackbitId)
+
+  let tourCount, images, featuredImage, excerpt, mapMarker, static_map
   try {
-    tourHasBuilding = (tour) => (tour.buildings || []).includes(building.stackbitId)
     tourCount = Contentlayer.allTours.filter(filterTour).filter(tourHasBuilding).length
     if (building.images) {
       images = (building.images || []).map((id) => cloudinaryImageUrls(id, ['gallery_item']))
@@ -104,7 +105,6 @@ export async function transformBuilding(building: Contentlayer.Building): Promis
       'Building:',
       {
         name: building.title,
-        tourHasBuilding,
         tourCount,
         images,
         featuredImage,

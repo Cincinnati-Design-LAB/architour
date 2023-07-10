@@ -9,5 +9,6 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports": true,
     "source.addMissingImports": true
-  }
+  },
+  "typescript.preferences.importModuleSpecifier": "non-relative"
 }
