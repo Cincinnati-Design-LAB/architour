@@ -27,6 +27,7 @@ jobs:
         env:
           PUBLIC_MAPBOX_STYLE: ${{ secrets.PUBLIC_MAPBOX_STYLE }}
           STATIC_MAPBOX_TOKEN: ${{ secrets.STATIC_MAPBOX_TOKEN }}
+          CLOUDINARY_URL: ${{ secrets.CLOUDINARY_URL }}
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: '[Bot] Cache static maps'
