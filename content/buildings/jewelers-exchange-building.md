@@ -21,4 +21,6 @@ sections:
     renovations:
       - title: Renovation
         date: '1969'
+static_map: buildings/jewelers-exchange-building/static-map_x8mjra
+static_map_cache: '{"lat":39.103439,"lng":-84.515019}'
 ---

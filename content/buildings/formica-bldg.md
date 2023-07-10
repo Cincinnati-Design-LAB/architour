@@ -22,6 +22,8 @@ sections:
         value: International
       - label: Architect
         value: Harry Weese & Associates
+static_map: buildings/formica-bldg/static-map_vw0qiy
+static_map_cache: '{"lat":39.1004,"lng":-84.5108585}'
 ---
 
 The retail arcade connected Fourth and Fifth Streets. The upper level of the arcade connected to the new skywalk system, and the north end housed the previous location of the Contemporary Arts Center.

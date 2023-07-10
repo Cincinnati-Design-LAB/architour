@@ -73,6 +73,8 @@ sections:
           following:  Sarah Center, a women's enrichment program, a parish nurse
           program, a lunch bag program for day laborers, a financial assistance
           program, and a hospitality center for homeless people.
+static_map: buildings/st-francis-seraph-church/static-map_z8r1te
+static_map_cache: '{"lat":39.11302,"lng":-84.516371}'
 ---
 
 The first Catholic church in the Greater Cincinnati area, Christ Church, was built on the site of St. Francis Seraph in 1819. Because of the anti-Catholic sentiment that existed in the city and troughout the country, the church was located north of Central Parkway where land was cheap and where there were no city taxes. When Edward Fenwick became bishop, he directed the relocation of the original church in 1822 to the current site of St. Xavier Church at Sixth and Sycamore, and St. Francis Seraph Church was constructed at the original location. Since Christ Church included a cemetery, many of those interred were relocated to other cemeteries, but some families saw it as an honor to have the graves of their ancestors placed under the new church. The crypt is located under the alter of the new church.

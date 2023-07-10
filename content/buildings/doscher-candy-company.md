@@ -17,6 +17,8 @@ sections:
         value: A&J Doescher Candy Company
       - label: Completion Date
         value: '1885'
+static_map: buildings/doscher-candy-company/static-map_xt2cda
+static_map_cache: '{"lat":39.10865,"lng":-84.5141510999999}'
 ---
 
 The building is clad with cast-iron ornamentation instead of the more common terra cotta or stone ornament.

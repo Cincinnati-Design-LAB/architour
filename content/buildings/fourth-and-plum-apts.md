@@ -40,4 +40,6 @@ sections:
           residential space to downtown Cincinnati.  The two level rooftop
           addition provided the desired amenity space to make the building
           appealing to a younger rental marketplace.
+static_map: buildings/fourth-and-plum-apts/static-map_mgdr7p
+static_map_cache: '{"lat":39.0989969,"lng":-84.51699}'
 ---

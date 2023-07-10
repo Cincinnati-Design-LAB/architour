@@ -45,6 +45,8 @@ sections:
         value: Modern
       - label: Architect
         value: Frank Gehry
+static_map: buildings/uc-vontz-center-for-molecular-studies/static-map_gp2jur
+static_map_cache: '{"lat":39.136365,"lng":-84.505764}'
 ---
 
 The building has an ordered plan to accommodate the various laboratories within that belies the articulated curving façade characteristic of Gehry-designed buildings. Challenged with designing a brick building to reflect UC's historic character, Gehry and his team developed a panelized preformed brick facade system that could be factory built to achieve the challenging geometry of the building.

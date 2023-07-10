@@ -19,4 +19,6 @@ sections:
         value: International
       - label: Architect
         value: Robert J. Bridges Associates
+static_map: buildings/saks/static-map_aroydb
+static_map_cache: '{"lat":39.10046,"lng":-84.5147841}'
 ---

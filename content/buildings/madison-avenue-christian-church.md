@@ -24,4 +24,6 @@ sections:
         value: '1910'
       - label: Style
         value: Italian Renaissance Revival
+static_map: buildings/madison-avenue-christian-church/static-map_byielc
+static_map_cache: '{"lat":39.072938,"lng":-84.507265}'
 ---

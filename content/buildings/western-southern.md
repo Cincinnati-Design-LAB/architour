@@ -37,4 +37,6 @@ sections:
       - title: Renovation
         date: 1935 & 1961
         architect: Harry Hake & Harry Hake Jr.
+static_map: buildings/western-southern/static-map_w4yrzd
+static_map_cache: '{"lat":39.101857,"lng":-84.5058558}'
 ---

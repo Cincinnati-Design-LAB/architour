@@ -28,4 +28,6 @@ sections:
       - title: Renovation
         date: '1972'
         architect: SOM
+static_map: buildings/p-and-g-central-bldg/static-map_xvqkrm
+static_map_cache: '{"lat":39.103,"lng":-84.507448}'
 ---

@@ -31,6 +31,8 @@ sections:
         value: Modernist
       - label: Architect
         value: Sherman Carter Barnhart
+static_map: buildings/northern-kentucky-convention-center/static-map_bsbfdn
+static_map_cache: '{"lat":39.089478,"lng":-84.511774}'
 ---
 
 Championed by Corporex, the developer of the adjacent hotels, office buildings, and courthouse, the convention center became part of the redevelopment strategy for the Covington riverfront and an important anchor to encourage development in the community.

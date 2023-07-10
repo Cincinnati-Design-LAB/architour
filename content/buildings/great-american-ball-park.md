@@ -43,6 +43,8 @@ sections:
         value: Professional baseball stadium
       - label: Architect
         value: Populous (HOK Sport)
+static_map: buildings/great-american-ball-park/static-map_qe2ufj
+static_map_cache: '{"lat":39.098,"lng":-84.508}'
 ---
 
 Smaller than its predecessor, the new ball park is more intimate and nostalgic in character inspired by Baltimore's Camden Yards. Its external massing creates a more appropriate urban scale to relate to the adjacent Banks development and houses the Reds Hall of Fame and Museum.

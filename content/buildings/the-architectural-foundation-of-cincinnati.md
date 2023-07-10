@@ -12,4 +12,6 @@ location:
 address: '811 Race St., Cincinnati, OH  45202'
 draft: true
 sections: []
+static_map: buildings/the-architectural-foundation-of-cincinnati/static-map_euoqht
+static_map_cache: '{"lat":39.10476,"lng":-84.51569}'
 ---

@@ -27,6 +27,8 @@ sections:
         value: Late Gothic Revival
       - label: Architect
         value: Tietig & Lee
+static_map: buildings/doctors-building/static-map_q83vtk
+static_map_cache: '{"lat":39.104196,"lng":-84.514629}'
 ---
 
 It was the only major commercial building constructed to house doctors' offices. Part of the Allyn Company's plan to create an enclave of buildings on Garfield Place, it was the only building executed from the plan.

@@ -31,6 +31,8 @@ sections:
     attributes:
       - label: Completion Date
         value: '1817'
+static_map: buildings/piatt-park-garfield-place/static-map_b2vgsa
+static_map_cache: '{"lat":39.10429,"lng":-84.515388}'
 ---
 
 It is the oldest park in Cincinnati. Located in the center of the street, the park spans two downtown blocks. John and Benjamin Piatt originally donated the land for a public market, but the one located on Sixth Street was deemed too close to make this site viable.

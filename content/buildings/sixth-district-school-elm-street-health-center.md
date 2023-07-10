@@ -22,4 +22,6 @@ sections:
         value: Second Renaissance Revival
       - label: Architect
         value: Henry Siter
+static_map: buildings/sixth-district-school-elm-street-health-center/static-map_nmxs3w
+static_map_cache: '{"lat":39.1122,"lng":-84.5193}'
 ---

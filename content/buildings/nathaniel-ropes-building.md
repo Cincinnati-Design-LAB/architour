@@ -22,4 +22,6 @@ sections:
         value: '1882'
       - label: Style
         value: Queen Anne
+static_map: buildings/nathaniel-ropes-building/static-map_nc0xap
+static_map_cache: '{"lat":39.1063227,"lng":-84.51118}'
 ---

@@ -98,6 +98,8 @@ sections:
           maintained to reinforce that sense.  Participants in the programs are
           called "artists", "dancers", "musicians", etc. to make these students
           see themselves as creative people.
+static_map: buildings/uptown-arts/static-map_y8wbvl
+static_map_cache: '{"lat":39.1123,"lng":-84.513078}'
 ---
 
 Uptown Arts was a pioneer in the renaissance of Over-the-Rhine along with the Art Academy and Lightbourne Communications.

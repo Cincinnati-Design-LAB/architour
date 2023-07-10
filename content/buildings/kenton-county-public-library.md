@@ -34,4 +34,6 @@ sections:
           the exterior of the building.
         date: '2013'
         architect: DesignGroup
+static_map: buildings/kenton-county-public-library/static-map_ahccgm
+static_map_cache: '{"lat":39.085439,"lng":-84.508853}'
 ---

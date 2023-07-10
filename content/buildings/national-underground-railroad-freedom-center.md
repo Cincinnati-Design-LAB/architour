@@ -31,6 +31,8 @@ sections:
           railroad.
       - label: Architect
         value: Blackburn Architects
+static_map: buildings/national-underground-railroad-freedom-center/static-map_unfmc4
+static_map_cache: '{"lat":39.0978,"lng":-84.5112311}'
 ---
 
 The building is designed in 3 sections that symbolically represent the three Constitutional Amendments that led to the end of slavery, and the winding spaces between the masses represent the perilous paths that slaves took to escape their owners. Located at the end of the Roebling Suspension Bridge, it represents the point where slaves landed in the north finding freedom.

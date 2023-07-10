@@ -25,6 +25,8 @@ sections:
         value: >-
           Samuel Hannaford, one of Cincinnati's most prolific 19th Century
           architects who also designed Cincinnati City Hall and Music Hall.
+static_map: buildings/john-church-company-building/static-map_cuvlrr
+static_map_cache: '{"lat":39.100275,"lng":-84.512223}'
 ---
 
 Home of the largest music publishing house in Ohio in the late 1870s.

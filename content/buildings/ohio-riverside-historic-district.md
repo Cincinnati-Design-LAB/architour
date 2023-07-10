@@ -31,6 +31,8 @@ sections:
           Homes and buildings are predominantly Italianate, French Second
           Empire, Greek Revival, Queen Anne, High Victorian Gothic, and American
           Craftsman styles
+static_map: buildings/ohio-riverside-historic-district/static-map_iadume
+static_map_cache: '{"lat":39.091157,"lng":-84.507093}'
 ---
 
 Early settlement of Covington began here in the 1790s when ferry service across the river began. The area remains popular today providing breathtaking views of Cincinnati from these homes. In 2014, the American Planning Association rated the district as one of the ten best neighborhoods in the U.S.

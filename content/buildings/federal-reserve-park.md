@@ -20,4 +20,6 @@ sections:
     attributes:
       - label: Original Owner
         value: Federal Reserve Bank of Cleveland
+static_map: buildings/federal-reserve-park/static-map_yisuvm
+static_map_cache: '{"lat":39.1011493,"lng":-84.5100822}'
 ---

@@ -47,6 +47,8 @@ sections:
         description: >-
           Modern An 800-seat auditorium was constructed south of the original
           building providing new assemblly and presentation space.
+static_map: buildings/uc-tangeman-university-center/static-map_vjty3f
+static_map_cache: '{"lat":39.131763,"lng":-84.517772}'
 ---
 
 The building has long been the center of student life on the campus. The bridge at the west entry of the building was the popular gathering spot for students throughout the year.

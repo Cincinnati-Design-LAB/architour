@@ -26,6 +26,8 @@ sections:
           Samuel Hannaford & Sons, one of Cincinnati's most prolific 19th
           Century architects who also designed Cincinnati City Hall and Music
           Hall.
+static_map: buildings/emery-theatre/static-map_lz33xj
+static_map_cache: '{"lat":39.1081791,"lng":-84.5128755}'
 ---
 
 From 1912 to 1936, the auditorium was home to the Cincinnati Symphony Orchestra. It is a world class concert hall with a major pipe organ. Today the venue offers an alternative intimate setting for smaller concerts. An organization has been formed to champion the restoration of the theatre.

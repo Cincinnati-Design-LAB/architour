@@ -36,6 +36,8 @@ sections:
     renovations:
       - title: conversion from apartment building to hotel
         date: ''
+static_map: buildings/residence-inn-phelps-building/static-map_ndfbai
+static_map_cache: '{"lat":39.10165,"lng":-84.5045}'
 ---
 
 The building was built by Charles Phelps Taft to counter the migration to the suburbs and encourage business people to live in the downtown area.

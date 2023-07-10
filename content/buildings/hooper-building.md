@@ -27,6 +27,8 @@ sections:
           Samuel Hannaford & Sons, one of Cincinnati's most prolific 19th
           Century architects who also designed Cincinnati City Hall and Music
           Hall.
+static_map: buildings/hooper-building/static-map_rsjfli
+static_map_cache: '{"lat":39.099251,"lng":-84.51539}'
 ---
 
 The building housed the John Church Company when originally constructed. The company was the largest publisher of sacred music in the world.

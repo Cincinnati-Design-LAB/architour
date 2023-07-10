@@ -40,4 +40,6 @@ sections:
           being acquired in 1988.  In 2016, it was converted into a boutique
           hotel.
         date: ''
+static_map: buildings/hotel-covington-coppins-department-store/static-map_bpkzqr
+static_map_cache: '{"lat":39.083578,"lng":-84.510046}'
 ---

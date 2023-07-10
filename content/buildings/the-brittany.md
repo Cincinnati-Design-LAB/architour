@@ -37,4 +37,6 @@ sections:
     renovations:
       - title: Renovation
         date: '1980'
+static_map: buildings/the-brittany/static-map_gyabdk
+static_map_cache: '{"lat":39.105162,"lng":-84.515943}'
 ---

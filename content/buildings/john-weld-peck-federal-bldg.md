@@ -27,6 +27,8 @@ sections:
         value: Twentieth Century Modern
       - label: Architect
         value: 'Potter, Tyler, Martin & Roth'
+static_map: buildings/john-weld-peck-federal-bldg/static-map_nhqcfi
+static_map_cache: '{"lat":39.1025458,"lng":-84.5095669}'
 ---
 
 The building is named after th 117th Justice of the Supreme Court of Ohio and a justice on the US Court of Appeals for the Sixth Circuit in Cincinnati.

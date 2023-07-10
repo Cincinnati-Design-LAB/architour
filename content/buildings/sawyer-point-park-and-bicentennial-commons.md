@@ -40,6 +40,8 @@ sections:
           Cincinnati's bicentennial.
       - label: Architect
         value: Glaserworks (formerly Glaser Associates)
+static_map: buildings/sawyer-point-park-and-bicentennial-commons/static-map_ihq1fl
+static_map_cache: '{"lat":39.102368,"lng":-84.496766}'
 ---
 
 Built to commemorate the bicentennial of the founding of Cincinnati (formerly Losantiville), the park was funded by the City, The Greater Cincinnati Foundation, and private donations.

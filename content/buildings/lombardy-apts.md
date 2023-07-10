@@ -27,6 +27,8 @@ sections:
         value: >-
           Samuel Hannaford, one of Cincinnati's most prolific 19th Century
           architects who also designed Cincinnati City Hall and Music Hall.
+static_map: buildings/lombardy-apts/static-map_hbxlnf
+static_map_cache: '{"lat":39.09935,"lng":-84.51825}'
 ---
 
 The building is the oldest apartment building in Cincinnati, the first to provide both kitchens and bathrooms in every apartment. The future President, William Howard Taft, resided in the building in 1883.

@@ -23,4 +23,6 @@ sections:
         value: Apartments
       - label: Architect
         value: Gruzen Samton
+static_map: buildings/the-gramercy/static-map_h8wdmb
+static_map_cache: '{"lat":39.103928,"lng":-84.516477}'
 ---

@@ -34,4 +34,6 @@ sections:
       - title: Converted to luxury apartments
         date: '2002'
         description: Converted to luxury apartments
+static_map: buildings/the-renaissance-power-building/static-map_otynbt
+static_map_cache: '{"lat":39.105173,"lng":-84.50941}'
 ---

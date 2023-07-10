@@ -19,4 +19,6 @@ sections:
         value: Italian Renaissance
       - label: Architect
         value: Hake & Kuck
+static_map: buildings/taft-theater/static-map_x2ldfr
+static_map_cache: '{"lat":39.1017,"lng":-84.5078}'
 ---

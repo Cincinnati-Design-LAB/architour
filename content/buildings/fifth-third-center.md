@@ -40,6 +40,8 @@ sections:
         value: International
       - label: Architect
         value: Harrison & Abramovitz
+static_map: buildings/fifth-third-center/static-map_kyrqao
+static_map_cache: '{"lat":39.10155,"lng":-84.5117254}'
 ---
 
 The tower was the first major building constructed as part of the implementation of the 1964 Downtown Plan.

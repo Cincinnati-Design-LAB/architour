@@ -24,4 +24,6 @@ sections:
         value: Art Deco
       - label: Architect
         value: Hake & Kuck
+static_map: buildings/izzys/static-map_ezhinv
+static_map_cache: '{"lat":39.1032716,"lng":-84.51}'
 ---

@@ -33,4 +33,6 @@ sections:
         value: RTKL
       - label: Contractor
         value: Henry C. Beck Construction Co.
+static_map: buildings/macys-federated-department-stores/static-map_fvniho
+static_map_cache: '{"lat":39.103519,"lng":-84.514231}'
 ---

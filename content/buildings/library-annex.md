@@ -36,4 +36,6 @@ sections:
         value: Public library
       - label: Architect
         value: Shepley Bullfinch Richardson & Abbott
+static_map: buildings/library-annex/static-map_cugwlx
+static_map_cache: '{"lat":39.10581,"lng":-84.51295}'
 ---

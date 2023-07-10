@@ -26,4 +26,6 @@ sections:
         value: Tilsley & Associates
       - label: Contractor
         value: Schumacher-Dugan (CM)
+static_map: buildings/moerlein-lager-house/static-map_kewnlz
+static_map_cache: '{"lat":39.096501,"lng":-84.508746}'
 ---

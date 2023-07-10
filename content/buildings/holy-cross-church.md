@@ -28,4 +28,6 @@ sections:
         value: German Renaissance
       - label: Architect
         value: 'Anthony Kunz, Jr.'
+static_map: buildings/holy-cross-church/static-map_dnkegd
+static_map_cache: '{"lat":39.048581,"lng":-84.501603}'
 ---

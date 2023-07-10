@@ -26,4 +26,6 @@ sections:
           performance stage were added atop an underground parking garage.
         date: '2012'
         architect: BHDP Architecture & Human Nature
+static_map: buildings/washington-park/static-map_hd2vnd
+static_map_cache: '{"lat":39.10825,"lng":-84.5168}'
 ---

@@ -48,6 +48,8 @@ sections:
         value: HOK
       - label: Contractor
         value: Turner Construction
+static_map: buildings/great-american-tower/static-map_otkeyz
+static_map_cache: '{"lat":39.10035,"lng":-84.50735}'
 ---
 
 First new highrise office building in Cincinnati in nearly 20 years, the tower was the largest building constructed in the US in 2010. The developer had plans for the building on their books for over 20 years before finding a major tenant to trigger financing for the project.

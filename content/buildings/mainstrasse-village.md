@@ -29,6 +29,8 @@ sections:
           In 1975, a federal grant of $2.5 million helped to kick-start the
           redevelopment of the neighborhood.
         date: ''
+static_map: buildings/mainstrasse-village/static-map_mew9ua
+static_map_cache: '{"lat":39.084213,"lng":-84.517584}'
 ---
 
 Originally settled by German and Irish immigrants before the Civil War, the community declined in the mid-Twentieth Century only to be revived later in the same century. Today, it is a vibrant community with shops and restaurants serving a young professional population. Many of the homes were built between the 1840s and 1870s.

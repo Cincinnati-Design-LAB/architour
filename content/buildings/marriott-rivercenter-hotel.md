@@ -39,4 +39,6 @@ sections:
         value: KZF Design
       - label: Contractor
         value: Corporex
+static_map: buildings/marriott-rivercenter-hotel/static-map_qpywcg
+static_map_cache: '{"lat":39.089716,"lng":-84.51212}'
 ---

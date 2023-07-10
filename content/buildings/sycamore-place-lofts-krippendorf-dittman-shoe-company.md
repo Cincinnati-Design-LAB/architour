@@ -46,4 +46,7 @@ sections:
         date: '2002'
         architect: CR Architects
         description: Conversion to luxury apartments
+static_map: >-
+  buildings/sycamore-place-lofts-krippendorf-dittman-shoe-company/static-map_vsrrkv
+static_map_cache: '{"lat":39.104201,"lng":-84.508283}'
 ---

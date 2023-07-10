@@ -47,6 +47,8 @@ sections:
         value: Post-Modern
       - label: Architect
         value: Michael Graves
+static_map: buildings/uc-engineering-research-center/static-map_ov9wyk
+static_map_cache: '{"lat":39.133334,"lng":-84.515263}'
 ---
 
 Michael Graves was a graduate of the College of Design, Architecture and Art (now DAAP) and is undoubtedly the most well-known of its architectural alumni. While disappointed that he was not chosen to design the expansion of DAAP, Graves accepted the challenge to design this technically complex building on a challenging site. The project began after the design of DAAP was underway and was completed prior to DAAP's completion both on-time and on-budget.

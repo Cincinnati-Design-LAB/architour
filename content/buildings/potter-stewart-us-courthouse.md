@@ -33,6 +33,8 @@ sections:
         value: Simplified Classicism / Art Moderne
       - label: Architect
         value: Louis A Simon
+static_map: buildings/potter-stewart-us-courthouse/static-map_o33zvt
+static_map_cache: '{"lat":39.1018558,"lng":-84.5106371}'
 ---
 
 At the time of its completion, the building housed 51 agencies of the Federal Government, having grown from 27 agencies in its previous location. The building was named after Supreme Court Justice Potter Stewart.

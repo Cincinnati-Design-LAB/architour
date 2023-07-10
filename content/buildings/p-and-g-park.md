@@ -27,4 +27,6 @@ sections:
         value: Post-Modern
       - label: Architect
         value: 'Kohn, Pederson & Fox'
+static_map: buildings/p-and-g-park/static-map_jyzkow
+static_map_cache: '{"lat":39.10254,"lng":-84.507227}'
 ---

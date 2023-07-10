@@ -33,6 +33,8 @@ sections:
         description: >-
           In 1976, the Northern Kentucky Community Center occupied the building
           providing social services to the community.
+static_map: buildings/lincoln-grant-school/static-map_ll2vrm
+static_map_cache: '{"lat":39.082053,"lng":-84.506243}'
 ---
 
 The Grant school was the first to provide black public education in the Covington area. Supported originally by William Grant, the building was home to a school that began in 1875 and occupied several other locations until consolidated in this location. The school was integrated in 1965 and closed in 1976.
