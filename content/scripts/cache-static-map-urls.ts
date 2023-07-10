@@ -1,10 +1,10 @@
-import glob from 'fast-glob'
-import path from 'path'
-import fs from 'fs'
-import https from 'https'
-import prettier from 'prettier'
-import matter from 'gray-matter'
 import { UploadApiResponse, v2 as cloudinary } from 'cloudinary'
+import glob from 'fast-glob'
+import fs from 'fs'
+import matter from 'gray-matter'
+import https from 'https'
+import path from 'path'
+import prettier from 'prettier'
 
 const CONTENT_DIR = path.join(process.cwd(), 'content')
 const IMAGE_BASENAME = 'static-map'
@@ -165,20 +165,16 @@ type BuildingFile = {
   data: BuildingAttributes
 }
 
-const publishedBuildings: BuildingFile[] = glob
+const buildingsWithLocation: BuildingFile[] = glob
   .sync(path.join(CONTENT_DIR, 'buildings/**/*.md'))
   .map((filePath) => {
     const { data, content } = matter.read(filePath)
     const props = data as BuildingAttributes
     return { filePath, content, data: props }
   })
-  .filter((file) => file.data.draft !== true)
+  .filter((file) => file.data.location?.lat && file.data.location?.lng)
 
-for (const { filePath, content, data } of publishedBuildings) {
-  // Skip if there is no location (since we won't be able to generate a static
-  // map).
-  if (!data.location) continue
-
+for (const { filePath, content, data } of buildingsWithLocation) {
   // Cloudinary directory name reference. This matches how we're storing images
   // elsewhere.
   const slug = path.basename(filePath, '.md')
@@ -227,18 +223,16 @@ type TourFile = {
   data: TourAttributes
 }
 
-const publishedTours: TourFile[] = glob
+const toursWithBuildings: TourFile[] = glob
   .sync(path.join(CONTENT_DIR, 'tours/**/*.md'))
   .map((filePath) => {
     const { data, content } = matter.read(filePath)
     const props = data as TourAttributes
     return { filePath, content, data: props }
   })
-  .filter((file) => file.data.draft !== true)
+  .filter((file) => file.data.buildings && file.data.buildings.length > 0)
 
-for (const { filePath, content, data } of publishedTours) {
-  if (!data.buildings || data.buildings.length === 0) continue
-
+for (const { filePath, content, data } of toursWithBuildings) {
   // Cloudinary directory name reference. This matches how we're storing images
   // elsewhere.
   const slug = path.basename(filePath, '.md')
@@ -250,12 +244,12 @@ for (const { filePath, content, data } of publishedTours) {
   // production mode and assumes the application is going to throw an error if
   // there are any published buildings that don't pass validation.
   const buildingFiles = data.buildings
-    .map((filePath) => publishedBuildings.find((b) => b.filePath.endsWith(filePath)))
+    .map((filePath) => buildingsWithLocation.find((b) => b.filePath.endsWith(filePath)))
     .filter(Boolean) as BuildingFile[]
-  const markerCoords = buildingFiles
-    .filter((b) => b.data.draft !== true)
-    .map((b) => b.data.location)
-    .filter(Boolean)
+  const markerCoords = buildingFiles.map((b) => b.data.location).filter(Boolean)
+
+  // Move on if there are no buildings with locations.
+  if (markerCoords.length === 0) continue
 
   // Cache key to know whether we should update the static map URL. We use the
   // location because it's the only thing that can change the static map.
