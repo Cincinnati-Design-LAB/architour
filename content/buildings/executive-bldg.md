@@ -17,4 +17,6 @@ sections:
         value: '1908'
       - label: Architect
         value: 'Betz, Carey & Wright'
+static_map: buildings/executive-bldg/static-map_hytnoq
+static_map_cache: '{"lat":39.1036925,"lng":-84.5124018}'
 ---

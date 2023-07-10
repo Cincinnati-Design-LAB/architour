@@ -33,4 +33,6 @@ sections:
           Daniel Burnham, a Chicago-based architect whose firm also designed the
           Rookery Building  in Chicago, the Flatiron Building in New York City,
           and Union Station in Washington, DC.
+static_map: buildings/fourth-and-walnut-center-first-national-bank/static-map_krj8nx
+static_map_cache: '{"lat":39.1000913,"lng":-84.5108235}'
 ---

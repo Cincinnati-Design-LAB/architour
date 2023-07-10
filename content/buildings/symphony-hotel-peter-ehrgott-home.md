@@ -31,6 +31,8 @@ sections:
       - title: Hotel & restaurant
         date: '1996'
         description: Hotel & restaurant
+static_map: buildings/symphony-hotel-peter-ehrgott-home/static-map_cckqx0
+static_map_cache: '{"lat":39.1102151,"lng":-84.5192114}'
 ---
 
 It was the home of Louis Ehrgott, the director of the May Festival.

@@ -27,6 +27,8 @@ sections:
       - title: Renovation
         date: '1985'
         architect: Glaser & Myers
+static_map: buildings/textile-bldg/static-map_mgwfla
+static_map_cache: '{"lat":39.0991094,"lng":-84.5161118}'
 ---
 
 The building was a progressive attempt to consolidate the locations of the city's textile manufacturers in one building.

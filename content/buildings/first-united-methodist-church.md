@@ -26,6 +26,8 @@ sections:
         value: High Victorian Gothic
       - label: Architect
         value: William Walter & William Stewart
+static_map: buildings/first-united-methodist-church/static-map_new17v
+static_map_cache: '{"lat":39.086167,"lng":-84.50758}'
 ---
 
 Previously a part of the Methodist Episcopal Church, two congregations merged in the 1930s to form the First United Methodist Church.

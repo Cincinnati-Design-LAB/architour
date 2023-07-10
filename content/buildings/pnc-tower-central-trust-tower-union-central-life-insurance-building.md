@@ -55,6 +55,9 @@ sections:
       - title: Expansion added to the west on Fourth Street
         date: '1939'
         architect: Frederick W. Garber & Associates
+static_map: >-
+  buildings/pnc-tower-central-trust-tower-union-central-life-insurance-building/static-map_gfradt
+static_map_cache: '{"lat":39.0997556,"lng":-84.512878}'
 ---
 
 When constructed, it was the tallest building in the US outside of NYC and the fifth largest building in the world. The building is a representation of a classic tripartite form of base, shaft and cap with a Grecian temple as the cap.

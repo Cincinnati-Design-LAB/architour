@@ -30,6 +30,8 @@ sections:
           Samuel Hannaford & Sons, one of Cincinnati's most prolific 19th
           Century architects who also designed Cincinnati City Hall and Music
           Hall.
+static_map: buildings/nast-community-united-methodist-church/static-map_xjgz8o
+static_map_cache: '{"lat":39.109723,"lng":-84.51654}'
 ---
 
 German Methodism in America started at this church.

@@ -38,6 +38,8 @@ sections:
         value: Greek Revival
       - label: Architect
         value: Gedge & Brothers
+static_map: buildings/odd-fellows-hall/static-map_lonbtt
+static_map_cache: '{"lat":39.086046,"lng":-84.510666}'
 ---
 
 The building played an important role during the Civil War serving as the home for Kentucky's Union Party and housing Confederate prisoners. It has also been home to the Covington Theater, the Tusculan Literary Society, Chautauqua lectures, Vaudeville performances, religious congregations, boxing matches, a nightclub, and a roller skating rink.

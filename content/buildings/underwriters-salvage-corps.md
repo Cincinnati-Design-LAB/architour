@@ -39,6 +39,8 @@ sections:
         date: 1980s
         architect: Jones & Speer
         description: The building was converted to office space.
+static_map: buildings/underwriters-salvage-corps/static-map_z5duq9
+static_map_cache: '{"lat":39.104889,"lng":-84.511547}'
 ---
 
 The building was home to the company that worked with both insurance companies and the fire department to save both lives and property. When a fire occurred, the employees who were treated as equals to fire fighters would rush to the site to protect goods from fire and water damage and remove them from the site if possible.

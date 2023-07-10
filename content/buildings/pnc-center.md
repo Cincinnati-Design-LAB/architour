@@ -27,6 +27,8 @@ sections:
         value: International Style
       - label: Architect
         value: SOM
+static_map: buildings/pnc-center/static-map_pydlgp
+static_map_cache: '{"lat":39.10135,"lng":-84.509168}'
 ---
 
 First new highrise building in Cincinnati to depart from the conventional rectangualar shape. The project incorporated public art including murals by Ellsworth Kelly (removed) and a kinetic sculpture by George Rickey.

@@ -23,4 +23,6 @@ sections:
         value: Apartments
       - label: Architect
         value: Gruzen Samton
+static_map: buildings/the-greenwich/static-map_j6ysvx
+static_map_cache: '{"lat":39.104315,"lng":-84.516509}'
 ---

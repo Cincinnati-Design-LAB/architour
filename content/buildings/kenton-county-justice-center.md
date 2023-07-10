@@ -32,6 +32,8 @@ sections:
         value: KZF Design
       - label: Contractor
         value: Corporex
+static_map: buildings/kenton-county-justice-center/static-map_njbkhd
+static_map_cache: '{"lat":39.088338,"lng":-84.511259}'
 ---
 
 The design/build approach to this government building was unique at the time and simplified the process of building the new courthouse for Kenton County.

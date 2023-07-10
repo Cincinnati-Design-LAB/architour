@@ -42,6 +42,9 @@ sections:
         value: Italian Renaissance Revival
       - label: Architect
         value: Walter & Stewart
+static_map: >-
+  buildings/mother-of-god-roman-catholic-church-mutter-gottes-kirche/static-map_s2ycgm
+static_map_cache: '{"lat":39.084245,"lng":-84.512634}'
 ---
 
 Originally serving as a church for German immigrants, the congregation continues to grow in large part to its community involvement. Johann Schmitt painted 5 murals in the church in 1890 depicting the Five Joyful Mysteries as part of the church's golden jubiliee. Local sculpters, Frederick and Henry Schroeder, hand carved the wooden alters.

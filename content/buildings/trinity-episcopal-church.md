@@ -39,6 +39,8 @@ sections:
           nave, baptistry, and bell tower additions.  In 1961, an L-shaped
           addition provided classroom and office space.
         date: ''
+static_map: buildings/trinity-episcopal-church/static-map_ro7zgp
+static_map_cache: '{"lat":39.087562,"lng":-84.51109}'
 ---
 
 One of the early Episcopal churches in Kentucky, it is home to the second largest parish in the Episcopal Diocese of Lexington.

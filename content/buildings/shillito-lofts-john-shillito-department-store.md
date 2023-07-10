@@ -56,6 +56,8 @@ sections:
         description: >-
           The building was converted into apartments with office space located
           on the street level.
+static_map: buildings/shillito-lofts-john-shillito-department-store/static-map_onyia5
+static_map_cache: '{"lat":39.103248,"lng":-84.51599}'
 ---
 
 The expansion and new façade built in 1938 was commissioned by the new owners, the Lazarus family, to create a more "fashionable" image for the building.

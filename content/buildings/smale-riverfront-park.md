@@ -36,6 +36,8 @@ sections:
           Brown Stadium to the west.
       - label: Architect
         value: Sasaki Associates
+static_map: buildings/smale-riverfront-park/static-map_ifti98
+static_map_cache: '{"lat":39.095305,"lng":-84.511398}'
 ---
 
 The park serves as the new front door to the Banks project and the city. It provides an expansive lawn area and numerous play areas for children (and some adults,too). In 2012. the park received the National Facility/Park Design Award from the National Recreation and Park Association (NRPA).

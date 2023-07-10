@@ -45,4 +45,6 @@ sections:
           that requirement by topping the shallow pool, closing off an upper
           plaza, and adding fencing around the edges of the fountain.
         date: '2009'
+static_map: buildings/otto-armleder-memorial-aquatic-fountain/static-map_wileym
+static_map_cache: '{"lat":39.098968,"lng":-84.502241}'
 ---

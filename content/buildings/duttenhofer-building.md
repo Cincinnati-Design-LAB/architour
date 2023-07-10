@@ -37,6 +37,8 @@ sections:
       - title: 'In 1963, it was converted into office space for P&G.'
         date: '1963'
         description: 'In 1963, it was converted into office space for P&G.'
+static_map: buildings/duttenhofer-building/static-map_jmmwpy
+static_map_cache: '{"lat":39.103027,"lng":-84.508736}'
 ---
 
 The building was one of the first speculative office buildings constructed in Cincinnati. It had unusually high ceiling heights and large windows to bring daylight and fresh air into the space.

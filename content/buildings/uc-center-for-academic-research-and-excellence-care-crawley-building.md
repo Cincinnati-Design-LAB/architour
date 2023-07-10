@@ -43,6 +43,9 @@ sections:
           clinicians together.
       - label: Architect
         value: Studios Architecture
+static_map: >-
+  buildings/uc-center-for-academic-research-and-excellence-care-crawley-building/static-map_ozspbo
+static_map_cache: '{"lat":39.138886,"lng":-84.50453}'
 ---
 
 The building design won the 2002 American Architecture Award from the Chicago Athenaeum.

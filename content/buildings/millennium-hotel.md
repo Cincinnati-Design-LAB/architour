@@ -33,4 +33,6 @@ sections:
       - title: Renovation
         date: '1977'
         architect: Welton Beckett
+static_map: buildings/millennium-hotel/static-map_yxnxbd
+static_map_cache: '{"lat":39.101248,"lng":-84.516007}'
 ---

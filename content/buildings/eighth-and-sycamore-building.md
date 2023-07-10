@@ -36,6 +36,8 @@ sections:
         value: Contemporary
       - label: Architect
         value: John Senhauser Architects
+static_map: buildings/eighth-and-sycamore-building/static-map_e3dugm
+static_map_cache: '{"lat":39.104814,"lng":-84.508779}'
 ---
 
 The building is the newest residential complex in downtown Cincinnati.

@@ -25,6 +25,8 @@ sections:
         value: Italian Renaissance Revival
       - label: Architect
         value: Teitig & Lee
+static_map: buildings/fourth-and-race-tower/static-map_b1mrlh
+static_map_cache: '{"lat":39.099397,"lng":-84.514482}'
 ---
 
 The building was once the home of the Federal Reserve Bank of Cleveland.

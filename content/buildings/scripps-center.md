@@ -28,6 +28,8 @@ sections:
         value: Post-modern
       - label: Architect
         value: Hoover & Furr
+static_map: buildings/scripps-center/static-map_c8p1xp
+static_map_cache: '{"lat":39.0992802,"lng":-84.5103567}'
 ---
 
 The building was the first new development on Third Street and started the expansion of the CBD toward the riverfront.

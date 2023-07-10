@@ -60,6 +60,8 @@ sections:
           Modern workplace The Cincinnati office of a Columbus-based firm offers
           architectural, interior design, graphic design, and masterplanning
           services based on their "smart design" concept.
+static_map: buildings/ma-architects/static-map_mum1cr
+static_map_cache: '{"lat":39.110462,"lng":-84.516918}'
 ---
 
 The building is located on the site of Saengerhalle, the original home of the Cincinnati May Festival.

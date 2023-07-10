@@ -40,6 +40,8 @@ sections:
         value: Modern
       - label: Architect
         value: Leers Weinzapfel Associates
+static_map: buildings/uc-university-pavilion/static-map_oto7st
+static_map_cache: '{"lat":39.131042,"lng":-84.518919}'
 ---
 
 The building is designed as a welcome center for incoming students. It is also the only new building on the campus designed by a woman-owned firm.

@@ -34,6 +34,8 @@ sections:
         date: '2015'
         architect: Drawing Department and Reid & Taylor Studio
         description: 'Brewery, bar & restaurant'
+static_map: buildings/tafts-ale-house/static-map_txl0al
+static_map_cache: '{"lat":39.111354,"lng":-84.51752}'
 ---
 
 Founded by Northern Germans who had recently immigrated from Europe.

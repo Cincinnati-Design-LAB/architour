@@ -55,6 +55,8 @@ sections:
           conversion to museum) / Ann Beha Architects/KZF Design (2004
           renovation and expansion)
         description: art museum
+static_map: buildings/taft-museum/static-map_wcmspy
+static_map_cache: '{"lat":39.1019,"lng":-84.5029}'
 ---
 
 The building is considered one of the finest examples of Federal-style residential architecture. Since being donated by the Taft family to the people of Cincinnati as a museum, the home has been decorated and furnished to reflect the style at the time it was originally built.

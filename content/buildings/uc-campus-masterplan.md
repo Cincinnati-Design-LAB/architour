@@ -42,6 +42,8 @@ sections:
         value: 1989 to present
       - label: Architect
         value: Hargreaves & Associates
+static_map: buildings/uc-campus-masterplan/static-map_ewz9qf
+static_map_cache: '{"lat":39.134581,"lng":-84.512787}'
 ---
 
 When UC initiated the Signature Architect program, the university recognized that the spaces between the buildings were as important as the new buildings in creating an improved image for the campus. As many recogized, there was no sense of place on the campus, and it had been dominated by the auto and parking requirements. To create the quality of environment desired, selective demolition of buildings was necessary as well as the elimination of parking lots. Green space was added, and parking garages were constructed to free up land. The new campus has a more park-like feeling, and improvements continue to be made with each new building.

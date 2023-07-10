@@ -47,6 +47,9 @@ sections:
         value: Modern
       - label: Architect
         value: 'Pei, Cobb, Freed'
+static_map: >-
+  buildings/uc-corbett-center-for-performing-arts-college-conservatory-of-music/static-map_q3mcqb
+static_map_cache: '{"lat":39.129985,"lng":-84.517821}'
 ---
 
 The design of the complex weaves together several existing buildings with infill structures and landscape treatments to create a cohesive environment or "village" as it is known today. CCM is noted as one of the top music conseratories in the country, and the renovated and expanded facilities offer performance and education spaces commensurate with the college's stature. Major performance spaces include a concert hall, a recital hall, a theatre, and a black box performance facility.

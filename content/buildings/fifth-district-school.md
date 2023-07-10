@@ -34,4 +34,6 @@ sections:
     renovations:
       - title: 2 additional classrooms were added to each floor
         date: '1937'
+static_map: buildings/fifth-district-school/static-map_koqwoq
+static_map_cache: '{"lat":39.0686,"lng":-84.511663}'
 ---

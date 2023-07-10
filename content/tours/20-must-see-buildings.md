@@ -19,7 +19,8 @@ buildings:
   - content/buildings/phoenix-club.md
   - content/buildings/st-peter-in-chains-cathedral.md
   - content/buildings/isaac-m-wise-temple.md
-  - content/buildings/pnc-tower-central-trust-tower-union-central-life-insurance-building.md
+  - >-
+    content/buildings/pnc-tower-central-trust-tower-union-central-life-insurance-building.md
   - content/buildings/bartlett-bldg-union-savings-and-trust-co.md
   - content/buildings/cg-and-e.md
   - content/buildings/covington-and-cincinnati-suspension-bridge.md
@@ -29,7 +30,7 @@ buildings:
   - content/buildings/findlay-market.md
   - content/buildings/union-terminal.md
   - content/buildings/dixie-terminal.md
-static_map: tours/20-must-see-buildings/static-map_numwv4
+static_map: tours/20-must-see-buildings/static-map_h64bfb
 static_map_cache: >-
-  [{"lat":39.1035828,"lng":-84.5116664},{"lat":39.109392,"lng":-84.519145},{"lat":39.1098737,"lng":-84.53747369999996}]
+  [{"lat":39.1028189,"lng":-84.512118},{"lat":39.1035828,"lng":-84.5116664},{"lat":39.10135,"lng":-84.5125},{"lat":39.103,"lng":-84.5056},{"lat":39.1019,"lng":-84.5029},{"lat":39.100836,"lng":-84.513238},{"lat":39.109392,"lng":-84.519145},{"lat":39.105042,"lng":-84.51536599999997},{"lat":39.103518,"lng":-84.51955909999998},{"lat":39.103717,"lng":-84.51830999999999},{"lat":39.0997556,"lng":-84.512878},{"lat":39.1002853,"lng":-84.5114735},{"lat":39.1001387,"lng":-84.5096868},{"lat":39.0951207,"lng":-84.5104139},{"lat":39.10416999999999,"lng":-84.5195339},{"lat":39.1008434,"lng":-84.5141833},{"lat":39.1002,"lng":-84.51201},{"lat":39.1152,"lng":-84.5197},{"lat":39.1098737,"lng":-84.53747369999996},{"lat":39.1,"lng":-84.5114}]
 ---

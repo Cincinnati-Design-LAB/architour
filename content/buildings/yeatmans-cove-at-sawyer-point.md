@@ -43,6 +43,8 @@ sections:
           the center of public events on the riverfront.
       - label: Architect
         value: Zion & Breen
+static_map: buildings/yeatmans-cove-at-sawyer-point/static-map_jzdw2w
+static_map_cache: '{"lat":39.101236,"lng":-84.498075}'
 ---
 
 The park was the first development on the riverfront to provide public access to the river.

@@ -19,4 +19,6 @@ sections:
         value: English Gothic Revival
       - label: Architect
         value: Crapsey and Brown
+static_map: buildings/first-lutheran-church/static-map_a5fnu3
+static_map_cache: '{"lat":39.1085698,"lng":-84.516221}'
 ---

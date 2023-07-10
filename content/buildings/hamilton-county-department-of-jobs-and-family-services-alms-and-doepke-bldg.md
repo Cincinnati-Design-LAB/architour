@@ -39,6 +39,9 @@ sections:
         date: 1912 / 1995
         architect: Daniel Burnham / GBBN
         description: Chicago School County offices
+static_map: >-
+  buildings/hamilton-county-department-of-jobs-and-family-services-alms-and-doepke-bldg/static-map_fjinym
+static_map_cache: '{"lat":39.108,"lng":-84.51056}'
 ---
 
 Built on the north side of the canal that is now Central Parkway, the store marked the growth of the city into the previously undesirable area that was pioneered by the development of Music Hall. When built, it was the second largest department store west of New York.

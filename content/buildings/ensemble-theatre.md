@@ -8,4 +8,6 @@ location:
 address: '1127 Vine Street, Cincinnati, Ohio'
 draft: true
 sections: []
+static_map: buildings/ensemble-theatre/static-map_rkypzq
+static_map_cache: '{"lat":39.1079815,"lng":-84.5150112}'
 ---

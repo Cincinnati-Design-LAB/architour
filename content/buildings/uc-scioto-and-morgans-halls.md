@@ -19,4 +19,6 @@ sections:
         value: Student apartments
       - label: Architect
         value: Richard Fleischman + Partners
+static_map: buildings/uc-scioto-and-morgans-halls/static-map_mcg7k6
+static_map_cache: '{"lat":39.134347,"lng":-84.512147}'
 ---

@@ -22,6 +22,8 @@ sections:
         value: '1967'
       - label: Architect
         value: Salmon P. Wallace
+static_map: buildings/provident-bank-bldg/static-map_zv0obn
+static_map_cache: '{"lat":39.0995902,"lng":-84.5122258}'
 ---
 
 First modern office building in the city's financial district

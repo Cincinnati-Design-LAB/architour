@@ -27,4 +27,6 @@ sections:
         value: KZF Design
       - label: Contractor
         value: Messer Construction
+static_map: buildings/uc-turner-hall/static-map_if0t15
+static_map_cache: '{"lat":39.132604,"lng":-84.512008}'
 ---

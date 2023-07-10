@@ -21,6 +21,8 @@ sections:
           half-brother, Charles Phelps Taft were members of the club.
       - label: Style
         value: Victorian Italianate
+static_map: buildings/university-club/static-map_sn68rl
+static_map_cache: '{"lat":39.1008,"lng":-84.5058558}'
 ---
 
 Two historic homes, the Seeley and Smith residences, were merged together into the new club building.

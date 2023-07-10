@@ -19,4 +19,6 @@ sections:
         value: English Renaissance
       - label: Architect
         value: Harry Hake & Charles Kuck
+static_map: buildings/queen-city-club/static-map_zgojt4
+static_map_cache: '{"lat":39.1006386,"lng":-84.5064066}'
 ---
