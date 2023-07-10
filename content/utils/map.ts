@@ -1,21 +1,21 @@
-import { Building } from './types'
+import { Building } from './types';
 
 /**
  * The shape of content expected by the map component.
  */
 export type MapMarker = {
-  type: 'Feature'
+  type: 'Feature';
   properties: {
-    title: string
-    excerpt: Building['excerpt']
-    image: Building['featuredImage']
-    urlPath: Building['urlPath']
-  }
+    title: string;
+    excerpt: Building['excerpt'];
+    image: Building['featuredImage'];
+    urlPath: Building['urlPath'];
+  };
   geometry: {
-    type: 'Point'
-    coordinates: [number, number]
-  }
-}
+    type: 'Point';
+    coordinates: [number, number];
+  };
+};
 
 /**
  * Creates a map marker object from a building object.
@@ -30,11 +30,11 @@ export function mapMarkerData({
   title,
   urlPath,
 }: {
-  excerpt: Building['excerpt']
-  image: Building['featuredImage']
-  location: Building['location']
-  title: Building['title']
-  urlPath: Building['urlPath']
+  excerpt: Building['excerpt'];
+  image: Building['featuredImage'];
+  location: Building['location'];
+  title: Building['title'];
+  urlPath: Building['urlPath'];
 }): MapMarker {
   return {
     type: 'Feature',
@@ -48,5 +48,5 @@ export function mapMarkerData({
       type: 'Point',
       coordinates: [location.lng, location.lat],
     },
-  }
+  };
 }

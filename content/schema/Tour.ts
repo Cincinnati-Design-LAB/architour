@@ -1,5 +1,5 @@
-import { defineDocumentType } from 'contentlayer/source-files'
-import { Building } from './Building'
+import { defineDocumentType } from 'contentlayer/source-files';
+import { Building } from './Building';
 
 export const Tour = defineDocumentType(() => ({
   name: 'Tour',
@@ -69,4 +69,4 @@ export const Tour = defineDocumentType(() => ({
       resolve: (tour) => tour._raw.sourceFileName.replace(/\.md$/, ''),
     },
   },
-}))
+}));

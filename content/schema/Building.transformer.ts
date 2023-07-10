@@ -1,9 +1,9 @@
-import type { Building, RawBuilding } from '@/content/schema/Building.d'
-import { ROOT_DIR } from '@/content/utils/constants'
-import path from 'path'
+import type { Building, RawBuilding } from '@/content/schema/Building.d';
+import { ROOT_DIR } from '@/content/utils/constants';
+import path from 'path';
 
 export async function transformBuilding(raw: RawBuilding, filePath: string): Promise<Building> {
-  const slug = path.basename(filePath, path.extname(filePath))
+  const slug = path.basename(filePath, path.extname(filePath));
 
   const building: Building = {
     name: raw.title,
@@ -23,7 +23,7 @@ export async function transformBuilding(raw: RawBuilding, filePath: string): Pro
     // name: raw.title,
     // tourCount: 0,
     // excerpt: "",
-  }
+  };
 
-  return building
+  return building;
 }

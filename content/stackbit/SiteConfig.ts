@@ -1,4 +1,4 @@
-import type { DataModel } from '@stackbit/types'
+import type { DataModel } from '@stackbit/types';
 
 export const SiteConfig: DataModel = {
   name: 'SiteConfig',
@@ -32,4 +32,4 @@ export const SiteConfig: DataModel = {
       required: true,
     },
   ],
-}
+};

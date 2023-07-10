@@ -1,4 +1,4 @@
-import type { ObjectModel } from '@stackbit/types'
+import type { ObjectModel } from '@stackbit/types';
 
 export const BuildingRenovation: ObjectModel = {
   name: 'BuildingRenovation',
@@ -32,4 +32,4 @@ export const BuildingRenovation: ObjectModel = {
       description: 'Name of the contractor to display, if known',
     },
   ],
-}
+};

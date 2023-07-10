@@ -1,5 +1,5 @@
-import type { ObjectModel } from '@stackbit/types'
-import { iconNames } from '../utils/icons'
+import type { ObjectModel } from '@stackbit/types';
+import { iconNames } from '../utils/icons';
 
 export const ToursConfig: ObjectModel = {
   name: 'ToursConfig',
@@ -31,4 +31,4 @@ export const ToursConfig: ObjectModel = {
       required: true,
     },
   ],
-}
+};

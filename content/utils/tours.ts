@@ -1,9 +1,9 @@
-import * as Contentlayer from '@/.contentlayer/generated'
-import { getBuildings } from './buildings'
-import { EDITOR_MODE } from './constants'
-import { cloudinaryImageUrls } from './images'
+import * as Contentlayer from '@/.contentlayer/generated';
+import { getBuildings } from './buildings';
+import { EDITOR_MODE } from './constants';
+import { cloudinaryImageUrls } from './images';
 
-import type { Building, Tour } from './types'
+import type { Building, Tour } from './types';
 
 /**
  * Retrieves tour objects processed by Contentlayer and resolves necessary
@@ -12,8 +12,8 @@ import type { Building, Tour } from './types'
  * @returns Array of transformed tour objects
  */
 export async function getTours(): Promise<Tour[]> {
-  const tours = await Promise.all(Contentlayer.allTours.map(transformTour))
-  return tours.filter(filterTour).filter(validateTour)
+  const tours = await Promise.all(Contentlayer.allTours.map(transformTour));
+  return tours.filter(filterTour).filter(validateTour);
 }
 
 /**
@@ -23,14 +23,14 @@ export async function getTours(): Promise<Tour[]> {
  * @returns Transformed tour object
  */
 export async function transformTour(tour: Contentlayer.Tour): Promise<Tour> {
-  const allBuildings = await getBuildings()
+  const allBuildings = await getBuildings();
   const findBuilding = (filePath: string): Building => {
-    return allBuildings.find((b) => b.stackbitId === filePath)
-  }
-  const buildings = (tour.buildings || []).map(findBuilding).filter(Boolean)
-  const image = cloudinaryImageUrls(tour.image, ['card_hero', 'hero'])
-  const static_map = cloudinaryImageUrls(tour.static_map, ['sidebar'])
-  return { ...tour, buildings, image, static_map }
+    return allBuildings.find((b) => b.stackbitId === filePath);
+  };
+  const buildings = (tour.buildings || []).map(findBuilding).filter(Boolean);
+  const image = cloudinaryImageUrls(tour.image, ['card_hero', 'hero']);
+  const static_map = cloudinaryImageUrls(tour.static_map, ['sidebar']);
+  return { ...tour, buildings, image, static_map };
 }
 
 /**
@@ -40,7 +40,7 @@ export async function transformTour(tour: Contentlayer.Tour): Promise<Tour> {
  * @returns Whether tour should be shown
  */
 export function filterTour(tour: Tour | Contentlayer.Tour): boolean {
-  return EDITOR_MODE ? true : tour.draft !== true
+  return EDITOR_MODE ? true : tour.draft !== true;
 }
 
 /**
@@ -50,23 +50,23 @@ export function filterTour(tour: Tour | Contentlayer.Tour): boolean {
  * @returns Transformed tour object
  */
 export function validateTour(tour: Tour): boolean {
-  tour.validation_errors = []
+  tour.validation_errors = [];
 
   // The following fields are required
-  const requiredFields = ['title', 'image', 'time_estimate', 'description', 'static_map']
+  const requiredFields = ['title', 'image', 'time_estimate', 'description', 'static_map'];
   for (const field of requiredFields) {
-    if (!tour[field]) tour.validation_errors.push(`Missing required field: ${field}`)
+    if (!tour[field]) tour.validation_errors.push(`Missing required field: ${field}`);
   }
   // Must have at least one image
-  if (tour.buildings.length < 1) tour.validation_errors.push('Must have at least one building')
+  if (tour.buildings.length < 1) tour.validation_errors.push('Must have at least one building');
 
   // Keep the validation errors on the tour, but don't throw an error in
   // editor mode.
-  if (EDITOR_MODE) return true
+  if (EDITOR_MODE) return true;
   // Throw an error if there are validation errors when not in editor mode.
   if (tour.validation_errors.length > 0) {
-    throw new Error(`Validation failed.\n${tour.validation_errors.join('\n')}`)
+    throw new Error(`Validation failed.\n${tour.validation_errors.join('\n')}`);
   }
 
-  return true
+  return true;
 }

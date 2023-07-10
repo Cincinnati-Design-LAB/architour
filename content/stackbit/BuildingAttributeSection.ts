@@ -1,4 +1,4 @@
-import type { ObjectModel } from '@stackbit/types'
+import type { ObjectModel } from '@stackbit/types';
 
 export const BuildingAttributeSection: ObjectModel = {
   name: 'BuildingAttributeSection',
@@ -12,11 +12,11 @@ export const BuildingAttributeSection: ObjectModel = {
       !documentField.fields.page_location ||
       !('value' in documentField.fields.page_location)
     ) {
-      return { title: 'Building Attribute Section' }
+      return { title: 'Building Attribute Section' };
     }
     return {
       title: documentField.fields.page_location.value,
-    }
+    };
   },
   fields: [
     {
@@ -34,4 +34,4 @@ export const BuildingAttributeSection: ObjectModel = {
       options: ['above_images', 'below_images', 'above_map', 'below_map'],
     },
   ],
-}
+};

@@ -1,5 +1,5 @@
-import { defineDocumentType, defineNestedType } from 'contentlayer/source-files'
-import { iconNames } from '../utils/icons'
+import { defineDocumentType, defineNestedType } from 'contentlayer/source-files';
+import { iconNames } from '../utils/icons';
 
 /* ----- Header ----- */
 
@@ -11,7 +11,7 @@ const SiteHeaderLink = defineNestedType(() => ({
     icon: { type: 'enum', options: iconNames.concat(), required: true },
     is_button: { type: 'boolean', required: true, default: false },
   },
-}))
+}));
 
 const SiteHeader = defineNestedType(() => ({
   name: 'SiteHeader',
@@ -19,7 +19,7 @@ const SiteHeader = defineNestedType(() => ({
     site_link_label: { type: 'string', required: true },
     nav_links: { type: 'list', of: SiteHeaderLink, required: true },
   },
-}))
+}));
 
 /* ----- Footer ----- */
 
@@ -29,7 +29,7 @@ const SiteFooterLink = defineNestedType(() => ({
     label: { type: 'string', required: true },
     href: { label: 'URL', type: 'string', required: true },
   },
-}))
+}));
 
 const SiteFooterContact = defineNestedType(() => ({
   name: 'SiteFooterContact',
@@ -38,7 +38,7 @@ const SiteFooterContact = defineNestedType(() => ({
     name: { type: 'string', required: true },
     email: { type: 'string', required: true },
   },
-}))
+}));
 
 const SiteFooter = defineNestedType(() => ({
   name: 'SiteFooter',
@@ -47,7 +47,7 @@ const SiteFooter = defineNestedType(() => ({
     contact_links: { type: 'list', of: [SiteFooterContact], required: true },
     nav_links: { type: 'list', of: SiteFooterLink, required: true },
   },
-}))
+}));
 
 /* ----- Buildings Config ----- */
 
@@ -59,7 +59,7 @@ const BuildingsConfig = defineNestedType(() => ({
     page_header_theme: { type: 'enum', options: ['primary', 'secondary'], required: true },
     nav_label: { type: 'string', required: true },
   },
-}))
+}));
 
 /* ----- Tours Config ----- */
 
@@ -71,7 +71,7 @@ const ToursConfig = defineNestedType(() => ({
     page_header_theme: { type: 'enum', options: ['primary', 'secondary'], required: true },
     nav_label: { type: 'string', required: true },
   },
-}))
+}));
 
 /* ----- Site Config ----- */
 
@@ -107,4 +107,4 @@ export const SiteConfig = defineDocumentType(() => ({
       resolve: (siteConfig) => ['content', siteConfig._id].join('/'),
     },
   },
-}))
+}));

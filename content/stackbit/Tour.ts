@@ -1,4 +1,4 @@
-import type { PageModel } from '@stackbit/types'
+import type { PageModel } from '@stackbit/types';
 
 export const Tour: PageModel = {
   name: 'Tour',
@@ -72,4 +72,4 @@ export const Tour: PageModel = {
       group: 'settings',
     },
   ],
-}
+};

@@ -1,4 +1,4 @@
-import { generateBuildingCache } from '@/content/utils/generators'
-;(async () => {
-  await generateBuildingCache()
-})()
+import { generateBuildingCache } from '@/content/utils/generators';
+(async () => {
+  await generateBuildingCache();
+})();

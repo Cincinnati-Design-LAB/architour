@@ -1,5 +1,5 @@
-import * as Contentlayer from '@/.contentlayer/generated'
-import { SiteConfig } from '@/.contentlayer/generated'
+import * as Contentlayer from '@/.contentlayer/generated';
+import { SiteConfig } from '@/.contentlayer/generated';
 
 /**
  * Retrieves site config object processed by Contentlayer and runs it through a
@@ -8,7 +8,7 @@ import { SiteConfig } from '@/.contentlayer/generated'
  * @returns Transformed site config
  */
 export async function getSiteConfig(): Promise<SiteConfig> {
-  return await transformSiteConfig(Contentlayer.allSiteConfigs[0])
+  return await transformSiteConfig(Contentlayer.allSiteConfigs[0]);
 }
 
 /**
@@ -20,5 +20,5 @@ export async function getSiteConfig(): Promise<SiteConfig> {
 export async function transformSiteConfig(
   siteConfig: Contentlayer.SiteConfig,
 ): Promise<SiteConfig> {
-  return siteConfig
+  return siteConfig;
 }

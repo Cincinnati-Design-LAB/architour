@@ -1,4 +1,4 @@
-import type { ObjectModel } from '@stackbit/types'
+import type { ObjectModel } from '@stackbit/types';
 
 export const BuildingRenovationSection: ObjectModel = {
   name: 'BuildingRenovationSection',
@@ -14,11 +14,11 @@ export const BuildingRenovationSection: ObjectModel = {
       !('value' in documentField.fields.page_location) ||
       !('value' in documentField.fields.title)
     ) {
-      return { title: 'Building Renovation Section' }
+      return { title: 'Building Renovation Section' };
     }
     return {
       title: `${documentField.fields.title.value} [${documentField.fields.page_location.value}]`,
-    }
+    };
   },
   fields: [
     {
@@ -42,4 +42,4 @@ export const BuildingRenovationSection: ObjectModel = {
       options: ['above_images', 'below_images', 'above_map', 'below_map'],
     },
   ],
-}
+};

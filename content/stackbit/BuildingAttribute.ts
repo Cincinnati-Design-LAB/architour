@@ -1,4 +1,4 @@
-import type { ObjectModel } from '@stackbit/types'
+import type { ObjectModel } from '@stackbit/types';
 
 export const BuildingAttribute: ObjectModel = {
   name: 'BuildingAttribute',
@@ -24,4 +24,4 @@ export const BuildingAttribute: ObjectModel = {
       options: ['half_width', 'full_width'],
     },
   ],
-}
+};

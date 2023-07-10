@@ -1,7 +1,7 @@
-import { AssetSource } from '@stackbit/types'
-import { cloudinary } from './cloudinary'
+import { AssetSource } from '@stackbit/types';
+import { cloudinary } from './cloudinary';
 
-export type AssetSourceType = 'buildings' | 'tours'
+export type AssetSourceType = 'buildings' | 'tours';
 
 function buildAssetSource(folder?: string): AssetSource {
   return {
@@ -11,11 +11,11 @@ function buildAssetSource(folder?: string): AssetSource {
     transform: ({
       assetData,
     }: {
-      assetData: { public_id: string; width: number; height: number; url: string }
+      assetData: { public_id: string; width: number; height: number; url: string };
     }) => {
       // const { public_id, width, height, url } = assetData
       // return { public_id, width, height, url }
-      return assetData.public_id
+      return assetData.public_id;
     },
     // TODO: Make the image smaller
     // TODO: Use the type from the schema.
@@ -26,13 +26,13 @@ function buildAssetSource(folder?: string): AssetSource {
         height: 324,
         crop: 'fill',
         secure: true,
-      })
-      return { image }
+      });
+      return { image };
     },
-  }
+  };
 }
 
 export const assetSources: Record<AssetSourceType, AssetSource> = {
   buildings: buildAssetSource('buildings'),
   tours: buildAssetSource('tours'),
-}
+};

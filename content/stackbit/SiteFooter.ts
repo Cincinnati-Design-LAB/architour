@@ -1,4 +1,4 @@
-import type { ObjectModel } from '@stackbit/types'
+import type { ObjectModel } from '@stackbit/types';
 
 export const SiteFooter: ObjectModel = {
   name: 'SiteFooter',
@@ -28,7 +28,7 @@ export const SiteFooter: ObjectModel = {
       },
     },
   ],
-}
+};
 
 export const SiteFooterLink: ObjectModel = {
   name: 'SiteFooterLink',
@@ -37,7 +37,7 @@ export const SiteFooterLink: ObjectModel = {
     { name: 'label', type: 'string', required: true },
     { name: 'href', label: 'URL', type: 'string', required: true },
   ],
-}
+};
 
 export const SiteFooterContact: ObjectModel = {
   name: 'SiteFooterContact',
@@ -47,4 +47,4 @@ export const SiteFooterContact: ObjectModel = {
     { name: 'name', type: 'string' },
     { name: 'email', type: 'string', required: true },
   ],
-}
+};

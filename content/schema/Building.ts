@@ -1,4 +1,4 @@
-import { defineDocumentType, defineNestedType, FieldDef } from 'contentlayer/source-files'
+import { defineDocumentType, defineNestedType, FieldDef } from 'contentlayer/source-files';
 
 const BuildingLocation = defineNestedType(() => ({
   name: 'BuildingLocation',
@@ -14,7 +14,7 @@ const BuildingLocation = defineNestedType(() => ({
       required: true,
     },
   },
-}))
+}));
 
 const BuildingAttribute = defineNestedType(() => ({
   name: 'BuildingAttribute',
@@ -35,7 +35,7 @@ const BuildingAttribute = defineNestedType(() => ({
       options: ['half_width', 'full_width'],
     },
   },
-}))
+}));
 
 const BuildingRenovation = defineNestedType(() => ({
   name: 'BuildingRenovation',
@@ -63,7 +63,7 @@ const BuildingRenovation = defineNestedType(() => ({
       description: 'Name of the contractor to display, if known',
     },
   },
-}))
+}));
 
 const SHARED_FIELDS: { [key: string]: FieldDef } = {
   page_location: {
@@ -72,7 +72,7 @@ const SHARED_FIELDS: { [key: string]: FieldDef } = {
     required: true,
     options: ['above_images', 'below_images', 'above_map', 'below_map'],
   },
-}
+};
 
 const BuildingRenovationSection = defineNestedType(() => ({
   name: 'BuildingRenovationSection',
@@ -90,7 +90,7 @@ const BuildingRenovationSection = defineNestedType(() => ({
     },
     page_location: SHARED_FIELDS.page_location,
   },
-}))
+}));
 
 const BuildingAttributeSection = defineNestedType(() => ({
   name: 'BuildingAttributeSection',
@@ -103,7 +103,7 @@ const BuildingAttributeSection = defineNestedType(() => ({
     },
     page_location: SHARED_FIELDS.page_location,
   },
-}))
+}));
 
 export const Building = defineDocumentType(() => ({
   name: 'Building',
@@ -169,4 +169,4 @@ export const Building = defineDocumentType(() => ({
       resolve: (building) => building._raw.sourceFileName.replace(/\.md$/, ''),
     },
   },
-}))
+}));

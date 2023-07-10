@@ -5,10 +5,10 @@
  * fields into the `sections` array.
  */
 
-import glob from 'fast-glob'
-import fs from 'fs'
-import path from 'path'
-import matter from 'gray-matter'
+import glob from 'fast-glob';
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
 
 const ATTRIBUTE_MAP = {
   above_images: [
@@ -33,82 +33,82 @@ const ATTRIBUTE_MAP = {
     { name: 'architect', label: 'Architect' },
     { name: 'contractor', label: 'Contractor' },
   ],
-}
+};
 
-const buildingFilePaths = await glob(path.join(process.cwd(), 'content/buildings/**/*.md'))
+const buildingFilePaths = await glob(path.join(process.cwd(), 'content/buildings/**/*.md'));
 
 for (const srcFilePath of buildingFilePaths) {
-  const rawContent = fs.readFileSync(srcFilePath, 'utf8')
-  const { data, content } = matter(rawContent)
+  const rawContent = fs.readFileSync(srcFilePath, 'utf8');
+  const { data, content } = matter(rawContent);
 
   // Skip if already converted.
-  if (data.sections) continue
+  if (data.sections) continue;
 
   // Begin building a new data object.
-  const newData = { ...data }
+  const newData = { ...data };
 
   // Build out new sections array.
   const buildSection = (pageLocation) => {
-    const attributes = ATTRIBUTE_MAP[pageLocation]
+    const attributes = ATTRIBUTE_MAP[pageLocation];
     const section = {
       page_location: pageLocation,
       type: 'BuildingAttributeSection',
       attributes: [],
-    }
+    };
     for (const attribute of attributes) {
-      const { name, label, layout } = attribute
+      const { name, label, layout } = attribute;
       if (data[name]) {
-        const attribute = { label, value: data[name] }
-        if (layout) attribute.layout = layout
-        section.attributes.push(attribute)
-        delete newData[name]
+        const attribute = { label, value: data[name] };
+        if (layout) attribute.layout = layout;
+        section.attributes.push(attribute);
+        delete newData[name];
       }
     }
-    return section
-  }
+    return section;
+  };
 
   const sections = [
     buildSection('above_images'),
     buildSection('below_images'),
     buildSection('above_map'),
-  ].filter((section) => section.attributes.length > 0)
+  ].filter((section) => section.attributes.length > 0);
 
   // Add renovation section.
   if (data.renovations || data.renovation_changes || data.renovation_date) {
     const renovation = {
       title: data.renovations || data.renovation_changes || 'Renovation',
       date: data.renovation_date || '',
-    }
-    if (data.renovation_architect) renovation.architect = data.renovation_architect
-    if (data.renovation_contractor) renovation.contractor = data.renovation_contractor
+    };
+    if (data.renovation_architect) renovation.architect = data.renovation_architect;
+    if (data.renovation_contractor) renovation.contractor = data.renovation_contractor;
     if (data.renovation_style || data.renovation_changes) {
       renovation.description = [data.renovation_style, data.renovation_changes]
         .filter(Boolean)
-        .join(' ')
+        .join(' ');
     }
     sections.push({
       page_location: 'below_map',
       type: 'BuildingRenovationSection',
       title: 'Renovation History',
       renovations: [renovation],
-    })
-    delete newData.renovations
-    delete newData.renovation_date
-    delete newData.renovation_architect
-    delete newData.renovation_contractor
-    delete newData.renovation_style
-    delete newData.renovation_changes
+    });
+    delete newData.renovations;
+    delete newData.renovation_date;
+    delete newData.renovation_architect;
+    delete newData.renovation_contractor;
+    delete newData.renovation_style;
+    delete newData.renovation_changes;
   }
 
   // Put into draft mode, which will prompt checking each building.
-  newData.draft = true
+  newData.draft = true;
 
   // Preserve the completion date, which is used directly in some cases.
-  if (data.completion_date) newData.completion_date = data.completion_date
+  if (data.completion_date) newData.completion_date = data.completion_date;
 
   // Store the sections date in a new field.
-  newData.sections = sections
+  newData.sections = sections;
 
   // Write the new data object back to the source file.
-  fs.writeFileSync(srcFilePath, matter.stringify(content, newData))
+  fs.writeFileSync(srcFilePath, matter.stringify(content, newData));
 }

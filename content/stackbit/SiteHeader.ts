@@ -1,5 +1,5 @@
-import type { ObjectModel } from '@stackbit/types'
-import { iconNames } from '../utils/icons'
+import type { ObjectModel } from '@stackbit/types';
+import { iconNames } from '../utils/icons';
 
 export const SiteHeader: ObjectModel = {
   name: 'SiteHeader',
@@ -15,7 +15,7 @@ export const SiteHeader: ObjectModel = {
       },
     },
   ],
-}
+};
 
 export const SiteHeaderLink: ObjectModel = {
   name: 'SiteHeaderLink',
@@ -26,4 +26,4 @@ export const SiteHeaderLink: ObjectModel = {
     { name: 'icon', type: 'enum', options: iconNames.concat(), required: true },
     { name: 'is_button', type: 'boolean', required: true, default: false },
   ],
-}
+};

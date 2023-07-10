@@ -1,4 +1,4 @@
-import { defineNestedType } from 'contentlayer/source-files'
+import { defineNestedType } from 'contentlayer/source-files';
 
 export const Markdown = defineNestedType(() => ({
   name: 'Markdown',
@@ -14,4 +14,4 @@ export const Markdown = defineNestedType(() => ({
       required: true,
     },
   },
-}))
+}));

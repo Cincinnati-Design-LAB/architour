@@ -1,16 +1,16 @@
-import { unified } from 'unified'
-import remarkParse from 'remark-parse'
-import remarkRehype from 'remark-rehype'
-import rehypeSanitize from 'rehype-sanitize'
-import rehypeStringify from 'rehype-stringify'
+import { unified } from 'unified';
+import remarkParse from 'remark-parse';
+import remarkRehype from 'remark-rehype';
+import rehypeSanitize from 'rehype-sanitize';
+import rehypeStringify from 'rehype-stringify';
 
 /**
  * Object that holds original reference to markdown, with converted HTML string.
  */
 export type Markdown = {
-  raw: string
-  html: string
-}
+  raw: string;
+  html: string;
+};
 
 /**
  * Converts markdown string to Markdown object with HTML string and originally
@@ -25,7 +25,7 @@ export async function processMarkdown(input: string): Promise<Markdown> {
     .use(remarkRehype)
     .use(rehypeSanitize)
     .use(rehypeStringify)
-    .process(input)
+    .process(input);
 
-  return { raw: input, html: html.toString() }
+  return { raw: input, html: html.toString() };
 }

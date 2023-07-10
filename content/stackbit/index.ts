@@ -1,23 +1,23 @@
 /* ----- Pages ----- */
 
-import { Building } from './Building'
-import { Tour } from './Tour'
+import { Building } from './Building';
+import { Tour } from './Tour';
 
 /* ----- Data ----- */
 
-import { SiteConfig } from './SiteConfig'
+import { SiteConfig } from './SiteConfig';
 
 /* ----- Objects ----- */
 
-import { BuildingAttribute } from './BuildingAttribute'
-import { BuildingAttributeSection } from './BuildingAttributeSection'
-import { BuildingRenovation } from './BuildingRenovation'
-import { BuildingRenovationSection } from './BuildingRenovationSection'
-import { BuildingsConfig } from './BuildingsConfig'
-import { Location } from './Location'
-import { SiteFooter, SiteFooterContact, SiteFooterLink } from './SiteFooter'
-import { SiteHeader, SiteHeaderLink } from './SiteHeader'
-import { ToursConfig } from './ToursConfig'
+import { BuildingAttribute } from './BuildingAttribute';
+import { BuildingAttributeSection } from './BuildingAttributeSection';
+import { BuildingRenovation } from './BuildingRenovation';
+import { BuildingRenovationSection } from './BuildingRenovationSection';
+import { BuildingsConfig } from './BuildingsConfig';
+import { Location } from './Location';
+import { SiteFooter, SiteFooterContact, SiteFooterLink } from './SiteFooter';
+import { SiteHeader, SiteHeaderLink } from './SiteHeader';
+import { ToursConfig } from './ToursConfig';
 
 /* ----- Exported Models ----- */
 
@@ -37,4 +37,4 @@ export const models = [
   SiteFooterLink,
   Tour,
   ToursConfig,
-]
+];

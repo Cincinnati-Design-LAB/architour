@@ -1,5 +1,5 @@
-import type { PageModel } from '@stackbit/types'
-import { assetSources } from '../utils/asset-sources'
+import type { PageModel } from '@stackbit/types';
+import { assetSources } from '../utils/asset-sources';
 
 export const Building: PageModel = {
   name: 'Building',
@@ -75,4 +75,4 @@ export const Building: PageModel = {
       group: 'settings',
     },
   ],
-}
+};

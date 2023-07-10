@@ -1,13 +1,13 @@
-import * as Cloudinary from 'cloudinary'
+import * as Cloudinary from 'cloudinary';
 
 /* --- References --- */
 
 // Multipliers for image sizes
-const SIZE_VARIATIONS: Array<'1x' | '2x' | '3x'> = ['1x', '2x', '3x']
+const SIZE_VARIATIONS: Array<'1x' | '2x' | '3x'> = ['1x', '2x', '3x'];
 // Keys used to create image variations
 const CROP_NAMES: Array<
   'card_hero' | 'card_thumb' | 'compact_card_hero' | 'gallery_item' | 'hero' | 'sidebar'
-> = ['card_hero', 'card_thumb', 'compact_card_hero', 'gallery_item', 'hero', 'sidebar']
+> = ['card_hero', 'card_thumb', 'compact_card_hero', 'gallery_item', 'hero', 'sidebar'];
 
 /* --- Output Types --- */
 
@@ -15,18 +15,18 @@ const CROP_NAMES: Array<
  * The allowed names of image sizes, which are used to create URL shapes that
  * can be used in front-end components.
  */
-type SizeVariation = (typeof SIZE_VARIATIONS)[number]
+type SizeVariation = typeof SIZE_VARIATIONS[number];
 
 /**
  * Every image key has a set of sizes that can be used in front-end components.
  */
-export type ImageSizes = { [key in SizeVariation]: string }
+export type ImageSizes = { [key in SizeVariation]: string };
 
 /**
  * A object of Cloudinary image URLs that can be used in front-end components.
  */
 // TODO -> This should use image keys as an argument
-export type CloudinaryImage<C extends CropName> = { [key in C]: ImageSizes }
+export type CloudinaryImage<C extends CropName> = { [key in C]: ImageSizes };
 
 /* --- Transformation Definitions --- */
 
@@ -34,14 +34,14 @@ export type CloudinaryImage<C extends CropName> = { [key in C]: ImageSizes }
  * The allowed names of crop definitions, which are used selectively to create
  * URL shapes that can be used in front-end components.
  */
-type CropName = (typeof CROP_NAMES)[number]
+type CropName = typeof CROP_NAMES[number];
 
 /**
  * Transformation definitions that are used by the
  * create-cloudinary-transformation script to create transformations, and by the
  * function below to generate image URLs.
  */
-type CropDefinition = { name: CropName; options: Cloudinary.ImageTransformationOptions }
+type CropDefinition = { name: CropName; options: Cloudinary.ImageTransformationOptions };
 
 /* --- Transformation Definitions --- */
 
@@ -70,7 +70,7 @@ export const TRANSFORMATIONS: CropDefinition[] = [
     name: 'compact_card_hero',
     options: { width: 300, height: 300, crop: 'fill', gravity: 'auto' },
   },
-]
+];
 
 /* --- Helper Functions --- */
 
@@ -83,7 +83,7 @@ export const TRANSFORMATIONS: CropDefinition[] = [
  * @returns Interpolated transformation name
  */
 export function getTransformationName(crop: CropName, dpr: SizeVariation): string {
-  return `${crop}_${dpr}`
+  return `${crop}_${dpr}`;
 }
 
 /**
@@ -99,11 +99,11 @@ export function getTransformationDprVariations(
   options: Cloudinary.ImageTransformationOptions,
 ): Array<{ name: string; options: Cloudinary.ImageTransformationOptions }> {
   return SIZE_VARIATIONS.map((dpr) => {
-    const name = getTransformationName(crop, dpr)
-    const width = parseInt(options.width.toString()) * parseInt(dpr)
-    const height = parseInt(options.height.toString()) * parseInt(dpr)
-    return { name, options: { ...options, width, height } }
-  })
+    const name = getTransformationName(crop, dpr);
+    const width = parseInt(options.width.toString()) * parseInt(dpr);
+    const height = parseInt(options.height.toString()) * parseInt(dpr);
+    return { name, options: { ...options, width, height } };
+  });
 }
 
 /**
@@ -117,15 +117,15 @@ export function getTransformationDprVariations(
 export function cloudinaryImageUrls(
   publicId: string,
   cropNames: CropName[] = CROP_NAMES,
-): CloudinaryImage<(typeof cropNames)[number]> {
-  if (!publicId) return null
+): CloudinaryImage<typeof cropNames[number]> {
+  if (!publicId) return null;
 
-  let output = {} as CloudinaryImage<(typeof cropNames)[number]>
+  let output = {} as CloudinaryImage<typeof cropNames[number]>;
 
   TRANSFORMATIONS.filter((crop) => cropNames.includes(crop.name)).map((crop) => {
     output[crop.name] = Object.fromEntries(
       SIZE_VARIATIONS.map((dpr) => {
-        const transformation = getTransformationName(crop.name, dpr)
+        const transformation = getTransformationName(crop.name, dpr);
         const imageUrl = Cloudinary.v2.url(publicId, {
           transformation,
           //
@@ -136,11 +136,11 @@ export function cloudinaryImageUrls(
           // sign_url: true,
           //
           secure: true,
-        })
-        return [dpr, imageUrl]
+        });
+        return [dpr, imageUrl];
       }),
-    ) as ImageSizes
-  })
+    ) as ImageSizes;
+  });
 
-  return output
+  return output;
 }

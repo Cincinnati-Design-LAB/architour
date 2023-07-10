@@ -1,9 +1,9 @@
-import { GitContentSource } from '@stackbit/cms-git'
-import { defineStackbitConfig } from '@stackbit/types'
+import { GitContentSource } from '@stackbit/cms-git';
+import { defineStackbitConfig } from '@stackbit/types';
 
-import { models } from './content/stackbit'
-import { assetSources } from './content/utils/asset-sources'
-import { onDocumentCreate } from './content/utils/document-hooks'
+import { models } from './content/stackbit';
+import { assetSources } from './content/utils/asset-sources';
+import { onDocumentCreate } from './content/utils/document-hooks';
 
 const gitContentSource = new GitContentSource({
   rootPath: __dirname,
@@ -15,7 +15,7 @@ const gitContentSource = new GitContentSource({
   //   uploadDir: 'uploads',
   //   publicPath: '/',
   // },
-})
+});
 
 export default defineStackbitConfig({
   stackbitVersion: '~0.6.0',
@@ -40,4 +40,4 @@ export default defineStackbitConfig({
       srcProjectId: gitContentSource.getProjectId(),
     },
   ],
-})
+});

@@ -1,4 +1,4 @@
-import type { ObjectModel } from '@stackbit/types'
+import type { ObjectModel } from '@stackbit/types';
 
 export const Location: ObjectModel = {
   name: 'Location',
@@ -14,11 +14,11 @@ export const Location: ObjectModel = {
       !('value' in documentField.fields.lat) ||
       !('value' in documentField.fields.lng)
     ) {
-      return { title: 'Location' }
+      return { title: 'Location' };
     }
     return {
       title: `${documentField.fields.lat.value}, ${documentField.fields.lng.value}`,
-    }
+    };
   },
   fields: [
     {
@@ -36,4 +36,4 @@ export const Location: ObjectModel = {
       required: true,
     },
   ],
-}
+};
