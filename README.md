@@ -54,20 +54,20 @@ Stackbit:
   - [✔️] Would be nice to have them in the sitemap, but they are hard-coded pages, so would have to use `sitemap` config property
 - [✔️] Placeholder sections for new buildings without content
 - [✔️] Method for setting the building location without hunting for coordinates
-- [ ] Method for generating static map images (not all have them, but it is now tied to published items only)
+- [✔️] Method for generating static map images (not all have them, but it is now tied to published items only)
   - Using an interactive method for setting the location would then kick off a series of events:
     1. Store the location on the file
     2. Generate static map, set cache and map on file
     3. Re-generate static map and cache for all associated tours
-  - [ ] Should this happen locally or commit a change to GitHub?
-- [ ] Mapbox map doesn't load in Stackbit
+  - [✔️] Should this happen locally or commit a change to GitHub?
+    - Decided to do this on every commit to the `preview` branch, which will make it run automatically after a location is changed.
 
 Last Few UI Features:
 
 - [ ] Fix mobile menu -> it looks stupid
 - [✔️] List and link to tours on the building detail page
 - [ ] Building list filtering and pagination
-- [ ] Custom 404 page
+- [✔️] Custom 404 page
 
 Pre-Launch Cleanup:
 
@@ -81,6 +81,7 @@ Pre-Launch Cleanup:
     - https://github.com/contentlayerdev/contentlayer/issues/439
 - [ ] Extend field for icon (Tour)
 - [ ] Ensure that updating a location updates the static map in a cloud project
+- [ ] Mapbox map doesn't load in Stackbit
 
 Post-Launch Options:
 
