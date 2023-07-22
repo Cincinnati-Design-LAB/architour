@@ -1,4 +1,5 @@
 import type { Building, RawBuilding } from '@/content/schema/Building.d';
+import { RawBuildingAttributeSection } from '@/content/schema/BuildingAttributeSection.d';
 import { EDITOR_MODE, ROOT_DIR } from '@/content/utils/constants';
 import { cloudinaryImageUrls } from '@/content/utils/images';
 import { mapMarkerData } from '@/content/utils/map';
@@ -43,6 +44,17 @@ export async function transformBuilding(raw: RawBuilding, filePath: string): Pro
         title: raw.title,
       })
     : undefined;
+  // Transform the sections by collecting them into page locations
+  const getAttributesForSection = (page_location: RawBuildingAttributeSection['page_location']) => {
+    return (raw.sections || []).filter((section) => section.page_location === page_location);
+  };
+  const sections = Object.fromEntries(
+    ['above_images', 'below_images', 'above_map', 'below_map'].map(
+      (page_location: RawBuildingAttributeSection['page_location']) => {
+        return [page_location, getAttributesForSection(page_location)];
+      },
+    ),
+  );
 
   const building: Building = {
     stackbit_id,
@@ -52,6 +64,7 @@ export async function transformBuilding(raw: RawBuilding, filePath: string): Pro
     location,
     completion_date,
     address,
+    sections,
     // TODO
     tour_count: 0,
     images,

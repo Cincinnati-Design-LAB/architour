@@ -1,4 +1,9 @@
-import { RawLocation } from '@/content/schema/Location';
+import {
+  BuildingAttributeSections,
+  RawBuildingAttributeSection,
+} from '@/content/schema/BuildingAttributeSection';
+import { RawBuildingRenovationSection } from '@/content/schema/BuildingRenovationSection';
+import { Location, RawLocation } from '@/content/schema/Location';
 import { CloudinaryImage } from '@/content/utils/images';
 import { MapMarker } from '@/content/utils/map';
 import { Markdown } from '@/content/utils/markdown';
@@ -10,7 +15,7 @@ export type RawBuilding = {
   title: string;
   images?: string[];
   completion_date?: string;
-  // sections?: Array<RawBuildingAttributeSection | RawBuildingRenovationSection>
+  sections?: Array<RawBuildingAttributeSection | RawBuildingRenovationSection>;
 
   address?: string;
   location?: RawLocation;
@@ -29,10 +34,10 @@ export interface Building {
   /** Raw address for the building */
   address?: string;
   /** Coordinates for the building */
-  location?: RawLocation;
+  location?: Location;
   /** Name of the building */
   title: string;
-  /** [Transformed] Cached number of tours. */
+  /** Cached number of tours. */
   tour_count: number;
   /** Processed Cloudinary image URLs from public IDs in source file. */
   images: CloudinaryImage<'gallery_item'>[];
@@ -44,7 +49,8 @@ export interface Building {
   excerpt: Markdown;
   /** Details that can be used directly on the map */
   map_marker?: MapMarker;
-  // sections?: Array<BuildingAttributeSection | BuildingRenovationSection>
+  /** Dynamic content areas for the detail page. */
+  sections?: BuildingAttributeSections;
 
   /* --- Location --- */
 
