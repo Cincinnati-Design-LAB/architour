@@ -1,8 +1,6 @@
-import { unified } from 'unified';
-import remarkParse from 'remark-parse';
-import remarkRehype from 'remark-rehype';
-import rehypeSanitize from 'rehype-sanitize';
-import rehypeStringify from 'rehype-stringify';
+import MarkdownIt from 'markdown-it';
+
+const md = new MarkdownIt();
 
 /**
  * Object that holds original reference to markdown, with converted HTML string.
@@ -20,12 +18,6 @@ export type Markdown = {
  * @returns Markdown object with original reference and processed HTML string
  */
 export async function processMarkdown(input: string): Promise<Markdown> {
-  const html = await unified()
-    .use(remarkParse)
-    .use(remarkRehype)
-    .use(rehypeSanitize)
-    .use(rehypeStringify)
-    .process(input);
-
-  return { raw: input, html: html.toString() };
+  const html = md.render(input || '') || '';
+  return { raw: input, html };
 }
