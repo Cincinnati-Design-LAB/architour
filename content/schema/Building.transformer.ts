@@ -1,5 +1,6 @@
-import type { Building, RawBuilding } from '@/content/schema/Building.d';
-import { RawBuildingAttributeSection } from '@/content/schema/BuildingAttributeSection.d';
+import type { Building, BuildingPageLocation, RawBuilding } from '@/content/schema/Building.d';
+import { BuildingAttributeSection } from '@/content/schema/BuildingAttributeSection';
+import { BuildingRenovationSection } from '@/content/schema/BuildingRenovationSection';
 import { EDITOR_MODE, ROOT_DIR } from '@/content/utils/constants';
 import { cloudinaryImageUrls } from '@/content/utils/images';
 import { mapMarkerData } from '@/content/utils/map';
@@ -45,16 +46,19 @@ export async function transformBuilding(raw: RawBuilding, filePath: string): Pro
       })
     : undefined;
   // Transform the sections by collecting them into page locations
-  const getAttributesForSection = (page_location: RawBuildingAttributeSection['page_location']) => {
-    return (raw.sections || []).filter((section) => section.page_location === page_location);
+  const getPageSection = (page_location: BuildingPageLocation) => {
+    return (raw.sections || [])
+      .filter((section) => section.page_location === page_location)
+      .map((section) => {
+        delete section.page_location;
+        return section;
+      }) as Array<BuildingAttributeSection | BuildingRenovationSection>;
   };
   const sections = Object.fromEntries(
     ['above_images', 'below_images', 'above_map', 'below_map'].map(
-      (page_location: RawBuildingAttributeSection['page_location']) => {
-        return [page_location, getAttributesForSection(page_location)];
-      },
+      (page_location: BuildingPageLocation) => [page_location, getPageSection(page_location)],
     ),
-  );
+  ) as Record<BuildingPageLocation, Array<BuildingAttributeSection | BuildingRenovationSection>>;
 
   const building: Building = {
     stackbit_id,

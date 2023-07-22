@@ -1,13 +1,15 @@
-import type { BuildingAttribute, RawBuildingAttribute } from './BuildingAttribute.d';
+import type { BuildingPageLocation } from '@/content/schema/Building';
+import type { RawBuildingAttribute } from '@/content/schema/BuildingAttribute';
 
 export type RawBuildingAttributeSection = {
+  type: 'BuildingAttributeSection';
   attributes: RawBuildingAttribute[];
-  page_location: 'above_images' | 'below_images' | 'above_map' | 'below_map';
+  page_location: BuildingPageLocation;
 };
 
-export type BuildingAttributeSections = {
-  above_images: BuildingAttribute[];
-  below_images: BuildingAttribute[];
-  above_map: BuildingAttribute[];
-  below_map: BuildingAttribute[];
+export type BuildingAttributeSection = Omit<
+  RawBuildingAttributeSection,
+  'attributes' | 'page_location'
+> & {
+  attributes: BuildingAttribute[];
 };

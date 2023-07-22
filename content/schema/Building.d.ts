@@ -1,8 +1,11 @@
 import {
-  BuildingAttributeSections,
+  BuildingAttributeSection,
   RawBuildingAttributeSection,
 } from '@/content/schema/BuildingAttributeSection';
-import { RawBuildingRenovationSection } from '@/content/schema/BuildingRenovationSection';
+import {
+  BuildingRenovationSection,
+  RawBuildingRenovationSection,
+} from '@/content/schema/BuildingRenovationSection';
 import { Location, RawLocation } from '@/content/schema/Location';
 import { CloudinaryImage } from '@/content/utils/images';
 import { MapMarker } from '@/content/utils/map';
@@ -24,6 +27,8 @@ export type RawBuilding = {
 
   draft?: boolean;
 };
+
+export type BuildingPageLocation = 'above_images' | 'below_images' | 'above_map' | 'below_map';
 
 export interface Building {
   //
@@ -50,7 +55,10 @@ export interface Building {
   /** Details that can be used directly on the map */
   map_marker?: MapMarker;
   /** Dynamic content areas for the detail page. */
-  sections?: BuildingAttributeSections;
+  sections?: Record<
+    BuildingPageLocation,
+    Array<BuildingAttributeSection | BuildingRenovationSection>
+  >;
 
   /* --- Location --- */
 
