@@ -3,7 +3,7 @@ import type { PageModel } from '@stackbit/types';
 export const Tour: PageModel = {
   name: 'Tour',
   type: 'page',
-  urlPath: '/tours/{slug}',
+  url_path: '/tours/{slug}',
   filePath: 'content/tours/{slug}.md',
   hideContent: true,
   fieldGroups: [

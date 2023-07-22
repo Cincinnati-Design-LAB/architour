@@ -16,8 +16,8 @@ export type RawTour = {
 };
 
 export interface Tour {
-  stackbitId: string;
-  urlPath: string;
+  stackbit_id: string;
+  url_path: string;
   mapUrlPath: string;
   slug: string;
 

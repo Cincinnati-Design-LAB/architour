@@ -8,8 +8,8 @@ export type MapMarker = {
   properties: {
     title: string;
     excerpt: Building['excerpt'];
-    image: Building['featuredImage'];
-    urlPath: Building['urlPath'];
+    image: Building['featured_image'];
+    url_path: Building['url_path'];
   };
   geometry: {
     type: 'Point';
@@ -28,13 +28,13 @@ export function mapMarkerData({
   image,
   location,
   title,
-  urlPath,
+  url_path,
 }: {
   excerpt: Building['excerpt'];
-  image: Building['featuredImage'];
+  image: Building['featured_image'];
   location: Building['location'];
   title: Building['title'];
-  urlPath: Building['urlPath'];
+  url_path: Building['url_path'];
 }): MapMarker {
   return {
     type: 'Feature',
@@ -42,7 +42,7 @@ export function mapMarkerData({
       title,
       image,
       excerpt,
-      urlPath,
+      url_path,
     },
     geometry: {
       type: 'Point',

@@ -1,5 +1,5 @@
 import type { Building, RawBuilding } from '@/content/schema/Building.d';
-import { ROOT_DIR } from '@/content/utils/constants';
+import { EDITOR_MODE, ROOT_DIR } from '@/content/utils/constants';
 import { cloudinaryImageUrls } from '@/content/utils/images';
 import { mapMarkerData } from '@/content/utils/map';
 import { processMarkdown } from '@/content/utils/markdown';
@@ -7,65 +7,107 @@ import { getExcerpt } from '@/content/utils/text';
 import path from 'path';
 
 export async function transformBuilding(raw: RawBuilding, filePath: string): Promise<Building> {
-  // Name is the title in the source file
-  const name = raw.title;
+  // Pass-through fields
+  const title = raw.title;
+  const location = raw.location;
+  const address = raw.address;
+  const completion_date = raw.completion_date;
   // Create slug using the filename
   const slug = path.basename(filePath, path.extname(filePath));
   // Stackbit ID is the relative path to the file from the root of the project
-  const stackbitId = path.relative(ROOT_DIR, filePath);
+  const stackbit_id = path.relative(ROOT_DIR, filePath);
   // URL path is the slug prefixed with `/buildings/`
-  const urlPath = `/buildings/${slug}`;
+  const url_path = `/buildings/${slug}`;
   // Draft is true unless explicitly set to false in the source file
   const draft = raw.draft === false ? false : true;
   // Transform the list of image IDs into a list of image URLs
   const images = (raw.images || []).map((id) => cloudinaryImageUrls(id, ['gallery_item']));
   // If there is an image, use it as the featured image
-  const featuredImage =
+  const featured_image =
     raw.images && raw.images[0]
       ? cloudinaryImageUrls(raw.images[0], ['card_thumb', 'compact_card_hero', 'hero', 'sidebar'])
       : undefined;
+  // Transform the markdown content into a markdown object
+  const body = await processMarkdown(raw.content);
   // Transform the markdown content into an excerpt
-  const excerpt = raw.content ? await processMarkdown(getExcerpt(raw.content)) : undefined;
+  const excerpt = await processMarkdown(getExcerpt(raw.content));
   // Add static map image if it exists
-  const staticMap = raw.static_map ? cloudinaryImageUrls(raw.static_map, ['sidebar']) : undefined;
+  const static_map = raw.static_map ? cloudinaryImageUrls(raw.static_map, ['sidebar']) : undefined;
   // Build map marker data if there is a location
-  const mapMarker = raw.location?.lat
+  const map_marker = raw.location?.lat
     ? mapMarkerData({
         excerpt,
-        urlPath,
-        image: featuredImage,
+        url_path: url_path,
+        image: featured_image,
         location: raw.location,
         title: raw.title,
       })
     : undefined;
 
   const building: Building = {
-    stackbitId,
-    urlPath,
+    stackbit_id,
+    url_path,
     slug,
-
-    name,
+    title,
+    location,
+    completion_date,
+    address,
     // TODO
-    tourCount: 0,
+    tour_count: 0,
     images,
-    featuredImage,
+    featured_image,
+    body,
     excerpt,
-
-    staticMap,
-    mapMarker,
-
+    static_map,
+    map_marker,
     draft,
-
-    // stackbitId: raw.stackbitId,
-    // urlPath: raw.urlPath,
-    // slug: raw.slug,
-    // completion_date: raw.completion_date,
-    // address: raw.address,
-    // draft: raw.draft,
-    // name: raw.title,
-    // tourCount: 0,
-    // excerpt: "",
+    validation_errors: [],
   };
 
+  validateBuilding(building);
+
   return building;
+}
+
+/* ----- Validator ----- */
+
+/**
+ * Throws an error if building does not meet minimum requirements for content.
+ *
+ * @param building Contentlayer building object
+ * @returns Transformed building object
+ */
+export function validateBuilding(building: Building): boolean {
+  building.validation_errors = [];
+
+  // The following fields are required
+  const requiredFields: Array<keyof Building> = [
+    'title',
+    'address',
+    'completion_date',
+    'static_map',
+  ];
+  for (const field of requiredFields) {
+    if (!building[field]) building.validation_errors.push(`Missing required field: ${field}`);
+  }
+  // `body` is a structured field
+  if (!building.body?.raw) building.validation_errors.push('Missing required field: body');
+  // Latitude and longitude must be set
+  if (!building.location?.lat || !building.location?.lng) {
+    building.validation_errors.push('Location has not been set');
+  }
+  // Must have at least one image
+  if (!building.images || building.images.length < 1) {
+    building.validation_errors.push('Must have at least one image');
+  }
+
+  // Keep the validation errors on the building, but don't throw an error in
+  // editor mode.
+  if (EDITOR_MODE) return true;
+  // Throw an error if there are validation errors when not in editor mode.
+  if (building.validation_errors.length > 0) {
+    throw new Error(`Validation failed.\n${building.validation_errors.join('\n')}`);
+  }
+
+  return true;
 }

@@ -5,15 +5,15 @@ import { Markdown } from './markdown';
 
 export interface Building extends Omit<Contentlayer.Building, 'images'> {
   /** [Transformed] Cached number of tours. */
-  tourCount: number;
+  tour_count: number;
   /** Processed Cloudinary image URLs from public IDs in source file. */
   images: CloudinaryImage<'gallery_item'>[];
   /** The first image is set as the featured image. */
-  featuredImage: CloudinaryImage<'card_thumb' | 'compact_card_hero' | 'hero' | 'sidebar'>;
+  featured_image: CloudinaryImage<'card_thumb' | 'compact_card_hero' | 'hero' | 'sidebar'>;
   /** Convert first clause from the body as the excerpt */
   excerpt?: Markdown;
   /** Details that can be used directly on the map */
-  mapMarker: MapMarker;
+  map_marker: MapMarker;
   /** Transformed Cloudinary image object from static map */
   static_map: CloudinaryImage<'sidebar'>;
   /** Validation errors that get attached when in edit mode */

@@ -1,31 +1,31 @@
 ---
 import {
-  PageHeader,
   BuildingCardCompact,
-  Stat,
-  Link,
-  ResponsiveImage,
   Icon,
+  Link,
+  PageHeader,
+  ResponsiveImage,
+  Stat,
   ValidationErrors,
-} from '@components'
-import { fieldPath, getTours, objectId, Tour } from '@content'
-import { PageLayout } from '@layouts'
+} from '@components';
+import { fieldPath, getTours, objectId, Tour } from '@content';
+import { PageLayout } from '@layouts';
 
 export async function getStaticPaths() {
-  const toursEntries = await getTours()
+  const toursEntries = await getTours();
   return toursEntries.map((tour) => ({
     params: { slug: tour.slug },
     props: { tour },
-  }))
+  }));
 }
 
-const tour = Astro.props.tour as Tour
+const tour = Astro.props.tour as Tour;
 ---
 
 <PageLayout
   title={tour.title}
   class={{ main: 'bg-gray-100' }}
-  bodyAnnotations={objectId(tour.stackbitId)}
+  bodyAnnotations={objectId(tour.stackbit_id)}
 >
   <PageHeader
     title={tour.title}
@@ -66,7 +66,7 @@ const tour = Astro.props.tour as Tour
       <div class="col-span-5">
         {
           tour.static_map && (
-            <Link className="relative group" href={tour.urlPath + '/map'}>
+            <Link className="relative group" href={tour.url_path + '/map'}>
               <ResponsiveImage src={tour.static_map.sidebar} className="border w-full" />
               <div class="top-0 left-0 h-full w-full bg-secondary-500/80 z-10 group-hover:opacity-100 transition-opacity duration-300 opacity-0 absolute">
                 <div class="flex text-white justify-center items-center h-full w-full space-x-3">

@@ -1,26 +1,26 @@
 ---
-import 'mapbox-gl/dist/mapbox-gl.css'
+import 'mapbox-gl/dist/mapbox-gl.css';
 
-import { getTours, Tour } from '@content'
-import { MapLayout } from '@layouts'
-import { Icon, Link, PageHeader } from '@components'
+import { Icon, Link, PageHeader } from '@components';
+import { getTours, Tour } from '@content';
+import { MapLayout } from '@layouts';
 
 export async function getStaticPaths() {
-  const toursEntries = await getTours()
+  const toursEntries = await getTours();
   return toursEntries.map((tour) => ({
     params: { slug: tour.slug },
     props: { tour },
-  }))
+  }));
 }
 
-const tour = Astro.props.tour as Tour
+const tour = Astro.props.tour as Tour;
 ---
 
 <MapLayout title={tour.title}>
   <PageHeader title={tour.title} image={tour.image} size={'md'} />
 
   <div class="hidden" id="building-data">
-    [{tour.buildings.map((building) => JSON.stringify(building.mapMarker)).join(',')}]
+    [{tour.buildings.map((building) => JSON.stringify(building.map_marker)).join(',')}]
   </div>
 
   <div
@@ -46,39 +46,39 @@ const tour = Astro.props.tour as Tour
   <div id="map-container" class="w-screen h-[calc(100vh-15rem)]"></div>
 
   <script>
-    import { Building } from '@content'
-    import mapboxgl from 'mapbox-gl'
+    import { Building } from '@content';
+    import mapboxgl from 'mapbox-gl';
 
     /* --- Setup Map --- */
 
-    mapboxgl.accessToken = import.meta.env.PUBLIC_MAPBOX_TOKEN
+    mapboxgl.accessToken = import.meta.env.PUBLIC_MAPBOX_TOKEN;
 
     const map = new mapboxgl.Map({
       container: 'map-container',
       style: `mapbox://styles/${import.meta.env.PUBLIC_MAPBOX_STYLE}`,
       center: [-84.512, 39.1031],
       zoom: 12,
-    })
+    });
 
     /* --- Constants --- */
 
     // Building data is text embedded in a hidden div in the DOM
-    const buildingData = JSON.parse(document.getElementById('building-data').innerHTML)
+    const buildingData = JSON.parse(document.getElementById('building-data').innerHTML);
     // Drawer element ref that slides in and out
-    const drawer = document.getElementById('drawer')
+    const drawer = document.getElementById('drawer');
 
     /* --- Shared Refs --- */
 
-    const DRAWER_CLOSE_CLASS = 'right-[-30rem]'
-    const DRAWER_OPEN_CLASS = 'right-0'
+    const DRAWER_CLOSE_CLASS = 'right-[-30rem]';
+    const DRAWER_OPEN_CLASS = 'right-0';
 
     /**
      * Remove the highlight from all markers.
      */
     function removeActiveMarker() {
       document.querySelectorAll('.building-marker').forEach((el: HTMLDivElement) => {
-        el.style.backgroundColor = '#3D3935'
-      })
+        el.style.backgroundColor = '#3D3935';
+      });
     }
 
     /**
@@ -86,17 +86,17 @@ const tour = Astro.props.tour as Tour
      * has been updated.
      */
     function openDrawer() {
-      drawer.classList.add(DRAWER_OPEN_CLASS)
-      drawer.classList.remove(DRAWER_CLOSE_CLASS)
+      drawer.classList.add(DRAWER_OPEN_CLASS);
+      drawer.classList.remove(DRAWER_CLOSE_CLASS);
     }
 
     /**
      * Close the drawer. Does not remove content from the drawer.
      */
     function closeDrawer() {
-      removeActiveMarker()
-      drawer.classList.add(DRAWER_CLOSE_CLASS)
-      drawer.classList.remove(DRAWER_OPEN_CLASS)
+      removeActiveMarker();
+      drawer.classList.add(DRAWER_CLOSE_CLASS);
+      drawer.classList.remove(DRAWER_OPEN_CLASS);
     }
 
     /**
@@ -106,58 +106,58 @@ const tour = Astro.props.tour as Tour
     function handleMarkerClick(
       event: MouseEvent,
       el: HTMLDivElement,
-      marker: Building['mapMarker'],
+      marker: Building['map_marker'],
     ) {
-      event.stopPropagation()
+      event.stopPropagation();
       // Remove highlight from all buildings
-      removeActiveMarker()
+      removeActiveMarker();
       // Highlight the active building
-      el.style.backgroundColor = '#799A05'
+      el.style.backgroundColor = '#799A05';
       // Add info to the drawer
-      const drawerImg = document.getElementById('drawer-image') as HTMLImageElement
-      const imageUrls = marker.properties.image.sidebar
-      drawerImg.src = imageUrls['1x']
-      drawerImg.srcset = `${imageUrls['1x']} 1x, ${imageUrls['2x']} 2x, ${imageUrls['3x']} 3x`
-      document.getElementById('drawer-title').innerHTML = marker.properties.title
-      document.getElementById('drawer-excerpt').innerHTML = marker.properties.excerpt.raw || ''
-      document.getElementById('drawer-link').setAttribute('href', marker.properties.urlPath)
+      const drawerImg = document.getElementById('drawer-image') as HTMLImageElement;
+      const imageUrls = marker.properties.image.sidebar;
+      drawerImg.src = imageUrls['1x'];
+      drawerImg.srcset = `${imageUrls['1x']} 1x, ${imageUrls['2x']} 2x, ${imageUrls['3x']} 3x`;
+      document.getElementById('drawer-title').innerHTML = marker.properties.title;
+      document.getElementById('drawer-excerpt').innerHTML = marker.properties.excerpt.raw || '';
+      document.getElementById('drawer-link').setAttribute('href', marker.properties.url_path);
       // Slide in the drawer
-      openDrawer()
+      openDrawer();
     }
 
     /**
      * Create a marker element. This is a simple circle with a border.
      */
     function createMarkerElement() {
-      const el = document.createElement('div')
-      el.className = 'building-marker cursor-pointer'
-      el.style.backgroundColor = '#3D3935'
-      el.style.width = '1.5rem'
-      el.style.height = '1.5rem'
-      el.style.borderRadius = '50%'
-      el.style.border = '.2rem solid white'
-      return el
+      const el = document.createElement('div');
+      el.className = 'building-marker cursor-pointer';
+      el.style.backgroundColor = '#3D3935';
+      el.style.width = '1.5rem';
+      el.style.height = '1.5rem';
+      el.style.borderRadius = '50%';
+      el.style.border = '.2rem solid white';
+      return el;
     }
 
     /* --- Add Markers --- */
 
-    buildingData.map((building: Building['mapMarker']) => {
-      const el = createMarkerElement()
-      new mapboxgl.Marker(el).setLngLat(building.geometry.coordinates).addTo(map)
-      el.addEventListener('click', (event) => handleMarkerClick(event, el, building))
-    })
+    buildingData.map((building: Building['map_marker']) => {
+      const el = createMarkerElement();
+      new mapboxgl.Marker(el).setLngLat(building.geometry.coordinates).addTo(map);
+      el.addEventListener('click', (event) => handleMarkerClick(event, el, building));
+    });
 
     /* --- Set Map Bounds --- */
 
-    let bounds = new mapboxgl.LngLatBounds()
-    buildingData.map((building: Building['mapMarker']) => {
-      bounds.extend(building.geometry.coordinates)
-    })
-    map.fitBounds(bounds, { padding: 50 })
+    let bounds = new mapboxgl.LngLatBounds();
+    buildingData.map((building: Building['map_marker']) => {
+      bounds.extend(building.geometry.coordinates);
+    });
+    map.fitBounds(bounds, { padding: 50 });
 
     /* --- Global Event Listeners --- */
 
-    map.on('click', closeDrawer)
-    document.getElementById('drawer-close-trigger').addEventListener('click', closeDrawer)
+    map.on('click', closeDrawer);
+    document.getElementById('drawer-close-trigger').addEventListener('click', closeDrawer);
   </script>
 </MapLayout>

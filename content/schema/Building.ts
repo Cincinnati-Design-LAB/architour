@@ -153,12 +153,12 @@ export const Building = defineDocumentType(() => ({
     },
   },
   computedFields: {
-    stackbitId: {
+    stackbit_id: {
       type: 'string',
       description: 'Unique ID for Stackbit editor',
       resolve: (building) => ['content', building._id].join('/'),
     },
-    urlPath: {
+    url_path: {
       type: 'string',
       description: 'Consistent URL path to the detail page on the website',
       resolve: (building) => `/${building._raw.flattenedPath}`,

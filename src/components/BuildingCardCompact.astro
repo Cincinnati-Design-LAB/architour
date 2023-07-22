@@ -1,25 +1,25 @@
 ---
-import { CardStatusBadges, ResponsiveImage } from '@components'
-import { Building, fieldPath, objectId } from '@content'
+import { CardStatusBadges, ResponsiveImage } from '@components';
+import { Building, fieldPath, objectId } from '@content';
 
 export interface Props extends Building {}
 
-const building = Astro.props as Props
+const building = Astro.props as Props;
 
 // Note: Using <Link /> causes a layout issue because it uses flex internally
 // and that throws off our grid. The Link benefits are not needed here anyways.
 ---
 
 <a
-  href={building.urlPath}
+  href={building.url_path}
   class="bg-white shadow-md relative flex hover:shadow-lg transition-shadow duration-300"
-  {...objectId(building.stackbitId)}
+  {...objectId(building.stackbit_id)}
 >
   {
-    building.featuredImage && (
+    building.featured_image && (
       <div class="w-32 shrink-0">
         <ResponsiveImage
-          src={building.featuredImage.compact_card_hero}
+          src={building.featured_image.compact_card_hero}
           className="object-cover h-full w-full object-center"
         />
       </div>

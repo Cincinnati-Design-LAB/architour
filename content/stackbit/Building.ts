@@ -4,7 +4,7 @@ import { assetSources } from '../utils/asset-sources';
 export const Building: PageModel = {
   name: 'Building',
   type: 'page',
-  urlPath: '/buildings/{slug}',
+  url_path: '/buildings/{slug}',
   filePath: 'content/buildings/{slug}.md',
   fieldGroups: [
     { name: 'location', icon: 'globe', label: 'Location' },

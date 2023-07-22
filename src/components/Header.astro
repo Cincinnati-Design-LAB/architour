@@ -1,13 +1,13 @@
 ---
-import { getSiteConfig } from '@/content/utils/site-config'
-import { Button, HeaderLink, Icon, Link, Logo } from '@components'
-import { fieldPath } from '@content'
+import { getSiteConfig } from '@/content/utils/site-config';
+import { Button, HeaderLink, Icon, Link, Logo } from '@components';
+import { fieldPath } from '@content';
 
-const siteConfig = await getSiteConfig()
-const { site_link_label, nav_links } = siteConfig.header
+const siteConfig = await getSiteConfig();
+const { site_link_label, nav_links } = siteConfig.header;
 ---
 
-<header class="max-w-7xl mx-auto px-4 py-6" {...fieldPath(`${siteConfig.stackbitId}:header`)}>
+<header class="max-w-7xl mx-auto px-4 py-6" {...fieldPath(`${siteConfig.stackbit_id}:header`)}>
   <div class="flex justify-between items-center">
     <div class="flex flex-col">
       <Link
@@ -34,7 +34,7 @@ const { site_link_label, nav_links } = siteConfig.header
               >
                 {link.label}
               </Button>
-            )
+            );
           return (
             <HeaderLink
               href={link.href}
@@ -42,7 +42,7 @@ const { site_link_label, nav_links } = siteConfig.header
             >
               {link.label}
             </HeaderLink>
-          )
+          );
         })
       }
     </div>
@@ -59,7 +59,7 @@ const { site_link_label, nav_links } = siteConfig.header
                 <Icon name={link.icon} />
               </span>
             </HeaderLink>
-          )
+          );
         })
       }
     </div>

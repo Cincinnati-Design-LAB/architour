@@ -25,7 +25,7 @@ export async function getTours(): Promise<Tour[]> {
 export async function transformTour(tour: Contentlayer.Tour): Promise<Tour> {
   const allBuildings = await getBuildings();
   const findBuilding = (filePath: string): Building => {
-    return allBuildings.find((b) => b.stackbitId === filePath);
+    return allBuildings.find((b) => b.stackbit_id === filePath);
   };
   const buildings = (tour.buildings || []).map(findBuilding).filter(Boolean);
   const image = cloudinaryImageUrls(tour.image, ['card_hero', 'hero']);

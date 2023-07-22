@@ -1,16 +1,16 @@
 ---
-import { getSiteConfig } from '@/content/utils/site-config'
-import { BuildingCard, PageHeader } from '@components'
-import { Building, fieldPath } from '@content'
-import { PageLayout } from '.'
+import { getSiteConfig } from '@/content/utils/site-config';
+import { BuildingCard, PageHeader } from '@components';
+import { Building, fieldPath } from '@content';
+import { PageLayout } from '.';
 
 export interface Props {
-  buildings: Building[]
+  buildings: Building[];
 }
 
-const { buildings } = Astro.props
+const { buildings } = Astro.props;
 
-const siteConfig = await getSiteConfig()
+const siteConfig = await getSiteConfig();
 ---
 
 <PageLayout title={siteConfig.buildings.page_label}>
@@ -18,7 +18,7 @@ const siteConfig = await getSiteConfig()
     title={siteConfig.buildings.page_label}
     theme={siteConfig.buildings.page_header_theme}
     icon={siteConfig.buildings.page_icon}
-    annotations={{ title: fieldPath(`${siteConfig.stackbitId}:buildings.page_label`) }}
+    annotations={{ title: fieldPath(`${siteConfig.stackbit_id}:buildings.page_label`) }}
   />
 
   <div class="bg-gray-100 pt-8">

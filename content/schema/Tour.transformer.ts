@@ -8,9 +8,9 @@ export async function transformTour(raw: RawTour, filePath: string): Promise<Tou
   // Create slug using the filename
   const slug = path.basename(filePath, path.extname(filePath));
   // Stackbit ID is the relative path to the file from the root of the project
-  const stackbitId = path.relative(ROOT_DIR, filePath);
+  const stackbit_id = path.relative(ROOT_DIR, filePath);
   // URL path is the slug prefixed with `/tours/`
-  const urlPath = `/tours/${slug}`;
+  const url_path = `/tours/${slug}`;
   // Map URL path is the slug prefixed with `/tours/` and suffixed with `/map`
   const mapUrlPath = `/tours/${slug}/map`;
   // Draft is true unless explicitly set to false in the source file
@@ -20,20 +20,20 @@ export async function transformTour(raw: RawTour, filePath: string): Promise<Tou
     draft,
     name,
     slug,
-    stackbitId,
-    urlPath,
+    stackbit_id,
+    url_path,
     mapUrlPath,
     // TODO
     buildings: [],
 
-    // stackbitId: raw.stackbitId,
-    // urlPath: raw.urlPath,
+    // stackbit_id: raw.stackbit_id,
+    // url_path: raw.url_path,
     // slug: raw.slug,
     // completion_date: raw.completion_date,
     // address: raw.address,
     // draft: raw.draft,
     // name: raw.title,
-    // tourCount: 0,
+    // tour_count: 0,
     // excerpt: "",
   };
 

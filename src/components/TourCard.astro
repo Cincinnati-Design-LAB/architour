@@ -1,16 +1,16 @@
 ---
-import { CardMetaAttribute, CardStatusBadges, Icon, Link, ResponsiveImage } from '@components'
-import { fieldPath, objectId, Tour } from '@content'
+import { CardMetaAttribute, CardStatusBadges, Icon, Link, ResponsiveImage } from '@components';
+import { fieldPath, objectId, Tour } from '@content';
 
 export interface Props extends Tour {}
 
-const props = Astro.props as Props
+const props = Astro.props as Props;
 ---
 
 <Link
-  href={props.urlPath}
+  href={props.url_path}
   className="block bg-white shadow-md"
-  annotations={{ self: objectId(props.stackbitId), label: {} }}
+  annotations={{ self: objectId(props.stackbit_id), label: {} }}
 >
   {
     props.image && (

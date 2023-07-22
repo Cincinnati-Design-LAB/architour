@@ -24,33 +24,39 @@ export interface Building {
   //
   /* --- Text Content --- */
 
+  /** Raw completion date for the building */
   completion_date?: string;
+  /** Raw address for the building */
   address?: string;
-
-  name: string;
+  /** Coordinates for the building */
+  location?: RawLocation;
+  /** Name of the building */
+  title: string;
   /** [Transformed] Cached number of tours. */
-  tourCount: number;
+  tour_count: number;
   /** Processed Cloudinary image URLs from public IDs in source file. */
   images: CloudinaryImage<'gallery_item'>[];
   /** The first image is set as the featured image. */
-  featuredImage?: CloudinaryImage<'card_thumb' | 'compact_card_hero' | 'hero' | 'sidebar'>;
+  featured_image?: CloudinaryImage<'card_thumb' | 'compact_card_hero' | 'hero' | 'sidebar'>;
+  /** Process the raw content as a markdown object */
+  body: Markdown;
   /** Convert first clause from the body as the excerpt */
-  excerpt?: Markdown;
+  excerpt: Markdown;
   /** Details that can be used directly on the map */
-  mapMarker?: MapMarker;
+  map_marker?: MapMarker;
   // sections?: Array<BuildingAttributeSection | BuildingRenovationSection>
 
   /* --- Location --- */
 
   /** Transformed Cloudinary image object from static map */
-  staticMap?: CloudinaryImage<'sidebar'>;
+  static_map?: CloudinaryImage<'sidebar'>;
 
   /* --- Meta --- */
 
   /** Relative path to the file from the root of the project. */
-  stackbitId: string;
+  stackbit_id: string;
   /** URL path to the detail page for the building. */
-  urlPath: string;
+  url_path: string;
   /** File path basename without the extension */
   slug: string;
   /**
@@ -59,5 +65,5 @@ export interface Building {
    */
   draft?: boolean;
   /** Validation errors that get attached when in edit mode */
-  // validation_errors?: string[];
+  validation_errors: string[];
 }

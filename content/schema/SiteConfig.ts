@@ -101,7 +101,7 @@ export const SiteConfig = defineDocumentType(() => ({
     },
   },
   computedFields: {
-    stackbitId: {
+    stackbit_id: {
       type: 'string',
       description: 'Unique ID for Stackbit editor',
       resolve: (siteConfig) => ['content', siteConfig._id].join('/'),

@@ -72,16 +72,16 @@ export async function getBuildingsOnPage(
  * @returns Transformed building object
  */
 export async function transformBuilding(building: Contentlayer.Building): Promise<Building> {
-  const tourHasBuilding = (tour) => (tour.buildings || []).includes(building.stackbitId);
+  const tourHasBuilding = (tour) => (tour.buildings || []).includes(building.stackbit_id);
 
-  let tourCount, images, featuredImage, excerpt, mapMarker, static_map;
+  let tour_count, images, featured_image, excerpt, map_marker, static_map;
   try {
-    tourCount = Contentlayer.allTours.filter(filterTour).filter(tourHasBuilding).length;
+    tour_count = Contentlayer.allTours.filter(filterTour).filter(tourHasBuilding).length;
     if (building.images) {
       images = (building.images || []).map((id) => cloudinaryImageUrls(id, ['gallery_item']));
     }
     if (building.images && building.images[0]) {
-      featuredImage = cloudinaryImageUrls(building.images[0], [
+      featured_image = cloudinaryImageUrls(building.images[0], [
         'card_thumb',
         'compact_card_hero',
         'hero',
@@ -90,31 +90,31 @@ export async function transformBuilding(building: Contentlayer.Building): Promis
     }
     if (building.body?.raw) excerpt = await processMarkdown(getExcerpt(building.body.raw));
     if (building.location?.lat && building.location?.lng) {
-      mapMarker = mapMarkerData({
+      map_marker = mapMarkerData({
         excerpt: excerpt,
-        image: featuredImage,
+        image: featured_image,
         location: building.location,
         title: building.title,
-        urlPath: building.urlPath,
+        url_path: building.url_path,
       });
     }
     if (building.static_map) static_map = cloudinaryImageUrls(building.static_map, ['sidebar']);
-    return { ...building, tourCount, images, featuredImage, excerpt, mapMarker, static_map };
+    return { ...building, tour_count, images, featured_image, excerpt, map_marker, static_map };
   } catch (err) {
     console.error(
       'Building:',
       {
         name: building.title,
-        tourCount,
+        tour_count,
         images,
-        featuredImage,
+        featured_image,
         excerpt,
-        mapMarker,
+        map_marker,
         static_map,
       },
       '\n',
     );
-    throw new Error(`Error transforming building: ${building.urlPath}`);
+    throw new Error(`Error transforming building: ${building.url_path}`);
   }
 }
 
@@ -128,7 +128,7 @@ export async function transformBuilding(building: Contentlayer.Building): Promis
  */
 export async function getBuildingTours(building: Building): Promise<Tour[]> {
   const tourHasBuilding = (tour: Tour) => {
-    return tour.buildings.map((t) => t.stackbitId).includes(building.stackbitId);
+    return tour.buildings.map((t) => t.stackbit_id).includes(building.stackbit_id);
   };
   const tours = await getTours();
   return tours.filter(tourHasBuilding);
