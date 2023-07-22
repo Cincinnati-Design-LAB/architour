@@ -1,5 +1,9 @@
 import type { Building, RawBuilding } from '@/content/schema/Building.d';
 import { ROOT_DIR } from '@/content/utils/constants';
+import { cloudinaryImageUrls } from '@/content/utils/images';
+import { mapMarkerData } from '@/content/utils/map';
+import { processMarkdown } from '@/content/utils/markdown';
+import { getExcerpt } from '@/content/utils/text';
 import path from 'path';
 
 export async function transformBuilding(raw: RawBuilding, filePath: string): Promise<Building> {
@@ -13,15 +17,44 @@ export async function transformBuilding(raw: RawBuilding, filePath: string): Pro
   const urlPath = `/buildings/${slug}`;
   // Draft is true unless explicitly set to false in the source file
   const draft = raw.draft === false ? false : true;
+  // Transform the list of image IDs into a list of image URLs
+  const images = (raw.images || []).map((id) => cloudinaryImageUrls(id, ['gallery_item']));
+  // If there is an image, use it as the featured image
+  const featuredImage =
+    raw.images && raw.images[0]
+      ? cloudinaryImageUrls(raw.images[0], ['card_thumb', 'compact_card_hero', 'hero', 'sidebar'])
+      : undefined;
+  // Transform the markdown content into an excerpt
+  const excerpt = raw.content ? await processMarkdown(getExcerpt(raw.content)) : undefined;
+  // Add static map image if it exists
+  const staticMap = raw.static_map ? cloudinaryImageUrls(raw.static_map, ['sidebar']) : undefined;
+  // Build map marker data if there is a location
+  const mapMarker = raw.location?.lat
+    ? mapMarkerData({
+        excerpt,
+        urlPath,
+        image: featuredImage,
+        location: raw.location,
+        title: raw.title,
+      })
+    : undefined;
 
   const building: Building = {
-    draft,
-    name,
-    slug,
     stackbitId,
+    urlPath,
+    slug,
+
+    name,
     // TODO
     tourCount: 0,
-    urlPath,
+    images,
+    featuredImage,
+    excerpt,
+
+    staticMap,
+    mapMarker,
+
+    draft,
 
     // stackbitId: raw.stackbitId,
     // urlPath: raw.urlPath,
