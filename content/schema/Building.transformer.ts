@@ -8,6 +8,16 @@ import { processMarkdown } from '@/content/utils/markdown';
 import { getExcerpt } from '@/content/utils/text';
 import path from 'path';
 
+/**
+ * Transforms a raw building object into a building object that can be used in
+ * the application. The raw building is expected to be a JS object parsed from a
+ * markdown file.
+ *
+ * @param raw Raw building from the source file
+ * @param filePath Absolute path to the source file
+ * @returns Transformed building that can be written to the cache directory or
+ * used as needed
+ */
 export async function transformBuilding(raw: RawBuilding, filePath: string): Promise<Building> {
   // Pass-through fields
   const title = raw.title;
@@ -59,34 +69,31 @@ export async function transformBuilding(raw: RawBuilding, filePath: string): Pro
       (page_location: BuildingPageLocation) => [page_location, getPageSection(page_location)],
     ),
   ) as Record<BuildingPageLocation, Array<BuildingAttributeSection | BuildingRenovationSection>>;
-
+  // Build the building object from the transformed fields above.
   const building: Building = {
-    stackbit_id,
-    url_path,
-    slug,
-    title,
-    location,
-    completion_date,
     address,
-    sections,
-    // TODO
-    tour_count: 0,
-    images,
-    featured_image,
     body,
-    excerpt,
-    static_map,
-    map_marker,
+    completion_date,
     draft,
+    excerpt,
+    featured_image,
+    images,
+    location,
+    map_marker,
+    sections,
+    slug,
+    stackbit_id,
+    static_map,
+    title,
+    tour_count: 0, // TODO
+    url_path,
     validation_errors: [],
   };
-
+  // Validate the building
   validateBuilding(building);
-
+  // Return the building
   return building;
 }
-
-/* ----- Validator ----- */
 
 /**
  * Throws an error if building does not meet minimum requirements for content.

@@ -11,57 +11,60 @@ import { CloudinaryImage } from '@/content/utils/images';
 import { MapMarker } from '@/content/utils/map';
 import { Markdown } from '@/content/utils/markdown';
 
+export type BuildingPageLocation = 'above_images' | 'below_images' | 'above_map' | 'below_map';
+
 export type RawBuilding = {
   /** Parse body of the markdown file */
   content: string;
-
+  // Group: Content
   title: string;
   images?: string[];
   completion_date?: string;
   sections?: Array<RawBuildingAttributeSection | RawBuildingRenovationSection>;
-
+  // Group: Location
   address?: string;
   location?: RawLocation;
   static_map?: string;
   static_map_cache?: string;
-
+  // Group: Settings
   draft?: boolean;
 };
 
-export type BuildingPageLocation = 'above_images' | 'below_images' | 'above_map' | 'below_map';
-
 export interface Building {
   //
-  /* --- Text Content --- */
+  /* --- Page Content --- */
 
-  /** Raw completion date for the building */
-  completion_date?: string;
-  /** Raw address for the building */
-  address?: string;
-  /** Coordinates for the building */
-  location?: Location;
   /** Name of the building */
   title: string;
-  /** Cached number of tours. */
-  tour_count: number;
-  /** Processed Cloudinary image URLs from public IDs in source file. */
-  images: CloudinaryImage<'gallery_item'>[];
-  /** The first image is set as the featured image. */
-  featured_image?: CloudinaryImage<'card_thumb' | 'compact_card_hero' | 'hero' | 'sidebar'>;
+  /** Raw completion date for the building */
+  completion_date?: string;
   /** Process the raw content as a markdown object */
   body: Markdown;
   /** Convert first clause from the body as the excerpt */
   excerpt: Markdown;
-  /** Details that can be used directly on the map */
-  map_marker?: MapMarker;
   /** Dynamic content areas for the detail page. */
   sections?: Record<
     BuildingPageLocation,
     Array<BuildingAttributeSection | BuildingRenovationSection>
   >;
+  /** Processed Cloudinary image URLs from public IDs in source file. */
+  images: CloudinaryImage<'gallery_item'>[];
+  /** The first image is set as the featured image. */
+  featured_image?: CloudinaryImage<'card_thumb' | 'compact_card_hero' | 'hero' | 'sidebar'>;
+
+  /* --- References --- */
+
+  /** Cached number of tours. */
+  tour_count: number;
 
   /* --- Location --- */
 
+  /** Raw address for the building */
+  address?: string;
+  /** Coordinates for the building */
+  location?: Location;
+  /** Details that can be used directly on the map */
+  map_marker?: MapMarker;
   /** Transformed Cloudinary image object from static map */
   static_map?: CloudinaryImage<'sidebar'>;
 
