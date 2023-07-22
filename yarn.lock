@@ -1266,17 +1266,17 @@
   resolved "https://registry.npmjs.org/@stackbit/artisanal-names/-/artisanal-names-1.0.1.tgz"
   integrity sha512-d4h70dAL5RR6HC8tOKRdBHUx0EEpZiSjmTlLUB4V2lDddt83B9df7yWuk1sgrUX10vrWGlkC3Phv4B6W9Qk/5g==
 
-"@stackbit/cms-core@0.7.1":
-  version "0.7.1"
-  resolved "https://registry.npmjs.org/@stackbit/cms-core/-/cms-core-0.7.1.tgz"
-  integrity sha512-nBvV1LccOSfilp7kMJL0HG/hSKzBh1swdRDOw7Alrg1lg1JW/+eUA5E5hU87c0I3408PJNpvWtxIiaifr1W1nw==
+"@stackbit/cms-core@0.7.4":
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/@stackbit/cms-core/-/cms-core-0.7.4.tgz#245f1e18f4ee9edd28dfd0701cd39026625066c4"
+  integrity sha512-jVX+XGIIpPeAv+VggT8Mll/nGiydzTwS/DTtJTRU4MS9KhpbyrDE07BJXreW3FPWxakxhVNlgByLdElbFX/U4Q==
   dependencies:
     "@babel/parser" "^7.11.5"
     "@babel/traverse" "^7.11.5"
     "@iarna/toml" "^2.2.3"
-    "@stackbit/sdk" "0.6.1"
-    "@stackbit/types" "0.8.1"
-    "@stackbit/utils" "0.2.38"
+    "@stackbit/sdk" "0.6.4"
+    "@stackbit/types" "0.8.4"
+    "@stackbit/utils" "0.2.41"
     chalk "^4.0.1"
     esm "^3.2.25"
     fs-extra "^8.1.0"
@@ -1291,16 +1291,16 @@
     slugify "^1.6.5"
     uuid "^9.0.0"
 
-"@stackbit/cms-git@^0.3.11":
-  version "0.3.11"
-  resolved "https://registry.npmjs.org/@stackbit/cms-git/-/cms-git-0.3.11.tgz"
-  integrity sha512-NtSwt0fzy5ycxWhBrm1rEYJnlksswjY49B75aDXY72VpAe9XDYtsxwct5jvjys81NX+CVhjRhRomxL/TBSt+gQ==
+"@stackbit/cms-git@^0.3.14":
+  version "0.3.14"
+  resolved "https://registry.yarnpkg.com/@stackbit/cms-git/-/cms-git-0.3.14.tgz#270a72a22a247bd841fdf77143346debc60562fd"
+  integrity sha512-gl6N3YKbSfDFuc4LhO5gcmzTIbP7aMcFH62Hwn1SpkM2iubSbAPDq9fvVRoZ2LtHwi2hRFpg8BqVad4NgEBDSQ==
   dependencies:
     "@stackbit/artisanal-names" "^1.0.1"
-    "@stackbit/cms-core" "0.7.1"
-    "@stackbit/sdk" "0.6.1"
-    "@stackbit/types" "0.8.1"
-    "@stackbit/utils" "0.2.38"
+    "@stackbit/cms-core" "0.7.4"
+    "@stackbit/sdk" "0.6.4"
+    "@stackbit/types" "0.8.4"
+    "@stackbit/utils" "0.2.41"
     axios "^0.24.0"
     fs-extra "^11.1.0"
     git-url-parse "^13.1.0"
@@ -1308,14 +1308,14 @@
     micromatch "^4.0.4"
     slugify "^1.6.5"
 
-"@stackbit/sdk@0.6.1":
-  version "0.6.1"
-  resolved "https://registry.npmjs.org/@stackbit/sdk/-/sdk-0.6.1.tgz"
-  integrity sha512-10n4OzzwOTAtQbWeJVRuQu8ILF3+QjeAXDPwkv1Y1XSHxboI/Dzls3DOP+aJQm+T9B7Zwr1+7GgfoWdt7gf/dA==
+"@stackbit/sdk@0.6.4":
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/@stackbit/sdk/-/sdk-0.6.4.tgz#57560c6818ddcda4f45bb0ea3ec8948f82b0a01c"
+  integrity sha512-VsqOrSyj/OpbjqwCBw7tUYMddFZiWaPD7Gn537ZgrKQoWZiUk+rJV8JyQTKLCIjEGGTqv7pNOqn6lrVAD1OOIg==
   dependencies:
     "@octokit/rest" "^18.3.5"
-    "@stackbit/types" "0.8.1"
-    "@stackbit/utils" "0.2.38"
+    "@stackbit/types" "0.8.4"
+    "@stackbit/utils" "0.2.41"
     acorn "^8.2.4"
     chokidar "^3.5.3"
     esbuild "^0.14.42"
@@ -1327,15 +1327,15 @@
     moment "^2.29.1"
     semver "^7.3.5"
 
-"@stackbit/types@0.8.1", "@stackbit/types@^0.8.1":
-  version "0.8.1"
-  resolved "https://registry.npmjs.org/@stackbit/types/-/types-0.8.1.tgz"
-  integrity sha512-TLjPet/JnXMM7BwmWfjmYCXw9GJZpU5t81AUpVqbNJZ/MhK6QhzAgItkZmd67AhExIST2hZIeZLRoNuiiKu2oQ==
+"@stackbit/types@0.8.4", "@stackbit/types@^0.8.4":
+  version "0.8.4"
+  resolved "https://registry.yarnpkg.com/@stackbit/types/-/types-0.8.4.tgz#1a17aeb9a56228881418d0ef3db19adfcf168c33"
+  integrity sha512-yxEvT14RDX+YZFhpJi6sBejRq41brtMm7Jp18GdzE3Mei3IRSP7jIZw2wjP3xDzwmNZoob4jSdR0C/S1veKHkA==
 
-"@stackbit/utils@0.2.38":
-  version "0.2.38"
-  resolved "https://registry.npmjs.org/@stackbit/utils/-/utils-0.2.38.tgz"
-  integrity sha512-CJk8EeZjJRcuLaDTAI5dAFS0qkz0WfZ8mRC72+ch7J91mSbjRZu5/U2xM73MJikXTMJmJeh757gWmsGctnzCKA==
+"@stackbit/utils@0.2.41":
+  version "0.2.41"
+  resolved "https://registry.yarnpkg.com/@stackbit/utils/-/utils-0.2.41.tgz#1b67f21eda63f9e61a0cc9525bce4fec5d01f19d"
+  integrity sha512-VVQ1pvFFkkVcKmwoKiRQOr49NGdyWWtspUpW3nZuz//AGo6GiCCHC1omtp+UgssWXxvlCG/m8icvW0jmmEBg0A==
   dependencies:
     "@iarna/toml" "^2.2.5"
     fs-extra "^9.1.0"
