@@ -1,4 +1,8 @@
+import fs from 'fs';
+import matter from 'gray-matter';
 import MarkdownIt from 'markdown-it';
+
+/* ----- Markdown Converter ----- */
 
 const md = new MarkdownIt();
 
@@ -20,4 +24,21 @@ export type Markdown = {
 export async function processMarkdown(input: string): Promise<Markdown> {
   const html = md.render(input || '') || '';
   return { raw: input, html };
+}
+
+/* ----- File Parser ----- */
+
+/**
+ * Reads and parses a markdown file using Gray Matter.
+ *
+ * @param filePath Absolute path to a markdown file
+ * @returns Parsed content from Gray Matter
+ */
+export async function parseMarkdownFile<T>(filePath: string): Promise<T> {
+  if (!fs.existsSync(filePath)) {
+    throw new Error(`File does not exist: ${filePath}`);
+  }
+  const fileContents = await fs.readFileSync(filePath, 'utf8');
+  const { data, content } = matter(fileContents);
+  return { ...data, content } as T;
 }

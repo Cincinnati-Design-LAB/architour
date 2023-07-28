@@ -1,8 +1,16 @@
+import { RawBuilding } from '@/content/schema/Building';
+import { transformBuilding } from '@/content/schema/Building.transformer';
 import type { RawTour, Tour } from '@/content/schema/Tour';
 import { EDITOR_MODE, ROOT_DIR } from '@/content/utils/constants';
 import { cloudinaryImageUrls } from '@/content/utils/images';
-import { processMarkdown } from '@/content/utils/markdown';
+import { parseMarkdownFile, processMarkdown } from '@/content/utils/markdown';
 import path from 'path';
+
+type TourTransformerOptions = {
+  raw: RawTour;
+  filePath: string;
+  skipReferences?: boolean;
+};
 
 /**
  * Transforms a raw tour object into a tour object that can be used in the
@@ -14,7 +22,8 @@ import path from 'path';
  * @returns Transformed tour that can be written to the cache directory or used
  * as needed
  */
-export async function transformTour(raw: RawTour, filePath: string): Promise<Tour> {
+export async function transformTour(options: TourTransformerOptions): Promise<Tour> {
+  const { filePath, raw, skipReferences } = options;
   // Pass-through fields
   const title = raw.title;
   const time_estimate = raw.time_estimate;
@@ -35,9 +44,19 @@ export async function transformTour(raw: RawTour, filePath: string): Promise<Tou
   const image = raw.image ? cloudinaryImageUrls(raw.image, ['card_hero', 'hero']) : undefined;
   // Static map gets transformed into a cloudinary URL
   const static_map = raw.static_map ? cloudinaryImageUrls(raw.static_map, ['sidebar']) : undefined;
+  // Resolve building references
+  let buildings = [];
+  if (!skipReferences) {
+    buildings = await Promise.all(
+      raw.buildings.map(async (filePath) => {
+        const raw = await parseMarkdownFile<RawBuilding>(path.join(ROOT_DIR, filePath));
+        return transformBuilding({ raw, filePath, skipReferences: true });
+      }),
+    );
+  }
   // Build the tour object from the transformed fields above.
   const tour: Tour = {
-    buildings: [], // TODO
+    buildings,
     description,
     draft,
     icon,

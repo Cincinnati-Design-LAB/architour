@@ -8,6 +8,12 @@ import { processMarkdown } from '@/content/utils/markdown';
 import { getExcerpt } from '@/content/utils/text';
 import path from 'path';
 
+type BuildingTransformerOptions = {
+  raw: RawBuilding;
+  filePath: string;
+  skipReferences?: boolean;
+};
+
 /**
  * Transforms a raw building object into a building object that can be used in
  * the application. The raw building is expected to be a JS object parsed from a
@@ -18,7 +24,8 @@ import path from 'path';
  * @returns Transformed building that can be written to the cache directory or
  * used as needed
  */
-export async function transformBuilding(raw: RawBuilding, filePath: string): Promise<Building> {
+export async function transformBuilding(options: BuildingTransformerOptions): Promise<Building> {
+  const { raw, filePath, skipReferences } = options;
   // Pass-through fields
   const title = raw.title;
   const location = raw.location;

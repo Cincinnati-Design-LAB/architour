@@ -65,7 +65,7 @@ buildings:
   - content/buildings/atlas-bldg.md
   - content/buildings/elm-street-residences.md
   - content/buildings/sixth-district-school-elm-street-health-center.md
-  - content/buildings/symphony-hotel.md
+  - content/buildings/symphony-hotel-peter-ehrgott-home.md
   - content/buildings/the-opthalmic-hospital.md
   - content/buildings/richard-and-lois-rosenthal-center-for-contemporary-art.md
   - content/buildings/us-bank.md
