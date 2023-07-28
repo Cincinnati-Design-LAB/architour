@@ -14,7 +14,9 @@ import { Markdown } from '@/content/utils/markdown';
 export type BuildingPageLocation = 'above_images' | 'below_images' | 'above_map' | 'below_map';
 
 export type RawBuilding = {
-  /** Parse body of the markdown file */
+  // Meta information
+  file_path: string;
+  // Parsed body of the markdown file
   content: string;
   // Group: Content
   title: string;

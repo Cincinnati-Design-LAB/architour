@@ -1,15 +1,16 @@
-import { RawBuilding } from '@/content/schema/Building';
-import { transformBuilding } from '@/content/schema/Building.transformer';
+import { Building } from '@/content/schema/Building';
 import type { RawTour, Tour } from '@/content/schema/Tour';
 import { EDITOR_MODE, ROOT_DIR } from '@/content/utils/constants';
 import { cloudinaryImageUrls } from '@/content/utils/images';
-import { parseMarkdownFile, processMarkdown } from '@/content/utils/markdown';
+import { processMarkdown } from '@/content/utils/markdown';
 import path from 'path';
+
+/* ----- Transformer ----- */
 
 type TourTransformerOptions = {
   raw: RawTour;
   filePath: string;
-  skipReferences?: boolean;
+  allBuildings?: Building[];
 };
 
 /**
@@ -23,7 +24,7 @@ type TourTransformerOptions = {
  * as needed
  */
 export async function transformTour(options: TourTransformerOptions): Promise<Tour> {
-  const { filePath, raw, skipReferences } = options;
+  const { filePath, raw, allBuildings } = options;
   // Pass-through fields
   const title = raw.title;
   const time_estimate = raw.time_estimate;
@@ -45,15 +46,10 @@ export async function transformTour(options: TourTransformerOptions): Promise<To
   // Static map gets transformed into a cloudinary URL
   const static_map = raw.static_map ? cloudinaryImageUrls(raw.static_map, ['sidebar']) : undefined;
   // Resolve building references
-  let buildings = [];
-  if (!skipReferences) {
-    buildings = await Promise.all(
-      raw.buildings.map(async (filePath) => {
-        const raw = await parseMarkdownFile<RawBuilding>(path.join(ROOT_DIR, filePath));
-        return transformBuilding({ raw, filePath, skipReferences: true });
-      }),
-    );
-  }
+  let buildings = (raw.buildings || [])
+    .map((filePath) => (allBuildings || []).find((building) => building.stackbit_id === filePath))
+    .filter(Boolean);
+
   // Build the tour object from the transformed fields above.
   const tour: Tour = {
     buildings,
@@ -68,13 +64,15 @@ export async function transformTour(options: TourTransformerOptions): Promise<To
     time_estimate,
     title,
     url_path,
-    validation_errors: [], // TODO
+    validation_errors: [],
   };
   // Validate the tour object
   validateTour(tour);
   // Return the tour object
   return tour;
 }
+
+/* ----- Validator ----- */
 
 /**
  * Throws an error if tour does not meet minimum requirements for content.

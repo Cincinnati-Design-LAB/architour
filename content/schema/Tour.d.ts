@@ -4,6 +4,8 @@ import { Markdown } from '@/content/utils/markdown';
 import { CloudinaryImage } from '@content';
 
 export type RawTour = {
+  // Meta information
+  file_path: string;
   // Group: Content
   title: string;
   image?: string;

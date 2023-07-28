@@ -1,5 +1,4 @@
-import { generateBuildingCache, generateTourCache } from '@/content/utils/generators';
+import { generateContentCache } from '@/content/utils/generators';
 (async () => {
-  await generateBuildingCache();
-  await generateTourCache();
+  await generateContentCache();
 })();

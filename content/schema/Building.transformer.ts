@@ -1,6 +1,7 @@
 import type { Building, BuildingPageLocation, RawBuilding } from '@/content/schema/Building.d';
 import { BuildingAttributeSection } from '@/content/schema/BuildingAttributeSection';
 import { BuildingRenovationSection } from '@/content/schema/BuildingRenovationSection';
+import { RawTour } from '@/content/schema/Tour';
 import { EDITOR_MODE, ROOT_DIR } from '@/content/utils/constants';
 import { cloudinaryImageUrls } from '@/content/utils/images';
 import { mapMarkerData } from '@/content/utils/map';
@@ -8,10 +9,12 @@ import { processMarkdown } from '@/content/utils/markdown';
 import { getExcerpt } from '@/content/utils/text';
 import path from 'path';
 
+/* ----- Transformer ----- */
+
 type BuildingTransformerOptions = {
   raw: RawBuilding;
   filePath: string;
-  skipReferences?: boolean;
+  allRawTours?: RawTour[];
 };
 
 /**
@@ -25,7 +28,7 @@ type BuildingTransformerOptions = {
  * used as needed
  */
 export async function transformBuilding(options: BuildingTransformerOptions): Promise<Building> {
-  const { raw, filePath, skipReferences } = options;
+  const { raw, filePath, allRawTours } = options;
   // Pass-through fields
   const title = raw.title;
   const location = raw.location;
@@ -76,6 +79,10 @@ export async function transformBuilding(options: BuildingTransformerOptions): Pr
       (page_location: BuildingPageLocation) => [page_location, getPageSection(page_location)],
     ),
   ) as Record<BuildingPageLocation, Array<BuildingAttributeSection | BuildingRenovationSection>>;
+  // Get tour count if the collection of transformed tours was provided
+  const tour_count = (allRawTours || []).filter((tour) =>
+    tour.buildings.map((filePath) => filePath === stackbit_id),
+  ).length;
   // Build the building object from the transformed fields above.
   const building: Building = {
     address,
@@ -92,7 +99,7 @@ export async function transformBuilding(options: BuildingTransformerOptions): Pr
     stackbit_id,
     static_map,
     title,
-    tour_count: 0, // TODO
+    tour_count,
     url_path,
     validation_errors: [],
   };
@@ -101,6 +108,8 @@ export async function transformBuilding(options: BuildingTransformerOptions): Pr
   // Return the building
   return building;
 }
+
+/* ----- Validator ----- */
 
 /**
  * Throws an error if building does not meet minimum requirements for content.
