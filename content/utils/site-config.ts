@@ -1,24 +1,12 @@
-import * as Contentlayer from '@/.contentlayer/generated';
-import { SiteConfig } from '@/.contentlayer/generated';
+import { SiteConfig } from '@/content/schema/SiteConfig';
+import { DATA_CACHE_DIR } from '@/content/utils/constants';
+import path from 'path';
 
 /**
- * Retrieves site config object processed by Contentlayer and runs it through a
- * transformer.
- *
- * @returns Transformed site config
+ * Retrieves site config from content cache.
  */
 export async function getSiteConfig(): Promise<SiteConfig> {
-  return await transformSiteConfig(Contentlayer.allSiteConfigs[0]);
-}
-
-/**
- * Transforms site config
- *
- * @param siteConfig Contentlayer SiteConfig object
- * @returns Transformed building object
- */
-export async function transformSiteConfig(
-  siteConfig: Contentlayer.SiteConfig,
-): Promise<SiteConfig> {
+  const siteConfigPath = path.join(DATA_CACHE_DIR, 'site.json');
+  const siteConfig = (await import(/* @vite-ignore */ siteConfigPath)) as SiteConfig;
   return siteConfig;
 }

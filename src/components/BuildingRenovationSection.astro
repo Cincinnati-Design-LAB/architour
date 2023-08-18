@@ -1,16 +1,16 @@
 ---
-import type { BuildingRenovationSection } from '@/.contentlayer/generated'
-import { Stat } from '@components'
-import { fieldPath } from '@content'
+import type { BuildingRenovationSection } from '@/content/schema/BuildingRenovationSection';
+import { Stat } from '@components';
+import { fieldPath } from '@content';
 
 export interface Props {
-  title: BuildingRenovationSection['title']
-  renovations: BuildingRenovationSection['renovations']
-  className?: string
-  fieldPath: string
+  title: BuildingRenovationSection['title'];
+  renovations: BuildingRenovationSection['renovations'];
+  className?: string;
+  fieldPath: string;
 }
 
-const props = Astro.props as Props
+const props = Astro.props as Props;
 ---
 
 <div class={props.className} {...fieldPath(props.fieldPath)}>

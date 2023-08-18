@@ -1,21 +1,17 @@
-import * as Contentlayer from '@/.contentlayer/generated';
-import { EDITOR_MODE } from './constants';
-import { cloudinaryImageUrls } from './images';
-import { mapMarkerData } from './map';
-import { processMarkdown } from './markdown';
-import { getExcerpt } from './text';
-import { filterTour, getTours } from './tours';
-import { Building, Tour } from './types';
+import { Building } from '@/content/schema/Building';
+import glob from 'fast-glob';
+import path from 'path';
+import { BUILDINGS_CACHE_DIR } from './constants';
 
 /**
- * Retrieves building objects processed by Contentlayer and resolves necessary
- * post-processing properties.
- *
- * @returns Array of transformed building objects
+ * Retrieves processed buildings from the cache.
  */
 export async function getBuildings(): Promise<Building[]> {
-  const buildings = await Promise.all(Contentlayer.allBuildings.map(transformBuilding));
-  return buildings.filter(filterBuilding).filter(validateBuilding);
+  const allBuildingFiles = glob.sync(path.join(BUILDINGS_CACHE_DIR, '*.json'));
+  const buildings = await Promise.all(
+    allBuildingFiles.map(async (filePath) => await import(/* @vite-ignore */ filePath)),
+  );
+  return buildings;
 }
 
 /* ----- Pagination ----- */
@@ -61,125 +57,4 @@ export async function getBuildingsOnPage(
     throw new Error(`Page ${options.page} does not exist.`);
   }
   return buildingPages[options.page - 1].buildings;
-}
-
-/* ----- Transformer ----- */
-
-/**
- * Applies tour count to buildings.
- *
- * @param building Contentlayer building object
- * @returns Transformed building object
- */
-export async function transformBuilding(building: Contentlayer.Building): Promise<Building> {
-  const tourHasBuilding = (tour) => (tour.buildings || []).includes(building.stackbit_id);
-
-  let tour_count, images, featured_image, excerpt, map_marker, static_map;
-  try {
-    tour_count = Contentlayer.allTours.filter(filterTour).filter(tourHasBuilding).length;
-    if (building.images) {
-      images = (building.images || []).map((id) => cloudinaryImageUrls(id, ['gallery_item']));
-    }
-    if (building.images && building.images[0]) {
-      featured_image = cloudinaryImageUrls(building.images[0], [
-        'card_thumb',
-        'compact_card_hero',
-        'hero',
-        'sidebar',
-      ]);
-    }
-    if (building.body?.raw) excerpt = await processMarkdown(getExcerpt(building.body.raw));
-    if (building.location?.lat && building.location?.lng) {
-      map_marker = mapMarkerData({
-        excerpt: excerpt,
-        image: featured_image,
-        location: building.location,
-        title: building.title,
-        url_path: building.url_path,
-      });
-    }
-    if (building.static_map) static_map = cloudinaryImageUrls(building.static_map, ['sidebar']);
-    return { ...building, tour_count, images, featured_image, excerpt, map_marker, static_map };
-  } catch (err) {
-    console.error(
-      'Building:',
-      {
-        name: building.title,
-        tour_count,
-        images,
-        featured_image,
-        excerpt,
-        map_marker,
-        static_map,
-      },
-      '\n',
-    );
-    throw new Error(`Error transforming building: ${building.url_path}`);
-  }
-}
-
-/* ----- References ----- */
-
-/**
- * Retrieves transformed tours that include a building.
- *
- * @param building Transformed building
- * @returns List of tours that include the building
- */
-export async function getBuildingTours(building: Building): Promise<Tour[]> {
-  const tourHasBuilding = (tour: Tour) => {
-    return tour.buildings.map((t) => t.stackbit_id).includes(building.stackbit_id);
-  };
-  const tours = await getTours();
-  return tours.filter(tourHasBuilding);
-}
-
-/* ----- Filters ----- */
-
-/**
- * Determines whether to show buildings in draft mode.
- *
- * @param building Contentlayer building object
- * @returns Whether building should be shown
- */
-export function filterBuilding(building: Building): boolean {
-  return EDITOR_MODE ? true : building.draft !== true;
-}
-
-/* ----- Validators ----- */
-
-/**
- * Throws an error if building does not meet minimum requirements for content.
- *
- * @param building Contentlayer building object
- * @returns Transformed building object
- */
-export function validateBuilding(building: Building): boolean {
-  building.validation_errors = [];
-
-  // The following fields are required
-  const requiredFields = ['title', 'address', 'completion_date', 'static_map'];
-  for (const field of requiredFields) {
-    if (!building[field]) building.validation_errors.push(`Missing required field: ${field}`);
-  }
-  // `body` is a structured field
-  if (!building.body?.raw) building.validation_errors.push('Missing required field: body');
-  // Latitude and longitude must be set
-  if (!building.location?.lat || !building.location?.lng) {
-    building.validation_errors.push('Location has not been set');
-  }
-  // Must have at least one image
-  if (!building.images || building.images.length < 1) {
-    building.validation_errors.push('Must have at least one image');
-  }
-
-  // Keep the validation errors on the building, but don't throw an error in
-  // editor mode.
-  if (EDITOR_MODE) return true;
-  // Throw an error if there are validation errors when not in editor mode.
-  if (building.validation_errors.length > 0) {
-    throw new Error(`Validation failed.\n${building.validation_errors.join('\n')}`);
-  }
-
-  return true;
 }

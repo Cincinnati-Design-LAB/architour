@@ -1,9 +1,11 @@
-export type { Building, Tour } from './types';
-
-export { getBuildings, getBuildingTours, getBuildingPages, getBuildingsOnPage } from './buildings';
-export { getTours } from './tours';
-
-export type { CloudinaryImage, ImageSizes } from './images';
-
+// types
+export type { Building } from '@/content/schema/Building';
+export type { Tour } from '@/content/schema/Tour';
+// annotations
 export { fieldPath, objectId } from './annotations';
 export type { Annotation } from './annotations';
+// queries
+export { getBuildingPages, getBuildings, getBuildingsOnPage } from './buildings';
+// images
+export type { CloudinaryImage, ImageSizes } from './images';
+export { getTours } from './tours';
