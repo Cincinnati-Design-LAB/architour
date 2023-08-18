@@ -1,10 +1,13 @@
 import type { Building, RawBuilding } from '@/content/schema/Building.d';
 import { transformBuilding } from '@/content/schema/Building.transformer';
+import { transformSiteConfig } from '@/content/schema/SiteConfig.transformer';
 import { RawTour, Tour } from '@/content/schema/Tour';
 import { transformTour } from '@/content/schema/Tour.transformer';
 import {
   BUILDINGS_CACHE_DIR,
   BUILDINGS_DIR,
+  DATA_CACHE_DIR,
+  DATA_DIR,
   EDITOR_MODE,
   PRETTIER_CONFIG,
   TOURS_CACHE_DIR,
@@ -47,6 +50,8 @@ export async function generateContentCache() {
   console.log(`Generated ${buildings.length} buildings`);
   await cacheTours(tours);
   console.log(`Generated ${tours.length} tours`);
+  await cacheSiteConfig();
+  console.log(`Generated site config`);
 }
 
 /* ----- Building ----- */
@@ -107,7 +112,19 @@ async function cacheTours(tours: Tour[]) {
   );
 }
 
-/* ----- Helper ----- */
+/* ----- Site Config ----- */
+
+/**
+ * Handles writing transformed content to the cache directory.
+ */
+async function cacheSiteConfig() {
+  const rawSiteConfigPath = path.join(DATA_DIR, 'site.json');
+  const rawSiteConfig = JSON.parse(fs.readFileSync(rawSiteConfigPath, 'utf8'));
+  const content = await transformSiteConfig({ raw: rawSiteConfig, absSrcPath: rawSiteConfigPath });
+  await writeContentToCache({ cacheDir: DATA_CACHE_DIR, content, filename: `site.json` });
+}
+
+/* ----- Helpers ----- */
 
 /**
  * Cleans and preps cache directories.
@@ -121,6 +138,10 @@ async function initCacheDirs() {
   if (!fs.existsSync(TOURS_CACHE_DIR)) fs.mkdirSync(TOURS_CACHE_DIR, { recursive: true });
   // Remove all existing cache files
   glob.sync(path.join(TOURS_CACHE_DIR, '*.json')).map(fs.unlinkSync);
+  // Create directory for cache files it doesn't exist
+  if (!fs.existsSync(DATA_CACHE_DIR)) fs.mkdirSync(DATA_CACHE_DIR, { recursive: true });
+  // Remove all existing cache files
+  glob.sync(path.join(DATA_CACHE_DIR, '*.json')).map(fs.unlinkSync);
 }
 
 /**
