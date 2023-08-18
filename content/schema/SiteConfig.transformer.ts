@@ -1,10 +1,16 @@
-import type { RawSiteConfig, SiteConfig } from '@/content/schema/SiteConfig.d';
+import type {
+  RawSiteConfig,
+  RawToursConfig,
+  SiteConfig,
+  ToursConfig,
+} from '@/content/schema/SiteConfig.d';
 import { ROOT_DIR } from '@/content/utils/constants';
 import path from 'path';
 
 /* ----- Site Config ----- */
 
 type SiteConfigTransformerOptions = {
+  /** Raw parsed content from the source file */
   raw: RawSiteConfig;
   /** Absolute path to the source file */
   absSrcPath: string;
@@ -13,8 +19,9 @@ type SiteConfigTransformerOptions = {
 export async function transformSiteConfig(
   options: SiteConfigTransformerOptions,
 ): Promise<SiteConfig> {
+  const tours = await transformToursConfig(options.raw.tours);
   const stackbit_id = path.relative(ROOT_DIR, options.absSrcPath);
-  return { stackbit_id };
+  return { tours, stackbit_id };
 }
 
 /* ----- Header ----- */
@@ -22,3 +29,13 @@ export async function transformSiteConfig(
 /* ----- Footer ----- */
 
 /* ----- Buildings Config ----- */
+/* ----- Tours Config ----- */
+
+async function transformToursConfig(raw: RawToursConfig): Promise<ToursConfig> {
+  return {
+    page_label: raw.page_label,
+    page_icon: raw.page_icon,
+    page_header_theme: raw.page_header_theme,
+    nav_label: raw.nav_label,
+  };
+}

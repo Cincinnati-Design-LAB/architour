@@ -130,18 +130,12 @@ async function cacheSiteConfig() {
  * Cleans and preps cache directories.
  */
 async function initCacheDirs() {
-  // Create directory for cache files it doesn't exist
-  if (!fs.existsSync(BUILDINGS_CACHE_DIR)) fs.mkdirSync(BUILDINGS_CACHE_DIR, { recursive: true });
-  // Remove all existing cache files
-  glob.sync(path.join(BUILDINGS_CACHE_DIR, '*.json')).map(fs.unlinkSync);
-  // Create directory for cache files it doesn't exist
-  if (!fs.existsSync(TOURS_CACHE_DIR)) fs.mkdirSync(TOURS_CACHE_DIR, { recursive: true });
-  // Remove all existing cache files
-  glob.sync(path.join(TOURS_CACHE_DIR, '*.json')).map(fs.unlinkSync);
-  // Create directory for cache files it doesn't exist
-  if (!fs.existsSync(DATA_CACHE_DIR)) fs.mkdirSync(DATA_CACHE_DIR, { recursive: true });
-  // Remove all existing cache files
-  glob.sync(path.join(DATA_CACHE_DIR, '*.json')).map(fs.unlinkSync);
+  [BUILDINGS_CACHE_DIR, TOURS_CACHE_DIR, DATA_CACHE_DIR].forEach((dir) => {
+    // Create directory for cache files it doesn't exist
+    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+    // Remove all existing cache files
+    glob.sync(path.join(dir, '*.json')).map(fs.unlinkSync);
+  });
 }
 
 /**

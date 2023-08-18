@@ -1,32 +1,43 @@
 /* ----- Header ----- */
 
+import { IconName } from '@/content/utils/icons';
+
 export type RawHeader = {};
 
-export type Header = {};
+export interface Header {}
 
 /* ----- Footer ----- */
 
 export type RawFooter = {};
 
-export type Footer = {};
+export interface Footer {}
 
 /* ----- Buildings Config ----- */
 
 export type RawBuildingsConfig = {};
 
-export type BuildingsConfig = {};
+export interface BuildingsConfig {}
 
 /* ----- Tours Config ----- */
 
-export type RawToursConfig = {};
+export type RawToursConfig = {
+  page_label: string;
+  page_icon: IconName;
+  page_header_theme: 'primary' | 'secondary';
+  nav_label: string;
+};
 
-export type ToursConfig = {};
+export interface ToursConfig extends RawToursConfig {}
 
 /* ----- Site Config ----- */
 
-export type RawSiteConfig = {};
+export type RawSiteConfig = {
+  tours: RawToursConfig;
+};
 
-export type SiteConfig = {
+export interface SiteConfig {
+  /** Configuration for tours list page */
+  tours: ToursConfig;
   /** Relative path to the file from the root of the project. */
   stackbit_id: string;
-};
+}

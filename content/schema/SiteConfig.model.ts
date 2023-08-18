@@ -1,4 +1,6 @@
+import { iconNames } from '@/content/utils/icons';
 import { DataModel } from '@stackbit/sdk';
+import { ObjectModel } from '@stackbit/types';
 
 /* ----- Header ----- */
 
@@ -62,15 +64,16 @@ import { DataModel } from '@stackbit/sdk';
 
 /* ----- Tours Config ----- */
 
-// const ToursConfig = defineNestedType(() => ({
-//   name: 'ToursConfig',
-//   fields: {
-//     page_label: { type: 'string', required: true },
-//     page_icon: { type: 'enum', options: iconNames.concat(), required: true },
-//     page_header_theme: { type: 'enum', options: ['primary', 'secondary'], required: true },
-//     nav_label: { type: 'string', required: true },
-//   },
-// }));
+const ToursConfig: ObjectModel = {
+  type: 'object',
+  name: 'ToursConfig',
+  fields: [
+    { name: 'page_label', type: 'string', required: true },
+    { name: 'page_icon', type: 'enum', options: iconNames.concat(), required: true },
+    { name: 'page_header_theme', type: 'enum', options: ['primary', 'secondary'], required: true },
+    { name: 'nav_label', type: 'string', required: true },
+  ],
+};
 
 /* ----- Site Config ----- */
 
@@ -78,33 +81,22 @@ export const SiteConfig: DataModel = {
   type: 'data',
   name: 'SiteConfig',
   filePath: 'data/site.json',
-  fields: []
-  //   header: {
-  //     type: 'nested',
-  //     of: SiteHeader,
-  //     required: true,
-  //   },
-  //   footer: {
-  //     type: 'nested',
-  //     of: SiteFooter,
-  //     required: true,
-  //   },
-  //   buildings: {
-  //     type: 'nested',
-  //     of: BuildingsConfig,
-  //     required: true,
-  //   },
-  //   tours: {
-  //     type: 'nested',
-  //     of: ToursConfig,
-  //     required: true,
-  //   },
-  // },
-  // computedFields: {
-  //   stackbit_id: {
-  //     type: 'string',
-  //     description: 'Unique ID for Stackbit editor',
-  //     resolve: (siteConfig) => ['content', siteConfig._id].join('/'),
-  //   },
-  // },
-}
+  fields: [
+    //   header: {
+    //     type: 'nested',
+    //     of: SiteHeader,
+    //     required: true,
+    //   },
+    //   footer: {
+    //     type: 'nested',
+    //     of: SiteFooter,
+    //     required: true,
+    //   },
+    //   buildings: {
+    //     type: 'nested',
+    //     of: BuildingsConfig,
+    //     required: true,
+    //   },
+    { name: 'tours', type: 'model', models: ['ToursConfig'], required: true },
+  ],
+};
