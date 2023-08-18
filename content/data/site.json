@@ -1,25 +1,25 @@
 {
   "type": "SiteConfig",
   "header": {
-    "type": "SiteHeader",
+    "type": "Header",
     "site_link_label": "Back to Site",
     "nav_links": [
       {
-        "type": "SiteHeaderLink",
+        "type": "HeaderLink",
         "label": "Building List",
         "href": "/buildings",
         "icon": "building",
         "is_button": false
       },
       {
-        "type": "SiteHeaderLink",
+        "type": "HeaderLink",
         "label": "Walking Tours",
         "href": "/tours",
         "icon": "eye",
         "is_button": false
       },
       {
-        "type": "SiteHeaderLink",
+        "type": "HeaderLink",
         "label": "Donate",
         "href": "https://www.designlearnandbuild.org/donate",
         "icon": "link-external",
@@ -28,44 +28,44 @@
     ]
   },
   "footer": {
-    "type": "SiteFooter",
+    "type": "Footer",
     "address": ["659 Van Meter Street, Suite 540", "Cincinnati, Ohio 45202", "(513) 421-4469"],
     "contact_links": [
       {
-        "type": "SiteFooterContact",
+        "type": "FooterContact",
         "label": "Executive Director",
         "email": "clubbers@architecturecincy.org",
         "name": "Christen M. Lubbers"
       },
       {
-        "type": "SiteFooterContact",
+        "type": "FooterContact",
         "label": "Administrative Assistant",
         "email": "Admin@architecturecincy.org"
       }
     ],
     "nav_links": [
       {
-        "type": "SiteFooterLink",
+        "type": "FooterLink",
         "label": "About",
         "href": "https://www.designlearnandbuild.org/about-us-1"
       },
       {
-        "type": "SiteFooterLink",
+        "type": "FooterLink",
         "label": "Student Education",
         "href": "https://www.designlearnandbuild.org/design-lab"
       },
       {
-        "type": "SiteFooterLink",
+        "type": "FooterLink",
         "label": "Programs",
         "href": "https://www.designlearnandbuild.org/programs-1"
       },
       {
-        "type": "SiteFooterLink",
+        "type": "FooterLink",
         "label": "How To Get Involved",
         "href": "https://www.designlearnandbuild.org/volunteer"
       },
       {
-        "type": "SiteFooterLink",
+        "type": "FooterLink",
         "label": "Insights",
         "href": "https://www.designlearnandbuild.org/blog-4-1"
       }

@@ -1,6 +1,16 @@
 import type {
   BuildingsConfig,
+  Footer,
+  FooterContact,
+  FooterLink,
+  Header,
+  HeaderLink,
   RawBuildingsConfig,
+  RawFooter,
+  RawFooterContact,
+  RawFooterLink,
+  RawHeader,
+  RawHeaderLink,
   RawSiteConfig,
   RawToursConfig,
   SiteConfig,
@@ -21,15 +31,54 @@ type SiteConfigTransformerOptions = {
 export async function transformSiteConfig(
   options: SiteConfigTransformerOptions,
 ): Promise<SiteConfig> {
-  const buildings = await transformToursConfig(options.raw.buildings);
+  const header = await transformHeader(options.raw.header);
+  const footer = await transformFooter(options.raw.footer);
+  const buildings = await transformBuildingsConfig(options.raw.buildings);
   const tours = await transformToursConfig(options.raw.tours);
   const stackbit_id = path.relative(ROOT_DIR, options.absSrcPath);
-  return { buildings, tours, stackbit_id };
+  return { header, footer, buildings, tours, stackbit_id };
 }
 
 /* ----- Header ----- */
 
+async function transformHeader(raw: RawHeader): Promise<Header> {
+  const site_link_label = raw.site_link_label;
+  const nav_links = await Promise.all(raw.nav_links.map(transformHeaderLink));
+  return { site_link_label, nav_links };
+}
+
+async function transformHeaderLink(raw: RawHeaderLink): Promise<HeaderLink> {
+  return {
+    label: raw.label,
+    href: raw.href,
+    icon: raw.icon,
+    is_button: raw.is_button,
+  };
+}
+
 /* ----- Footer ----- */
+
+async function transformFooter(raw: RawFooter): Promise<Footer> {
+  const address = raw.address;
+  const contact_links = await Promise.all(raw.contact_links.map(transformFooterContact));
+  const nav_links = await Promise.all(raw.nav_links.map(transformFooterLink));
+  return { address, contact_links, nav_links };
+}
+
+async function transformFooterLink(raw: RawFooterLink): Promise<FooterLink> {
+  return {
+    label: raw.label,
+    href: raw.href,
+  };
+}
+
+async function transformFooterContact(raw: RawFooterContact): Promise<FooterContact> {
+  return {
+    label: raw.label,
+    name: raw.name,
+    email: raw.email,
+  };
+}
 
 /* ----- Buildings Config ----- */
 

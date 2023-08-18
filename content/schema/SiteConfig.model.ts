@@ -4,51 +4,71 @@ import { ObjectModel } from '@stackbit/types';
 
 /* ----- Header ----- */
 
-// const SiteHeaderLink = defineNestedType(() => ({
-//   name: 'SiteHeaderLink',
-//   fields: {
-//     label: { type: 'string', required: true },
-//     href: { label: 'URL', type: 'string', required: true },
-//     icon: { type: 'enum', options: iconNames.concat(), required: true },
-//     is_button: { type: 'boolean', required: true, default: false },
-//   },
-// }));
+const HeaderLink: ObjectModel = {
+  type: 'object',
+  name: 'HeaderLink',
+  fields: [
+    { name: 'label', type: 'string', required: true },
+    { name: 'href', label: 'URL', type: 'string', required: true },
+    { name: 'icon', type: 'enum', options: iconNames.concat(), required: true },
+    { name: 'is_button', type: 'boolean', required: true, default: false },
+  ],
+};
 
-// const SiteHeader = defineNestedType(() => ({
-//   name: 'SiteHeader',
-//   fields: {
-//     site_link_label: { type: 'string', required: true },
-//     nav_links: { type: 'list', of: SiteHeaderLink, required: true },
-//   },
-// }));
+const Header: ObjectModel = {
+  type: 'object',
+  name: 'Header',
+  fields: [
+    { name: 'site_link_label', type: 'string', required: true },
+    {
+      name: 'nav_links',
+      type: 'list',
+      items: { type: 'model', models: ['HeaderLink'] },
+      required: true,
+    },
+  ],
+};
 
 /* ----- Footer ----- */
 
-// const SiteFooterLink = defineNestedType(() => ({
-//   name: 'SiteFooterLink',
-//   fields: {
-//     label: { type: 'string', required: true },
-//     href: { label: 'URL', type: 'string', required: true },
-//   },
-// }));
+const FooterLink: ObjectModel = {
+  type: 'object',
+  name: 'FooterLink',
+  fields: [
+    { name: 'label', type: 'string', required: true },
+    { name: 'href', label: 'URL', type: 'string', required: true },
+  ],
+};
 
-// const SiteFooterContact = defineNestedType(() => ({
-//   name: 'SiteFooterContact',
-//   fields: {
-//     label: { type: 'string', required: true },
-//     name: { type: 'string', required: true },
-//     email: { type: 'string', required: true },
-//   },
-// }));
+const FooterContact: ObjectModel = {
+  type: 'object',
+  name: 'FooterContact',
+  fields: [
+    { name: 'label', type: 'string', required: true },
+    { name: 'name', type: 'string', required: true },
+    { name: 'email', type: 'string', required: true },
+  ],
+};
 
-// const SiteFooter = defineNestedType(() => ({
-//   name: 'SiteFooter',
-//   fields: {
-//     address: { type: 'list', required: true, of: { type: 'string' } },
-//     contact_links: { type: 'list', of: [SiteFooterContact], required: true },
-//     nav_links: { type: 'list', of: SiteFooterLink, required: true },
-//   },
-// }));
+const Footer: ObjectModel = {
+  type: 'object',
+  name: 'Footer',
+  fields: [
+    { name: 'address', type: 'list', required: true, items: { type: 'string' } },
+    {
+      name: 'contact_links',
+      type: 'list',
+      items: { type: 'model', models: ['FooterContact'] },
+      required: true,
+    },
+    {
+      name: 'nav_links',
+      type: 'list',
+      items: { type: 'model', models: ['FooterLink'] },
+      required: true,
+    },
+  ],
+};
 
 /* ----- Buildings Config ----- */
 
@@ -78,21 +98,13 @@ const ToursConfig: ObjectModel = {
 
 /* ----- Site Config ----- */
 
-export const SiteConfig: DataModel = {
+const SiteConfig: DataModel = {
   type: 'data',
   name: 'SiteConfig',
   filePath: 'data/site.json',
   fields: [
-    //   header: {
-    //     type: 'nested',
-    //     of: SiteHeader,
-    //     required: true,
-    //   },
-    //   footer: {
-    //     type: 'nested',
-    //     of: SiteFooter,
-    //     required: true,
-    //   },
+    { name: 'header', type: 'model', models: ['Header'], required: true },
+    { name: 'footer', type: 'model', models: ['Footer'], required: true },
     { name: 'buildings', type: 'model', models: ['BuildingsConfig'], required: true },
     { name: 'tours', type: 'model', models: ['ToursConfig'], required: true },
   ],
