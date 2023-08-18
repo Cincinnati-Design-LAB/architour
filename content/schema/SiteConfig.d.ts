@@ -14,9 +14,14 @@ export interface Footer {}
 
 /* ----- Buildings Config ----- */
 
-export type RawBuildingsConfig = {};
+export type RawBuildingsConfig = {
+  page_label: string;
+  page_icon: IconName;
+  page_header_theme: 'primary' | 'secondary';
+  nav_label: string;
+};
 
-export interface BuildingsConfig {}
+export interface BuildingsConfig extends RawBuildingsConfig {}
 
 /* ----- Tours Config ----- */
 
@@ -36,6 +41,8 @@ export type RawSiteConfig = {
 };
 
 export interface SiteConfig {
+  /** Configuration for buildings list page */
+  buildings: BuildingsConfig;
   /** Configuration for tours list page */
   tours: ToursConfig;
   /** Relative path to the file from the root of the project. */

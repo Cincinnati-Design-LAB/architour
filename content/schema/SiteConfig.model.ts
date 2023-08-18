@@ -52,15 +52,16 @@ import { ObjectModel } from '@stackbit/types';
 
 /* ----- Buildings Config ----- */
 
-// const BuildingsConfig = defineNestedType(() => ({
-//   name: 'BuildingsConfig',
-//   fields: {
-//     page_label: { type: 'string', required: true },
-//     page_icon: { type: 'enum', options: iconNames.concat(), required: true },
-//     page_header_theme: { type: 'enum', options: ['primary', 'secondary'], required: true },
-//     nav_label: { type: 'string', required: true },
-//   },
-// }));
+const BuildingsConfig: ObjectModel = {
+  type: 'object',
+  name: 'BuildingsConfig',
+  fields: [
+    { name: 'page_label', type: 'string', required: true },
+    { name: 'page_icon', type: 'enum', options: iconNames.concat(), required: true },
+    { name: 'page_header_theme', type: 'enum', options: ['primary', 'secondary'], required: true },
+    { name: 'nav_label', type: 'string', required: true },
+  ],
+};
 
 /* ----- Tours Config ----- */
 
@@ -92,11 +93,7 @@ export const SiteConfig: DataModel = {
     //     of: SiteFooter,
     //     required: true,
     //   },
-    //   buildings: {
-    //     type: 'nested',
-    //     of: BuildingsConfig,
-    //     required: true,
-    //   },
+    { name: 'buildings', type: 'model', models: ['BuildingsConfig'], required: true },
     { name: 'tours', type: 'model', models: ['ToursConfig'], required: true },
   ],
 };

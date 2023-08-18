@@ -1,4 +1,6 @@
 import type {
+  BuildingsConfig,
+  RawBuildingsConfig,
   RawSiteConfig,
   RawToursConfig,
   SiteConfig,
@@ -19,9 +21,10 @@ type SiteConfigTransformerOptions = {
 export async function transformSiteConfig(
   options: SiteConfigTransformerOptions,
 ): Promise<SiteConfig> {
+  const buildings = await transformToursConfig(options.raw.buildings);
   const tours = await transformToursConfig(options.raw.tours);
   const stackbit_id = path.relative(ROOT_DIR, options.absSrcPath);
-  return { tours, stackbit_id };
+  return { buildings, tours, stackbit_id };
 }
 
 /* ----- Header ----- */
@@ -29,6 +32,15 @@ export async function transformSiteConfig(
 /* ----- Footer ----- */
 
 /* ----- Buildings Config ----- */
+
+async function transformBuildingsConfig(raw: RawBuildingsConfig): Promise<BuildingsConfig> {
+  return {
+    page_label: raw.page_label,
+    page_icon: raw.page_icon,
+    page_header_theme: raw.page_header_theme,
+    nav_label: raw.nav_label,
+  };
+}
 /* ----- Tours Config ----- */
 
 async function transformToursConfig(raw: RawToursConfig): Promise<ToursConfig> {
