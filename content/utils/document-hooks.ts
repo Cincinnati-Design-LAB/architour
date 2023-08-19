@@ -1,9 +1,9 @@
+import { RawBuilding } from '@/content/schema/Building';
+import { RawTour } from '@/content/schema/Tour';
+import { OnDocumentCreateOptions, StackbitConfig } from '@stackbit/types';
 import { cloudinary } from './cloudinary';
 
 /* ----- Hooks ----- */
-
-import { OnDocumentCreateOptions, StackbitConfig } from '@stackbit/types';
-import { Building, Tour } from './types';
 
 export const onDocumentCreate: StackbitConfig['onDocumentCreate'] = async (options) => {
   let createOptions = { ...options.createDocumentOptions };
@@ -19,7 +19,7 @@ type CreateActionOptions = {
 
 type CreateReturnType = OnDocumentCreateOptions['createDocumentOptions'];
 
-type ModelType = Building['type'] | Tour['type'];
+type ModelType = RawBuilding['type'] | RawTour['type'];
 
 const modelFolderMap: Record<ModelType, string> = {
   Building: 'buildings',

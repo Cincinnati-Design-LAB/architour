@@ -2,7 +2,9 @@ import { IconName } from '@/content/utils/icons';
 
 /* ----- Helpers ----- */
 
-type Transformed<T, OmittedFields extends null> = Omit<T, 'type' | OmittedFields>;
+type Transformed<T, OmittedFields = null> = OmittedFields extends null
+  ? Omit<T, 'type'>
+  : Omit<T, 'type' | OmittedFields>;
 
 /* ----- Header ----- */
 

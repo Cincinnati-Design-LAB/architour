@@ -16,6 +16,7 @@ export type BuildingPageLocation = 'above_images' | 'below_images' | 'above_map'
 
 export type RawBuilding = {
   // Meta information
+  type: 'Building';
   file_path: string;
   // Parsed body of the markdown file
   content: string;

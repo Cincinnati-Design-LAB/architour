@@ -5,6 +5,7 @@ import { CloudinaryImage } from '@content';
 
 export type RawTour = {
   // Meta information
+  type: 'Tour';
   file_path: string;
   // Group: Content
   title: string;

@@ -1,4 +1,4 @@
-import { Building } from './types';
+import { Building } from '@/content/schema/Building';
 
 /**
  * The shape of content expected by the map component.
