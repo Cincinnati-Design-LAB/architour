@@ -1,13 +1,30 @@
+import { Building } from '@/content/schema/Building.model';
+import { BuildingAttribute } from '@/content/schema/BuildingAttribute.model';
+import { BuildingAttributeSection } from '@/content/schema/BuildingAttributeSection.model';
+import { BuildingRenovation } from '@/content/schema/BuildingRenovation.model';
+import { BuildingRenovationSection } from '@/content/schema/BuildingRenovationSection.model';
+import { Location } from '@/content/schema/Location.model';
+import { models as SiteConfig } from '@/content/schema/SiteConfig.model';
+import { Tour } from '@/content/schema/Tour.model';
 import { GitContentSource } from '@stackbit/cms-git';
 import { defineStackbitConfig } from '@stackbit/types';
-
-import { models } from './content/stackbit';
 import { assetSources } from './content/utils/asset-sources';
 import { onDocumentCreate } from './content/utils/document-hooks';
 
+const models = [
+  Building,
+  BuildingAttribute,
+  BuildingAttributeSection,
+  BuildingRenovation,
+  BuildingRenovationSection,
+  Location,
+  ...SiteConfig,
+  Tour,
+];
+
 const gitContentSource = new GitContentSource({
   rootPath: __dirname,
-  contentDirs: ['content'],
+  contentDirs: ['content/buildings', 'content/data', 'content/tours'],
   models,
   // assetsConfig: {
   //   referenceType: 'static',

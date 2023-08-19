@@ -109,3 +109,14 @@ const SiteConfig: DataModel = {
     { name: 'tours', type: 'model', models: ['ToursConfig'], required: true },
   ],
 };
+
+export const models = [
+  HeaderLink,
+  Header,
+  FooterLink,
+  FooterContact,
+  Footer,
+  BuildingsConfig,
+  ToursConfig,
+  SiteConfig,
+];
