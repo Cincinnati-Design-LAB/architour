@@ -8,10 +8,9 @@ import {
   BuildingRenovationSection,
   PageHeader,
   ResponsiveImage,
-  TourCard,
   ValidationErrors,
 } from '@components';
-import { Building, fieldPath, getBuildings, getBuildingTours, objectId } from '@content';
+import { Building, fieldPath, getBuildings, objectId } from '@content';
 import { PageLayout } from '@layouts';
 
 export async function getStaticPaths() {
@@ -23,33 +22,10 @@ export async function getStaticPaths() {
 }
 
 const building = Astro.props.building as Building;
-const tours = await getBuildingTours(building);
 
 const sectionMap = {
   BuildingAttributeSection,
   BuildingRenovationSection,
-};
-
-const renderSections = (page_location: Building['sections'][0]['page_location']) => {
-  return (building.sections || [])
-    .filter((section) => section.page_location === page_location)
-    .map((section) => {
-      // There's probably a better way to type this, but it was throwing an
-      // error while rendering the component dynamically in the template.
-      const Component = sectionMap[section.type] as (_props: any) => any;
-      return {
-        Component,
-        props: section,
-        fieldPath: `sections.${building.sections.indexOf(section)}`,
-      };
-    });
-};
-
-const sections = {
-  above_images: renderSections('above_images'),
-  below_images: renderSections('below_images'),
-  above_map: renderSections('above_map'),
-  below_map: renderSections('below_map'),
 };
 ---
 
@@ -74,7 +50,7 @@ const sections = {
         {
           (building.body.html.length > 0 && (
             <div
-              class="text-lg mb-12 [&_a]:text-primary-500 [&_a]:border-b [&_a]:border-b-primary-500 [&_a]:inline-block [&_a]:leading-4"
+              class="text-lg mb-12 [&>*]:mb-3 [&>*:last-child]:mb-0 [&_a]:text-primary-500 [&_a]:border-b [&_a]:border-b-primary-500 [&_a]:inline-block [&_a]:leading-4"
               set:html={building.body.html}
               {...fieldPath('markdown_content')}
             />
@@ -87,9 +63,10 @@ const sections = {
           )
         }
         {
-          sections.above_images.map(({ Component, props, fieldPath }) => (
-            <Component {...props} className="mb-12" fieldPath={fieldPath} />
-          ))
+          building.sections.above_images.map(({ type, ...props }) => {
+            const Component = sectionMap[type] as (_props: any) => any;
+            return <Component {...props} className="mb-12" fieldPath={fieldPath} />;
+          })
         }
         {
           (building.images && building.images.length > 0 && (
@@ -104,31 +81,35 @@ const sections = {
           )) || <SectionPlaceholder fieldPath="images" content="Images" className="mb-12" />
         }
         {
-          sections.below_images.map(({ Component, props, fieldPath }) => (
-            <Component {...props} className="mt-12" fieldPath={fieldPath} />
-          ))
+          building.sections.below_images.map(({ type, ...props }) => {
+            const Component = sectionMap[type] as (_props: any) => any;
+            return <Component {...props} className="mt-12" fieldPath={fieldPath} />;
+          })
         }
 
         {
-          tours.length > 0 && (
+          /*
+          building.tours.length > 0 && (
             <div class="max-w-4xl mt-12">
               <h2 class="font-bold mb-3 text-sm tracking-widest uppercase text-secondary-500">
                 Tours
               </h2>
               <div class="grid sm:grid-cols-2 gap-6">
-                {tours.map((tour) => (
+                {building.tours.map((tour) => (
                   <TourCard {...tour} />
                 ))}
               </div>
             </div>
           )
+         */
         }
       </div>
       <div class="md:col-span-5">
         {
-          sections.above_map.map(({ Component, props, fieldPath }) => (
-            <Component {...props} className="mb-8" fieldPath={fieldPath} />
-          ))
+          building.sections.above_map.map(({ type, ...props }) => {
+            const Component = sectionMap[type] as (_props: any) => any;
+            return <Component {...props} className="mb-8" fieldPath={fieldPath} />;
+          })
         }
         {
           (building.static_map && (
@@ -143,9 +124,10 @@ const sections = {
           )) || <SectionPlaceholder fieldPath="static_map" content="Static Map" className="mb-12" />
         }
         {
-          sections.below_map.map(({ Component, props, fieldPath }) => (
-            <Component {...props} className="mb-8" fieldPath={fieldPath} />
-          ))
+          building.sections.below_map.map(({ type, ...props }) => {
+            const Component = sectionMap[type] as (_props: any) => any;
+            return <Component {...props} className="mb-8" fieldPath={fieldPath} />;
+          })
         }
       </div>
     </div>

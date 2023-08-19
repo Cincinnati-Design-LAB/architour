@@ -1,5 +1,5 @@
 import type { BuildingPageLocation } from '@/content/schema/Building';
-import type { RawBuildingAttribute } from '@/content/schema/BuildingAttribute';
+import type { BuildingAttribute, RawBuildingAttribute } from '@/content/schema/BuildingAttribute';
 
 export type RawBuildingAttributeSection = {
   type: 'BuildingAttributeSection';
