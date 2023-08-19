@@ -83,13 +83,14 @@ type TourReferenceAttacherOptions = {
  * references attached.
  */
 export async function attachTourRefs(options: TourReferenceAttacherOptions): Promise<Tour> {
-  const buildings = structuredClone(options.buildings) || [];
-  options.tour.buildings = (options.tour.building_ids || [])
+  const buildings = structuredClone(options.buildings);
+  const tour = structuredClone(options.tour);
+  tour.buildings = (tour.building_ids || [])
     .map((filePath) => buildings.find((building) => building.stackbit_id === filePath))
     .filter(Boolean);
   // We don't need the raw references in the cached file.
-  delete options.tour.building_ids;
-  return options.tour;
+  delete tour.building_ids;
+  return tour;
 }
 
 /* ----- Validator ----- */

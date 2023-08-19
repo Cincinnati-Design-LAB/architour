@@ -122,10 +122,9 @@ export async function attachBuildingRefs(
   options: BuildingReferenceAttacherOptions,
 ): Promise<Building> {
   const tours = structuredClone(options.tours);
-  options.building.tours = tours.filter((tour) =>
-    tour.building_ids.includes(options.building.stackbit_id),
-  );
-  return options.building;
+  const building = structuredClone(options.building);
+  building.tours = tours.filter((tour) => tour.building_ids.includes(building.stackbit_id));
+  return building;
 }
 
 /* ----- Validator ----- */
