@@ -69,11 +69,12 @@ export async function transformBuilding(options: BuildingTransformerOptions): Pr
   const getPageSection = (page_location: BuildingPageLocation) => {
     return (raw.sections || [])
       .filter((section) => section.page_location === page_location)
-      .map((section) => {
-        delete section.page_location;
-        section.fieldPath = `sections.${raw.sections.indexOf(section)}`;
+      .map((rawSection) => {
+        const { page_location, ...sectionProps } = rawSection as any;
+        const section: BuildingAttributeSection | BuildingRenovationSection = sectionProps;
+        section.fieldPath = `sections.${raw.sections.indexOf(rawSection)}`;
         return section;
-      }) as Array<BuildingAttributeSection | BuildingRenovationSection>;
+      });
   };
   const sections = Object.fromEntries(
     ['above_images', 'below_images', 'above_map', 'below_map'].map(
