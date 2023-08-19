@@ -1,15 +1,20 @@
 ---
-import { Link, LinkProps } from '@components'
+import { Link, LinkProps } from '@components';
 
 export interface Props {
-  href: string
-  hideExternalIcon?: LinkProps['hideExternalIcon']
-  annotations?: LinkProps['annotations']
+  href: string;
+  hideExternalIcon?: LinkProps['hideExternalIcon'];
+  annotations?: LinkProps['annotations'];
 }
 
-const { href, annotations, hideExternalIcon } = Astro.props
+const { href, annotations, hideExternalIcon } = Astro.props;
 
-const dynamicClasses = Astro.url.pathname === href ? 'font-bold' : ''
+function addTrailingSlash(link: string) {
+  return link.endsWith('/') ? link : `${link}/`;
+}
+
+const dynamicClasses =
+  addTrailingSlash(Astro.url.pathname) === addTrailingSlash(href) ? 'font-bold' : '';
 ---
 
 <Link
