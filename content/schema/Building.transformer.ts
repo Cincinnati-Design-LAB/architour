@@ -71,6 +71,7 @@ export async function transformBuilding(options: BuildingTransformerOptions): Pr
       .filter((section) => section.page_location === page_location)
       .map((section) => {
         delete section.page_location;
+        section.fieldPath = `sections.${raw.sections.indexOf(section)}`;
         return section;
       }) as Array<BuildingAttributeSection | BuildingRenovationSection>;
   };

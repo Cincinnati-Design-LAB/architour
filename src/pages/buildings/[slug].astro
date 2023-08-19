@@ -63,7 +63,7 @@ const sectionMap = {
           )
         }
         {
-          building.sections.above_images.map(({ type, ...props }) => {
+          building.sections.above_images.map(({ type, fieldPath, ...props }) => {
             const Component = sectionMap[type] as (_props: any) => any;
             return <Component {...props} className="mb-12" fieldPath={fieldPath} />;
           })
@@ -81,7 +81,7 @@ const sectionMap = {
           )) || <SectionPlaceholder fieldPath="images" content="Images" className="mb-12" />
         }
         {
-          building.sections.below_images.map(({ type, ...props }) => {
+          building.sections.below_images.map(({ type, fieldPath, ...props }) => {
             const Component = sectionMap[type] as (_props: any) => any;
             return <Component {...props} className="mt-12" fieldPath={fieldPath} />;
           })
@@ -106,7 +106,7 @@ const sectionMap = {
       </div>
       <div class="md:col-span-5">
         {
-          building.sections.above_map.map(({ type, ...props }) => {
+          building.sections.above_map.map(({ type, fieldPath, ...props }) => {
             const Component = sectionMap[type] as (_props: any) => any;
             return <Component {...props} className="mb-8" fieldPath={fieldPath} />;
           })
@@ -124,7 +124,7 @@ const sectionMap = {
           )) || <SectionPlaceholder fieldPath="static_map" content="Static Map" className="mb-12" />
         }
         {
-          building.sections.below_map.map(({ type, ...props }) => {
+          building.sections.below_map.map(({ type, fieldPath, ...props }) => {
             const Component = sectionMap[type] as (_props: any) => any;
             return <Component {...props} className="mb-8" fieldPath={fieldPath} />;
           })

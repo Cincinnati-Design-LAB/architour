@@ -13,4 +13,5 @@ export type BuildingRenovationSection = Omit<
   'renovations' | 'page_location'
 > & {
   renovations: BuildingRenovation[];
+  fieldPath: string;
 };

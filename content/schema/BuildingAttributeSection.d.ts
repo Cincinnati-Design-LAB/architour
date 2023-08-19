@@ -12,4 +12,5 @@ export type BuildingAttributeSection = Omit<
   'attributes' | 'page_location'
 > & {
   attributes: BuildingAttribute[];
+  fieldPath: string;
 };
