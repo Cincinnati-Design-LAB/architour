@@ -133,8 +133,9 @@ async function initCacheDirs() {
   [BUILDINGS_CACHE_DIR, TOURS_CACHE_DIR, DATA_CACHE_DIR].forEach((dir) => {
     // Create directory for cache files it doesn't exist
     if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-    // Remove all existing cache files
-    glob.sync(path.join(dir, '*.json')).map(fs.unlinkSync);
+    // Remove all existing cache files, except for the site config, which should
+    // always be present.
+    if (dir !== DATA_CACHE_DIR) glob.sync(path.join(dir, '*.json')).map(fs.unlinkSync);
   });
 }
 
