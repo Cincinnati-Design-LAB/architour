@@ -43,6 +43,10 @@
     "ts-node": "^10.9.1"
   },
   "nodemonConfig": {
+    "watch": [
+      "./content/**/*"
+    ],
+    "ext": "ts,json,md",
     "ignore": [
       "./content/generated/**/*.json"
     ]
