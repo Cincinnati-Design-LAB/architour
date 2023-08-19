@@ -6,7 +6,7 @@ description: Reprehenderit non pariatur ad pariatur nulla.
 icon: ''
 image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
 time_estimate: 2 Hours
-buildings:
+building_ids:
   - content/buildings/fifth-third-center.md
   - content/buildings/potter-stewart-us-courthouse.md
   - content/buildings/tri-state-bldg-traction-building.md

@@ -8,7 +8,7 @@ description: >-
 icon: ''
 image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
 time_estimate: 2 Hours
-buildings:
+building_ids:
   - content/buildings/uc-campus-recreation-center.md
   - content/buildings/uc-steger-student-life-center.md
   - >-

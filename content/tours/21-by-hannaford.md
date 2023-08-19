@@ -6,7 +6,7 @@ description: Enim quis eiusmod mollit id esse sunt.
 icon: ''
 image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
 time_estimate: 2 Hours
-buildings:
+building_ids:
   - content/buildings/cincinnati-music-hall.md
   - content/buildings/hamilton-county-memorial-hall-the-soldiers-and-sailors-memorial-building.md
   - content/buildings/nast-community-united-methodist-church.md

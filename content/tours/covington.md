@@ -6,7 +6,7 @@ description: Ex proident voluptate et est consequat aute ut.
 icon: ''
 image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
 time_estimate: 2 Hours
-buildings:
+building_ids:
   - content/buildings/cathedral-basilica-of-the-assumption.md
   - content/buildings/carnegie-arts-center.md
   - content/buildings/kenton-county-justice-center.md

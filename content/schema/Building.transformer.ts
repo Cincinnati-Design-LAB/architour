@@ -1,7 +1,7 @@
 import type { Building, BuildingPageLocation, RawBuilding } from '@/content/schema/Building.d';
 import { BuildingAttributeSection } from '@/content/schema/BuildingAttributeSection';
 import { BuildingRenovationSection } from '@/content/schema/BuildingRenovationSection';
-import { RawTour } from '@/content/schema/Tour';
+import { Tour } from '@/content/schema/Tour';
 import { EDITOR_MODE, ROOT_DIR } from '@/content/utils/constants';
 import { cloudinaryImageUrls } from '@/content/utils/images';
 import { mapMarkerData } from '@/content/utils/map';
@@ -12,9 +12,10 @@ import path from 'path';
 /* ----- Transformer ----- */
 
 type BuildingTransformerOptions = {
+  /** Raw building from a source file, already filtered for context. */
   raw: RawBuilding;
+  /** Absolute path to the source file. */
   filePath: string;
-  allRawTours?: RawTour[];
 };
 
 /**
@@ -22,13 +23,10 @@ type BuildingTransformerOptions = {
  * the application. The raw building is expected to be a JS object parsed from a
  * markdown file.
  *
- * @param raw Raw building from the source file
- * @param filePath Absolute path to the source file
- * @returns Transformed building that can be written to the cache directory or
- * used as needed
+ * @returns Building with all attributes, but without proper references.
  */
 export async function transformBuilding(options: BuildingTransformerOptions): Promise<Building> {
-  const { raw, filePath, allRawTours } = options;
+  const { raw, filePath } = options;
   // Pass-through fields
   const title = raw.title;
   const location = raw.location;
@@ -81,10 +79,8 @@ export async function transformBuilding(options: BuildingTransformerOptions): Pr
       (page_location: BuildingPageLocation) => [page_location, getPageSection(page_location)],
     ),
   ) as Record<BuildingPageLocation, Array<BuildingAttributeSection | BuildingRenovationSection>>;
-  // Get tour count if the collection of transformed tours was provided
-  const tour_count = (allRawTours || []).filter((tour) =>
-    tour.buildings.map((filePath) => filePath === stackbit_id),
-  ).length;
+  // Initialize tours as an empty array. These will be populated later.
+  const tours = [] as Array<Tour>;
   // Build the building object from the transformed fields above.
   const building: Building = {
     address,
@@ -101,25 +97,48 @@ export async function transformBuilding(options: BuildingTransformerOptions): Pr
     stackbit_id,
     static_map,
     title,
-    tour_count,
+    tours,
     url_path,
     validation_errors: [],
   };
-  // Validate the building
-  validateBuilding(building);
-  // Return the building
+  // Return the building object
   return building;
+}
+
+/* ----- Reference Attacher ----- */
+
+type BuildingReferenceAttacherOptions = {
+  building: Building;
+  tours: Array<Tour>;
+  buildings: Array<Building>;
+};
+
+/**
+ * Attaches references to the building object. This is processed after the
+ * initial transformation. Attached objects have been processed, but do not have
+ * their references attached.
+ */
+export async function attachBuildingRefs(
+  options: BuildingReferenceAttacherOptions,
+): Promise<Building> {
+  const tours = structuredClone(options.tours);
+  options.building.tours = tours.filter((tour) =>
+    tour.building_ids.includes(options.building.stackbit_id),
+  );
+  return options.building;
 }
 
 /* ----- Validator ----- */
 
+type BuildingValidatorOptions = {
+  building: Building;
+};
+
 /**
  * Throws an error if building does not meet minimum requirements for content.
- *
- * @param building Contentlayer building object
- * @returns Transformed building object
  */
-export function validateBuilding(building: Building): boolean {
+export function validateBuilding(options: BuildingValidatorOptions): boolean {
+  const { building } = options;
   building.validation_errors = [];
 
   // The following fields are required

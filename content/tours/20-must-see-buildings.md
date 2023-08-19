@@ -8,7 +8,7 @@ description: >-
 icon: ''
 image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
 time_estimate: 2 Hours
-buildings:
+building_ids:
   - content/buildings/richard-and-lois-rosenthal-center-for-contemporary-art.md
   - content/buildings/aronoff-center-for-the-arts.md
   - content/buildings/fountain-square.md

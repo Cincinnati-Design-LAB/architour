@@ -8,7 +8,7 @@ description: >-
 icon: ''
 image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
 time_estimate: 2 Hours
-buildings:
+building_ids:
   - content/buildings/center-at-600-vine.md
   - content/buildings/cincinnatian-hotel-palace-hotel.md
   - content/buildings/cincinnati-enquirer-building.md

@@ -13,7 +13,7 @@ export type RawTour = {
   icon?: IconName;
   description?: string;
   // Group: Buildings
-  buildings?: string[];
+  building_ids?: string[];
   // Group: Map
   static_map?: string;
   static_map_cache?: string;
@@ -42,6 +42,12 @@ export interface Tour {
    * an endless transformation loop.
    */
   buildings: Building[];
+  /**
+   * Leftover reference from raw buildings. This gets removed during
+   * transformation and will not be available after the tour has been fully
+   * processed.
+   */
+  building_ids?: string[];
 
   /* --- Location --- */
 

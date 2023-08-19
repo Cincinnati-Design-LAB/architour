@@ -6,7 +6,7 @@ description: Anim laborum dolor quis in amet cupidatat ea in ex ex.
 icon: ''
 image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
 time_estimate: 2 Hours
-buildings:
+building_ids:
   - content/buildings/adams-place-at-adams-crossing.md
   - content/buildings/montgomery-inn-boathouse.md
   - content/buildings/gateway-sculpture-at-bicentennial-commons.md

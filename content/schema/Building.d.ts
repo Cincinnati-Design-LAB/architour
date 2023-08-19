@@ -7,6 +7,7 @@ import {
   RawBuildingRenovationSection,
 } from '@/content/schema/BuildingRenovationSection';
 import { Location, RawLocation } from '@/content/schema/Location';
+import { Tour } from '@/content/schema/Tour';
 import { CloudinaryImage } from '@/content/utils/images';
 import { MapMarker } from '@/content/utils/map';
 import { Markdown } from '@/content/utils/markdown';
@@ -57,7 +58,7 @@ export interface Building {
   /* --- References --- */
 
   /** Cached number of tours. */
-  tour_count: number;
+  tours: Tour[];
 
   /* --- Location --- */
 

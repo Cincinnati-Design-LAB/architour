@@ -1,8 +1,12 @@
 import type { Building, RawBuilding } from '@/content/schema/Building.d';
-import { transformBuilding } from '@/content/schema/Building.transformer';
+import {
+  attachBuildingRefs,
+  transformBuilding,
+  validateBuilding,
+} from '@/content/schema/Building.transformer';
 import { transformSiteConfig } from '@/content/schema/SiteConfig.transformer';
 import { RawTour, Tour } from '@/content/schema/Tour';
-import { transformTour } from '@/content/schema/Tour.transformer';
+import { attachTourRefs, transformTour, validateTour } from '@/content/schema/Tour.transformer';
 import {
   BUILDINGS_CACHE_DIR,
   BUILDINGS_DIR,
@@ -27,23 +31,33 @@ import prettier from 'prettier';
  */
 export async function generateContentCache() {
   await initCacheDirs();
+  // Read raw content from the source directory and remove any drafts if we're
+  // not in editor mode.
   const rawBuildings = (await getRawBuildings()).filter(filterCollection);
   const rawTours = (await getRawTours()).filter(filterCollection);
-  // Buildings just need the tour count, but the tours needed to be filtered so
-  // that we're not counting tours that are drafts in production.
-  const buildings = await Promise.all(
-    rawBuildings.map(
-      async (raw) =>
-        await transformBuilding({ raw, filePath: raw.file_path, allRawTours: rawTours }),
-    ),
+  // Transform tours and buildings without attaching references to each other.
+  const buildingsWithoutRefs = await Promise.all(
+    rawBuildings.map(async (raw) => await transformBuilding({ raw, filePath: raw.file_path })),
   );
-  // Tours require the buildings to be transformed first so that the rich object
-  // can be embedded. This object will also include the tour count because it
-  // has already been transformed.
+  const toursWithoutRefs = await Promise.all(
+    rawTours.map(async (raw) => await transformTour({ raw, filePath: raw.file_path })),
+  );
+  // Collect all content before adding references and running validators.
+  const contentWithoutRefs = { buildings: buildingsWithoutRefs, tours: toursWithoutRefs };
+  // Attach references to each other and run validators.
+  const buildings = await Promise.all(
+    buildingsWithoutRefs.map(async (b) => {
+      const building = await attachBuildingRefs({ building: b, ...contentWithoutRefs });
+      await validateBuilding({ building });
+      return building;
+    }),
+  );
   const tours = await Promise.all(
-    rawTours.map(
-      async (raw) => await transformTour({ raw, filePath: raw.file_path, allBuildings: buildings }),
-    ),
+    toursWithoutRefs.map(async (t) => {
+      const tour = await attachTourRefs({ tour: t, ...contentWithoutRefs });
+      await validateTour({ tour });
+      return tour;
+    }),
   );
   // Write the transformed content to file.
   await cacheBuildings(buildings);

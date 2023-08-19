@@ -40,7 +40,8 @@ export const Tour: PageModel = {
     },
     // --- Group: Buildings --- //
     {
-      name: 'buildings',
+      name: 'buildingIds',
+      label: 'Buildings',
       type: 'list',
       items: { type: 'reference', models: ['Building'] },
       group: 'buildings',

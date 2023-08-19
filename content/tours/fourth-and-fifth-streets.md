@@ -6,7 +6,7 @@ description: Laboris aute Lorem Lorem consectetur ullamco esse velit elit.
 icon: ''
 image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
 time_estimate: 2 Hours
-buildings:
+building_ids:
   - content/buildings/fifth-third-center.md
   - content/buildings/westin-hotel.md
   - content/buildings/first-financial-center-chemed-center.md
