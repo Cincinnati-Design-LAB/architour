@@ -23,6 +23,7 @@ const { site_link_label, nav_links } = siteConfig.header;
         <Logo />
       </Link>
     </div>
+    {/* Desktop Menu */}
     <div class="space-x-6 justify-between items-center hidden md:flex" {...fieldPath('.nav_links')}>
       {
         nav_links.map((link, index) => {
@@ -46,22 +47,63 @@ const { site_link_label, nav_links } = siteConfig.header;
         })
       }
     </div>
-    <div class="space-x-4 justify-between items-center flex md:hidden" {...fieldPath('.nav_links')}>
-      {
-        nav_links.map((link, index) => {
-          return (
-            <HeaderLink
-              href={link.href}
-              annotations={{ self: fieldPath(`.${index}`), label: {} }}
-              hideExternalIcon={true}
-            >
-              <span class="block w-8">
-                <Icon name={link.icon} />
-              </span>
-            </HeaderLink>
-          );
-        })
-      }
+    {/* Mobile Menu */}
+    <div class="md:hidden">
+      <button open-mobile-menu class="w-7"><Icon name="menu" /></button>
+      <div
+        id="mobile-menu"
+        class="hidden fixed left-0 top-0 z-50 h-screen w-screen bg-white/90 py-12 px-6 transition-opacity duration-500 ease-in-out opacity-0"
+      >
+        <button close-mobile-menu class="w-6 fixed top-11 right-4 text-gray-600"
+          ><Icon name="cancel" /></button
+        >
+        <div
+          {...fieldPath('.nav_links')}
+          class="flex justify-center items-center gap-6 flex-col text-xl"
+        >
+          {
+            nav_links.map((link, index) => {
+              if (link.is_button)
+                return (
+                  <Button
+                    href={link.href}
+                    annotations={{ self: fieldPath(`.${index}`), label: fieldPath('.label') }}
+                  >
+                    {link.label}
+                  </Button>
+                );
+              return (
+                <HeaderLink
+                  href={link.href}
+                  annotations={{ self: fieldPath(`.${index}`), label: fieldPath('.label') }}
+                >
+                  {link.label}
+                </HeaderLink>
+              );
+            })
+          }
+        </div>
+      </div>
     </div>
   </div>
 </header>
+
+<script>
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  const openMenuTrigger = document.querySelector('[open-mobile-menu]');
+  openMenuTrigger.addEventListener('click', () => {
+    mobileMenu.classList.remove('hidden');
+    setTimeout(() => {
+      mobileMenu.classList.remove('opacity-0');
+    }, 1);
+  });
+
+  const closeMenuTrigger = document.querySelector('[close-mobile-menu]');
+  closeMenuTrigger.addEventListener('click', () => {
+    mobileMenu.classList.add('opacity-0');
+    setTimeout(() => {
+      mobileMenu.classList.add('hidden');
+    }, 300);
+  });
+</script>

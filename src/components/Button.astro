@@ -1,14 +1,14 @@
 ---
-import { IconProps, Link, LinkProps } from '@components'
+import { IconProps, Link, LinkProps } from '@components';
 
 export interface Props {
-  href: string
-  size?: 'medium' | 'large'
-  theme?: 'primary' | 'secondary'
-  outline?: boolean
-  icon?: IconProps & { position: 'left' | 'right' }
-  hideExternalIcon?: LinkProps['hideExternalIcon']
-  annotations?: LinkProps['annotations']
+  href: string;
+  size?: 'medium' | 'large';
+  theme?: 'primary' | 'secondary';
+  outline?: boolean;
+  icon?: IconProps & { position: 'left' | 'right' };
+  hideExternalIcon?: LinkProps['hideExternalIcon'];
+  annotations?: LinkProps['annotations'];
 }
 
 const {
@@ -19,14 +19,14 @@ const {
   icon,
   annotations,
   hideExternalIcon,
-} = Astro.props
+} = Astro.props;
 
 let themeClasses = {
   primary:
     'bg-primary-500 border-primary-500 text-white hover:bg-primary-600 hover:border-primary-600',
   secondary:
     'bg-secondary-500 border-secondary-500 text-white hover:bg-secondary-600 hover:border-secondary-600',
-}[theme]
+}[theme];
 
 if (outline) {
   themeClasses = {
@@ -34,22 +34,22 @@ if (outline) {
       'border-primary-500 text-primary-500 hover:bg-primary-600 hover:border-primary-600 hover:text-white',
     secondary:
       'border-secondary-500 text-secondary-500 hover:bg-secondary-600 hover:border-secondary-600 hover:text-white',
-  }[theme]
+  }[theme];
 }
 
 let sizeClasses = {
   medium: 'py-3 px-8',
   large: 'py-3 px-8 sm:py-4 sm:px-10 sm:text-lg',
-}[size]
+}[size];
 
 const iconSizeClasses = {
   medium: 'w-4',
   large: 'w-5',
-}[size]
+}[size];
 ---
 
 <Link
-  className={`border-2 hover:opacity-90 duration-300 transition-all block ${themeClasses} ${sizeClasses}`}
+  className={`border-2 hover:opacity-90 duration-300 transition-all inline-block ${themeClasses} ${sizeClasses}`}
   href={href}
   icons={[{ ...icon, className: iconSizeClasses }]}
   annotations={annotations}

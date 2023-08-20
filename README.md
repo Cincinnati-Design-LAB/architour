@@ -2,7 +2,7 @@ TODO:
 
 Last Few UI Features:
 
-- [ ] Fix mobile menu -> it looks stupid
+- [✔️] Fix mobile menu -> it looks stupid
 - [✔️] List and link to tours on the building detail page
 - [ ] Building list filtering and pagination
 - [✔️] Custom 404 page

@@ -10,6 +10,7 @@ export const iconNames = [
   'eye',
   'expand',
   'link-external',
+  'menu',
 ] as const;
 
-export type IconName = typeof iconNames[number];
+export type IconName = (typeof iconNames)[number];

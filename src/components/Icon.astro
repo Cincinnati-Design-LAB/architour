@@ -1,25 +1,26 @@
 ---
-import { IconName } from '@/content/utils/icons'
-import Alert from './Icon/Alert.astro'
-import ArrowLeft from './Icon/ArrowLeft.astro'
-import ArrowRight from './Icon/ArrowRight.astro'
-import Building from './Icon/Building.astro'
-import Calendar from './Icon/Calendar.astro'
-import Cancel from './Icon/Cancel.astro'
-import Clock from './Icon/Clock.astro'
-import Draft from './Icon/Draft.astro'
-import Expand from './Icon/Expand.astro'
-import Eye from './Icon/Eye.astro'
-import LinkExternal from './Icon/LinkExternal.astro'
+import { IconName } from '@/content/utils/icons';
+import Alert from './Icon/Alert.astro';
+import ArrowLeft from './Icon/ArrowLeft.astro';
+import ArrowRight from './Icon/ArrowRight.astro';
+import Building from './Icon/Building.astro';
+import Calendar from './Icon/Calendar.astro';
+import Cancel from './Icon/Cancel.astro';
+import Clock from './Icon/Clock.astro';
+import Draft from './Icon/Draft.astro';
+import Expand from './Icon/Expand.astro';
+import Eye from './Icon/Eye.astro';
+import LinkExternal from './Icon/LinkExternal.astro';
+import Menu from './Icon/Menu.astro';
 
 export interface Props {
-  name: IconName
+  name: IconName;
 }
 
-const { name } = Astro.props
+const { name } = Astro.props;
 
 const iconMap: {
-  [K in Exclude<Props['name'], undefined | null>]: (_props: Record<string, any>) => any
+  [K in Exclude<Props['name'], undefined | null>]: (_props: Record<string, any>) => any;
 } = {
   alert: Alert,
   'arrow-left': ArrowLeft,
@@ -32,9 +33,10 @@ const iconMap: {
   eye: Eye,
   expand: Expand,
   'link-external': LinkExternal,
-}
+  menu: Menu,
+};
 
-const IconComponent = iconMap[name]
+const IconComponent = iconMap[name];
 ---
 
 <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
