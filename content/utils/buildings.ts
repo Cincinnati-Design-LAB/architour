@@ -32,7 +32,7 @@ export async function getAllBuildingsPages(
   options: BuildingCollectionOptions,
 ): Promise<BuildingCollection[]> {
   const buildings = await getBuildings();
-  const buildingsPerPage = 12;
+  const buildingsPerPage = 20;
   const totalPages = Math.ceil(buildings.length / buildingsPerPage);
   const buildingPages = Array.from({ length: totalPages }).map((_, i) => ({
     buildings: buildings.slice(i * buildingsPerPage, (i + 1) * buildingsPerPage),
