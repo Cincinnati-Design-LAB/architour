@@ -1,13 +1,5 @@
 TODO:
 
-Last Few UI Features:
-
-- [✔️] Fix mobile menu -> it looks stupid
-- [✔️] List and link to tours on the building detail page
-- [ ] Building list pagination
-- [ ] Building list filtering
-- [✔️] Custom 404 page
-
 Pre-Launch Cleanup:
 
 - [ ] Link component should be used in building body and attributes
@@ -22,7 +14,7 @@ Post-Launch Options:
 
 - [ ] Get automatic content reloading working
 - [ ] Simplify `preview` where it is used (look for `TODO` — talk to Simon)
-- [ ] Replace Contentlayer with a custom mechanism
+- [✔️] Replace Contentlayer with a custom mechanism
 - [ ] Consider putting the image variation complexity in component
   - [ ] Consider if Unpic can help
   - [ ] Generate dimension ratio transformations (original, square, landscape)

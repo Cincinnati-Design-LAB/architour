@@ -31,15 +31,20 @@ type BuildingCollection = {
 export async function getAllBuildingsPages(
   options: BuildingCollectionOptions,
 ): Promise<BuildingCollection[]> {
-  const buildings = await getBuildings();
+  // Get all buildings
+  let buildings = await getBuildings();
+  // Sort buildings by title
+  buildings = buildings.sort((a, b) => a.title.localeCompare(b.title));
+  // Determine number of pages
   const buildingsPerPage = 20;
   const totalPages = Math.ceil(buildings.length / buildingsPerPage);
+  // Build rich page objects
   const buildingPages = Array.from({ length: totalPages }).map((_, i) => ({
     buildings: buildings.slice(i * buildingsPerPage, (i + 1) * buildingsPerPage),
     totalPages,
     page: i + 1,
   }));
-
+  // Return the pages
   return buildingPages;
 }
 
