@@ -39,7 +39,7 @@ const nextPage = currentPage + 1 <= buildingsPage.totalPages ? currentPage + 1 :
         prevPage && (
           <div>
             <Link
-              href={`/buildings/page/${prevPage}`}
+              href={prevPage === 1 ? '/buildings' : `/buildings/page/${prevPage}`}
               icons={[{ name: 'arrow-left', position: 'left' }]}
             >
               Previous page
