@@ -1,6 +1,6 @@
 ---
 import { getSiteConfig } from '@/content/utils/site-config';
-import { BuildingCard, PageHeader } from '@components';
+import { BuildingCard, Link, PageHeader } from '@components';
 import { fieldPath, getBuildingsPage } from '@content';
 import { PageLayout } from '.';
 
@@ -13,6 +13,10 @@ const siteConfig = await getSiteConfig();
 const { page } = Astro.props;
 
 const buildingsPage = await getBuildingsPage({ page });
+
+const currentPage = buildingsPage.page;
+const prevPage = currentPage - 1 || undefined;
+const nextPage = currentPage + 1 <= buildingsPage.totalPages ? currentPage + 1 : undefined;
 ---
 
 <PageLayout title={siteConfig.buildings.page_label}>
@@ -28,6 +32,36 @@ const buildingsPage = await getBuildingsPage({ page });
       class="max-w-7xl px-4 mx-auto py-12 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-16 gap-x-8"
     >
       {buildingsPage.buildings.map((building) => <BuildingCard {...building} />)}
+    </div>
+
+    <div class="pb-16 max-w-7xl mx-auto flex gap-4 items-center justify-center">
+      {
+        prevPage && (
+          <div>
+            <Link
+              href={`/buildings/page/${prevPage}`}
+              icons={[{ name: 'arrow-left', position: 'left' }]}
+            >
+              Previous page
+            </Link>
+          </div>
+        )
+      }
+      <span class="italic text-gray-500 text-sm">
+        Page <span>{buildingsPage.page}</span> of <span>{buildingsPage.totalPages}</span>
+      </span>
+      {
+        nextPage && (
+          <div>
+            <Link
+              href={`/buildings/page/${nextPage}`}
+              icons={[{ name: 'arrow-right', position: 'right' }]}
+            >
+              Next page
+            </Link>
+          </div>
+        )
+      }
     </div>
   </div>
 </PageLayout>
