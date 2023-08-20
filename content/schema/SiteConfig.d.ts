@@ -1,11 +1,5 @@
 import { IconName } from '@/content/utils/icons';
 
-/* ----- Helpers ----- */
-
-type Transformed<T, OmittedFields = null> = OmittedFields extends null
-  ? Omit<T, 'type'>
-  : Omit<T, 'type' | OmittedFields>;
-
 /* ----- Header ----- */
 
 export type RawHeader = {
@@ -14,7 +8,7 @@ export type RawHeader = {
   nav_links: RawHeaderLink[];
 };
 
-export interface Header extends Transformed<RawHeader, 'nav_links'> {
+export interface Header extends Omit<RawHeader, 'type' | 'nav_links'> {
   nav_links: HeaderLink[];
 }
 
@@ -22,11 +16,10 @@ export type RawHeaderLink = {
   type: 'HeaderLink';
   label: string;
   href: string;
-  icon: IconName;
   is_button: boolean;
 };
 
-export interface HeaderLink extends Transformed<RawHeaderLink> {}
+export interface HeaderLink extends Omit<RawHeaderLink, 'type'> {}
 
 /* ----- Footer ----- */
 
@@ -37,7 +30,7 @@ export type RawFooter = {
   nav_links: RawFooterLink[];
 };
 
-export interface Footer extends Transformed<RawFooter, 'contact_links' | 'nav_links'> {
+export interface Footer extends Omit<RawFooter, 'type' | 'contact_links' | 'nav_links'> {
   contact_links: FooterContact[];
   nav_links: FooterLink[];
 }
@@ -49,7 +42,7 @@ export type RawFooterContact = {
   email: string;
 };
 
-export interface FooterContact extends Transformed<RawFooterContact> {}
+export interface FooterContact extends Omit<RawFooterContact, 'type'> {}
 
 export type RawFooterLink = {
   type: 'FooterLink';
@@ -57,7 +50,7 @@ export type RawFooterLink = {
   href: string;
 };
 
-export interface FooterLink extends Transformed<RawFooterLink> {}
+export interface FooterLink extends Omit<RawFooterLink, 'type'> {}
 
 /* ----- Buildings Config ----- */
 
@@ -69,7 +62,7 @@ export type RawBuildingsConfig = {
   nav_label: string;
 };
 
-export interface BuildingsConfig extends Transformed<RawBuildingsConfig> {}
+export interface BuildingsConfig extends Omit<RawBuildingsConfig, 'type'> {}
 
 /* ----- Tours Config ----- */
 
@@ -81,7 +74,7 @@ export type RawToursConfig = {
   nav_label: string;
 };
 
-export interface ToursConfig extends Transformed<RawToursConfig> {}
+export interface ToursConfig extends Omit<RawToursConfig, 'type'> {}
 
 /* ----- Site Config ----- */
 

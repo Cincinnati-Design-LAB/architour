@@ -1,3 +1,4 @@
+import { Footer } from '@/content/schema/SiteConfig';
 import { iconNames } from '@/content/utils/icons';
 import { DataModel } from '@stackbit/sdk';
 import { ObjectModel } from '@stackbit/types';
@@ -10,7 +11,6 @@ const HeaderLink: ObjectModel = {
   fields: [
     { name: 'label', type: 'string', required: true },
     { name: 'href', label: 'URL', type: 'string', required: true },
-    { name: 'icon', type: 'enum', options: iconNames.concat(), required: true },
     { name: 'is_button', type: 'boolean', required: true, default: false },
   ],
 };

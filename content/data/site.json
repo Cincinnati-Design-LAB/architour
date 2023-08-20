@@ -8,21 +8,18 @@
         "type": "HeaderLink",
         "label": "Building List",
         "href": "/buildings",
-        "icon": "building",
         "is_button": false
       },
       {
         "type": "HeaderLink",
         "label": "Walking Tours",
         "href": "/tours",
-        "icon": "eye",
         "is_button": false
       },
       {
         "type": "HeaderLink",
         "label": "Donate",
         "href": "https://www.designlearnandbuild.org/donate",
-        "icon": "link-external",
         "is_button": true
       }
     ]

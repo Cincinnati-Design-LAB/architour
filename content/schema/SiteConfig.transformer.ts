@@ -51,7 +51,6 @@ async function transformHeaderLink(raw: RawHeaderLink): Promise<HeaderLink> {
   return {
     label: raw.label,
     href: raw.href,
-    icon: raw.icon,
     is_button: raw.is_button,
   };
 }
