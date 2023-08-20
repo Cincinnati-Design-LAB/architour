@@ -4,7 +4,8 @@ Last Few UI Features:
 
 - [✔️] Fix mobile menu -> it looks stupid
 - [✔️] List and link to tours on the building detail page
-- [ ] Building list filtering and pagination
+- [ ] Building list pagination
+- [ ] Building list filtering
 - [✔️] Custom 404 page
 
 Pre-Launch Cleanup:

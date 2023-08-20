@@ -1,10 +1,5 @@
 ---
-import BuildingList from '@/src/layouts/BuildingList.astro'
-import { getBuildingsOnPage } from '@content'
-
-const buildings = await getBuildingsOnPage({ page: 1 })
-
-// TODO: Add pagination and filtering
+import BuildingList from '@/src/layouts/BuildingList.astro';
 ---
 
-<BuildingList buildings={buildings} />
+<BuildingList page={1} />

@@ -5,7 +5,7 @@ export type { Tour } from '@/content/schema/Tour';
 export { fieldPath, objectId } from './annotations';
 export type { Annotation } from './annotations';
 // queries
-export { getBuildingPages, getBuildings, getBuildingsOnPage } from './buildings';
+export { getAllBuildingsPages, getBuildings, getBuildingsPage } from './buildings';
 // images
 export type { CloudinaryImage, ImageSizes } from './images';
 export { getTours } from './tours';

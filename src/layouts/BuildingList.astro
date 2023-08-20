@@ -1,16 +1,18 @@
 ---
 import { getSiteConfig } from '@/content/utils/site-config';
 import { BuildingCard, PageHeader } from '@components';
-import { Building, fieldPath } from '@content';
+import { fieldPath, getBuildingsPage } from '@content';
 import { PageLayout } from '.';
 
 export interface Props {
-  buildings: Building[];
+  page: number;
 }
 
-const { buildings } = Astro.props;
-
 const siteConfig = await getSiteConfig();
+
+const { page } = Astro.props;
+
+const buildingsPage = await getBuildingsPage({ page });
 ---
 
 <PageLayout title={siteConfig.buildings.page_label}>
@@ -25,7 +27,7 @@ const siteConfig = await getSiteConfig();
     <div
       class="max-w-7xl px-4 mx-auto py-12 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-16 gap-x-8"
     >
-      {buildings.map((building) => <BuildingCard {...building} />)}
+      {buildingsPage.buildings.map((building) => <BuildingCard {...building} />)}
     </div>
   </div>
 </PageLayout>

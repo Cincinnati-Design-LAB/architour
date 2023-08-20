@@ -25,36 +25,35 @@ type BuildingCollection = {
 };
 
 /**
- * Sort, filter, and paginate a list of buildings.
- *
- * @param options Sorting and filtering options
- * @returns A list of filtered and sorted buildings
+ * Sort, filter, and paginate a list of buildings, and return all pages for that
+ * collection.
  */
-export async function getBuildingPages(
+export async function getAllBuildingsPages(
   options: BuildingCollectionOptions,
 ): Promise<BuildingCollection[]> {
   const buildings = await getBuildings();
   const buildingsPerPage = 12;
   const totalPages = Math.ceil(buildings.length / buildingsPerPage);
-  return Array.from({ length: totalPages }).map((_, i) => ({
+  const buildingPages = Array.from({ length: totalPages }).map((_, i) => ({
     buildings: buildings.slice(i * buildingsPerPage, (i + 1) * buildingsPerPage),
     totalPages,
     page: i + 1,
   }));
+
+  return buildingPages;
 }
 
 /**
- * Gets all building collections and then returns buildings for a specific page.
- *
- * @param options Sorting and filtering options
- * @returns A list of buildings for a particular page
+ * Locate and return a specific buildings page.
  */
-export async function getBuildingsOnPage(
+export async function getBuildingsPage(
   options: BuildingCollectionOptions & { page: number },
-): Promise<Building[]> {
-  const buildingPages = await getBuildingPages(options);
-  if (options.page > buildingPages.length) {
+): Promise<BuildingCollection> {
+  const buildingsPages = await getAllBuildingsPages(options);
+
+  if (options.page > buildingsPages.length) {
     throw new Error(`Page ${options.page} does not exist.`);
   }
-  return buildingPages[options.page - 1].buildings;
+
+  return buildingsPages[options.page - 1];
 }
