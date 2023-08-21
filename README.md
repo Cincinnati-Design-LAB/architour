@@ -2,12 +2,7 @@ TODO:
 
 Pre-Launch Cleanup:
 
-- [✔️] Get build working on Netlify so preview is up to date
-- [x] Link component should be used in building body and attributes -> Not doing this, not necessary
 - [ ] Set up google analytics
-  - [ ] Add click tracking
-- [✔️] Responsive style check
-- [✔️] Upgrade Astro
 - [ ] Explore using Unpic rather than processing during build. (Need to fix the initial loading for images.)
 
 Stackbit Cloud Fixes:
