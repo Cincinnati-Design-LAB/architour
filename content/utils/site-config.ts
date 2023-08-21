@@ -1,5 +1,6 @@
 import { SiteConfig } from '@/content/schema/SiteConfig';
 import { DATA_CACHE_DIR } from '@/content/utils/constants';
+import fs from 'fs';
 import path from 'path';
 
 /**
@@ -7,8 +8,5 @@ import path from 'path';
  */
 export async function getSiteConfig(): Promise<SiteConfig> {
   const siteConfigPath = path.join(DATA_CACHE_DIR, 'site.json');
-  const siteConfig = (await import(/* @vite-ignore */ siteConfigPath, {
-    assert: { type: 'json' },
-  })) as SiteConfig;
-  return siteConfig;
+  return JSON.parse(fs.readFileSync(siteConfigPath, 'utf8')) as SiteConfig;
 }
