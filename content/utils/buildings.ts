@@ -1,5 +1,6 @@
 import { Building } from '@/content/schema/Building';
 import glob from 'fast-glob';
+import fs from 'fs';
 import path from 'path';
 import { BUILDINGS_CACHE_DIR } from './constants';
 
@@ -9,7 +10,9 @@ import { BUILDINGS_CACHE_DIR } from './constants';
 export async function getBuildings(): Promise<Building[]> {
   const allBuildingFiles = glob.sync(path.join(BUILDINGS_CACHE_DIR, '*.json'));
   const buildings = await Promise.all(
-    allBuildingFiles.map(async (filePath) => await import(/* @vite-ignore */ filePath)),
+    allBuildingFiles.map(
+      async (filePath) => JSON.parse(fs.readFileSync(filePath, 'utf-8')) as Building,
+    ),
   );
   return buildings;
 }

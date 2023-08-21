@@ -2,11 +2,16 @@ TODO:
 
 Pre-Launch Cleanup:
 
+- [ ] Get build working on Netlify so preview is up to date
 - [ ] Link component should be used in building body and attributes
+- [ ] Set up google analytics
 - [ ] Add click tracking
 - [ ] Responsive style check
 - [ ] Upgrade Astro
 - [ ] Extend field for icon (Tour)
+
+Stackbit Cloud Fixes:
+
 - [ ] Ensure that updating a location updates the static map in a cloud project
 - [ ] Mapbox map doesn't load in Stackbit
 
