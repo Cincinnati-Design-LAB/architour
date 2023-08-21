@@ -40,7 +40,7 @@ const sectionMap = {
 
   <div class="max-w-7xl mx-auto relative">
     {
-      building.validation_errors && (
+      building.validation_errors && building.validation_errors.length > 0 && (
         <div class="max-w-4xl mx-auto px-4 my-8">
           <ValidationErrors errors={building.validation_errors} draft={building.draft} />
         </div>

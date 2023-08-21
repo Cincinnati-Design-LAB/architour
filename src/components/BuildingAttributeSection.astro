@@ -12,7 +12,10 @@ export interface Props {
 const props = Astro.props as Props;
 ---
 
-<div class={`grid grid-cols-2 gap-x-8 gap-y-6 ${props.className}`} {...fieldPath(props.fieldPath)}>
+<div
+  class={`grid sm:grid-cols-2 gap-x-8 gap-y-6 ${props.className}`}
+  {...fieldPath(props.fieldPath)}
+>
   {
     (props.attributes || []).map((attribute, idx) => (
       <Stat

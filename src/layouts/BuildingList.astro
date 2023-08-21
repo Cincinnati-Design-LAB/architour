@@ -34,7 +34,9 @@ const nextPage = currentPage + 1 <= buildingsPage.totalPages ? currentPage + 1 :
       {buildingsPage.buildings.map((building) => <BuildingCard {...building} />)}
     </div>
 
-    <div class="pb-16 max-w-7xl mx-auto flex gap-4 items-center justify-center">
+    <div
+      class="pb-16 max-w-7xl mx-auto flex-col sm:flex-row flex gap-4 items-center justify-center"
+    >
       {
         prevPage && (
           <div>

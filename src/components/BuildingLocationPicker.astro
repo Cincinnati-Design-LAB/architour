@@ -1,26 +1,30 @@
 ---
-import { Building, fieldPath } from '@content'
+import Badge from '@/src/components/Badge.astro';
+import { Building, fieldPath } from '@content';
 
 export interface Props {
-  building: Building
+  building: Building;
 }
 
-const props = Astro.props as Props
+const props = Astro.props as Props;
 
-let mapCenter = [-84.511198, 39.1015]
+let mapCenter = [-84.511198, 39.1015];
 if (props.building.location?.lat && props.building.location?.lng) {
-  mapCenter = [props.building.location.lng, props.building.location.lat]
+  mapCenter = [props.building.location.lng, props.building.location.lat];
 }
 ---
 
-<div class="mt-12 mb-16">
+<div class="mb-16 px-4">
   <span class="hidden">
     <span id="map-center">{JSON.stringify(mapCenter)}</span>
   </span>
 
   <div>
     <span class="block font-bold mb-1 text-sm tracking-widest uppercase text-secondary-500">
-      Building Coordinates
+      <span class="inline-flex items-center gap-3">
+        <span>Building Coordinates</span>
+        <Badge label="Editor Mode" theme="warning" />
+      </span>
     </span>
     <div class="mb-4" {...fieldPath('location')}>
       {
@@ -60,38 +64,38 @@ if (props.building.location?.lat && props.building.location?.lng) {
 </div>
 
 <script>
-  import mapboxgl, { LngLatLike } from 'mapbox-gl'
+  import mapboxgl, { LngLatLike } from 'mapbox-gl';
 
   /* --- Setup Map --- */
 
-  mapboxgl.accessToken = import.meta.env.PUBLIC_MAPBOX_TOKEN
+  mapboxgl.accessToken = import.meta.env.PUBLIC_MAPBOX_TOKEN;
 
-  const mapCenter: LngLatLike = JSON.parse(document.getElementById('map-center')!.innerHTML)
+  const mapCenter: LngLatLike = JSON.parse(document.getElementById('map-center')!.innerHTML);
 
   const map = new mapboxgl.Map({
     container: 'building-location-picker',
     style: `mapbox://styles/${import.meta.env.PUBLIC_MAPBOX_STYLE}`,
     center: mapCenter,
     zoom: 13,
-  })
+  });
 
-  map.addControl(new mapboxgl.NavigationControl(), 'top-right')
+  map.addControl(new mapboxgl.NavigationControl(), 'top-right');
 
-  const markerEl = document.createElement('div')
-  markerEl.className = 'building-markerEl'
-  markerEl.style.backgroundColor = '#3D3935'
-  markerEl.style.width = '1.5rem'
-  markerEl.style.height = '1.5rem'
-  markerEl.style.borderRadius = '50%'
-  markerEl.style.border = '.2rem solid white'
+  const markerEl = document.createElement('div');
+  markerEl.className = 'building-markerEl';
+  markerEl.style.backgroundColor = '#3D3935';
+  markerEl.style.width = '1.5rem';
+  markerEl.style.height = '1.5rem';
+  markerEl.style.borderRadius = '50%';
+  markerEl.style.border = '.2rem solid white';
 
-  const marker = new mapboxgl.Marker(markerEl).setLngLat(mapCenter).addTo(map)
+  const marker = new mapboxgl.Marker(markerEl).setLngLat(mapCenter).addTo(map);
 
   map.on('click', (event) => {
-    const el = document.getElementById('click-coordinates')
-    el.innerHTML = `Lat: ${event.lngLat.lat.toFixed(4)} | Lng: ${event.lngLat.lng.toFixed(4)}`
-    marker.setLngLat(event.lngLat)
-  })
+    const el = document.getElementById('click-coordinates');
+    el.innerHTML = `Lat: ${event.lngLat.lat.toFixed(4)} | Lng: ${event.lngLat.lng.toFixed(4)}`;
+    marker.setLngLat(event.lngLat);
+  });
 </script>
 
 <style is:global>

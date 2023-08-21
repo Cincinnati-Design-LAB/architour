@@ -24,18 +24,31 @@ const tour = Astro.props.tour as Tour;
   </div>
 
   <div
-    class="fixed right-[-30rem] bg-white w-[24rem] max-w-[75%] h-[calc(100vh-15rem)] z-10 transition-all duration-300 overflow-y-scroll"
+    class="fixed right-[-30rem] bg-white w-[24rem] max-w-[90%] md:max-w-[75%] h-[calc(100vh-15rem)] z-10 transition-all duration-300 overflow-y-scroll"
     id="drawer"
   >
-    <button class="absolute w-6 left-4 top-4 text-white" id="drawer-close-trigger">
+    <button class="absolute w-6 left-4 top-4 text-white" drawer-close-trigger>
       <Icon name="cancel" />
     </button>
     <img class="w-full" id="drawer-image" src="" srcset="" />
     <div class="px-4 py-6">
+      <button
+        class="block mb-4 text-xs uppercase tracking-widest text-gray-600"
+        drawer-close-trigger
+      >
+        <span class="flex items-center gap-2">
+          <span class="block w-3"><Icon name={'arrow-left'} /></span>
+          <span>Close Panel</span>
+        </span>
+      </button>
       <h2 class="text-2xl font-black mb-3" id="drawer-title"></h2>
       <p class="mb-6" id="drawer-excerpt"></p>
-      <Link className="pb-2 border-b border-b-black inline-block" id="drawer-link" href="/">
-        <span class="flex items-center space-x-2">
+      <Link
+        className="pb-1 border-b-2 border-b-primary-500 inline-block text-primary-500"
+        id="drawer-link"
+        href="/"
+      >
+        <span class="flex items-center gap-2">
           <span>Learn Details</span>
           <span class="block w-4"><Icon name={'arrow-right'} /></span>
         </span>
@@ -158,6 +171,7 @@ const tour = Astro.props.tour as Tour;
     /* --- Global Event Listeners --- */
 
     map.on('click', closeDrawer);
-    document.getElementById('drawer-close-trigger').addEventListener('click', closeDrawer);
+    const closeTriggers = document.querySelectorAll('[drawer-close-trigger]');
+    closeTriggers.forEach((el) => el.addEventListener('click', closeDrawer));
   </script>
 </MapLayout>

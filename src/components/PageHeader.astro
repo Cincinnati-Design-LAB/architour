@@ -1,16 +1,16 @@
 ---
-import { Icon, IconProps } from '@components'
-import { Annotation, CloudinaryImage } from '@content'
+import { Icon, IconProps } from '@components';
+import { Annotation, CloudinaryImage } from '@content';
 
-type ElementAnnotation = Record<'title', Annotation>
+type ElementAnnotation = Record<'title', Annotation>;
 
 export interface Props {
-  title: string
-  icon?: IconProps['name']
-  theme?: 'primary' | 'secondary'
-  image?: CloudinaryImage<'hero'>
-  size?: 'sm' | 'md' | 'lg'
-  annotations?: Partial<ElementAnnotation>
+  title: string;
+  icon?: IconProps['name'];
+  theme?: 'primary' | 'secondary';
+  image?: CloudinaryImage<'hero'>;
+  size?: 'sm' | 'md' | 'lg';
+  annotations?: Partial<ElementAnnotation>;
 }
 
 const {
@@ -20,41 +20,43 @@ const {
   image,
   size = 'md',
   annotations = {},
-} = Astro.props as Props
+} = Astro.props as Props;
 
 const themeClassMap: { [K in Exclude<Props['theme'], undefined | null>]: string } = {
   primary: 'bg-primary-500 text-white',
   secondary: 'bg-secondary-500 text-white',
-}
+};
 
 const sizeClassMap: { [K in Exclude<Props['size'], undefined | null>]: string } = {
   sm: 'py-6 px-4 text-3xl',
   md: 'py-10 px-4 text-4xl',
   lg: 'py-20 px-4 text-5xl',
-}
+};
 
-let style = {}
+let style = {};
 if (image) {
   style = {
     backgroundImage: `url(${image.hero['3x']})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-  }
+  };
 }
 ---
 
 <div class={`relative ${sizeClassMap[size]} ${themeClassMap[theme]}`} style={style}>
   {image && <div class="absolute bg-black opacity-50 top-0 left-0 w-full h-full" />}
-  <div class="max-w-7xl mx-auto relative">
-    <div class="flex justify-start items-center space-x-3">
+  <div class="max-w-7xl mx-auto relative px-4">
+    <div class="flex justify-start items-center gap-6">
       {
         icon && (
-          <span class="inline-block w-12">
+          <span class="inline-block w-10 sm:w-12">
             <Icon name={icon} />
           </span>
         )
       }
-      <h1 class="font-black" {...annotations?.title ?? {}}>{title}</h1>
+      <h1 class="text-2xl font-bold sm:text-3xl sm:font-black" {...annotations?.title ?? {}}>
+        {title}
+      </h1>
     </div>
   </div>
 </div>

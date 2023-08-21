@@ -36,14 +36,14 @@ const tour = Astro.props.tour as Tour;
 
   <div class="max-w-7xl mx-auto relative px-4 py-16">
     {
-      tour.validation_errors && (
+      tour.validation_errors && tour.validation_errors.length > 0 && (
         <div class="max-w-4xl mx-auto px-4 mb-12">
           <ValidationErrors errors={tour.validation_errors} draft={tour.draft} />
         </div>
       )
     }
-    <div class="grid grid-cols-12 gap-16">
-      <div class="col-span-7">
+    <div class="grid md:grid-cols-12 gap-10 md:gap-16 mb-16">
+      <div class="md:col-span-7">
         {
           tour.description?.html?.length > 0 && (
             <div
@@ -53,7 +53,7 @@ const tour = Astro.props.tour as Tour;
             />
           )
         }
-        <div class="grid grid-cols-2 gap-x-10 gap-y-6 mb-12">
+        <div class="grid grid-cols-2 gap-x-10 gap-y-6">
           <Stat label="Buildings on Tour" value={tour.buildings.length.toString()} />
           <Stat
             label="Estimated Walking Time"
@@ -63,7 +63,7 @@ const tour = Astro.props.tour as Tour;
         </div>
       </div>
 
-      <div class="col-span-5">
+      <div class="md:col-span-5">
         {
           tour.static_map && (
             <Link className="relative group" href={tour.url_path + '/map'}>
@@ -84,8 +84,8 @@ const tour = Astro.props.tour as Tour;
 
     <div class="max-w-7xl mx-auto relative">
       <div class="max-w-4xl">
-        <h2 class="font-bold text-3xl mb-6">Buildings on the Tour</h2>
-        <div class="grid grid-cols-2 gap-6">
+        <h2 class="font-bold text-2xl md:text-3xl mb-6">Buildings on the Tour</h2>
+        <div class="grid md:grid-cols-2 gap-6">
           {tour.buildings.map((building) => <BuildingCardCompact {...building} />)}
         </div>
       </div>

@@ -2,29 +2,21 @@ TODO:
 
 Pre-Launch Cleanup:
 
-- [ ] Get build working on Netlify so preview is up to date
+- [✔️] Get build working on Netlify so preview is up to date
 - [ ] Link component should be used in building body and attributes
 - [ ] Set up google analytics
 - [ ] Add click tracking
-- [ ] Responsive style check
+- [✔️] Responsive style check
 - [ ] Upgrade Astro
 - [ ] Extend field for icon (Tour)
+- [ ] Explore using Unpic rather than processing during build. (Need to fix the initial loading for images.)
 
 Stackbit Cloud Fixes:
 
 - [ ] Ensure that updating a location updates the static map in a cloud project
 - [ ] Mapbox map doesn't load in Stackbit
-
-Post-Launch Options:
-
-- [ ] Get automatic content reloading working
-- [ ] Simplify `preview` where it is used (look for `TODO` — talk to Simon)
-- [✔️] Replace Contentlayer with a custom mechanism
-- [ ] Consider putting the image variation complexity in component
-  - [ ] Consider if Unpic can help
-  - [ ] Generate dimension ratio transformations (original, square, landscape)
-  - [ ] Generate URLs for widths every `100` pixels from `100` to `4000`
-  - [ ] ResponsiveImage component should be fed the sizes and automatically add DPR
+- [ ] Do an audit of fields and add better controls as needed
+  - [ ] Simplify `preview` where it is used (look for `TODO` — talk to Simon)
 
 Notes to add:
 
