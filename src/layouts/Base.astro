@@ -65,7 +65,7 @@ const invalidObjects = [buildings, tours]
             {invalidObjects.map((obj) => (
               <li class="mb-2">
                 <a href={obj.url_path} class="underline">
-                  {obj.title || obj._id}
+                  {obj.title || obj.url_path}
                 </a>
               </li>
             ))}
