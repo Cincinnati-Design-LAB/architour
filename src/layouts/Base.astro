@@ -1,5 +1,6 @@
 ---
 import type { Annotation } from '@/content/utils/annotations';
+import GoogleAnalytics from '@/src/components/GoogleAnalytics.astro';
 import { Callout } from '@components';
 import { getBuildings, getTours } from '@content';
 
@@ -23,6 +24,8 @@ const tours = await getTours();
 const invalidObjects = [buildings, tours]
   .flat()
   .filter((item) => item.validation_errors?.length > 0 && !item.draft);
+
+const analyticsId = import.meta.env.GOOGLE_ANALYTICS_ID;
 ---
 
 <!DOCTYPE html>
@@ -45,16 +48,7 @@ const invalidObjects = [buildings, tours]
     <title>{title} | Design LAB</title>
 
     {/* Google Analytics */}
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1H47D8H6C2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      const gtag: Gtag.Gtag = function () {
-        window.dataLayer.push(arguments);
-      };
-      gtag('js', new Date());
-
-      gtag('config', import.meta.env.GOOGLE_ANALYTICS_ID);
-    </script>
+    <GoogleAnalytics />
   </head>
   <body class={bodyClasses} {...bodyAnnotations}>
     {
@@ -74,12 +68,10 @@ const invalidObjects = [buildings, tours]
       )
     }
     <slot />
-  </body>
-</html>
-
-<style is:global>
-  svg {
-    @apply h-auto
+  </body><style is:global>
+    svg {
+      @apply h-auto
       w-full;
-  }
-</style>
+    }
+  </style>
+</html>
