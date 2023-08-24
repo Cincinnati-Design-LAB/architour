@@ -37,6 +37,7 @@ const gitContentSource = new GitContentSource({
 export default defineStackbitConfig({
   stackbitVersion: '~0.6.0',
   ssgName: 'custom',
+  nodeVersion: '18',
   contentSources: [gitContentSource],
   onDocumentCreate,
   // experimental: {
