@@ -26,12 +26,12 @@ const gitContentSource = new GitContentSource({
   rootPath: __dirname,
   contentDirs: ['content/buildings', 'content/data', 'content/tours'],
   models,
-  // assetsConfig: {
-  //   referenceType: 'static',
-  //   staticDir: 'public',
-  //   uploadDir: 'uploads',
-  //   publicPath: '/',
-  // },
+  assetsConfig: {
+    referenceType: 'static',
+    staticDir: 'public',
+    uploadDir: 'uploads',
+    publicPath: '/',
+  },
 });
 
 export default defineStackbitConfig({
