@@ -40,13 +40,14 @@ export default defineStackbitConfig({
   nodeVersion: '18',
   contentSources: [gitContentSource],
   onDocumentCreate,
-  // experimental: {
-  //   ssg: {
-  //     name: 'astro',
-  //     logPatterns: { up: ['Server running at'] },
-  //     passthrough: ['/vite-hmr/**'],
-  //   },
-  // },
+  experimental: {
+    ssg: {
+      name: 'Astro',
+      logPatterns: { up: ['is ready', 'astro'] },
+      directRoutes: { 'socket.io': 'socket.io' },
+      // passthrough: ['/vite-hmr/**'],
+    },
+  },
   assetSources: Object.values(assetSources),
   sidebarButtons: [
     {
