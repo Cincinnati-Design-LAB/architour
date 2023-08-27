@@ -10,7 +10,7 @@ location:
   lat: 39.1023428
   lng: -84.5034659
 address: 400 Pike St.
-draft: true
+draft: false
 completion_date: '1905'
 sections:
   - page_location: above_images

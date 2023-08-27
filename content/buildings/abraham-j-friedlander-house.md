@@ -9,7 +9,7 @@ location:
 address: '8 W Ninth St., Cincinnati, OH  45202'
 static_map: buildings/abraham-j-friedlander-house/static-map_ne27bg
 static_map_cache: '{"lat":39.105369,"lng":-84.514586}'
-draft: true
+draft: false
 completion_date: '1830'
 sections:
   - page_location: above_images

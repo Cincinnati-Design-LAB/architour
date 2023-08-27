@@ -12,7 +12,7 @@ location:
   lat: 39.108585
   lng: -84.518552
 address: '1225 Elm St., Cincinnati, Ohio'
-draft: true
+draft: false
 completion_date: '1908'
 sections:
   - page_location: above_images

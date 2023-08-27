@@ -8,7 +8,7 @@ location:
   lat: 39.1077
   lng: -84.51245
 address: '100 E. Central Pkwy, Cincinnati, Ohio'
-draft: true
+draft: false
 completion_date: '1909'
 sections:
   - page_location: above_map

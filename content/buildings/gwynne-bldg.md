@@ -8,7 +8,7 @@ location:
   lat: 39.1031535
   lng: -84.5097
 address: '602 Main St., Cincinnati, Ohio 45202'
-draft: true
+draft: false
 completion_date: '1913'
 sections:
   - page_location: above_images

@@ -10,7 +10,7 @@ location:
 address: '801 Plum St., Cincinnati, OH  45202'
 static_map: buildings/cincinnati-city-hall/static-map_zid8pb
 static_map_cache: '{"lat":39.10416999999999,"lng":-84.5195339}'
-draft: true
+draft: false
 completion_date: '1894'
 sections:
   - page_location: above_images

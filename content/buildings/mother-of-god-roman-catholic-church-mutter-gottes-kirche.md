@@ -14,7 +14,7 @@ location:
 address: |-
   119 W Sixth St.
   Covington, KY
-draft: true
+draft: false
 completion_date: '1871'
 sections:
   - page_location: above_images

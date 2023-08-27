@@ -8,7 +8,7 @@ location:
   lat: 39.1008434
   lng: -84.5141833
 address: '35 W. Fifth St., Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1930'
 sections:
   - page_location: above_images

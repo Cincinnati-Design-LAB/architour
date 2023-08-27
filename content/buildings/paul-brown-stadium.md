@@ -9,7 +9,7 @@ location:
   lat: 39.096298
   lng: -84.515021
 address: '1 Paul Brown Stadium, Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '2000'
 sections:
   - page_location: above_images

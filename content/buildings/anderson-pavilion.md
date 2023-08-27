@@ -9,7 +9,7 @@ location:
 address: '8 E Mehring Way, Cincinnati, OH  45202'
 static_map: buildings/anderson-pavilion/static-map_lims0k
 static_map_cache: '{"lat":39.095912,"lng":-84.511192}'
-draft: true
+draft: false
 completion_date: '2015'
 sections:
   - page_location: above_images

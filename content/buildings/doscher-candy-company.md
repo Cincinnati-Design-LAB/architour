@@ -7,7 +7,7 @@ location:
   lat: 39.10865
   lng: -84.5141510999999
 address: '12th & Jackson Streets, Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1885'
 sections:
   - page_location: above_map

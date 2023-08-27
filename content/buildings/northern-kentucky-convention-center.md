@@ -10,7 +10,7 @@ location:
 address: |-
   1 W. Rivercenter Blvd.
   Covington, KY
-draft: true
+draft: false
 completion_date: '2002'
 sections:
   - page_location: below_images

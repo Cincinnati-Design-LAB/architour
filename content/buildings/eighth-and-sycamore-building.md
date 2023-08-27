@@ -10,7 +10,7 @@ location:
 address: |-
   Eighth & Sycamore Streets
   Cincinnati, OH. 45202
-draft: true
+draft: false
 completion_date: '2017'
 sections:
   - page_location: above_images

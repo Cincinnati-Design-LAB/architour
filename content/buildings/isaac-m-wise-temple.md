@@ -8,7 +8,7 @@ location:
   lat: 39.103717
   lng: -84.51830999999999
 address: '720 Plum St., Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1867'
 sections:
   - page_location: above_images

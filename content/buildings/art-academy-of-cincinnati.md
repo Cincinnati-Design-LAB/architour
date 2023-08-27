@@ -11,7 +11,7 @@ location:
 address: '1212 Jackson St, Cincinnati, OH 45202'
 static_map: buildings/art-academy-of-cincinnati/static-map_opifyi
 static_map_cache: '{"lat":39.108722,"lng":-84.5137699999998}'
-draft: true
+draft: false
 completion_date: 1910 & 1923
 sections:
   - page_location: above_images

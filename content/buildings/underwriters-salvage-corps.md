@@ -7,7 +7,7 @@ location:
   lat: 39.104889
   lng: -84.511547
 address: '110 E. Eighth St., Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1889'
 sections:
   - page_location: above_images

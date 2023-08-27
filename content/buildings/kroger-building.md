@@ -8,7 +8,7 @@ location:
   lat: 39.1067291
   lng: -84.513878
 address: '1014 Vine St., Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1954'
 sections:
   - page_location: above_map

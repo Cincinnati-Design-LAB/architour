@@ -9,7 +9,7 @@ location:
   lat: 39.098
   lng: -84.508
 address: '100 Joe Nuxhall Way, Cincinnati, Ohio'
-draft: true
+draft: false
 completion_date: '2003'
 sections:
   - page_location: above_images

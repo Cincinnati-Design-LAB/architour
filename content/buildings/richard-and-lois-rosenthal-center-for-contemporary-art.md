@@ -12,7 +12,7 @@ location:
   lat: 39.1028189
   lng: -84.512118
 address: '44 E 6th St, Cincinnati, OH 45202, USA'
-draft: true
+draft: false
 completion_date: '2003'
 sections:
   - page_location: above_images

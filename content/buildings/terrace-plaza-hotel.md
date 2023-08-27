@@ -7,7 +7,7 @@ location:
   lat: 39.102231
   lng: -84.5141
 address: '15 W. Sixth St., Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1948'
 sections:
   - page_location: above_images

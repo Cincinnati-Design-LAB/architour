@@ -12,7 +12,7 @@ location:
   lat: 39.103248
   lng: -84.51599
 address: '151 W. Seventh St., Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: >-
   1870s (original building visible from Shillito Place) and 1938 (current façade
   wrap)

@@ -7,7 +7,7 @@ location:
   lat: 39.1081791
   lng: -84.5128755
 address: '1112 Walnut St., Cincinnati, Ohio 45202'
-draft: true
+draft: false
 completion_date: '1911'
 sections:
   - page_location: above_map

@@ -8,7 +8,7 @@ location:
   lat: 39.1025458
   lng: -84.5095669
 address: '550 Main St., Cincinnati, Ohio'
-draft: true
+draft: false
 completion_date: '1962'
 sections:
   - page_location: below_images

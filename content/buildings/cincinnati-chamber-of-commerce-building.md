@@ -10,7 +10,7 @@ location:
 address: '1 W. Fourth St., Cincinnati, OH  45202'
 static_map: buildings/cincinnati-chamber-of-commerce-building/static-map_cc1ql1
 static_map_cache: '{"lat":39.099654,"lng":-84.512977}'
-draft: true
+draft: false
 completion_date: '1886'
 sections:
   - page_location: above_images

@@ -10,7 +10,7 @@ location:
 address: |-
   834 Greenup St.
   Covington, KY
-draft: true
+draft: false
 completion_date: '1932'
 sections:
   - page_location: above_map

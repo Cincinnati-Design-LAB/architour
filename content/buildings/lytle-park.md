@@ -7,7 +7,7 @@ location:
   lat: 39.1012
   lng: -84.5041236
 address: 'Fourth & Pike Streets, Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1907'
 sections:
   - page_location: above_images

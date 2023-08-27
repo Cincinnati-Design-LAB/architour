@@ -7,7 +7,7 @@ location:
   lat: 39.1018558
   lng: -84.5106371
 address: '100 E. Fifth St., Cincinnati, Ohio'
-draft: true
+draft: false
 completion_date: '1939'
 sections:
   - page_location: above_images

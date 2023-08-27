@@ -13,7 +13,7 @@ address: |-
   Cincinnati, OH  45202
 static_map: buildings/centrifuse-union-hall/static-map_qieubz
 static_map_cache: '{"lat":39.109898,"lng":-84.515237}'
-draft: true
+draft: false
 completion_date: 1850-55
 sections:
   - page_location: above_images

@@ -12,7 +12,7 @@ location:
   lat: 39.106389
   lng: -84.492764
 address: '1135 Riverside Dr., Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '2003'
 sections:
   - page_location: above_images

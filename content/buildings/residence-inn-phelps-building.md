@@ -8,7 +8,7 @@ location:
   lat: 39.10165
   lng: -84.5045
 address: '506 E. Fourth St., Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1926'
 sections:
   - page_location: above_images

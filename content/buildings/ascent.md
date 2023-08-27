@@ -13,7 +13,7 @@ address: |-
   Covington KY
 static_map: buildings/ascent/static-map_ekl5ku
 static_map_cache: '{"lat":39.089139,"lng":-84.509519}'
-draft: true
+draft: false
 completion_date: '2008'
 sections:
   - page_location: above_images

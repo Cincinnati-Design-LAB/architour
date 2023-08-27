@@ -7,7 +7,7 @@ location:
   lat: 39.0995
   lng: -84.5089533
 address: '300 Main St., Cincinnati, Ohio'
-draft: true
+draft: false
 completion_date: '1862'
 sections:
   - page_location: above_images

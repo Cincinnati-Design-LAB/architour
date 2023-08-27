@@ -8,7 +8,7 @@ location:
   lat: 39.1006122
   lng: -84.5108585
 address: '414 Walnut, Cincinnati, Ohio'
-draft: true
+draft: false
 completion_date: '1905'
 sections:
   - page_location: above_map

@@ -7,7 +7,7 @@ location:
   lat: 39.104158
   lng: -84.494614
 address: '925 Riverside Dr., Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1989'
 sections:
   - page_location: above_images

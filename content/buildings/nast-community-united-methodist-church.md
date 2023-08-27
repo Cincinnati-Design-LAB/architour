@@ -10,7 +10,7 @@ location:
   lat: 39.109723
   lng: -84.51654
 address: '1310 Race St., Cincinnati, Ohio'
-draft: true
+draft: false
 completion_date: '1881'
 sections:
   - page_location: above_images

@@ -10,7 +10,7 @@ location:
   lat: 39.1049
   lng: -84.5126239
 address: '800 Vine St., Cincinnati, Ohio'
-draft: true
+draft: false
 completion_date: '1954'
 sections:
   - page_location: above_images

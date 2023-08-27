@@ -10,7 +10,7 @@ location:
   lat: 39.1071974
   lng: -84.5168543
 address: '108 West Central Parkway, Cincinnati, OH 45202'
-draft: true
+draft: false
 completion_date: '2010'
 sections:
   - page_location: below_images

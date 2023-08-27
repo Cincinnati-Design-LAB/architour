@@ -8,7 +8,7 @@ location:
   lat: 39.099397
   lng: -84.514482
 address: '105 W. Fourth St., Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1927'
 sections:
   - page_location: below_images

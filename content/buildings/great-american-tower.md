@@ -9,7 +9,7 @@ location:
   lat: 39.10035
   lng: -84.50735
 address: '301 E. Fourth St., Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '2011'
 sections:
   - page_location: above_images

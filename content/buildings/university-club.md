@@ -7,7 +7,7 @@ location:
   lat: 39.1008
   lng: -84.5058558
 address: '401 E. Fourth St., Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1880'
 sections:
   - page_location: above_map

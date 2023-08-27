@@ -10,7 +10,7 @@ location:
   lat: 39.0997556
   lng: -84.512878
 address: '1 W. Fourth St., Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1913'
 sections:
   - page_location: above_images

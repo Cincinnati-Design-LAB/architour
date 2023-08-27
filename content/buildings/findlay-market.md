@@ -8,7 +8,7 @@ location:
   lat: 39.1152
   lng: -84.5197
 address: '1802 Elm Street, Cincinnati, Ohio'
-draft: true
+draft: false
 completion_date: '1855'
 sections:
   - page_location: above_images

@@ -8,7 +8,7 @@ location:
   lat: 39.1009303
   lng: -84.5124668
 address: '21 E. Fifth St., Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1981'
 sections:
   - page_location: below_images

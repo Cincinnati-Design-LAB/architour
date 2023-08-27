@@ -7,7 +7,7 @@ location:
   lat: 39.0992802
   lng: -84.5103567
 address: '312 Walnut St., Cincinnati, Ohio'
-draft: true
+draft: false
 completion_date: '1989'
 sections:
   - page_location: below_images

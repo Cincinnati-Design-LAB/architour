@@ -8,7 +8,7 @@ location:
   lat: 39.1154
   lng: -84.5184
 address: '1801 Race Street, Cincinnati, Ohio 45202'
-draft: true
+draft: false
 completion_date: '1855'
 sections:
   - page_location: above_images

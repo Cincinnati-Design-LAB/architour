@@ -7,7 +7,7 @@ location:
   lat: 39.101391
   lng: -84.504703
 address: '500 E. Fourth St., Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1820'
 sections:
   - page_location: above_images

@@ -11,7 +11,7 @@ location:
 address: |-
   1 W. Liberty
   Cincinnati, OH
-draft: true
+draft: false
 completion_date: 'December 18, 1859 (dedication)'
 sections:
   - page_location: above_images
