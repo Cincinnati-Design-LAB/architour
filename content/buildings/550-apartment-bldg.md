@@ -9,7 +9,7 @@ location:
 address: '550 East 4th Street, Cincinnati, OH  45202'
 static_map: buildings/550-apartment-bldg/static-map_lbyjfm
 static_map_cache: '{"lat":39.1018975,"lng":-84.5041236}'
-draft: true
+draft: false
 completion_date: '1970'
 sections:
   - page_location: above_map

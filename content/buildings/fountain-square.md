@@ -8,7 +8,7 @@ location:
   lat: 39.10135
   lng: -84.5125
 address: 'Fifth & Vine St., Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1971'
 sections:
   - page_location: below_images

@@ -7,7 +7,7 @@ location:
   lat: 39.10155
   lng: -84.5117254
 address: '511 Walnut, Cincinnati, Ohio'
-draft: true
+draft: false
 completion_date: '1970'
 sections:
   - page_location: above_images

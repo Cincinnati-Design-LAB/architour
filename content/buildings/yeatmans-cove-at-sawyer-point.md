@@ -12,7 +12,7 @@ location:
   lat: 39.101236
   lng: -84.498075
 address: '705 E. Pete Rose Way, Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1977'
 sections:
   - page_location: above_images

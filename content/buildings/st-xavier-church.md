@@ -8,7 +8,7 @@ location:
   lat: 39.103605
   lng: -84.508691
 address: '607 Sycamore St., Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1860'
 sections:
   - page_location: above_images

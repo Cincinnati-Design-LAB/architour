@@ -7,7 +7,7 @@ location:
   lat: 39.103518
   lng: -84.51955909999998
 address: '325 W. 8th St., Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1845'
 sections:
   - page_location: above_images

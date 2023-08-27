@@ -10,7 +10,7 @@ location:
 address: '716 Main St., Cincinnati, OH  45202'
 static_map: buildings/dennison-hotel-g-b-schulte-sons-company/static-map_fjnzp0
 static_map_cache: '{"lat":39.104556,"lng":-84.510338}'
-draft: true
+draft: false
 completion_date: '1892'
 sections:
   - page_location: above_images

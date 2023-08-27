@@ -7,7 +7,7 @@ location:
   lat: 39.1081279999999
   lng: -84.518373
 address: '1209 Elm Street, Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1904'
 sections:
   - page_location: above_map

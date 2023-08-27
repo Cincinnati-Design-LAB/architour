@@ -9,7 +9,7 @@ location:
 address: '139 E. Fourth St., Cincinnati, Ohio'
 static_map: buildings/cg-and-e/static-map_lsbyrb
 static_map_cache: '{"lat":39.1001387,"lng":-84.5096868}'
-draft: true
+draft: false
 completion_date: '1930'
 sections:
   - page_location: above_images

@@ -8,7 +8,7 @@ location:
   lat: 39.1102151
   lng: -84.5192114
 address: '210 W. 14th St., Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1870'
 sections:
   - page_location: above_map

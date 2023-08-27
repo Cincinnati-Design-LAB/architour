@@ -7,7 +7,7 @@ location:
   lat: 39.1007582
   lng: -84.5100822
 address: '150 E. Fourth St., Cincinnati, Ohio'
-draft: true
+draft: false
 completion_date: '1972'
 sections:
   - page_location: above_map

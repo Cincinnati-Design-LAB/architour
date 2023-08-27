@@ -7,7 +7,7 @@ location:
   lat: 39.1069725
   lng: -84.5105573
 address: '1000 Main St., Cincinnati, Ohio'
-draft: true
+draft: false
 completion_date: '1919'
 sections:
   - page_location: above_images

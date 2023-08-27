@@ -14,7 +14,7 @@ location:
 address: |-
   501 Greenup St.
   Covington, KY
-draft: true
+draft: false
 completion_date: '1867'
 sections:
   - page_location: above_map

@@ -7,7 +7,7 @@ location:
   lat: 39.111354
   lng: -84.51752
 address: '1429 Race St., Cincinnati, Ohio 45202'
-draft: true
+draft: false
 completion_date: '1850'
 sections:
   - page_location: above_images

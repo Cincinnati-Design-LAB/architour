@@ -12,7 +12,7 @@ location:
 address: '209 W. Seventh St., Cincinnati, OH  45202'
 static_map: buildings/cincinnati-and-suburban-telephone-company-building/static-map_dyngwp
 static_map_cache: '{"lat":39.103067,"lng":-84.517388}'
-draft: true
+draft: false
 completion_date: '1931'
 sections:
   - page_location: above_images

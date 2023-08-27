@@ -11,7 +11,7 @@ location:
 address: |-
   202 W. Elder St.
   Cincinnati, OH
-draft: true
+draft: false
 completion_date: Around 1900
 sections:
   - page_location: above_images

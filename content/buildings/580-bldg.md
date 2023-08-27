@@ -9,7 +9,7 @@ location:
 address: '580 Walnut Street, Cincinnati, Ohio 45202'
 static_map: buildings/580-bldg/static-map_z8pmuq
 static_map_cache: '{"lat":39.1024844,"lng":-84.5108078}'
-draft: true
+draft: false
 completion_date: '1972'
 sections:
   - page_location: above_images

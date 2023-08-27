@@ -11,7 +11,7 @@ location:
 address: |-
   1604 Sycamore St.
   Cincinnati, OH  45202
-draft: true
+draft: false
 completion_date: '1880'
 sections:
   - page_location: above_images

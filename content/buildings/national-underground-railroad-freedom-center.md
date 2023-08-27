@@ -10,7 +10,7 @@ location:
   lat: 39.0978
   lng: -84.5112311
 address: '50 E. Freedom Way, Cincinnati, Ohio 45202'
-draft: true
+draft: false
 completion_date: '2004'
 sections:
   - page_location: below_images

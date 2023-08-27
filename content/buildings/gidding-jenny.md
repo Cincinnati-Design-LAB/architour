@@ -7,7 +7,7 @@ location:
   lat: 39.100002
   lng: -84.51338
 address: '18 W. Fourth St., Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1908'
 sections:
   - page_location: above_images

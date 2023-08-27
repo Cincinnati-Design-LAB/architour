@@ -11,7 +11,7 @@ location:
 address: |-
   123 E. Liberty St.
   Cincinnati, OH
-draft: true
+draft: false
 completion_date: '1912'
 sections:
   - page_location: above_images

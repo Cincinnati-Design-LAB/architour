@@ -8,7 +8,7 @@ location:
   lat: 39.103
   lng: -84.5056
 address: '2 Procter & Gamble Plaza, Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1985'
 sections:
   - page_location: above_images

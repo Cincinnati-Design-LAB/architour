@@ -8,7 +8,7 @@ location:
   lat: 39.104196
   lng: -84.514629
 address: '19 Garfield Place, Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1923'
 sections:
   - page_location: above_images

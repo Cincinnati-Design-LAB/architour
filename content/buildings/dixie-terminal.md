@@ -8,7 +8,7 @@ location:
   lat: 39.1
   lng: -84.5114
 address: '41-53 E. Fourth St., Cincinnati, Ohio'
-draft: true
+draft: false
 completion_date: '1913'
 sections:
   - page_location: above_images

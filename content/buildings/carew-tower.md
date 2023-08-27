@@ -10,7 +10,7 @@ location:
 address: '441 Vine St., Cincinnati, OH  45202'
 static_map: buildings/carew-tower/static-map_fam7io
 static_map_cache: '{"lat":39.100836,"lng":-84.513238}'
-draft: true
+draft: false
 completion_date: '1930'
 sections:
   - page_location: above_images

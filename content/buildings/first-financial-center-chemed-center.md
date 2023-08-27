@@ -8,7 +8,7 @@ location:
   lat: 39.1016183
   lng: -84.5083716
 address: '255 E.Fifth Street, Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1991'
 sections:
   - page_location: above_images

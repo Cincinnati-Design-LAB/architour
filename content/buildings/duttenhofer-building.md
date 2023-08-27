@@ -7,7 +7,7 @@ location:
   lat: 39.103027
   lng: -84.508736
 address: '299 E. Sixth St., Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1916'
 sections:
   - page_location: above_images

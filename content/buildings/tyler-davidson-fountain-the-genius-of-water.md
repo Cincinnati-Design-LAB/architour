@@ -12,7 +12,7 @@ location:
   lat: 39.10155
   lng: -84.5124
 address: 'Fountain Square, Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1871'
 sections:
   - page_location: above_images

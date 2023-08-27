@@ -12,7 +12,7 @@ location:
 address: '36 E.Fourth St., Cincinnati, Ohio'
 static_map: buildings/bartlett-bldg-union-savings-and-trust-co/static-map_mv7jsx
 static_map_cache: '{"lat":39.1002853,"lng":-84.5114735}'
-draft: true
+draft: false
 completion_date: '1901'
 sections:
   - page_location: above_images

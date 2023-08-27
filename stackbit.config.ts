@@ -26,26 +26,29 @@ const gitContentSource = new GitContentSource({
   rootPath: __dirname,
   contentDirs: ['content/buildings', 'content/data', 'content/tours'],
   models,
-  // assetsConfig: {
-  //   referenceType: 'static',
-  //   staticDir: 'public',
-  //   uploadDir: 'uploads',
-  //   publicPath: '/',
-  // },
+  assetsConfig: {
+    referenceType: 'static',
+    staticDir: 'public',
+    uploadDir: 'uploads',
+    publicPath: '/',
+  },
 });
 
 export default defineStackbitConfig({
   stackbitVersion: '~0.6.0',
   ssgName: 'custom',
+  nodeVersion: '18',
   contentSources: [gitContentSource],
   onDocumentCreate,
-  // experimental: {
-  //   ssg: {
-  //     name: 'astro',
-  //     logPatterns: { up: ['Server running at'] },
-  //     passthrough: ['/vite-hmr/**'],
-  //   },
-  // },
+  devCommand: 'npm run dev',
+  experimental: {
+    ssg: {
+      name: 'Astro',
+      logPatterns: { up: ['is ready', 'astro'] },
+      directRoutes: { 'socket.io': 'socket.io' },
+      // passthrough: ['/vite-hmr/**'],
+    },
+  },
   assetSources: Object.values(assetSources),
   sidebarButtons: [
     {

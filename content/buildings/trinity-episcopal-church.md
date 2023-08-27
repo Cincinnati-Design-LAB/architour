@@ -11,7 +11,7 @@ location:
 address: |-
   326 Madison Ave.
   Covington, KY
-draft: true
+draft: false
 completion_date: '1857'
 sections:
   - page_location: above_images

@@ -14,7 +14,7 @@ address: |-
   Covington, KY
 static_map: buildings/bb-and-t-the-northern-bank-of-kentucky/static-map_mskz08
 static_map_cache: '{"lat":39.088495,"lng":-84.510092}'
-draft: true
+draft: false
 completion_date: '1836'
 sections:
   - page_location: above_map

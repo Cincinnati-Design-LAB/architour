@@ -10,7 +10,7 @@ location:
 address: 'Fifth & Plum Streets, Cincinnati, OH  45202'
 static_map: buildings/albee-arch/static-map_n8ovra
 static_map_cache: '{"lat":39.10073,"lng":-84.5178379}'
-draft: true
+draft: false
 completion_date: '1925'
 sections:
   - page_location: above_images

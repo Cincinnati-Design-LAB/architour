@@ -7,7 +7,7 @@ location:
   lat: 39.100135
   lng: -84.5125
 address: '2 E. Fourth St., Cincinnati, OH  45202'
-draft: true
+draft: false
 completion_date: '1903'
 sections:
   - page_location: above_images

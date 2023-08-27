@@ -13,7 +13,7 @@ address: '140 W. Ninth St., Cincinnati, OH  45202'
 static_map: >-
   buildings/crosley-square-otto-armleder-memorial-education-center/static-map_ygawei
 static_map_cache: '{"lat":39.105035,"lng":-84.517005}'
-draft: true
+draft: false
 completion_date: '1924'
 sections:
   - page_location: above_images

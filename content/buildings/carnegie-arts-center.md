@@ -13,7 +13,7 @@ address: |-
   Covington, KY
 static_map: buildings/carnegie-arts-center/static-map_den2hq
 static_map_cache: '{"lat":39.080299,"lng":-84.507025}'
-draft: true
+draft: false
 completion_date: '1904'
 sections:
   - page_location: above_images

@@ -8,7 +8,7 @@ location:
   lat: 39.1019
   lng: -84.5029
 address: '316 Pike St., Cincinnati,  OH  45202'
-draft: true
+draft: false
 completion_date: '1820'
 sections:
   - page_location: above_images

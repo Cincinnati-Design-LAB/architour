@@ -10,7 +10,7 @@ location:
 address: '221 E. Fourth St., Cincinnati, OH  45202'
 static_map: buildings/atrium-two/static-map_pevais
 static_map_cache: '{"lat":39.1001396,"lng":-84.5083772}'
-draft: true
+draft: false
 completion_date: '1985'
 sections:
   - page_location: above_map
