@@ -166,7 +166,9 @@ export function validateBuilding(options: BuildingValidatorOptions): boolean {
   if (EDITOR_MODE) return true;
   // Throw an error if there are validation errors when not in editor mode.
   if (building.validation_errors.length > 0) {
-    throw new Error(`Validation failed.\n${building.validation_errors.join('\n')}`);
+    throw new Error(
+      `Validation failed for building: ${building.title}\n${building.validation_errors.join('\n')}`,
+    );
   }
 
   return true;

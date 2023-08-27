@@ -125,7 +125,9 @@ export function validateTour(options: TourValidatorOptions): boolean {
   if (EDITOR_MODE) return true;
   // Throw an error if there are validation errors when not in editor mode.
   if (tour.validation_errors.length > 0) {
-    throw new Error(`Validation failed.\n${tour.validation_errors.join('\n')}`);
+    throw new Error(
+      `Validation failed for tour: ${tour.title}\n${tour.validation_errors.join('\n')}`,
+    );
   }
 
   return true;
