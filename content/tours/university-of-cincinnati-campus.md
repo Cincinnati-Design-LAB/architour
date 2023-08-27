@@ -1,7 +1,7 @@
 ---
 type: Tour
 title: University of Cincinnati Campus
-draft: true
+draft: false
 description: >-
   Lorem dolore sunt veniam deserunt minim duis id sit proident ea mollit velit
   irure.
