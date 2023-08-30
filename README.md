@@ -34,3 +34,5 @@ Notes to add:
   - Make annotations and typing consistent
   - Clean up interactions between links and buttons
 - Cloudinary folder gets automatically created when creating new tour or building
+- Environment variables (replace the `.env-sample` file)
+  - Noting that CLOUDINARY_URL is also used by the Cloudinary API even though we don't specifically configure it
