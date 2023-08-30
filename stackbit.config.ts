@@ -40,7 +40,7 @@ export default defineStackbitConfig({
   nodeVersion: '18',
   contentSources: [gitContentSource],
   onDocumentCreate,
-  devCommand: 'npm run dev',
+  devCommand: 'lsof -i :3000 && yarn dev',
   experimental: {
     ssg: {
       name: 'Astro',
