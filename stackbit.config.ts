@@ -40,7 +40,7 @@ export default defineStackbitConfig({
   nodeVersion: '18',
   contentSources: [gitContentSource],
   onDocumentCreate,
-  devCommand: 'npm run stackbit-cloud:dev',
+  devCommand: 'yarn npm-run-all -p content:watch "astro:dev -- --port {PORT}"',
   experimental: {
     ssg: {
       name: 'Astro',
