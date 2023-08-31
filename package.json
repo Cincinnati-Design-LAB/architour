@@ -14,7 +14,9 @@
     "start": "astro dev",
     "build": "npm-run-all -s content:generate-cache check astro:build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "stackbit-cloud:dev": "npm-run-all -p content:watch stackbit-cloud:astro:dev",
+    "stackbit-cloud:astro:dev": "./node_modules/.bin/astro dev --port {PORT}"
   },
   "dependencies": {
     "@astrojs/tailwind": "^3.0.0",
