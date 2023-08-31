@@ -40,7 +40,8 @@ export default defineStackbitConfig({
   nodeVersion: '18',
   contentSources: [gitContentSource],
   onDocumentCreate,
-  devCommand: 'npm run stackbit-cloud:dev',
+  // devCommand: 'npm run stackbit-cloud:dev',
+  devCommand: './node_modules/.bin/astro dev --port {PORT}',
   experimental: {
     ssg: {
       name: 'Astro',
