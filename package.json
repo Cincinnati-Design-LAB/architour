@@ -16,7 +16,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "stackbit-cloud:dev": "npm-run-all -p content:watch stackbit-cloud:astro:dev",
-    "stackbit-cloud:astro:dev": "./node_modules/.bin/astro dev --port {PORT}"
+    "stackbit-cloud:astro:dev": "./node_modules/.bin/astro dev -- --port {PORT}"
   },
   "dependencies": {
     "@astrojs/tailwind": "^3.0.0",
