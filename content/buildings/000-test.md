@@ -1,6 +1,6 @@
 ---
 type: Building
-title: 000 Test Building!!
+title: 000 Test Building
 images:
   - buildings/000-test/000-test-0_g8kzir
   - buildings/000-test/000-test-1_xziq60
