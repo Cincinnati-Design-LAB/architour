@@ -11,7 +11,7 @@ address: '609 Walnut St., Cincinnati, Ohio'
 completion_date: '1912'
 draft: false
 sections:
-  - page_location: below_images
+  - page_location: above_images
     type: BuildingAttributeSection
     attributes:
       - label: Historic Status
