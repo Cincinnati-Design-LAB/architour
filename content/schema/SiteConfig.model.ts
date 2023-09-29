@@ -1,4 +1,5 @@
 import { Footer } from '@/content/schema/SiteConfig';
+import { pageHeaderThemeOptions } from '@/content/utils/colors';
 import { iconOptions } from '@/content/utils/icons';
 import { DataModel } from '@stackbit/sdk';
 import { ObjectModel } from '@stackbit/types';
@@ -84,7 +85,13 @@ const BuildingsConfig: ObjectModel = {
       controlType: 'thumbnails',
       required: true,
     },
-    { name: 'page_header_theme', type: 'enum', options: ['primary', 'secondary'], required: true },
+    {
+      name: 'page_header_theme',
+      type: 'enum',
+      controlType: 'palette',
+      options: pageHeaderThemeOptions,
+      required: true,
+    },
     { name: 'nav_label', type: 'string', required: true },
   ],
 };
@@ -103,7 +110,13 @@ const ToursConfig: ObjectModel = {
       controlType: 'thumbnails',
       required: true,
     },
-    { name: 'page_header_theme', type: 'enum', options: ['primary', 'secondary'], required: true },
+    {
+      name: 'page_header_theme',
+      type: 'enum',
+      controlType: 'palette',
+      options: pageHeaderThemeOptions,
+      required: true,
+    },
     { name: 'nav_label', type: 'string', required: true },
   ],
 };

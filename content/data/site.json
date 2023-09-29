@@ -1,85 +1,89 @@
 {
-  "type": "SiteConfig",
-  "header": {
-    "type": "Header",
-    "site_link_label": "Back to Site",
-    "nav_links": [
-      {
-        "type": "HeaderLink",
-        "label": "Building List",
-        "href": "/buildings",
-        "is_button": false
-      },
-      {
-        "type": "HeaderLink",
-        "label": "Walking Tours",
-        "href": "/tours",
-        "is_button": false
-      },
-      {
-        "type": "HeaderLink",
-        "label": "Donate",
-        "href": "https://www.designlearnandbuild.org/donate",
-        "is_button": true
-      }
-    ]
-  },
-  "footer": {
-    "type": "Footer",
-    "address": ["659 Van Meter Street, Suite 540", "Cincinnati, Ohio 45202", "(513) 421-4469"],
-    "contact_links": [
-      {
-        "type": "FooterContact",
-        "label": "Executive Director",
-        "email": "clubbers@architecturecincy.org",
-        "name": "Christen M. Lubbers"
-      },
-      {
-        "type": "FooterContact",
-        "label": "Administrative Assistant",
-        "email": "Admin@architecturecincy.org"
-      }
-    ],
-    "nav_links": [
-      {
-        "type": "FooterLink",
-        "label": "About",
-        "href": "https://www.designlearnandbuild.org/about-us-1"
-      },
-      {
-        "type": "FooterLink",
-        "label": "Student Education",
-        "href": "https://www.designlearnandbuild.org/design-lab"
-      },
-      {
-        "type": "FooterLink",
-        "label": "Programs",
-        "href": "https://www.designlearnandbuild.org/programs-1"
-      },
-      {
-        "type": "FooterLink",
-        "label": "How To Get Involved",
-        "href": "https://www.designlearnandbuild.org/volunteer"
-      },
-      {
-        "type": "FooterLink",
-        "label": "Insights",
-        "href": "https://www.designlearnandbuild.org/blog-4-1"
-      }
-    ]
-  },
-  "buildings": {
-    "type": "BuildingsConfig",
-    "page_label": "Cincinnati Buildings",
-    "page_icon": "building",
-    "nav_label": "Buildings List",
-    "page_header_theme": "secondary"
-  },
-  "tours": {
-    "type": "ToursConfig",
-    "page_label": "Walking Tours",
-    "page_icon": "eye",
-    "nav_label": "Tours List",
-    "page_header_theme": "primary"
-  }
+    "type": "SiteConfig",
+    "header": {
+        "type": "Header",
+        "site_link_label": "Back to Site",
+        "nav_links": [
+            {
+                "type": "HeaderLink",
+                "label": "Building List",
+                "href": "/buildings",
+                "is_button": false
+            },
+            {
+                "type": "HeaderLink",
+                "label": "Walking Tours",
+                "href": "/tours",
+                "is_button": false
+            },
+            {
+                "type": "HeaderLink",
+                "label": "Donate",
+                "href": "https://www.designlearnandbuild.org/donate",
+                "is_button": true
+            }
+        ]
+    },
+    "footer": {
+        "type": "Footer",
+        "address": [
+            "659 Van Meter Street, Suite 540",
+            "Cincinnati, Ohio 45202",
+            "(513) 421-4469"
+        ],
+        "contact_links": [
+            {
+                "type": "FooterContact",
+                "label": "Executive Director",
+                "email": "clubbers@architecturecincy.org",
+                "name": "Christen M. Lubbers"
+            },
+            {
+                "type": "FooterContact",
+                "label": "Administrative Assistant",
+                "email": "Admin@architecturecincy.org"
+            }
+        ],
+        "nav_links": [
+            {
+                "type": "FooterLink",
+                "label": "About",
+                "href": "https://www.designlearnandbuild.org/about-us-1"
+            },
+            {
+                "type": "FooterLink",
+                "label": "Student Education",
+                "href": "https://www.designlearnandbuild.org/design-lab"
+            },
+            {
+                "type": "FooterLink",
+                "label": "Programs",
+                "href": "https://www.designlearnandbuild.org/programs-1"
+            },
+            {
+                "type": "FooterLink",
+                "label": "How To Get Involved",
+                "href": "https://www.designlearnandbuild.org/volunteer"
+            },
+            {
+                "type": "FooterLink",
+                "label": "Insights",
+                "href": "https://www.designlearnandbuild.org/blog-4-1"
+            }
+        ]
+    },
+    "buildings": {
+        "type": "BuildingsConfig",
+        "page_label": "Cincinnati Buildings",
+        "page_icon": "building",
+        "nav_label": "Buildings List",
+        "page_header_theme": "secondary"
+    },
+    "tours": {
+        "type": "ToursConfig",
+        "page_label": "Walking Tours",
+        "page_icon": "eye",
+        "nav_label": "Tours List",
+        "page_header_theme": "secondary"
+    }
 }
