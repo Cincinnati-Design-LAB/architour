@@ -1,3 +1,5 @@
+import { FieldEnumOptionThumbnails } from '@stackbit/types';
+
 export const iconNames = [
   'alert',
   'arrow-left',
@@ -12,5 +14,11 @@ export const iconNames = [
   'link-external',
   'menu',
 ] as const;
+
+export const iconOptions: FieldEnumOptionThumbnails[] = iconNames.map((name) => ({
+  value: name,
+  label: name,
+  thumbnail: `.stackbit/thumbnails/icon/${name}.png`,
+}));
 
 export type IconName = (typeof iconNames)[number];

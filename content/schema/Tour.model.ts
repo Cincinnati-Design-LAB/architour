@@ -1,3 +1,4 @@
+import { iconOptions } from '@/content/utils/icons';
 import type { PageModel } from '@stackbit/types';
 
 export const Tour: PageModel = {
@@ -30,8 +31,9 @@ export const Tour: PageModel = {
     {
       name: 'icon',
       type: 'enum',
-      description: 'A supported icon name, which appears on the tour card.',
-      options: ['arrow-left', 'calendar', 'eye', 'building', 'clock'],
+      description: 'Icons appear on the tour card.',
+      options: iconOptions,
+      controlType: 'thumbnails',
     },
     {
       name: 'description',
