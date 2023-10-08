@@ -1016,17 +1016,17 @@
   resolved "https://registry.npmjs.org/@stackbit/artisanal-names/-/artisanal-names-1.0.1.tgz"
   integrity sha512-d4h70dAL5RR6HC8tOKRdBHUx0EEpZiSjmTlLUB4V2lDddt83B9df7yWuk1sgrUX10vrWGlkC3Phv4B6W9Qk/5g==
 
-"@stackbit/cms-core@0.8.9":
-  version "0.8.9"
-  resolved "https://registry.yarnpkg.com/@stackbit/cms-core/-/cms-core-0.8.9.tgz#b13cd08e4c35b05427677d6e39273478c024ce36"
-  integrity sha512-cazPMuXd487afUOhU2tPFBtSgpKKnIF6s7k4zyS0MaUfIARLEF8XRG2vX96uiSv64CsKd/jxzthhQnm35c53EQ==
+"@stackbit/cms-core@0.8.13-develop.1":
+  version "0.8.13-develop.1"
+  resolved "https://registry.yarnpkg.com/@stackbit/cms-core/-/cms-core-0.8.13-develop.1.tgz#d33bbc25995c835e88ca7049d6bf043adc45294e"
+  integrity sha512-TMea2uv1emr7zJ0hQZg6fsZXRfGF0V02I4NGQYwjxHBllZVlNdUt0iFWwzuMYrD38LKV0sk2opBXZFedbEjlRQ==
   dependencies:
     "@babel/parser" "^7.11.5"
     "@babel/traverse" "^7.11.5"
     "@iarna/toml" "^2.2.3"
-    "@stackbit/sdk" "0.7.8"
-    "@stackbit/types" "0.10.4"
-    "@stackbit/utils" "0.3.8"
+    "@stackbit/sdk" "0.7.13-develop.1"
+    "@stackbit/types" "0.10.9-develop.1"
+    "@stackbit/utils" "0.3.13-develop.1"
     chalk "^4.0.1"
     content-engine "0.0.19"
     esm "^3.2.25"
@@ -1042,16 +1042,16 @@
     slugify "^1.6.5"
     uuid "^9.0.0"
 
-"@stackbit/cms-git@^0.3.25":
-  version "0.3.25"
-  resolved "https://registry.yarnpkg.com/@stackbit/cms-git/-/cms-git-0.3.25.tgz#ae5d3ee46fdd0bd1c1956d96d7649058fb68869d"
-  integrity sha512-9XHVUn+wmlcGe7RIHKB5Gsju5Dppdz/eL81HF34u2lNdmbK2CeuGQRwLMkXO5hNzyGvlW70+JCskOsW/+iOpVw==
+"@stackbit/cms-git@^0.3.29-develop.3":
+  version "0.3.29-develop.3"
+  resolved "https://registry.yarnpkg.com/@stackbit/cms-git/-/cms-git-0.3.29-develop.3.tgz#3da8f341c573c8a6e7727433b9ba6d4706b552ae"
+  integrity sha512-dchPB5eTfkuipORmKAVbQwVrLTm4b15nOWpje5VlJ1OsiuhstBp3TXHHfxBPj1EN04mJ80i67boeqIR9U3kj7A==
   dependencies:
     "@stackbit/artisanal-names" "^1.0.1"
-    "@stackbit/cms-core" "0.8.9"
-    "@stackbit/sdk" "0.7.8"
-    "@stackbit/types" "0.10.4"
-    "@stackbit/utils" "0.3.8"
+    "@stackbit/cms-core" "0.8.13-develop.1"
+    "@stackbit/sdk" "0.7.13-develop.1"
+    "@stackbit/types" "0.10.9-develop.1"
+    "@stackbit/utils" "0.3.13-develop.1"
     axios "^0.24.0"
     fs-extra "^11.1.0"
     git-url-parse "^13.1.0"
@@ -1059,14 +1059,14 @@
     micromatch "^4.0.4"
     slugify "^1.6.5"
 
-"@stackbit/sdk@0.7.8":
-  version "0.7.8"
-  resolved "https://registry.yarnpkg.com/@stackbit/sdk/-/sdk-0.7.8.tgz#ee9843a25e9b3b81eadd4462bda96a64117b0087"
-  integrity sha512-hyUFXLydRx+wHe/jzaKU3XA8kOee51AeKqqo+sDjE3kdjp0okwabAbZYFvRF0qZc0r99eYkOraHYiCMTz+vO2A==
+"@stackbit/sdk@0.7.13-develop.1":
+  version "0.7.13-develop.1"
+  resolved "https://registry.yarnpkg.com/@stackbit/sdk/-/sdk-0.7.13-develop.1.tgz#c974d54717b907e241bd14c87ea6f1ee2d5c2a69"
+  integrity sha512-pLPhc/REhS91cxHUArpIGFOCQmEV0LKa8TMLl1p2dL00cHe45J156gJKC9YkqukySziRn8uzxDtk7Daq+smpGg==
   dependencies:
     "@octokit/rest" "^18.3.5"
-    "@stackbit/types" "0.10.4"
-    "@stackbit/utils" "0.3.8"
+    "@stackbit/types" "0.10.9-develop.1"
+    "@stackbit/utils" "0.3.13-develop.1"
     acorn "^8.2.4"
     chokidar "^3.5.3"
     esbuild "^0.14.42"
@@ -1078,17 +1078,24 @@
     moment "^2.29.1"
     semver "^7.3.5"
 
-"@stackbit/types@0.10.4", "@stackbit/types@^0.10.4":
-  version "0.10.4"
-  resolved "https://registry.yarnpkg.com/@stackbit/types/-/types-0.10.4.tgz#29185014a799a14ccbdfaa0886a87aab73dec830"
-  integrity sha512-yOtQM4qVBnDP/0BNJqjrMBcM9rQQTuYpjLZeEpMButt8txNliL9feHRyxLjuGmYyPQbfpleITUw0cdQL3lRCog==
+"@stackbit/types@0.10.9-develop.1":
+  version "0.10.9-develop.1"
+  resolved "https://registry.yarnpkg.com/@stackbit/types/-/types-0.10.9-develop.1.tgz#28812a2e997a3381ca909d86b78e8e396617f568"
+  integrity sha512-+UyUGb/GdmNEeGLPCbfkBOGMt92i/s8HRz6osKrGMvdbfK895lFnXRCrWWlZHfrjCTurXUCHW7IuzUvZAHufQQ==
   dependencies:
     content-engine "0.0.19"
 
-"@stackbit/utils@0.3.8":
-  version "0.3.8"
-  resolved "https://registry.yarnpkg.com/@stackbit/utils/-/utils-0.3.8.tgz#df317b93a6737ef42d888d0f0a0d87b6497e815f"
-  integrity sha512-it+IeBPXNhGDTPrq4PBpHbrQXQoHEWtiGPa6FlzkLS3HxTK7sACIXvNR5Yj9xePbWxXl2ZpjNzN6mJcsCDSAxA==
+"@stackbit/types@^0.10.7":
+  version "0.10.7"
+  resolved "https://registry.yarnpkg.com/@stackbit/types/-/types-0.10.7.tgz#91b005f134d86a022904966054f94c28b0ddb71a"
+  integrity sha512-lUen0qzoTEefWO9KLfIKW6dXTZg56yAfypp+JKiKOs9BAP611zIy9cadprAcopoBp9d6nJuwpCPTTrg5ctyvsw==
+  dependencies:
+    content-engine "0.0.19"
+
+"@stackbit/utils@0.3.13-develop.1":
+  version "0.3.13-develop.1"
+  resolved "https://registry.yarnpkg.com/@stackbit/utils/-/utils-0.3.13-develop.1.tgz#8c456b0776347e91a1898aaac6731e7647f882ba"
+  integrity sha512-rkuCLBtr7HxkXVH73jubkxhoCkbgFidTGXHOmDQruimHB4Y2D6V5JG89P1Ro0ZTbrzAznS4fnflM1Ma0cO8uPQ==
   dependencies:
     "@iarna/toml" "^2.2.5"
     fs-extra "^9.1.0"

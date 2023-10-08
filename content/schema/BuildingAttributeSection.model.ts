@@ -1,3 +1,4 @@
+import { getThumbnailOptions } from '@/content/utils/thumbnails';
 import type { ObjectModel } from '@stackbit/types';
 
 export const BuildingAttributeSection: ObjectModel = {
@@ -31,7 +32,11 @@ export const BuildingAttributeSection: ObjectModel = {
       type: 'enum',
       description: 'Where the section should be shown on the detail page.',
       required: true,
-      options: ['above_images', 'below_images', 'above_map', 'below_map'],
+      controlType: 'thumbnails',
+      options: getThumbnailOptions({
+        dirname: 'page-location',
+        options: ['above_images', 'below_images', 'above_map', 'below_map'],
+      }),
     },
   ],
 };

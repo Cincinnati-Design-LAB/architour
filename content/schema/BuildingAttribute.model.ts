@@ -1,3 +1,4 @@
+import { getThumbnailOptions } from '@/content/utils/thumbnails';
 import type { ObjectModel } from '@stackbit/types';
 
 export const BuildingAttribute: ObjectModel = {
@@ -21,7 +22,11 @@ export const BuildingAttribute: ObjectModel = {
       name: 'layout',
       type: 'enum',
       description: 'Layout options for the attribute',
-      options: ['half_width', 'full_width'],
+      controlType: 'thumbnails',
+      options: getThumbnailOptions({
+        dirname: 'attribute-width',
+        options: ['half_width', 'full_width'],
+      }),
     },
   ],
 };
