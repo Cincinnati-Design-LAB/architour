@@ -21,3 +21,4 @@ TODO: README notes to add ->
 - Cloudinary folder gets automatically created when creating new tour or building
 - Environment variables (replace the `.env-sample` file)
   - Noting that CLOUDINARY_URL is also used by the Cloudinary API even though we don't specifically configure it
+- Thumbnail fields -> coming from Figma and how to set up
