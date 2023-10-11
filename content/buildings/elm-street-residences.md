@@ -25,7 +25,6 @@ sections:
           Century architects who also designed Cincinnati City Hall and Music
           Hall.
 static_map: buildings/elm-street-residences/static-map_rlfpuc
-static_map_cache: '{"lat":39.1081279999999,"lng":-84.518373}'
 ---
 
 The design is reminiscent of the Chateau of Chambord in the Loire Valley on a much smaller scale. The adjacent residences at 1207, 1213 and 1215 Elm added to this distinctive row of housing in various styles.

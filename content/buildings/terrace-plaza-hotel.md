@@ -40,7 +40,6 @@ sections:
       - label: Architect
         value: Skidmore Owings & Merrill (SOM)
 static_map: buildings/terrace-plaza-hotel/static-map_nyavet
-static_map_cache: '{"lat":39.102231,"lng":-84.5141}'
 ---
 
 One of the first mixed use projects in the US, the 7-story base housed 2 department stores, and the hotel lobby was located on the 8th floor with 10 floors of hotel rooms above. The Eighth Floor lobby opened onto a landscaped terrace on the east end overlooking Fountain Square. A circular restaurant located on the top floor housed the Gourmet Room, one of the city's 5-star restaurants.

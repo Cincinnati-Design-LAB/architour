@@ -32,7 +32,6 @@ sections:
       - label: Architect
         value: Ernest Flagg
 static_map: buildings/gwynne-bldg/static-map_twce7g
-static_map_cache: '{"lat":39.1031535,"lng":-84.5097}'
 ---
 
 The building was financed by Cornelius Vanderbilt II and was named after his wife, Alice Gwynne Vanderbilt. The building was the corporate headquarters of P&G starting in 1935, and the company remained there until they built a new building in 1956 a block away.

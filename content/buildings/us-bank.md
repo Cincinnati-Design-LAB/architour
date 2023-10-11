@@ -27,5 +27,4 @@ sections:
       - label: Architect
         value: 'Abramovitz, Harris & Kingsland'
 static_map: buildings/us-bank/static-map_yylnds
-static_map_cache: '{"lat":39.101,"lng":-84.5115}'
 ---

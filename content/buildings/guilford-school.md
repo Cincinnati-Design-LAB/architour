@@ -46,7 +46,6 @@ sections:
         architect: MSA Architects
         description: Office building and fitness center
 static_map: buildings/guilford-school/static-map_fidbml
-static_map_cache: '{"lat":39.10078,"lng":-84.5050749}'
 ---
 
 Formerly the site of Fort Washington, the location also once was occupied by a boardinghouse where Stephen Foster lived from 1846-1850. The building was named after Nathan Guilford who championed the idea of supporting public schools with a property tax.

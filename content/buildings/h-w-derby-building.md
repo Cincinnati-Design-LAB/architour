@@ -29,5 +29,4 @@ sections:
           Samuel Hannaford, one of Cincinnati's most prolific 19th Century
           architects who also designed Cincinnati City Hall and Music Hall.
 static_map: buildings/h-w-derby-building/static-map_iuatbu
-static_map_cache: '{"lat":39.0994,"lng":-84.5177427}'
 ---

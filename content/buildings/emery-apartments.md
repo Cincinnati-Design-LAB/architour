@@ -35,7 +35,6 @@ sections:
         date: '2001'
         architect: GBBN
 static_map: buildings/emery-apartments/static-map_ywm81o
-static_map_cache: '{"lat":39.1077,"lng":-84.51245}'
 ---
 
 The building housed one of the oldest technical schools in the country.

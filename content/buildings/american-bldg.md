@@ -8,7 +8,6 @@ location:
   lng: -84.5132187
 address: '30 E. Central Pkwy , Cincinnati, Ohio'
 static_map: buildings/american-bldg/static-map_uj0gri
-static_map_cache: '{"lat":39.1076293,"lng":-84.5132187}'
 draft: true
 completion_date: '1927'
 sections:

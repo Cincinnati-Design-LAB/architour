@@ -17,7 +17,6 @@ export type RawTour = {
   building_ids?: string[];
   // Group: Map
   static_map?: string;
-  static_map_cache?: string;
   // Group: Settings
   draft?: boolean;
 };

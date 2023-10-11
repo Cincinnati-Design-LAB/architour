@@ -1,3 +1,5 @@
+import { generateStaticMap } from '@/content/actions/generate-static-map';
+import { iconOptions } from '@/content/utils/icons';
 import type { PageModel } from '@stackbit/types';
 
 export const Tour: PageModel = {
@@ -30,8 +32,9 @@ export const Tour: PageModel = {
     {
       name: 'icon',
       type: 'enum',
-      description: 'A supported icon name, which appears on the tour card.',
-      options: ['arrow-left', 'calendar', 'eye', 'building', 'clock'],
+      description: 'Icons appear on the tour card.',
+      options: iconOptions,
+      controlType: 'thumbnails',
     },
     {
       name: 'description',
@@ -40,7 +43,7 @@ export const Tour: PageModel = {
     },
     // --- Group: Buildings --- //
     {
-      name: 'buildingIds',
+      name: 'building_ids',
       label: 'Buildings',
       type: 'list',
       items: { type: 'reference', models: ['Building'] },
@@ -50,19 +53,12 @@ export const Tour: PageModel = {
     {
       name: 'static_map',
       type: 'string',
-      // TODO: Better description
-      //
-      // description:
-      //   'Cloudinary Public ID for the static map image, processed by a local script, using Mapbox.',
+      description: 'A read-only reference to the generated static map image.',
       group: 'map',
-    },
-    {
-      name: 'static_map_cache',
-      type: 'string',
-      description:
-        'A cache key used to know when to update the static map image. Cannot be edited.',
       readOnly: true,
-      group: 'map',
+      actions: [
+        { name: 'generateStaticMap', label: 'Generate Static Map', run: generateStaticMap },
+      ],
     },
     // --- Group: Settings --- //
     {

@@ -9,7 +9,6 @@ location:
   lng: -84.5189644
 address: '430 Central Ave., Cincinnati, OH  45202'
 static_map: buildings/cincinnati-fire-division-headquarters/static-map_vj69hi
-static_map_cache: '{"lat":39.1000118,"lng":-84.5189644}'
 draft: false
 completion_date: '1965'
 sections:

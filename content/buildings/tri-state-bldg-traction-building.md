@@ -36,5 +36,4 @@ sections:
           Rookery Building  in Chicago, the Flatiron Building in New York City,
           and Union Station in Washington, DC.
 static_map: buildings/tri-state-bldg-traction-building/static-map_etyapk
-static_map_cache: '{"lat":39.101048,"lng":-84.511048}'
 ---

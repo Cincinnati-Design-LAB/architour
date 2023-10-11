@@ -30,5 +30,4 @@ sections:
         date: '2012'
         architect: BHDP Architecture & Human Nature
 static_map: buildings/washington-park-nw/static-map_srnbxt
-static_map_cache: '{"lat":39.11,"lng":-84.518365}'
 ---

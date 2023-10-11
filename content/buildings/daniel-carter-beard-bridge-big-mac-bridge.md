@@ -12,7 +12,6 @@ location:
   lat: 39.102343
   lng: -84.498246
 static_map: buildings/daniel-carter-beard-bridge-big-mac-bridge/static-map_k16ms7
-static_map_cache: '{"lat":39.102343,"lng":-84.498246}'
 draft: true
 completion_date: '1976'
 sections:

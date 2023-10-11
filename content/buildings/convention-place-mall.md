@@ -8,7 +8,6 @@ location:
   lng: -84.5163384
 address: '435 Elm St., Cincinnati, OH  45202'
 static_map: buildings/convention-place-mall/static-map_keblch
-static_map_cache: '{"lat":39.1002341,"lng":-84.5163384}'
 draft: true
 completion_date: '1985'
 sections:

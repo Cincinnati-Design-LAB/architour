@@ -37,7 +37,6 @@ sections:
         date: '2000'
         architect: GBBN
 static_map: buildings/hamilton-county-courthouse/static-map_nafcmq
-static_map_cache: '{"lat":39.1069725,"lng":-84.5105573}'
 ---
 
 The courthouse represented a return to classicism. It was designed to represent the dignity of the legal system with its powerful engaged colonnade.

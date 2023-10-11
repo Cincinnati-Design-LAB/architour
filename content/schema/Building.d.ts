@@ -29,7 +29,6 @@ export type RawBuilding = {
   address?: string;
   location?: RawLocation;
   static_map?: string;
-  static_map_cache?: string;
   // Group: Settings
   draft?: boolean;
 };

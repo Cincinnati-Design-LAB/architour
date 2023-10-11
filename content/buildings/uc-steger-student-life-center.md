@@ -35,7 +35,6 @@ sections:
       - label: Architect
         value: Moore Ruble Yudel
 static_map: buildings/uc-steger-student-life-center/static-map_cyg6py
-static_map_cache: '{"lat":39.132216,"lng":-84.516419}'
 ---
 
 The 40-foot wide building wraps around the Engineering College creating the north edge of the new Main Steet leading to the center of the campus.

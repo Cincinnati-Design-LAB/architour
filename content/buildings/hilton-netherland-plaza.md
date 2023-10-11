@@ -58,7 +58,6 @@ sections:
           The renovation restorted the hotel to its original glory making it one
           of Cincinnati's most prized icons.
 static_map: buildings/hilton-netherland-plaza/static-map_z4y23d
-static_map_cache: '{"lat":39.1008434,"lng":-84.5141833}'
 ---
 
 The public areas of the hotel are a series of complex cascading spaces that are richly decorated in the French Art Deco style. The former lobby now known as the Palm Court is the centerpiece of the hotel, and its Brazilian rosewood paneling and decorative metalwork create an elegant atmosphere that was once perceived as fancifal and modern.

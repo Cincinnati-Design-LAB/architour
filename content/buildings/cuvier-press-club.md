@@ -8,7 +8,6 @@ location:
   lng: -84.51458
 address: '22 Garfield Place, Cincinnati, OH  45202'
 static_map: buildings/cuvier-press-club/static-map_uj8bqa
-static_map_cache: '{"lat":39.104581,"lng":-84.51458}'
 draft: false
 completion_date: '1861'
 sections:

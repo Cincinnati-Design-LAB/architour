@@ -8,7 +8,6 @@ location:
   lng: -84.5093323
 address: '121 E. Freedom Way, Cincinnati, Ohio'
 static_map: buildings/current/static-map_yfhszv
-static_map_cache: '{"lat":39.098,"lng":-84.5093323}'
 draft: true
 sections:
   - page_location: above_map

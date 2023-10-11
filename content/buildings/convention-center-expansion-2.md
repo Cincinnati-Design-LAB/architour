@@ -11,7 +11,6 @@ location:
   lng: -84.5188379
 address: '350 W. Fifth St., Cincinnati, OH  45202'
 static_map: buildings/convention-center-expansion-2/static-map_t7h8x4
-static_map_cache: '{"lat":39.10061,"lng":-84.5188379}'
 draft: true
 completion_date: '2006'
 sections:

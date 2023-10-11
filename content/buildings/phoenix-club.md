@@ -32,5 +32,4 @@ sections:
         date: '1986'
         description: Restaurant & banquet facility
 static_map: buildings/phoenix-club/static-map_pi140h
-static_map_cache: '{"lat":39.105042,"lng":-84.51536599999997}'
 ---

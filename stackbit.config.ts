@@ -40,13 +40,13 @@ export default defineStackbitConfig({
   nodeVersion: '18',
   contentSources: [gitContentSource],
   onDocumentCreate,
-  devCommand: 'npm run dev',
+  devCommand: 'yarn npm-run-all -p content:watch "astro:dev -- --port {PORT}"',
   experimental: {
     ssg: {
       name: 'Astro',
       logPatterns: { up: ['is ready', 'astro'] },
       directRoutes: { 'socket.io': 'socket.io' },
-      // passthrough: ['/vite-hmr/**'],
+      passthrough: ['/vite-hmr/**'],
     },
   },
   assetSources: Object.values(assetSources),

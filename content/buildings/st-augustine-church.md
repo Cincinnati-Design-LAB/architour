@@ -26,5 +26,4 @@ sections:
       - label: Architect
         value: David Davis
 static_map: buildings/st-augustine-church/static-map_yhvfxa
-static_map_cache: '{"lat":39.065871,"lng":-84.512049}'
 ---

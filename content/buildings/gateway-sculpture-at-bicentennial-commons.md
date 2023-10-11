@@ -50,5 +50,4 @@ sections:
       - label: Architect
         value: Garth Rockcastle & Andrew Leicester
 static_map: buildings/gateway-sculpture-at-bicentennial-commons/static-map_b7ghl5
-static_map_cache: '{"lat":39.101799,"lng":-84.498786}'
 ---

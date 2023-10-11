@@ -54,7 +54,6 @@ sections:
         date: '2001'
 static_map: >-
   buildings/newport-southgate-bridge-purple-people-bridge-l-and-n-bridge/static-map_c99kam
-static_map_cache: '{"lat":39.101132,"lng":-84.500294}'
 ---
 
 Ir is the only bridge to cross the Ohio at Cincinnati dedicated solely to pedestrian and bicycle traffic.

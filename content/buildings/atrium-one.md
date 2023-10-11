@@ -10,7 +10,6 @@ location:
   lng: -84.5088439
 address: '201 E. Fourth St., Cincinnati, Ohio  45202'
 static_map: buildings/atrium-one/static-map_nhyps0
-static_map_cache: '{"lat":39.1001257,"lng":-84.5088439}'
 draft: false
 completion_date: '1981'
 sections:

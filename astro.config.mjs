@@ -8,6 +8,7 @@ export default defineConfig({
   integrations: [tailwind()],
   vite: {
     server: {
+      hmr: { path: '/vite-hmr/' },
       watch: {
         ignored: [
           '**/node_modules/**',

@@ -28,7 +28,6 @@ sections:
       - label: Architect
         value: 'Abramovitz, Harris & Kingsland'
 static_map: buildings/westin-hotel/static-map_fznxbs
-static_map_cache: '{"lat":39.1009303,"lng":-84.5124668}'
 ---
 
 The public atrium serves as an indoor extension of Fountain Square.

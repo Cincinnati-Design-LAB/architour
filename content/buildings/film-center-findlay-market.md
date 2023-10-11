@@ -43,7 +43,6 @@ sections:
         date: '2017'
         architect: City Studios Architecture
 static_map: buildings/film-center-findlay-market/static-map_a7jivr
-static_map_cache: '{"lat":39.114632,"lng":-84.521264}'
 ---
 
 The building offers loft-style living in the Over the Rhine area that is very different from other residential offerings. The 44 units have ceiling heights ranging from 13-15 feet with large industrial sash style windows. The building will have over 10,000 s.f. of commercial space, and it is only a half-block walk away from Findlay Market.

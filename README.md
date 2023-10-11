@@ -1,19 +1,4 @@
-TODO:
-
-Pre-Launch Cleanup:
-
-- [✔️] Set up google analytics
-- [ ] Explore using Unpic rather than processing during build. (Need to fix the initial loading for images.)
-
-Stackbit Cloud Fixes:
-
-- [ ] Ensure that updating a location updates the static map in a cloud project
-- [✔️] Mapbox map doesn't load in Stackbit
-- [ ] Do an audit of fields and add better controls as needed
-  - [ ] Extend field for icon (Tour)
-  - [ ] Simplify `preview` where it is used (look for `TODO` — talk to Simon)
-
-Notes to add:
+TODO: README notes to add ->
 
 - How content is stored and retrieved
 - Tools being used
@@ -34,3 +19,7 @@ Notes to add:
   - Make annotations and typing consistent
   - Clean up interactions between links and buttons
 - Cloudinary folder gets automatically created when creating new tour or building
+- Environment variables (replace the `.env-sample` file)
+  - Noting that CLOUDINARY_URL is also used by the Cloudinary API even though we don't specifically configure it
+- Thumbnail fields -> coming from Figma and how to set up
+- How static maps are generated (custom action now)

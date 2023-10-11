@@ -15,7 +15,7 @@ const CROP_NAMES: Array<
  * The allowed names of image sizes, which are used to create URL shapes that
  * can be used in front-end components.
  */
-type SizeVariation = typeof SIZE_VARIATIONS[number];
+type SizeVariation = (typeof SIZE_VARIATIONS)[number];
 
 /**
  * Every image key has a set of sizes that can be used in front-end components.
@@ -34,7 +34,7 @@ export type CloudinaryImage<C extends CropName> = { [key in C]: ImageSizes };
  * The allowed names of crop definitions, which are used selectively to create
  * URL shapes that can be used in front-end components.
  */
-type CropName = typeof CROP_NAMES[number];
+type CropName = (typeof CROP_NAMES)[number];
 
 /**
  * Transformation definitions that are used by the
@@ -117,10 +117,10 @@ export function getTransformationDprVariations(
 export function cloudinaryImageUrls(
   publicId: string,
   cropNames: CropName[] = CROP_NAMES,
-): CloudinaryImage<typeof cropNames[number]> {
+): CloudinaryImage<(typeof cropNames)[number]> {
   if (!publicId) return null;
 
-  let output = {} as CloudinaryImage<typeof cropNames[number]>;
+  let output = {} as CloudinaryImage<(typeof cropNames)[number]>;
 
   TRANSFORMATIONS.filter((crop) => cropNames.includes(crop.name)).map((crop) => {
     output[crop.name] = Object.fromEntries(

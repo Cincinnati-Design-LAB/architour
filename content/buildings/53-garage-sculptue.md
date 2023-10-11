@@ -9,7 +9,6 @@ location:
   lng: -84.5124018
 address: '50 E Sixth St., Cincinnati, OH  45202'
 static_map: buildings/53-garage-sculptue/static-map_wtcd50
-static_map_cache: '{"lat":39.10247,"lng":-84.5124018}'
 draft: true
 completion_date: '2008'
 sections:

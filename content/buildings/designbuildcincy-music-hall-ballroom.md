@@ -29,5 +29,4 @@ sections:
       - label: Completion Date
         value: 'October 28-29, 2017'
 static_map: buildings/designbuildcincy-music-hall-ballroom/static-map_vg09aj
-static_map_cache: '{"lat":39.109116,"lng":-84.518476}'
 ---

@@ -20,5 +20,4 @@ sections:
       - label: Architect
         value: Harry Hake & Charles Kuck
 static_map: buildings/lytle-tower/static-map_x8vnfh
-static_map_cache: '{"lat":39.1010718,"lng":-84.5064478}'
 ---

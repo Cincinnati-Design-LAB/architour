@@ -8,7 +8,6 @@ location:
   lng: -84.5089
 address: '208 E. Third St., Cincinnati, Ohio'
 static_map: buildings/burkhardt-building/static-map_ra9oer
-static_map_cache: '{"lat":39.0993305,"lng":-84.5089}'
 draft: true
 completion_date: '1910'
 sections:

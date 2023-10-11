@@ -73,7 +73,6 @@ sections:
           shop) and added a coffee shop to engage the public.
 static_map: >-
   buildings/richard-and-lois-rosenthal-center-for-contemporary-art/static-map_rq8pre
-static_map_cache: '{"lat":39.1028189,"lng":-84.512118}'
 ---
 
 It is the first building in the US for the internationally renowned, Iraqi born, female architect from London. It is also the first major museum in the US to be designed by a woman.

@@ -20,5 +20,4 @@ sections:
       - label: Architect
         value: Harry Hake
 static_map: buildings/national-underwriter-company/static-map_cqxrsh
-static_map_cache: '{"lat":39.1012,"lng":-84.5050431}'
 ---

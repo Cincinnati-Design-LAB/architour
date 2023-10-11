@@ -33,5 +33,4 @@ sections:
         date: '2013'
 static_map: >-
   buildings/rhinegeist-brewery-christian-moerlein-brewing-company/static-map_dw6ae9
-static_map_cache: '{"lat":39.1168233,"lng":-84.5200045}'
 ---

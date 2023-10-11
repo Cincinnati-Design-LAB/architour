@@ -32,5 +32,4 @@ sections:
           Expansion of stadium capacity and addition of a pavilion to house a
           press box, private boxes and flexible meeting space.
 static_map: buildings/uc-nippert-stadium/static-map_sqqcyx
-static_map_cache: '{"lat":39.130857,"lng":-84.515327}'
 ---

@@ -8,7 +8,6 @@ location:
   lng: -84.513149
 address: '4 W. Fourth St., Cincinnati, OH  45202'
 static_map: buildings/bankhardts/static-map_udjbue
-static_map_cache: '{"lat":39.100023,"lng":-84.513149}'
 draft: true
 completion_date: 1880+
 sections:

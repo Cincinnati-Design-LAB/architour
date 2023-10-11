@@ -34,7 +34,6 @@ sections:
         architect: GBBN
 static_map: >-
   buildings/park-place-at-lytle-pugh-power-building-polk-building/static-map_j8uycd
-static_map_cache: '{"lat":39.1023428,"lng":-84.5034659}'
 ---
 
 The building was the largest reinforced concrete building in the world at the time it was constructed. Originally a manufacturing facility, the building is internally daylighted by a full height atrium that runs the length of the building.

@@ -63,7 +63,6 @@ sections:
           and decorative plaster installations for professional and private
           clients.
 static_map: buildings/sycamore-street-studio/static-map_y0masr
-static_map_cache: '{"lat":39.112855,"lng":-84.510802}'
 ---
 
 The 137 year old house has been substantially maintained in its original condition on the first two floors.

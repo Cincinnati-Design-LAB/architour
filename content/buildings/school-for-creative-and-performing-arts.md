@@ -30,7 +30,6 @@ sections:
       - label: Architect
         value: Moody-Nolan
 static_map: buildings/school-for-creative-and-performing-arts/static-map_yldhpd
-static_map_cache: '{"lat":39.1071974,"lng":-84.5168543}'
 ---
 
 Funded by major Cincinnati arts philanthropists, the school is the first K-12 arts school in the US funded using both public and private resources. The new school anchors the south end of the newly redeveloped Washington Park and is in close proximity to both Music Hall and Memorial Hall.

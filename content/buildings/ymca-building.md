@@ -22,5 +22,4 @@ sections:
         date: '1938'
         architect: Addition of chapel
 static_map: buildings/ymca-building/static-map_tvko8d
-static_map_cache: '{"lat":39.1069732,"lng":-84.5179949}'
 ---

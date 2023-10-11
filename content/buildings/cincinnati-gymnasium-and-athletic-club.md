@@ -9,7 +9,6 @@ location:
   lng: -84.515665
 address: '111 Shillito Place, Cincinnati, OH 45202'
 static_map: buildings/cincinnati-gymnasium-and-athletic-club/static-map_mr0qii
-static_map_cache: '{"lat":39.102686,"lng":-84.515665}'
 draft: false
 completion_date: '1902'
 sections:

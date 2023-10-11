@@ -46,7 +46,6 @@ sections:
         value: Bernard Tschumi
 static_map: >-
   buildings/uc-richard-e-lindner-athletics-center-varsity-village/static-map_xfvnvg
-static_map_cache: '{"lat":39.13082,"lng":-84.514914}'
 ---
 
 As in many new buildings on the UC campus, the designers were challenged with creating an infill building on leftover land dictating the unique form of the building. The structure is an exposed triangular concrete truss system with glass infil panels creating an iconic image on the campus.

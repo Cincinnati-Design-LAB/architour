@@ -36,7 +36,6 @@ sections:
       - label: Architect
         value: PDT Architects
 static_map: buildings/montgomery-inn-boathouse/static-map_x68kao
-static_map_cache: '{"lat":39.104158,"lng":-84.494614}'
 ---
 
 Although restaurants along the river existed on the Kentucky side, the Montgomery Inn was the first new restaurant built on the Ohio side.

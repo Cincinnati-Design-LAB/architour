@@ -18,5 +18,4 @@ sections:
       - label: Architect
         value: Raymond Loewy
 static_map: buildings/tower-place-garage/static-map_b4gxtt
-static_map_cache: '{"lat":39.09979,"lng":-84.5147841}'
 ---

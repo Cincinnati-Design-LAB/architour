@@ -8,7 +8,6 @@ location:
   lng: -84.5127
 address: 'Third & Vine St., Cincinnati, OH  45202'
 static_map: buildings/central-trust-annex/static-map_ycasgw
-static_map_cache: '{"lat":39.099,"lng":-84.5127}'
 draft: true
 completion_date: '1927'
 sections:

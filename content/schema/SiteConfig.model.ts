@@ -1,5 +1,6 @@
 import { Footer } from '@/content/schema/SiteConfig';
-import { iconNames } from '@/content/utils/icons';
+import { pageHeaderThemeOptions } from '@/content/utils/colors';
+import { iconOptions } from '@/content/utils/icons';
 import { DataModel } from '@stackbit/sdk';
 import { ObjectModel } from '@stackbit/types';
 
@@ -77,8 +78,20 @@ const BuildingsConfig: ObjectModel = {
   name: 'BuildingsConfig',
   fields: [
     { name: 'page_label', type: 'string', required: true },
-    { name: 'page_icon', type: 'enum', options: iconNames.concat(), required: true },
-    { name: 'page_header_theme', type: 'enum', options: ['primary', 'secondary'], required: true },
+    {
+      name: 'page_icon',
+      type: 'enum',
+      options: iconOptions,
+      controlType: 'thumbnails',
+      required: true,
+    },
+    {
+      name: 'page_header_theme',
+      type: 'enum',
+      controlType: 'palette',
+      options: pageHeaderThemeOptions,
+      required: true,
+    },
     { name: 'nav_label', type: 'string', required: true },
   ],
 };
@@ -90,8 +103,20 @@ const ToursConfig: ObjectModel = {
   name: 'ToursConfig',
   fields: [
     { name: 'page_label', type: 'string', required: true },
-    { name: 'page_icon', type: 'enum', options: iconNames.concat(), required: true },
-    { name: 'page_header_theme', type: 'enum', options: ['primary', 'secondary'], required: true },
+    {
+      name: 'page_icon',
+      type: 'enum',
+      options: iconOptions,
+      controlType: 'thumbnails',
+      required: true,
+    },
+    {
+      name: 'page_header_theme',
+      type: 'enum',
+      controlType: 'palette',
+      options: pageHeaderThemeOptions,
+      required: true,
+    },
     { name: 'nav_label', type: 'string', required: true },
   ],
 };

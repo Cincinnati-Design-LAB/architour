@@ -8,7 +8,6 @@ location:
   lng: -84.513121
 address: '600 Vine St., Cincinnati, OH  45202'
 static_map: buildings/center-at-600-vine/static-map_vzflxe
-static_map_cache: '{"lat":39.102639,"lng":-84.513121}'
 draft: false
 completion_date: '1984'
 sections:

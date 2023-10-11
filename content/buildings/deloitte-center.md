@@ -8,7 +8,6 @@ location:
   lng: -84.508639
 address: '250 E. Fifth St., Cincinnati, OH  45202'
 static_map: buildings/deloitte-center/static-map_ngompv
-static_map_cache: '{"lat":39.102183,"lng":-84.508639}'
 draft: false
 completion_date: '1984'
 sections:

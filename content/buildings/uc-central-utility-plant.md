@@ -44,7 +44,6 @@ sections:
         date: '2004'
         architect: Cambridge Seven Associates
 static_map: buildings/uc-central-utility-plant/static-map_zcasl2
-static_map_cache: '{"lat":39.134372,"lng":-84.509181}'
 ---
 
 The new facility was constructed to replace the facility previously located at the end of Nippert Stadium facilitating the development of the new student athletic center. The facility is centrally located between the main campus and the medical campus to support both.

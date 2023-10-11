@@ -19,5 +19,4 @@ sections:
       - label: Architect
         value: Werner & Adkins
 static_map: buildings/second-national-bank/static-map_rkpfpg
-static_map_cache: '{"lat":39.1057741,"lng":-84.5104125}'
 ---

@@ -37,7 +37,6 @@ sections:
       - label: Architect
         value: Zion & Breen
 static_map: buildings/serpentine-wall-at-yeatmans-cove/static-map_mi6ekf
-static_map_cache: '{"lat":39.099234,"lng":-84.500245}'
 ---
 
 The wall was part of the city's initial efforts to reclaim the riverfont for public use. Much of the riverfront was previously occupied by businesses that relied upon river tansportation to move their resources and goods. The serpentine wall was the first development to allow the public to come to the river's edge. The undulating form was purportedly a reference to the famous indian burial mound in nearby Adams County, Serpent Mound.

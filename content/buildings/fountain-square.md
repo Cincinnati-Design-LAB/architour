@@ -42,7 +42,6 @@ sections:
         date: 1985 / 2005
         architect: BHDP / Cooper Robertson & Partners
 static_map: buildings/fountain-square/static-map_tggpwo
-static_map_cache: '{"lat":39.10135,"lng":-84.5125}'
 ---
 
 The first block redeveloped as part of the 1964 Downtown plan, the 1971 design was based on Italian piazzas to bring the community together at all times of the day.

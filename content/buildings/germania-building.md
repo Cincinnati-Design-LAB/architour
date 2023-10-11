@@ -36,7 +36,6 @@ sections:
       - label: Architect
         value: Johann Bast
 static_map: buildings/germania-building/static-map_rsuydb
-static_map_cache: '{"lat":39.1083951,"lng":-84.5133053999999}'
 ---
 
 The first floor hall served as a home for the many German-American societies that existed in Cincinnati at the time. It became a target of anti-German sentiment as the US entered WW2. The company name was changed to the Hamilton County Mutual Fire Insurance Company of Cincinnati, and the sculpture of Germania was renamed Columbia.

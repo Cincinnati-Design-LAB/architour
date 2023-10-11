@@ -76,7 +76,6 @@ sections:
           corporate events, social gatherings, weddings, and theatrical events.
 static_map: >-
   buildings/hamilton-county-memorial-hall-the-soldiers-and-sailors-memorial-building/static-map_gtvd5o
-static_map_cache: '{"lat":39.108585,"lng":-84.518552}'
 ---
 
 The building is decorated with historic military references. The concert hall is considered acoustically perfect with excellent sight lines.

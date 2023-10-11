@@ -8,7 +8,6 @@ location:
   lng: -84.511923
 address: '100 E. Eighth St., Cincinnati, Ohio'
 static_map: buildings/archdiocese-bldg/static-map_ipx6kv
-static_map_cache: '{"lat":39.1049208,"lng":-84.511923}'
 draft: true
 completion_date: '1910'
 sections:

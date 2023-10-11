@@ -24,7 +24,6 @@ sections:
       - label: Architect
         value: Harry Hake & Partners
 static_map: buildings/federal-reserve-bank/static-map_qr1bc8
-static_map_cache: '{"lat":39.1007582,"lng":-84.5100822}'
 ---
 
 The austere building was complemented by a formal garden to the north that has only recently been opened to the public.

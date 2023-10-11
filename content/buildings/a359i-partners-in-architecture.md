@@ -15,7 +15,6 @@ address: |-
   16 E. 12th St.
   Cincinnati, OH  45202
 static_map: buildings/a359i-partners-in-architecture/static-map_t9euy5
-static_map_cache: '{"lat":39.108449,"lng":-84.514156}'
 draft: false
 completion_date: '1875'
 sections:

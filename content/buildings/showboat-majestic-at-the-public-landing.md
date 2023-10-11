@@ -37,7 +37,6 @@ sections:
       - label: Architect
         value: Tom Reynolds
 static_map: buildings/showboat-majestic-at-the-public-landing/static-map_caepgk
-static_map_cache: '{"lat":39.097022,"lng":-84.503321}'
 ---
 
 It is the oldest floating theatre in the US and was the last in operation until its closing in 2013.

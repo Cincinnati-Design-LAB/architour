@@ -11,5 +11,4 @@ address: '505 Vine St., Cincinnati, OH  45202'
 draft: true
 sections: []
 static_map: buildings/macys/static-map_knfdk0
-static_map_cache: '{"lat":39.101398,"lng":-84.513916}'
 ---

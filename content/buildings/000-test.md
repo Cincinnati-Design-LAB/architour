@@ -1,12 +1,12 @@
 ---
 type: Building
-title: '000 Test Building'
+title: 000 Test Building
 images:
   - buildings/000-test/000-test-0_g8kzir
   - buildings/000-test/000-test-1_xziq60
 location:
-  lat: 39.1030545
-  lng: -84.5120004
+  lat: 39.1018
+  lng: -84.5197
 address: '609 Walnut St., Cincinnati, Ohio'
 completion_date: '1912'
 draft: false
@@ -64,8 +64,7 @@ sections:
           Conversion of former Metropole Hotel into a contemporary boutique
           hotel and art collection
         date: '1982'
-static_map: buildings/000-test/static-map_nzhyzr
-static_map_cache: '{"lat":39.1030545,"lng":-84.5120004}'
+static_map: buildings/000-test/static-map_pizied
 ---
 
 **The original** hotel declined in popularity in the 50s and 60s and became a transient hotel. The renovation in _2012 returned_ [the hotel](https://www.21cmuseumhotels.com/cincinnati/) to [its place](/buildings/21c-museum-hotel) in the city as an integral part of the new Entertainment District.

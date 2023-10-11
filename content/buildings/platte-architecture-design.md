@@ -69,7 +69,6 @@ sections:
           and function to challenge assumptions and create meaningful
           environments."
 static_map: buildings/platte-architecture-design/static-map_hwnhgv
-static_map_cache: '{"lat":39.11516,"lng":-84.520257}'
 ---
 
 Platte was the first occupant of the building after 3CDC acquired it. The open environment with a view of Findlay Market and easy access to the market creates a unique setting for a progressive design firm. Platte has done extensive renovations trhoughout the OTR area, and being positioned at the heart of this community allows the firm to see the impact of their designs on the community.

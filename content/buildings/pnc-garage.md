@@ -24,5 +24,4 @@ sections:
         date: ''
         architect: KZF Design
 static_map: buildings/pnc-garage/static-map_jzguee
-static_map_cache: '{"lat":39.10062,"lng":-84.509168}'
 ---

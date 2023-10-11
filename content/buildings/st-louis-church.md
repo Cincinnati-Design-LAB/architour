@@ -32,5 +32,4 @@ sections:
           The church became the Archbishop's residence under Joseph Bernadin's
           tenure.
 static_map: buildings/st-louis-church/static-map_zxjlsg
-static_map_cache: '{"lat":39.1044162,"lng":-84.5124018}'
 ---

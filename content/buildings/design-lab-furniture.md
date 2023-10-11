@@ -12,7 +12,6 @@ address: |-
   1401 Elm St.
   Cincinnati, OH  45202
 static_map: buildings/design-lab-furniture/static-map_wqtn3t
-static_map_cache: '{"lat":39.110134,"lng":-84.518658}'
 draft: true
 completion_date: late 1800s
 sections:

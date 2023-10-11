@@ -27,6 +27,4 @@ building_ids:
   - >-
     content/buildings/newport-southgate-bridge-purple-people-bridge-l-and-n-bridge.md
 static_map: tours/cincinnati-riverfront/static-map_buzbsl
-static_map_cache: >-
-  [{"lat":39.103492,"lng":-84.497055},{"lat":39.104158,"lng":-84.494614},{"lat":39.101799,"lng":-84.498786},{"lat":39.102368,"lng":-84.496766},{"lat":39.098,"lng":-84.508},{"lat":39.099234,"lng":-84.500245},{"lat":39.0951207,"lng":-84.5104139},{"lat":39.096298,"lng":-84.515021},{"lat":39.095305,"lng":-84.511398},{"lat":39.0978,"lng":-84.5112311},{"lat":39.101236,"lng":-84.498075},{"lat":39.102343,"lng":-84.498246},{"lat":39.097022,"lng":-84.503321},{"lat":39.095912,"lng":-84.511192},{"lat":39.096501,"lng":-84.508746},{"lat":39.106389,"lng":-84.492764},{"lat":39.098968,"lng":-84.502241},{"lat":39.101132,"lng":-84.500294}]
 ---

@@ -33,7 +33,6 @@ sections:
       - label: Architect
         value: SOM
 static_map: buildings/first-financial-center-chemed-center/static-map_geyowu
-static_map_cache: '{"lat":39.1016183,"lng":-84.5083716}'
 ---
 
 The construction of the tower was the last building that was part of the 1964 masterplan. It marked the end of office building construction in Cincinnati until the construction of the Great American Tower began in 2009.

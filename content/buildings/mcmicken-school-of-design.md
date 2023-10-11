@@ -25,7 +25,6 @@ sections:
       - label: Architect
         value: William Walters
 static_map: buildings/mcmicken-school-of-design/static-map_gduflz
-static_map_cache: '{"lat":39.0995,"lng":-84.5089533}'
 ---
 
 Home of the offices of Salmon P. Chase, he later became Chief Justice of the US Supreme Court.

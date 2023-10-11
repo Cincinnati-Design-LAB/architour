@@ -72,7 +72,6 @@ sections:
           Theater, the Cincinnati Historical Society Library, the Duke Energy
           Children's Museum, and the Cincinnati Railroad Club.
 static_map: buildings/union-terminal/static-map_oabyzh
-static_map_cache: '{"lat":39.1098737,"lng":-84.53747369999996}'
 ---
 
 Considered one of the finest examples of Art Deco train stations in the US, Union Terminal consolidated 5 different train stations into one location serving 7 different rail lines. The complex circulation systems incorporated in the building to handle pedestrian, auto, bus, and rail traffic were a model of efficiency. The station came on line during the height of rail travel that quickly began to decline with the advent of air travel reducing the demand for rail travel.

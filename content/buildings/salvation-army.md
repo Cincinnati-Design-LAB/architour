@@ -20,5 +20,4 @@ sections:
       - label: Architect
         value: Harry Hake & Partners
 static_map: buildings/salvation-army/static-map_icxrbl
-static_map_cache: '{"lat":39.108,"lng":-84.5118055}'
 ---

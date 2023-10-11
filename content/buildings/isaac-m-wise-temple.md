@@ -38,7 +38,6 @@ sections:
       - label: Architect
         value: James K. Wilson
 static_map: buildings/isaac-m-wise-temple/static-map_vxcb1x
-static_map_cache: '{"lat":39.103717,"lng":-84.51830999999999}'
 ---
 
 The congregation was led by Rabbi Isaac Mayer Wise, the founder of Reform Judaism in North America. The Spanish influences on the design recall the Golden Age in Spain before the Inquisition, a time when Jewish culture flourished.
