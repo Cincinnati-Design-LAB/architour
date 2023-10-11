@@ -60,14 +60,6 @@ export const Tour: PageModel = {
         { name: 'generateStaticMap', label: 'Generate Static Map', run: generateStaticMap },
       ],
     },
-    {
-      name: 'static_map_cache',
-      type: 'string',
-      description:
-        'A cache key used to know when to update the static map image. Cannot be edited.',
-      readOnly: true,
-      group: 'map',
-    },
     // --- Group: Settings --- //
     {
       name: 'draft',
