@@ -64,7 +64,7 @@ sections:
           Conversion of former Metropole Hotel into a contemporary boutique
           hotel and art collection
         date: '1982'
-static_map: buildings/000-test/static-map_nzhyzr
+static_map: buildings/000-test/static-map_lhvahr
 static_map_cache: '{"lat":39.1030545,"lng":-84.5120004}'
 ---
 

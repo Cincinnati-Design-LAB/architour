@@ -1,3 +1,4 @@
+import { generateStaticMap } from '@/content/actions/generate-static-map';
 import type { PageModel } from '@stackbit/types';
 import { assetSources } from '../utils/asset-sources';
 
@@ -57,6 +58,9 @@ export const Building: PageModel = {
       type: 'string',
       readOnly: true,
       group: 'location',
+      actions: [
+        { name: 'generateStaticMap', label: 'Generate Static Map', run: generateStaticMap },
+      ],
     },
     {
       name: 'static_map_cache',
