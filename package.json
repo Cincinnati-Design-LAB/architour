@@ -8,7 +8,6 @@
     "astro:dev": "astro dev",
     "astro:preview": "astro preview",
     "cloudinary:create-transformations": "ts-node ./content/scripts/create-cloudinary-transformations.ts",
-    "content:cache-static-map-urls": "ts-node ./content/scripts/cache-static-map-urls.ts",
     "content:generate-cache": "ts-node ./content/scripts/generate-content-cache.ts",
     "content:watch": "nodemon ./content/scripts/generate-content-cache.ts",
     "dev": "npm-run-all -p content:watch astro:dev",
