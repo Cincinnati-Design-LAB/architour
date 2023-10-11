@@ -44,9 +44,9 @@ export default defineStackbitConfig({
   experimental: {
     ssg: {
       name: 'Astro',
-      logPatterns: { up: ['is ready', 'astro'] },
+      logPatterns: { up: ['clean exit - waiting for changes before restart'] },
       directRoutes: { 'socket.io': 'socket.io' },
-      // passthrough: ['/vite-hmr/**'],
+      passthrough: ['/vite-hmr/**'],
     },
   },
   assetSources: Object.values(assetSources),
