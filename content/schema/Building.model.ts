@@ -58,6 +58,7 @@ export const Building: PageModel = {
       type: 'string',
       readOnly: true,
       group: 'location',
+      description: 'A read-only reference to the generated static map image.',
       actions: [
         { name: 'generateStaticMap', label: 'Generate Static Map', run: generateStaticMap },
       ],

@@ -1,3 +1,4 @@
+import { generateStaticMap } from '@/content/actions/generate-static-map';
 import { iconOptions } from '@/content/utils/icons';
 import type { PageModel } from '@stackbit/types';
 
@@ -42,7 +43,7 @@ export const Tour: PageModel = {
     },
     // --- Group: Buildings --- //
     {
-      name: 'buildingIds',
+      name: 'building_ids',
       label: 'Buildings',
       type: 'list',
       items: { type: 'reference', models: ['Building'] },
@@ -52,11 +53,12 @@ export const Tour: PageModel = {
     {
       name: 'static_map',
       type: 'string',
-      // TODO: Better description
-      //
-      // description:
-      //   'Cloudinary Public ID for the static map image, processed by a local script, using Mapbox.',
+      description: 'A read-only reference to the generated static map image.',
       group: 'map',
+      readOnly: true,
+      actions: [
+        { name: 'generateStaticMap', label: 'Generate Static Map', run: generateStaticMap },
+      ],
     },
     {
       name: 'static_map_cache',

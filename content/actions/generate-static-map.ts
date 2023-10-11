@@ -15,6 +15,7 @@ import streamifier from 'streamifier';
 /* --- Setup --- */
 
 const IMAGE_BASENAME = 'static-map';
+const MAP_MARKER_URL = encodeURIComponent('https://architour.netlify.app/MapMarker.png');
 
 /* --- Action --- */
 
@@ -27,11 +28,10 @@ export const generateStaticMap: CustomActionField['run'] = async (options) => {
   // Delete existing static map images
   await deleteStaticMapImages(folder);
   // Generate new static map image, upload, and update document
-  const staticMapUrl = generateStaticMapUrl(document, model);
+  const staticMapUrl = generateStaticMapUrl(options);
   const image = await uploadImage(staticMapUrl, folder);
   await updateStaticMapReference(image.public_id, options);
 
-  // TODO: Do the same thing for tours
   // TODO: Remove the workflow
   // TODO: Remove cache key
   // TODO: Fix the building type
@@ -116,9 +116,14 @@ async function uploadImage(imageUrl: string, folder: string): Promise<UploadApiR
 
 /* --- Map Helpers --- */
 
-function generateStaticMapUrl(document: DocumentWithSource, model: ModelWithSource): string {
+/**
+ * Controls calling the proper function to generate the proper static map URL
+ */
+function generateStaticMapUrl(options: CustomActionOptions): string {
+  const document = getDocument(options);
+  const model = getModel(options);
   if (model.name === 'Building') return generateStaticBuildingMapUrl(document);
-  // if (model.name === 'Tour') return generateStaticTourMapUrl(document);
+  if (model.name === 'Tour') return generateStaticTourMapUrl(document, options);
   throw new Error('Invalid model');
 }
 
@@ -128,9 +133,28 @@ function generateStaticBuildingMapUrl(document: DocumentWithSource): string {
     lng: getFieldValue(document, ['location', 'lng']),
     style: process.env.PUBLIC_MAPBOX_STYLE,
     token: process.env.STATIC_MAPBOX_TOKEN,
-    markerUrl: encodeURIComponent('https://architour.netlify.app/MapMarker.png'),
+    markerUrl: MAP_MARKER_URL,
   };
   return `https://api.mapbox.com/styles/v1/${style}/static/url-${markerUrl}(${lng},${lat})/${lng},${lat},15,0/800x450@2x?access_token=${token}`;
+}
+
+function generateStaticTourMapUrl(
+  document: DocumentWithSource,
+  options: CustomActionOptions,
+): string {
+  const allBuildings = options.getDocuments().filter((d) => d.modelName === 'Building');
+  const buildingIds = getFieldValue(document, ['building_ids']).map((f) => f.refId);
+  const buildings = allBuildings.filter((b) => buildingIds.includes(b.id));
+  const markers = buildings
+    .map((building) => {
+      const lat = getFieldValue(building, ['location', 'lat']);
+      const lng = getFieldValue(building, ['location', 'lng']);
+      return `url-${MAP_MARKER_URL}(${lng},${lat})`;
+    })
+    .join(',');
+  const style = process.env.PUBLIC_MAPBOX_STYLE;
+  const token = process.env.STATIC_MAPBOX_TOKEN;
+  return `https://api.mapbox.com/styles/v1/${style}/static/${markers}/auto/800x450@2x?padding=20&access_token=${token}`;
 }
 
 /* --- Document Helpers --- */
