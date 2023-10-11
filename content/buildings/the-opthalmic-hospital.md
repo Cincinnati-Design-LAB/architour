@@ -21,5 +21,4 @@ sections:
       - label: Architect
         value: James W. McLaughlin or Elzner & Anderson
 static_map: buildings/the-opthalmic-hospital/static-map_lfpiy0
-static_map_cache: '{"lat":39.10789800000001,"lng":-84.51876600000003}'
 ---

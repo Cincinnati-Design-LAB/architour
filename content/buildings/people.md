@@ -61,7 +61,6 @@ sections:
           opportunities to accelerate the positive transformation of Greater
           Cincinnati.
 static_map: buildings/people/static-map_qdtrri
-static_map_cache: '{"lat":39.115338,"lng":-84.519982}'
 ---
 
 The building renovation was done with a local focus employing designers (City Studios), contractors (Graybach), fabricators (Riverside), and vendors (Brush Factory & Switch) from the Over-the-Rhine neighborhood. The renovations minimally impacted the existing shell of the building while creating contrasting modern elements inside the shell.

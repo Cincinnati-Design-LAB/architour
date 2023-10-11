@@ -29,5 +29,4 @@ sections:
       - label: Architect
         value: Samuel Hannaford & Sons
 static_map: buildings/the-saxony/static-map_pzy6t6
-static_map_cache: '{"lat":39.105018,"lng":-84.5159}'
 ---

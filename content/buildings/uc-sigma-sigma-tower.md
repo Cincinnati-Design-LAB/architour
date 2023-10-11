@@ -42,7 +42,6 @@ sections:
       - label: Architect
         value: Machado & Silvetti
 static_map: buildings/uc-sigma-sigma-tower/static-map_fqvqmv
-static_map_cache: '{"lat":39.133435,"lng":-84.513029}'
 ---
 
 The Sigma Sigma Commons and the Ronald F. Walker Tower were funded by the honorary fraternity Sigma Sigma. It raised $1.8 million to fund the project in a campaign that lasted only 3 months! The 3.5 acre site is a magnet for student activity and includes an amphitheater that seats 1,850 people for special performances.

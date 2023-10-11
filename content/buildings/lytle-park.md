@@ -43,7 +43,6 @@ sections:
           underneath it for an interstate highway.  The 2016 renovation was
           necessitated by maintenance on the same tunnel.
 static_map: buildings/lytle-park/static-map_cbmz9s
-static_map_cache: '{"lat":39.1012,"lng":-84.5041236}'
 ---
 
 The park is one of the oldest areas of Cincinnati. It was rebuilt in 1970 after a tunnel was constructed beneath the park for the new Interstate-71. Public opposition to the demolition of the park resulted in a 6-year campaign to get the Federal government to agree to preserve the park and permit the trench to be capped. It was the first public park constructed over an interstate in the US.

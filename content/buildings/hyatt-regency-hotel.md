@@ -26,7 +26,6 @@ sections:
       - label: Architect
         value: RTKL
 static_map: buildings/hyatt-regency-hotel/static-map_cineqv
-static_map_cache: '{"lat":39.1003446,"lng":-84.5157185}'
 ---
 
 The curved south façade of the building gives panoramic river views to more hotel rooms.

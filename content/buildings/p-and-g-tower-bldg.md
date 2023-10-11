@@ -35,7 +35,6 @@ sections:
       - label: Architect
         value: 'Kohn, Pederson & Fox'
 static_map: buildings/p-and-g-tower-bldg/static-map_ulekso
-static_map_cache: '{"lat":39.103,"lng":-84.5056}'
 ---
 
 While P&G originally desired to build the tallest building in Cincinnati, they were challenged by the City to build the best building instead. The innovative design created an anchor for the east end of the CBD as well as a symbolic gateway to the City from the east.

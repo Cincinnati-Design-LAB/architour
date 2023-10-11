@@ -43,7 +43,6 @@ sections:
       - label: Architect
         value: Fearing & Hagenauer
 static_map: buildings/theodore-m-berry-international-friendship-park/static-map_mmbrru
-static_map_cache: '{"lat":39.106389,"lng":-84.492764}'
 ---
 
 Named after Cincinnati's first African-American mayor, the park was designed to promote global understanding and unity through floral and sculptural displays from 5 different continents. Two intertwining paths allow visitors to continually cross paths to share a common experience.

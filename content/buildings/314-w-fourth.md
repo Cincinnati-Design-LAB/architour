@@ -8,7 +8,6 @@ location:
   lng: -84.518
 address: '314 W Fourth St, Cincinnati, OH  45202'
 static_map: buildings/314-w-fourth/static-map_orzlhw
-static_map_cache: '{"lat":39.0994,"lng":-84.518}'
 draft: true
 completion_date: '1883'
 sections:

@@ -47,7 +47,6 @@ sections:
           2004, the market house was expanded, and a parking lot was added that
           connected to the market.
 static_map: buildings/findlay-market-156/static-map_wjlaea
-static_map_cache: '{"lat":39.1154,"lng":-84.5184}'
 ---
 
 It is the oldest municipal market house in Ohio and was named after General James Findlay, a former mayor of the City. As one of several markets located across the city, Findlay Market became a public gathering place and the center of the community much as suburban shopping centers do today. Although the Over-the-Rhine neighborhood declined from its original glory and became a low-income community in the second half of the Twentieth Century, the popularity of the market never declined. With Over-the-Rhine's current resurgence, the market continues to be an important catalyst for new development surrounding it.

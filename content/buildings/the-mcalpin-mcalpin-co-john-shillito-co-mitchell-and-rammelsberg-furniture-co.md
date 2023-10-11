@@ -38,5 +38,4 @@ sections:
         description: residential
 static_map: >-
   buildings/the-mcalpin-mcalpin-co-john-shillito-co-mitchell-and-rammelsberg-furniture-co/static-map_bndnjp
-static_map_cache: '{"lat":39.0996,"lng":-84.5133992}'
 ---

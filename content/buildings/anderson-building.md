@@ -8,7 +8,6 @@ location:
   lng: -84.509
 address: '304 Main St., Cincinnati, Ohio'
 static_map: buildings/anderson-building/static-map_e4jrv5
-static_map_cache: '{"lat":39.09965,"lng":-84.509}'
 draft: true
 completion_date: '1893'
 sections:

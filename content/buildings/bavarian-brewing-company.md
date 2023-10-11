@@ -12,7 +12,6 @@ address: |-
   528 W. 12th St.
   Covington, KY
 static_map: buildings/bavarian-brewing-company/static-map_nydals
-static_map_cache: '{"lat":39.076335,"lng":-84.51809}'
 draft: true
 completion_date: '1906'
 sections:

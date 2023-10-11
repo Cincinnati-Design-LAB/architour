@@ -15,5 +15,4 @@ sections:
       - label: Current Owner
         value: Towne Properties
 static_map: buildings/groton-lofts/static-map_vscxmx
-static_map_cache: '{"lat":39.103668,"lng":-84.515225}'
 ---

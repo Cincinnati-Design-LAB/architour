@@ -15,7 +15,6 @@ location:
   lng: -84.519128
 static_map: >-
   buildings/aronoff-center-for-design-college-of-design-architecture-art-and-planning-daap/static-map_klz0za
-static_map_cache: '{"lat":39.133857,"lng":-84.519128}'
 draft: true
 completion_date: '1996'
 sections:

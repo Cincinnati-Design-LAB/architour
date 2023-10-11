@@ -33,5 +33,4 @@ sections:
       - label: Architect
         value: George W. Rapp
 static_map: buildings/goodall-building/static-map_yctyju
-static_map_cache: '{"lat":39.104591,"lng":-84.519797}'
 ---

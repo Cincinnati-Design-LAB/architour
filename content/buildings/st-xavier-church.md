@@ -36,7 +36,6 @@ sections:
       - title: Renovation
         date: 1882-1887
 static_map: buildings/st-xavier-church/static-map_hqo6og
-static_map_cache: '{"lat":39.103605,"lng":-84.508691}'
 ---
 
 It is one of the longest continuously operating churches in the downtown core. The church was built on the site of the city's first diocesan cathedral which was moved to Eighth & Plum in 1845.

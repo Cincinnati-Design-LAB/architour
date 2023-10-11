@@ -42,5 +42,4 @@ sections:
         architect: CR Architects
         description: Condos
 static_map: buildings/fourth-national-bank-bldg/static-map_cnlbuq
-static_map_cache: '{"lat":39.1002,"lng":-84.51201}'
 ---

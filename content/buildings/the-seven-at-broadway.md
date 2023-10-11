@@ -32,5 +32,4 @@ sections:
       - label: Architect
         value: John Senhauser Architects
 static_map: buildings/the-seven-at-broadway/static-map_nx8gkl
-static_map_cache: '{"lat":39.104595,"lng":-84.507152}'
 ---

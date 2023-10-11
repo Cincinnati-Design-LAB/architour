@@ -62,7 +62,6 @@ sections:
           The transportation terminal was closed in 1998 and is primarily used
           as a fitness center and storage space.
 static_map: buildings/dixie-terminal/static-map_dx7cic
-static_map_cache: '{"lat":39.1,"lng":-84.5114}'
 ---
 
 The building's name stems from its original function as a streetcar and bus terminus for Northern Kentucky's transit system. It once housed the Cincinnati Stock Exchange.

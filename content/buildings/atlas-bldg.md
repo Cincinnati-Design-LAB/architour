@@ -8,7 +8,6 @@ location:
   lng: -84.51135
 address: '524 Walnut St, Cincinnati, OH  45202'
 static_map: buildings/atlas-bldg/static-map_xedics
-static_map_cache: '{"lat":39.10222,"lng":-84.51135}'
 draft: true
 completion_date: '1922'
 sections:

@@ -8,7 +8,6 @@ location:
   lng: -84.5151752
 address: '100 W. Fifth St., Cincinnati, OH'
 static_map: buildings/8451dunnhumby/static-map_jh7xdg
-static_map_cache: '{"lat":39.1015296,"lng":-84.5151752}'
 draft: false
 completion_date: '2015'
 sections:

@@ -9,7 +9,6 @@ location:
   lng: -84.513822
 address: '601 Vine St., Cincinnati, OH  45202'
 static_map: buildings/cincinnatian-hotel-palace-hotel/static-map_ozgpz5
-static_map_cache: '{"lat":39.102464,"lng":-84.513822}'
 draft: false
 completion_date: '1882'
 sections:

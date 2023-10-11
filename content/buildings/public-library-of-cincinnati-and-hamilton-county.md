@@ -46,7 +46,6 @@ sections:
         architect: Architekton &  FW Pressler & Associates
         description: International
 static_map: buildings/public-library-of-cincinnati-and-hamilton-county/static-map_hnmxq2
-static_map_cache: '{"lat":39.1049,"lng":-84.5126239}'
 ---
 
 Widely recognized as Woodie Garber's finest work, the library was nationally acclaimed for its modernist design, the façade's expressiveness of its internal functions, and its honesty of material expression.

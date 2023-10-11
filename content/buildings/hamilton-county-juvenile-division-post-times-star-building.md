@@ -60,5 +60,4 @@ sections:
         description: County offices and the Juvenile Courts
 static_map: >-
   buildings/hamilton-county-juvenile-division-post-times-star-building/static-map_ahnvx4
-static_map_cache: '{"lat":39.105692,"lng":-84.507199}'
 ---

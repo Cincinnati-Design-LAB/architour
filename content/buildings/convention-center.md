@@ -10,7 +10,6 @@ location:
   lng: -84.5165202
 address: 525 Elm St.
 static_map: buildings/convention-center/static-map_mx7rw6
-static_map_cache: '{"lat":39.1009571,"lng":-84.5165202}'
 draft: false
 completion_date: '1987'
 sections:

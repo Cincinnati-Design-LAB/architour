@@ -8,7 +8,6 @@ location:
   lng: -84.511293
 address: '114 E. Eighth St., Cincinnati, OH  45202'
 static_map: buildings/citadel-building/static-map_tvv4yd
-static_map_cache: '{"lat":39.104957,"lng":-84.511293}'
 draft: false
 completion_date: '1905'
 sections:

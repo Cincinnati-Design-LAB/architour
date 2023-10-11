@@ -21,5 +21,4 @@ sections:
       - label: Architect
         value: SOM
 static_map: buildings/uc-edwards-center/static-map_t7k95w
-static_map_cache: '{"lat":39.129217,"lng":-84.512199}'
 ---

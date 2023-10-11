@@ -9,7 +9,6 @@ location:
   lng: -84.507448
 address: '318 E. Fourth St., Cincinnati, OH  45202'
 static_map: buildings/christ-episcopal-church/static-map_n3nxn1
-static_map_cache: '{"lat":39.100922,"lng":-84.507448}'
 draft: false
 completion_date: '1957'
 sections:

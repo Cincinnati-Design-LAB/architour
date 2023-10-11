@@ -14,7 +14,6 @@ location:
 address: '1205 Elm St., Cincinnati, Ohio'
 static_map: >-
   buildings/apostolic-bethlehem-temple-church-st-john-german-protestant-church/static-map_kc4si4
-static_map_cache: '{"lat":39.1079041,"lng":-84.518373}'
 draft: false
 completion_date: '1868'
 sections:

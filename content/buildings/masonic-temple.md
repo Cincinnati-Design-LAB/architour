@@ -20,5 +20,4 @@ sections:
       - label: Architect
         value: Hake & Kuck
 static_map: buildings/masonic-temple/static-map_vhwzik
-static_map_cache: '{"lat":39.1018,"lng":-84.507227}'
 ---

@@ -9,7 +9,6 @@ location:
   lng: -84.513549
 address: '617 Vine St., Cincinnati, OH  45202'
 static_map: buildings/cincinnati-enquirer-building/static-map_fterss
-static_map_cache: '{"lat":39.102952,"lng":-84.513549}'
 draft: true
 completion_date: '1926'
 sections:

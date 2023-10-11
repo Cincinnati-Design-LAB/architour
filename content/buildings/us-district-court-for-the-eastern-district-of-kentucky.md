@@ -14,5 +14,4 @@ draft: true
 sections: []
 static_map: >-
   buildings/us-district-court-for-the-eastern-district-of-kentucky/static-map_axjgvs
-static_map_cache: '{"lat":39.085531,"lng":-84.512077}'
 ---

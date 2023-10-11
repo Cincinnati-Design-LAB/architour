@@ -9,7 +9,6 @@ location:
   lng: -84.519145
 address: '1241 Elm St., Cincinnati, Ohio'
 static_map: buildings/cincinnati-music-hall/static-map_xsh8ou
-static_map_cache: '{"lat":39.109392,"lng":-84.519145}'
 draft: false
 completion_date: 1877-79
 sections:

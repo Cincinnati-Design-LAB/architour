@@ -25,5 +25,4 @@ sections:
       - label: Architect
         value: 'Rendigs, Panzer & Martin'
 static_map: buildings/ywca-bldg/static-map_z5riyx
-static_map_cache: '{"lat":39.1054131,"lng":-84.5120848}'
 ---

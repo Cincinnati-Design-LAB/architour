@@ -23,5 +23,4 @@ sections:
       - label: Architect
         value: Elzner & Anderson
 static_map: buildings/parish-house-of-christ-church/static-map_vmccfo
-static_map_cache: '{"lat":39.1009969,"lng":-84.5069479}'
 ---

@@ -39,7 +39,6 @@ sections:
           In addition to the renovations, a new chapel and baptistry were added
           along with a residential and administrative wing.
 static_map: buildings/st-peter-in-chains-cathedral/static-map_ntylcf
-static_map_cache: '{"lat":39.103518,"lng":-84.51955909999998}'
 ---
 
 It was the second permanent cathedral built in the US. As the downtown population changed in the 1930s and attendance declined, the archdiocesan functions moved to Fairview. However, cathedral renovations began in 1951, and it was rededicated in 1957 as the seat of the Cincinnati Archdiocese.

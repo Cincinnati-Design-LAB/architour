@@ -15,7 +15,6 @@ address: |-
   1140 Madison Ave.
   Covington KY
 static_map: buildings/cathedral-basilica-of-the-assumption/static-map_c7lzgw
-static_map_cache: '{"lat":39.078127,"lng":-84.50858}'
 draft: false
 completion_date: 1895-1910
 sections:

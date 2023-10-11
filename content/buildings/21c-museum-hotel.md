@@ -9,7 +9,6 @@ location:
   lng: -84.5120005
 address: '609 Walnut St., Cincinnati, Ohio'
 static_map: buildings/21c-museum-hotel/static-map_ymvf5k
-static_map_cache: '{"lat":39.1030545,"lng":-84.5120005}'
 draft: false
 completion_date: '1912'
 sections:

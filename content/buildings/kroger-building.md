@@ -29,7 +29,6 @@ sections:
         architect: GBBN
         description: International
 static_map: buildings/kroger-building/static-map_njxxft
-static_map_cache: '{"lat":39.1067291,"lng":-84.513878}'
 ---
 
 The building was the first curtainwall clad high rise in the downtown area. Originally clad in blue and white panels to blend into the sky, it was reclad in a more conventional aluminum panel when it was renovated in 1980.

@@ -35,7 +35,6 @@ sections:
         date: '1965'
         architect: Architekton
 static_map: buildings/gidding-jenny/static-map_mxvndn
-static_map_cache: '{"lat":39.100002,"lng":-84.51338}'
 ---
 
 The building once housed the Gidding-Jenny department store, a high-end retailer.

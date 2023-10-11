@@ -15,7 +15,6 @@ location:
   lng: -84.5104139
 address: ', Cincinnati, Ohio'
 static_map: buildings/covington-and-cincinnati-suspension-bridge/static-map_ppmtoo
-static_map_cache: '{"lat":39.0951207,"lng":-84.5104139}'
 draft: false
 completion_date: '1867'
 sections:

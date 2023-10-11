@@ -8,7 +8,6 @@ location:
   lng: -84.519625
 address: '311 W. Court St., Cincinnati, OH  45202'
 static_map: buildings/cincinnati-fire-museum/static-map_ic4abx
-static_map_cache: '{"lat":39.105384,"lng":-84.519625}'
 draft: true
 completion_date: '1906'
 sections:

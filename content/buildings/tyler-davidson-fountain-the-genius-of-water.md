@@ -30,7 +30,6 @@ sections:
       - label: Architect
         value: August von Kreling (sculptor)
 static_map: buildings/tyler-davidson-fountain-the-genius-of-water/static-map_dgfexo
-static_map_cache: '{"lat":39.10155,"lng":-84.5124}'
 ---
 
 Donated by local philanthropist, Henry Probasco, the fountain was a memorial to his brother-in-law, Tyler Davidson. Cast in Munich at the Royal Bavarian Foundry, it was originally located in an esplanade in the center of Fifth Street facing east toward Europe where most of Cincinnati's residents immigrated. The fountain has been relocated twice, once in 1971 with the development of Foutain Square and again in 2005 with the redevelopment of the square.

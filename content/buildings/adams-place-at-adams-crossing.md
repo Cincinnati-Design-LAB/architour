@@ -13,7 +13,6 @@ location:
   lng: -84.497055
 address: '900 Adams Crossing, Cincinnati, OH 45202'
 static_map: buildings/adams-place-at-adams-crossing/static-map_bt2z72
-static_map_cache: '{"lat":39.103492,"lng":-84.497055}'
 draft: false
 completion_date: '1993'
 sections:

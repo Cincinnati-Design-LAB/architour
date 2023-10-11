@@ -16,7 +16,6 @@ address: |-
   Cincinnati, OH
 static_map: >-
   buildings/cincinnati-shakespeare-company-otto-m-budig-theater/static-map_urcrdi
-static_map_cache: '{"lat":39.107753,"lng":-84.518113}'
 draft: false
 completion_date: '2017'
 sections:
