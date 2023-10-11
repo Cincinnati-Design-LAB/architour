@@ -5,8 +5,8 @@ images:
   - buildings/000-test/000-test-0_g8kzir
   - buildings/000-test/000-test-1_xziq60
 location:
-  lat: 39.1030545
-  lng: -84.5120004
+  lat: 39.1018
+  lng: -84.5197
 address: '609 Walnut St., Cincinnati, Ohio'
 completion_date: '1912'
 draft: false
@@ -64,7 +64,7 @@ sections:
           Conversion of former Metropole Hotel into a contemporary boutique
           hotel and art collection
         date: '1982'
-static_map: buildings/000-test/static-map_lhvahr
+static_map: buildings/000-test/static-map_pizied
 static_map_cache: '{"lat":39.1030545,"lng":-84.5120004}'
 ---
 

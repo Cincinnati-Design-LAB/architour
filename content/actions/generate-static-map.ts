@@ -7,31 +7,67 @@ import {
   UpdateOperationField,
 } from '@stackbit/types';
 import { UploadApiOptions, UploadApiResponse, v2 as cloudinary } from 'cloudinary';
+import console from 'console';
 import https from 'https';
+import path from 'path';
 import streamifier from 'streamifier';
+
+/* --- Setup --- */
+
+const IMAGE_BASENAME = 'static-map';
+
+/* --- Action --- */
 
 type CustomActionOptions = Parameters<CustomActionField['run']>[0];
 
 export const generateStaticMap: CustomActionField['run'] = async (options) => {
   const document = getDocument(options);
   const model = getModel(options);
-  const slug = getDocumentSlug(document);
-  // TODO: Delete old static map images for this building
-
+  const folder = getFolderPath(document, model);
+  // Delete existing static map images
+  await deleteStaticMapImages(folder);
+  // Generate new static map image, upload, and update document
   const staticMapUrl = generateStaticMapUrl(document, model);
-
-  const image = await uploadImage(staticMapUrl, `buildings/${slug}`);
-
+  const image = await uploadImage(staticMapUrl, folder);
   await updateStaticMapReference(image.public_id, options);
 
-  // options.contentSourceActions.updateDocument
-
-  // TODO: Store reference to Cloudinary URL in data
-  // TODO: Remove cache key
   // TODO: Do the same thing for tours
+  // TODO: Remove the workflow
+  // TODO: Remove cache key
+  // TODO: Fix the building type
 };
 
 /* --- Cloudinary Helpers --- */
+
+/**
+ * Generates a path to the appropriate building folder based on the current
+ * model.
+ */
+function getFolderPath(document: DocumentWithSource, model: ModelWithSource): string {
+  const slug = getDocumentSlug(document);
+  if (model.name === 'Building') return `buildings/${slug}`;
+  if (model.name === 'Tour') return `tours/${slug}`;
+  throw new Error('Invalid model');
+}
+
+/**
+ * Deletes all assets that start with the prefix in a Cloudinary folder
+ *
+ * @param cloudinaryDir Name of folder (prefix) in Cloudinary to find static
+ * maps to delete
+ * @returns Array of public IDs of deleted assets
+ */
+async function deleteStaticMapImages(cloudinaryDir: string): Promise<string[]> {
+  // Retrieve assets in Cloudinary folder
+  const { resources } = await cloudinary.api.resources({ type: 'upload', prefix: cloudinaryDir });
+  // Filter out assets that don't start with the prefix, and get the public IDs
+  const publicIds = resources
+    .map((r) => r.public_id)
+    .filter((r) => path.basename(r).startsWith(IMAGE_BASENAME));
+  // Delete assets
+  if (publicIds.length) await cloudinary.api.delete_resources(publicIds);
+  return publicIds;
+}
 
 /**
  * Downloads an image to buffer
@@ -68,7 +104,7 @@ async function uploadImage(imageUrl: string, folder: string): Promise<UploadApiR
 
     const uploadOptions: UploadApiOptions = {
       folder,
-      filename_override: 'static-map',
+      filename_override: IMAGE_BASENAME,
       use_filename: true,
     };
     const uploadCallback = (error, result) => (error ? reject(error) : resolve(result));
