@@ -64,7 +64,7 @@ sections:
           Conversion of former Metropole Hotel into a contemporary boutique
           hotel and art collection
         date: '1982'
-static_map: buildings/000-test/static-map_pizied
+static_map: buildings/000-test/static-map_qm0qpn
 ---
 
 **The original** hotel declined in popularity in the 50s and 60s and became a transient hotel. The renovation in _2012 returned_ [the hotel](https://www.21cmuseumhotels.com/cincinnati/) to [its place](/buildings/21c-museum-hotel) in the city as an integral part of the new Entertainment District.
