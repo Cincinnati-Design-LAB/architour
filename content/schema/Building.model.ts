@@ -54,11 +54,22 @@ export const Building: PageModel = {
       group: 'location',
     },
     {
+      name: 'location_test',
+      type: 'list',
+      items: { type: 'string' },
+      controlType: 'custom-modal-html',
+      controlFilePath: './content/controls/location-control.html',
+      label: 'Map Pin',
+      description: 'Interactive field for placing the map marker.',
+
+      group: 'location',
+    },
+    {
       name: 'static_map',
       type: 'string',
       readOnly: true,
       group: 'location',
-      description: 'A read-only reference to the generated static map image.',
+      description: 'The static map image can be generated from the context menu on this field.',
       actions: [
         { name: 'generateStaticMap', label: 'Generate Static Map', run: generateStaticMap },
       ],

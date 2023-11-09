@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Location Control</title>
+
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      .mapboxgl-ctrl.mapboxgl-ctrl-attrib {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mb-16 px-4">
+      <div class="relative">
+        <div id="location-control" class="h-96 overflow-hidden"></div>
+        <div
+          class="absolute bg-slate-300/80 px-6 py-3 text-slate-600 text-sm font-medium left-0 top-0"
+          id="click-coordinates"
+        >
+          Click on map for coords ...
+        </div>
+      </div>
+    </div>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+    <script>
+      /* --- Setup Map --- */
+
+      mapboxgl.accessToken =
+        'pk.eyJ1IjoiY2luY2lubmF0aWRlc2lnbmxhYiIsImEiOiJjbGxwNjlqMDYwMzIxM2hucjZ0bDQ5NjR3In0.XvEOQgZDEQhAhx4misLKMQ';
+
+      const mapCenter = [-84.511198, 39.1015];
+
+      const map = new mapboxgl.Map({
+        container: 'location-control',
+        style: 'mapbox://styles/cincinnatidesignlab/clelgwaws000v01t7m19em7oa',
+        center: mapCenter,
+        zoom: 13,
+      });
+
+      map.addControl(new mapboxgl.NavigationControl(), 'top-right');
+
+      const markerEl = document.createElement('div');
+      markerEl.className = 'building-markerEl';
+      markerEl.style.backgroundColor = '#3D3935';
+      markerEl.style.width = '1.5rem';
+      markerEl.style.height = '1.5rem';
+      markerEl.style.borderRadius = '50%';
+      markerEl.style.border = '.2rem solid white';
+
+      const marker = new mapboxgl.Marker(markerEl).setLngLat(mapCenter).addTo(map);
+
+      map.on('click', (event) => {
+        const el = document.getElementById('click-coordinates');
+        el.innerHTML = `Lat: ${event.lngLat.lat.toFixed(4)} | Lng: ${event.lngLat.lng.toFixed(4)}`;
+        marker.setLngLat(event.lngLat);
+      });
+    </script>
+  </body>
+</html>
