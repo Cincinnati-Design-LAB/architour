@@ -23,6 +23,12 @@
         >
           Click on map for coords ...
         </div>
+        <button
+          class="absolute hidden bg-primary-500 hover:bg-primary-600 transition-colors duration-300 px-6 py-3 text-white text-sm font-medium right-0 bottom-0"
+          id="save-location-trigger"
+        >
+          Save Coordinates
+        </button>
       </div>
     </div>
 
@@ -34,6 +40,7 @@
         'pk.eyJ1IjoiY2luY2lubmF0aWRlc2lnbmxhYiIsImEiOiJjbGxwNjlqMDYwMzIxM2hucjZ0bDQ5NjR3In0.XvEOQgZDEQhAhx4misLKMQ';
 
       const mapCenter = [-84.511198, 39.1015];
+      let activeCoords = mapCenter;
 
       const map = new mapboxgl.Map({
         container: 'location-control',
@@ -55,10 +62,55 @@
       const marker = new mapboxgl.Marker(markerEl).setLngLat(mapCenter).addTo(map);
 
       map.on('click', (event) => {
+        activeCoords = [event.lngLat.lng, event.lngLat.lat];
         const el = document.getElementById('click-coordinates');
         el.innerHTML = `Lat: ${event.lngLat.lat.toFixed(4)} | Lng: ${event.lngLat.lng.toFixed(4)}`;
         marker.setLngLat(event.lngLat);
+        document.getElementById('save-location-trigger').classList.remove('hidden');
       });
+
+      /* --- Stackbit Controls --- */
+
+      window.stackbit = window.stackbit || {};
+
+      window.stackbit.onUpdate = (options) => {
+        if (options.init) {
+          document.getElementById('save-location-trigger').addEventListener('click', (event) => {
+            // TODO: Update the field's value ...
+            console.log({ options, event }, activeCoords);
+
+            // const value = event.target.dataset.value;
+
+            options
+              .updateDocument({
+                operations: [
+                  {
+                    opType: 'set',
+                    fieldPath: `${options.fieldPath}.0`,
+                    modelField: options.modelField,
+                    field: { type: 'string', value: activeCoords[0] },
+                  },
+                  {
+                    opType: 'set',
+                    fieldPath: `${options.fieldPath}.1`,
+                    modelField: options.modelField,
+                    field: { type: 'string', value: activeCoords[1] },
+                  },
+                ],
+              })
+              .then(() => {
+                // document.querySelectorAll('button').forEach((button) => button.classList.remove('active'));
+                // document.querySelector(`button[data-value="${value}"]`).classList.add('active');
+                console.log('SAVED!');
+                options.close();
+              })
+              .catch((err) => {
+                // console.error('Could not update emoji field', err);
+                console.error('Could not update location field', err);
+              });
+          });
+        }
+      };
     </script>
   </body>
 </html>
