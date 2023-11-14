@@ -4,21 +4,9 @@ import type { ObjectModel } from '@stackbit/types';
 export const BuildingRenovationSection: ObjectModel = {
   name: 'BuildingRenovationSection',
   type: 'object',
-  // TODO: Clean this up. Talk to Simon.
-  // `document` is supposed to be available so we can use the helper method.
-  // But it's not. So we have to do this.
   preview: ({ documentField }) => {
-    if (
-      !('fields' in documentField) ||
-      !documentField.fields.page_location ||
-      !documentField.fields.title ||
-      !('value' in documentField.fields.page_location) ||
-      !('value' in documentField.fields.title)
-    ) {
-      return { title: 'Building Renovation Section' };
-    }
     return {
-      title: `${documentField.fields.title.value} [${documentField.fields.page_location.value}]`,
+      title: (documentField as any).fields.page_location.value || 'Building Renovation Section',
     };
   },
   fields: [
