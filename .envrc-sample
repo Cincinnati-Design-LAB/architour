@@ -1,0 +1,18 @@
+# cloudinary (public images)
+export CLOUDINARY_URL="..."
+
+# mapbox
+export PUBLIC_MAPBOX_TOKEN="..."
+export PUBLIC_MAPBOX_STYLE="..."
+
+# analytics
+export GOOGLE_ANALYTICS_ID="..."
+
+# stackbit
+export EDITOR_MODE="..."
+
+# asset uploader (stackbit)
+export IMAGE_UPLOADER_BASE_URL="..."
+export CLOUDINARY_CLOUD_NAME="..."
+export CLOUDINARY_API_KEY="..."
+export CLOUDINARY_API_SECRET="..."
