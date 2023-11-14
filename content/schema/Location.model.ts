@@ -3,22 +3,10 @@ import type { ObjectModel } from '@stackbit/types';
 export const Location: ObjectModel = {
   name: 'Location',
   type: 'object',
-  // TODO: Clean this up. Talk to Simon.
-  // `document` is supposed to be available so we can use the helper method.
-  // But it's not. So we have to do this.
   preview: ({ documentField }) => {
-    if (
-      !('fields' in documentField) ||
-      !documentField.fields.lat ||
-      !documentField.fields.lng ||
-      !('value' in documentField.fields.lat) ||
-      !('value' in documentField.fields.lng)
-    ) {
-      return { title: 'Location' };
-    }
-    return {
-      title: `${documentField.fields.lat.value}, ${documentField.fields.lng.value}`,
-    };
+    const fields = (documentField as any).fields;
+    if (!fields.lat.value || !fields.lng.value) return { title: 'Location' };
+    return { title: `${fields.lat.value}, ${fields.lng.value}` };
   },
   fields: [
     {
