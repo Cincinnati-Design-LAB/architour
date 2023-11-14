@@ -25,7 +25,6 @@ export type ImageSizes = { [key in SizeVariation]: string };
 /**
  * A object of Cloudinary image URLs that can be used in front-end components.
  */
-// TODO -> This should use image keys as an argument
 export type CloudinaryImage<C extends CropName> = { [key in C]: ImageSizes };
 
 /* --- Transformation Definitions --- */
