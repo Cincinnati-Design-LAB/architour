@@ -26,8 +26,8 @@
     "tsconfig-paths": "^4.2.0"
   },
   "devDependencies": {
-    "@stackbit/cms-git": "^0.3.29-develop.3",
-    "@stackbit/types": "^0.10.7",
+    "@stackbit/cms-git": "^0.3.33",
+    "@stackbit/types": "^0.10.13",
     "@types/gtag.js": "^0.0.12",
     "@types/mapbox-gl": "^2.7.10",
     "@types/node": "^20.4.3",
