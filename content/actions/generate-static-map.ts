@@ -31,10 +31,6 @@ export const generateStaticMap: CustomActionField['run'] = async (options) => {
   const staticMapUrl = generateStaticMapUrl(options);
   const image = await uploadImage(staticMapUrl, folder);
   await updateStaticMapReference(image.public_id, options);
-
-  // TODO: Remove the workflow
-  // TODO: Remove cache key
-  // TODO: Fix the building type
 };
 
 /* --- Cloudinary Helpers --- */
