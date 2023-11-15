@@ -4,20 +4,9 @@ import type { ObjectModel } from '@stackbit/types';
 export const BuildingAttributeSection: ObjectModel = {
   name: 'BuildingAttributeSection',
   type: 'object',
-  // TODO: Clean this up. Talk to Simon.
-  // `document` is supposed to be available so we can use the helper method.
-  // But it's not. So we have to do this.
   preview: ({ documentField }) => {
-    if (
-      !('fields' in documentField) ||
-      !documentField.fields.page_location ||
-      !('value' in documentField.fields.page_location)
-    ) {
-      return { title: 'Building Attribute Section' };
-    }
-    return {
-      title: documentField.fields.page_location.value,
-    };
+    const title = (documentField as any).fields.page_location.value || 'Building Attribute Section';
+    return { title };
   },
   fields: [
     {

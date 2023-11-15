@@ -5,7 +5,7 @@ images:
   - buildings/000-test/000-test-0_g8kzir
   - buildings/000-test/000-test-1_xziq60
 location:
-  lat: 39.1018
+  lat: '39.1053'
   lng: -84.5197
 address: '609 Walnut St., Cincinnati, Ohio'
 completion_date: '1912'
