@@ -56,7 +56,7 @@ export const Building: PageModel = {
     {
       name: 'location_test',
       type: 'list',
-      items: { type: 'string' },
+      items: { type: 'number' },
       controlType: 'custom-modal-html',
       controlFilePath: './content/controls/location-control.html',
       label: 'Map Pin',
