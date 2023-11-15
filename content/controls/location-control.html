@@ -62,12 +62,16 @@
       const marker = new mapboxgl.Marker(markerEl).setLngLat(mapCenter).addTo(map);
 
       map.on('click', (event) => {
-        activeCoords = [event.lngLat.lng, event.lngLat.lat];
-        const el = document.getElementById('click-coordinates');
-        el.innerHTML = `Lat: ${event.lngLat.lat.toFixed(4)} | Lng: ${event.lngLat.lng.toFixed(4)}`;
-        marker.setLngLat(event.lngLat);
+        setActiveCoords([event.lngLat.lng, event.lngLat.lat]);
         document.getElementById('save-location-trigger').classList.remove('hidden');
       });
+
+      function setActiveCoords(coords) {
+        activeCoords = coords;
+        const el = document.getElementById('click-coordinates');
+        el.innerHTML = `Lat: ${coords[1].toFixed(4)} | Lng: ${coords[0].toFixed(4)}`;
+        marker.setLngLat(coords);
+      }
 
       /* --- Stackbit Controls --- */
 
@@ -92,18 +96,29 @@
 
       window.stackbit.onUpdate = (options) => {
         if (options.init) {
+          const currentCoords = (options.document?.fields?.location_test?.items || []).map(
+            (c) => c.value,
+          );
+          if (currentCoords.length) setActiveCoords(currentCoords);
+
           document.getElementById('save-location-trigger').addEventListener('click', (event) => {
             console.log(activeCoords);
 
             options
               .updateDocument({
                 operations: [
-                  {
-                    opType: 'set',
-                    fieldPath: options.fieldPath,
-                    modelField: { type: 'list' },
-                    field: { type: 'list', items: [123, 456] },
-                  },
+                  // {
+                  //   opType: 'set',
+                  //   fieldPath: options.fieldPath,
+                  //   modelField: { type: 'list' },
+                  //   field: {
+                  //     type: 'list',
+                  //     items: [
+                  //       { type: 'number', value: activeCoords[0] },
+                  //       { type: 'number', value: activeCoords[1] },
+                  //     ],
+                  //   },
+                  // },
                   // {
                   //   opType: 'set',
                   //   fieldPath: [...options.fieldPath, 0],
