@@ -1,5 +1,5 @@
 ---
-import { CardMetaAttribute, CardStatusBadges, Link, ResponsiveImage } from '@components';
+import { CardMetaAttribute, CardStatusBadges, Link } from '@components';
 import { Building, fieldPath, objectId } from '@content';
 
 export interface Props extends Building {}
@@ -15,10 +15,10 @@ const props = Astro.props as Props;
   {
     props.featured_image && (
       <div class="rounded-full absolute top-[-2rem] left-[1rem] w-16 h-16 overflow-hidden border-2 border-black">
-        <ResponsiveImage
+        {/*<ResponsiveImage
           src={props.featured_image.card_thumb}
           className="object-cover h-full w-full object-center"
-        />
+        />*/}
       </div>
     )
   }

@@ -34,13 +34,13 @@ const sizeClassMap: { [K in Exclude<Props['size'], undefined | null>]: string } 
 };
 
 let style = {};
-if (image) {
-  style = {
-    backgroundImage: `url(${image.hero['3x']})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-  };
-}
+// if (image) {
+//   style = {
+//     backgroundImage: `url(${image.hero['3x']})`,
+//     backgroundSize: 'cover',
+//     backgroundPosition: 'center',
+//   };
+// }
 ---
 
 <div class={`relative ${sizeClassMap[size]} ${themeClassMap[theme]}`} style={style}>

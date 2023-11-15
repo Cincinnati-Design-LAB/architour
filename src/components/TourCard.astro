@@ -1,6 +1,6 @@
 ---
-import { CardMetaAttribute, CardStatusBadges, Icon, ResponsiveImage } from '@components';
-import { fieldPath, objectId, Tour } from '@content';
+import { CardMetaAttribute, CardStatusBadges, Icon } from '@components';
+import { Tour, fieldPath, objectId } from '@content';
 
 export interface Props extends Tour {}
 
@@ -11,10 +11,10 @@ const props = Astro.props as Props;
   {
     props.image && (
       <div class="h-24 overflow-hidden">
-        <ResponsiveImage
+        {/*<ResponsiveImage
           src={props.image.card_hero}
           className="object-cover h-full w-full object-center"
-        />
+        />*/}
       </div>
     )
   }

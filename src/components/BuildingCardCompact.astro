@@ -1,5 +1,5 @@
 ---
-import { CardStatusBadges, ResponsiveImage } from '@components';
+import { CardStatusBadges } from '@components';
 import { Building, fieldPath, objectId } from '@content';
 
 export interface Props extends Building {}
@@ -18,10 +18,10 @@ const building = Astro.props as Props;
   {
     building.featured_image && (
       <div class="w-32 shrink-0">
-        <ResponsiveImage
+        {/*<ResponsiveImage
           src={building.featured_image.compact_card_hero}
           className="object-cover h-full w-full object-center"
-        />
+        />*/}
       </div>
     )
   }

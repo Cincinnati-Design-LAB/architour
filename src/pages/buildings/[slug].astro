@@ -7,7 +7,6 @@ import {
   BuildingAttributeSection,
   BuildingRenovationSection,
   PageHeader,
-  ResponsiveImage,
   TourCard,
   ValidationErrors,
 } from '@components';
@@ -72,12 +71,12 @@ const sectionMap = {
         {
           (building.images && building.images.length > 0 && (
             <div class="grid sm:grid-cols-2 gap-6">
-              {building.images.map((image, index) => (
-                <ResponsiveImage
+              {building.images.map((image, index) => ({
+                /*<ResponsiveImage
                   src={image.gallery_item}
                   annotations={{ self: fieldPath(`images.${index}`) }}
-                />
-              ))}
+                />*/
+              }))}
             </div>
           )) || <SectionPlaceholder fieldPath="images" content="Images" className="mb-12" />
         }
@@ -113,7 +112,7 @@ const sectionMap = {
         {
           (building.static_map && (
             <div class="mb-12 relative">
-              <ResponsiveImage src={building.static_map.sidebar} className="w-full border" />
+              {/*<ResponsiveImage src={building.static_map.sidebar} className="w-full border" />*/}
               {building.address && (
                 <div class="absolute top-0 left-0 z-10 p-3 text-sm bg-secondary-500/20 text-black/70 rounded-br-sm">
                   {building.address}
