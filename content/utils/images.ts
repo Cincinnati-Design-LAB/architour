@@ -2,6 +2,8 @@ import * as Cloudinary from 'cloudinary';
 
 /* --- References --- */
 
+// TODO: These references can be removed when we're confident in the new system.
+
 // Multipliers for image sizes
 const SIZE_VARIATIONS: Array<'1x' | '2x' | '3x'> = ['1x', '2x', '3x'];
 // Keys used to create image variations
@@ -10,6 +12,8 @@ const CROP_NAMES: Array<
 > = ['card_hero', 'card_thumb', 'compact_card_hero', 'gallery_item', 'hero', 'sidebar'];
 
 /* --- Output Types --- */
+
+// TODO: These types can be removed when we're confident in the new system.
 
 /**
  * The allowed names of image sizes, which are used to create URL shapes that
@@ -29,6 +33,8 @@ export type CloudinaryImage<C extends CropName> = { [key in C]: ImageSizes };
 
 /* --- Transformation Definitions --- */
 
+// TODO: All of this can be removed when we're confident in the new system.
+
 /**
  * The allowed names of crop definitions, which are used selectively to create
  * URL shapes that can be used in front-end components.
@@ -44,6 +50,7 @@ type CropDefinition = { name: CropName; options: Cloudinary.ImageTransformationO
 
 /* --- Transformation Definitions --- */
 
+// TODO: This can be removed when we're confident in the new system.
 export const TRANSFORMATIONS: CropDefinition[] = [
   {
     name: 'sidebar',
@@ -77,6 +84,8 @@ export const TRANSFORMATIONS: CropDefinition[] = [
  * Consistent way to make sure we're using the same transformation names when
  * creating and reading them through the Cloudinary API.
  *
+ * TODO: This can be removed when we're confident in the new system.
+ *
  * @param crop Crop variation name
  * @param dpr DPR image variation name
  * @returns Interpolated transformation name
@@ -88,6 +97,8 @@ export function getTransformationName(crop: CropName, dpr: SizeVariation): strin
 /**
  * Consistent way to make sure we're using the same transformation names when
  * creating and reading them through the Cloudinary API.
+ *
+ * TODO: This can be removed when we're confident in the new system.
  *
  * @param crop Crop variation name
  * @param options Image transformation options
@@ -106,40 +117,13 @@ export function getTransformationDprVariations(
 }
 
 /**
- * Transforms a public ID into a set of Cloudinary image URLs that can be used
- * by the front end.
+ * Transforms a public ID into a full Cloudinary CDN URL.
  *
  * @param publicId Public ID of the image in Cloudinary defined in the source
  * file.
- * @returns Image object with URLs for each crop and size.
+ * @returns Full URL to the image.
  */
-export function cloudinaryImageUrls(
-  publicId: string,
-  cropNames: CropName[] = CROP_NAMES,
-): CloudinaryImage<(typeof cropNames)[number]> {
+export function cloudinaryImageUrl(publicId: string): string {
   if (!publicId) return null;
-
-  let output = {} as CloudinaryImage<(typeof cropNames)[number]>;
-
-  TRANSFORMATIONS.filter((crop) => cropNames.includes(crop.name)).map((crop) => {
-    output[crop.name] = Object.fromEntries(
-      SIZE_VARIATIONS.map((dpr) => {
-        const transformation = getTransformationName(crop.name, dpr);
-        const imageUrl = Cloudinary.v2.url(publicId, {
-          transformation,
-          //
-          // -> Something wasn't working right for `compact_card_hero` signed
-          // URLs, so I disabled it. It still works and it's still locked down
-          // to strict transformations.
-          //
-          // sign_url: true,
-          //
-          secure: true,
-        });
-        return [dpr, imageUrl];
-      }),
-    ) as ImageSizes;
-  });
-
-  return output;
+  return Cloudinary.v2.url(publicId, { secure: true });
 }

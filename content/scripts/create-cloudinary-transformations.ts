@@ -1,3 +1,11 @@
+/**
+ * NOTE: This file is no longer in use. It was used to work with named
+ * transformations. We've since switched to using Unpic to generate image
+ * variations as needed.
+ *
+ * This is being left in the repo for reference, but should be deleted once
+ * we're comfortable in the new system and getting solid performance scores.
+ */
 import { getTransformationDprVariations, TRANSFORMATIONS } from '@/content/utils/images';
 import { v2 as cloudinary } from 'cloudinary';
 
