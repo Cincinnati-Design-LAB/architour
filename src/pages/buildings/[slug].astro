@@ -12,6 +12,7 @@ import {
 } from '@components';
 import { Building, fieldPath, getBuildings, objectId } from '@content';
 import { PageLayout } from '@layouts';
+import { Image } from '@unpic/astro';
 
 export async function getStaticPaths() {
   const buildingsEntries = await getBuildings();
@@ -71,12 +72,15 @@ const sectionMap = {
         {
           (building.images && building.images.length > 0 && (
             <div class="grid sm:grid-cols-2 gap-6">
-              {building.images.map((image, index) => ({
-                /*<ResponsiveImage
-                  src={image.gallery_item}
-                  annotations={{ self: fieldPath(`images.${index}`) }}
-                />*/
-              }))}
+              {building.images.map((image, index) => (
+                <Image
+                  src={image}
+                  layout="constrained"
+                  width={736}
+                  height={414}
+                  {...fieldPath(`images.${index}`)}
+                />
+              ))}
             </div>
           )) || <SectionPlaceholder fieldPath="images" content="Images" className="mb-12" />
         }
@@ -112,7 +116,7 @@ const sectionMap = {
         {
           (building.static_map && (
             <div class="mb-12 relative">
-              {/*<ResponsiveImage src={building.static_map.sidebar} className="w-full border" />*/}
+              <Image src={building.static_map} layout="constrained" width={672} height={378} />
               {building.address && (
                 <div class="absolute top-0 left-0 z-10 p-3 text-sm bg-secondary-500/20 text-black/70 rounded-br-sm">
                   {building.address}

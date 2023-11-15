@@ -1,6 +1,7 @@
 ---
 import { Icon, IconProps } from '@components';
-import { Annotation, CloudinaryImage } from '@content';
+import { Annotation } from '@content';
+import { transformUrl } from 'unpic';
 
 type ElementAnnotation = Record<'title', Annotation>;
 
@@ -8,7 +9,7 @@ export interface Props {
   title: string;
   icon?: IconProps['name'];
   theme?: 'primary' | 'secondary';
-  image?: CloudinaryImage<'hero'>;
+  image?: string;
   size?: 'sm' | 'md' | 'lg';
   annotations?: Partial<ElementAnnotation>;
 }
@@ -34,13 +35,13 @@ const sizeClassMap: { [K in Exclude<Props['size'], undefined | null>]: string } 
 };
 
 let style = {};
-// if (image) {
-//   style = {
-//     backgroundImage: `url(${image.hero['3x']})`,
-//     backgroundSize: 'cover',
-//     backgroundPosition: 'center',
-//   };
-// }
+if (image) {
+  style = {
+    backgroundImage: `url(${transformUrl({ url: image, width: 1920, height: 1080 })})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+  };
+}
 ---
 
 <div class={`relative ${sizeClassMap[size]} ${themeClassMap[theme]}`} style={style}>
