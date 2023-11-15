@@ -73,29 +73,49 @@
 
       window.stackbit = window.stackbit || {};
 
+      // async function saveCoordinate(options, activeCoords, index) {
+      //   try {
+      //     await options.updateDocument({
+      //       operations: [
+      //         {
+      //           opType: 'set',
+      //           fieldPath: [...options.fieldPath, index],
+      //           modelField: { type: 'number' },
+      //           field: { type: 'number', value: activeCoords[index] },
+      //         },
+      //       ],
+      //     });
+      //   } catch (err) {
+      //     console.error('Could not update location field', err);
+      //   }
+      // }
+
       window.stackbit.onUpdate = (options) => {
         if (options.init) {
           document.getElementById('save-location-trigger').addEventListener('click', (event) => {
-            // TODO: Update the field's value ...
-            console.log({ options, event }, activeCoords);
-
-            // const value = event.target.dataset.value;
+            console.log(activeCoords);
 
             options
               .updateDocument({
                 operations: [
                   {
                     opType: 'set',
-                    fieldPath: `${options.fieldPath}.0`,
-                    modelField: options.modelField,
-                    field: { type: 'string', value: activeCoords[0] },
+                    fieldPath: options.fieldPath,
+                    modelField: { type: 'list' },
+                    field: { type: 'list', items: [123, 456] },
                   },
-                  {
-                    opType: 'set',
-                    fieldPath: `${options.fieldPath}.1`,
-                    modelField: options.modelField,
-                    field: { type: 'string', value: activeCoords[1] },
-                  },
+                  // {
+                  //   opType: 'set',
+                  //   fieldPath: [...options.fieldPath, 0],
+                  //   modelField: { type: 'number' },
+                  //   field: { type: 'number', value: activeCoords[0] },
+                  // },
+                  // {
+                  //   opType: 'set',
+                  //   fieldPath: [...options.fieldPath, 1],
+                  //   modelField: { type: 'number' },
+                  //   field: { type: 'number', value: activeCoords[1] },
+                  // },
                 ],
               })
               .then(() => {
