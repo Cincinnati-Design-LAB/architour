@@ -1,15 +1,8 @@
 ---
-import {
-  BuildingCardCompact,
-  Icon,
-  Link,
-  PageHeader,
-  ResponsiveImage,
-  Stat,
-  ValidationErrors,
-} from '@components';
-import { fieldPath, getTours, objectId, Tour } from '@content';
+import { BuildingCardCompact, Icon, Link, PageHeader, Stat, ValidationErrors } from '@components';
+import { Tour, fieldPath, getTours, objectId } from '@content';
 import { PageLayout } from '@layouts';
+import { Image } from '@unpic/astro';
 
 export async function getStaticPaths() {
   const toursEntries = await getTours();
@@ -67,7 +60,13 @@ const tour = Astro.props.tour as Tour;
         {
           tour.static_map && (
             <Link className="relative group" href={tour.url_path + '/map'}>
-              <ResponsiveImage src={tour.static_map.sidebar} className="border w-full" />
+              <Image
+                src={tour.static_map}
+                layout="constrained"
+                width={672}
+                height={378}
+                class="border w-full"
+              />
               <div class="top-0 left-0 h-full w-full bg-secondary-500/80 z-10 group-hover:opacity-100 transition-opacity duration-300 opacity-0 absolute">
                 <div class="flex text-white justify-center items-center h-full w-full space-x-3">
                   <span class="block w-5">

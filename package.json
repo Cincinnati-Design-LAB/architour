@@ -7,7 +7,6 @@
     "astro:check": "astro check",
     "astro:dev": "astro dev",
     "astro:preview": "astro preview",
-    "cloudinary:create-transformations": "ts-node ./content/scripts/create-cloudinary-transformations.ts",
     "content:generate-cache": "ts-node ./content/scripts/generate-content-cache.ts",
     "content:watch": "nodemon ./content/scripts/generate-content-cache.ts",
     "dev": "npm-run-all -p content:watch astro:dev",
@@ -16,6 +15,7 @@
   "dependencies": {
     "@astrojs/tailwind": "^3.0.0",
     "@swc/core": "^1.3.68",
+    "@unpic/astro": "^0.0.32",
     "astro": "^2.0.7",
     "cloudinary": "^1.34.0",
     "mapbox-gl": "^2.13.0",
@@ -23,7 +23,8 @@
     "nodemon": "^3.0.1",
     "streamifier": "^0.1.1",
     "tailwindcss": "^3.0.24",
-    "tsconfig-paths": "^4.2.0"
+    "tsconfig-paths": "^4.2.0",
+    "unpic": "^3.14.0"
   },
   "devDependencies": {
     "@stackbit/cms-git": "^0.3.33",

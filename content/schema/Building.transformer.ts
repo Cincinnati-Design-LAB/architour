@@ -3,11 +3,12 @@ import { BuildingAttributeSection } from '@/content/schema/BuildingAttributeSect
 import { BuildingRenovationSection } from '@/content/schema/BuildingRenovationSection';
 import { Tour } from '@/content/schema/Tour';
 import { EDITOR_MODE, ROOT_DIR } from '@/content/utils/constants';
-import { cloudinaryImageUrls } from '@/content/utils/images';
+import { cloudinaryImageUrl } from '@/content/utils/images';
 import { mapMarkerData } from '@/content/utils/map';
 import { processMarkdown } from '@/content/utils/markdown';
 import { getExcerpt } from '@/content/utils/text';
 import path from 'path';
+import { transformUrl } from 'unpic';
 
 /* ----- Transformer ----- */
 
@@ -41,24 +42,23 @@ export async function transformBuilding(options: BuildingTransformerOptions): Pr
   // Draft is true unless explicitly set to false in the source file
   const draft = raw.draft === false ? false : true;
   // Transform the list of image IDs into a list of image URLs
-  const images = (raw.images || []).map((id) => cloudinaryImageUrls(id, ['gallery_item']));
+  const images = (raw.images || []).map((id) => cloudinaryImageUrl(id));
   // If there is an image, use it as the featured image
-  const featured_image =
-    raw.images && raw.images[0]
-      ? cloudinaryImageUrls(raw.images[0], ['card_thumb', 'compact_card_hero', 'hero', 'sidebar'])
-      : undefined;
+  const featured_image = images.length && images[0] ? cloudinaryImageUrl(raw.images[0]) : undefined;
   // Transform the markdown content into a markdown object
   const body = await processMarkdown(raw.content);
   // Transform the markdown content into an excerpt
   const excerpt = await processMarkdown(getExcerpt(raw.content));
   // Add static map image if it exists
-  const static_map = raw.static_map ? cloudinaryImageUrls(raw.static_map, ['sidebar']) : undefined;
+  const static_map = raw.static_map ? cloudinaryImageUrl(raw.static_map) : undefined;
   // Build map marker data if there is a location
   const map_marker = raw.location?.lat
     ? mapMarkerData({
         excerpt,
         url_path: url_path,
-        image: featured_image,
+        image: featured_image
+          ? transformUrl({ url: featured_image, width: 1152, height: 648 }).toString()
+          : undefined,
         location: raw.location,
         title: raw.title,
       })

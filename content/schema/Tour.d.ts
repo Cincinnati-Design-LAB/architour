@@ -1,7 +1,6 @@
 import { Building } from '@/content/schema/Building';
 import { IconName } from '@/content/utils/icons';
 import { Markdown } from '@/content/utils/markdown';
-import { CloudinaryImage } from '@content';
 
 export type RawTour = {
   // Meta information
@@ -27,7 +26,7 @@ export interface Tour {
   /** Name of the tour */
   title: string;
   /** Primary featured image */
-  image?: CloudinaryImage;
+  image?: string;
   /** Time it takes to complete the tour when walking */
   time_estimate?: string;
   /** Short description of the tour */
@@ -52,10 +51,10 @@ export interface Tour {
   /* --- Location --- */
 
   /**
-   * Transformed Cloudinary image object from static map, which is built from
+   * Transformed Cloudinary image URL from static map, which is built from
    * the location of all the buildings on the tour.
    */
-  static_map?: CloudinaryImage<'sidebar'>;
+  static_map?: string;
 
   /* --- Meta --- */
 
