@@ -8,6 +8,7 @@ import { mapMarkerData } from '@/content/utils/map';
 import { processMarkdown } from '@/content/utils/markdown';
 import { getExcerpt } from '@/content/utils/text';
 import path from 'path';
+import { transformUrl } from 'unpic';
 
 /* ----- Transformer ----- */
 
@@ -43,8 +44,7 @@ export async function transformBuilding(options: BuildingTransformerOptions): Pr
   // Transform the list of image IDs into a list of image URLs
   const images = (raw.images || []).map((id) => cloudinaryImageUrl(id));
   // If there is an image, use it as the featured image
-  const featured_image =
-    raw.images && raw.images[0] ? cloudinaryImageUrl(raw.images[0]) : undefined;
+  const featured_image = images.length && images[0] ? cloudinaryImageUrl(raw.images[0]) : undefined;
   // Transform the markdown content into a markdown object
   const body = await processMarkdown(raw.content);
   // Transform the markdown content into an excerpt
@@ -56,7 +56,9 @@ export async function transformBuilding(options: BuildingTransformerOptions): Pr
     ? mapMarkerData({
         excerpt,
         url_path: url_path,
-        image: featured_image,
+        image: featured_image
+          ? transformUrl({ url: featured_image, width: 1152, height: 648 }).toString()
+          : undefined,
         location: raw.location,
         title: raw.title,
       })

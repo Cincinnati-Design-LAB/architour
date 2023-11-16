@@ -25,7 +25,7 @@
     "streamifier": "^0.1.1",
     "tailwindcss": "^3.0.24",
     "tsconfig-paths": "^4.2.0",
-    "unpic": "^3.13.0"
+    "unpic": "^3.14.0"
   },
   "devDependencies": {
     "@stackbit/cms-git": "^0.3.33",
