@@ -24,8 +24,6 @@ const tours = await getTours();
 const invalidObjects = [buildings, tours]
   .flat()
   .filter((item) => item.validation_errors?.length > 0 && !item.draft);
-
-const analyticsId = import.meta.env.GOOGLE_ANALYTICS_ID;
 ---
 
 <!DOCTYPE html>
@@ -68,10 +66,11 @@ const analyticsId = import.meta.env.GOOGLE_ANALYTICS_ID;
       )
     }
     <slot />
-  </body><style is:global>
-    svg {
-      @apply h-auto
+    <style is:global>
+      svg {
+        @apply h-auto
       w-full;
-    }
-  </style>
+      }
+    </style>
+  </body>
 </html>
