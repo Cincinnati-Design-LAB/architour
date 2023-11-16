@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Location Control</title>
+
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      .mapboxgl-ctrl.mapboxgl-ctrl-attrib {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mb-16 px-4">
+      <div class="relative">
+        <div id="location-control" class="h-96 overflow-hidden"></div>
+        <div
+          class="absolute bg-slate-300/80 px-6 py-3 text-slate-600 text-sm font-medium left-0 top-0"
+          id="click-coordinates"
+        >
+          Click on map for coords ...
+        </div>
+        <button
+          class="absolute hidden bg-primary-500 hover:bg-primary-600 transition-colors duration-300 px-6 py-3 text-white text-sm font-medium right-0 bottom-0"
+          id="save-location-trigger"
+        >
+          Save Coordinates
+        </button>
+      </div>
+    </div>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+    <script>
+      /* --- Setup Map --- */
+
+      mapboxgl.accessToken =
+        'pk.eyJ1IjoiY2luY2lubmF0aWRlc2lnbmxhYiIsImEiOiJjbGxwNjlqMDYwMzIxM2hucjZ0bDQ5NjR3In0.XvEOQgZDEQhAhx4misLKMQ';
+
+      const mapCenter = [-84.511198, 39.1015];
+      let activeCoords = mapCenter;
+
+      const map = new mapboxgl.Map({
+        container: 'location-control',
+        style: 'mapbox://styles/cincinnatidesignlab/clelgwaws000v01t7m19em7oa',
+        center: mapCenter,
+        zoom: 13,
+      });
+
+      map.addControl(new mapboxgl.NavigationControl(), 'top-right');
+
+      const markerEl = document.createElement('div');
+      markerEl.className = 'building-markerEl';
+      markerEl.style.backgroundColor = '#3D3935';
+      markerEl.style.width = '1.5rem';
+      markerEl.style.height = '1.5rem';
+      markerEl.style.borderRadius = '50%';
+      markerEl.style.border = '.2rem solid white';
+
+      const marker = new mapboxgl.Marker(markerEl).setLngLat(mapCenter).addTo(map);
+
+      map.on('click', (event) => {
+        setActiveCoords([event.lngLat.lng, event.lngLat.lat]);
+        document.getElementById('save-location-trigger').classList.remove('hidden');
+      });
+
+      function setActiveCoords(coords) {
+        activeCoords = coords;
+        const el = document.getElementById('click-coordinates');
+        el.innerHTML = `Lat: ${coords[1].toFixed(4)} | Lng: ${coords[0].toFixed(4)}`;
+        marker.setLngLat(coords);
+      }
+
+      /* --- Stackbit Controls --- */
+
+      window.stackbit = window.stackbit || {};
+
+      // async function saveCoordinate(options, activeCoords, index) {
+      //   try {
+      //     await options.updateDocument({
+      //       operations: [
+      //         {
+      //           opType: 'set',
+      //           fieldPath: [...options.fieldPath, index],
+      //           modelField: { type: 'number' },
+      //           field: { type: 'number', value: activeCoords[index] },
+      //         },
+      //       ],
+      //     });
+      //   } catch (err) {
+      //     console.error('Could not update location field', err);
+      //   }
+      // }
+
+      window.stackbit.onUpdate = (options) => {
+        if (options.init) {
+          const currentCoords = (options.document?.fields?.location_test?.items || []).map(
+            (c) => c.value,
+          );
+          if (currentCoords.length) setActiveCoords(currentCoords);
+
+          document.getElementById('save-location-trigger').addEventListener('click', (event) => {
+            console.log(activeCoords);
+
+            options
+              .updateDocument({
+                operations: [
+                  // {
+                  //   opType: 'set',
+                  //   fieldPath: options.fieldPath,
+                  //   modelField: { type: 'list' },
+                  //   field: {
+                  //     type: 'list',
+                  //     items: [
+                  //       { type: 'number', value: activeCoords[0] },
+                  //       { type: 'number', value: activeCoords[1] },
+                  //     ],
+                  //   },
+                  // },
+                  // {
+                  //   opType: 'set',
+                  //   fieldPath: [...options.fieldPath, 0],
+                  //   modelField: { type: 'number' },
+                  //   field: { type: 'number', value: activeCoords[0] },
+                  // },
+                  // {
+                  //   opType: 'set',
+                  //   fieldPath: [...options.fieldPath, 1],
+                  //   modelField: { type: 'number' },
+                  //   field: { type: 'number', value: activeCoords[1] },
+                  // },
+                ],
+              })
+              .then(() => {
+                // document.querySelectorAll('button').forEach((button) => button.classList.remove('active'));
+                // document.querySelector(`button[data-value="${value}"]`).classList.add('active');
+                console.log('SAVED!');
+                options.close();
+              })
+              .catch((err) => {
+                // console.error('Could not update emoji field', err);
+                console.error('Could not update location field', err);
+              });
+          });
+        }
+      };
+    </script>
+  </body>
+</html>
