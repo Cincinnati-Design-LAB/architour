@@ -1,9 +1,9 @@
 ---
 type: Building
-title: 000 Test Building - v2
+title: 000 Test Building - v5
 images:
-  - buildings/000-test/000-test-0_g8kzir
   - buildings/000-test/000-test-1_xziq60
+  - buildings/000-test/000-test-0_g8kzir
 location:
   lat: '39.1053'
   lng: -84.5197

@@ -1025,17 +1025,17 @@
   resolved "https://registry.npmjs.org/@stackbit/artisanal-names/-/artisanal-names-1.0.1.tgz"
   integrity sha512-d4h70dAL5RR6HC8tOKRdBHUx0EEpZiSjmTlLUB4V2lDddt83B9df7yWuk1sgrUX10vrWGlkC3Phv4B6W9Qk/5g==
 
-"@stackbit/cms-core@1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@stackbit/cms-core/-/cms-core-1.0.4.tgz#09384066149237eb14d719376d360a30bf7d7cda"
-  integrity sha512-AfuuvlCNED6LtssQS6/niutIIA0m65BrQHeLXDS1Su4ILoH+DG6dZdGfCRN6dNpcqDl1ZfI32dSzjlYhkFiTUQ==
+"@stackbit/cms-core@1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@stackbit/cms-core/-/cms-core-1.0.5.tgz#7887b835bedb336ab3eebc6be36256bc864ac33d"
+  integrity sha512-Gi2xReMpQiderHKx+A85g7D9QV2ies4UkN9B6Jc/mtNYBDRYFHmgXRRk15zyoT0A7pgkVAm9BArs8oeNBTxUog==
   dependencies:
     "@babel/parser" "^7.11.5"
     "@babel/traverse" "^7.11.5"
     "@iarna/toml" "^2.2.3"
-    "@stackbit/sdk" "1.0.4"
-    "@stackbit/types" "0.10.18"
-    "@stackbit/utils" "0.3.22"
+    "@stackbit/sdk" "1.0.5"
+    "@stackbit/types" "0.10.19"
+    "@stackbit/utils" "0.3.23"
     chalk "^4.0.1"
     content-engine "0.0.19"
     esm "^3.2.25"
@@ -1051,16 +1051,16 @@
     slugify "^1.6.5"
     uuid "^9.0.0"
 
-"@stackbit/cms-git@^0.3.38":
-  version "0.3.38"
-  resolved "https://registry.yarnpkg.com/@stackbit/cms-git/-/cms-git-0.3.38.tgz#e420896ace3ab596d65e75b3ccd73cb29a5e6449"
-  integrity sha512-pHSBGFJqit8migIcQdpBJd9VpwhyYMMEW9+vBfF9yRC77jmpjctc4M7zys8OD4q5+BFruFc1h8TIVqTIbqN+xA==
+"@stackbit/cms-git@^0.3.39":
+  version "0.3.39"
+  resolved "https://registry.yarnpkg.com/@stackbit/cms-git/-/cms-git-0.3.39.tgz#db62219545f7e8cf8917d01695a8d512824e2ac5"
+  integrity sha512-XbITc4s4oUryzOT37LBkjKrDftelrD47YuGh+j+BDNZjOpHY1EFRs+P8zwVUQHJNBTBL6tbNsxpuhG0TN+jkfA==
   dependencies:
     "@stackbit/artisanal-names" "^1.0.1"
-    "@stackbit/cms-core" "1.0.4"
-    "@stackbit/sdk" "1.0.4"
-    "@stackbit/types" "0.10.18"
-    "@stackbit/utils" "0.3.22"
+    "@stackbit/cms-core" "1.0.5"
+    "@stackbit/sdk" "1.0.5"
+    "@stackbit/types" "0.10.19"
+    "@stackbit/utils" "0.3.23"
     axios "^0.24.0"
     fs-extra "^11.1.0"
     git-url-parse "^13.1.0"
@@ -1068,14 +1068,14 @@
     micromatch "^4.0.4"
     slugify "^1.6.5"
 
-"@stackbit/sdk@1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@stackbit/sdk/-/sdk-1.0.4.tgz#49738ea78c4445ee439ad956ed8296c04aec6b21"
-  integrity sha512-jwA+FMPZ3UbPRSVOKuN31RMwaG6w/0iN2a6Nb1Y9bFg6fb/0oEmdj+cO1gulEeA2DCnBUm5hpjV2pqLEwCJMCQ==
+"@stackbit/sdk@1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@stackbit/sdk/-/sdk-1.0.5.tgz#c0c90cef436b172032c9afb4d8640b99b2af1572"
+  integrity sha512-mxUZp8Vnc8QtcV/VPtb7aw1/IAyBnGIrsofIZ1akMxiE26Fu5HFCC/pRWSETRA0SeTiscB1n/GlNMPe7OLakJQ==
   dependencies:
     "@octokit/rest" "^18.3.5"
-    "@stackbit/types" "0.10.18"
-    "@stackbit/utils" "0.3.22"
+    "@stackbit/types" "0.10.19"
+    "@stackbit/utils" "0.3.23"
     acorn "^8.2.4"
     chokidar "^3.5.3"
     esbuild "^0.19.3"
@@ -1087,17 +1087,17 @@
     moment "^2.29.1"
     semver "^7.3.5"
 
-"@stackbit/types@0.10.18", "@stackbit/types@^0.10.18":
-  version "0.10.18"
-  resolved "https://registry.yarnpkg.com/@stackbit/types/-/types-0.10.18.tgz#89b18bd9febcd9a8472de3cc7431262f41382e17"
-  integrity sha512-NnLmDcMfDVd7So5vzW79y5U2vqfRn+ieqiFvJXV/IikfpsezSaYr8IDl3wbvayY0sCiuH6iCttb6jYrHEtontA==
+"@stackbit/types@0.10.19", "@stackbit/types@^0.10.19":
+  version "0.10.19"
+  resolved "https://registry.yarnpkg.com/@stackbit/types/-/types-0.10.19.tgz#573848ee9cb228bfcdef9122acdc07b66afaeba0"
+  integrity sha512-V82FIDmY3GgMkXz1JGPgeZtgAMCprIsn5mZISzjwdOzEwlbvIHxXh9APuXLq4NRBfuU5aXHFnOQgphImXMLb8w==
   dependencies:
     content-engine "0.0.19"
 
-"@stackbit/utils@0.3.22":
-  version "0.3.22"
-  resolved "https://registry.yarnpkg.com/@stackbit/utils/-/utils-0.3.22.tgz#593ee52fa87b2e8cc53a69138ef330c5823e9b97"
-  integrity sha512-FTOwFL8VdAsMpkgsLp1sy74wviw0WL9AxNDKzKJMwQr6KOdHgj1lo3x9tsxY5h86Ts+lM571LUjjXpxl8YJygQ==
+"@stackbit/utils@0.3.23":
+  version "0.3.23"
+  resolved "https://registry.yarnpkg.com/@stackbit/utils/-/utils-0.3.23.tgz#28373cc3f19c81c9dff24d8205aab303ea877e20"
+  integrity sha512-JXTuSstF73ja6V4pqdjMz+hZjOc6ph5g3rNwROmIvbMUW6udGVW7WgxuSnf/5iZc48jrg7LvttXHCbSEODsF4g==
   dependencies:
     "@iarna/toml" "^2.2.5"
     fs-extra "^9.1.0"

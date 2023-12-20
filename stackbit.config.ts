@@ -41,6 +41,7 @@ export default defineStackbitConfig({
   contentSources: [gitContentSource],
   onDocumentCreate,
   devCommand: 'yarn npm-run-all -p content:watch "astro:dev -- --port {PORT}"',
+  customContentReload: true,
   experimental: {
     ssg: {
       name: 'Astro',
