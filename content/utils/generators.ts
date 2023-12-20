@@ -188,7 +188,7 @@ async function writeContentToCache(options: {
   content: Record<string, any>;
 }) {
   const outputFilePath = path.join(options.cacheDir, options.filename);
-  const output = prettier.format(JSON.stringify(options.content), {
+  const output = await prettier.format(JSON.stringify(options.content), {
     ...PRETTIER_CONFIG,
     parser: 'json',
   });

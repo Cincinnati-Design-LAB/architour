@@ -7,24 +7,23 @@
     "astro:check": "astro check",
     "astro:dev": "astro dev",
     "astro:preview": "astro preview",
-    "content:generate-cache": "ts-node ./content/scripts/generate-content-cache.ts",
+    "content:generate-cache": "npx tsx ./content/scripts/generate-content-cache.ts",
     "content:watch": "nodemon ./content/scripts/generate-content-cache.ts",
     "dev": "npm-run-all -p content:watch astro:dev",
     "build": "npm-run-all -s content:generate-cache astro:check astro:build"
   },
   "dependencies": {
-    "@astrojs/tailwind": "^3.0.0",
-    "@swc/core": "^1.3.68",
-    "@unpic/astro": "^0.0.32",
-    "astro": "^2.0.7",
+    "@astrojs/tailwind": "^5.0.3",
+    "@unpic/astro": "^0.0.37",
+    "astro": "^4.0.6",
     "cloudinary": "^1.34.0",
     "mapbox-gl": "^2.13.0",
     "markdown-it": "^13.0.1",
     "nodemon": "^3.0.1",
     "streamifier": "^0.1.1",
     "tailwindcss": "^3.0.24",
-    "tsconfig-paths": "^4.2.0",
-    "unpic": "^3.14.0"
+    "typescript": "^5.3.3",
+    "unpic": "^3.16.0"
   },
   "devDependencies": {
     "@stackbit/cms-git": "^0.3.38",
@@ -38,9 +37,8 @@
     "gray-matter": "^4.0.3",
     "js-yaml": "^4.1.0",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.8.3",
-    "prettier-plugin-astro": "^0.8.0",
-    "ts-node": "^10.9.1"
+    "prettier": "^3.1.1",
+    "prettier-plugin-astro": "^0.12.2"
   },
   "nodemonConfig": {
     "watch": [

@@ -17,12 +17,5 @@
       "@content": ["content/utils/index"],
       "@/*": ["./*"]
     }
-  },
-  "ts-node": {
-    "require": ["tsconfig-paths/register"],
-    "swc": true,
-    "compilerOptions": {
-      "module": "CommonJS"
-    }
   }
 }
