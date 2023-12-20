@@ -16,6 +16,7 @@ import {
   PRETTIER_CONFIG,
   TOURS_CACHE_DIR,
   TOURS_DIR,
+  UPDATE_CONTROL_PATH,
 } from '@/content/utils/constants';
 import glob from 'fast-glob';
 import fs from 'fs';
@@ -66,6 +67,7 @@ export async function generateContentCache() {
   console.log(`Generated ${tours.length} tours`);
   await cacheSiteConfig();
   console.log(`Generated site config`);
+  await touchUpdateControl();
 }
 
 /* ----- Building ----- */
@@ -193,4 +195,12 @@ async function writeContentToCache(options: {
     parser: 'json',
   });
   fs.writeFileSync(outputFilePath, output);
+}
+
+/**
+ * Touch the update control file to trigger a rebuild.
+ */
+async function touchUpdateControl() {
+  const updateControl = { lastUpdated: new Date().toISOString() };
+  fs.writeFileSync(UPDATE_CONTROL_PATH, JSON.stringify(updateControl));
 }
