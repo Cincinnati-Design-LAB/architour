@@ -10,4 +10,5 @@ address: '700 Walnut St., Cincinnati, Ohio'
 static_map: buildings/700-walnut/static-map_jtlhz5
 draft: true
 sections: []
+completion_date: '1895'
 ---
