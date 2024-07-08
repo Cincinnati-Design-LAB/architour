@@ -1,6 +1,7 @@
 ---
-import { CardStatusBadges, ResponsiveImage } from '@components';
+import { CardStatusBadges } from '@components';
 import { Building, fieldPath, objectId } from '@content';
+import { Image } from '@unpic/astro';
 
 export interface Props extends Building {}
 
@@ -18,9 +19,12 @@ const building = Astro.props as Props;
   {
     building.featured_image && (
       <div class="w-32 shrink-0">
-        <ResponsiveImage
-          src={building.featured_image.compact_card_hero}
-          className="object-cover h-full w-full object-center"
+        <Image
+          src={building.featured_image}
+          layout="constrained"
+          width={250}
+          height={250}
+          class="object-cover h-full w-full object-center"
         />
       </div>
     )

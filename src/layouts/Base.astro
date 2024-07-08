@@ -1,8 +1,11 @@
 ---
 import type { Annotation } from '@/content/utils/annotations';
+import { lastUpdated } from '@/content/utils/update-control.json';
 import GoogleAnalytics from '@/src/components/GoogleAnalytics.astro';
 import { Callout } from '@components';
 import { getBuildings, getTours } from '@content';
+
+console.log('[update_control]', lastUpdated);
 
 export interface Props {
   title: string;
@@ -24,11 +27,9 @@ const tours = await getTours();
 const invalidObjects = [buildings, tours]
   .flat()
   .filter((item) => item.validation_errors?.length > 0 && !item.draft);
-
-const analyticsId = import.meta.env.GOOGLE_ANALYTICS_ID;
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -68,10 +69,11 @@ const analyticsId = import.meta.env.GOOGLE_ANALYTICS_ID;
       )
     }
     <slot />
-  </body><style is:global>
-    svg {
-      @apply h-auto
+    <style is:global>
+      svg {
+        @apply h-auto
       w-full;
-    }
-  </style>
+      }
+    </style>
+  </body>
 </html>

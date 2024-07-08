@@ -8,7 +8,6 @@ import {
 } from '@/content/schema/BuildingRenovationSection';
 import { Location, RawLocation } from '@/content/schema/Location';
 import { Tour } from '@/content/schema/Tour';
-import { CloudinaryImage } from '@/content/utils/images';
 import { MapMarker } from '@/content/utils/map';
 import { Markdown } from '@/content/utils/markdown';
 
@@ -50,10 +49,10 @@ export interface Building {
     BuildingPageLocation,
     Array<BuildingAttributeSection | BuildingRenovationSection>
   >;
-  /** Processed Cloudinary image URLs from public IDs in source file. */
-  images: CloudinaryImage<'gallery_item'>[];
+  /** Image URLs with the full Cloudinary URL */
+  images: string[];
   /** The first image is set as the featured image. */
-  featured_image?: CloudinaryImage<'card_thumb' | 'compact_card_hero' | 'hero' | 'sidebar'>;
+  featured_image?: string;
 
   /* --- References --- */
 
@@ -68,8 +67,8 @@ export interface Building {
   location?: Location;
   /** Details that can be used directly on the map */
   map_marker?: MapMarker;
-  /** Transformed Cloudinary image object from static map */
-  static_map?: CloudinaryImage<'sidebar'>;
+  /** Transformed Cloudinary URL from static map */
+  static_map?: string;
 
   /* --- Meta --- */
 

@@ -2,7 +2,7 @@
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 import { Icon, Link, PageHeader } from '@components';
-import { getTours, Tour } from '@content';
+import { Tour, getTours } from '@content';
 import { MapLayout } from '@layouts';
 
 export async function getStaticPaths() {
@@ -30,7 +30,7 @@ const tour = Astro.props.tour as Tour;
     <button class="absolute w-6 left-4 top-4 text-white" drawer-close-trigger>
       <Icon name="cancel" />
     </button>
-    <img class="w-full" id="drawer-image" src="" srcset="" />
+    <img class="w-full" id="drawer-image" src="" />
     <div class="px-4 py-6">
       <button
         class="block mb-4 text-xs uppercase tracking-widest text-gray-600"
@@ -128,9 +128,8 @@ const tour = Astro.props.tour as Tour;
       el.style.backgroundColor = '#799A05';
       // Add info to the drawer
       const drawerImg = document.getElementById('drawer-image') as HTMLImageElement;
-      const imageUrls = marker.properties.image.sidebar;
-      drawerImg.src = imageUrls['1x'];
-      drawerImg.srcset = `${imageUrls['1x']} 1x, ${imageUrls['2x']} 2x, ${imageUrls['3x']} 3x`;
+      const imageUrl = marker.properties.image;
+      drawerImg.src = imageUrl;
       document.getElementById('drawer-title').innerHTML = marker.properties.title;
       document.getElementById('drawer-excerpt').innerHTML = marker.properties.excerpt.raw || '';
       document.getElementById('drawer-link').setAttribute('href', marker.properties.url_path);

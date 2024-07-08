@@ -17,6 +17,8 @@ export const BUILDINGS_CACHE_DIR = path.join(CACHE_DIR, 'buildings');
 export const TOURS_CACHE_DIR = path.join(CACHE_DIR, 'tours');
 export const DATA_CACHE_DIR = path.join(CACHE_DIR, 'data');
 
+export const UPDATE_CONTROL_PATH = path.join(CONTENT_DIR, 'utils/update-control.json');
+
 // Prettier
 export const PRETTIER_CONFIG = JSON.parse(
   fs.readFileSync(path.join(ROOT_DIR, '.prettierrc'), 'utf8'),

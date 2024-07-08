@@ -1,7 +1,7 @@
 import { Building } from '@/content/schema/Building';
 import type { RawTour, Tour } from '@/content/schema/Tour';
 import { EDITOR_MODE, ROOT_DIR } from '@/content/utils/constants';
-import { cloudinaryImageUrls } from '@/content/utils/images';
+import { cloudinaryImageUrl } from '@/content/utils/images';
 import { processMarkdown } from '@/content/utils/markdown';
 import path from 'path';
 
@@ -38,9 +38,9 @@ export async function transformTour(options: TourTransformerOptions): Promise<To
   // Description gets transformed into markdown
   const description = await processMarkdown(raw.description);
   // Image gets transformed into a cloudinary URL
-  const image = raw.image ? cloudinaryImageUrls(raw.image, ['card_hero', 'hero']) : undefined;
+  const image = raw.image ? cloudinaryImageUrl(raw.image) : undefined;
   // Static map gets transformed into a cloudinary URL
-  const static_map = raw.static_map ? cloudinaryImageUrls(raw.static_map, ['sidebar']) : undefined;
+  const static_map = raw.static_map ? cloudinaryImageUrl(raw.static_map) : undefined;
   // Initialize buildings array as a list of building IDs.
   const buildings = [];
   // Keep track of the building IDs that are referenced in the tour. This is

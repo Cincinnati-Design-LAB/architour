@@ -7,5 +7,4 @@ export type { Annotation } from './annotations';
 // queries
 export { getAllBuildingsPages, getBuildings, getBuildingsPage } from './buildings';
 // images
-export type { CloudinaryImage, ImageSizes } from './images';
 export { getTours } from './tours';

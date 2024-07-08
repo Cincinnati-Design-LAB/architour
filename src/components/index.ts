@@ -16,7 +16,6 @@ import Icon, { Props as IconProps } from './Icon.astro';
 import Link, { Props as LinkProps } from './Link.astro';
 import Logo from './Logo.astro';
 import PageHeader, { Props as PageHeaderProps } from './PageHeader.astro';
-import ResponsiveImage from './ResponsiveImage.astro';
 import Stat, { Props as StatProps } from './Stat.astro';
 import TourCard, { Props as TourCardProps } from './TourCard.astro';
 import ValidationErrors from './ValidationErrors.astro';
@@ -38,7 +37,6 @@ export {
   Link,
   Logo,
   PageHeader,
-  ResponsiveImage,
   Stat,
   TourCard,
   ValidationErrors,
