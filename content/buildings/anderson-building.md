@@ -26,4 +26,4 @@ sections:
       - label: Architect
         value: William Walters
 ---
-The Anderson building is part of a three building cluster created in 1893. 
+The Anderson Building is part of of the Main and Third Street cluster of buildings completed in 1893.
