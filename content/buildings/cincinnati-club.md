@@ -19,4 +19,5 @@ sections:
         value: Jewish businessman's club and hotel
       - label: Architect
         value: Garber & Woodward
+completion_date: '1923'
 ---
