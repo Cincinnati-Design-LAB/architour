@@ -44,3 +44,4 @@ sections:
           Dual hotel housing a Homewood Suites on the lower floors and a Hampton
           Inn on the upper levels.
 ---
+This former home of the Cincinnati Enquirer has been transformed into two hotels. 
