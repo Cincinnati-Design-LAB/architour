@@ -28,5 +28,4 @@ sections:
       - label: Architect
         value: SOM
 ---
-
-The building is organized around a series of stacked 4-story atria in the manner of their office building in Chicago. The atria have glass walls on their south exposure overlooking the river and Kentucky. It also marked the introduction of larger floor plate towers more comparable to suburban buildings in the CBD.
+The building is organized around a series of stacked 4-story atria in the manner of their office building in Chicago. The atria have glass walls on their south exposure overlooking the river and Kentucky. It also marked the introduction of larger floor plate towers more comparable to suburban buildings in the Cincinnati Business District.
