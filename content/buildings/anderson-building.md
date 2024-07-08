@@ -26,3 +26,4 @@ sections:
       - label: Architect
         value: William Walters
 ---
+The Anderson building is part of a three building cluster created in 1893. 
