@@ -21,3 +21,4 @@ sections:
         value: Garber & Woodward
 completion_date: '1923'
 ---
+Designed by Samuel Hannaford, The Cincinnati Club is one of the best examples of Italian Renaissance architecture in Cincinnati. Make sure to take note of the ornate columns and balconies, arched windows (made with glass from Tiffany & Co.), marble staircases, and more.
