@@ -55,11 +55,7 @@ sections:
     type: BuildingRenovationSection
     title: Renovation History
     renovations:
-      - title: >-
-          Destroyed in a fire in  1911, the images shown were provided by the
-          Cincinnati Museum Center from the Cincinnati History Library and
-          Archives.  You can check out additional images and resources at
-          http://library.cincymuseum.org
+      - title: ''
         date: ''
         description: >-
           Destroyed in a fire in  1911, the images shown were provided by the
