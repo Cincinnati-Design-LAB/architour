@@ -7,8 +7,8 @@
   },
   "cSpell.words": ["MAPBOX"],
   "editor.codeActionsOnSave": {
-    "source.organizeImports": true,
-    "source.addMissingImports": true
+    "source.organizeImports": "explicit",
+    "source.addMissingImports": "explicit"
   },
   "typescript.preferences.importModuleSpecifier": "non-relative"
 }
