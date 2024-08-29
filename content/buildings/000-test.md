@@ -9,7 +9,7 @@ location:
   lng: -84.5197
 address: '609 Walnut St., Cincinnati, Ohio'
 completion_date: '1912'
-draft: false
+draft: true
 sections:
   - page_location: above_images
     type: BuildingAttributeSection
