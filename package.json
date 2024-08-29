@@ -27,8 +27,8 @@
     "unpic": "^3.16.0"
   },
   "devDependencies": {
-    "@stackbit/cms-git": "^0.3.39",
-    "@stackbit/types": "^0.10.19",
+    "@stackbit/cms-git": "^1.0.6",
+    "@stackbit/types": "^2.0.5",
     "@types/gtag.js": "^0.0.12",
     "@types/mapbox-gl": "^2.7.10",
     "@types/node": "^20.4.3",
