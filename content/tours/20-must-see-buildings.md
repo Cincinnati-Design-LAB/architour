@@ -6,7 +6,7 @@ description: >-
   Reprehenderit voluptate veniam cupidatat qui esse quis velit nisi cillum
   ullamco.
 icon: ''
-image: tours/20-must-see-buildings/bhvej1nby5plbvwllouu
+image: tours/20-must-see-buildings/carew-tower-0_dn8gx4_pi4tcg
 time_estimate: 2 Hours
 building_ids:
   - content/buildings/richard-and-lois-rosenthal-center-for-contemporary-art.md
