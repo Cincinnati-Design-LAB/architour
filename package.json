@@ -13,18 +13,18 @@
     "build": "npm-run-all -s content:generate-cache astro:check astro:build"
   },
   "dependencies": {
-    "@astrojs/tailwind": "^5.0.3",
-    "@unpic/astro": "^0.0.37",
-    "astro": "^4.0.6",
+    "@astrojs/tailwind": "^5.1.0",
+    "@unpic/astro": "^0.0.46",
+    "astro": "^4.14.6",
     "chokidar": "^3.5.3",
     "cloudinary": "^1.34.0",
     "mapbox-gl": "^2.13.0",
     "markdown-it": "^13.0.1",
     "nodemon": "^3.0.1",
     "streamifier": "^0.1.1",
-    "tailwindcss": "^3.0.24",
+    "tailwindcss": "^3.4.10",
     "typescript": "^5.3.3",
-    "unpic": "^3.16.0"
+    "unpic": "^3.18.0"
   },
   "devDependencies": {
     "@stackbit/cms-git": "^1.0.6",
