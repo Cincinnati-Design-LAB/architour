@@ -1,4 +1,5 @@
 import { generateStaticMap } from '@/content/actions/generate-static-map';
+import { assetSources } from '@/content/utils/asset-sources';
 import { iconOptions } from '@/content/utils/icons';
 import type { PageModel } from '@stackbit/types';
 
@@ -21,8 +22,8 @@ export const Tour: PageModel = {
     },
     {
       name: 'image',
-      type: 'string',
-      description: 'Cloudinary public ID for the primary tour image',
+      type: 'image',
+      source: assetSources.tours.name,
     },
     {
       name: 'time_estimate',

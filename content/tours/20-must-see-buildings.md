@@ -6,7 +6,7 @@ description: >-
   Reprehenderit voluptate veniam cupidatat qui esse quis velit nisi cillum
   ullamco.
 icon: ''
-image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
+image: tours/20-must-see-buildings/bhvej1nby5plbvwllouu
 time_estimate: 2 Hours
 building_ids:
   - content/buildings/richard-and-lois-rosenthal-center-for-contemporary-art.md
