@@ -43,7 +43,7 @@ sections:
           collection
         date: '2012'
         architect: Perfido Weiskopf Wagstaff + Goettel
-        description: Contemporary
+        description: ''
 ---
 
 The original hotel declined in popularity in the 50s and 60s and became a transient hotel. The renovation in 2012 returned the hotel to its place in the city as an integral part of the new Entertainment District.
