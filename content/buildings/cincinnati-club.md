@@ -15,8 +15,10 @@ sections:
   - page_location: above_map
     type: BuildingAttributeSection
     attributes:
-      - label: Original Function
-        value: Jewish businessman's club and hotel
       - label: Architect
         value: Garber & Woodward
+      - label: Original Function
+        value: Jewish businessman's club and hotel
+completion_date: '1923'
 ---
+The Cincinnati Club is one of the best examples of Italian Renaissance architecture in Cincinnati. Make sure to take note of the ornate columns and balconies, arched windows (made with glass from Tiffany & Co.), and marble staircases.

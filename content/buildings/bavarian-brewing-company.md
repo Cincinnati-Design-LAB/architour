@@ -37,9 +37,7 @@ sections:
     type: BuildingRenovationSection
     title: Renovation History
     renovations:
-      - title: >-
-          The building is being renovated to serve as the county administration
-          building.
+      - title: ''
         date: '2019'
         description: >-
           The building is being renovated to serve as the county administration

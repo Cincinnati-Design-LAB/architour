@@ -74,7 +74,7 @@
     },
     "buildings": {
         "type": "BuildingsConfig",
-        "page_label": "Cincinnati Buildings - TEST",
+        "page_label": "Cincinnati Buildings",
         "page_icon": "building",
         "nav_label": "Buildings List",
         "page_header_theme": "secondary"
