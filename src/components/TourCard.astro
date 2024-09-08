@@ -11,8 +11,8 @@ const props = Astro.props as Props;
 <a href={props.url_path} class="block bg-white shadow-md" {...objectId(props.stackbit_id)}>
   {
     props.image && (
-      <div class="h-24 overflow-hidden">
-        <Image src={props.image} layout="constrained" width={600} height={600} />
+      <div class="overflow-hidden">
+        <Image src={props.image} layout="fixed" width={500} height={120} />
       </div>
     )
   }
