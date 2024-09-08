@@ -2,12 +2,11 @@
 type: Tour
 title: University of Cincinnati Campus
 draft: true
-description: >-
-  Lorem dolore sunt veniam deserunt minim duis id sit proident ea mollit velit
-  irure.
+description: ''
 icon: ''
-image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
-time_estimate: 2 Hours
+image: >-
+  tours/university-of-cincinnati-campus/aronoff-center-for-design-college-of-design-architecture-art-and-planning-daap-2_r1kvps_o5zw5r
+time_estimate: ''
 building_ids:
   - content/buildings/uc-campus-recreation-center.md
   - content/buildings/uc-steger-student-life-center.md

@@ -2,10 +2,11 @@
 type: Tour
 title: Cincinnati Riverfront
 draft: false
-description: Anim laborum dolor quis in amet cupidatat ea in ex ex.
+description: ''
 icon: ''
-image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
-time_estimate: 2 Hours
+image: >-
+  tours/cincinnati-riverfront/covington-and-cincinnati-suspension-bridge-0_y929xi_n5gf3w
+time_estimate: ''
 building_ids:
   - content/buildings/adams-place-at-adams-crossing.md
   - content/buildings/montgomery-inn-boathouse.md

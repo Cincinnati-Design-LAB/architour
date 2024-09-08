@@ -2,10 +2,10 @@
 type: Tour
 title: Covington
 draft: false
-description: Ex proident voluptate et est consequat aute ut.
+description: ''
 icon: ''
-image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
-time_estimate: 2 Hours
+image: tours/covington/hotel-covington-coppins-department-store-0_duba5l_eegxci
+time_estimate: ''
 building_ids:
   - content/buildings/cathedral-basilica-of-the-assumption.md
   - content/buildings/carnegie-arts-center.md

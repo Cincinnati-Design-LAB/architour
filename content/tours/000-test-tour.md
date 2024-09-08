@@ -7,7 +7,7 @@ description: >-
   ullamco.
 icon: ''
 image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
-time_estimate: 2 Hours
+time_estimate: ''
 building_ids:
   - content/buildings/000-test.md
   - content/buildings/aronoff-center-for-the-arts.md

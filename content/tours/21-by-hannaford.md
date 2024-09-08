@@ -2,10 +2,11 @@
 type: Tour
 title: 21 By Hannaford
 draft: false
-description: Enim quis eiusmod mollit id esse sunt.
+description: ''
 icon: ''
-image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
-time_estimate: 2 Hours
+image: >-
+  tours/21-by-hannaford/hamilton-county-memorial-hall-the-soldiers-and-sailors-memorial-building-0_enuy6i_zy8tcx
+time_estimate: ''
 building_ids:
   - content/buildings/cincinnati-music-hall.md
   - >-

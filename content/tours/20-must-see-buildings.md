@@ -2,12 +2,10 @@
 type: Tour
 title: 20 Must See Buildings
 draft: false
-description: >-
-  Reprehenderit voluptate veniam cupidatat qui esse quis velit nisi cillum
-  ullamco.
+description: ''
 icon: ''
-image: tours/20-must-see-buildings/bhvej1nby5plbvwllouu
-time_estimate: 2 Hours
+image: tours/20-must-see-buildings/cincinnati-music-hall-1_a6o2cu_o5ljb2
+time_estimate: ''
 building_ids:
   - content/buildings/richard-and-lois-rosenthal-center-for-contemporary-art.md
   - content/buildings/aronoff-center-for-the-arts.md

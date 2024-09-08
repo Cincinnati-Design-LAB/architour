@@ -2,10 +2,10 @@
 type: Tour
 title: Streetcar Route
 draft: false
-description: Reprehenderit non pariatur ad pariatur nulla.
+description: ''
 icon: ''
-image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
-time_estimate: 2 Hours
+image: tours/streetcar-route/great-american-ball-park-2_xvjriz_xgbjha
+time_estimate: ''
 building_ids:
   - content/buildings/fifth-third-center.md
   - content/buildings/potter-stewart-us-courthouse.md

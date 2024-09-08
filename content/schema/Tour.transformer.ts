@@ -110,7 +110,7 @@ export function validateTour(options: TourValidatorOptions): boolean {
   const requiredFields: Array<keyof Tour> = [
     'title',
     'image',
-    'time_estimate',
+    // 'time_estimate',
     'description',
     'static_map',
   ];
