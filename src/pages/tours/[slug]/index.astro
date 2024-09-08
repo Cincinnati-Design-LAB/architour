@@ -48,11 +48,15 @@ const tour = Astro.props.tour as Tour;
         }
         <div class="grid grid-cols-2 gap-x-10 gap-y-6">
           <Stat label="Buildings on Tour" value={tour.buildings.length.toString()} />
-          <Stat
-            label="Estimated Walking Time"
-            value={tour.time_estimate || '[not set]'}
-            annotations={{ value: fieldPath('time_estimate') }}
-          />
+          {
+            tour.time_estimate && (
+              <Stat
+                label="Estimated Walking Time"
+                value={tour.time_estimate || '[not set]'}
+                annotations={{ value: fieldPath('time_estimate') }}
+              />
+            )
+          }
         </div>
       </div>
 

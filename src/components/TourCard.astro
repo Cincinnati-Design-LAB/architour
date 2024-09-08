@@ -39,11 +39,15 @@ const props = Astro.props as Props;
         icon="building"
         label={`${(props.buildings || []).length || props.building_ids.length} buildings`}
       />
-      <CardMetaAttribute
-        icon="clock"
-        label={props.time_estimate || '[not set]'}
-        annotations={{ label: fieldPath('time_estimate') }}
-      />
+      {
+        props.time_estimate && (
+          <CardMetaAttribute
+            icon="clock"
+            label={props.time_estimate || '[not set]'}
+            annotations={{ label: fieldPath('time_estimate') }}
+          />
+        )
+      }
     </div>
   </div>
 </a>
