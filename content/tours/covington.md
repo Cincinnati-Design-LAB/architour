@@ -5,7 +5,7 @@ draft: false
 description: ''
 icon: ''
 image: tours/covington/hotel-covington-coppins-department-store-0_duba5l_eegxci
-time_estimate: 2 Hours
+time_estimate: ''
 building_ids:
   - content/buildings/cathedral-basilica-of-the-assumption.md
   - content/buildings/carnegie-arts-center.md

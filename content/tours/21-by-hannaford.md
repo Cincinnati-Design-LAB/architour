@@ -6,7 +6,7 @@ description: ''
 icon: ''
 image: >-
   tours/21-by-hannaford/hamilton-county-memorial-hall-the-soldiers-and-sailors-memorial-building-0_enuy6i_zy8tcx
-time_estimate: 2 Hours
+time_estimate: ''
 building_ids:
   - content/buildings/cincinnati-music-hall.md
   - >-

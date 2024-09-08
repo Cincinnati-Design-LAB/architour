@@ -5,7 +5,7 @@ draft: false
 description: ''
 icon: ''
 image: tours/northern-downtown/cincinnati-city-hall-0_l49jn6_f477cp
-time_estimate: 2 Hours
+time_estimate: ''
 building_ids:
   - content/buildings/center-at-600-vine.md
   - content/buildings/cincinnatian-hotel-palace-hotel.md

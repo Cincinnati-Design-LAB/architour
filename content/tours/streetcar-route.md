@@ -5,7 +5,7 @@ draft: false
 description: ''
 icon: ''
 image: tours/streetcar-route/great-american-ball-park-2_xvjriz_xgbjha
-time_estimate: 2 Hours
+time_estimate: ''
 building_ids:
   - content/buildings/fifth-third-center.md
   - content/buildings/potter-stewart-us-courthouse.md

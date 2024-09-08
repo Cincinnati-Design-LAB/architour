@@ -2,11 +2,10 @@
 type: Tour
 title: Fourth & Fifth Streets
 draft: false
-description: |
-  Laboris aute Lorem Lorem consectetur ullamco esse velit elit.
+description: ''
 icon: ''
 image: tours/fourth-and-fifth-streets/p-and-g-tower-bldg-1_oifrwk_hxcwin
-time_estimate: 2 Hours
+time_estimate: ''
 building_ids:
   - content/buildings/fifth-third-center.md
   - content/buildings/westin-hotel.md

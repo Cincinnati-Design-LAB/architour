@@ -6,7 +6,7 @@ description: ''
 icon: ''
 image: >-
   tours/cincinnati-riverfront/covington-and-cincinnati-suspension-bridge-0_y929xi_n5gf3w
-time_estimate: 2 Hours
+time_estimate: ''
 building_ids:
   - content/buildings/adams-place-at-adams-crossing.md
   - content/buildings/montgomery-inn-boathouse.md

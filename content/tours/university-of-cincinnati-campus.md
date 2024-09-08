@@ -6,7 +6,7 @@ description: ''
 icon: ''
 image: >-
   tours/university-of-cincinnati-campus/aronoff-center-for-design-college-of-design-architecture-art-and-planning-daap-2_r1kvps_o5zw5r
-time_estimate: 2 Hours
+time_estimate: ''
 building_ids:
   - content/buildings/uc-campus-recreation-center.md
   - content/buildings/uc-steger-student-life-center.md
