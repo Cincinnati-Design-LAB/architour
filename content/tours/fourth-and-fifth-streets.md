@@ -2,9 +2,10 @@
 type: Tour
 title: Fourth & Fifth Streets
 draft: false
-description: Laboris aute Lorem Lorem consectetur ullamco esse velit elit.
+description: |
+  Laboris aute Lorem Lorem consectetur ullamco esse velit elit.
 icon: ''
-image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
+image: tours/fourth-and-fifth-streets/p-and-g-tower-bldg-1_oifrwk_hxcwin
 time_estimate: 2 Hours
 building_ids:
   - content/buildings/fifth-third-center.md

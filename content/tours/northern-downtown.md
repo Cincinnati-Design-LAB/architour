@@ -2,11 +2,9 @@
 type: Tour
 title: Northern Downtown
 draft: false
-description: >-
-  Reprehenderit consectetur quis irure laborum eu occaecat amet adipisicing nisi
-  ut incididunt qui tempor.
+description: ''
 icon: ''
-image: buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
+image: tours/northern-downtown/cincinnati-city-hall-0_l49jn6_f477cp
 time_estimate: 2 Hours
 building_ids:
   - content/buildings/center-at-600-vine.md
