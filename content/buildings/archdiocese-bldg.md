@@ -9,7 +9,7 @@ location:
 address: '100 E. Eighth St., Cincinnati, Ohio'
 static_map: buildings/archdiocese-bldg/static-map_ipx6kv
 draft: true
-completion_date: '1910'
+completion_date: '1910 '
 sections:
   - page_location: above_images
     type: BuildingAttributeSection
