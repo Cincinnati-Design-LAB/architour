@@ -9,7 +9,7 @@ location:
 address: '524 Walnut St, Cincinnati, OH  45202'
 static_map: buildings/atlas-bldg/static-map_xedics
 draft: true
-completion_date: '1922'
+completion_date: '1924'
 sections:
   - page_location: above_images
     type: BuildingAttributeSection
