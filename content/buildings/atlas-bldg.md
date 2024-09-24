@@ -22,7 +22,7 @@ sections:
       - label: Original Owner
         value: Atlas National Bank
       - label: Completion Date
-        value: '1922'
+        value: '1924'
       - label: Style
         value: Chicago School
       - label: Architect
