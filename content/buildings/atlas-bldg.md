@@ -32,6 +32,22 @@ sections:
       - title: Renovation
         date: '1966'
         architect: AM Kinney
+  - type: BuildingAttributeSection
+    attributes:
+      - type: BuildingAttribute
+        label: Unique Features
+        value: >-
+          The marble staircase leading to the vault was uncovered and restored,
+          preparing for an upcoming project that will incorporate a speakeasy
+          below. The marble floors were polished and repaired, while the
+          elevator cabs were adorned with bronze wraps. Custom features included
+          gold-leaf accents, an acoustical wood slat wall, and a mirrored band
+          just below the ceiling that visually enhances the space, honoring the
+          original expansive atmosphere of the banking floor. To refresh the
+          exterior, the unremarkable aluminum entrances were replaced with new
+          brass ones, and a blue canopy along with updated building signage were
+          installed.
+    page_location: above_images
 ---
 The Atlas Building, originally known as The National Atlas Bank, was constructed in 1924. However, it underwent renovations in 1980 that further damaged and concealed the building's original beauty and historical significance. In 2021, Urban Sites completed a comprehensive renovation of the Atlas Building, transforming it into an office space designed specifically for creative professionals.
 
