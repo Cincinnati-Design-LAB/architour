@@ -26,6 +26,12 @@ sections:
     renovations:
       - title: Renovated into condominiums
         date: '2004'
+  - type: BuildingAttributeSection
+    attributes:
+      - type: BuildingAttribute
+        label: Unique Features
+        value: Unique Features
+    page_location: above_images
 ---
 This American Building was first built in 1928 by the two architects Joseph Steinkamp and brother Bernard, being one of Cincinnati's first Art Deco buildings. When finished the owner first rented the building out to the legal community being it is in close proximity to the Courthouse. In 2004 the building was renovated and now is used as residential condos and business offices , the building includes views of Over-The-Rhine and Downtown. 
 
