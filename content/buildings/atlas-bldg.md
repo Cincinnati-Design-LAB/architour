@@ -26,7 +26,7 @@ sections:
       - label: Style
         value: Chicago School
       - label: Architect
-        value: Teitig & Lee
+        value: SHP
   - page_location: below_map
     type: BuildingRenovationSection
     title: Renovation History
