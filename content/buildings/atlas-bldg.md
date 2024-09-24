@@ -6,7 +6,7 @@ images:
 location:
   lat: 39.10222
   lng: -84.51135
-address: '524 Walnut St, Cincinnati, OH  45202'
+address: '530 Walnut St, Cincinnati, OH 45202'
 static_map: buildings/atlas-bldg/static-map_xedics
 draft: true
 completion_date: '1924'
