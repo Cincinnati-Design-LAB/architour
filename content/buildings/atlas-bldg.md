@@ -23,8 +23,6 @@ sections:
         value: Atlas National Bank
       - label: Completion Date
         value: '1924'
-      - label: Style
-        value: Chicago School
       - label: Architect
         value: SHP
   - page_location: below_map
