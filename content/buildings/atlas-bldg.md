@@ -13,9 +13,7 @@ completion_date: '1924'
 sections:
   - page_location: above_images
     type: BuildingAttributeSection
-    attributes:
-      - label: Current Owner
-        value: Fifth Third Bank
+    attributes: []
   - page_location: above_map
     type: BuildingAttributeSection
     attributes:
