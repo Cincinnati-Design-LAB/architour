@@ -7,7 +7,7 @@ images:
 location:
   lat: 39.100143
   lng: -84.512876
-address: '2 W. Fourth St., Cincinnati, OH  45202'
+address: '401-411 Vine St,Cincinnati OH 45202'
 static_map: >-
   buildings/ameritrustgerman-national-bank-lincoln-national-bank/static-map_x4ef4z
 draft: true
