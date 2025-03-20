@@ -43,3 +43,11 @@ sections:
           The building is being renovated to serve as the county administration
           building.
 ---
+The Bavarian Brewing Co. initiated an extensive construction effort from 1902 to 1913, resulting in nearly twelve new buildings. This development involved the demolition of several existing structures, including the original Bottling Department and brewery building. The newly constructed facilities were designed for better functionality, enabling an increase in the brewery's capacity.
+
+It was sold in 1967. To take advantage of this visibility, the 153-foot stack built in 1906, previously bearing Bavarian's name, was repainted to advertise the Central Sales brand shortly after the 1967 transaction.
+
+Citations : Bavarian Brewery. (n.d.). *Covington, KY brewery closed and sold*. Retrieved March 20, 2025, from <https://www.bavarianbrewery.org/covington-ky-brewery-closed-sold>
+
+
+
