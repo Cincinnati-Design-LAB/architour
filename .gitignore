@@ -26,6 +26,7 @@ tmp/
 
 # content cache
 content/generated/
+!content/generated/data/site.json
 
 # stackbit
 .stackbit/cache
