@@ -1,6 +1,6 @@
 ---
 type: Building
-title: 21C Museum Hotel - 123
+title: 21C Museum Hotel
 images:
   - buildings/21c-museum-hotel/21c-museum-hotel-0_zpjjdb
   - buildings/21c-museum-hotel/21c-museum-hotel-1_g0r0go
