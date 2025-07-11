@@ -10,7 +10,7 @@ location:
 address: '609 Walnut St., Cincinnati, Ohio'
 static_map: buildings/21c-museum-hotel/static-map_ymvf5k
 draft: false
-completion_date: '1912'
+completion_date: '1913'
 sections:
   - page_location: above_images
     type: BuildingAttributeSection
